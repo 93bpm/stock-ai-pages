@@ -104,7 +104,7 @@
       "properties": {
         "theme": { "type": "string", "description": "테마/섹터 라벨 (예: 반도체, 2차전지, 바이오, 자동차, 조선·방산)" },
         "stockName": { "type": "string", "description": "테마의 대표 종목명 (예: 삼성전자, 에코프로, HD현대중공업)" },
-        "stockChange": { "type": "string", "description": "대표 종목 일간 등락률 (예: +2.1%, −0.8%, +X.x%)" }
+        "stockChange": { "type": "string", "description": "대표 종목 일간 등락률 (예: +2.1%, −0.8%, +5.3%)" }
       }
     },
 

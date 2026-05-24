@@ -10,7 +10,7 @@
 
 매일 KST 08:00, Claude routine이 클라우드에서 자동 실행되어:
 
-1. **데이터 수집** — Stooq · finviz · Trading Economics · Investing.com · Alphasquare · WebSearch
+1. **데이터 수집** — Stooq · finviz · Trading Economics · Investing.com · Yahoo Finance · Google Finance · WebSearch
 2. **JSON 생성** — 4개 섹션(美 증시 / 세계 뉴스 / 韓 증시 예상 / 오늘 일정)
 3. **자동 푸시** — GitHub Pages에 즉시 반영
 
@@ -24,6 +24,8 @@
 stock-ai-pages/
 ├── index.html              # 정적 페이지 (껍데기 + 렌더링 JS)
 ├── usage.html              # 사용량 history 페이지
+├── README.md               # 프로젝트 개요
+├── VERSION.md              # 버전 이력 + 향후 계획
 ├── meta/                   # 메타 (스키마·가이드·인덱스)
 │   ├── schema.json         # 데이터 형식 규약 (JSON Schema)
 │   ├── context.md          # 매일 routine이 따르는 운영 가이드
@@ -43,7 +45,7 @@ stock-ai-pages/
 |---|---|
 | 美 지수·지표·섹터 ETF | [Stooq](https://stooq.com), [finviz](https://finviz.com) |
 | 韓 지수·환율 | Stooq, [Investing.com](https://kr.investing.com) |
-| 韓 개별 종목 | [Alphasquare](https://alphasquare.co.kr) |
+| 韓 개별 종목 | [Yahoo Finance](https://finance.yahoo.com) → [Google Finance](https://www.google.com/finance) → [Investing.com](https://www.investing.com) |
 | 야간선물 (코스피200) | Investing.com 코스피200 선물 |
 | 경제 캘린더 | [Trading Economics](https://tradingeconomics.com) |
 | 기업 실적 일정 | Investing.com 실적 캘린더 |
@@ -56,7 +58,7 @@ stock-ai-pages/
 ## 면책 (Disclaimer)
 
 - 美 지수·환율·VIX/금리/유가/금/BTC·경제일정·기업 실적 일정은 **실값** (위 출처 기준)
-- 韓 업종 일부 항목·공매도 잔고 종목명 등은 출처 한계로 **마스킹**될 수 있음 (`+3,2xx`, `5x.x조`, `○○○`)
+- 모든 수치는 실값을 사용하며, 출처 한계로 값을 못 찾으면 해당 항목을 데이터에서 **제거**합니다 (v1.2.0부터 마스킹 금지 정책)
 - 한줄평·테마·예상 범위는 **LLM 종합 의견** — 참고용이며 **투자 조언 아닙니다**
 - 모든 데이터는 발행 시점 기준이며 정확성·완전성을 보장하지 않습니다
 - 투자 판단과 책임은 본인에게 있습니다
@@ -87,9 +89,9 @@ npx --yes --package=ajv-cli@5 --package=ajv-formats@3 \
 
 ## 버전
 
-- **v1.0.0** (2026-05) — 첫 출시. 시나리오 B (claude.ai 클라우드 routine, 키 없음, 마스킹 fallback)
+현재 **v1.3.0** (2026-05-25) — 韓 개별 종목 출처 마이그레이션 (Yahoo/Google/Investing 3단 체인) + slug 매핑 표 14종 신설.
 
-향후 v2 계획: 한국투자증권 OpenAPI(키 사용) + GitHub Actions 부분 도입으로 마스킹 0건 달성
+전체 변경 이력은 [`VERSION.md`](./VERSION.md) 참고.
 
 ---
 

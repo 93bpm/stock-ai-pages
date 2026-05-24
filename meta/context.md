@@ -27,10 +27,9 @@
 |---|---|---|---|
 | Stooq | ✅ 동작 | ❌ **403 차단** | 핵심 출처지만 routine 환경 차단 |
 | finviz | ✅ 동작 | ❌ **403 차단** | 동일 |
-| Yahoo Finance | ✅ 동작 | 🟡 routine 첫 발화에서 미시도 | **fallback 1순위 권장** |
-| Google Finance | ✅ 동작 | 🟡 미검증 | fallback 2순위 |
-| Investing.com (kr/영문) | ✅ 동작 | ✅ 동작 (실적 캘린더) | |
-| Alphasquare | ✅ 동작 | 🟡 미검증 | 韓 종목 시세 |
+| Yahoo Finance | ✅ 동작 | 🟡 routine 첫 발화에서 미시도 | **韓 개별 종목 1순위 + 美 지수 fallback 1순위** |
+| Google Finance | ✅ 동작 | 🟡 미검증 | 韓 개별 종목 2순위 + 美 fallback 2순위 |
+| Investing.com (kr/영문) | ✅ 동작 | ✅ 동작 (실적 캘린더) | 실적 캘린더 + 韓 개별 종목 3순위 |
 | Trading Economics | ✅ 동작 | 🟡 미검증 | 경제 캘린더 |
 | WebSearch (도구) | ✅ 동작 | ✅ 동작 | 최후 fallback, 항상 가능 |
 | MarketWatch | ❌ 차단 | ❌ 추정 차단 | 사용 금지 |
@@ -104,9 +103,8 @@
 | 1 | Stooq (`^kospi`) |
 | **2** | **Yahoo Finance** (`^KS11` 코스피, `^KQ11` 코스닥) ✅ |
 | 3 | Investing.com 한국 (`kr.investing.com/indices/kospi`) ✅ |
-| 4 | Alphasquare (`alphasquare.co.kr/home/stock-summary?code=...`) — 종목 위주지만 지수도 |
-| 5 | WebSearch (한경/이데일리 마감 기사) |
-| 6 | 그래도 실패 시 그날 skip (§6) |
+| 4 | WebSearch (한경/이데일리 마감 기사) |
+| 5 | 그래도 실패 시 그날 skip (§6) |
 
 ### 美 섹터 ETF 11종 fallback 체인
 
@@ -158,17 +156,45 @@
 - **활용 룰**: 한국 시각 새벽 (野間 마감 직후) 시점에서 표시되는 시세가 사실상 야간선물 마감값에 가까움. `kr.flow[1]` (야간 선물)에 사용
 - **한계**: 명시적 "야간선물" 라벨은 없음 — 시점 해석 필요
 
-### 🟢 Alphasquare (韓 개별 종목 시세 — `kr.sectorsUp/Down`의 stockChange 핵심 출처)
+### 🟢 韓 개별 종목 시세 fallback 체인 (`kr.sectorsUp/Down`의 stockChange 핵심 출처)
 
-- **URL 패턴**: `https://alphasquare.co.kr/home/stock-summary?code={6자리 종목코드}`
-- **추출 가능**: 종가, **일간 변동률**, 일별 주가 테이블, 거래량
 - **활용 룰** (테마+종목 형식에서 stockChange 채울 때):
   1. 마감 시황 기사에서 강세/약세 테마와 대표 종목명 추출 (예: "반도체 강세에 SK하이닉스 부각")
   2. 종목명 → 6자리 종목코드 매핑 (모르면 WebSearch로 `"{종목명} 종목코드"` 1회 조회)
-  3. Alphasquare fetch → `stockChange` 필드에 정확한 % 입력
-- **주요 종목 코드 예시**: 삼성전자 005930, SK하이닉스 000660, 에코프로 086520, LG에너지솔루션 373220, 삼성바이오로직스 207940, HD현대중공업 329180, 한화오션 042660, 두산로보틱스 454910, 현대차 005380, 기아 000270, POSCO홀딩스 005490, KT 030200, 이마트 139480, 삼성생명 032830
-- **보조 출처**: `https://www.investing.com/equities/{영문-slug}` — 영문 slug 알면 동일 데이터 추출 가능 (예: `sk-hynix-inc`)
-- **fallback**: Alphasquare 실패 시 WebSearch로 `"{종목명} 종가 YYYY-MM-DD"` → 그래도 안 되면 **해당 sectorsUp/Down 항목 자체를 배열에서 제거** (마스킹 금지)
+  3. 아래 fallback 체인 순서로 fetch → `stockChange` 필드에 정확한 % 입력
+  4. 1·2순위 결과가 0.5%p 이상 어긋나면 3순위로 cross-check (정확도 안전망)
+
+- **fallback 체인**:
+
+| 우선순위 | 출처 | URL 패턴 (삼성전자 예시) | 비고 |
+|---|---|---|---|
+| **1** | **Yahoo Finance** | `https://finance.yahoo.com/quote/005930.KS` | 코스피 `.KS`, 코스닥 `.KQ`. 종가·등락률·거래량 모두 추출. 약관·robots 모두 안전 |
+| 2 | Google Finance | `https://www.google.com/finance/quote/005930:KRX` | 동일 데이터, 티커 규칙 단순 |
+| 3 | Investing.com (영문) | `https://www.investing.com/equities/{영문-slug}` | 아래 slug 매핑 표 참조 |
+| (안전망) | WebSearch | `"{종목명} 종가 YYYY-MM-DD"` | 위 3개 모두 실패 시 |
+
+- **주요 종목 코드 + Investing.com slug 매핑**:
+
+| 종목명 | 6자리 코드 | Yahoo 티커 | Investing.com slug |
+|---|---|---|---|
+| 삼성전자 | 005930 | `005930.KS` | `samsung-electronics-co-ltd` |
+| SK하이닉스 | 000660 | `000660.KS` | `sk-hynix-inc` |
+| 에코프로 | 086520 | `086520.KQ` | `ecopro-co-ltd` |
+| LG에너지솔루션 | 373220 | `373220.KS` | `lg-energy-solution-ltd` |
+| 삼성바이오로직스 | 207940 | `207940.KS` | `samsung-biologics` |
+| HD현대중공업 | 329180 | `329180.KS` | `hd-hyundai-heavy-industries-co-ltd` |
+| 한화오션 | 042660 | `042660.KS` | `hanwha-ocean` |
+| 두산로보틱스 | 454910 | `454910.KS` | `doosan-robotics` |
+| 현대차 | 005380 | `005380.KS` | `hyundai-motor-co` |
+| 기아 | 000270 | `000270.KS` | `kia-corp` |
+| POSCO홀딩스 | 005490 | `005490.KS` | `posco-holdings` |
+| KT | 030200 | `030200.KS` | `kt-corp` |
+| 이마트 | 139480 | `139480.KS` | `e-mart-inc` |
+| 삼성생명 | 032830 | `032830.KS` | `samsung-life-insurance` |
+
+> **slug 검증 룰**: 매핑 표에 없는 종목은 WebSearch로 `"{종목명} investing.com"` 1회 조회해서 slug 확인 후 사용. 자신 없는 slug로 fetch했다가 동음이의·다른 종목이 잡히는 사고 방지. Yahoo·Google은 6자리 코드 + 접미사라 검증 불필요.
+
+- **fallback 룰**: 1순위 실패 → 2순위 → 3순위 → WebSearch → 그래도 안 되면 **해당 sectorsUp/Down 항목 자체를 배열에서 제거** (마스킹 금지)
 
 ### 🟢 야간선물·ADR (`kr.flow`)
 
@@ -330,7 +356,7 @@
 | 美 섹터 ETF 일부 (11개 중 일부) | 가져온 ETF만으로 정렬해 TOP 5 산출 (집합이 작아져도 5개 유지). 5개 미만이면 가져온 만큼만 (배열 길이 줄임) |
 | 뉴스 12건 미만 | **반드시 12건 채움**. 검색 키워드 확대 (가이드 §2 쿼리 예시 적극 활용). 정 안 되면 가능한 만큼만 (배열 길이 줄임) |
 | 수급 추출 실패 (외인/기관/개인 중 하나라도) | 한경/이데일리/MT/파이낸셜뉴스 1차 시도. 그래도 못 찾으면 **해당 주체 항목을 supply 배열에서 제거** (스키마 minItems 일시적 위반 가능 — 그건 sanity check 실패로 처리). 프로그램 매매는 v1에서 제외 (3주체만) |
-| 업종 등락 (`kr.sectorsUp/Down`) | 테마 + 대표 종목 형식. Alphasquare로 stockChange 정확값 확보 우선. 못 찾으면 **해당 항목을 sectorsUp/Down 배열에서 제거** (배열 길이 줄임) |
+| 업종 등락 (`kr.sectorsUp/Down`) | 테마 + 대표 종목 형식. Yahoo Finance → Google Finance → Investing.com 순서로 stockChange 정확값 확보 우선 (§2 韓 개별 종목 fallback 체인 참조). 못 찾으면 **해당 항목을 sectorsUp/Down 배열에서 제거** (배열 길이 줄임) |
 | 시장체력 — 예탁금/신용잔고 (필수) | 실값 우선 (한경/이데일리/MT 기사). 못 찾으면 health 배열에서 제거 |
 | 시장체력 — 공매도 잔고 상위 (선택) | 종목명 못 찾으면 health 배열에서 제거 (배열 2개로 줄어듦) |
 | 경제일정 없음 (주말 등) | `timed: []`, `untimed: []` 빈 배열 + `subNote`에 "주말·공휴일로 주요 일정 없음" |
@@ -416,7 +442,7 @@
 ### 운영 노트
 
 - `masking_used` 배열에 무언가 채워졌다는 건 §6 룰을 어겼다는 뜻 → 다음 발화 시 가이드 점검 필요
-- `sources_attempted`는 fallback 체인 추적용. Stooq 403 / Yahoo 성공률 / Alphasquare 0/0 같은 패턴이 누적되면 환경 변화 신호
+- `sources_attempted`는 fallback 체인 추적용. Stooq 403 / Yahoo 성공률 / Google Finance 0/0 같은 패턴이 누적되면 환경 변화 신호
 - `tokens_estimated`가 1M 토큰(Max 20x 5시간 한도)에 근접하면 발화 빈도·범위 재검토
 
 ---
