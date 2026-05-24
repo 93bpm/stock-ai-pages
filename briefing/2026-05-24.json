@@ -1,7 +1,7 @@
 {
   "date": "2026-05-24",
   "weekday": "일",
-  "generatedAt": "2026-05-24T07:30:00+09:00",
+  "generatedAt": "2026-05-24T08:00:00+09:00",
   "us": {
     "subNote": "美 증시 주말 휴장, 5월 22일(금) 마감값 기준 다우 사상최고 유지",
     "subNoteEm": "다우 사상최고 유지",
@@ -57,7 +57,7 @@
       { "rank": "02", "category": "정책", "categoryStyle": "default", "sentiment": "pos", "title": "국민성장펀드 2주차 5/26 매집 본격화", "summary": "첫날 완판 후 다음 주부터 자펀드 자금이 첨단산업 60% 의무로 코스닥에 풀려요.", "source": "한국경제", "sourceUrl": "https://www.hankyung.com/article/2026050696201", "note": "코스닥 자금 모멘텀 지속" },
       { "rank": "03", "category": "증시제도", "categoryStyle": "default", "sentiment": "neu", "title": "MSCI 한국지수, 5/29 한진칼·HD현대마린·SK바이오팜 편출", "summary": "신규 편입은 없고 리밸런싱은 장 마감 후 진행돼 편출 종목 공매도 주의가 필요해요.", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202605130804362882", "note": "주 후반 패시브 매물 출회" },
       { "rank": "04", "category": "수급", "categoryStyle": "default", "sentiment": "neg", "title": "코스피 외국인 12거래일 연속 순매도", "summary": "1.9조원 매도에도 개인 1.06조·기관 0.76조 순매수로 방어했어요.", "source": "머니투데이", "note": "외인 차익실현 압력 지속" },
-      { "rank": "05", "category": "환율", "categoryStyle": "default", "sentiment": "neg", "title": "원/달러 1,520원 돌파 후 1,530원 저항선 시험", "summary": "달러 강세와 외국인 매도가 겹쳐 환율이 50일 만의 최고치예요.", "source": "이데일리", "sourceUrl": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04805206645451544", "note": "원화 약세 압력 재점화" },
+      { "rank": "05", "category": "환율", "categoryStyle": "default", "sentiment": "neg", "title": "원/달러 장중 1,519원대 당국 구두개입, 종가 1,517", "summary": "달러 강세·외국인 매도로 장중 1,519원까지 치솟아 외환당국이 구두개입에 나섰어요.", "source": "이데일리", "sourceUrl": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04805206645451544", "note": "원화 약세 압력 재점화" },
       { "rank": "06", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "엔비디아 어닝 서프라이즈에 한국 반도체 동조", "summary": "AI 메모리 수요 확인으로 SK하이닉스·삼성전기 등이 다음 주에도 강세 예상돼요.", "source": "이데일리", "sourceUrl": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02482966642328656", "note": "HBM 모멘텀 재확인" },
       { "rank": "07", "category": "2차전지", "categoryStyle": "tech", "sentiment": "pos", "title": "국민성장펀드 첨단산업 60% 의무, 2차전지 직접 수혜", "summary": "에코프로·LG에너지솔루션 등이 정책 자금의 1차 수혜군으로 거론되고 있어요.", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202604141500532795", "note": "정책펀드 수혜 직접 후보" },
       { "rank": "08", "category": "수급", "categoryStyle": "default", "sentiment": "pos", "title": "코스닥 외인·기관 동시 순매수 8,800억", "summary": "외국인 5,974억·기관 2,880억으로 5/22 펀드 출시 효과가 컸어요.", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202605221553008790", "note": "중소형 순환매 본격화" },
@@ -77,7 +77,7 @@
       { "name": "코스닥", "tip": "5/22(금) 종가", "value": "1,161.13", "change": "▲ 4.99%", "dir": "up" }
     ],
     "flow": [
-      { "key": "원/달러 환율", "value": "1,520.35원 ▲", "dir": "up" },
+      { "key": "원/달러 환율", "value": "1,517.20원 ▲", "dir": "up" },
       { "key": "야간 선물", "value": "휴장", "dir": "neutral" },
       { "key": "미국 상장 한국물(ADR)", "value": "EWY 182.03달러 ▼", "dir": "down" }
     ],
@@ -138,7 +138,7 @@
       "트럼프의 이란 종전 합의가 일요일 안에 실제 발표되는지",
       "다음 주 한은 금통위에서 금리 인상 소수의견이 등장할지",
       "美 4월 PCE 헤드라인·근원이 워시 신임 의장 첫 메시지에 어떤 신호 줄지",
-      "원/달러 1,520원 돌파 후 1,530원 저항선 시험 여부",
+      "원/달러 1,520원선 공방 지속, 1,530원 저항선 도달 여부",
       "MSCI 편출 3종목(한진칼·HD현대마린·SK바이오팜) 5/29 패시브 매물"
     ]
   }
