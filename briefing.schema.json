@@ -1,0 +1,336 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://93bpm.github.io/stock-ai-pages/briefing.schema.json",
+  "title": "Daily Market Briefing",
+  "description": "stock-ai-pages 일일 브리핑 데이터 (news/YYYY-MM-DD.json)",
+  "type": "object",
+  "required": ["date", "weekday", "us", "world", "kr", "calendar"],
+  "additionalProperties": false,
+  "properties": {
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "KST 기준 ISO 날짜 (YYYY-MM-DD)"
+    },
+    "weekday": {
+      "type": "string",
+      "enum": ["일", "월", "화", "수", "목", "금", "토"]
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "생성 시각 (ISO 8601 + KST offset)"
+    },
+    "us": { "$ref": "#/$defs/UsBlock" },
+    "world": { "$ref": "#/$defs/WorldBlock" },
+    "kr": { "$ref": "#/$defs/KrBlock" },
+    "calendar": { "$ref": "#/$defs/CalendarBlock" }
+  },
+
+  "$defs": {
+
+    "Direction": {
+      "type": "string",
+      "enum": ["up", "down", "neutral"],
+      "description": "색상/화살표 결정용. up=빨강(상승), down=파랑(하락), neutral=무채색"
+    },
+
+    "NewsItem": {
+      "type": "object",
+      "required": ["rank", "category", "categoryStyle", "sentiment", "title", "summary", "source", "note"],
+      "additionalProperties": false,
+      "properties": {
+        "rank": { "type": "string", "pattern": "^\\d{2}$", "description": "01~12" },
+        "category": {
+          "type": "string",
+          "description": "자유 텍스트. Claude가 뉴스 내용 보고 정함. 예: 통화정책, 지정학, 반도체, 2차전지, 바이오, 조선·방산, 엔터·콘텐츠, 거시, 정책, 환율, 수급, 기업, 원자재, 코스닥, 증시제도 등"
+        },
+        "categoryStyle": {
+          "type": "string",
+          "enum": ["default", "geo", "tech"],
+          "description": "category 라벨의 색상 분류. default=파랑(통화정책/거시/정책/환율/수급/기업 등 일반), geo=빨강(지정학/원자재/갈등/관세 등 리스크), tech=초록(반도체/2차전지/바이오/엔터·콘텐츠/조선·방산/AI/기술 등 산업·테마)"
+        },
+        "sentiment": {
+          "type": "string",
+          "enum": ["pos", "neg", "neu"],
+          "description": "호악재 판단. pos=호재(빨강), neg=악재(파랑), neu=중립(회색). 한국 증시 관행에 따라 상승=빨강, 하락=파랑"
+        },
+        "title": { "type": "string", "description": "헤드라인" },
+        "summary": { "type": "string", "description": "1-2문장 요약 (~돼요/~예요 어미)" },
+        "source": { "type": "string", "description": "출처명 (예: Reuters, 연합뉴스)" },
+        "note": { "type": "string", "description": "왜 중요한지 한 줄 (📖 정리 옆 텍스트)" }
+      }
+    },
+
+    "Index": {
+      "type": "object",
+      "required": ["name", "value", "change", "dir"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string", "description": "지수명 (예: S&P 500, 코스피)" },
+        "tip": { "type": "string", "description": "보조 설명 (예: 정규장 종가 · KRX)" },
+        "value": { "type": "string", "description": "포맷된 값 (예: 5,842.31 / 2,7xx.x)" },
+        "change": { "type": "string", "description": "포맷된 변화율 (예: ▲ 0.61%)" },
+        "dir": { "$ref": "#/$defs/Direction" }
+      }
+    },
+
+    "Indicator": {
+      "type": "object",
+      "required": ["key", "value"],
+      "additionalProperties": false,
+      "properties": {
+        "key": { "type": "string", "description": "지표명 (예: VIX, 美 10년물)" },
+        "value": { "type": "string", "description": "포맷된 값 (예: 13.4 ▼, 4.18%)" },
+        "dir": { "$ref": "#/$defs/Direction" }
+      }
+    },
+
+    "SectorMove": {
+      "type": "object",
+      "required": ["name", "change"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "change": { "type": "string", "description": "예: +1.8% / −0.6%" }
+      }
+    },
+
+    "KrSectorTheme": {
+      "type": "object",
+      "required": ["theme", "stockName", "stockChange"],
+      "additionalProperties": false,
+      "properties": {
+        "theme": { "type": "string", "description": "테마/섹터 라벨 (예: 반도체, 2차전지, 바이오, 자동차, 조선·방산)" },
+        "stockName": { "type": "string", "description": "테마의 대표 종목명 (예: 삼성전자, 에코프로, HD현대중공업)" },
+        "stockChange": { "type": "string", "description": "대표 종목 일간 등락률 (예: +2.1%, −0.8%, +X.x%)" }
+      }
+    },
+
+    "UsBlock": {
+      "type": "object",
+      "required": ["subNote", "comment", "indices", "indicators", "sectorsUp", "sectorsDown"],
+      "additionalProperties": false,
+      "properties": {
+        "subNote": { "type": "string", "description": "섹션 노트 한 줄" },
+        "subNoteEm": { "type": "string", "description": "그중 강조할 부분 (subNote의 부분 문자열)" },
+        "comment": { "type": "string", "description": "💬 한줄평" },
+        "indices": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Index" },
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "S&P 500, 나스닥, 다우, 필라델피아 반도체 순"
+        },
+        "indicators": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Indicator" },
+          "minItems": 6,
+          "maxItems": 6,
+          "description": "VIX, 美 10년물, 달러인덱스, WTI 유가, 금, 비트코인 순"
+        },
+        "sectorsUp": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/SectorMove" },
+          "minItems": 5,
+          "maxItems": 5
+        },
+        "sectorsDown": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/SectorMove" },
+          "minItems": 5,
+          "maxItems": 5
+        }
+      }
+    },
+
+    "WorldBlock": {
+      "type": "object",
+      "required": ["subNote", "global", "domestic"],
+      "additionalProperties": false,
+      "properties": {
+        "subNote": { "type": "string" },
+        "subNoteEm": { "type": "string" },
+        "global": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/NewsItem" },
+          "minItems": 12,
+          "maxItems": 12
+        },
+        "domestic": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/NewsItem" },
+          "minItems": 12,
+          "maxItems": 12
+        }
+      }
+    },
+
+    "FlowItem": {
+      "type": "object",
+      "required": ["key", "value", "dir"],
+      "additionalProperties": false,
+      "properties": {
+        "key": { "type": "string", "description": "예: 원/달러 환율, 야간 선물, 미국 상장 한국물(ADR)" },
+        "value": { "type": "string" },
+        "dir": { "$ref": "#/$defs/Direction" }
+      }
+    },
+
+    "SupplyItem": {
+      "type": "object",
+      "required": ["who", "amount", "dir"],
+      "additionalProperties": false,
+      "properties": {
+        "who": { "type": "string", "description": "외국인, 기관, 개인, 프로그램 (차익+비차익)" },
+        "amount": { "type": "string", "description": "마스킹 형식 권장 (예: +3,2xx)" },
+        "dir": {
+          "type": "string",
+          "enum": ["buy", "sell"],
+          "description": "buy=빨강(순매수), sell=파랑(순매도)"
+        }
+      }
+    },
+
+    "WatchItem": {
+      "type": "object",
+      "required": ["name", "badge", "desc"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string", "description": "종목/섹터명" },
+        "badge": { "type": "string", "description": "예: 관심 / 주의" },
+        "badgeType": {
+          "type": "string",
+          "enum": ["up", "default"],
+          "description": "up=빨강(관심), default=파랑(주의)"
+        },
+        "desc": { "type": "string" }
+      }
+    },
+
+    "HealthItem": {
+      "type": "object",
+      "required": ["key", "value"],
+      "additionalProperties": false,
+      "properties": {
+        "key": { "type": "string", "description": "예: 투자자 예탁금" },
+        "tip": { "type": "string", "description": "보조 설명 (예: 대기 자금)" },
+        "value": { "type": "string", "description": "마스킹 권장 (예: 5x.x조)" },
+        "subIcon": { "type": "string", "description": "값 옆 작은 표시 (예: ▲ / ± / ▼)" },
+        "subDir": { "$ref": "#/$defs/Direction" }
+      }
+    },
+
+    "KrBlock": {
+      "type": "object",
+      "required": ["subNote", "comment", "expectedRange", "indices", "flow", "supply", "sectorsUp", "sectorsDown", "watchlist", "health"],
+      "additionalProperties": false,
+      "properties": {
+        "subNote": { "type": "string" },
+        "subNoteEm": { "type": "string" },
+        "comment": { "type": "string", "description": "💬 한줄평 (HTML 강조 가능)" },
+        "expectedRange": { "type": "string", "description": "예: 코스피 +0.2% ~ +0.8% 부근" },
+        "indices": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Index" },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "코스피, 코스닥 순"
+        },
+        "flow": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/FlowItem" },
+          "minItems": 3,
+          "maxItems": 3,
+          "description": "원/달러 환율, 야간 선물, 미국 상장 한국물(ADR) 순"
+        },
+        "supply": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/SupplyItem" },
+          "minItems": 3,
+          "maxItems": 3,
+          "description": "외국인, 기관, 개인 순 (3주체). 프로그램 매매는 출처 한계로 v1에서 제외"
+        },
+        "sectorsUp": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/KrSectorTheme" },
+          "minItems": 5,
+          "maxItems": 5,
+          "description": "테마/섹터 강세 TOP 5 (대표 종목 + 등락률 형식)"
+        },
+        "sectorsDown": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/KrSectorTheme" },
+          "minItems": 5,
+          "maxItems": 5,
+          "description": "테마/섹터 약세 TOP 5 (대표 종목 + 등락률 형식)"
+        },
+        "watchlist": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/WatchItem" },
+          "minItems": 2,
+          "maxItems": 5
+        },
+        "health": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/HealthItem" },
+          "minItems": 2,
+          "maxItems": 3,
+          "description": "투자자 예탁금, 신용융자 잔고 (필수 2개) + 공매도 잔고 상위 (선택 — 값 못 찾으면 제거)"
+        }
+      }
+    },
+
+    "TimedEvent": {
+      "type": "object",
+      "required": ["time", "event"],
+      "additionalProperties": false,
+      "properties": {
+        "time": { "type": "string", "pattern": "^\\d{2}:\\d{2}$", "description": "KST 24h 형식" },
+        "event": { "type": "string" },
+        "important": { "type": "boolean", "default": false, "description": "true면 '중요' 배지 표시" }
+      }
+    },
+
+    "UntimedEvent": {
+      "type": "object",
+      "required": ["event", "when"],
+      "additionalProperties": false,
+      "properties": {
+        "event": { "type": "string" },
+        "when": { "type": "string", "description": "예: 장 마감 후 / 미정 / 새벽 ~05시 전후" }
+      }
+    },
+
+    "ScheduleSide": {
+      "type": "object",
+      "required": ["timed", "untimed"],
+      "additionalProperties": false,
+      "properties": {
+        "timed": { "type": "array", "items": { "$ref": "#/$defs/TimedEvent" } },
+        "untimed": { "type": "array", "items": { "$ref": "#/$defs/UntimedEvent" } }
+      }
+    },
+
+    "CalendarBlock": {
+      "type": "object",
+      "required": ["subNote", "riskSentiment", "domestic", "global", "theme", "checks"],
+      "additionalProperties": false,
+      "properties": {
+        "subNote": { "type": "string" },
+        "subNoteEm": { "type": "string" },
+        "riskSentiment": { "type": "string", "description": "예: 위험선호 우위 / 위험회피 / 혼조" },
+        "domestic": { "$ref": "#/$defs/ScheduleSide" },
+        "global": { "$ref": "#/$defs/ScheduleSide" },
+        "theme": { "type": "string", "description": "오늘의 테마 (1-2문장)" },
+        "checks": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 3,
+          "maxItems": 5,
+          "description": "체크리스트 항목"
+        }
+      }
+    }
+  }
+}

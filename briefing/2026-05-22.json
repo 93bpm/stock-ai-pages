@@ -1,0 +1,147 @@
+{
+  "date": "2026-05-22",
+  "weekday": "금",
+  "generatedAt": "2026-05-24T07:30:00+09:00",
+  "us": {
+    "subNote": "다우 사상최고 경신·3대 지수 동반 상승, 헬스케어·반도체가 주도했어요",
+    "subNoteEm": "다우 사상최고 경신",
+    "comment": "메모리얼데이 연휴를 앞두고도 <b style=\"color:var(--red);\">헬스케어·IT 동반 강세</b>로 3대 지수 모두 상승 마감했어요. 다음 주 PCE 물가가 새 변수예요.",
+    "indices": [
+      { "name": "S&P 500", "tip": "SPY ETF 대용 · 정규장 종가", "value": "745.64", "change": "▲ 0.39%", "dir": "up" },
+      { "name": "나스닥 100", "tip": "QQQ ETF 대용 · 정규장 종가", "value": "717.54", "change": "▲ 0.42%", "dir": "up" },
+      { "name": "다우 산업", "tip": "DIA ETF 대용 · 정규장 종가", "value": "506.12", "change": "▲ 0.60%", "dir": "up" },
+      { "name": "필라델피아 반도체", "tip": "SOXX ETF 대용", "value": "537.33", "change": "▲ 2.41%", "dir": "up" }
+    ],
+    "indicators": [
+      { "key": "VIX", "value": "16.70 ▼", "dir": "down" },
+      { "key": "美 10년물", "value": "4.56%", "dir": "neutral" },
+      { "key": "달러 인덱스", "value": "99.32 ▲", "dir": "up" },
+      { "key": "WTI 유가", "value": "97달러대 ▲", "dir": "up" },
+      { "key": "금", "value": "4,516.75달러 ▼", "dir": "down" },
+      { "key": "비트코인", "value": "77,447달러 ▼", "dir": "down" }
+    ],
+    "sectorsUp": [
+      { "name": "헬스케어 (XLV)", "change": "+1.17%" },
+      { "name": "IT (XLK)", "change": "+1.00%" },
+      { "name": "유틸리티 (XLU)", "change": "+0.78%" },
+      { "name": "산업재 (XLI)", "change": "+0.73%" },
+      { "name": "에너지 (XLE)", "change": "+0.61%" }
+    ],
+    "sectorsDown": [
+      { "name": "커뮤니케이션 (XLC)", "change": "−0.55%" },
+      { "name": "부동산 (XLRE)", "change": "+0.13%" },
+      { "name": "필수소비재 (XLP)", "change": "+0.17%" },
+      { "name": "임의소비재 (XLY)", "change": "+0.40%" },
+      { "name": "금융 (XLF)", "change": "+0.41%" }
+    ]
+  },
+  "world": {
+    "subNote": "美 다우 사상최고 속 글로벌 통화·관세 변수가 동시 가열, 코스닥은 4.99% 급등했어요",
+    "subNoteEm": "글로벌 통화·관세 변수가 동시 가열",
+    "global": [
+      { "rank": "01", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "케빈 워시 연준 의장 취임식·개혁 예고", "summary": "백악관에서 취임식을 가졌고 '개혁적 연준'을 천명하며 다음 FOMC가 시험대에 올라요.", "source": "CNBC", "note": "워시 시대 정책 기조 분기점" },
+      { "rank": "02", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "엔비디아 1Q 매출 816억달러 어닝서프라이즈", "summary": "AI 데이터센터가 752억달러로 92% 급증했고 헤지펀드 보유 비중도 사상 최고예요.", "source": "CNBC", "note": "AI 칩 수요 견고함 재확인" },
+      { "rank": "03", "category": "지정학", "categoryStyle": "geo", "sentiment": "neu", "title": "트럼프 \"이란 휴전 거의 합의\"·테헤란 반박", "summary": "호르무즈 개방 포함 합의가 임박했다는 주장에 이란 측은 '현실과 불일치'라며 일축했어요.", "source": "CNBC", "note": "유가 변동성 재차 확대 여지" },
+      { "rank": "04", "category": "거시", "categoryStyle": "default", "sentiment": "neg", "title": "미시간 5월 소비심리 44.8 사상 최저", "summary": "호르무즈 공급 차질 유가 부담에 1952년 통계 작성 이래 최저치로 떨어졌어요.", "source": "Spectrum", "note": "소비 둔화 신호 본격화" },
+      { "rank": "05", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "5/28 美 4월 PCE 물가 발표 예정", "summary": "연준이 가장 중시하는 물가지표가 메모리얼데이 직후 한 주의 분수령이 될 전망이에요.", "source": "BEA", "note": "금리 경로 재가격 핵심 변수" },
+      { "rank": "06", "category": "증시제도", "categoryStyle": "default", "sentiment": "neu", "title": "메모리얼데이로 5/25 美 증시 휴장", "summary": "NYSE·나스닥·채권시장 모두 휴장하고 5/26 화요일부터 정상 거래해요.", "source": "Yahoo Finance", "note": "단축 거래 주간 마무리" },
+      { "rank": "07", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "TSMC 2026 capex 560억달러 사상 최대", "summary": "AI·HPC 수요로 매출 전망을 30% 이상으로 상향하며 美·대만 첨단공장 확장에 박차예요.", "source": "Nikkei", "note": "AI 메모리·후공정 동반 수혜" },
+      { "rank": "08", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "BOJ 6월 인상 시사·인플레 위험 경고", "summary": "복수 이사가 중동 갈등발 인플레 압력에 \"가능한 빨리 인상\"이 바람직하다고 밝혔어요.", "source": "Bloomberg", "note": "엔 약세 흐름 제동 가능성" },
+      { "rank": "09", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "ECB 6월 25bp 인상 컨센서스 형성", "summary": "유로존 4월 물가 3% 반등에 라가르드가 6월·9월 두 차례 인상 가능성을 시사했어요.", "source": "Bloomberg", "note": "달러 강세 일부 완화 변수" },
+      { "rank": "10", "category": "원자재", "categoryStyle": "geo", "sentiment": "neu", "title": "구리 14,000달러대 등극, 사상 최고 근접", "summary": "광산 차질·중국 수요 회복으로 1월 고점 14,527달러까지 사정권에 들어왔어요.", "source": "Bloomberg", "note": "AI 인프라·전력 수요 압축" },
+      { "rank": "11", "category": "관세", "categoryStyle": "geo", "sentiment": "neg", "title": "트럼프 EU 자동차 관세 25%·7/4 데드라인", "summary": "EU가 무역협정을 비준하지 않으면 '훨씬 더 높은' 관세를 매기겠다고 압박 강도를 높였어요.", "source": "CNBC", "note": "독일·한국 자동차 동시 노출" },
+      { "rank": "12", "category": "IT", "categoryStyle": "tech", "sentiment": "neg", "title": "애플 iOS 26.5 시리 AI 업데이트 지연", "summary": "내부 테스트가 난항을 겪으며 9월 iOS 27까지 핵심 기능이 분산 배포될 전망이에요.", "source": "Bloomberg", "note": "온디바이스 AI 경쟁력 우려" }
+    ],
+    "domestic": [
+      { "rank": "01", "category": "정책", "categoryStyle": "default", "sentiment": "pos", "title": "국민성장펀드 첫날 완판·코스닥 4.99% 급등", "summary": "5개 시중은행에서 6,000억원 모집분이 빠르게 소진되며 매수 사이드카 이틀 연속 발동됐어요.", "source": "한국경제", "note": "코스닥 자금 유입 본격화" },
+      { "rank": "02", "category": "수급", "categoryStyle": "default", "sentiment": "neg", "title": "코스피 외국인 12거래일 연속 순매도", "summary": "외국인 1.92조원 매도에도 개인 1.06조·기관 0.76조 순매수로 7,847선 방어했어요.", "source": "머니투데이", "note": "외인 차익실현 압력 지속" },
+      { "rank": "03", "category": "환율", "categoryStyle": "default", "sentiment": "neg", "title": "원/달러 1,517원·외환당국 구두개입", "summary": "장중 1,520원선이 위협되자 기재부·한은이 \"펀더멘털 대비 과도\"라며 경계감을 표명했어요.", "source": "머니투데이", "note": "원화 약세 압력 재점화" },
+      { "rank": "04", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "엔비디아 어닝에 SK하이닉스 HBM 모멘텀", "summary": "AI 데이터센터 92% 성장에 HBM4 70% 점유 전망이 다시 부각됐어요.", "source": "파이낸셜뉴스", "note": "HBM 모멘텀 재확인" },
+      { "rank": "05", "category": "증시제도", "categoryStyle": "default", "sentiment": "pos", "title": "단일종목 레버리지·인버스 ETF 첫 상장", "summary": "삼성전자·SK하이닉스에 한해 ±2배 ETF가 22일부터 거래 시작되며 신규 수급 통로가 열렸어요.", "source": "한국경제", "note": "변동성 트레이딩 다변화" },
+      { "rank": "06", "category": "2차전지", "categoryStyle": "tech", "sentiment": "pos", "title": "에코프로 12.87% 급등·2차전지 일제 강세", "summary": "고유가에 전기차 회복 기대까지 겹치며 국민성장펀드 첨단산업 60% 의무가 직접 자금 통로가 됐어요.", "source": "뉴스1", "note": "정책펀드 수혜 직접 후보" },
+      { "rank": "07", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "5/28 한은 금통위 기준금리 2.50% 동결 전망", "summary": "중동 사태로 성장 하방·물가 상방 위험이 동시에 커져 7연속 동결 흐름이 이어진다는 관측이 늘었어요.", "source": "한국경제", "note": "점도표 인상 신호 주목" },
+      { "rank": "08", "category": "바이오", "categoryStyle": "tech", "sentiment": "pos", "title": "삼성바이오로직스 1Q 매출 1.25조·영업익 35% 증가", "summary": "1~4공장 풀가동과 5공장 램프업으로 두 자릿수 성장 가이던스를 유지했어요.", "source": "헤럴드경제", "note": "CDMO 실적 신뢰 재확인" },
+      { "rank": "09", "category": "조선·방산", "categoryStyle": "tech", "sentiment": "pos", "title": "美 해군 MRO 수주 4건, 작년 연간 돌파", "summary": "HD현대중공업·한화오션이 3개월 만에 작년 3배 가까운 실적을 올렸어요.", "source": "이투데이", "note": "K-조선 슈퍼사이클 진입" },
+      { "rank": "10", "category": "거시", "categoryStyle": "default", "sentiment": "pos", "title": "5월 소비자심리지수 106.1로 6.9p 반등", "summary": "반도체 수출 호조·증시 활황에 3개월 만에 상승 전환했어요.", "source": "파이낸셜뉴스", "note": "내수 회복 체감 지표" },
+      { "rank": "11", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "삼성전기 11.30% 급등·1.55조 캐패시터 수주", "summary": "AI 가속기·고성능 서버용 실리콘 캐패시터 공급 계약으로 목표가가 170만원까지 상향됐어요.", "source": "이데일리", "note": "AI 부품주 본격 부각" },
+      { "rank": "12", "category": "바이오", "categoryStyle": "tech", "sentiment": "pos", "title": "셀트리온 ADC 신약 'CT-P71' FDA 패스트트랙", "summary": "항암 ADC 후보가 패스트트랙 지정으로 글로벌 임상 가속 발판을 마련했어요.", "source": "헤럴드경제", "note": "신약 가치 재평가 시그널" }
+    ]
+  },
+  "kr": {
+    "subNote": "외국인 12일째 매도에도 개인·기관이 방어, 국민성장펀드 효과로 코스닥이 4.99% 급등했어요",
+    "subNoteEm": "코스닥이 4.99% 급등",
+    "comment": "코스피는 7,847선에서 숨고르기, 코스닥은 <b style=\"color:var(--red);\">매수 사이드카 이틀 연속 발동</b>으로 정책 모멘텀을 그대로 반영했어요. 다음 주 한은·PCE가 분수령이에요.",
+    "expectedRange": "코스피 −0.3% ~ +0.5% (주말 휴장 후 재개시)",
+    "indices": [
+      { "name": "코스피", "tip": "정규장 종가 · KRX", "value": "7,847.71", "change": "▲ 0.41%", "dir": "up" },
+      { "name": "코스닥", "tip": "정규장 종가 · KRX", "value": "1,161.13", "change": "▲ 4.99%", "dir": "up" }
+    ],
+    "flow": [
+      { "key": "원/달러 환율", "value": "1,517.2원 ▲", "dir": "up" },
+      { "key": "야간 선물", "value": "1,231.50 ▲ 0.28%", "dir": "up" },
+      { "key": "미국 상장 한국물(ADR)", "value": "EWY 182.03달러 ▼", "dir": "down" }
+    ],
+    "supply": [
+      { "who": "외국인", "amount": "−19,229억", "dir": "sell" },
+      { "who": "기관", "amount": "+7,618억", "dir": "buy" },
+      { "who": "개인", "amount": "+10,626억", "dir": "buy" }
+    ],
+    "sectorsUp": [
+      { "theme": "반도체장비", "stockName": "주성엔지니어링", "stockChange": "+20.95%" },
+      { "theme": "2차전지", "stockName": "에코프로", "stockChange": "+12.87%" },
+      { "theme": "AI 부품", "stockName": "삼성전기", "stockChange": "+11.30%" },
+      { "theme": "바이오", "stockName": "삼성바이오로직스", "stockChange": "+1.43%" },
+      { "theme": "조선·방산", "stockName": "HD현대중공업", "stockChange": "+1.19%" }
+    ],
+    "sectorsDown": [
+      { "theme": "유통", "stockName": "이마트", "stockChange": "−3.52%" },
+      { "theme": "IT 대형", "stockName": "삼성전자", "stockChange": "−2.34%" },
+      { "theme": "완성차", "stockName": "기아", "stockChange": "−1.85%" },
+      { "theme": "자동차", "stockName": "현대차", "stockChange": "−1.65%" },
+      { "theme": "2차전지 대형", "stockName": "LG에너지솔루션", "stockChange": "−0.62%" }
+    ],
+    "watchlist": [
+      { "name": "삼성바이오로직스", "badge": "관심", "badgeType": "up", "desc": "1Q 매출 1.25조·영업익 5,808억 호실적으로 실적주 부각" },
+      { "name": "에코프로·LG에너지솔루션", "badge": "관심", "badgeType": "up", "desc": "국민성장펀드 첨단산업 60% 의무로 2차전지 직접 수혜" },
+      { "name": "HD현대중공업·한화오션", "badge": "관심", "badgeType": "up", "desc": "美 해군 MRO 수주 누적 4건, K-조선 슈퍼사이클" },
+      { "name": "삼성전자", "badge": "주의", "badgeType": "default", "desc": "외국인 매도 집중, 단일종목 ETF 첫 상장으로 변동성↑" }
+    ],
+    "health": [
+      { "key": "투자자 예탁금", "tip": "대기 자금", "value": "122.5조", "subIcon": "▲", "subDir": "up" },
+      { "key": "신용융자 잔고", "tip": "레버리지 투자", "value": "35.4조", "subIcon": "▲", "subDir": "up" }
+    ]
+  },
+  "calendar": {
+    "subNote": "美 메모리얼데이 휴장 직전 마지막 거래일, 다음 주 PCE·한은 금통위가 큰 분수령이에요",
+    "subNoteEm": "PCE·한은 금통위가 큰 분수령",
+    "riskSentiment": "위험선호 우위",
+    "domestic": {
+      "timed": [
+        { "time": "06:00", "event": "한국 5월 소비자심리지수 발표(106.1, +6.9p 반등)" },
+        { "time": "16:30", "event": "삼성바이오로직스 1Q 잠정실적 발표", "important": true }
+      ],
+      "untimed": [
+        { "event": "국민성장펀드 1차 일반판매 (6,000억원 규모)", "when": "5/22 ~ 6/11 선착순" },
+        { "event": "단일종목 레버리지·인버스 ETF 상장(삼전·하닉)", "when": "5/22 거래 개시" }
+      ]
+    },
+    "global": {
+      "timed": [
+        { "time": "23:00", "event": "美 4월 신규주택판매" }
+      ],
+      "untimed": [
+        { "event": "美 메모리얼데이(5/25) 증시·채권시장 휴장", "when": "5/26 화요일 정상화" },
+        { "event": "美 4월 PCE 물가지수 발표(연준 선호 지표)", "when": "5/28 21:30 KST" },
+        { "event": "한은 금통위 기준금리 결정", "when": "5/28 KST 오전" }
+      ]
+    },
+    "theme": "다우 사상최고와 코스닥 사이드카 두 번이 같은 날 만났어요. 다음 주 한은·PCE 더블 분수령 전 마지막 정리 거래일이에요.",
+    "checks": [
+      "원/달러 1,520원 돌파 후 1,530원 저항선 시험 여부",
+      "외국인 12거래일 연속 매도 흐름이 13일째로 이어질지",
+      "국민성장펀드 자금이 2차전지·바이오·AI에 어떻게 배분되는지",
+      "5/28 한은 점도표에서 금리 인상 소수의견 등장 여부",
+      "美 PCE 4월치가 워시 신임 의장 첫 메시지에 어떤 신호 줄지"
+    ]
+  }
+}

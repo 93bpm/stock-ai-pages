@@ -1,0 +1,145 @@
+{
+  "date": "2026-05-24",
+  "weekday": "일",
+  "generatedAt": "2026-05-24T07:30:00+09:00",
+  "us": {
+    "subNote": "美 증시 주말 휴장, 5월 22일(금) 마감값 기준 다우 사상최고 유지",
+    "subNoteEm": "다우 사상최고 유지",
+    "comment": "주말이라 美 시장은 멈춰 있어요. 직전 거래일은 <b style=\"color:var(--red);\">반도체·헬스케어 강세에 3대 지수 동반 상승</b>했고 다우는 50,579로 사상최고를 새로 썼어요. 5/25(월)은 메모리얼데이로 연속 휴장이에요.",
+    "indices": [
+      { "name": "S&P 500", "tip": "5/22(금) 종가", "value": "7,473.47", "change": "▲ 0.37%", "dir": "up" },
+      { "name": "나스닥 종합", "tip": "5/22(금) 종가", "value": "26,343.97", "change": "▲ 0.19%", "dir": "up" },
+      { "name": "다우 산업", "tip": "5/22(금) 종가", "value": "50,579.70", "change": "▲ 0.58%", "dir": "up" },
+      { "name": "필라델피아 반도체", "tip": "SOXX ETF 대용", "value": "537.33", "change": "▲ 2.41%", "dir": "up" }
+    ],
+    "indicators": [
+      { "key": "VIX", "value": "16.64 ▼", "dir": "down" },
+      { "key": "美 10년물", "value": "4.56%", "dir": "neutral" },
+      { "key": "달러 인덱스", "value": "99.32 ▲", "dir": "up" },
+      { "key": "WTI 유가", "value": "96.60달러 ▲", "dir": "up" },
+      { "key": "금", "value": "4,516.75달러 ▼", "dir": "down" },
+      { "key": "비트코인", "value": "77,447달러 ▼", "dir": "down" }
+    ],
+    "sectorsUp": [
+      { "name": "헬스케어 (XLV)", "change": "+1.17%" },
+      { "name": "IT (XLK)", "change": "+1.00%" },
+      { "name": "유틸리티 (XLU)", "change": "+0.78%" },
+      { "name": "산업재 (XLI)", "change": "+0.73%" },
+      { "name": "에너지 (XLE)", "change": "+0.61%" }
+    ],
+    "sectorsDown": [
+      { "name": "커뮤니케이션 (XLC)", "change": "−0.55%" },
+      { "name": "부동산 (XLRE)", "change": "+0.13%" },
+      { "name": "필수소비재 (XLP)", "change": "+0.17%" },
+      { "name": "임의소비재 (XLY)", "change": "+0.40%" },
+      { "name": "금융 (XLF)", "change": "+0.41%" }
+    ]
+  },
+  "world": {
+    "subNote": "주말 새 헤드라인은 트럼프의 美·이란 종전 협상 임박 발언, 다음 주 5/28 美 PCE·韓 금통위가 더블 분수령이에요",
+    "subNoteEm": "美·이란 종전 협상 임박",
+    "global": [
+      { "rank": "01", "category": "지정학", "categoryStyle": "geo", "sentiment": "pos", "title": "트럼프 \"이란 종전 합의 상당히 가까워져, 곧 발표\"", "summary": "CBS 인터뷰에서 일요일(24일)까지 공습 재개 여부를 결정하겠다며 호르무즈 개방을 협정에 포함시켰어요.", "source": "CNBC", "note": "유가·항공·방산 변동성 핵심" },
+      { "rank": "02", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "美 4월 PCE 5/28 발표, 워시 의장 첫 시험대", "summary": "신임 연준 의장 취임 직후 핵심 인플레이션 지표가 정책 기조 방향을 가늠해요.", "source": "CNBC", "note": "다음 주 분수령 이벤트" },
+      { "rank": "03", "category": "정책", "categoryStyle": "default", "sentiment": "neu", "title": "美 5/25 메모리얼데이 증시·채권 휴장", "summary": "주말과 휴장이 겹쳐 거래 공백이 길어졌고 PCE 직전 포지셔닝이 관건이에요.", "source": "CNBC", "note": "PCE 직전 변동성 잠재" },
+      { "rank": "04", "category": "원자재", "categoryStyle": "geo", "sentiment": "neu", "title": "WTI 96.60달러, 종전 기대에 주간 8% 급락", "summary": "美·이란 협상 진전 소식에 유가가 한 주 만에 5월 들어 가장 큰 폭으로 빠졌어요.", "source": "CNBC", "note": "에너지·항공주 동시 민감" },
+      { "rank": "05", "category": "거시", "categoryStyle": "default", "sentiment": "neu", "title": "美 1분기 GDP 잠정치 5/28 동시 발표", "summary": "PCE와 같은 날 GDP 2차 추정치도 공개돼 시장 영향력이 더 커졌어요.", "source": "CNBC", "note": "성장·물가 동시 검증" },
+      { "rank": "06", "category": "거시", "categoryStyle": "default", "sentiment": "neg", "title": "美 2분기 PCE 헤드라인 4.5%로 상향 전망", "summary": "전문가 서베이에서 근원 3.4%로 종전 2.7% 대비 크게 올라 인플레 우려가 커졌어요.", "source": "CNBC", "note": "금리 인하 시점 후퇴 가능" },
+      { "rank": "07", "category": "AI", "categoryStyle": "tech", "sentiment": "pos", "title": "엔비디아 1분기 매출 816억달러·자사주 800억", "summary": "AI 데이터센터 92% 성장에 배당 25배 인상까지 주주환원을 강화했어요.", "source": "Bloomberg", "note": "AI 빅테크 우상향 모멘텀" },
+      { "rank": "08", "category": "거시", "categoryStyle": "default", "sentiment": "neg", "title": "미시간 소비심리 44.8 사상 최저 경신", "summary": "고유가에 지친 미국 소비자 체감이 70년 만의 최악을 기록했어요.", "source": "CNBC", "note": "소비 둔화 신호 강화" },
+      { "rank": "09", "category": "정책", "categoryStyle": "default", "sentiment": "neu", "title": "美 상무부, 中 기업 33곳 블랙리스트 추가", "summary": "위구르 감시·WMD 연계 기업이 대상이며 미중 갈등 전선이 재차 넓어졌어요.", "source": "Nikkei", "note": "기술 수출통제 강화 흐름" },
+      { "rank": "10", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "中 LPR 12개월 연속 동결, 1년 3.0%·5년 3.5%", "summary": "수출 호조로 인하 시점이 늦춰졌고 하반기 핀셋 완화 가능성이 거론돼요.", "source": "Caixin", "note": "中 통화정책 관망 지속" },
+      { "rank": "11", "category": "기업", "categoryStyle": "default", "sentiment": "neu", "title": "5/26 화 美 AutoZone·소비자신뢰지수 발표", "summary": "메모리얼데이 다음 날 소비 관련 데이터·실적이 잇따라 공개돼요.", "source": "CNBC", "note": "주 초반 변동성 트리거" },
+      { "rank": "12", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "케빈 워시 신임 연준 의장 첫 메시지 대기", "summary": "백악관 취임식 후 PCE와 맞물려 정책 기조 신호가 주목받아요.", "source": "Bloomberg", "note": "정책 기조 불확실성" }
+    ],
+    "domestic": [
+      { "rank": "01", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "5/28 한은 금통위 기준금리 2.50% 동결 유력", "summary": "물가 압력 확대로 인상 소수의견 등장 가능성이 거론되며 점도표 상단 상향 관측도 늘었어요.", "source": "한국경제", "note": "다음 주 최대 변수" },
+      { "rank": "02", "category": "정책", "categoryStyle": "default", "sentiment": "pos", "title": "국민성장펀드 2주차 5/26 매집 본격화", "summary": "첫날 완판 후 다음 주부터 자펀드 자금이 첨단산업 60% 의무로 코스닥에 풀려요.", "source": "한국경제", "note": "코스닥 자금 모멘텀 지속" },
+      { "rank": "03", "category": "증시제도", "categoryStyle": "default", "sentiment": "neu", "title": "MSCI 한국지수, 5/29 한진칼·HD현대마린·SK바이오팜 편출", "summary": "신규 편입은 없고 리밸런싱은 장 마감 후 진행돼 편출 종목 공매도 주의가 필요해요.", "source": "파이낸셜뉴스", "note": "주 후반 패시브 매물 출회" },
+      { "rank": "04", "category": "수급", "categoryStyle": "default", "sentiment": "neg", "title": "코스피 외국인 12거래일 연속 순매도", "summary": "1.9조원 매도에도 개인 1.06조·기관 0.76조 순매수로 방어했어요.", "source": "머니투데이", "note": "외인 차익실현 압력 지속" },
+      { "rank": "05", "category": "환율", "categoryStyle": "default", "sentiment": "neg", "title": "원/달러 1,520원 돌파 후 1,530원 저항선 시험", "summary": "달러 강세와 외국인 매도가 겹쳐 환율이 50일 만의 최고치예요.", "source": "이데일리", "note": "원화 약세 압력 재점화" },
+      { "rank": "06", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "엔비디아 어닝 서프라이즈에 한국 반도체 동조", "summary": "AI 메모리 수요 확인으로 SK하이닉스·삼성전기 등이 다음 주에도 강세 예상돼요.", "source": "이데일리", "note": "HBM 모멘텀 재확인" },
+      { "rank": "07", "category": "2차전지", "categoryStyle": "tech", "sentiment": "pos", "title": "국민성장펀드 첨단산업 60% 의무, 2차전지 직접 수혜", "summary": "에코프로·LG에너지솔루션 등이 정책 자금의 1차 수혜군으로 거론되고 있어요.", "source": "파이낸셜뉴스", "note": "정책펀드 수혜 직접 후보" },
+      { "rank": "08", "category": "수급", "categoryStyle": "default", "sentiment": "pos", "title": "코스닥 외인·기관 동시 순매수 8,800억", "summary": "외국인 5,974억·기관 2,880억으로 5/22 펀드 출시 효과가 컸어요.", "source": "파이낸셜뉴스", "note": "중소형 순환매 본격화" },
+      { "rank": "09", "category": "바이오", "categoryStyle": "tech", "sentiment": "pos", "title": "삼성바이오로직스 1분기 영업익 25.7% 증가", "summary": "5/22 발표 컨센서스가 매출 1.3조·영업익 6,120억원으로 모이며 CDMO 신뢰가 굳건해요.", "source": "한국경제", "note": "CDMO 실적 신뢰 재확인" },
+      { "rank": "10", "category": "조선·방산", "categoryStyle": "tech", "sentiment": "pos", "title": "美 해군 MRO 수주 4건으로 작년 연간 돌파", "summary": "HD현대중공업·한화오션이 3개월 만에 작년 3배 가까운 실적을 올렸어요.", "source": "이데일리", "note": "K-조선 슈퍼사이클 진입" },
+      { "rank": "11", "category": "증시제도", "categoryStyle": "default", "sentiment": "pos", "title": "단일종목 레버리지·인버스 ETF 첫 상장", "summary": "삼성전자·SK하이닉스에 한해 5/22부터 신규 수급 통로가 열려 다음 주 거래량 변화 주목돼요.", "source": "한국경제", "note": "변동성 트레이딩 다변화" },
+      { "rank": "12", "category": "정책", "categoryStyle": "default", "sentiment": "neu", "title": "구윤철 부총리, 국가창업시대 전략 점검", "summary": "정부서울청사에서 비상경제본부 회의를 주재하며 코스닥 활성화 메시지가 부각됐어요.", "source": "한국경제", "note": "정책 모멘텀 지속" }
+    ]
+  },
+  "kr": {
+    "subNote": "오늘은 일요일·주말 휴장, 직전 마감 기준 코스피 7,847·코스닥 1,161이에요",
+    "subNoteEm": "일요일·주말 휴장",
+    "comment": "주말이라 KRX는 멈춰 있어요. 직전 거래일은 <b style=\"color:var(--red);\">국민성장펀드 효과로 코스닥 4.99% 급등</b>·매수 사이드카 이틀 연속 발동이라는 큰 이벤트가 있었어요. 다음 주 5/28은 한은·PCE 더블 분수령이에요.",
+    "expectedRange": "휴장",
+    "indices": [
+      { "name": "코스피", "tip": "5/22(금) 종가", "value": "7,847.71", "change": "▲ 0.41%", "dir": "up" },
+      { "name": "코스닥", "tip": "5/22(금) 종가", "value": "1,161.13", "change": "▲ 4.99%", "dir": "up" }
+    ],
+    "flow": [
+      { "key": "원/달러 환율", "value": "1,520.35원 ▲", "dir": "up" },
+      { "key": "야간 선물", "value": "휴장", "dir": "neutral" },
+      { "key": "미국 상장 한국물(ADR)", "value": "EWY 182.03달러 ▼", "dir": "down" }
+    ],
+    "supply": [
+      { "who": "외국인", "amount": "−19,229억", "dir": "sell" },
+      { "who": "기관", "amount": "+7,618억", "dir": "buy" },
+      { "who": "개인", "amount": "+10,626억", "dir": "buy" }
+    ],
+    "sectorsUp": [
+      { "theme": "반도체장비", "stockName": "주성엔지니어링", "stockChange": "+20.95%" },
+      { "theme": "2차전지", "stockName": "에코프로", "stockChange": "+12.87%" },
+      { "theme": "AI 부품", "stockName": "삼성전기", "stockChange": "+11.30%" },
+      { "theme": "바이오", "stockName": "삼성바이오로직스", "stockChange": "+1.43%" },
+      { "theme": "조선·방산", "stockName": "HD현대중공업", "stockChange": "+1.19%" }
+    ],
+    "sectorsDown": [
+      { "theme": "유통", "stockName": "이마트", "stockChange": "−3.52%" },
+      { "theme": "IT 대형", "stockName": "삼성전자", "stockChange": "−2.34%" },
+      { "theme": "완성차", "stockName": "기아", "stockChange": "−1.85%" },
+      { "theme": "자동차", "stockName": "현대차", "stockChange": "−1.65%" },
+      { "theme": "2차전지 대형", "stockName": "LG에너지솔루션", "stockChange": "−0.62%" }
+    ],
+    "watchlist": [
+      { "name": "에코프로·LG에너지솔루션", "badge": "관심", "badgeType": "up", "desc": "국민성장펀드 2주차 매집 본격화, 첨단산업 60% 의무 직접 수혜" },
+      { "name": "삼성바이오로직스", "badge": "관심", "badgeType": "up", "desc": "1분기 영업익 25.7%↑ 컨센서스로 CDMO 실적주 부각" },
+      { "name": "HD현대중공업·한화오션", "badge": "관심", "badgeType": "up", "desc": "美 해군 MRO 누적 4건, K-조선 슈퍼사이클" },
+      { "name": "한진칼·HD현대마린·SK바이오팜", "badge": "주의", "badgeType": "default", "desc": "5/29 MSCI 편출 확정, 패시브 매물 출회 가능" }
+    ],
+    "health": [
+      { "key": "투자자 예탁금", "tip": "대기 자금", "value": "122.5조", "subIcon": "▲", "subDir": "up" },
+      { "key": "신용융자 잔고", "tip": "레버리지 투자", "value": "35.4조", "subIcon": "▲", "subDir": "up" }
+    ]
+  },
+  "calendar": {
+    "subNote": "주말로 주요 일정 없음, 다음 주 5/28은 美 PCE·韓 금통위·美 GDP가 같은 날 몰린 더블 분수령이에요",
+    "subNoteEm": "더블 분수령",
+    "riskSentiment": "혼조",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        { "event": "주말·휴일로 주요 일정 없음", "when": "다음 거래일 5/25(월)" },
+        { "event": "한은 금통위 기준금리 결정", "when": "5/28(목) 오전" },
+        { "event": "국민성장펀드 2주차 매집 본격화", "when": "5/26(화)~" },
+        { "event": "MSCI 한국지수 반기 리뷰 리밸런싱", "when": "5/29(금) 장 마감 후" }
+      ]
+    },
+    "global": {
+      "timed": [],
+      "untimed": [
+        { "event": "美 증시·채권 메모리얼데이 휴장", "when": "5/25(월) 종일" },
+        { "event": "美 5월 소비자신뢰지수·AutoZone 실적", "when": "5/27(화) 23:00 KST" },
+        { "event": "美 4월 PCE 물가지수·1분기 GDP 2차", "when": "5/28(목) 21:30 KST" },
+        { "event": "中 5월 PMI 발표", "when": "5/30(토) 10:30 KST" }
+      ]
+    },
+    "theme": "美·韓 동시 휴장이라 시장은 멈췄지만 일요일 트럼프의 이란 종전 임박 발언으로 유가·방산 변동성이 다시 살아났고 다음 주 5/28은 한은 금통위·美 PCE·GDP가 같은 날 몰린 트리플 빅 이벤트라 사전 점검에 좋은 주말이에요.",
+    "checks": [
+      "트럼프의 이란 종전 합의가 일요일 안에 실제 발표되는지",
+      "다음 주 한은 금통위에서 금리 인상 소수의견이 등장할지",
+      "美 4월 PCE 헤드라인·근원이 워시 신임 의장 첫 메시지에 어떤 신호 줄지",
+      "원/달러 1,520원 돌파 후 1,530원 저항선 시험 여부",
+      "MSCI 편출 3종목(한진칼·HD현대마린·SK바이오팜) 5/29 패시브 매물"
+    ]
+  }
+}
