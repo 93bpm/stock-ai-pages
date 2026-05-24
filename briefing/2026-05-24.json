@@ -1,7 +1,7 @@
 {
   "date": "2026-05-24",
   "weekday": "일",
-  "generatedAt": "2026-05-24T08:00:00+09:00",
+  "generatedAt": "2026-05-24T22:03:00+09:00",
   "us": {
     "subNote": "美 증시 주말 휴장, 5월 22일(금) 마감값 기준 다우 사상최고 유지",
     "subNoteEm": "다우 사상최고 유지",
@@ -39,7 +39,7 @@
     "subNote": "주말 새 헤드라인은 트럼프의 美·이란 종전 협상 임박 발언, 다음 주 5/28 美 PCE·韓 금통위가 더블 분수령이에요",
     "subNoteEm": "美·이란 종전 협상 임박",
     "global": [
-      { "rank": "01", "category": "지정학", "categoryStyle": "geo", "sentiment": "pos", "title": "트럼프 \"이란 종전 합의 상당히 가까워져, 곧 발표\"", "summary": "CBS 인터뷰에서 일요일(24일)까지 공습 재개 여부를 결정하겠다며 호르무즈 개방을 협정에 포함시켰어요.", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/05/23/us-iran-war-talks.html", "note": "유가·항공·방산 변동성 핵심" },
+      { "rank": "01", "category": "지정학", "categoryStyle": "geo", "sentiment": "pos", "title": "트럼프 \"이란 합의 거의 완료...로마 협상 계속\"", "summary": "로마 5차 협상이 합의 없이 끝났지만 양측이 MOU 최종 단계임을 확인하고 협의를 계속키로 했어요.", "source": "NPR", "sourceUrl": "https://www.npr.org/2026/05/23/g-s1-124145/trump-iran-deal-strait-of-hormuz", "note": "유가·항공·방산 변동성 핵심" },
       { "rank": "02", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "美 4월 PCE 5/28 발표, 워시 의장 첫 시험대", "summary": "신임 연준 의장 취임 직후 핵심 인플레이션 지표가 정책 기조 방향을 가늠해요.", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/04/30/pce-inflation-rate-march-2026.html", "note": "다음 주 분수령 이벤트" },
       { "rank": "03", "category": "정책", "categoryStyle": "default", "sentiment": "neu", "title": "美 5/25 메모리얼데이 증시·채권 휴장", "summary": "주말과 휴장이 겹쳐 거래 공백이 길어졌고 PCE 직전 포지셔닝이 관건이에요.", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/05/22/stock-market-next-week-outlook-for-may-25-29-2026.html", "note": "PCE 직전 변동성 잠재" },
       { "rank": "04", "category": "원자재", "categoryStyle": "geo", "sentiment": "neu", "title": "WTI 96.60달러, 종전 기대에 주간 8% 급락", "summary": "美·이란 협상 진전 소식에 유가가 한 주 만에 5월 들어 가장 큰 폭으로 빠졌어요.", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/05/22/oil-prices-today-trump-iran-strait-of-hormuz-uranium-.html", "note": "에너지·항공주 동시 민감" },
@@ -133,9 +133,9 @@
         { "event": "中 5월 PMI 발표", "when": "5/30(토) 10:30 KST" }
       ]
     },
-    "theme": "美·韓 동시 휴장이라 시장은 멈췄지만 일요일 트럼프의 이란 종전 임박 발언으로 유가·방산 변동성이 다시 살아났고 다음 주 5/28은 한은 금통위·美 PCE·GDP가 같은 날 몰린 트리플 빅 이벤트라 사전 점검에 좋은 주말이에요.",
+    "theme": "美·韓 동시 휴장이라 시장은 멈췄지만 5/23 로마 5차 이란 협상이 합의 없이 종료되며 종전 기대가 이번 주로 미뤄졌고 다음 주 5/28은 한은 금통위·美 PCE·GDP가 같은 날 몰린 트리플 빅 이벤트라 사전 점검에 좋은 주말이에요.",
     "checks": [
-      "트럼프의 이란 종전 합의가 일요일 안에 실제 발표되는지",
+      "이란 합의 일요일 미발표, 이번 주 최종 타결 여부 주목",
       "다음 주 한은 금통위에서 금리 인상 소수의견이 등장할지",
       "美 4월 PCE 헤드라인·근원이 워시 신임 의장 첫 메시지에 어떤 신호 줄지",
       "원/달러 1,520원선 공방 지속, 1,530원 저항선 도달 여부",
