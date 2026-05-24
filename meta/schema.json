@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://93bpm.github.io/stock-ai-pages/briefing.schema.json",
+  "$id": "https://93bpm.github.io/stock-ai-pages/meta/schema.json",
   "title": "Daily Market Briefing",
-  "description": "stock-ai-pages 일일 브리핑 데이터 (news/YYYY-MM-DD.json)",
+  "description": "stock-ai-pages 일일 브리핑 데이터 (briefing/YYYY-MM-DD.json)",
   "type": "object",
   "required": ["date", "weekday", "us", "world", "kr", "calendar"],
   "additionalProperties": false,
@@ -184,7 +184,7 @@
       "additionalProperties": false,
       "properties": {
         "who": { "type": "string", "description": "외국인, 기관, 개인, 프로그램 (차익+비차익)" },
-        "amount": { "type": "string", "description": "마스킹 형식 권장 (예: +3,2xx)" },
+        "amount": { "type": "string", "description": "실값 (예: +3,245). 마스킹(+3,2xx) 금지 — 추출 실패 시 supply 배열에서 항목 제거" },
         "dir": {
           "type": "string",
           "enum": ["buy", "sell"],
@@ -216,7 +216,7 @@
       "properties": {
         "key": { "type": "string", "description": "예: 투자자 예탁금" },
         "tip": { "type": "string", "description": "보조 설명 (예: 대기 자금)" },
-        "value": { "type": "string", "description": "마스킹 권장 (예: 5x.x조)" },
+        "value": { "type": "string", "description": "실값 (예: 58.7조 / 2조 1,420억). 마스킹(5x.x조) 금지 — 추출 실패 시 health 배열에서 항목 제거" },
         "subIcon": { "type": "string", "description": "값 옆 작은 표시 (예: ▲ / ± / ▼)" },
         "subDir": { "$ref": "#/$defs/Direction" }
       }

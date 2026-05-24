@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>사용량 history · stock-ai-pages</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#16171C;--surface:#1E1F26;--surface-2:#262830;
+    --text:#F2F4F6;--text-soft:#9DA3AE;--text-dim:#6A7079;
+    --line:rgba(255,255,255,.07);--blue:#3182F6;
+    --up:#FF5C6C;--down:#4D8EFF;--radius:18px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    background:var(--bg);color:var(--text);
+    font-family:'Nanum Gothic',-apple-system,sans-serif;
+    line-height:1.75;padding:24px 18px 60px;-webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+  .num{font-variant-numeric:tabular-nums;}
+  a{color:var(--blue);text-decoration:none;}
+  a:hover{color:#79AEFF;text-decoration:underline;}
+
+  .nav{margin-bottom:18px;font-size:12.5px;color:var(--text-dim);}
+  .hello{font-size:22px;font-weight:800;letter-spacing:-.02em;}
+  .sub{font-size:13px;color:var(--text-soft);margin-top:5px;line-height:1.55;}
+
+  .status{margin:14px 0;padding:11px 16px;border-radius:12px;background:var(--surface-2);
+    color:var(--text-soft);font-size:13px;text-align:center;line-height:1.55;}
+  .status.error{background:rgba(255,92,108,.12);color:#FF8A95;}
+  .status[hidden]{display:none;}
+
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding:20px 18px;margin-top:14px;}
+  .sec-title{font-size:15px;font-weight:800;letter-spacing:-.02em;margin-bottom:12px;
+    display:flex;align-items:center;gap:7px;color:var(--blue);}
+  .sec-title .ic{font-size:16px;}
+
+  /* 요약 카드 */
+  .summary{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;}
+  .summary .it{background:var(--surface-2);border-radius:13px;padding:13px 14px;}
+  .summary .nm{font-size:11.5px;color:var(--text-soft);font-weight:600;}
+  .summary .v{font-size:20px;font-weight:800;margin-top:5px;}
+  .summary .v.small{font-size:13px;font-weight:700;line-height:1.4;}
+  .summary .sub{font-size:10.5px;color:var(--text-dim);margin-top:2px;}
+  @media(max-width:700px){.summary{grid-template-columns:repeat(3,1fr);}}
+  @media(max-width:480px){.summary{grid-template-columns:1fr 1fr;}}
+
+  /* 추세 막대 */
+  .trend{background:var(--surface-2);border-radius:13px;padding:14px;margin-top:13px;}
+  .trend-bars{display:flex;align-items:flex-end;gap:6px;height:80px;margin-top:8px;}
+  .trend-bar{flex:1;background:rgba(49,130,246,.35);border-radius:4px 4px 0 0;
+    position:relative;transition:.15s;}
+  .trend-bar:hover{background:var(--blue);}
+  .trend-bar .label{position:absolute;top:-18px;left:50%;transform:translateX(-50%);
+    font-size:9px;color:var(--text-dim);white-space:nowrap;}
+  .trend-bar .date{position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);
+    font-size:9px;color:var(--text-dim);}
+  .trend-info{font-size:11px;color:var(--text-dim);margin-top:24px;}
+
+  /* history 테이블 */
+  .ht{font-size:12.5px;width:100%;border-collapse:collapse;margin-top:8px;}
+  .ht th{text-align:left;padding:9px 6px;border-bottom:1px solid var(--line);
+    color:var(--text-dim);font-weight:700;font-size:11px;letter-spacing:.02em;}
+  .ht td{padding:9px 6px;border-bottom:1px solid var(--line);color:var(--text-soft);
+    text-align:left;}
+  /* 첫 컬럼(날짜)만 가운데 정렬 */
+  .ht th:first-child,
+  .ht td:first-child{text-align:center;}
+  .ht tr:last-child td{border-bottom:none;}
+  .ht .tools{font-size:10.5px;color:var(--text-dim);}
+
+  .empty{padding:32px 14px;text-align:center;color:var(--text-dim);font-size:13px;
+    background:var(--surface-2);border-radius:13px;}
+
+  /* 페이지네이션 */
+  .pagination{display:flex;justify-content:center;align-items:center;gap:10px;
+    margin-top:14px;padding-top:14px;border-top:1px solid var(--line);}
+  .pg-btn{background:var(--surface-2);color:var(--text-soft);font-family:inherit;
+    font-size:12px;font-weight:700;padding:6px 12px;border-radius:8px;
+    border:1px solid transparent;cursor:pointer;transition:.14s;}
+  .pg-btn:hover:not(:disabled){border-color:rgba(49,130,246,.4);color:#79AEFF;}
+  .pg-btn:disabled{opacity:.3;cursor:not-allowed;}
+  .pg-info{font-size:12px;font-weight:600;color:var(--text-dim);
+    font-variant-numeric:tabular-nums;min-width:48px;text-align:center;}
+
+  /* 자세히 보기 링크 — 시간 등 다른 td와 톤 통일 */
+  .detail-link{color:var(--text-soft);cursor:pointer;font-size:12px;font-weight:600;
+    text-decoration:none;transition:.14s;}
+  .detail-link:hover{color:#79AEFF;text-decoration:underline;}
+
+  /* 다이얼로그 */
+  .dlg-overlay{position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:100;
+    display:none;align-items:flex-start;justify-content:center;padding:20px;
+    backdrop-filter:blur(4px);overflow-y:auto;}
+  .dlg-overlay.on{display:flex;}
+  .dlg{background:var(--surface);border:1px solid var(--line);border-radius:18px;
+    max-width:560px;width:100%;padding:24px;
+    position:relative;animation:dlgIn .2s both;margin:auto;}
+  @keyframes dlgIn{from{opacity:0;transform:translateY(-12px);}to{opacity:1;transform:none;}}
+  .dlg-close{position:absolute;top:14px;right:14px;background:var(--surface-2);
+    border:none;width:30px;height:30px;border-radius:8px;color:var(--text-soft);
+    cursor:pointer;font-size:18px;font-weight:700;font-family:inherit;
+    display:flex;align-items:center;justify-content:center;line-height:1;transition:.14s;}
+  .dlg-close:hover{background:rgba(49,130,246,.2);color:#79AEFF;}
+  .dlg-title{font-size:16px;font-weight:800;letter-spacing:-.02em;margin-bottom:4px;
+    padding-right:40px;}
+  .dlg-meta{font-size:12px;color:var(--text-dim);margin-bottom:18px;}
+  .dlg-sec{background:var(--surface-2);border-radius:12px;padding:13px 15px;
+    margin-bottom:10px;}
+  .dlg-sec:last-child{margin-bottom:0;}
+  .dlg-sec-title{font-size:11px;font-weight:800;color:var(--blue);
+    margin-bottom:9px;letter-spacing:.04em;text-transform:uppercase;}
+  .dlg-row{display:flex;justify-content:space-between;align-items:baseline;
+    gap:10px;font-size:12.5px;padding:3px 0;}
+  .dlg-row .k{color:var(--text-dim);font-weight:600;}
+  .dlg-row .v{font-weight:700;color:var(--text);text-align:right;
+    font-variant-numeric:tabular-nums;}
+  .dlg-list{margin-top:4px;}
+  .dlg-list li{font-size:12px;color:var(--text-soft);padding:2px 0;list-style:none;
+    padding-left:14px;position:relative;}
+  .dlg-list li::before{content:"•";position:absolute;left:2px;color:var(--text-dim);}
+  .dlg-note{font-size:11px;color:var(--text-dim);margin-top:8px;line-height:1.55;
+    padding-top:8px;border-top:1px dashed var(--line);}
+  .dlg-note a{color:var(--blue);text-decoration:none;}
+  .dlg-note a:hover{text-decoration:underline;}
+  .badge-est{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.04em;
+    padding:1px 5px;border-radius:4px;background:rgba(157,163,174,.18);color:var(--text-dim);
+    margin-left:5px;vertical-align:middle;}
+
+  footer{margin-top:22px;padding:0 6px;font-size:11px;color:var(--text-dim);
+    line-height:1.7;text-align:center;}
+  footer code{font-family:'Courier New',monospace;background:var(--surface-2);
+    padding:1px 5px;border-radius:4px;font-size:10.5px;color:var(--text-soft);}
+
+  /* 경로 칩 (index.html의 date-chip 스타일 차용) */
+  .path-chip{display:inline-flex;align-items:center;background:var(--surface-2);
+    color:var(--text-soft);font-size:11px;font-weight:600;letter-spacing:.01em;
+    padding:3px 9px;border-radius:7px;border:1px solid transparent;
+    font-family:inherit;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="nav"><a href="./">← 돌아가기</a></div>
+
+  <div class="hello">일별 토큰 사용량</div>
+  <div class="sub">매일 routine 발화의 토큰 사용 추이. <b>추산값</b>이라 정확한 청구액은 <span class="path-chip">claude.ai → Settings → Usage</span>에서 확인.</div>
+
+  <div class="status" id="status" hidden></div>
+
+  <!-- 요약 -->
+  <div class="card" id="summaryCard" hidden>
+    <div class="sec-title"><span class="ic">📋</span>요약</div>
+    <div class="summary">
+      <div class="it">
+        <div class="nm">총 발화 횟수</div>
+        <div class="v num" id="summary-total">-</div>
+        <div class="sub">누적</div>
+      </div>
+      <div class="it">
+        <div class="nm">평균 토큰</div>
+        <div class="v num" id="summary-avg">-</div>
+        <div class="sub">발화당 (추산)</div>
+      </div>
+      <div class="it">
+        <div class="nm">평균 시간</div>
+        <div class="v num" id="summary-duration">-</div>
+        <div class="sub">발화당</div>
+      </div>
+      <div class="it">
+        <div class="nm">평균 sourceUrl</div>
+        <div class="v num" id="summary-srcurl">-</div>
+        <div class="sub">확보율 (max 24)</div>
+      </div>
+      <div class="it">
+        <div class="nm">사용 모델</div>
+        <div class="v small" id="summary-models">-</div>
+        <div class="sub">발화별 분포</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 최근 추세 -->
+  <div class="card" id="trendCard" hidden>
+    <div class="sec-title"><span class="ic">📈</span>최근 14일 추세</div>
+    <div class="trend">
+      <div class="trend-bars" id="trendBars"></div>
+      <div class="trend-info">막대 높이 = 일별 추산 토큰. 마우스 올리면 상세.</div>
+    </div>
+  </div>
+
+  <!-- 누적 history -->
+  <div class="card">
+    <div class="sec-title">사용량 추이</div>
+    <div id="historyBody"></div>
+  </div>
+
+  <footer>
+    토큰 값은 routine 자체 추산입니다 (한국어 ~2자/토큰, 영어 ~4자/토큰 환산 기준).<br>
+    정확한 사용량은 <a href="https://claude.ai" target="_blank">claude.ai</a> → Settings → Usage에서 확인하세요.<br>
+    Max 20x 5시간 사이클 한도는 약 1M 토큰입니다.
+  </footer>
+
+</div>
+
+<!-- 발화 상세 다이얼로그 -->
+<div class="dlg-overlay" id="dlgOverlay">
+  <div class="dlg" id="dlg" role="dialog" aria-modal="true">
+    <button class="dlg-close" id="dlgClose" aria-label="닫기">×</button>
+    <div class="dlg-title" id="dlgTitle"></div>
+    <div class="dlg-meta" id="dlgMeta"></div>
+    <div id="dlgBody"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  'use strict';
+  const $ = id => document.getElementById(id);
+
+  function showStatus(msg, isError){
+    const el = $('status');
+    el.textContent = msg;
+    el.className = 'status' + (isError ? ' error' : '');
+    el.hidden = false;
+  }
+  function hideStatus(){ $('status').hidden = true; }
+
+  function fmtNum(n){
+    if(n == null) return '-';
+    return n.toLocaleString('en-US');
+  }
+  function fmtDuration(sec){
+    if(sec == null) return '-';
+    const m = Math.floor(sec / 60);
+    const s = sec % 60;
+    return `${m}분 ${s}초`;
+  }
+  function fmtTools(tools){
+    if(!tools) return '';
+    return Object.entries(tools)
+      .filter(([_, n]) => n > 0)
+      .map(([k, n]) => `${k} ${n}`)
+      .join(' · ');
+  }
+
+  // 모델명 단축 표시 (claude-sonnet-4-7 → Sonnet 4.7)
+  function shortModelName(full){
+    if(!full) return 'Unknown';
+    const m = full.match(/claude-([a-z]+)-(\d+)-(\d+)/i);
+    if(m){
+      const tier = m[1].charAt(0).toUpperCase() + m[1].slice(1).toLowerCase();
+      return `${tier} ${m[2]}.${m[3]}`;
+    }
+    return full;
+  }
+
+  function renderSummary(history){
+    if(history.length === 0) return;
+    $('summaryCard').hidden = false;
+    $('summary-total').textContent = history.length;
+    const avgTokens = Math.round(history.reduce((s, h) => s + (h.tokens_estimated || 0), 0) / history.length);
+    $('summary-avg').textContent = fmtNum(avgTokens);
+    const avgDuration = Math.round(history.reduce((s, h) => s + (h.duration_seconds || 0), 0) / history.length);
+    $('summary-duration').textContent = fmtDuration(avgDuration);
+
+    // 평균 sourceUrl 확보율
+    const srcSum = history.reduce((s, h) => {
+      const m = (h.source_url_coverage || '0/24').match(/^(\d+)/);
+      return s + (m ? parseInt(m[1], 10) : 0);
+    }, 0);
+    const avgSrc = (srcSum / history.length).toFixed(1);
+    $('summary-srcurl').textContent = avgSrc;
+
+    // 모델별 분포
+    const modelCounts = {};
+    history.forEach(h => {
+      const m = shortModelName(h.model);
+      modelCounts[m] = (modelCounts[m] || 0) + 1;
+    });
+    const modelList = Object.entries(modelCounts)
+      .sort(([, a], [, b]) => b - a)
+      .map(([m, n]) => `${m} <span style="color:var(--text-dim);font-weight:600;">${n}회</span>`)
+      .join('<br>');
+    $('summary-models').innerHTML = modelList || '-';
+  }
+
+  // history를 날짜별로 합산 (같은 날 여러 발화 → 1일 = 1개)
+  function aggregateByDate(history){
+    const map = {};
+    history.forEach(h => {
+      if(!h.date) return;
+      if(!map[h.date]) map[h.date] = { date: h.date, runs: 0, tokens_estimated: 0 };
+      map[h.date].runs += 1;
+      map[h.date].tokens_estimated += h.tokens_estimated || 0;
+    });
+    return Object.values(map).sort((a, b) => a.date.localeCompare(b.date));
+  }
+
+  function renderTrend(history){
+    if(history.length === 0) return;
+    $('trendCard').hidden = false;
+    // 일별 합산 후 최근 14일
+    const daily = aggregateByDate(history);
+    const recent = daily.slice(-14);
+    const max = Math.max(...recent.map(h => h.tokens_estimated || 0), 1);
+    const bars = $('trendBars');
+    bars.innerHTML = recent.map(d => {
+      const pct = ((d.tokens_estimated || 0) / max * 100).toFixed(1);
+      // YYYY-MM-DD → M/D (앞 0 제거)
+      const dateShort = d.date.slice(5).split('-').map(s => String(parseInt(s, 10))).join('/');
+      const tokens = fmtNum(d.tokens_estimated);
+      const runs = d.runs > 1 ? ` (${d.runs}회 발화)` : '';
+      return `<div class="trend-bar" style="height:${pct}%;" title="${d.date} · ${tokens} 토큰${runs}">
+        <span class="date">${dateShort}</span>
+      </div>`;
+    }).join('');
+  }
+
+  // 페이지네이션 상태
+  const ITEMS_PER_PAGE = 10;
+  let currentPage = 1;
+  let cachedHistory = [];
+
+  function renderHistory(history){
+    cachedHistory = history;
+    if(history.length === 0){
+      $('historyBody').innerHTML = '<div class="empty">아직 발화 기록이 없어요. 매일 KST 08:00 routine이 돌면 여기에 누적됩니다.</div>';
+      return;
+    }
+    const reversed = [...history].reverse();
+    const totalPages = Math.max(1, Math.ceil(reversed.length / ITEMS_PER_PAGE));
+    if(currentPage > totalPages) currentPage = totalPages;
+    if(currentPage < 1) currentPage = 1;
+
+    const start = (currentPage - 1) * ITEMS_PER_PAGE;
+    const pageItems = reversed.slice(start, start + ITEMS_PER_PAGE);
+
+    const tableHtml = `
+      <table class="ht">
+        <thead><tr>
+          <th>날짜</th><th>시간</th><th>모델</th><th>토큰</th><th>소요 시간</th><th>상세</th>
+        </tr></thead>
+        <tbody>
+          ${pageItems.map((h, i) => `
+            <tr>
+              <td>${h.date || '-'}</td>
+              <td>${h.time || '-'}</td>
+              <td>${shortModelName(h.model)}</td>
+              <td class="num">${fmtNum(h.tokens_estimated)}</td>
+              <td class="num">${fmtDuration(h.duration_seconds)}</td>
+              <td><a class="detail-link" data-idx="${i}">자세히 보기 →</a></td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>`;
+
+    const paginationHtml = totalPages > 1 ? `
+      <div class="pagination">
+        <button class="pg-btn" id="pg-prev"${currentPage === 1 ? ' disabled' : ''}>← 이전</button>
+        <span class="pg-info">${currentPage} / ${totalPages}</span>
+        <button class="pg-btn" id="pg-next"${currentPage === totalPages ? ' disabled' : ''}>다음 →</button>
+      </div>` : '';
+
+    $('historyBody').innerHTML = tableHtml + paginationHtml;
+
+    const prev = document.getElementById('pg-prev');
+    const next = document.getElementById('pg-next');
+    if(prev) prev.addEventListener('click', () => { currentPage--; renderHistory(cachedHistory); });
+    if(next) next.addEventListener('click', () => { currentPage++; renderHistory(cachedHistory); });
+
+    // "자세히 보기" 클릭 핸들러 (closure로 pageItems 캡처)
+    document.querySelectorAll('.detail-link').forEach(link => {
+      link.addEventListener('click', () => {
+        const idx = parseInt(link.dataset.idx, 10);
+        openDialog(pageItems[idx]);
+      });
+    });
+  }
+
+  // 다이얼로그
+  function openDialog(h){
+    if(!h) return;
+    const statusBadge = {success:'✅ 성공', skip:'⏸️ Sanity skip', fail:'❌ 실패'}[h.status] || h.status || '-';
+    $('dlgTitle').textContent = `${h.date || '-'} ${h.time || ''} 발화`;
+    $('dlgMeta').textContent = `${shortModelName(h.model)} · ${statusBadge}`;
+
+    const tools = h.tool_calls || {};
+    const toolsRows = Object.entries(tools)
+      .filter(([_, n]) => n > 0)
+      .map(([k, n]) => `<div class="dlg-row"><span class="k">${k}</span><span class="v">${n}회</span></div>`)
+      .join('') || '<div class="dlg-row"><span class="k">없음</span></div>';
+
+    const sources = h.sources_attempted || {};
+    const sourcesRows = Object.entries(sources)
+      .map(([k, v]) => `<div class="dlg-row"><span class="k">${k}</span><span class="v">${v}</span></div>`)
+      .join('') || '<div class="dlg-row"><span class="k">없음</span></div>';
+
+    const news = h.news_count || {};
+    const newsTotal = (news.global || 0) + (news.domestic || 0);
+
+    const push = h.push || {};
+    const pushHtml = `
+      <div class="dlg-row"><span class="k">브랜치</span><span class="v">${push.branch || '-'}</span></div>
+      <div class="dlg-row"><span class="k">커밋</span><span class="v">${push.commit || '-'}</span></div>
+      <div class="dlg-row"><span class="k">main 머지</span><span class="v">${push.merged ? '✅' : '❌'}</span></div>`;
+
+    // 정확값 있으면 그것, 없으면 추산값
+    const tokensActual = h.tokens_actual;
+    const tokensEst = h.tokens_estimated;
+    const tokensRow = tokensActual
+      ? `<div class="dlg-row"><span class="k">정확 토큰 ✓</span><span class="v">${fmtNum(tokensActual)}</span></div>
+         <div class="dlg-row"><span class="k">추산 토큰<span class="badge-est">EST</span></span><span class="v">${fmtNum(tokensEst)}</span></div>`
+      : `<div class="dlg-row"><span class="k">추산 토큰<span class="badge-est">EST</span></span><span class="v">${fmtNum(tokensEst)}</span></div>`;
+
+    $('dlgBody').innerHTML = `
+      <div class="dlg-sec">
+        <div class="dlg-sec-title">기본</div>
+        ${tokensRow}
+        <div class="dlg-row"><span class="k">처리 시간 ✓</span><span class="v">${fmtDuration(h.duration_seconds)}</span></div>
+        <div class="dlg-row"><span class="k">응답 크기 ✓</span><span class="v">${h.response_size_kb || 0} KB</span></div>
+        ${tokensActual ? '' : `<div class="dlg-note">⚠️ 토큰은 routine 자체 추산값입니다 (한국어 ~2자/토큰 환산). 정확한 사용량은 <a href="https://claude.ai" target="_blank">claude.ai → Settings → Usage</a>에서 확인하세요.</div>`}
+      </div>
+
+      <div class="dlg-sec">
+        <div class="dlg-sec-title">도구 호출</div>
+        ${toolsRows}
+      </div>
+
+      <div class="dlg-sec">
+        <div class="dlg-sec-title">데이터 카운트</div>
+        <div class="dlg-row"><span class="k">뉴스 (글로벌/국내)</span><span class="v">${news.global || 0} / ${news.domestic || 0} (총 ${newsTotal}건)</span></div>
+        <div class="dlg-row"><span class="k">sourceUrl 확보</span><span class="v">${h.source_url_coverage || '-'}</span></div>
+      </div>
+
+      <div class="dlg-sec">
+        <div class="dlg-sec-title">출처별 시도</div>
+        ${sourcesRows}
+      </div>
+
+      <div class="dlg-sec">
+        <div class="dlg-sec-title">푸시 결과</div>
+        ${pushHtml}
+      </div>`;
+
+    $('dlgOverlay').classList.add('on');
+  }
+
+  function closeDialog(){ $('dlgOverlay').classList.remove('on'); }
+
+  // 다이얼로그 닫기 핸들러
+  $('dlgClose').addEventListener('click', closeDialog);
+  $('dlgOverlay').addEventListener('click', e => {
+    if(e.target.id === 'dlgOverlay') closeDialog();
+  });
+  document.addEventListener('keydown', e => {
+    if(e.key === 'Escape') closeDialog();
+  });
+
+  async function init(){
+    showStatus('불러오는 중...');
+    try {
+      const r = await fetch(`./meta/usage.json?t=${Date.now()}`, {cache:'no-store'});
+      if(!r.ok) throw new Error(`${r.status}`);
+      const data = await r.json();
+      const history = data.history || [];
+      renderSummary(history);
+      renderTrend(history);
+      renderHistory(history);
+      hideStatus();
+    } catch (e) {
+      showStatus(`로드 실패: ${e.message}`, true);
+    }
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>

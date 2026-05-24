@@ -23,11 +23,16 @@
 ```
 stock-ai-pages/
 ├── index.html              # 정적 페이지 (껍데기 + 렌더링 JS)
-├── briefing.schema.json    # 데이터 형식 규약 (JSON Schema)
-├── briefing-context.md     # 매일 routine이 따르는 운영 가이드
-└── briefing/
-    ├── manifest.json       # 가용 날짜 목록 (단일 진실 소스)
-    └── YYYY-MM-DD.json     # 그날의 브리핑 데이터
+├── usage.html              # 사용량 history 페이지
+├── meta/                   # 메타 (스키마·가이드·인덱스)
+│   ├── schema.json         # 데이터 형식 규약 (JSON Schema)
+│   ├── context.md          # 매일 routine이 따르는 운영 가이드
+│   ├── manifest.json       # 가용 날짜 목록 (단일 진실 소스)
+│   └── usage.json          # 사용량 history 누적
+├── briefing/               # 일일 데이터 (immutable)
+│   └── YYYY-MM-DD.json     # 그날의 브리핑 데이터
+└── .github/workflows/
+    └── auto-merge-routine.yml  # claude/* 브랜치 자동 머지
 ```
 
 ---
@@ -44,7 +49,7 @@ stock-ai-pages/
 | 기업 실적 일정 | Investing.com 실적 캘린더 |
 | 뉴스 (글로벌 12 + 국내 12) | WebSearch (CNBC, Bloomberg, Nikkei, 한경, 이데일리, MT 등) |
 
-자세한 룰과 fallback은 [`briefing-context.md`](./briefing-context.md) 참조.
+자세한 룰과 fallback은 [`meta/context.md`](./meta/context.md) 참조.
 
 ---
 
@@ -75,7 +80,7 @@ URL 해시로 특정 날짜 바로 보기: `http://localhost:5173/#date=2026-05-
 
 ```bash
 npx --yes --package=ajv-cli@5 --package=ajv-formats@3 \
-  ajv validate -s briefing.schema.json -d "briefing/YYYY-MM-DD.json" -c ajv-formats
+  ajv validate -s meta/schema.json -d "briefing/YYYY-MM-DD.json" -c ajv-formats
 ```
 
 ---

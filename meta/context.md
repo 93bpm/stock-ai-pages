@@ -1,18 +1,19 @@
 # Daily Briefing Context
 
 `stock-ai-pages` 일일 데이터 생성 루틴이 매일 참조할 운영 가이드.
-스키마: [briefing.schema.json](briefing.schema.json)
+스키마: [schema.json](./schema.json)
 
 ---
 
 ## 1. 목적과 산출물
 
-매일 KST 오전(권장: 07:30) 실행되어 다음 두 파일을 생성·갱신:
+매일 **KST 08:00** (cron `0 23 * * *` UTC) 자동 실행되어 다음 세 파일을 생성·갱신:
 
-| 파일 | 역할 |
-|---|---|
-| `briefing/YYYY-MM-DD.json` | 그날의 브리핑 데이터 (스키마 준수) |
-| `briefing/manifest.json` | 가용 날짜 목록 (`{"dates":[...], "latest":"YYYY-MM-DD"}`) |
+| 파일 | 역할 | 갱신 방식 |
+|---|---|---|
+| `briefing/YYYY-MM-DD.json` | 그날의 브리핑 데이터 (스키마 준수) | 신규 생성 (immutable) |
+| `meta/manifest.json` | 가용 날짜 목록 (`{"dates":[...], "latest":"YYYY-MM-DD"}`) | dates 배열에 append + 정렬 |
+| `meta/usage.json` | 발화별 사용량 history (토큰·도구·출처 등) | history 배열에 entry 1개 append |
 
 두 파일은 **같은 커밋**으로 푸시 (원자성).
 
@@ -79,7 +80,7 @@
 | 2 | **Google Finance** ✅ | `https://www.google.com/finance/quote/{ticker}:INDEXSP` |
 | 3 | Investing.com 영문 | `https://www.investing.com/indices/{slug}` |
 | 4 | WebSearch | `"{지수명} close YYYY-MM-DD"` 검색 |
-| 5 | 마스킹 fallback | §6 룰 적용 |
+| 5 | 그래도 실패 시 | §6 룰 적용 (항목 제거 또는 그날 skip) |
 
 **美 지수 티커 매핑** (Yahoo Finance):
 
@@ -105,7 +106,7 @@
 | 3 | Investing.com 한국 (`kr.investing.com/indices/kospi`) ✅ |
 | 4 | Alphasquare (`alphasquare.co.kr/home/stock-summary?code=...`) — 종목 위주지만 지수도 |
 | 5 | WebSearch (한경/이데일리 마감 기사) |
-| 6 | 마스킹 |
+| 6 | 그래도 실패 시 그날 skip (§6) |
 
 ### 美 섹터 ETF 11종 fallback 체인
 
@@ -125,7 +126,7 @@
 | **2** | **개별 ETF 11종을 fetch 후 정렬** (위 fallback 체인 사용) |
 | 3 | WebSearch ("S&P sectors performance today") |
 
-→ **원칙**: 항상 fallback 체인 끝까지 시도하고, 모두 실패한 경우에만 §6 마스킹. 추측·기억으로 값 채우지 말 것.
+→ **원칙**: 항상 fallback 체인 끝까지 시도. 모두 실패해도 **마스킹 절대 금지** — 항목 자체를 제거하거나 그날 skip (§6 룰). 추측·기억으로 값 채우지 말 것.
 
 ### 🔴 원/달러 종가 정확 추출 룰 (중요 — routine 발견 사례)
 
@@ -167,7 +168,7 @@
   3. Alphasquare fetch → `stockChange` 필드에 정확한 % 입력
 - **주요 종목 코드 예시**: 삼성전자 005930, SK하이닉스 000660, 에코프로 086520, LG에너지솔루션 373220, 삼성바이오로직스 207940, HD현대중공업 329180, 한화오션 042660, 두산로보틱스 454910, 현대차 005380, 기아 000270, POSCO홀딩스 005490, KT 030200, 이마트 139480, 삼성생명 032830
 - **보조 출처**: `https://www.investing.com/equities/{영문-slug}` — 영문 slug 알면 동일 데이터 추출 가능 (예: `sk-hynix-inc`)
-- **fallback**: Alphasquare 실패 시 WebSearch로 `"{종목명} 종가 YYYY-MM-DD"` → 그래도 안 되면 `stockChange: "+X.x%"` 마스킹
+- **fallback**: Alphasquare 실패 시 WebSearch로 `"{종목명} 종가 YYYY-MM-DD"` → 그래도 안 되면 **해당 sectorsUp/Down 항목 자체를 배열에서 제거** (마스킹 금지)
 
 ### 🟢 야간선물·ADR (`kr.flow`)
 
@@ -228,13 +229,7 @@
 - 업종 등락 TOP 5: 한경/연합 마감 기사에서 "전기·전자 +X.X%" 패턴 추출
 - 시장체력: 주간 기사("예탁금 XX조 돌파") 활용 — 시점 1~2일 지연 가능
 
-**추출 실패 시 마스킹 fallback**:
-```
-supply.amount: "+3,2xx" (마스킹 형식)
-sectorsUp[i].change: "+X.X%" → 그대로 두지 말고 "+1.x%" 형식
-health.value: "5x.x조"
-```
-또는 그날 해당 블록을 비워두고 `note`에 "공시 미반영"이라고 명시.
+**추출 실패 시**: **마스킹 절대 금지**. 해당 항목을 데이터 배열에서 제거 (배열 길이 줄임). 자세한 룰은 §6 참조.
 
 ---
 
@@ -248,7 +243,7 @@ health.value: "5x.x조"
 ### 🟡 등급 B+ (Claude 추론·추출)
 - 호악재 판단: 일반 시장 상식 기반 합리적 판단
 - 수치 추출은 **원문에 명시된 값만** 사용. 추측·계산 금지
-- 정보 불충분 → 마스킹 fallback 또는 해당 항목 비움
+- 정보 불충분 → **마스킹 금지**. 해당 항목 자체를 배열에서 제거하거나 빈 값으로
 - 정확도 100% 보장 아님 → 사용자 면책 전제
 
 ---
@@ -323,38 +318,106 @@ health.value: "5x.x조"
   - 1차 출처 우선, 차이가 5% 이상이면 의심하고 재확인
 ```
 
-### 부분 누락 시 fallback 룰
+### 🔴 마스킹 절대 금지 — 정확값 또는 항목 제거
 
-전체 skip은 **필수 필드 누락** 같은 불가피한 경우에만. 일부 누락은 마스킹 fallback으로 채워 그날 데이터를 살림.
+**원칙: 마스킹값(`+3,2xx`, `5x.x조`, `○○○ · △△△ · □□□`, `X.x%` 등)을 데이터에 절대 넣지 말 것.** 실값을 못 찾으면 해당 항목 자체를 제거하거나 빈 값으로.
+
+전체 skip은 **필수 필드 누락** 같은 불가피한 경우에만. 부분 누락은 다음 룰로 처리:
 
 | 누락 항목 | 처리 |
 |---|---|
-| Stooq 지수 1-2개 (예: `^kosdaq` 응답 실패) | `value="X,XXX.X"`, `change="±0.0%"`, `dir="neutral"`로 마스킹 |
-| 美 섹터 ETF 일부 (11개 중 일부) | 가져온 ETF만으로 정렬해 TOP 5 산출 (집합이 작아져도 5개 유지) |
-| 뉴스 12건 미만 | 빈 슬롯은 `title="추가 뉴스 검색 중"`, `summary=""` 같은 placeholder. **단, 12건 강제**라 차라리 검색 키워드를 넓혀 12개 채우는 게 우선 |
-| 수급 추출 실패 | 마스킹 형식 (`"+3,2xx억"`). 한경/이데일리/MT/파이낸셜뉴스 마감 기사 1차 시도 후 fallback. **v1은 3주체(외인/기관/개인)만 — 프로그램 매매는 출처 한계로 제외** |
-| 업종 등락 (`kr.sectorsUp/Down`) | **테마 + 대표 종목 형식** (`{theme, stockName, stockChange}`). 한경·이데일리·MT 마감 기사에서 강세/약세 테마와 대표 종목·등락률 추출. 예: `{theme:"반도체", stockName:"삼성전자", stockChange:"+2.1%"}`. 종목 등락 추출도 실패하면 stockChange만 `"+X.x%"` 마스킹 |
-| 시장체력 — 예탁금/신용잔고 (필수) | **실값 우선** — 한경/이데일리/MT 기사에서 "예탁금 XX조 돌파" 등 추출. 시차 1-2일이면 `tip`에 명시 |
-| 시장체력 — 공매도 잔고 상위 (선택) | 종목명을 못 찾으면 **health 배열에서 해당 항목 제거** (배열은 2개로 줄어듦). 출처 한계 인정. 마스킹(`"○○○ · △△△ · □□□"`)으로 채우지 말 것 |
+| Stooq 지수 1-2개 (예: `^kosdaq` 응답 실패) | §2 fallback 체인 끝까지 시도 (Yahoo→Google→Investing→WebSearch). **그래도 못 찾으면 그날 skip** (manifest 미갱신) |
+| 美 섹터 ETF 일부 (11개 중 일부) | 가져온 ETF만으로 정렬해 TOP 5 산출 (집합이 작아져도 5개 유지). 5개 미만이면 가져온 만큼만 (배열 길이 줄임) |
+| 뉴스 12건 미만 | **반드시 12건 채움**. 검색 키워드 확대 (가이드 §2 쿼리 예시 적극 활용). 정 안 되면 가능한 만큼만 (배열 길이 줄임) |
+| 수급 추출 실패 (외인/기관/개인 중 하나라도) | 한경/이데일리/MT/파이낸셜뉴스 1차 시도. 그래도 못 찾으면 **해당 주체 항목을 supply 배열에서 제거** (스키마 minItems 일시적 위반 가능 — 그건 sanity check 실패로 처리). 프로그램 매매는 v1에서 제외 (3주체만) |
+| 업종 등락 (`kr.sectorsUp/Down`) | 테마 + 대표 종목 형식. Alphasquare로 stockChange 정확값 확보 우선. 못 찾으면 **해당 항목을 sectorsUp/Down 배열에서 제거** (배열 길이 줄임) |
+| 시장체력 — 예탁금/신용잔고 (필수) | 실값 우선 (한경/이데일리/MT 기사). 못 찾으면 health 배열에서 제거 |
+| 시장체력 — 공매도 잔고 상위 (선택) | 종목명 못 찾으면 health 배열에서 제거 (배열 2개로 줄어듦) |
 | 경제일정 없음 (주말 등) | `timed: []`, `untimed: []` 빈 배열 + `subNote`에 "주말·공휴일로 주요 일정 없음" |
-| `health[2]` (공매도 잔고 상위) 데이터 부재 | `value: "○○○ · △△△ · □□□"`, `subIcon` 생략 (optional) |
+| 야간선물/ADR 못 찾을 때 | flow 배열에서 해당 항목 제거 (배열 길이 줄임) |
+
+### ⚠️ HTML 디자인 제약 — 반드시 카운트 채우기
+
+인덱스 HTML이 일부 영역은 **고정 카운트**를 가정하고 정적 라벨·CSS Grid로 구현되어 있어요. 항목이 부족하면 디자인이 어색해집니다 (마스킹 금지라 빈 자리/숫자 안 맞는 라벨이 그대로 노출):
+
+| 영역 | 가정 카운트 | 부족 시 영향 |
+|---|---|---|
+| `us.indices` (2x2 grid) | 4개 | 3개 이하 → grid 깨짐 |
+| `us.indicators` (wrap) | 6개 | 5개 이하 → 자연스럽게 줄어듦 |
+| `us.sectorsUp/Down` | 5+5개 | 4개 이하 → 정적 라벨 `상승 섹터 TOP 5`가 어색 |
+| `kr.indices` (pair) | 2개 | 1개 → grid 깨짐 |
+| `kr.flow` | 3개 | 2개 이하 → 자연스럽게 줄어듦 |
+| `kr.supply` (3열 grid) | 3개 | 2개 이하 → 빈 칸 발생 |
+| `kr.sectorsUp/Down` | 5+5개 | 4개 이하 → 정적 라벨 `강세 업종 TOP 5`가 어색 |
+| `world.global` / `world.domestic` | 12+12개 | 미만이면 어색 (카운트 라벨도 동적) |
+
+→ **fallback 체인 끝까지 적극 시도해서 반드시 카운트 채울 것**. 다양한 출처·검색 쿼리·종목 후보로 노력. 정말 못 채우면 그건 운영 측 신호 (출처 측 큰 변화나 환경 차단). 그날 발화 후 사용자가 알아챌 수 있음.
 
 ---
 
-## 7. manifest.json 갱신 절차
+## 7. Manifest 갱신 (`meta/manifest.json`)
+
+브리핑 JSON 저장 후, **같은 커밋에서** manifest를 갱신해야 인덱스가 새 날짜를 인식해요.
 
 ```
-1. briefing/manifest.json 읽기 (없으면 {"dates":[], "latest":null} 초기화)
+1. meta/manifest.json 읽기 (없으면 {"dates":[], "latest":null} 초기화)
 2. ⚠️  dates 배열에 새 날짜 추가 (이미 있으면 skip — 중복 절대 금지)
 3. ⚠️  dates 배열 오름차순 정렬 (필수 — 인덱스 캘린더가 이걸 가정해 활성화 표시함)
 4. latest = dates의 마지막 원소 (정렬 후 가장 최근 날짜)
 5. updatedAt = 현재 KST ISO 시각 (예: "2026-05-24T08:05:00+09:00")
-6. briefing/manifest.json 저장 (UTF-8, 2 space indent)
+6. meta/manifest.json 저장 (UTF-8, 2 space indent)
 ```
 
 **중복·정렬 실수의 영향**:
 - 중복 → 캘린더에 같은 날짜 중복 활성화 (시각 이상)
 - 정렬 안 됨 → `latest`가 최신이 아닐 수 있음 → 첫 로드 시 잘못된 날짜 표시
+
+---
+
+## 7-2. usage.json 갱신 (`meta/usage.json`)
+
+발화 종료 직전, `meta/usage.json`의 `history` 배열에 **이번 발화 entry 1개를 append**. usage.html 페이지가 이걸 읽어 그래프·표 렌더링.
+
+### 갱신 절차
+
+```
+1. meta/usage.json 읽기 (없으면 {"history":[], "updatedAt":""} 초기화)
+2. 이번 발화 entry 객체 생성 (아래 필드 명세 참고)
+3. history 배열에 append (정렬 불필요 — 자연 append 순서로 시간순 보장)
+4. updatedAt = 현재 KST ISO 시각
+5. meta/usage.json 저장 (UTF-8, 2 space indent)
+```
+
+### Entry 필드 명세
+
+| 필드 | 타입 | 값 | 채움 방식 |
+|---|---|---|---|
+| `date` | string | `"YYYY-MM-DD"` | KST 날짜 |
+| `time` | string | `"HH:MM"` | KST 24h 발화 시각 |
+| `model` | string | `"claude-sonnet-4-7"` 등 | 실행 모델명 (자체 보고) |
+| `status` | string | `"success" / "skip" / "fail"` | 정상 종료 / sanity skip / 예외 |
+| `duration_seconds` | number | 발화 시작~끝 초 | **정확값 ✓** |
+| `tokens_estimated` | number | 한국어 ~2자/토큰 환산 | **추산값** (정확값은 claude.ai Usage에서 확인) |
+| `tokens_actual` | number? | API 정확 토큰 (가능하면) | optional. 정확값 ✓ |
+| `response_size_kb` | number | 응답 본문 KB | **정확값 ✓** |
+| `tool_calls` | object | `{"WebFetch":N, "WebSearch":N, "Read":N, "Write":N, "Bash":N}` | 각 도구 호출 횟수 |
+| `news_count` | object | `{"global":12, "domestic":12}` | 실제 채운 개수 |
+| `source_url_coverage` | string | `"21/24"` 형식 | sourceUrl 채운 뉴스 수 / 전체 뉴스 수 |
+| `sources_attempted` | object | `{"Stooq":"fail:403","Yahoo":"8/8",...}` | 출처별 성공/시도 |
+| `masking_used` | array | **항상 `[]`** | 마스킹 금지 룰(§6) 적용. 채워졌다면 운영 측 신호 |
+| `push` | object | `{"branch":"claude/...","commit":"abc1234","merged":true}` | 푸시 브랜치 / 커밋 sha 7자 / auto-merge 성공 여부 |
+
+### 보고 정확도 등급
+
+- **정확값 ✓**: `duration_seconds`, `response_size_kb`, `tool_calls`, `news_count`, `source_url_coverage`, `sources_attempted`, `push`
+- **추산값 [EST]**: `tokens_estimated` — usage.html 다이얼로그에서 `[EST]` 배지로 표시되고 claude.ai Settings → Usage 링크 안내됨
+- **선택 ✓**: `tokens_actual` — 자체 보고 가능하면 정확값으로 입력 (있으면 다이얼로그에 ✓ 표시)
+
+### 운영 노트
+
+- `masking_used` 배열에 무언가 채워졌다는 건 §6 룰을 어겼다는 뜻 → 다음 발화 시 가이드 점검 필요
+- `sources_attempted`는 fallback 체인 추적용. Stooq 403 / Yahoo 성공률 / Alphasquare 0/0 같은 패턴이 누적되면 환경 변화 신호
+- `tokens_estimated`가 1M 토큰(Max 20x 5시간 한도)에 근접하면 발화 빈도·범위 재검토
 
 ---
 
@@ -382,7 +445,7 @@ health.value: "5x.x조"
 
 ### 기타
 
-- 실값 누락은 §6의 마스킹 fallback 사용. 인덱스 디자인은 마스킹을 전제로 함.
+- 실값 누락은 §6 룰대로 **항목 자체 제거** (마스킹 금지). 인덱스는 빈 배열·짧은 배열을 자연스럽게 처리.
 - 푸터 면책은 index.html에서 등급별로 표기 (자동 갱신 아님 — 정적).
 - routine 실패 시 manifest를 갱신하지 않음으로써 페이지가 자동으로 최신 가용 날짜를 보여주는 게 핵심 안전장치.
 

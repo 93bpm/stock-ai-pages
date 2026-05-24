@@ -371,9 +371,8 @@
 
   <footer>
     美 지수·환율·VIX/금리/유가/금/BTC·경제일정·기업 실적 일정은 <b>실값</b> (Stooq · Trading Economics · Investing.com).<br>
-    수급·업종·시장체력 등 일부 값은 출처 한계로 <b>마스킹 형식</b> (<code>+3,2xx</code>, <code>5x.x조</code>, <code>○○○</code>)일 수 있어요.<br>
     한줄평·테마·예상 범위는 LLM 종합 의견으로 <b>참고용</b>이에요. 본 브리핑은 정보 제공용이며 투자 조언이 아닙니다. 투자 판단과 책임은 본인에게 있어요.<br>
-    <span id="footer-date" style="opacity:.7;"></span>
+    <a href="./usage.html" style="color:var(--text-dim);text-decoration:none;">토큰 사용량 확인하기 →</a>
   </footer>
 </div>
 
@@ -446,7 +445,7 @@
 
   async function loadManifest(){
     // 캐시 버스팅: manifest는 매일 갱신되므로 timestamp 부착
-    return fetchJson(`${BASE}manifest.json?t=${Date.now()}`);
+    return fetchJson(`./meta/manifest.json?t=${Date.now()}`);
   }
 
   async function loadData(iso){
@@ -664,8 +663,6 @@
       renderWorld(data.world);
       renderKr(data.kr);
       renderCalendar(data.calendar);
-
-      $('footer-date').textContent = `표시 중인 데이터 · ${iso} (${weekdayOf(iso)})`;
 
       hideStatus();
     } catch (e) {
