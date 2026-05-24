@@ -7,9 +7,9 @@
     "subNoteEm": "다우 사상최고 경신",
     "comment": "메모리얼데이 연휴를 앞두고도 <b style=\"color:var(--red);\">헬스케어·IT 동반 강세</b>로 3대 지수 모두 상승 마감했어요. 다음 주 PCE 물가가 새 변수예요.",
     "indices": [
-      { "name": "S&P 500", "tip": "SPY ETF 대용 · 정규장 종가", "value": "745.64", "change": "▲ 0.39%", "dir": "up" },
-      { "name": "나스닥 100", "tip": "QQQ ETF 대용 · 정규장 종가", "value": "717.54", "change": "▲ 0.42%", "dir": "up" },
-      { "name": "다우 산업", "tip": "DIA ETF 대용 · 정규장 종가", "value": "506.12", "change": "▲ 0.60%", "dir": "up" },
+      { "name": "S&P 500", "tip": "정규장 종가", "value": "7,473.47", "change": "▲ 0.37%", "dir": "up" },
+      { "name": "나스닥 종합", "tip": "정규장 종가", "value": "26,343.97", "change": "▲ 0.19%", "dir": "up" },
+      { "name": "다우 산업", "tip": "정규장 종가", "value": "50,579.70", "change": "▲ 0.58%", "dir": "up" },
       { "name": "필라델피아 반도체", "tip": "SOXX ETF 대용", "value": "537.33", "change": "▲ 2.41%", "dir": "up" }
     ],
     "indicators": [
