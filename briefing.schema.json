@@ -58,6 +58,7 @@
         "title": { "type": "string", "description": "헤드라인" },
         "summary": { "type": "string", "description": "1-2문장 요약 (~돼요/~예요 어미)" },
         "source": { "type": "string", "description": "출처명 (예: Reuters, 연합뉴스)" },
+        "sourceUrl": { "type": "string", "format": "uri", "description": "원본 기사 URL (선택). 있으면 헤드라인·출처가 클릭 가능 링크로 렌더링됨" },
         "note": { "type": "string", "description": "왜 중요한지 한 줄 (📖 정리 옆 텍스트)" }
       }
     },
