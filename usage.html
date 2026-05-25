@@ -407,9 +407,7 @@
 
     const push = h.push || {};
     const pushHtml = `
-      <div class="dlg-row"><span class="k">브랜치</span><span class="v">${push.branch || '-'}</span></div>
-      <div class="dlg-row"><span class="k">커밋</span><span class="v">${push.commit || '-'}</span></div>
-      <div class="dlg-row"><span class="k">main 머지</span><span class="v">${push.merged ? '✅' : '❌'}</span></div>`;
+      <div class="dlg-row"><span class="k">브랜치</span><span class="v">${push.branch || '-'}</span></div>`;
 
     // 정확값 있으면 그것, 없으면 추산값
     const tokensActual = h.tokens_actual;

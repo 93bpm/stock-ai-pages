@@ -28,9 +28,7 @@
       },
       "masking_used": [],
       "push": {
-        "branch": "claude/elegant-davinci-vBoOd",
-        "commit": "5eb9e8c",
-        "merged": true
+        "branch": "claude/elegant-davinci-vBoOd"
       }
     }
   ],

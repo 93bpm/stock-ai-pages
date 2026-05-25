@@ -431,7 +431,7 @@
 | `source_url_coverage` | string | `"21/24"` 형식 | sourceUrl 채운 뉴스 수 / 전체 뉴스 수 |
 | `sources_attempted` | object | `{"Stooq":"fail:403","Yahoo":"8/8",...}` | 출처별 성공/시도 |
 | `masking_used` | array | **항상 `[]`** | 마스킹 금지 룰(§6) 적용. 채워졌다면 운영 측 신호 |
-| `push` | object | `{"branch":"claude/...","commit":"abc1234","merged":true}` | 푸시 브랜치 / 커밋 sha 7자 / auto-merge 성공 여부 |
+| `push` | object | `{"branch":"claude/..."}` | 푸시 브랜치명만 기록. **자기 SHA·머지 결과는 기록하지 않음** (사후 갱신용 추가 push 회피 — 1발화 = 1커밋 원칙). 정확한 SHA·머지 결과는 git log·GitHub Actions에서 확인 |
 
 ### 보고 정확도 등급
 
