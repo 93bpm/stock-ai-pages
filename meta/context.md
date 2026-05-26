@@ -62,6 +62,7 @@ routine은 시작에 `context.md` + `schema.json`만 fetch. 각 작업 단계에
 
 ### ✅ Sanity Check (저장 전)
 - [ ] 지수값 범위, |등락률| < 20%
+- [ ] **KST 날짜 검증** (현재 UTC + 9h = KST. data.date·weekday·generatedAt·파일명 모두 KST 일치) ★v1.4.1 신설★
 - [ ] date == 파일명 == weekday 일치
 - [ ] subNoteEm ⊂ subNote (4섹션 모두)
 - [ ] 마스킹값 grep 0건

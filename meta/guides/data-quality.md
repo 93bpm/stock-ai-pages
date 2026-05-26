@@ -83,6 +83,22 @@ routine이 **JSON 생성 후 저장 전 검증 단계**에서 정독.
   weekday == date의 실제 요일
   모든 required 필드 충족
 
+[KST 날짜 검증 — ★v1.4.1 신설★ — UTC↔KST 사고 차단]
+  ① 현재 UTC 시각 획득 → +9h → KST 시각 계산
+  ② data.date == 그 KST 시각의 날짜 부분 (YYYY-MM-DD)
+  ③ data.weekday == 그 KST 시각의 실제 요일 (일/월/화/수/목/금/토)
+  ④ generatedAt == 현재 KST ISO 시각 (예: "2026-05-26T08:17:00+09:00")
+  ⑤ briefing 파일명 == data.date (예: "briefing/2026-05-26.json")
+  → 위반 시 sanity fail (그날 skip)
+
+  ★사고 사례 (2026-05-25 발화)★:
+    UTC 5/25 23:17 발화 시 KST = 5/26인데
+    옛 routine이 UTC 그대로 사용 → data.date="2026-05-25"로 저장 (5/25.json 파일명)
+    → 모든 briefing이 1일씩 어긋난 채로 누적
+  ★재발 방지 룰★:
+    routine은 발화 시작 시 반드시 "현재 UTC + 9h" 계산을 명시적으로 수행
+    UTC 날짜를 그대로 data.date에 사용 절대 금지
+
 [뉴스 카운트]
   world.global.length == 12
   world.domestic.length == 12
