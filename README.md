@@ -8,7 +8,7 @@
 
 ## 개요
 
-매일 KST 07:40, Claude routine이 클라우드에서 자동 실행되어:
+매일 KST 07:00, Claude routine이 클라우드에서 자동 실행되어:
 
 1. **데이터 수집** — Stooq · finviz · Trading Economics · Investing.com · Yahoo Finance · Google Finance · WebSearch
 2. **JSON 생성** — 4개 섹션(美 증시 / 세계 뉴스 / 韓 증시 예상 / 오늘 일정)
