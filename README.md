@@ -55,9 +55,11 @@ stock-ai-pages/
 | 야간선물 (코스피200) | Investing.com 코스피200 선물 |
 | 경제 캘린더 | [Trading Economics](https://tradingeconomics.com) |
 | 기업 실적 일정 | Investing.com 실적 캘린더 |
-| 뉴스 (글로벌 12 + 국내 12) | WebSearch (CNBC, Bloomberg, Nikkei, 한경, 이데일리, MT 등) |
+| 뉴스 (글로벌 12 + 국내 12) | WebSearch (CNBC, Nikkei, NPR, MarketWatch, 한경, 이데일리, MT, 파이낸셜뉴스 등 공개 매체) |
 
-자세한 룰과 fallback은 [`meta/context.md`](./meta/context.md) 참조.
+> 차단 도메인(`bloomberg.com` · `wsj.com` · `ft.com` · `reuters.com` · `mk.co.kr` · `yna.co.kr`)은 봇 차단·paywall로 클릭 시 본문 확인 불가하므로 sourceUrl 사용 금지. 동일 사건의 공개 매체 보도로 교체.
+
+자세한 룰과 fallback은 [`meta/context.md`](./meta/context.md), [`meta/guides/news.md`](./meta/guides/news.md) 참조.
 
 ---
 
