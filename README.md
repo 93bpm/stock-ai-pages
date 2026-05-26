@@ -25,12 +25,18 @@ stock-ai-pages/
 ├── index.html              # 정적 페이지 (껍데기 + 렌더링 JS)
 ├── usage.html              # 사용량 history 페이지
 ├── README.md               # 프로젝트 개요
-├── VERSION.md              # 버전 이력 + 향후 계획
+├── VERSION.md              # 버전 이력
 ├── meta/                   # 메타 (스키마·가이드·인덱스)
+│   ├── context.md          # 매 발화 메인 체크리스트
 │   ├── schema.json         # 데이터 형식 규약 (JSON Schema)
-│   ├── context.md          # 매일 routine이 따르는 운영 가이드
 │   ├── manifest.json       # 가용 날짜 목록 (단일 진실 소스)
-│   └── usage.json          # 사용량 history 누적
+│   ├── usage.json          # 사용량 history 누적
+│   └── guides/             # 분야별 상세 가이드 (단계별 fetch)
+│       ├── sources.md      # 시세·캘린더 출처 + fallback 체인
+│       ├── news.md         # 뉴스 큐레이션 + sourceUrl 일체화
+│       ├── data-quality.md # 데이터 등급 + Sanity Check + 마스킹 금지
+│       ├── outputs.md      # 출력 규약 + manifest + usage + HTML 렌더링
+│       └── operations.md   # 톤·문체 + 휴장일 + 운영 노트
 ├── briefing/               # 일일 데이터 (immutable)
 │   └── YYYY-MM-DD.json     # 그날의 브리핑 데이터
 └── .github/workflows/
@@ -89,7 +95,7 @@ npx --yes --package=ajv-cli@5 --package=ajv-formats@3 \
 
 ## 버전
 
-현재 **v1.3.0** (2026-05-25) — 韓 개별 종목 출처 마이그레이션 (Yahoo/Google/Investing 3단 체인) + slug 매핑 표 14종 신설.
+현재 **v1.4.0** (2026-05-25) — 가이드 구조 분리 (5개 `guides/*.md`) + 뉴스 sourceUrl 일체화 (24/24 클릭 가능, 차단 도메인 금지).
 
 전체 변경 이력은 [`VERSION.md`](./VERSION.md) 참고.
 
