@@ -1,0 +1,379 @@
+{
+  "date": "2026-05-26",
+  "weekday": "화",
+  "generatedAt": "2026-05-26T18:30:00+09:00",
+  "us": {
+    "subNote": "美 메모리얼데이 전일(5/22) 마감값 기준 — 美·이란 공습 재개에 WTI $93 선으로 하락, 5/27 美 증시 재개장",
+    "subNoteEm": "美 5/27 재개장",
+    "comment": "메모리얼데이(5/25) 미국 증시 휴장으로 5/22 금요일 마감값이 기준이에요. <b style=\"color:var(--red);\">미국이 이란 핵시설에 공습을 재개하고 이란이 보복에 나서면서</b> 원유 시장 변동성이 확대됐어요. WTI는 장외에서 $93 선으로 하락했고 10년물 금리도 4.48%대로 소폭 낮아졌어요. 워시 신임 연준 의장 취임 첫 주에 <b>5/27 소비자신뢰지수·AutoZone 실적, 5/28 PCE·GDP 동시 발표</b>가 기다리고 있어요.",
+    "indices": [
+      { "name": "S&P 500", "tip": "5/22(금) 종가", "value": "7,473.47", "change": "▲ 0.37%", "dir": "up" },
+      { "name": "나스닥 종합", "tip": "5/22(금) 종가", "value": "26,343.97", "change": "▲ 0.19%", "dir": "up" },
+      { "name": "다우 산업", "tip": "5/22(금) 종가", "value": "50,579.70", "change": "▲ 0.58%", "dir": "up" },
+      { "name": "필라델피아 반도체", "tip": "SOXX ETF 대용", "value": "537.33", "change": "▲ 2.41%", "dir": "up" }
+    ],
+    "indicators": [
+      { "key": "VIX", "value": "16.70 ▲", "dir": "up" },
+      { "key": "美 10년물", "value": "4.48% ▼", "dir": "down" },
+      { "key": "달러 인덱스", "value": "99.05 ▼", "dir": "down" },
+      { "key": "WTI 유가", "value": "92.98달러 ▼", "dir": "down" },
+      { "key": "금", "value": "4,536달러 ▲", "dir": "up" },
+      { "key": "비트코인", "value": "76,610달러 ▼", "dir": "down" }
+    ],
+    "sectorsUp": [
+      { "name": "헬스케어 (XLV)", "change": "+1.17%" },
+      { "name": "IT (XLK)", "change": "+1.00%" },
+      { "name": "유틸리티 (XLU)", "change": "+0.78%" },
+      { "name": "산업재 (XLI)", "change": "+0.73%" },
+      { "name": "에너지 (XLE)", "change": "+0.61%" }
+    ],
+    "sectorsDown": [
+      { "name": "커뮤니케이션 (XLC)", "change": "−0.55%" },
+      { "name": "부동산 (XLRE)", "change": "+0.13%" },
+      { "name": "필수소비재 (XLP)", "change": "+0.17%" },
+      { "name": "임의소비재 (XLY)", "change": "+0.40%" },
+      { "name": "금융 (XLF)", "change": "+0.41%" }
+    ]
+  },
+  "world": {
+    "subNote": "美·이란 공습 재개 속 원유 하락·달러 약세 — KOSPI 8,000 사상 첫 마감, 5/28 PCE·금통위·GDP 트리플 이벤트",
+    "subNoteEm": "KOSPI 8,000 사상 첫 마감",
+    "global": [
+      {
+        "rank": "01",
+        "category": "지정학",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "美·이란 공습 교환 속 60일 휴전 MOU 동시 진행 — 원유·달러 변동성 극대화",
+        "summary": "美가 이란 핵시설에 추가 공습을 실시하고 이란이 보복에 나섰어요. 동시에 60일 휴전·호르무즈 해협 개방을 골자로 한 MOU 협상이 진행되며 유가가 6% 급락 후 반등하는 혼조세를 보였어요.",
+        "source": "CNN",
+        "sourceUrl": "https://www.cnn.com/2026/05/24/middleeast/iran-us-proposed-deal-wwk-intl",
+        "note": "MOU 최종 서명 타이밍에 따라 유가·해운 방향 갈려"
+      },
+      {
+        "rank": "02",
+        "category": "원자재",
+        "categoryStyle": "geo",
+        "sentiment": "pos",
+        "title": "WTI $92.98 — 이란 MOU 기대에 6%↓, 공습 재개에 부분 반등 혼조",
+        "summary": "이란 휴전 기대에 Brent·WTI가 장중 6% 이상 급락한 뒤 미국 공습 재개 소식에 부분 반등했어요. WTI는 $93 선에서 마감돼 월초 대비 큰 폭 하락을 유지했어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/26/oil-prices-today-brent-wti-iran-trump-hormuz.html",
+        "note": "정전 협상 타결 시 추가 $90 하향 가능"
+      },
+      {
+        "rank": "03",
+        "category": "채권",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "美 10년물 4.48% — 이란 공습 불확실성에 안전자산 수요 유입",
+        "summary": "미·이란 공습 재개로 위험 회피 심리가 커지며 美 국채가 소폭 강세를 보였어요. 10년물 금리는 4.48%대로 낮아지고 달러 인덱스도 99선으로 하락했어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/26/treasury-yields-us-strikes-on-iran-oil-bonds.html",
+        "note": "PCE 발표 전 방향성 미정"
+      },
+      {
+        "rank": "04",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "케빈 워시 연준 의장 공식 취임 — 역대 최저 상원 득표, 독립성 우려 속 선서",
+        "summary": "워시 신임 연준 의장이 취임 선서를 마쳤어요. 역대 가장 낮은 상원 찬성표를 얻으며 독립성 우려가 제기됐지만 취임 성명에서 데이터 기반 정책을 약속했어요.",
+        "source": "247WallSt",
+        "sourceUrl": "https://247wallst.com/investing/2026/05/25/kevin-warsh-sworn-in-as-fed-chair-with-lowest-senate-votes-ever-amid-independence-concerns/",
+        "note": "첫 FOMC 6/16~17, 금리 동결 유지 전망"
+      },
+      {
+        "rank": "05",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "美 주요 지수 5/27 재개장 대기 — 이란 공습에도 선물 강보합",
+        "summary": "5/25 메모리얼데이 이후 미국 시장이 5/27(화)부터 정상 거래에 들어가요. 이란 공습에도 불구하고 S&P 500 선물은 강보합을 유지했어요.",
+        "source": "Charles Schwab",
+        "sourceUrl": "https://www.schwab.com/learn/story/stock-market-update-open",
+        "note": "재개장 첫날 방향성이 이번 주 분수령"
+      },
+      {
+        "rank": "06",
+        "category": "지정학",
+        "categoryStyle": "geo",
+        "sentiment": "neu",
+        "title": "이란 협상 초안 상세 — 60일 휴전·호르무즈 재개방·동결자산 120억달러 해제",
+        "summary": "MOU 초안 세부가 확인됐어요. 60일 임시 휴전·지뢰 제거·원유 수출 재개·핵 협상 로드맵을 포함하며 합의까지 수일 내로 전망돼요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/23/us-iran-war-talks.html",
+        "note": "협상 타결 시 유가·항공·해운 동시 변동"
+      },
+      {
+        "rank": "07",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "워시 의장 취임 첫 주 인플레 시험대 — WTI·PCE 동시 압박",
+        "summary": "이란전쟁발 에너지 가격과 5/28 PCE 동시 발표가 워시 의장의 첫 정책 시험대를 형성해요. 금리 동결 vs 인상 신호 중 무엇을 택할지가 올해 Fed의 최대 관전 포인트예요.",
+        "source": "Charles Schwab",
+        "sourceUrl": "https://www.schwab.com/learn/story/are-you-there-inflation-its-me-kevin-warsh",
+        "note": "PCE 4.5% 상회 시 달러 강세 재반전 가능"
+      },
+      {
+        "rank": "08",
+        "category": "가상자산",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "비트코인 $76,610 보합 — 美·이스라엘 공습에도 위험자산 선호 유지",
+        "summary": "미국·이스라엘의 이란 공습에도 비트코인은 $76,000대를 유지했어요. 이더리움도 큰 변동 없이 횡보하며 암호화폐 시장이 지정학 충격을 소화하는 모습이에요.",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-may-26-2026-prices-hold-despite-us-israel-airstrikes-133728864.html",
+        "note": "ETF 승인 기대가 하방 지지"
+      },
+      {
+        "rank": "09",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "한은 5/28 금통위 동결 유력 — 3분기 인상 기대 65%, 신현송 첫 회의",
+        "summary": "신현송 총재 첫 금통위에서 2.50% 동결이 유력하지만 인상 소수의견이 등장할 수 있어요. 시장 전문가 65%는 7월 인상을 예상하며 연내 3% 목표 가능성을 거론해요.",
+        "source": "InvestingLive",
+        "sourceUrl": "https://investinglive.com/centralbank/bank-of-korea-preview-set-to-hold-on-thursday-28-may-as-rate-hike-bets-build-for-q3-20260526/",
+        "note": "인상 소수의견 등장 여부가 시장 변수"
+      },
+      {
+        "rank": "10",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "글로벌 증시 상승·유가 하락·채권 강세 — 이란 MOU 기대가 시장 재편",
+        "summary": "이란 종전 MOU 기대에 유가가 내리고 글로벌 증시가 오르며 채권도 강세를 보이는 3방향 랠리가 전개됐어요. 한국·일본·유럽 증시가 동반 상승했어요.",
+        "source": "Investor Ideas",
+        "sourceUrl": "https://www.investorideas.com/news/2026/main/05251-stocks-rise-oil-fall-bonds-trump-iran-deal.asp",
+        "note": "지정학 완화 국면에서 소비·항공 섹터 주목"
+      },
+      {
+        "rank": "11",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "美 4월 PCE + 한은 금통위 5/28 동시 — 글로벌 통화정책 분수령",
+        "summary": "5/28 하루에 美 4월 PCE(헤드라인 4.5% 예상)·한은 금통위·美 GDP 2차 추정치가 동시 발표돼요. 시장은 인플레 서프라이즈 가능성을 경계하고 있어요.",
+        "source": "Seoul Economic Daily",
+        "sourceUrl": "https://en.sedaily.com/finance/2026/05/24/bank-of-korea-likely-to-hold-rate-for-8th-time-us-april-pce",
+        "note": "PCE 서프라이즈 시 달러·원화 방향 급반전"
+      },
+      {
+        "rank": "12",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "한은 5/28 2.50% 동결 전망 — 하반기 인상 사이클 개시 시그널 주목",
+        "summary": "한은이 8회 연속 기준금리를 동결할 전망이에요. 그러나 금리 인상 사이클 재개 신호가 나올 가능성이 커 시장의 주목을 받고 있어요.",
+        "source": "Investing.com",
+        "sourceUrl": "https://www.investing.com/news/economy-news/south-koreas-central-bank-to-hold-key-rate-on-may-28-hikes-expected-from-q3-4708686",
+        "note": "3분기 인상 기대가 원화 강세 지지"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스피 사상 첫 8,000 돌파 마감 — 8,047.51(+2.55%), 역사적 이정표",
+        "summary": "코스피가 전 거래일 대비 199.80포인트(2.55%) 오른 8,047.51에서 장을 마치며 사상 처음으로 8,000선을 넘어 마감했어요. 삼성전기·SK하이닉스 등 AI 부품·반도체 주도로 기관이 9,111억원을 순매수했어요.",
+        "source": "ZDNet Korea",
+        "sourceUrl": "https://zdnet.co.kr/view/?no=20260526154003",
+        "note": "코스피 8,000 첫 종가 마감은 역사적 이정표"
+      },
+      {
+        "rank": "02",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "삼성전기 +17.31% · SK하이닉스 장중 200만원 돌파 — AI 부품·HBM 재평가 랠리",
+        "summary": "삼성전기가 AI 부품 재평가 기대에 17.31% 급등하며 상한가에 근접했어요. SK하이닉스는 HBM 수요 견인에 장중 200만원을 넘어섰고 삼성전자도 30만원대를 터치했어요.",
+        "source": "아주경제",
+        "sourceUrl": "https://www.ajunews.com/view/20260526101403358",
+        "note": "HBM·AI 부품 재평가 사이클 초기"
+      },
+      {
+        "rank": "03",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "개장 체크: 반도체·AI 부품 집중 매수 — 코스피 8,047.77 출발 후 강세",
+        "summary": "연휴 복귀 후 첫 거래에서 반도체·AI 부품주 중심의 집중 매수가 유입됐어요. 이란 종전 기대와 삼성전기·SK하이닉스 강세로 코스피가 개장 초부터 강세를 이어갔어요.",
+        "source": "서울신문",
+        "sourceUrl": "https://www.seoul.co.kr/news/economy/securities/2026/05/26/20260526500051",
+        "note": "연휴 복귀 첫날 반도체 모멘텀 강화"
+      },
+      {
+        "rank": "04",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "원달러 1,504.30원 마감 — 이란 종전 기대에 달러 약세·원화 12.90원 강세",
+        "summary": "원달러 환율이 전일 대비 12.90원 하락한 1,504.30원에 마감했어요. 이란 휴전 MOU 기대에 달러 인덱스가 약세를 보이며 원화가 큰 폭으로 강세 전환했어요.",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2587883",
+        "note": "1,500원선 추가 하향 돌파 여부 주목"
+      },
+      {
+        "rank": "05",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "외국인 12거래일 만에 순매수 전환 — 코스피 8,000 돌파에 수급 동반",
+        "summary": "외국인이 12거래일 연속 순매도 흐름을 끊고 711억원을 순매수했어요. 기관은 9,111억원을 쏟아부으며 상승을 이끌었고 개인은 6,167억원을 순매도했어요.",
+        "source": "중앙이코노미뉴스",
+        "sourceUrl": "https://www.joongangenews.com/news/articleView.html?idxno=521508",
+        "note": "외국인 순매수 지속 여부가 추가 랠리 관건"
+      },
+      {
+        "rank": "06",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "이란 종전 기대에 달러 약세 뚜렷 — 원달러 1,490원대 진입 가능성",
+        "summary": "이란 MOU 협상 진전에 달러 약세 흐름이 뚜렷해졌어요. 원달러가 1,504원으로 마감하며 1,500원선에 근접했고 추가 종전 기대 시 1,490원대 진입 가능성도 언급돼요.",
+        "source": "이데일리",
+        "sourceUrl": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03752326645452856",
+        "note": "미·이란 공습 재개에 원화 강세 제한될 수도"
+      },
+      {
+        "rank": "07",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "신현송 총재 첫 금통위 5/28 — 동결 유지하되 인상 시그널 예고",
+        "summary": "신현송 한은 총재의 첫 금통위가 5/28 열려요. 2.50% 동결이 유력하나 소수의견에서 인상을 주장할 가능성이 높고 총재의 향후 통화정책 방향 힌트가 주목돼요.",
+        "source": "Seoul Economic Daily",
+        "sourceUrl": "https://en.sedaily.com/finance/2026/05/26/shins-first-bok-meeting-hold-now-hike-signal-expected",
+        "note": "총재 첫 기자회견 발언에 시장 집중"
+      },
+      {
+        "rank": "08",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스피 장중 8,100 돌파 기록 — 외국인 순매수 전환이 추가 상승 견인",
+        "summary": "코스피가 장중 8,100선을 넘어서며 사상 최고치를 경신했어요. 외국인이 순매수로 돌아서고 기관 매수가 겹치며 강세를 이어갔고 종가는 8,047.51로 마감했어요.",
+        "source": "헤럴드경제",
+        "sourceUrl": "https://biz.heraldcorp.com/article/10755845",
+        "note": "종가 8,047.51로 마감, 장중 고점이 상단 저항선"
+      },
+      {
+        "rank": "09",
+        "category": "증시제도",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "단일종목 레버리지·인버스 ETF 2주차 — 코스피 8,000 돌파에 거래량 급증",
+        "summary": "5/22 첫 상장 이후 2주차에 접어든 단일종목 레버리지·인버스 ETF가 코스피 8,000 돌파 분위기에 거래량이 급증했어요. 삼성전자·SK하이닉스 레버리지 ETF가 특히 주목받았어요.",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/05/26/2026052616492771169",
+        "note": "레버리지 쏠림 과열 주의"
+      },
+      {
+        "rank": "10",
+        "category": "증시제도",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "MSCI 한국 지수 편출 확정 — 한진칼·HD현대마린솔루션·SK바이오팜 5/29 패시브 매물",
+        "summary": "MSCI 한국 지수 반기 리밸런싱에서 한진칼·HD현대마린솔루션·SK바이오팜이 편출 확정됐어요. 5/29 장 마감 후 편출 3종목에서 수천억원 규모 패시브 매물이 나올 수 있어요.",
+        "source": "이데일리",
+        "sourceUrl": "https://www.edaily.co.kr/News/Read?newsId=03401366645448592&mediaCodeNo=257",
+        "note": "편출 종목 매물 출회 장 마감 후 집중"
+      },
+      {
+        "rank": "11",
+        "category": "정책",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "국민성장펀드 1차 완판 — 5/26 2주차 매집 재개, 코스닥 AI·첨단산업 수혜",
+        "summary": "국민성장펀드 1주차 물량이 완판됐어요. 5/26부터 2주차 자펀드 매집이 재개되며 코스닥 AI 부품·첨단산업 중소형주에 추가 수급이 유입될 전망이에요.",
+        "source": "서울신문",
+        "sourceUrl": "https://www.seoul.co.kr/news/economy/finance/2026/05/25/20260525030006",
+        "note": "코스닥 AI·첨단산업 소형주 직접 수혜"
+      },
+      {
+        "rank": "12",
+        "category": "증시제도",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "단일종목 레버리지 ETF 활성화 — 삼성전자·하이닉스 레버리지, 8,000 돌파에 순항",
+        "summary": "삼성전자·SK하이닉스를 기초자산으로 한 단일종목 레버리지·인버스 ETF가 코스피 8,000 돌파 환경에서 건전한 거래량을 보였어요. 새로운 투자 대안으로 자리잡는 모습이에요.",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/202605269884i",
+        "note": "공매도 대체 수요와 개인 단기 매매 증가"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "코스피 사상 첫 8,000 마감(+2.55%) — 삼성전기·SK하이닉스 주도, 원화 12.90원 강세",
+    "subNoteEm": "8,047.51 사상 첫 8천피 마감",
+    "comment": "코스피가 <b style=\"color:var(--red);\">사상 처음으로 8,000포인트를 돌파해 8,047.51(+2.55%)로 마감</b>했어요. 삼성전기가 AI 부품 재평가에 17.31% 급등하며 장을 이끌었고, SK하이닉스는 장중 200만원을 넘어섰어요. 원달러 환율은 이란 종전 기대에 12.90원 하락한 1,504.30원으로 마감했어요. 기관이 9,111억원을 순매수하며 상승을 주도했고 외국인은 12거래일 만에 순매수(+711억)로 전환했어요.",
+    "expectedRange": "7,950~8,150",
+    "indices": [
+      { "name": "코스피", "tip": "5/26(화) 종가", "value": "8,047.51", "change": "▲ 2.55%", "dir": "up" },
+      { "name": "코스닥", "tip": "5/26(화) 종가", "value": "1,172.52", "change": "▲ 0.98%", "dir": "up" }
+    ],
+    "flow": [
+      { "key": "원/달러 환율", "value": "1,504.30원", "dir": "down" },
+      { "key": "미국 상장 한국물(ADR)", "value": "EWY 182.03달러", "dir": "neutral" }
+    ],
+    "supply": [
+      { "who": "외국인", "amount": "+711억", "dir": "buy" },
+      { "who": "기관", "amount": "+9,111억", "dir": "buy" },
+      { "who": "개인", "amount": "−6,167억", "dir": "sell" }
+    ],
+    "sectorsUp": [
+      { "theme": "AI 부품", "stockName": "삼성전기", "stockChange": "+17.31%" },
+      { "theme": "조선·방산", "stockName": "HD현대중공업", "stockChange": "+9.85%" },
+      { "theme": "반도체(HBM)", "stockName": "SK하이닉스", "stockChange": "+5.72%" },
+      { "theme": "반도체(대형)", "stockName": "삼성전자", "stockChange": "+2.22%" }
+    ],
+    "sectorsDown": [
+      { "theme": "보험", "stockName": "삼성생명", "stockChange": "−3.70%" },
+      { "theme": "전선·전력", "stockName": "대한전선", "stockChange": "−2.19%" },
+      { "theme": "2차전지 대형", "stockName": "삼성SDI", "stockChange": "−1.39%" },
+      { "theme": "금융", "stockName": "신한지주", "stockChange": "−0.92%" }
+    ],
+    "watchlist": [
+      { "name": "삼성전기·AI 부품", "badge": "관심", "badgeType": "up", "desc": "AI 부품 재평가 대장주 17.31% 급등, 추가 상승 여력과 소재·부품 밸류체인 연장" },
+      { "name": "SK하이닉스·삼성전자", "badge": "관심", "badgeType": "up", "desc": "장중 200만닉스·30만전자 돌파, HBM 수요 고성장 사이클 지속 확인" },
+      { "name": "한진칼·HD현대마린솔루션·SK바이오팜", "badge": "주의", "badgeType": "default", "desc": "5/29 MSCI 편출 패시브 매물, 장 마감 후 수천억 출회 주의" },
+      { "name": "원/달러 환율", "badge": "주목", "badgeType": "default", "desc": "이란 협상 타결 시 1,490원대 진입 가능, 美·이란 공습 재개 시 되돌림 위험" }
+    ],
+    "health": [
+      { "key": "투자자 예탁금", "tip": "대기 자금", "value": "122.5조", "subIcon": "▲", "subDir": "up" },
+      { "key": "신용융자 잔고", "tip": "레버리지 투자", "value": "35.4조", "subIcon": "▲", "subDir": "up" }
+    ]
+  },
+  "calendar": {
+    "subNote": "5/28 美 PCE·한은 금통위·美 GDP 트리플 이벤트, 5/29 MSCI 편출 패시브 매물 — 방향성 장세 예고",
+    "subNoteEm": "5/28 트리플 이벤트",
+    "riskSentiment": "혼조",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        { "event": "한은 금통위 기준금리 결정 (2.50% 동결 유력, 신현송 총재 첫 회의)", "when": "5/28(목) 오전" },
+        { "event": "MSCI 한국지수 반기 리밸런싱 (한진칼·HD현대마린솔루션·SK바이오팜 편출)", "when": "5/29(금) 장 마감 후" }
+      ]
+    },
+    "global": {
+      "timed": [],
+      "untimed": [
+        { "event": "美 소비자신뢰지수 + AutoZone 실적 발표", "when": "5/27(화) 23:00 KST" },
+        { "event": "美 4월 PCE + 1분기 GDP 2차 추정치 동시 발표", "when": "5/28(목) 21:30 KST" },
+        { "event": "中 5월 제조업 PMI 발표", "when": "5/30(토) 10:30 KST" }
+      ]
+    },
+    "theme": "코스피가 사상 첫 8,000 돌파를 달성했어요. 삼성전기·SK하이닉스가 AI 부품·HBM 재평가 랠리를 이끌었고 이란 MOU 기대가 달러 약세·유가 하락을 불렀어요. 앞으로 5/28 미국 PCE·한은 금통위·GDP가 같은 날 몰리는 트리플 이벤트와 5/29 MSCI 편출 패시브 매물이 단기 변동성의 핵심 변수예요.",
+    "checks": [
+      "이란 60일 휴전 MOU 최종 서명 타이밍 — 합의 시 WTI $90 이하 진입 가능",
+      "5/28 美 PCE 헤드라인이 4.5% 상회 시 워시 의장 금리 인상 신호 가능성",
+      "신현송 한은 총재 첫 기자회견에서 하반기 금리 인상 시그널 강도",
+      "5/29 MSCI 편출 3종목 패시브 매물 규모와 시장 충격 최소화 여부",
+      "외국인 순매수 전환 지속 여부 — 코스피 8,200 돌파 시도 기대"
+    ]
+  }
+}
