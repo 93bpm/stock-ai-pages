@@ -153,7 +153,38 @@
       "push": {
         "branch": "claude/youthful-davinci-2wV6u"
       }
+    },
+    {
+      "date": "2026-05-28",
+      "time": "00:59",
+      "model": "claude-sonnet-4-6",
+      "status": "success",
+      "duration_seconds": 2047,
+      "tokens_estimated": 45000,
+      "response_size_kb": 25.1,
+      "tool_calls": {
+        "WebFetch": 0,
+        "WebSearch": 20,
+        "Read": 5,
+        "Write": 1,
+        "Bash": 5,
+        "Edit": 2
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq": "fail:403",
+        "Yahoo": "fail:403",
+        "WebSearch": "20/20"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/youthful-davinci-Z2TiZ"
+      }
     }
   ],
-  "updatedAt": "2026-05-27T23:47:00+09:00"
+  "updatedAt": "2026-05-28T00:59:00+09:00"
 }
