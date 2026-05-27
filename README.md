@@ -8,7 +8,7 @@
 
 ## 개요
 
-매일 KST 07:00, Claude routine이 클라우드에서 자동 실행되어:
+Claude routine이 매일 정해진 시각에 클라우드에서 자동 실행됩니다 (정확한 일정·cron: [`meta/context.md`](./meta/context.md) "발화 일정·산출물" 섹션):
 
 1. **데이터 수집** — Stooq · finviz · Trading Economics · Investing.com · Yahoo Finance · Google Finance · WebSearch
 2. **JSON 생성** — 4개 섹션(美 증시 / 세계 뉴스 / 韓 증시 예상 / 오늘 일정)
@@ -47,19 +47,12 @@ stock-ai-pages/
 
 ## 데이터 출처
 
-| 카테고리 | 출처 |
-|---|---|
-| 美 지수·지표·섹터 ETF | [Stooq](https://stooq.com), [finviz](https://finviz.com) |
-| 韓 지수·환율 | Stooq, [Investing.com](https://kr.investing.com) |
-| 韓 개별 종목 | [Yahoo Finance](https://finance.yahoo.com) → [Google Finance](https://www.google.com/finance) → [Investing.com](https://www.investing.com) |
-| 야간선물 (코스피200) | Investing.com 코스피200 선물 |
-| 경제 캘린더 | [Trading Economics](https://tradingeconomics.com) |
-| 기업 실적 일정 | Investing.com 실적 캘린더 |
-| 뉴스 (글로벌 12 + 국내 12) | WebSearch (CNBC, Nikkei, NPR, MarketWatch, 한경, 이데일리, MT, 파이낸셜뉴스 등 공개 매체) |
+- **시세·지표·캘린더**: [Stooq](https://stooq.com) · [finviz](https://finviz.com) · [Trading Economics](https://tradingeconomics.com) · [Investing.com](https://kr.investing.com) · Yahoo · Google
+- **뉴스**: WebSearch (CNBC · Nikkei · NPR · MarketWatch · 한경 · 이데일리 · MT · 파이낸셜뉴스 등 공개 매체)
 
-> 차단 도메인(`bloomberg.com` · `wsj.com` · `ft.com` · `reuters.com` · `mk.co.kr` · `yna.co.kr`)은 봇 차단·paywall로 클릭 시 본문 확인 불가하므로 sourceUrl 사용 금지. 동일 사건의 공개 매체 보도로 교체.
+> 일부 매체(bloomberg/wsj/ft/reuters/mk/yna)는 봇 차단·paywall로 sourceUrl 사용 금지 — 동일 사건의 공개 매체 보도로 교체.
 
-자세한 룰과 fallback은 [`meta/context.md`](./meta/context.md), [`meta/guides/news.md`](./meta/guides/news.md) 참조.
+상세 fallback 체인 + 차단 도메인 정책: [`meta/guides/sources.md`](./meta/guides/sources.md), [`meta/guides/news.md`](./meta/guides/news.md)
 
 ---
 
@@ -97,9 +90,7 @@ npx --yes --package=ajv-cli@5 --package=ajv-formats@3 \
 
 ## 버전
 
-현재 **v1.4.0** (2026-05-25) — 가이드 구조 분리 (5개 `guides/*.md`) + 뉴스 sourceUrl 일체화 (24/24 클릭 가능, 차단 도메인 금지).
-
-전체 변경 이력은 [`VERSION.md`](./VERSION.md) 참고.
+현재 버전과 전체 변경 이력은 [`VERSION.md`](./VERSION.md) 참고.
 
 ---
 
