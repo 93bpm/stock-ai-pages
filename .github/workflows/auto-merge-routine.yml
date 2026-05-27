@@ -40,7 +40,42 @@ jobs:
             echo "⚠️  Fast-forward 불가, regular merge 시도"
             git merge --no-ff "origin/$BRANCH" -m "auto-merge: $BRANCH into main"
           fi
+          # Push는 verify step 후로 미룸
 
+      - name: Verify and patch response_size_kb (★v1.4.4★)
+        run: |
+          # routine 자체 보고 response_size_kb가 ±19~24% 부정확한 게 5/25~5/27 검증으로 확인됨
+          # → briefing JSON 실제 파일 크기로 CI가 덮어쓰기
+          DATE=$(jq -r '.history[-1].date' meta/usage.json)
+          BRIEFING="briefing/$DATE.json"
+
+          if [ ! -f "$BRIEFING" ]; then
+            echo "⚠️  $BRIEFING not found, skip verification"
+            exit 0
+          fi
+
+          ACTUAL_BYTES=$(wc -c < "$BRIEFING")
+          ACTUAL_KB=$(awk -v b="$ACTUAL_BYTES" 'BEGIN{printf "%.1f", b/1024}')
+          REPORTED_KB=$(jq -r '.history[-1].response_size_kb // "null"' meta/usage.json)
+
+          echo "Briefing: $BRIEFING ($ACTUAL_BYTES bytes)"
+          echo "Reported: ${REPORTED_KB} KB / Actual: ${ACTUAL_KB} KB"
+
+          # ACTUAL_KB 값으로 덮어쓰기 (같은 값이면 jq 결과도 같아서 diff 없음)
+          jq --argjson kb "$ACTUAL_KB" '.history[-1].response_size_kb = $kb' \
+            meta/usage.json > meta/usage.json.tmp
+          mv meta/usage.json.tmp meta/usage.json
+
+          if ! git diff --quiet meta/usage.json; then
+            git add meta/usage.json
+            git commit -m "fix: response_size_kb ${REPORTED_KB} → ${ACTUAL_KB} (CI 실측 보정)"
+            echo "✅ Patched"
+          else
+            echo "✅ No change needed (routine 보고값이 실측과 일치)"
+          fi
+
+      - name: Push main
+        run: |
           git push origin main
           echo "✅ Push to main complete"
 

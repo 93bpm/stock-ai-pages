@@ -103,6 +103,7 @@ manifest·usage 갱신 절차: [`guides/outputs.md §1·§2`](./guides/outputs.m
 
 ### 💾 산출물 갱신
 - [ ] usage.json append 직전: `END_TS` 측정 → `duration_seconds = END_TS - START_TS`
+- [ ] briefing 저장 직후: `wc -c` 등으로 실측 → `response_size_kb` 채움 (자체 추산 금지) ★v1.4.4★
 - [ ] 3개 파일 (briefing·manifest·usage) 같은 커밋
 → [`guides/outputs.md §1·§2`](./guides/outputs.md)
 

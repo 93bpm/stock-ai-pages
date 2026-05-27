@@ -52,7 +52,7 @@ routine이 **산출물 작성 단계 + HTML 렌더링 검증**에서 정독.
 | `duration_seconds` | number | 발화 시작~끝 초 (wall-clock) | **정확값 ✓** — 단, 아래 "duration_seconds 측정 절차" 따라야 함 |
 | `tokens_estimated` | number | 한국어 ~2자/토큰 환산 | **추산값** (정확값은 claude.ai Usage에서 확인) |
 | `tokens_actual` | number? | API 정확 토큰 (가능하면) | optional. 정확값 ✓ |
-| `response_size_kb` | number | 응답 본문 KB | **정확값 ✓** |
+| `response_size_kb` | number | 응답 본문 KB (briefing JSON 실제 파일 크기) | **정확값 ✓** — 단, 아래 "response_size_kb 측정 절차" 따라야 함 |
 | `tool_calls` | object | `{"WebFetch":N, "WebSearch":N, "Read":N, "Write":N, "Bash":N}` | 각 도구 호출 횟수 |
 | `news_count` | object | `{"global":12, "domestic":12}` | 실제 채운 개수 |
 | `source_url_coverage` | string | `"24/24"` 형식 | sourceUrl 채운 뉴스 수 / 전체 뉴스 수 (★v1.4.0부터 24/24 목표★) |
@@ -90,6 +90,28 @@ routine이 **산출물 작성 단계 + HTML 렌더링 검증**에서 정독.
 **과거 기록 보정**
 
 기존 history entry는 자체 추정값이라 신뢰도 낮음. 과거 데이터는 그대로 두되, v1.4.2 적용 시점부터 새 entry는 위 절차로 측정. usage.html 평균 시간 카드는 자연스럽게 새 값 누적되면 보정됨.
+
+### response_size_kb 측정 절차 ★v1.4.4 신설★
+
+routine이 회고적으로 "대충 이 정도 KB"라고 추산하면 실제 파일 크기와 15~25% 벌어져요 (5/25~5/27 실측 검증 결과). briefing JSON 파일은 디스크에 존재하므로 **실측이 가능합니다**. 자체 추산 금지.
+
+```
+[Step N — briefing/YYYY-MM-DD.json 저장 직후, usage.json append 전]
+  1. Bash로 파일 byte 크기 측정 (예: `wc -c < briefing/YYYY-MM-DD.json` 또는 `stat -c %s`)
+  2. KB로 환산: bytes / 1024, 소수점 1자리 반올림
+  3. usage.json entry의 response_size_kb에 그 값 입력
+```
+
+**원칙**
+- 측정 대상은 **briefing JSON 단일 파일** (manifest·usage 제외)
+- 단위: KB (1024 bytes). 소수점 1자리까지. 예: 25596 bytes → 25.0 KB
+- routine이 파일 크기 측정 못하는 환경이면 (sandbox 등) `null`로 두기 — 임의 추산 금지
+
+**CI 최종 검증·보정 ★강제★**
+
+`.github/workflows/auto-merge-routine.yml`의 "Verify and patch response_size_kb" step이 매 푸시마다 briefing 파일을 `wc -c`로 실측해 routine 보고값과 비교. **다르면 자동으로 덮어쓰기 + 보정 커밋** (`fix: response_size_kb X.X → Y.Y (CI 실측 보정)`). 즉 routine이 측정 룰을 빼먹어도 main에 머지되는 시점엔 100% 정확값으로 정정됨.
+
+이로 인해 1발화 = 1커밋 원칙은 깨질 수 있음 (보정 커밋 +1). 다만 정확도가 더 중요하다는 트레이드오프로 수용.
 
 ### 운영 노트
 
