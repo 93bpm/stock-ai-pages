@@ -1,380 +1,524 @@
 {
-  "date": "2026-05-27",
-  "weekday": "수",
-  "generatedAt": "2026-05-27T07:10:00+09:00",
-  "us": {
-    "subNote": "5/26(화) 메모리얼데이 재개장 — 마이크론 +19% $1조 클럽, 나스닥 26,656 신고, 5/28 PCE·GDP 예정",
-    "subNoteEm": "마이크론 +19% $1조 클럽",
-    "comment": "메모리얼데이(5/25) 이후 재개장 첫날, 마이크론이 어닝 서프라이즈로 <b style=\"color:var(--red);\">+19% 급등하며 시가총액 1조 달러 클럽에 진입</b>했어요. UBS는 목표주가를 535달러에서 1,625달러로 대폭 상향했어요. AMD(+6%)·브로드컴(+5%)도 동반 급등하며 나스닥이 26,656(+1.19%), S&P 500이 7,519(+0.61%)로 사상 최고치를 경신했어요. 다우는 에너지·금융 약세에 −0.23%로 소폭 하락했어요. <b>5/28에는 미국 PCE·GDP Q1 2차 추정치와 한은 금통위가 동시에</b> 예정돼 있어요.",
-    "indices": [
-      { "name": "S&P 500", "tip": "5/26(화) 종가", "value": "7,519.12", "change": "▲ 0.61%", "dir": "up" },
-      { "name": "나스닥 종합", "tip": "5/26(화) 종가", "value": "26,656.18", "change": "▲ 1.19%", "dir": "up" },
-      { "name": "다우 산업", "tip": "5/26(화) 종가", "value": "50,461.68", "change": "▼ 0.23%", "dir": "down" },
-      { "name": "필라델피아 반도체", "tip": "SOXX ETF 대용 (추산)", "value": "555.07", "change": "▲ 3.29%", "dir": "up" }
-    ],
-    "indicators": [
-      { "key": "VIX", "value": "16.59 ▼", "dir": "down" },
-      { "key": "美 10년물", "value": "4.51% ▲", "dir": "up" },
-      { "key": "달러 인덱스", "value": "99.24 ▲", "dir": "up" },
-      { "key": "WTI 유가", "value": "91.73달러 ▼", "dir": "down" },
-      { "key": "금", "value": "4,551달러 ▲", "dir": "up" },
-      { "key": "비트코인", "value": "76,823달러 ▼", "dir": "down" }
-    ],
-    "sectorsUp": [
-      { "name": "IT (XLK)", "change": "+3.20%" },
-      { "name": "커뮤니케이션 (XLC)", "change": "+0.82%" },
-      { "name": "헬스케어 (XLV)", "change": "+0.37%" },
-      { "name": "임의소비재 (XLY)", "change": "+0.24%" },
-      { "name": "소재 (XLB)", "change": "+0.19%" }
-    ],
-    "sectorsDown": [
-      { "name": "에너지 (XLE)", "change": "−1.82%" },
-      { "name": "부동산 (XLRE)", "change": "−0.57%" },
-      { "name": "유틸리티 (XLU)", "change": "−0.43%" },
-      { "name": "금융 (XLF)", "change": "−0.31%" },
-      { "name": "필수소비재 (XLP)", "change": "−0.18%" }
-    ]
-  },
-  "world": {
-    "subNote": "마이크론 +19% 어닝 서프라이즈·나스닥 26,656 신고 — 코스피 8,000 첫 종가, 5/28 PCE·금통위·GDP 트리플 이벤트",
-    "subNoteEm": "마이크론 +19%·코스피 8,000 역사",
-    "global": [
-      {
-        "rank": "01",
-        "category": "반도체",
-        "categoryStyle": "tech",
-        "sentiment": "pos",
-        "title": "마이크론 +19% 어닝 서프라이즈 — 시총 $1조 클럽 진입, UBS 목표주가 $1,625 상향",
-        "summary": "마이크론이 예상을 크게 웃도는 실적을 발표해 +19% 급등하며 시가총액 1조달러 클럽에 진입했어요. UBS는 목표주가를 535달러에서 1,625달러로 3배 이상 상향하며 AI 메모리 수요 폭증을 이유로 들었어요.",
-        "source": "CNBC",
-        "sourceUrl": "https://www.cnbc.com/2026/05/26/micron-earnings-beat-stock-jumps.html",
-        "note": "HBM 밸류체인(SK하이닉스·삼성전자) 동반 수혜 기대"
-      },
-      {
-        "rank": "02",
-        "category": "증시",
-        "categoryStyle": "default",
-        "sentiment": "pos",
-        "title": "나스닥 26,656(+1.19%) 사상 최고 — 메모리얼데이 재개장 첫날 반도체 랠리 주도",
-        "summary": "메모리얼데이 이후 재개장 첫날 나스닥이 26,656으로 사상 최고치를 경신했어요. 마이크론·AMD·브로드컴 등 반도체 대형주가 동반 급등하며 시장을 이끌었어요.",
-        "source": "MarketWatch",
-        "sourceUrl": "https://www.marketwatch.com/story/stock-market-today-nasdaq-surges-micron-memorial-day-reopening-2026-05-26",
-        "note": "나스닥 26,000대 안착이 상승 추세 확인"
-      },
-      {
-        "rank": "03",
-        "category": "증시",
-        "categoryStyle": "default",
-        "sentiment": "pos",
-        "title": "S&P 500 7,519.12(+0.61%) 신고가 — IT 섹터 +3.2%, 에너지 하락이 상승폭 제한",
-        "summary": "S&P 500이 7,519.12로 신고가를 경신했어요. IT 섹터가 3.2% 급등하며 전체 지수를 끌어올렸지만 WTI 하락에 에너지 섹터가 1.8% 빠지며 상승폭을 제한했어요.",
-        "source": "247WallSt",
-        "sourceUrl": "https://247wallst.com/investing/2026/05/26/sp-500-new-record-it-sector-leads-energy-drags/",
-        "note": "다우는 에너지·금융 약세에 −0.23%로 소폭 하락"
-      },
-      {
-        "rank": "04",
-        "category": "반도체",
-        "categoryStyle": "tech",
-        "sentiment": "pos",
-        "title": "AMD +6% · 브로드컴 +5% — AI GPU·커스텀칩 수요 급증, 마이크론 후광 효과",
-        "summary": "마이크론 급등에 반도체 섹터 전반이 동반 강세를 보였어요. AMD가 AI GPU 수요 기대에 6% 오르고 브로드컴은 AI 커스텀칩 수주 전망에 5% 상승했어요.",
-        "source": "Investor's Business Daily",
-        "sourceUrl": "https://www.investors.com/news/technology/amd-broadcom-stock-ai-chip-rally-2026/",
-        "note": "반도체 사이클 2단계 진입 신호"
-      },
-      {
-        "rank": "05",
-        "category": "반도체",
-        "categoryStyle": "tech",
-        "sentiment": "pos",
-        "title": "SOXX ETF ~$555(+3.29% 추산) — 반도체 ETF 사상 최고치, AI 사이클 가속 확인",
-        "summary": "필라델피아 반도체지수 대용 SOXX ETF가 약 3.29% 상승해 사상 최고치를 경신한 것으로 추산돼요. 마이크론·AMD·브로드컴의 동반 급등이 반도체 사이클 가속을 확인시켜줬어요.",
-        "source": "Investopedia",
-        "sourceUrl": "https://www.investopedia.com/semiconductor-etf-soxx-record-high-micron-rally-2026-05-26/",
-        "note": "SOXX $600 목표치 상향 논의 시작"
-      },
-      {
-        "rank": "06",
-        "category": "지정학",
-        "categoryStyle": "geo",
-        "sentiment": "neu",
-        "title": "美·이란 60일 휴전 MOU '거의 타결' — 호르무즈 재개방·동결자산 120억달러 해제 포함",
-        "summary": "미국과 이란 간 60일 임시 휴전과 호르무즈 해협 재개방을 골자로 한 MOU 협상이 사실상 타결 단계에 근접했어요. 동결자산 120억달러 해제도 포함돼 유가 하락·달러 약세를 촉발했어요.",
-        "source": "CNBC",
-        "sourceUrl": "https://www.cnbc.com/2026/05/26/us-iran-ceasefire-mou-largely-negotiated.html",
-        "note": "최종 서명 시 WTI $85 진입 가능"
-      },
-      {
-        "rank": "07",
-        "category": "지정학",
-        "categoryStyle": "geo",
-        "sentiment": "neg",
-        "title": "미국, 이란 핵시설 추가 공습 — 이란 보복에도 MOU 협상 병행 진행",
-        "summary": "미국이 이란 핵시설에 추가 공습을 실시하고 이란도 보복 공격에 나섰어요. 그러나 두 나라는 MOU 협상을 병행하는 이중적 상황이 지속되며 시장 변동성이 극대화됐어요.",
-        "source": "CNN",
-        "sourceUrl": "https://www.cnn.com/2026/05/26/middleeast/us-strikes-iran-nuclear-ceasefire",
-        "note": "공습 지속 속 협상 병행 — 이례적 외교 패턴"
-      },
-      {
-        "rank": "08",
-        "category": "원자재",
-        "categoryStyle": "geo",
-        "sentiment": "pos",
-        "title": "WTI $91.73 급락 — 이란 MOU 기대에 하루 3% 하락, 정전 합의 시 $85 진입 전망",
-        "summary": "이란 휴전 MOU 기대감에 WTI가 전일 대비 3% 이상 하락해 $91.73으로 마감했어요. 이란 원유 수출이 재개될 경우 추가 하락해 $85대 진입도 가능하다는 분석이 나왔어요.",
-        "source": "InvestingLive",
-        "sourceUrl": "https://investinglive.com/energy/wti-crude-falls-iran-ceasefire-deal-oil-price-91-20260526/",
-        "note": "유가 하락이 글로벌 인플레 완화 경로 지원"
-      },
-      {
-        "rank": "09",
-        "category": "원자재",
-        "categoryStyle": "default",
-        "sentiment": "neu",
-        "title": "금 $4,551 상승 — 이란 공습 지정학 리스크·인플레 헤지 수요 동반",
-        "summary": "이란 공습 지정학 리스크와 인플레이션 헤지 수요가 맞물리며 금이 $4,551로 상승했어요. 미국 10년물 금리가 4.51%로 오르는 가운데도 안전자산 수요가 유지됐어요.",
-        "source": "Yahoo Finance",
-        "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-4551-iran-geopolitics-may-26-2026/",
-        "note": "금 $4,600 돌파 시 1980년대 이후 최장 강세 기록"
-      },
-      {
-        "rank": "10",
-        "category": "통화정책",
-        "categoryStyle": "default",
-        "sentiment": "neu",
-        "title": "5/28 美 PCE 발표 대기 — 워시 의장 첫 인플레 시험대, 헤드라인 4.5% 예상",
-        "summary": "내일(5/28) 미국 4월 PCE 물가지수가 발표돼요. 헤드라인 4.5% 예상치를 상회 시 워시 신임 연준 의장의 금리 인상 신호 가능성이 높아지고 달러 강세가 재개될 수 있어요.",
-        "source": "Charles Schwab",
-        "sourceUrl": "https://www.schwab.com/learn/story/pce-gdp-may-28-warsh-inflation-test",
-        "note": "4.5% 하회 시 반도체·기술주 추가 랠리 기대"
-      },
-      {
-        "rank": "11",
-        "category": "거시",
-        "categoryStyle": "default",
-        "sentiment": "neu",
-        "title": "5/28 美 GDP Q1 2차 추정치 — 초안 +2.8% 연율, 이란 리스크 반영 여부 주목",
-        "summary": "5/28 미국 1분기 GDP 2차 추정치가 발표돼요. 1차 추정치 +2.8% 연율 대비 소폭 하향될 것으로 예상되며 미·이란 전쟁발 공급망 충격이 어떻게 반영됐는지가 관전 포인트예요.",
-        "source": "Investor Ideas",
-        "sourceUrl": "https://www.investorideas.com/news/2026/main/05270-gdp-pce-may28-preview-iran-war-impact.asp",
-        "note": "+2.5% 이하 확인 시 경기 둔화 우려 재점화 가능"
-      },
-      {
-        "rank": "12",
-        "category": "채권",
-        "categoryStyle": "default",
-        "sentiment": "neg",
-        "title": "美 10년물 4.51% 상승 — PCE 발표 앞 인플레 경계, 달러 인덱스 99.24 반등",
-        "summary": "이란 MOU 기대에도 美 10년물 금리가 4.51%로 상승하며 달러 인덱스도 99.24로 반등했어요. PCE 발표 전 인플레·경기 불확실성을 반영한 채권 약세가 이어지고 있어요.",
-        "source": "InvestingLive",
-        "sourceUrl": "https://investinglive.com/treasuries/us-10yr-yield-4-51-dollar-index-rebounds-pce-preview-20260526/",
-        "note": "10년물 4.6% 돌파 시 주식 밸류에이션 압박 재발"
-      }
-    ],
-    "domestic": [
-      {
-        "rank": "01",
-        "category": "증시",
-        "categoryStyle": "default",
-        "sentiment": "pos",
-        "title": "코스피 사상 첫 8,000 마감 8,047.51(+2.55%) — 기관 9,111억 순매수 역대급",
-        "summary": "코스피가 전일 대비 199.80포인트(2.55%) 오른 8,047.51에서 장을 마치며 사상 처음으로 8,000선을 넘어 마감했어요. 삼성전기·SK하이닉스 등 AI 부품·반도체 주도로 기관이 9,111억원을 순매수했어요.",
-        "source": "ZDNet Korea",
-        "sourceUrl": "https://zdnet.co.kr/view/?no=20260526184501",
-        "note": "코스피 8,000 첫 종가 마감은 역사적 이정표"
-      },
-      {
-        "rank": "02",
-        "category": "반도체",
-        "categoryStyle": "tech",
-        "sentiment": "pos",
-        "title": "삼성전기 +17.31% 급등 — AI 부품·MLCC 재평가, 반도체 밸류체인 동반 강세",
-        "summary": "삼성전기가 AI 부품 수요 재평가 기대에 17.31% 급등하며 상한가에 근접했어요. AI용 MLCC·반도체 패키지 수요 급증이 이유로 꼽히며 관련 부품 밸류체인 전반이 동반 강세를 보였어요.",
-        "source": "아주경제",
-        "sourceUrl": "https://www.ajunews.com/view/20260526152104789",
-        "note": "AI 부품 재평가 사이클 초기, 추가 상승 여력 언급"
-      },
-      {
-        "rank": "03",
-        "category": "증시제도",
-        "categoryStyle": "default",
-        "sentiment": "pos",
-        "title": "오늘(5/27) 삼성·SK하이닉스 단일종목 2x 레버리지·인버스 ETF 16종 신규 상장",
-        "summary": "오늘(5/27 수) 삼성전자·SK하이닉스를 기초자산으로 한 단일종목 2배 레버리지·인버스 ETF 16종이 신규 상장돼요. 코스피 8,000 돌파 이후 개인 투자자의 레버리지 수요가 높아 첫날 거래량 집중이 예상돼요.",
-        "source": "머니투데이",
-        "sourceUrl": "https://www.mt.co.kr/stock/2026/05/27/2026052700143300001",
-        "note": "첫날 괴리율·거래량 과열 주의, 레버리지 리스크 인지 필수"
-      },
-      {
-        "rank": "04",
-        "category": "반도체",
-        "categoryStyle": "tech",
-        "sentiment": "pos",
-        "title": "SK하이닉스 +5.72%·장중 200만원 돌파 — 마이크론 어닝에 HBM 수요 재확인",
-        "summary": "SK하이닉스가 5.72% 상승하며 장중 200만원을 돌파했어요. 마이크론의 HBM 가이던스 대폭 상향이 글로벌 HBM 수요 폭증을 재확인시키며 SK하이닉스에도 수혜가 집중됐어요.",
-        "source": "헤럴드경제",
-        "sourceUrl": "https://biz.heraldcorp.com/article/10755901",
-        "note": "장중 200만닉스 터치, HBM 사이클 가속 확인"
-      },
-      {
-        "rank": "05",
-        "category": "증시",
-        "categoryStyle": "default",
-        "sentiment": "pos",
-        "title": "HD현대중공업 +9.85% — 방산 수주 모멘텀·조선 수주 잔고 사상 최고",
-        "summary": "HD현대중공업이 9.85% 급등했어요. 방산 수출 계약 체결 기대와 함께 글로벌 조선 발주 증가로 수주 잔고가 사상 최고치를 경신한 것이 주가 상승을 이끌었어요.",
-        "source": "이투데이",
-        "sourceUrl": "https://www.etoday.co.kr/news/view/2587912",
-        "note": "방산·조선 복합 수혜, 하반기 수주 모멘텀 지속 전망"
-      },
-      {
-        "rank": "06",
-        "category": "증시",
-        "categoryStyle": "default",
-        "sentiment": "neu",
-        "title": "외국인 13거래일 연속 매도 -1,840억 — 기관 9,111억 역대급 순매수로 지수 방어",
-        "summary": "외국인이 13거래일 연속 순매도(-1,840억)를 이어갔지만 기관이 9,111억원을 쏟아부으며 지수를 지지했어요. 개인은 6,167억원을 순매도해 차익 실현에 나섰어요.",
-        "source": "서울신문",
-        "sourceUrl": "https://www.seoul.co.kr/news/economy/securities/2026/05/26/20260526500238",
-        "note": "외국인 순매수 전환 시 코스피 8,200 돌파 시도 가능"
-      },
-      {
-        "rank": "07",
-        "category": "통화정책",
-        "categoryStyle": "default",
-        "sentiment": "neu",
-        "title": "내일(5/28) 한은 금통위 2.50% 동결 유력 — 신현송 총재 첫 회의·인상 시그널 주목",
-        "summary": "내일(5/28) 신현송 한국은행 총재의 첫 금통위에서 기준금리 2.50% 동결이 유력해요. 다만 하반기 인상 사이클 개시를 예고하는 소수의견 등장 여부와 총재의 기자회견 발언이 시장 집중을 받을 전망이에요.",
-        "source": "Seoul Economic Daily",
-        "sourceUrl": "https://en.sedaily.com/finance/2026/05/27/bok-may-28-hold-shin-hyun-song-first-meeting",
-        "note": "인상 소수의견 등장 시 원화 강세 가속 가능"
-      },
-      {
-        "rank": "08",
-        "category": "환율",
-        "categoryStyle": "default",
-        "sentiment": "pos",
-        "title": "원달러 1,504.30원 마감 — 이란 MOU 기대에 12.90원 강세, 1,500원선 근접",
-        "summary": "원달러 환율이 전일 대비 12.90원 하락한 1,504.30원에 마감했어요. 이란 휴전 MOU 기대에 달러 약세가 이어지며 원화가 큰 폭 강세 전환했어요. 1,500원선 추가 하향 돌파 가능성도 열려 있어요.",
-        "source": "이투데이",
-        "sourceUrl": "https://www.etoday.co.kr/news/view/2587883",
-        "note": "이란 공습 재개 시 되돌림 위험 존재"
-      },
-      {
-        "rank": "09",
-        "category": "반도체",
-        "categoryStyle": "tech",
-        "sentiment": "pos",
-        "title": "삼성전자 +2.22%·30만원대 회복 — 마이크론 강세에 메모리 대형주 동반 상승",
-        "summary": "삼성전자가 2.22% 상승하며 30만원대를 회복했어요. 마이크론 어닝 서프라이즈가 글로벌 메모리 수요 재확인으로 해석되며 삼성전자에도 긍정적 영향이 미쳤어요.",
-        "source": "이투데이",
-        "sourceUrl": "https://www.etoday.co.kr/news/view/2587956",
-        "note": "35만원 돌파 시 시총 200조 회복"
-      },
-      {
-        "rank": "10",
-        "category": "증시제도",
-        "categoryStyle": "default",
-        "sentiment": "neg",
-        "title": "5/29 MSCI 한국지수 편출 패시브 매물 예고 — 한진칼·HD현대마린솔루션·SK바이오팜",
-        "summary": "MSCI 한국 지수 반기 리밸런싱에서 한진칼·HD현대마린솔루션·SK바이오팜이 편출 확정됐어요. 5/29 장 마감 후 이 세 종목에서 수천억원 규모의 패시브 매물이 출회될 수 있어 주의가 필요해요.",
-        "source": "이데일리",
-        "sourceUrl": "https://www.edaily.co.kr/News/Read?newsId=03401386645448712&mediaCodeNo=257",
-        "note": "편출 종목 단기 매물 부담, 장 마감 후 집중 출회"
-      },
-      {
-        "rank": "11",
-        "category": "정책",
-        "categoryStyle": "default",
-        "sentiment": "pos",
-        "title": "국민성장펀드 2주차 매집 재개 — 코스닥 AI·첨단산업 중소형주 수급 유입",
-        "summary": "국민성장펀드 1주차 물량 완판 이후 2주차 자펀드 매집이 재개되며 코스닥 AI 부품·첨단산업 중소형주에 추가 수급이 유입되고 있어요. 코스닥 지수 상승을 지지하는 정책 수요로 평가돼요.",
-        "source": "서울신문",
-        "sourceUrl": "https://www.seoul.co.kr/news/economy/finance/2026/05/25/20260525030006",
-        "note": "코스닥 AI·첨단산업 소형주 직접 수혜"
-      },
-      {
-        "rank": "12",
-        "category": "증시",
-        "categoryStyle": "default",
-        "sentiment": "neg",
-        "title": "삼성생명 −3.70%·삼성SDI −1.39% — 보험·2차전지 반도체 쏠림 역풍",
-        "summary": "반도체·AI 부품주로 수급이 집중되면서 보험과 2차전지 섹터가 역풍을 맞았어요. 삼성생명이 3.70% 하락하고 삼성SDI도 1.39% 내리며 자금 이탈이 두드러졌어요.",
-        "source": "한국경제",
-        "sourceUrl": "https://www.hankyung.com/article/202605269891b",
-        "note": "반도체 랠리 일단락 후 섹터 로테이션 가능성"
-      }
-    ]
-  },
-  "kr": {
-    "subNote": "코스피 8,047.51 사상 첫 8천피 마감(+2.55%) — 삼성전기·SK하이닉스 주도, 오늘 삼성·하이닉스 2x 레버리지 ETF 상장",
-    "subNoteEm": "8,047.51 사상 첫 8천피 마감",
-    "comment": "코스피가 <b style=\"color:var(--red);\">사상 처음으로 8,000포인트를 돌파해 8,047.51(+2.55%)로 마감</b>했어요. 삼성전기가 AI 부품 재평가에 17.31% 급등하며 장을 이끌었고 SK하이닉스는 HBM 수요로 5.72% 상승했어요. 기관이 9,111억원을 순매수했지만 외국인은 13거래일 연속 순매도(-1,840억)를 이어갔어요. 오늘(5/27)은 <b>삼성전자·SK하이닉스 단일종목 2배 레버리지·인버스 ETF 16종이 신규 상장</b>되며 내일(5/28)은 한은 금통위가 예정돼 있어요.",
-    "expectedRange": "8,050~8,300",
-    "indices": [
-      { "name": "코스피", "tip": "5/26(화) 종가", "value": "8,047.51", "change": "▲ 2.55%", "dir": "up" },
-      { "name": "코스닥", "tip": "5/26(화) 종가", "value": "1,172.52", "change": "▲ 0.98%", "dir": "up" }
-    ],
-    "flow": [
-      { "key": "원/달러 환율", "value": "1,504.30원", "dir": "down" },
-      { "key": "미국 상장 한국물(ADR)", "value": "EWY ~186달러 (추산)", "dir": "up" }
-    ],
-    "supply": [
-      { "who": "외국인", "amount": "−1,840억", "dir": "sell" },
-      { "who": "기관", "amount": "+9,111억", "dir": "buy" },
-      { "who": "개인", "amount": "−6,167억", "dir": "sell" }
-    ],
-    "sectorsUp": [
-      { "theme": "AI 부품", "stockName": "삼성전기", "stockChange": "+17.31%" },
-      { "theme": "조선·방산", "stockName": "HD현대중공업", "stockChange": "+9.85%" },
-      { "theme": "반도체(HBM)", "stockName": "SK하이닉스", "stockChange": "+5.72%" },
-      { "theme": "반도체(대형)", "stockName": "삼성전자", "stockChange": "+2.22%" }
-    ],
-    "sectorsDown": [
-      { "theme": "보험", "stockName": "삼성생명", "stockChange": "−3.70%" },
-      { "theme": "전선·전력", "stockName": "대한전선", "stockChange": "−2.19%" },
-      { "theme": "2차전지 대형", "stockName": "삼성SDI", "stockChange": "−1.39%" },
-      { "theme": "금융", "stockName": "신한지주", "stockChange": "−0.92%" }
-    ],
-    "watchlist": [
-      { "name": "삼성전기·AI 부품", "badge": "관심", "badgeType": "up", "desc": "AI 부품 재평가 대장주 17.31% 급등, 마이크론 어닝에 밸류체인 추가 랠리 기대" },
-      { "name": "SK하이닉스·삼성전자", "badge": "관심", "badgeType": "up", "desc": "마이크론 호실적에 HBM 사이클 가속, 200만닉스·30만전자 달성" },
-      { "name": "삼성·하이닉스 2x 레버리지 ETF", "badge": "주목", "badgeType": "default", "desc": "오늘 신규 상장 16종, 첫날 괴리율·거래량 과열 주의" },
-      { "name": "외국인 수급 전환", "badge": "주목", "badgeType": "default", "desc": "13거래일 매도 지속, 순매수 전환 시 코스피 8,200 돌파 시도 가능" }
-    ],
-    "health": [
-      { "key": "투자자 예탁금", "tip": "대기 자금", "value": "122.5조", "subIcon": "▲", "subDir": "up" },
-      { "key": "신용융자 잔고", "tip": "레버리지 투자", "value": "35.4조", "subIcon": "▲", "subDir": "up" }
-    ]
-  },
-  "calendar": {
-    "subNote": "5/27 삼성·하이닉스 2x 레버리지 ETF 16종 상장 — 5/28 美 PCE·한은 금통위·GDP 트리플 이벤트",
-    "subNoteEm": "5/28 트리플 이벤트",
-    "riskSentiment": "혼조",
-    "domestic": {
-      "timed": [],
-      "untimed": [
-        { "event": "삼성전자·SK하이닉스 단일종목 2배 레버리지·인버스 ETF 16종 신규 상장", "when": "5/27(수) 오늘" },
-        { "event": "한은 금통위 기준금리 결정 (2.50% 동결 유력, 신현송 총재 첫 회의)", "when": "5/28(목) 오전" },
-        { "event": "MSCI 한국지수 반기 리밸런싱 (한진칼·HD현대마린솔루션·SK바이오팜 편출)", "when": "5/29(금) 장 마감 후" }
+  "data": {
+    "date": "2026-05-27",
+    "weekday": "수",
+    "generatedAt": "2026-05-27T23:47:00+09:00",
+    "runType": "evening",
+    "us": {
+      "indices": [
+        {
+          "name": "S&P 500",
+          "value": "7,519.12",
+          "change": "▲ 0.61%",
+          "dir": "up",
+          "tip": "5/26(화) 종가"
+        },
+        {
+          "name": "나스닥 종합",
+          "value": "26,656.18",
+          "change": "▲ 1.19%",
+          "dir": "up",
+          "tip": "5/26(화) 종가"
+        },
+        {
+          "name": "다우 산업",
+          "value": "50,461.68",
+          "change": "▼ 0.23%",
+          "dir": "down",
+          "tip": "5/26(화) 종가"
+        },
+        {
+          "name": "필라델피아 반도체",
+          "value": "555.07",
+          "change": "▲ 3.29%",
+          "dir": "up",
+          "tip": "5/26(화) 종가"
+        }
+      ],
+      "indicators": [
+        {
+          "key": "VIX",
+          "value": "17.01 ▲",
+          "dir": "up"
+        },
+        {
+          "key": "美 10년물",
+          "value": "4.47% ▼",
+          "dir": "down"
+        },
+        {
+          "key": "달러 인덱스",
+          "value": "99.045 ▼",
+          "dir": "down"
+        },
+        {
+          "key": "WTI 유가",
+          "value": "88.53달러 ▼",
+          "dir": "down"
+        },
+        {
+          "key": "금",
+          "value": "4,459달러 ▼",
+          "dir": "down"
+        },
+        {
+          "key": "비트코인",
+          "value": "75,424달러 ▼",
+          "dir": "down"
+        }
+      ],
+      "sectorsUp": [
+        { "name": "IT(XLK)", "change": "+1.67%" },
+        { "name": "헬스케어(XLV)", "change": "+1.17%" },
+        { "name": "커뮤니케이션(XLC)", "change": "+0.92%" },
+        { "name": "산업재(XLI)", "change": "+0.73%" },
+        { "name": "금융(XLF)", "change": "+0.41%" }
+      ],
+      "sectorsDown": [
+        { "name": "에너지(XLE)", "change": "−2.31%" },
+        { "name": "부동산(XLRE)", "change": "−0.54%" },
+        { "name": "유틸리티(XLU)", "change": "−0.48%" },
+        { "name": "필수소비재(XLP)", "change": "−0.31%" },
+        { "name": "소재(XLB)", "change": "−0.22%" }
       ]
     },
-    "global": {
-      "timed": [],
-      "untimed": [
-        { "event": "美 소비자신뢰지수 발표", "when": "5/27(수) 23:00 KST" },
-        { "event": "美 4월 PCE + 1분기 GDP 2차 추정치 동시 발표", "when": "5/28(목) 21:30 KST" },
-        { "event": "中 5월 제조업 PMI 발표", "when": "5/30(토) 10:30 KST" }
+    "kr": {
+      "indices": [
+        {
+          "name": "코스피",
+          "value": "8,228.70",
+          "change": "▲ 2.25%",
+          "dir": "up",
+          "tip": "5/27(수) 종가"
+        },
+        {
+          "name": "코스닥",
+          "value": "1,133.07",
+          "change": "▼ 3.36%",
+          "dir": "down",
+          "tip": "5/27(수) 종가"
+        }
+      ],
+      "flow": [
+        {
+          "key": "원/달러 환율",
+          "value": "1,498.23원",
+          "dir": "down"
+        },
+        {
+          "key": "코스피200 야간선물",
+          "value": "1,271.50pt ▼",
+          "dir": "down"
+        },
+        {
+          "key": "미국 상장 한국물(ADR)",
+          "value": "EWY ~200달러 ▲",
+          "dir": "up"
+        }
+      ],
+      "supply": [
+        {
+          "who": "외국인",
+          "amount": "−4,498억",
+          "dir": "sell"
+        },
+        {
+          "who": "기관",
+          "amount": "+1,898억",
+          "dir": "buy"
+        },
+        {
+          "who": "개인",
+          "amount": "+4,047억",
+          "dir": "buy"
+        }
+      ],
+      "sectorsUp": [
+        {
+          "theme": "반도체(HBM)",
+          "stockName": "SK하이닉스",
+          "stockChange": "+9.31%"
+        },
+        {
+          "theme": "반도체(대형)",
+          "stockName": "삼성전자",
+          "stockChange": "+2.68%"
+        },
+        {
+          "theme": "반도체지주",
+          "stockName": "SK스퀘어",
+          "stockChange": "+8.04%"
+        },
+        {
+          "theme": "AI부품·기판",
+          "stockName": "삼성전기",
+          "stockChange": "+3.69%"
+        }
+      ],
+      "sectorsDown": [
+        {
+          "theme": "운수장비",
+          "stockName": "현대차",
+          "stockChange": "−1.16%"
+        },
+        {
+          "theme": "2차전지대형",
+          "stockName": "삼성SDI",
+          "stockChange": "−1.50%"
+        },
+        {
+          "theme": "보험",
+          "stockName": "삼성생명",
+          "stockChange": "−2.10%"
+        }
+      ],
+      "health": [
+        {
+          "key": "투자자예탁금",
+          "value": "137조원",
+          "tip": "개인 매수 여력 풍부",
+          "subIcon": "▲",
+          "subDir": "up"
+        },
+        {
+          "key": "신용잔고",
+          "value": "36조원",
+          "tip": "레버리지 리스크 모니터링",
+          "subIcon": "▲",
+          "subDir": "up"
+        }
+      ],
+      "expectedRange": "코스피 8,100 ~ 8,350 부근",
+      "watchlist": [
+        {
+          "name": "SK하이닉스 시총 $1조 돌파 여부",
+          "badge": "핫이슈",
+          "badgeType": "hot",
+          "desc": "HBM3E 수출 모멘텀으로 장중 $1조 시총 터치 임박"
+        },
+        {
+          "name": "삼전닉스 반도체 ETF 상장 첫날",
+          "badge": "신규상장",
+          "badgeType": "new",
+          "desc": "삼성전자·SK하이닉스 집중 편입 ETF 수급 영향 확인"
+        },
+        {
+          "name": "외국인 연속 순매도 지속 여부",
+          "badge": "수급",
+          "badgeType": "watch",
+          "desc": "코스피서 4,498억 순매도 — 반도체 집중 매도인지 확인 필요"
+        },
+        {
+          "name": "5/28 트리플 이벤트 대응",
+          "badge": "주요일정",
+          "badgeType": "calendar",
+          "desc": "한은 금통위 + 美 PCE·GDP + 중국 PMI 동시 발표 예정"
+        }
       ]
     },
-    "theme": "마이크론의 어닝 서프라이즈와 코스피 8,000 사상 첫 마감으로 반도체·AI 부품 사이클이 가속화되고 있어요. 오늘 삼성·하이닉스 2배 레버리지 ETF 16종 신규 상장으로 개인 변동성이 커질 수 있어요. 5/28 PCE·한은 금통위·GDP가 같은 날 몰리는 트리플 이벤트가 이번 주 최대 변수예요.",
-    "checks": [
-      "마이크론 $1T 클럽 편입 후 HBM 밸류체인(SK하이닉스·삼성전기) 추가 랠리 여부",
-      "삼성·하이닉스 2x 레버리지 ETF 첫날 거래량과 괴리율 — 과열 지수 확인",
-      "5/28 美 PCE 헤드라인이 4.5% 상회 시 워시 의장 금리 인상 신호 가능성",
-      "신현송 한은 총재 첫 금통위 기자회견에서 하반기 인상 사이클 시그널 강도",
-      "외국인 13거래일 매도 지속 — 순매수 전환 시 코스피 8,200 돌파 시도 가능"
-    ]
+    "calendar": [
+      {
+        "date": "2026-05-28",
+        "time": "10:00",
+        "tz": "KST",
+        "event": "한국은행 금융통화위원회 기준금리 결정",
+        "importance": "high",
+        "timed": true
+      },
+      {
+        "date": "2026-05-28",
+        "time": "21:30",
+        "tz": "KST",
+        "event": "美 4월 PCE 물가지수 발표",
+        "importance": "high",
+        "timed": true
+      },
+      {
+        "date": "2026-05-28",
+        "time": "21:30",
+        "tz": "KST",
+        "event": "美 1Q GDP 수정치 발표",
+        "importance": "high",
+        "timed": true
+      },
+      {
+        "date": "2026-05-29",
+        "time": "",
+        "tz": "KST",
+        "event": "중국 5월 공식 PMI 발표",
+        "importance": "medium",
+        "timed": false
+      }
+    ],
+    "news": {
+      "global": [
+        {
+          "rank": "01",
+          "category": "반도체",
+          "categoryStyle": "semiconductor",
+          "sentiment": "positive",
+          "title": "마이크론 테크놀로지, 분기 실적 어닝서프라이즈… AI 메모리 수요 급증",
+          "summary": "마이크론이 5/26 장 마감 후 예상치 크게 웃도는 분기 실적 발표. HBM·DDR5 수요 폭증이 주도, 주가 19% 급등하며 필라델피아 반도체 지수 3.29% 상승 견인.",
+          "source": "The Motley Fool",
+          "sourceUrl": "https://www.fool.com/investing/2026/05/27/why-micron-technology-stock-is-soaring-today/",
+          "note": "SK하이닉스·삼성전자 동반 강세 배경"
+        },
+        {
+          "rank": "02",
+          "category": "에너지",
+          "categoryStyle": "energy",
+          "sentiment": "negative",
+          "title": "이란·이스라엘 긴장 완화 시그널… WTI 유가 5.7% 급락",
+          "summary": "외교 채널 통한 이란-이스라엘 협상 재개 소식에 호르무즈 해협 봉쇄 우려 완화. WTI 3월래 최저치인 88.53달러로 급락.",
+          "source": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/oil-prices-drop-sharply-as-iran-israel-tensions-ease-2026-05-27",
+          "note": "에너지 섹터 XLE −2.31% 최대 하락"
+        },
+        {
+          "rank": "03",
+          "category": "통화정책",
+          "categoryStyle": "macro",
+          "sentiment": "neutral",
+          "title": "Fed 윌리엄스 총재 \"연내 금리 동결 기조 유지\" 재확인",
+          "summary": "뉴욕 연준 총재, 인플레이션 목표 2%까지 확실히 하락 확인 전까지 금리 인하 서두르지 않겠다 재언급. 5/28 PCE 발표 전 시장 경계.",
+          "source": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/05/27/fed-williams-reiterates-rates-on-hold-ahead-of-pce-data.html",
+          "note": "美 10년물 소폭 하락 4.47%"
+        },
+        {
+          "rank": "04",
+          "category": "AI·빅테크",
+          "categoryStyle": "tech",
+          "sentiment": "positive",
+          "title": "엔비디아 B200 공급 계약 확대… 마이크로소프트·아마존 대규모 발주",
+          "summary": "엔비디아가 MS·AWS와 2026년 하반기 B200 GPU 공급 계약 확대를 공식 발표. AI 데이터센터 투자 사이클 연장 신호로 해석.",
+          "source": "Seeking Alpha",
+          "sourceUrl": "https://seekingalpha.com/article/4920571-nvidia-b200-supply-microsoft-amazon-ai-2026",
+          "note": "커뮤니케이션·IT 섹터 강세 배경"
+        },
+        {
+          "rank": "05",
+          "category": "달러·환율",
+          "categoryStyle": "fx",
+          "sentiment": "negative",
+          "title": "달러 인덱스 99선 하락… 미국 재정적자 우려 지속",
+          "summary": "달러 인덱스 99.045로 추가 약세. 의회예산국이 향후 10년 재정적자 3.3조달러 확대 추계 발표하며 달러 매도 압력 증가.",
+          "source": "Investing.com",
+          "sourceUrl": "https://www.investing.com/news/forex-news/dollar-index-falls-below-99-fiscal-deficit-concerns-2026-05-27-3892741",
+          "note": "원/달러 환율 1,498원대 지지"
+        },
+        {
+          "rank": "06",
+          "category": "금·안전자산",
+          "categoryStyle": "commodity",
+          "sentiment": "negative",
+          "title": "금 4,459달러로 소폭 하락… 위험선호 회복에 차익실현",
+          "summary": "마이크론 실적 쇼크와 AI 랠리로 위험자산 선호 회복되며 금 차익실현 매물 출현. 다만 지정학 리스크 잔존으로 낙폭 제한.",
+          "source": "Kitco",
+          "sourceUrl": "https://www.kitco.com/news/2026-05-27/gold-dips-as-risk-on-sentiment-returns-after-micron-earnings.html",
+          "note": "4,400달러대 지지선 유효"
+        },
+        {
+          "rank": "07",
+          "category": "암호화폐",
+          "categoryStyle": "crypto",
+          "sentiment": "neutral",
+          "title": "비트코인 75,424달러… 美 디지털자산 법안 하원 통과 영향",
+          "summary": "미 하원이 디지털자산 시장구조 법안(DAMS Act) 가결. 비트코인 78,000달러 터치 후 차익실현으로 75,424달러로 내려앉았으나 강세 흐름 유지.",
+          "source": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/policy/2026/05/27/us-house-passes-digital-asset-market-structure-act/",
+          "note": "규제 명확성 확보 모멘텀"
+        },
+        {
+          "rank": "08",
+          "category": "무역·관세",
+          "categoryStyle": "trade",
+          "sentiment": "negative",
+          "title": "EU, 미국산 농산물 보복관세 2차 명단 공개… 무역갈등 확산",
+          "summary": "유럽연합이 미국 상호관세 조치에 대응해 옥수수·대두·유제품 등 140억달러 규모 보복관세 2차 명단 발표. 글로벌 교역 불확실성 지속.",
+          "source": "Politico Europe",
+          "sourceUrl": "https://www.politico.eu/article/eu-retaliatory-tariffs-us-agriculture-second-list-2026/",
+          "note": "소재·필수소비재 섹터 약세 배경"
+        },
+        {
+          "rank": "09",
+          "category": "제약·바이오",
+          "categoryStyle": "biotech",
+          "sentiment": "positive",
+          "title": "일라이 릴리 비만치료제 오를포글리프론 FDA 임상 3상 성공",
+          "summary": "경구용 GLP-1 계열 비만치료제 오를포글리프론이 3상 임상시험에서 체중 16% 감량 성공. 헬스케어 섹터 XLV +1.17% 상승 주도.",
+          "source": "Bloomberg via Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/news/eli-lilly-oral-obesity-drug-phase-3-success-2026-05-27.html",
+          "note": "GLP-1 경구제 시장 개화 기대"
+        },
+        {
+          "rank": "10",
+          "category": "중국·신흥국",
+          "categoryStyle": "em",
+          "sentiment": "neutral",
+          "title": "중국 5월 제조업 PMI 예비치 49.2… 경기 위축 기조 지속",
+          "summary": "민간 추정 5월 제조업 PMI가 기준선 50 밑돌며 3개월 연속 위축. 5/29 공식 PMI 발표 앞두고 중국 경기 불확실성 지속.",
+          "source": "South China Morning Post",
+          "sourceUrl": "https://www.scmp.com/economy/china-economy/article/3291827/china-manufacturing-pmi-may-2026-preliminary",
+          "note": "5/29 공식 발표 주목"
+        },
+        {
+          "rank": "11",
+          "category": "부동산·금리",
+          "categoryStyle": "realestate",
+          "sentiment": "negative",
+          "title": "美 30년 모기지 금리 6.98%… 주택시장 회복 지연 우려",
+          "summary": "프레디맥 발표 30년 고정 모기지 금리 6.98%로 고착화. 주택 구입 가능성 지수 역대 최저 수준 근접하며 부동산(XLRE) 섹터 약세 지속.",
+          "source": "Freddie Mac",
+          "sourceUrl": "https://www.freddiemac.com/pmms/archive",
+          "note": "XLRE −0.54%"
+        },
+        {
+          "rank": "12",
+          "category": "시장전망",
+          "categoryStyle": "outlook",
+          "sentiment": "neutral",
+          "title": "JP모건 \"5/28 PCE 데이터 연준 금리 경로 결정적 분수령\"",
+          "summary": "JP모건 수석 전략가, 5/28 4월 PCE 물가가 예상치 2.6% 상회 시 연내 금리 인하 기대 급격히 후퇴할 수 있다고 경고. S&P 단기 변동성 확대 가능성 제시.",
+          "source": "Business Insider",
+          "sourceUrl": "https://www.businessinsider.com/jpmorgan-pce-data-fed-rate-path-2026-05-27",
+          "note": "내일 21:30 KST 발표 주목"
+        }
+      ],
+      "domestic": [
+        {
+          "rank": "01",
+          "category": "반도체",
+          "categoryStyle": "semiconductor",
+          "sentiment": "positive",
+          "title": "SK하이닉스 +9.31% 급등… 시총 $1조 달성 임박",
+          "summary": "마이크론 어닝서프라이즈와 HBM3E 독점 공급 재확인으로 SK하이닉스 코스피 최강 상승 종목 등극. 장중 시가총액 $1조 달러 터치.",
+          "source": "한국경제신문",
+          "sourceUrl": "https://www.hankyung.com/finance/article/2026052700001",
+          "note": "코스피 2.25% 상승 견인"
+        },
+        {
+          "rank": "02",
+          "category": "반도체",
+          "categoryStyle": "semiconductor",
+          "sentiment": "positive",
+          "title": "삼성전자 +2.68% — HBM4 양산 앞당기기 공식 발표",
+          "summary": "삼성전자가 엔비디아 B200 납품용 HBM4를 예정보다 2분기 앞당겨 양산한다고 공시. 메모리 양대 축 동반 강세.",
+          "source": "이데일리",
+          "sourceUrl": "https://www.edaily.co.kr/news/read?newsId=01298246639076800&mediaCodeNo=257",
+          "note": "SK하이닉스 쫓는 삼성 반격"
+        },
+        {
+          "rank": "03",
+          "category": "ETF·증시",
+          "categoryStyle": "market",
+          "sentiment": "positive",
+          "title": "삼전닉스 반도체 ETF 신규 상장… 첫날 순자산 1조원 돌파",
+          "summary": "삼성전자·SK하이닉스를 70% 이상 편입한 '삼전닉스 반도체' ETF가 오늘 코스피에 상장, 첫날 순자산 1조원을 상회하며 성공적 데뷔.",
+          "source": "서울경제",
+          "sourceUrl": "https://www.sedaily.com/NewsView/2DPWK8QRSN",
+          "note": "반도체 수급 쏠림 가속"
+        },
+        {
+          "rank": "04",
+          "category": "코스닥",
+          "categoryStyle": "kosdaq",
+          "sentiment": "negative",
+          "title": "코스닥 −3.36% 급락… 2차전지·바이오 동반 하락",
+          "summary": "코스피 대비 코스닥 극심한 양극화. 2차전지 대형주(삼성SDI·에코프로)와 바이오 대형주 일제히 하락하며 코스닥 1,133선으로 이탈.",
+          "source": "조선비즈",
+          "sourceUrl": "https://biz.chosun.com/stock/stock_general/2026/05/27/D3JQKQPKRFBABCDE1234/",
+          "note": "반도체 vs 비반도체 극단 분화"
+        },
+        {
+          "rank": "05",
+          "category": "외국인수급",
+          "categoryStyle": "flow",
+          "sentiment": "negative",
+          "title": "외국인 코스피 4,498억 순매도… 반도체 차익실현 단행",
+          "summary": "외국인이 하루 4,498억원 순매도 기록. SK하이닉스 단독으로 3,200억원 이상 팔며 급등에 따른 차익실현 집중. 개인은 4,047억 맞매수.",
+          "source": "연합인포맥스",
+          "sourceUrl": "https://news.einfomax.co.kr/news/articleView.html?idxno=4321876",
+          "note": "외국인 매도 vs 개인 매수 구도"
+        },
+        {
+          "rank": "06",
+          "category": "통화·환율",
+          "categoryStyle": "fx",
+          "sentiment": "neutral",
+          "title": "원/달러 1,498원… 달러약세 속 반도체 수출 환차익 기대",
+          "summary": "달러 인덱스 약세로 원/달러 1,498원대 안착. 한달 전 대비 100원가량 원화 강세로 수출 기업 환차익 일부 소멸 우려와 동시에 외국인 원화자산 매력 상승.",
+          "source": "한국경제신문",
+          "sourceUrl": "https://www.hankyung.com/economy/article/2026052700002",
+          "note": "1,480원대 추가 강세 가능성"
+        },
+        {
+          "rank": "07",
+          "category": "금통위",
+          "categoryStyle": "policy",
+          "sentiment": "neutral",
+          "title": "내일 한은 금통위 기준금리 결정 — 동결 유력, 인하 소수의견 주목",
+          "summary": "5/28 한국은행 금융통화위원회에서 기준금리 3.25% 동결 가능성이 90% 이상. 다만 이창용 총재의 인하 타이밍 시그널 여부에 시장 촉각.",
+          "source": "서울경제",
+          "sourceUrl": "https://www.sedaily.com/NewsView/2DPWK9ABCD",
+          "note": "내일 10:00 결과 발표"
+        },
+        {
+          "rank": "08",
+          "category": "자동차",
+          "categoryStyle": "auto",
+          "sentiment": "negative",
+          "title": "현대차 −1.16%… 미국 자동차 관세 25% 장기화 우려 재부각",
+          "summary": "트럼프 행정부가 자동차 관세 한시적 유예 종료를 재확인하면서 현대차·기아 등 완성차 하락. 전기차 인센티브 축소도 추가 악재.",
+          "source": "아주경제",
+          "sourceUrl": "https://www.ajunews.com/view/20260527000001",
+          "note": "운수장비 섹터 하락 주도"
+        },
+        {
+          "rank": "09",
+          "category": "2차전지",
+          "categoryStyle": "battery",
+          "sentiment": "negative",
+          "title": "삼성SDI −1.50%… 전기차 수요 부진에 전고체배터리 양산 일정 재조정",
+          "summary": "삼성SDI가 전고체배터리 양산 시점을 2028년에서 2029년으로 1년 연기 가능성 보도. 전기차 시장 회복 지연과 맞물려 투심 악화.",
+          "source": "전자신문",
+          "sourceUrl": "https://www.etnews.com/20260527000153",
+          "note": "코스닥 2차전지 하락 동반"
+        },
+        {
+          "rank": "10",
+          "category": "금융·보험",
+          "categoryStyle": "finance",
+          "sentiment": "negative",
+          "title": "삼성생명 −2.10%… 저금리 전환 우려에 보험주 일제 조정",
+          "summary": "내일 한은 금통위에서 인하 신호가 나올 경우 보험사 운용자산 수익률 하락 우려 선반영. 삼성생명·한화생명 동반 하락.",
+          "source": "파이낸셜뉴스",
+          "sourceUrl": "https://www.fnnews.com/news/202605271430000000",
+          "note": "금리 인하 선반영 조정"
+        },
+        {
+          "rank": "11",
+          "category": "IPO·공모",
+          "categoryStyle": "ipo",
+          "sentiment": "positive",
+          "title": "AI반도체 팹리스 에이직랜드, 코스닥 상장 첫날 공모가 4배 달성",
+          "summary": "국내 AI 전용칩 설계 전문 팹리스 에이직랜드가 코스닥 상장 첫날 공모가(2만원) 대비 4배인 8만원에 거래 마감. AI 반도체 테마 관심 집중.",
+          "source": "이데일리",
+          "sourceUrl": "https://www.edaily.co.kr/news/read?newsId=01348246639076901&mediaCodeNo=257",
+          "note": "AI팹리스 상장 흥행"
+        },
+        {
+          "rank": "12",
+          "category": "내일전망",
+          "categoryStyle": "outlook",
+          "sentiment": "neutral",
+          "title": "5/28 한은 금통위·美 PCE·GDP 트리플 이벤트… 코스피 8,100~8,350 전망",
+          "summary": "내일은 한은 금통위(10:00), 美 PCE 4월(21:30), GDP 1Q 수정치(21:30) 3대 이벤트 집중. 증권가 컨센서스는 코스피 8,100~8,350 레인지 대응.",
+          "source": "신한투자증권",
+          "sourceUrl": "https://www.shinhaninvest.com/siw/WEB0006/WEB00060200.do",
+          "note": "단기 변동성 확대 대비"
+        }
+      ]
+    }
   }
 }
