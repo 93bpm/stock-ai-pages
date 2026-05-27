@@ -1,5 +1,7 @@
 # Daily Briefing Context
 
+> ★ **routine prompt(claude.ai trigger)와 본 문서가 충돌하면 본 문서가 우선**. v1.4.2~v1.4.4 룰(commit 메시지 형식 `routine: YYYY-MM-DD HH:MM`, Step 0 `START_TS` 측정, `wc -c` 실측, ⚡ 병렬 도구 호출 등)이 prompt에 미반영이지만 본 문서가 master. prompt의 옛 형식·절차와 다르면 본 문서 룰을 따를 것.
+
 `stock-ai-pages` 일일 데이터 생성 routine이 매 발화 시 따르는 **메인 체크리스트**.
 디테일은 항목 옆 `→ guides/xxx.md §N` 링크. routine이 해당 작업 단계에서 그 파일을 추가 fetch.
 
