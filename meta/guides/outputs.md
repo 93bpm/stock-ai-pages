@@ -49,7 +49,7 @@ routine이 **산출물 작성 단계 + HTML 렌더링 검증**에서 정독.
 | `time` | string | `"HH:MM"` | KST 24h 발화 시각 |
 | `model` | string | `"claude-sonnet-4-7"` 등 | 실행 모델명 (자체 보고) |
 | `status` | string | `"success" / "skip" / "fail"` | 정상 종료 / sanity skip / 예외 |
-| `duration_seconds` | number | 발화 시작~끝 초 | **정확값 ✓** |
+| `duration_seconds` | number | 발화 시작~끝 초 (wall-clock) | **정확값 ✓** — 단, 아래 "duration_seconds 측정 절차" 따라야 함 |
 | `tokens_estimated` | number | 한국어 ~2자/토큰 환산 | **추산값** (정확값은 claude.ai Usage에서 확인) |
 | `tokens_actual` | number? | API 정확 토큰 (가능하면) | optional. 정확값 ✓ |
 | `response_size_kb` | number | 응답 본문 KB | **정확값 ✓** |
@@ -65,6 +65,31 @@ routine이 **산출물 작성 단계 + HTML 렌더링 검증**에서 정독.
 - **정확값 ✓**: `duration_seconds`, `response_size_kb`, `tool_calls`, `news_count`, `source_url_coverage`, `sources_attempted`, `push`
 - **추산값 [EST]**: `tokens_estimated` — usage.html 다이얼로그에서 `[EST]` 배지로 표시되고 claude.ai Settings → Usage 링크 안내됨
 - **선택 ✓**: `tokens_actual` — 자체 보고 가능하면 정확값으로 입력 (있으면 다이얼로그에 ✓ 표시)
+
+### duration_seconds 측정 절차 ★v1.4.2 신설★
+
+루틴이 회고적으로 "대충 이 정도 걸린 것 같다"고 추정하면 도구 대기·검색 라운드를 빠뜨려 실제 wall-clock의 1/3~1/5로 과소 계상돼요. 다음 절차를 반드시 따라야 합니다.
+
+```
+[Step 0 — 루틴 진입 직후, 어떤 fetch보다 먼저]
+  1. 현재 UTC epoch 초를 기록 (예: Bash `date +%s` 또는 동등 수단)
+  2. 변수 START_TS에 저장 — 이 시점이 "발화 시작"
+
+[Step N — usage.json 갱신 직전, push 직전]
+  3. 현재 UTC epoch 초 다시 측정 → END_TS
+  4. duration_seconds = END_TS - START_TS (정수)
+  5. usage.json entry에 그 값 입력
+```
+
+**원칙**
+
+- "발화 시작"은 **컨텍스트 fetch 직전** (= 첫 도구 호출 직전). 자체 사고 시간은 측정 못 해도 모든 외부 작업·검색·재시도·푸시 대기가 포함되어야 wall-clock이 됨
+- "발화 끝"은 **usage.json append 직전**. 그 뒤 commit·push는 외부 워크플로우라 측정 어려움. 단 git push까지는 routine 책임이므로 가능하면 push 후 다시 측정해 덮어쓰기보다 push 직전이 안정적
+- routine이 wall-clock 측정을 못하는 환경이면 (sandboxed shell 등) `duration_seconds`를 **null로 두고** `status` 직전에 운영 보고로 그 사실 명시 — 임의 추정값 채우기 금지
+
+**과거 기록 보정**
+
+기존 history entry는 자체 추정값이라 신뢰도 낮음. 과거 데이터는 그대로 두되, v1.4.2 적용 시점부터 새 entry는 위 절차로 측정. usage.html 평균 시간 카드는 자연스럽게 새 값 누적되면 보정됨.
 
 ### 운영 노트
 

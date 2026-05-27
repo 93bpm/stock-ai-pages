@@ -331,7 +331,7 @@
   function renderHistory(history){
     cachedHistory = history;
     if(history.length === 0){
-      $('historyBody').innerHTML = '<div class="empty">아직 발화 기록이 없어요. 매일 KST 07:00 routine이 돌면 여기에 누적됩니다.</div>';
+      $('historyBody').innerHTML = '<div class="empty">아직 발화 기록이 없어요. 정해진 시각에 routine이 돌면 여기에 누적됩니다.</div>';
       return;
     }
     const reversed = [...history].reverse();
