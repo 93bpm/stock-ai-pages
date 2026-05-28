@@ -52,10 +52,12 @@ stock-ai-pages/
 
 - **시세·지표·캘린더**: [Stooq](https://stooq.com) · [finviz](https://finviz.com) · [Trading Economics](https://tradingeconomics.com) · [Investing.com](https://kr.investing.com) · Yahoo · Google
 - **뉴스**: WebSearch (CNBC · Nikkei · NPR · MarketWatch · 한경 · 이데일리 · MT · 파이낸셜뉴스 등 공개 매체)
+- **일정 화이트리스트** (v1.5.0): `data/whitelist-kr-marketcap.json` (KOSPI+KOSDAQ 시총 2000억+ 韓 종목, 매월 1일 routine 갱신) + `data/whitelist-conferences.json` (글로벌 학회·컨퍼런스 ~10건: GTC/WWDC/CES/NeurIPS/ASCO 등)
 
 > 일부 매체(bloomberg/wsj/ft/reuters/mk/yna)는 봇 차단·paywall로 sourceUrl 사용 금지 — 동일 사건의 공개 매체 보도로 교체.
 
 상세 fallback 체인 + 차단 도메인 정책: [`meta/guides/sources.md`](./meta/guides/sources.md), [`meta/guides/news.md`](./meta/guides/news.md)
+일정 탭 3뷰 (일간/주간/월간) 렌더링 룰: [`meta/guides/outputs.md §4.9`](./meta/guides/outputs.md)
 
 ---
 

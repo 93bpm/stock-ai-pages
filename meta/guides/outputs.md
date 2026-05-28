@@ -214,11 +214,53 @@ element.innerHTML = subNote.replace(
 | 영역 | 컨테이너 |
 |---|---|
 | 날짜 칩 | `#dateText` |
-| 캘린더 그리드 | `#calGrid` |
+| 캘린더 그리드 (날짜 선택) | `#calGrid` |
 | US 섹션 | `#us .card` 내부 |
 | World 글로벌 | `#global` |
 | World 국내 | `#domestic` |
 | KR 섹션 | `#kr .card` 내부 |
 | Calendar 섹션 | `#cal .card` 내부 |
+| ★ Calendar 세그먼트 컨트롤 (v1.5.0) | `.cal-views` (오늘/주간/월간 버튼 `.cal-view`) |
+| ★ Calendar 뷰 pane (v1.5.0) | `.cal-pane` × 3 (`#cal-pane-today`, `#cal-pane-week`, `#cal-pane-month`) |
+| ★ 주간 카드 컨테이너 (v1.5.0) | `#cal-week` (`.cal-week-scroll`), 자식 `.wk-day` |
+| ★ 주간 하단 detail (v1.5.0) | `#cal-detail-week` |
+| ★ 월간 달력 그리드 (v1.5.0) | `#cal-month` (`.cal-month-grid`), 자식 `.mo-cell` |
+| ★ 월간 하단 detail (v1.5.0) | `#cal-detail-month` |
 
 루틴은 이 hook들을 알 필요 없음 (JS가 처리). 컨텍스트엔 참고용으로 기록.
+
+### §4.9 일정 탭 3뷰 렌더링 룰 ★v1.5.0 신설★
+
+routine이 만드는 데이터(`calendar`, `calendarWeek`, `calendarMonth`)와 화면 뷰의 대응:
+
+| 뷰 | 1차 데이터 소스 | Fallback | 표시 조건 |
+|---|---|---|---|
+| **일간 (오늘)** | `calendarWeek.days[selectedDate].items` | `calendar.{domestic,global}.{timed,untimed}` | 항상 표시 |
+| **주간** | `calendarWeek.days[]` (7개) | (없음 — 세그먼트 자체 숨김) | `calendarWeek` 존재 시 |
+| **월간** | `calendarMonth.days[]` (hit only) | (없음 — 월간 버튼 disable + 안내) | `calendarMonth` 존재 시 |
+
+**세그먼트 컨트롤 노출**:
+- `data.calendarWeek` 존재 → 세그먼트 표시 (`.cal-views { display: flex }`)
+- 없음 → 세그먼트 자체 숨김 (`.cal-views { display: none }`) = 옛 UI 100% 그대로 (5/27 이전 데이터 호환)
+
+**일간 뷰 분류** (calendarWeek 있을 때):
+- items 분류: region(domestic/global) × time(있음/없음) → 4그룹
+- timed: time 오름차순 정렬 → `#cal-{dom,glo}-timed`
+- untimed: `#cal-{dom,glo}-untimed`에 "시간 미정" 헤더와 함께
+- 디자인: 좌측 [날짜·시간 박스], 본문 [제목 + 카테고리·중요 메타]
+
+**주간 뷰 동작**:
+- 일~토 7개 `.wk-day` cell. 빈 날도 표시
+- 오늘 cell `.today` (파란 outline), 선택된 cell `.selected` (배경+굵은 outline)
+- 마우스 드래그 좌우 스크롤 (3번 → 5번 이상 드래그하면 click 한 번 무시)
+- cell 클릭 → 하단 `#cal-detail-week`에 그 요일 items 펼침
+
+**월간 뷰 동작**:
+- 6×7 grid. 첫 일요일 전 + 마지막 토요일 후 empty cell
+- hit 날에는 pill 최대 2개 + `+N` 더보기 표시
+- empty 제외 모든 cell 클릭 가능 (hit 없으면 "일정 없음" detail 표시)
+- cell 클릭 → 하단 `#cal-detail-month`에 그 날 items 펼침
+
+**오늘의 테마·체크리스트 위치**:
+- v1.5.0부터 일간 pane 안에만 존재 (주간·월간에서는 안 보임)
+- `cal.theme` → `#cal-theme`, `cal.checks[]` → `#cal-checks`
