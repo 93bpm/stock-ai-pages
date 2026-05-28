@@ -707,8 +707,8 @@
   }
 
   // ─── v1.5.0: 캘린더 확장 (calendarWeek / calendarMonth) ──
-  // 분기 정책: data.date >= V15_CUTOFF('2026-05-29') && data.calendarWeek 존재 시에만 새 UI.
-  // 그 외(옛 데이터·prompt 미적용)는 옛 UI 그대로 (세그먼트 컨트롤 자체를 숨김). navigate() 참조.
+  // 분기 정책: data.calendarWeek 존재 시에만 세그먼트 컨트롤 [오늘/주간/월간] 노출.
+  // 옛 데이터(5/28 이전·prompt 미적용)는 자동으로 옛 UI 그대로 (세그먼트 컨트롤 숨김). navigate() 참조.
 
   // 주간 뷰: 일~토 7개 .wk-day cell. 오늘 cell 에 .today 클래스 + 자동 스크롤 정렬
   function renderCalendarWeek(week, todayISO){
@@ -897,18 +897,18 @@
       renderKr(data.kr);
       renderCalendar(data.calendar);
 
-      // v1.5.0: cutoff(2026-05-29) 이후 + calendarWeek 존재 시에만 새 UI 활성
-      // 5/28 이전 데이터 또는 routine prompt 미적용 데이터 → 옛 UI 그대로 (세그먼트 컨트롤 숨김)
-      const V15_CUTOFF = '2026-05-29';
-      const useV15 = data.date >= V15_CUTOFF && !!data.calendarWeek;
+      // v1.5.0: 일간 뷰는 항상 동일. 주간/월간 세그먼트는 calendarWeek 존재 시에만 추가됨.
+      // → 옛 데이터(5/28 이전): 세그먼트 컨트롤 자체 숨김 = 옛 UI 100% 그대로
+      // → routine v1.5.0 prompt 적용 후: 세그먼트 자동 노출 + 주간/월간 활성
+      const hasWeek = !!data.calendarWeek;
       const $views = document.querySelector('.cal-views');
-      $views.style.display = useV15 ? 'flex' : 'none';
+      $views.style.display = hasWeek ? 'flex' : 'none';
 
-      if(useV15){
+      if(hasWeek){
         renderCalendarWeek(data.calendarWeek, STATE.selectedDate);
         renderCalendarMonth(data.calendarMonth, STATE.selectedDate);
       } else {
-        // 옛 UI 강제: [오늘] pane만 보이게 + 세그먼트 상태 초기화
+        // 옛 UI: [오늘] pane 만 활성 + 세그먼트 상태 초기화
         document.querySelectorAll('.cal-view').forEach(b => b.classList.toggle('on', b.dataset.cv === 'today'));
         document.querySelectorAll('.cal-pane').forEach(p => p.classList.toggle('on', p.id === 'cal-pane-today'));
         STATE.calendarView = 'today';
