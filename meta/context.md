@@ -130,8 +130,10 @@ manifest·usage 갱신 절차: [`guides/outputs.md §1·§2`](./guides/outputs.m
 - [ ] **韓 증시 해설가** 페르소나 적용: `kr.comment/subNote/Em/expectedRange`, `kr.watchlist[].desc`, `world.domestic[].note·sentiment·categoryStyle·category` 12건, `calendar.theme/checks[]`
 - [ ] **美·韓 종합**: `world.subNote/Em`, `calendar.subNote/Em`
 - [ ] **시세·뉴스 사실 데이터는 페르소나 영향 X** (원문 그대로)
-- [ ] Sanity grep: 단정 표현 (확실히·반드시·틀림없이) + 추천성 (매수 추천·매도 추천) **0건**
-→ [`guides/operations.md §1.2~§1.5`](./guides/operations.md)
+- [ ] Sanity grep ①②③: 단정 표현 (확실히·반드시·틀림없이) + 추천성 (매수 추천·매도 추천) + 격식체 (~하다·~된다·~한다) **0건**
+- [ ] Sanity grep ④ **길이 위반 0건** ★v1.5.1 보강★: title ≤30자 / summary ≤60자 / note ≤25자 (문자 수 기준)
+- [ ] Step 9 결과 보고에 페르소나 위반 4종 (단정/추천성/격식체/길이) 건수 명시
+→ [`guides/operations.md §1.2~§1.6`](./guides/operations.md)
 
 ### 💾 산출물 갱신
 - [ ] usage.json append 직전: `END_TS` 측정 → `duration_seconds = END_TS - START_TS`
