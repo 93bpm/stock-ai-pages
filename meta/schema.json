@@ -27,6 +27,136 @@
     "calendar": { "$ref": "#/$defs/CalendarBlock" }
   },
 
+  "examples": [
+    {
+      "date": "",
+      "weekday": "",
+      "generatedAt": "",
+      "us": {
+        "subNote": "",
+        "subNoteEm": "",
+        "comment": "",
+        "indices": [
+          {"name": "S&P 500", "tip": "", "value": "", "change": "", "dir": "up"},
+          {"name": "나스닥 종합", "tip": "", "value": "", "change": "", "dir": "up"},
+          {"name": "다우존스", "tip": "", "value": "", "change": "", "dir": "up"},
+          {"name": "필라델피아 반도체", "tip": "", "value": "", "change": "", "dir": "up"}
+        ],
+        "indicators": [
+          {"key": "VIX", "value": "", "dir": "up"},
+          {"key": "美 10년물", "value": "", "dir": "up"},
+          {"key": "달러인덱스", "value": "", "dir": "up"},
+          {"key": "WTI 유가", "value": "", "dir": "up"},
+          {"key": "금", "value": "", "dir": "up"},
+          {"key": "비트코인", "value": "", "dir": "up"}
+        ],
+        "sectorsUp": [
+          {"name": "", "change": ""},
+          {"name": "", "change": ""},
+          {"name": "", "change": ""},
+          {"name": "", "change": ""},
+          {"name": "", "change": ""}
+        ],
+        "sectorsDown": [
+          {"name": "", "change": ""},
+          {"name": "", "change": ""},
+          {"name": "", "change": ""},
+          {"name": "", "change": ""},
+          {"name": "", "change": ""}
+        ]
+      },
+      "world": {
+        "subNote": "",
+        "subNoteEm": "",
+        "global": [
+          {"rank": "01", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "02", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "03", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "04", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "05", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "06", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "07", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "08", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "09", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "10", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "11", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "12", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""}
+        ],
+        "domestic": [
+          {"rank": "01", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "02", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "03", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "04", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "05", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "06", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "07", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "08", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "09", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "10", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "11", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""},
+          {"rank": "12", "category": "", "categoryStyle": "default", "sentiment": "neu", "title": "", "summary": "", "source": "", "sourceUrl": "", "note": ""}
+        ]
+      },
+      "kr": {
+        "subNote": "",
+        "subNoteEm": "",
+        "comment": "",
+        "expectedRange": "",
+        "indices": [
+          {"name": "코스피", "tip": "", "value": "", "change": "", "dir": "up"},
+          {"name": "코스닥", "tip": "", "value": "", "change": "", "dir": "up"}
+        ],
+        "flow": [
+          {"key": "원/달러 환율", "value": "", "dir": "up"},
+          {"key": "야간 선물", "value": "", "dir": "up"},
+          {"key": "미국 상장 한국물(ADR)", "value": "", "dir": "up"}
+        ],
+        "supply": [
+          {"who": "외국인", "amount": "", "dir": "buy"},
+          {"who": "기관", "amount": "", "dir": "buy"},
+          {"who": "개인", "amount": "", "dir": "buy"}
+        ],
+        "sectorsUp": [
+          {"theme": "", "stockName": "", "stockChange": ""},
+          {"theme": "", "stockName": "", "stockChange": ""},
+          {"theme": "", "stockName": "", "stockChange": ""},
+          {"theme": "", "stockName": "", "stockChange": ""},
+          {"theme": "", "stockName": "", "stockChange": ""}
+        ],
+        "sectorsDown": [
+          {"theme": "", "stockName": "", "stockChange": ""},
+          {"theme": "", "stockName": "", "stockChange": ""},
+          {"theme": "", "stockName": "", "stockChange": ""},
+          {"theme": "", "stockName": "", "stockChange": ""},
+          {"theme": "", "stockName": "", "stockChange": ""}
+        ],
+        "watchlist": [
+          {"name": "", "badge": "", "badgeType": "up", "desc": ""},
+          {"name": "", "badge": "", "badgeType": "default", "desc": ""}
+        ],
+        "health": [
+          {"key": "투자자 예탁금", "tip": "대기 자금", "value": "", "subIcon": "▲", "subDir": "up"},
+          {"key": "신용융자 잔고", "tip": "", "value": "", "subIcon": "▲", "subDir": "up"}
+        ]
+      },
+      "calendar": {
+        "subNote": "",
+        "subNoteEm": "",
+        "riskSentiment": "",
+        "domestic": {
+          "timed": [{"time": "00:00", "event": "", "important": false}],
+          "untimed": [{"event": "", "when": ""}]
+        },
+        "global": {
+          "timed": [{"time": "00:00", "event": "", "important": false}],
+          "untimed": [{"event": "", "when": ""}]
+        },
+        "theme": "",
+        "checks": ["", "", ""]
+      }
+    }
+  ],
+
   "$defs": {
 
     "Direction": {
