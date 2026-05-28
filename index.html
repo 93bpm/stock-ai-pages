@@ -707,48 +707,8 @@
   }
 
   // ─── v1.5.0: 캘린더 확장 (calendarWeek / calendarMonth) ──
-  // 옛 데이터 fallback: calendarWeek 없으면 당일만 채운 7-day skeleton, calendarMonth 없으면 null
-  function ensureCalExt(data){
-    if(!data.calendarWeek) data.calendarWeek = buildWeekFromLegacy(data);
-    if(!data.calendarMonth) data.calendarMonth = null;
-  }
-
-  function buildWeekFromLegacy(data){
-    if(!data || !data.date) return null;
-    const d = parseISO(data.date);
-    const dow = d.getDay();                          // 0=일, 6=토
-    const sunday = new Date(d); sunday.setDate(d.getDate() - dow);
-    const saturday = new Date(sunday); saturday.setDate(sunday.getDate() + 6);
-
-    const fmt = dt => `${dt.getFullYear()}-${String(dt.getMonth()+1).padStart(2,'0')}-${String(dt.getDate()).padStart(2,'0')}`;
-    const days = [];
-    for(let i=0; i<7; i++){
-      const dt = new Date(sunday); dt.setDate(sunday.getDate() + i);
-      const isToday = fmt(dt) === data.date;
-      const items = [];
-      if(isToday && data.calendar){
-        // 오늘 cell 에만 기존 calendar 데이터를 v1.5.0 형식으로 변환해 넣음
-        (data.calendar.domestic?.timed || []).forEach(e => items.push({
-          region: 'domestic', time: e.time || null, event: e.event,
-          important: !!e.important, category: 'macro'
-        }));
-        (data.calendar.domestic?.untimed || []).forEach(e => items.push({
-          region: 'domestic', time: null, event: e.event,
-          important: false, category: 'macro'
-        }));
-        (data.calendar.global?.timed || []).forEach(e => items.push({
-          region: 'global', time: e.time || null, event: e.event,
-          important: !!e.important, category: 'macro'
-        }));
-        (data.calendar.global?.untimed || []).forEach(e => items.push({
-          region: 'global', time: null, event: e.event,
-          important: false, category: 'macro'
-        }));
-      }
-      days.push({date: fmt(dt), weekday: DOW[i], items});
-    }
-    return {start: fmt(sunday), end: fmt(saturday), days};
-  }
+  // 분기 정책: data.date >= V15_CUTOFF('2026-05-29') && data.calendarWeek 존재 시에만 새 UI.
+  // 그 외(옛 데이터·prompt 미적용)는 옛 UI 그대로 (세그먼트 컨트롤 자체를 숨김). navigate() 참조.
 
   // 주간 뷰: 일~토 7개 .wk-day cell. 오늘 cell 에 .today 클래스 + 자동 스크롤 정렬
   function renderCalendarWeek(week, todayISO){
@@ -935,10 +895,24 @@
       renderUs(data.us);
       renderWorld(data.world);
       renderKr(data.kr);
-      ensureCalExt(data);                                          // v1.5.0: 옛 데이터 fallback
       renderCalendar(data.calendar);
-      renderCalendarWeek(data.calendarWeek, STATE.selectedDate);   // v1.5.0
-      renderCalendarMonth(data.calendarMonth, STATE.selectedDate); // v1.5.0
+
+      // v1.5.0: cutoff(2026-05-29) 이후 + calendarWeek 존재 시에만 새 UI 활성
+      // 5/28 이전 데이터 또는 routine prompt 미적용 데이터 → 옛 UI 그대로 (세그먼트 컨트롤 숨김)
+      const V15_CUTOFF = '2026-05-29';
+      const useV15 = data.date >= V15_CUTOFF && !!data.calendarWeek;
+      const $views = document.querySelector('.cal-views');
+      $views.style.display = useV15 ? 'flex' : 'none';
+
+      if(useV15){
+        renderCalendarWeek(data.calendarWeek, STATE.selectedDate);
+        renderCalendarMonth(data.calendarMonth, STATE.selectedDate);
+      } else {
+        // 옛 UI 강제: [오늘] pane만 보이게 + 세그먼트 상태 초기화
+        document.querySelectorAll('.cal-view').forEach(b => b.classList.toggle('on', b.dataset.cv === 'today'));
+        document.querySelectorAll('.cal-pane').forEach(p => p.classList.toggle('on', p.id === 'cal-pane-today'));
+        STATE.calendarView = 'today';
+      }
 
       hideStatus();
     } catch (e) {
