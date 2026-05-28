@@ -33,6 +33,7 @@ manifest·usage 갱신 절차: [`guides/outputs.md §1·§2`](./guides/outputs.m
 |---|---|
 | 데이터 수집 | [`guides/sources.md`](./guides/sources.md) |
 | 뉴스 큐레이션 | [`guides/news.md`](./guides/news.md) ★필수★ |
+| **JSON 생성 (구조 정확히)** | [`template.json`](./template.json) ★필수★ — 빈 데이터로 정확한 구조 보존. routine은 이 파일을 fetch해서 구조 그대로 따라가고 빈 문자열을 실값으로 채울 것. ★data 키 래핑 금지·world.global/domestic·calendar 객체★ |
 | Sanity Check + 마스킹 + 카운트 | [`guides/data-quality.md`](./guides/data-quality.md) |
 | manifest·usage 갱신 + HTML 검증 | [`guides/outputs.md`](./guides/outputs.md) |
 | 휴장일·톤 | [`guides/operations.md`](./guides/operations.md) |
