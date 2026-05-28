@@ -125,6 +125,14 @@ manifest·usage 갱신 절차: [`guides/outputs.md §1·§2`](./guides/outputs.m
 - [ ] 美·韓 휴장·주말 정확히 적용
 → [`guides/operations.md §2`](./guides/operations.md)
 
+### 🎭 페르소나 적용 (★v1.5.1 신설★)
+- [ ] **美 증시 해설가** 페르소나 적용: `us.comment/subNote/Em`, `world.global[].note·sentiment·categoryStyle·category` 12건
+- [ ] **韓 증시 해설가** 페르소나 적용: `kr.comment/subNote/Em/expectedRange`, `kr.watchlist[].desc`, `world.domestic[].note·sentiment·categoryStyle·category` 12건, `calendar.theme/checks[]`
+- [ ] **美·韓 종합**: `world.subNote/Em`, `calendar.subNote/Em`
+- [ ] **시세·뉴스 사실 데이터는 페르소나 영향 X** (원문 그대로)
+- [ ] Sanity grep: 단정 표현 (확실히·반드시·틀림없이) + 추천성 (매수 추천·매도 추천) **0건**
+→ [`guides/operations.md §1.2~§1.5`](./guides/operations.md)
+
 ### 💾 산출물 갱신
 - [ ] usage.json append 직전: `END_TS` 측정 → `duration_seconds = END_TS - START_TS`
 - [ ] briefing 저장 직후: `wc -c` 등으로 실측 → `response_size_kb` 채움 (자체 추산 금지) ★v1.4.4★
