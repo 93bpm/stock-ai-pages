@@ -82,6 +82,17 @@ manifest·usage 갱신 절차: [`guides/outputs.md §1·§2`](./guides/outputs.m
 - [ ] 韓 수급·업종·시장체력은 마감 시황 기사 추출 (LLM)
 → [`guides/sources.md §3~§14`](./guides/sources.md)
 
+### 📅 캘린더 확장 (★v1.5.0 신설★)
+- [ ] `./data/whitelist-kr-marketcap.json` + `./data/whitelist-conferences.json` fetch (정적)
+- [ ] **매월 1일 발화 시**: KRX 시총 페이지 fetch → `whitelist-kr-marketcap.json` 재생성 (~500 종목)
+- [ ] 7일 future window (이번 주 일~토) 일정 수집 → `calendarWeek.days[]` 7-cell 모두 채움 (빈 날도 `items:[]`)
+- [ ] 30일 future window (이번 달) 일정 수집 → `calendarMonth.days[]` (hit only, 빈 날 생략)
+- [ ] 韓 실적: 시총 화이트리스트 hit 종목만 포함 + 한은 금통위 별도 WebSearch
+- [ ] 해외 학회: 학회 화이트리스트 매칭만 (GTC/WWDC/CES/NeurIPS/ASCO 등)
+- [ ] 해외 일정 KST 환산 (sources.md §12)
+- [ ] 일관성 검증: 오늘 calendar 일정 ⊂ calendarWeek.days[todayIdx].items
+→ [`guides/sources.md §15·§16`](./guides/sources.md)
+
 ### 📰 뉴스 큐레이션
 - [ ] 카운트는 `schema.json` 기준 (글로벌·국내)
 - [ ] ★**sourceUrl 100% 채움**★ + 빈 값·중복·차단 도메인 0건 + source↔URL 도메인 일관성

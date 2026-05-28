@@ -241,3 +241,73 @@ routine이 **데이터 수집 단계**에서 정독.
 - **시장체력 (`kr.health`)**: 주간 기사("예탁금 XX조 돌파") 활용 — 시점 1~2일 지연 가능
 
 **추출 실패 시**: **마스킹 절대 금지**. 해당 항목을 데이터 배열에서 제거 (배열 길이 줄임). 자세한 룰은 `guides/data-quality.md §3 §5`.
+
+---
+
+## §15. 시총 2000억+ 韓 종목 화이트리스트 (★v1.5.0 신설★)
+
+`calendarWeek`·`calendarMonth` 안에 韓 기업 실적 일정을 넣을 때 **이 화이트리스트에 있는 종목만** 포함. 화이트리스트 없는 종목 실적은 표시 제외 (사용자에게 의미 있는 일정만).
+
+### 화이트리스트 파일
+
+`./data/whitelist-kr-marketcap.json` — KOSPI+KOSDAQ 시총 2000억원+ 종목 (~500 예상).
+
+```json
+{
+  "version": "2026-05-28",
+  "criteria": "KOSPI+KOSDAQ 시총 2000억원+",
+  "tickers": [
+    { "code": "005930", "name": "삼성전자", "market": "KOSPI", "marketCap": "180조" },
+    ...
+  ]
+}
+```
+
+### routine 사용 룰
+
+1. **평일**: 화이트리스트 fetch (`./data/whitelist-kr-marketcap.json`) → 정적 reference
+2. **매월 1일 발화**: KRX 시총 페이지 (`https://kind.krx.co.kr/corpgeneral/corpList.do`) 또는 한국거래소 시가총액 상위 페이지 fetch → `tickers[]` 재생성 → 같은 커밋에 commit
+3. **실적 매칭**: Investing.com earnings calendar에서 한국 기업명/종목코드 추출 → 화이트리스트 lookup → hit 시에만 `calendarWeek/Month.items[]` push
+
+### 한은 금통위 별도 처리
+
+한국은행 기준금리 결정 일정(연 8회)은 화이트리스트와 별개. 한국은행 공식 페이지 또는 WebSearch (`"한은 금통위 2026 일정"`)로 확보 → `category: "policy"`, `region: "domestic"` 으로 push.
+
+---
+
+## §16. 학회·컨퍼런스 화이트리스트 (★v1.5.0 신설★)
+
+해외 일정 중 **주식 영향력 큰 학회·컨퍼런스만** 포함. 일반 모든 컨퍼런스 X.
+
+### 화이트리스트 파일
+
+`./data/whitelist-conferences.json` — 10개 글로벌 행사.
+
+| Key | 이름 | 카테고리 | 시기 | 영향 |
+|---|---|---|---|---|
+| CES | Consumer Electronics Show | tech | 1월 | 가전·자동차·반도체 |
+| JPMHealthcare | JPMorgan Healthcare Conf | bio | 1월 | 바이오 (삼바·셀트리온) |
+| ISSCC | IEEE Solid-State Circuits | semi | 2월 | 반도체 (삼성·SK하이닉스) |
+| MWC | Mobile World Congress | tech | 2~3월 | 5G·6G·통신 |
+| GTC | NVIDIA GTC | ai | 3월·10월 | AI·반도체 (HBM 영향) |
+| ASCO | ASCO Annual Meeting | bio | 5~6월 | 항암제·면역항암 임상 |
+| WWDC | Apple WWDC | tech | 6월 | Apple 공급망 (삼성·LG) |
+| Computex | Computex Taipei | semi | 5~6월 | AI 서버·PC 반도체 |
+| HotChips | Hot Chips Symposium | semi | 8월 | HBM·NPU 발표 |
+| NeurIPS | NeurIPS | ai | 12월 | AI 학계 (NVIDIA·Google) |
+
+### routine 사용 룰
+
+1. **평일·매번**: 화이트리스트 fetch (`./data/whitelist-conferences.json`)
+2. **7일·30일 future window 매칭**:
+   - 각 행사의 `expectedMonth` 가 현재 월 또는 다음 월에 해당하면 **WebSearch 1회** 로 정확한 날짜 확인
+     예: `"NVIDIA GTC 2026 keynote date"`
+   - 검색 결과로부터 행사 시작·종료일 추출 → 7일·30일 future window 안이면 `calendarWeek/Month.items[]` push
+   - `category: "conference"`, `region: "global"`, `important: true` (weight=high) / `false` (weight=mid)
+3. **이름·URL 표기**: 화이트리스트 `name` 필드 그대로 사용. 같은 행사가 여러 날 진행 시 keynote/메인 발표일 1개만 우선
+
+### 갱신 주기
+
+행사 일정 자체는 매년 비슷 (CES=1월 첫째 주 등). 화이트리스트 갱신은 **연 1회** 정도면 충분. routine 부담 없음.
+
+---

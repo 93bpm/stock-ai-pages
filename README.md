@@ -39,6 +39,9 @@ stock-ai-pages/
 │       └── operations.md   # 톤·문체 + 휴장일 + 운영 노트
 ├── briefing/               # 일일 데이터 (immutable)
 │   └── YYYY-MM-DD.json     # 그날의 브리핑 데이터
+├── data/                   # v1.5.0 — 정적 reference (화이트리스트)
+│   ├── whitelist-kr-marketcap.json   # 시총 2000억+ 韓 종목 (매월 1일 routine 갱신)
+│   └── whitelist-conferences.json    # 글로벌 학회·컨퍼런스 (연 1회 갱신)
 └── .github/workflows/
     └── auto-merge-routine.yml  # claude/* 브랜치 자동 머지
 ```

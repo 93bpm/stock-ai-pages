@@ -1,0 +1,133 @@
+{
+  "version": "2026-05-28",
+  "description": "주식 영향력 큰 글로벌 학회·컨퍼런스 화이트리스트 — v1.5.0 calendarWeek·calendarMonth 매칭용",
+  "updatedAt": "2026-05-28T00:00:00+09:00",
+  "categories": {
+    "ai": "AI·머신러닝",
+    "semi": "반도체",
+    "tech": "빅테크 (모바일·OS·플랫폼)",
+    "bio": "바이오·헬스케어"
+  },
+  "conferences": [
+    {
+      "key": "CES",
+      "name": "CES",
+      "fullName": "Consumer Electronics Show",
+      "category": "tech",
+      "weight": "high",
+      "region": "global",
+      "expectedMonth": [1],
+      "host": "CTA",
+      "url": "https://www.ces.tech/",
+      "note": "1월 라스베이거스. 가전·자동차·반도체 신제품 발표. 한국 기업 다수 참가 (삼성·LG·현대모비스)."
+    },
+    {
+      "key": "JPMHealthcare",
+      "name": "JPM Healthcare",
+      "fullName": "JPMorgan Healthcare Conference",
+      "category": "bio",
+      "weight": "high",
+      "region": "global",
+      "expectedMonth": [1],
+      "host": "JPMorgan",
+      "url": "https://www.jpmorgan.com/insights/research/healthcare-conference",
+      "note": "1월 샌프란시스코. 글로벌 바이오·제약 최대 컨퍼런스. 한국 바이오(삼성바이오로직스·셀트리온·셀바스AI) 발표 다수."
+    },
+    {
+      "key": "ISSCC",
+      "name": "ISSCC",
+      "fullName": "International Solid-State Circuits Conference",
+      "category": "semi",
+      "weight": "high",
+      "region": "global",
+      "expectedMonth": [2],
+      "host": "IEEE",
+      "url": "https://www.isscc.org/",
+      "note": "2월 샌프란시스코. 반도체 설계 학술대회. 삼성전자·SK하이닉스 HBM·D램 신기술 공개."
+    },
+    {
+      "key": "MWC",
+      "name": "MWC",
+      "fullName": "Mobile World Congress",
+      "category": "tech",
+      "weight": "high",
+      "region": "global",
+      "expectedMonth": [2, 3],
+      "host": "GSMA",
+      "url": "https://www.mwcbarcelona.com/",
+      "note": "2~3월 바르셀로나. 5G·6G·AI 통신 신제품 공개. 삼성·LG U+·SK텔레콤 참가."
+    },
+    {
+      "key": "GTC",
+      "name": "NVIDIA GTC",
+      "fullName": "NVIDIA GPU Technology Conference",
+      "category": "ai",
+      "weight": "high",
+      "region": "global",
+      "expectedMonth": [3, 10],
+      "host": "NVIDIA",
+      "url": "https://www.nvidia.com/gtc/",
+      "note": "3월(주력)·10월(워싱턴 D.C.). Jensen Keynote 발표 후 AI·반도체 섹터 변동성 큼. SK하이닉스 HBM·삼성전자 영향."
+    },
+    {
+      "key": "ASCO",
+      "name": "ASCO",
+      "fullName": "ASCO Annual Meeting",
+      "category": "bio",
+      "weight": "high",
+      "region": "global",
+      "expectedMonth": [5, 6],
+      "host": "American Society of Clinical Oncology",
+      "url": "https://www.asco.org/meetings/asco-annual-meeting",
+      "note": "5~6월 시카고. 항암제·면역항암 임상 결과 공개. 한국 바이오(유한양행·HK이노엔·셀트리온) 영향."
+    },
+    {
+      "key": "WWDC",
+      "name": "Apple WWDC",
+      "fullName": "Apple Worldwide Developers Conference",
+      "category": "tech",
+      "weight": "high",
+      "region": "global",
+      "expectedMonth": [6],
+      "host": "Apple",
+      "url": "https://developer.apple.com/wwdc/",
+      "note": "6월 쿠퍼티노. iOS·macOS·Vision Pro 신기능. Apple 공급망(삼성·LG디스플레이·LG이노텍) 영향."
+    },
+    {
+      "key": "Computex",
+      "name": "Computex",
+      "fullName": "Computex Taipei",
+      "category": "semi",
+      "weight": "high",
+      "region": "global",
+      "expectedMonth": [5, 6],
+      "host": "TAITRA",
+      "url": "https://www.computextaipei.com.tw/",
+      "note": "5~6월 타이베이. AI 서버·PC·반도체 신제품. NVIDIA·AMD·Intel·삼성·SK하이닉스 참가."
+    },
+    {
+      "key": "HotChips",
+      "name": "Hot Chips",
+      "fullName": "Hot Chips Symposium",
+      "category": "semi",
+      "weight": "mid",
+      "region": "global",
+      "expectedMonth": [8],
+      "host": "IEEE",
+      "url": "https://hotchips.org/",
+      "note": "8월 스탠퍼드. 반도체 아키텍처 최신 발표. 삼성전자·SK하이닉스 HBM·NPU 공개."
+    },
+    {
+      "key": "NeurIPS",
+      "name": "NeurIPS",
+      "fullName": "Conference on Neural Information Processing Systems",
+      "category": "ai",
+      "weight": "mid",
+      "region": "global",
+      "expectedMonth": [12],
+      "host": "NeurIPS Foundation",
+      "url": "https://neurips.cc/",
+      "note": "12월. AI 학계 최대 컨퍼런스. NVIDIA·Google·Meta·OpenAI 논문 발표 후 AI 섹터 변동."
+    }
+  ]
+}

@@ -236,6 +236,87 @@
   footer{margin-top:22px;padding:0 6px;font-size:11px;color:var(--text-dim);line-height:1.7;text-align:center;}
   footer code{font-family:'Courier New',monospace;background:var(--surface-2);padding:1px 5px;
     border-radius:4px;font-size:10.5px;color:var(--text-soft);}
+
+  /* ─── v1.5.0 일정 탭 3뷰 (세그먼트 컨트롤 + 주간 좌우 스크롤 + 월간 달력) ─── */
+  .cal-views{display:flex;gap:6px;margin:14px 0 12px;}
+  .cal-view{flex:1;border:none;cursor:pointer;font-family:inherit;
+    background:var(--surface-2);color:var(--text-soft);font-size:12.5px;font-weight:700;
+    padding:8px 4px;border-radius:10px;transition:.16s;border:1px solid transparent;}
+  .cal-view.on{background:rgba(49,130,246,.16);color:#79AEFF;border-color:rgba(49,130,246,.4);}
+  .cal-view:disabled{opacity:.4;cursor:not-allowed;}
+  .cal-pane{display:none;}
+  .cal-pane.on{display:block;}
+  .cal-empty{text-align:center;padding:30px 12px;color:var(--text-dim);font-size:13px;}
+
+  /* 좌측 region 태그 (모든 뷰 공통 — 일간/주간/월간) */
+  .reg{flex:none;font-size:9.5px;font-weight:800;padding:2px 6px;border-radius:5px;
+    background:rgba(49,130,246,.16);color:#79AEFF;letter-spacing:.03em;align-self:flex-start;
+    text-transform:uppercase;line-height:1.4;}
+  .reg.global{background:rgba(255,92,108,.13);color:#FF8A95;}
+
+  /* 주간: 일~토 좌우 스크롤 */
+  .cal-week-scroll{display:flex;gap:9px;overflow-x:auto;scroll-snap-type:x mandatory;
+    padding:4px 2px 12px;margin:0 -2px;-webkit-overflow-scrolling:touch;}
+  .cal-week-scroll::-webkit-scrollbar{height:6px;}
+  .cal-week-scroll::-webkit-scrollbar-thumb{background:var(--surface-2);border-radius:3px;}
+  .wk-day{flex:0 0 78%;max-width:280px;scroll-snap-align:start;
+    background:var(--surface-2);border-radius:13px;padding:12px 13px;
+    border:1px solid transparent;display:flex;flex-direction:column;gap:8px;}
+  .wk-day.today{border-color:rgba(49,130,246,.55);box-shadow:inset 0 0 0 1px rgba(49,130,246,.35);}
+  .wk-head{display:flex;justify-content:space-between;align-items:baseline;
+    font-size:13px;font-weight:800;color:var(--text);padding-bottom:6px;
+    border-bottom:1px solid var(--line);}
+  .wk-head .wk-date{font-size:11.5px;color:var(--text-dim);font-weight:600;}
+  .wk-head .wk-dow.sun{color:var(--up);}
+  .wk-head .wk-dow.sat{color:var(--down);}
+  .wk-empty{font-size:11.5px;color:var(--text-dim);text-align:center;padding:14px 0;}
+  .wk-item{display:flex;gap:8px;padding:7px 0;border-bottom:1px solid var(--line);}
+  .wk-item:last-child{border-bottom:none;padding-bottom:2px;}
+  .wk-item .body{flex:1;min-width:0;}
+  .wk-item .ev{font-size:12.5px;font-weight:600;line-height:1.4;color:var(--text);
+    word-break:break-word;}
+  .wk-item .ev-time{font-size:10.5px;color:var(--text-dim);font-weight:600;margin-top:3px;}
+
+  /* 월간: 6×7 달력 그리드 */
+  .cal-month-head{display:flex;justify-content:space-between;align-items:center;
+    margin:6px 2px 9px;}
+  .cal-month-head .ttl{font-size:14.5px;font-weight:800;color:var(--text);}
+  .cal-month-head .sub{font-size:11px;color:var(--text-dim);font-weight:600;}
+  .cal-month-dow{display:grid;grid-template-columns:repeat(7,1fr);gap:3px;margin-bottom:4px;}
+  .cal-month-dow span{text-align:center;font-size:10.5px;font-weight:700;color:var(--text-dim);padding:3px 0;}
+  .cal-month-dow span:first-child{color:var(--up);}
+  .cal-month-dow span:last-child{color:var(--down);}
+  .cal-month-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:3px;}
+  .mo-cell{min-height:62px;background:var(--surface-2);border-radius:8px;
+    padding:4px 4px 3px;font-size:10.5px;border:1px solid transparent;
+    position:relative;cursor:default;display:flex;flex-direction:column;gap:2px;
+    overflow:hidden;}
+  .mo-cell.empty{visibility:hidden;}
+  .mo-cell.today{border-color:rgba(49,130,246,.55);box-shadow:inset 0 0 0 1px rgba(49,130,246,.35);}
+  .mo-cell .day{font-size:10.5px;font-weight:800;color:var(--text-soft);line-height:1;
+    padding:2px 0 1px;}
+  .mo-cell .day.sun{color:var(--up);}
+  .mo-cell .day.sat{color:var(--down);}
+  .mo-cell.today .day{color:#79AEFF;}
+  .mo-cell .pill{display:block;font-size:9.5px;font-weight:700;
+    padding:1px 4px;border-radius:4px;background:rgba(49,130,246,.16);color:#79AEFF;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:1.4;}
+  .mo-cell .pill.global{background:rgba(255,92,108,.13);color:#FF8A95;}
+  .mo-cell .pill.more{background:var(--surface);color:var(--text-dim);}
+
+  /* 호버 툴팁 (모바일 tap 호환) */
+  .mo-cell{cursor:pointer;}
+  .mo-cell.empty,.mo-cell:not(.has-items){cursor:default;}
+  .pop{position:absolute;z-index:60;background:var(--surface);border:1px solid var(--line);
+    border-radius:9px;padding:9px 11px;font-size:11.5px;line-height:1.55;color:var(--text);
+    box-shadow:0 8px 24px rgba(0,0,0,.55);left:50%;top:calc(100% + 4px);
+    transform:translateX(-50%);width:max-content;max-width:240px;display:none;
+    pointer-events:none;}
+  .pop .row{display:flex;gap:6px;padding:3px 0;align-items:flex-start;}
+  .pop .row + .row{border-top:1px dashed var(--line);margin-top:2px;padding-top:5px;}
+  .mo-cell.open .pop,.wk-item:hover .pop{display:block;}
+  /* 작은 화면에서 우측 끝 cell 툴팁 위치 보정 */
+  @media (max-width:380px){.pop{max-width:200px;font-size:11px;}}
 </style>
 </head>
 <body>
@@ -346,24 +427,51 @@
     </div>
   </section>
 
-  <!-- 4. 오늘 일정 -->
+  <!-- 4. 일정 (v1.5.0: 3뷰 — 오늘/주간/월간) -->
   <section class="panel" id="cal">
     <div class="card">
-      <div class="sec-head"><span class="sec-ic">🗓️</span><div class="meta"><div class="sec-titlerow"><span class="sec-title">오늘 일정 &amp; 시황</span><span class="sec-sub">한국 시간(KST) 기준</span></div></div></div>
+      <div class="sec-head"><span class="sec-ic">🗓️</span><div class="meta"><div class="sec-titlerow"><span class="sec-title">일정 &amp; 시황</span><span class="sec-sub">한국 시간(KST) 기준</span></div></div></div>
       <div class="sec-note" id="cal-subnote"></div>
       <p style="font-size:14px;">오늘 리스크 심리 &nbsp;<span class="badge" id="cal-risk"></span></p>
-      <div class="sched">
-        <div class="block">
-          <div class="block-title"><span class="ic">🇰🇷</span>국내 <span style="font-weight:500;color:var(--text-dim);font-size:11px;margin-left:auto;">KST</span></div>
-          <div class="cal" id="cal-dom-timed"></div>
-          <div class="untimed" id="cal-dom-untimed"></div>
-        </div>
-        <div class="block">
-          <div class="block-title"><span class="ic">🌏</span>해외 <span style="font-weight:500;color:var(--text-dim);font-size:11px;margin-left:auto;">KST 환산</span></div>
-          <div class="cal" id="cal-glo-timed"></div>
-          <div class="untimed" id="cal-glo-untimed"></div>
+
+      <!-- 세그먼트 컨트롤 -->
+      <div class="cal-views">
+        <button type="button" class="cal-view on" data-cv="today">오늘</button>
+        <button type="button" class="cal-view"    data-cv="week">주간</button>
+        <button type="button" class="cal-view"    data-cv="month" id="cal-view-month">월간</button>
+      </div>
+
+      <!-- ① 오늘 뷰 (기존 .sched 유지 + 좌측 region 태그는 JS 렌더링에서 추가) -->
+      <div class="cal-pane on" id="cal-pane-today">
+        <div class="sched">
+          <div class="block">
+            <div class="block-title"><span class="ic">🇰🇷</span>국내 <span style="font-weight:500;color:var(--text-dim);font-size:11px;margin-left:auto;">KST</span></div>
+            <div class="cal" id="cal-dom-timed"></div>
+            <div class="untimed" id="cal-dom-untimed"></div>
+          </div>
+          <div class="block">
+            <div class="block-title"><span class="ic">🌏</span>해외 <span style="font-weight:500;color:var(--text-dim);font-size:11px;margin-left:auto;">KST 환산</span></div>
+            <div class="cal" id="cal-glo-timed"></div>
+            <div class="untimed" id="cal-glo-untimed"></div>
+          </div>
         </div>
       </div>
+
+      <!-- ② 주간 뷰 (좌우 스크롤, 일~토 7일) -->
+      <div class="cal-pane" id="cal-pane-week">
+        <div class="cal-week-scroll" id="cal-week"></div>
+      </div>
+
+      <!-- ③ 월간 뷰 (6×7 달력 그리드) -->
+      <div class="cal-pane" id="cal-pane-month">
+        <div class="cal-month-head">
+          <span class="ttl" id="cal-month-title"></span>
+          <span class="sub">국내·해외 일정</span>
+        </div>
+        <div class="cal-month-dow"><span>일</span><span>월</span><span>화</span><span>수</span><span>목</span><span>금</span><span>토</span></div>
+        <div class="cal-month-grid" id="cal-month"></div>
+      </div>
+
       <div class="theme"><b>오늘의 테마</b><span id="cal-theme"></span></div>
       <ul class="check" id="cal-checks"></ul>
     </div>
@@ -387,7 +495,8 @@
     data: null,
     selectedDate: null,
     viewY: null,
-    viewM: null
+    viewM: null,
+    calendarView: 'today'   // v1.5.0: 'today' | 'week' | 'month'
   };
 
   // ─── 유틸 ────────────────────────────────────────
@@ -575,7 +684,7 @@
     }).join('');
   }
 
-  // ─── 렌더링: Calendar ────────────────────────────
+  // ─── 렌더링: Calendar (오늘 뷰) ──────────────────
   function renderCalendar(cal){
     $('cal-subnote').innerHTML = emWrap(cal.subNote, cal.subNoteEm);
     $('cal-risk').textContent = cal.riskSentiment;
@@ -595,6 +704,170 @@
 
     $('cal-theme').textContent = cal.theme;
     $('cal-checks').innerHTML = cal.checks.map(c => `<li>${esc(c)}</li>`).join('');
+  }
+
+  // ─── v1.5.0: 캘린더 확장 (calendarWeek / calendarMonth) ──
+  // 옛 데이터 fallback: calendarWeek 없으면 당일만 채운 7-day skeleton, calendarMonth 없으면 null
+  function ensureCalExt(data){
+    if(!data.calendarWeek) data.calendarWeek = buildWeekFromLegacy(data);
+    if(!data.calendarMonth) data.calendarMonth = null;
+  }
+
+  function buildWeekFromLegacy(data){
+    if(!data || !data.date) return null;
+    const d = parseISO(data.date);
+    const dow = d.getDay();                          // 0=일, 6=토
+    const sunday = new Date(d); sunday.setDate(d.getDate() - dow);
+    const saturday = new Date(sunday); saturday.setDate(sunday.getDate() + 6);
+
+    const fmt = dt => `${dt.getFullYear()}-${String(dt.getMonth()+1).padStart(2,'0')}-${String(dt.getDate()).padStart(2,'0')}`;
+    const days = [];
+    for(let i=0; i<7; i++){
+      const dt = new Date(sunday); dt.setDate(sunday.getDate() + i);
+      const isToday = fmt(dt) === data.date;
+      const items = [];
+      if(isToday && data.calendar){
+        // 오늘 cell 에만 기존 calendar 데이터를 v1.5.0 형식으로 변환해 넣음
+        (data.calendar.domestic?.timed || []).forEach(e => items.push({
+          region: 'domestic', time: e.time || null, event: e.event,
+          important: !!e.important, category: 'macro'
+        }));
+        (data.calendar.domestic?.untimed || []).forEach(e => items.push({
+          region: 'domestic', time: null, event: e.event,
+          important: false, category: 'macro'
+        }));
+        (data.calendar.global?.timed || []).forEach(e => items.push({
+          region: 'global', time: e.time || null, event: e.event,
+          important: !!e.important, category: 'macro'
+        }));
+        (data.calendar.global?.untimed || []).forEach(e => items.push({
+          region: 'global', time: null, event: e.event,
+          important: false, category: 'macro'
+        }));
+      }
+      days.push({date: fmt(dt), weekday: DOW[i], items});
+    }
+    return {start: fmt(sunday), end: fmt(saturday), days};
+  }
+
+  // 주간 뷰: 일~토 7개 .wk-day cell. 오늘 cell 에 .today 클래스 + 자동 스크롤 정렬
+  function renderCalendarWeek(week, todayISO){
+    const $w = $('cal-week');
+    if(!week || !week.days || week.days.length !== 7){
+      $w.innerHTML = '<div class="cal-empty">주간 일정 데이터가 없어요.</div>';
+      return;
+    }
+    const itemHtml = it => {
+      const regClass = it.region === 'global' ? 'global' : '';
+      const regLabel = it.region === 'global' ? '해외' : '국내';
+      const timeHtml = it.time
+        ? `<div class="ev-time">${esc(it.time)} KST</div>`
+        : `<div class="ev-time">시간 미정</div>`;
+      return `<div class="wk-item"><span class="reg ${regClass}">${regLabel}</span><div class="body"><div class="ev">${esc(it.event)}</div>${timeHtml}</div></div>`;
+    };
+    const dayHtml = (day, idx) => {
+      const isToday = day.date === todayISO;
+      const dowCls = idx === 0 ? 'sun' : (idx === 6 ? 'sat' : '');
+      const dateLabel = day.date ? day.date.slice(5).replace('-','/') : '';
+      const inner = day.items && day.items.length
+        ? day.items.map(itemHtml).join('')
+        : `<div class="wk-empty">일정 없음</div>`;
+      return `<div class="wk-day${isToday?' today':''}" data-date="${esc(day.date||'')}">
+        <div class="wk-head">
+          <span class="wk-dow ${dowCls}">${esc(day.weekday||'')}</span>
+          <span class="wk-date">${esc(dateLabel)}</span>
+        </div>
+        ${inner}
+      </div>`;
+    };
+    $w.innerHTML = week.days.map(dayHtml).join('');
+
+    // 오늘 cell 로 스크롤 정렬 (주간 뷰가 보이는 순간에만 작동)
+    setTimeout(() => {
+      const todayCell = $w.querySelector('.wk-day.today');
+      if(todayCell && STATE.calendarView === 'week'){
+        todayCell.scrollIntoView({behavior:'smooth', inline:'start', block:'nearest'});
+      }
+    }, 80);
+  }
+
+  // 월간 뷰: 6×7 grid. cell 안 pill 최대 2 + +N 표시. tap 시 toggle 툴팁
+  function renderCalendarMonth(month, todayISO){
+    const $g = $('cal-month');
+    const $t = $('cal-month-title');
+    const monthBtn = $('cal-view-month');
+
+    if(!month || !month.year || !month.month){
+      // 옛 데이터: 월간 disable + 안내
+      monthBtn.disabled = true;
+      monthBtn.title = '이 날짜는 월간 데이터가 아직 없어요';
+      $t.textContent = '';
+      $g.innerHTML = '<div class="cal-empty" style="grid-column:1 / -1;">이 날짜는 월간 데이터가 아직 없어요.<br>v1.5.0 (2026-05-28~) 이후 발화분부터 표시돼요.</div>';
+      return;
+    }
+    monthBtn.disabled = false;
+    monthBtn.removeAttribute('title');
+
+    $t.textContent = `${month.year}년 ${month.month}월`;
+
+    // hit map (O(1) lookup)
+    const hitMap = new Map();
+    (month.days || []).forEach(d => hitMap.set(d.date, d.items || []));
+
+    const firstDow = new Date(month.year, month.month - 1, 1).getDay();
+    const lastDate = new Date(month.year, month.month, 0).getDate();
+    const fmt = (y,m,d) => `${y}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+
+    const cells = [];
+    // 시작 일요일까지 empty cell
+    for(let i=0; i<firstDow; i++) cells.push('<div class="mo-cell empty"></div>');
+
+    for(let d=1; d<=lastDate; d++){
+      const iso = fmt(month.year, month.month, d);
+      const items = hitMap.get(iso) || [];
+      const dow = (firstDow + d - 1) % 7;
+      const dowCls = dow === 0 ? 'sun' : (dow === 6 ? 'sat' : '');
+      const isToday = iso === todayISO;
+
+      // pill 최대 2개 + +N
+      const top2 = items.slice(0, 2).map(it => {
+        const cls = it.region === 'global' ? 'global' : '';
+        return `<span class="pill ${cls}">${esc(it.event)}</span>`;
+      }).join('');
+      const more = items.length > 2 ? `<span class="pill more">+${items.length - 2}</span>` : '';
+
+      // 호버 툴팁: 셀 안 .pop 에 전체 일정
+      const popInner = items.length
+        ? items.map(it => {
+            const regLabel = it.region === 'global' ? '해외' : '국내';
+            const regCls = it.region === 'global' ? 'global' : '';
+            return `<div class="row"><span class="reg ${regCls}">${regLabel}</span><span>${esc(it.event)}</span></div>`;
+          }).join('')
+        : '';
+      const pop = items.length ? `<div class="pop">${popInner}</div>` : '';
+
+      const hasCls = items.length ? ' has-items' : '';
+      const todayCls = isToday ? ' today' : '';
+      cells.push(`<div class="mo-cell${todayCls}${hasCls}" data-date="${iso}">
+        <span class="day ${dowCls}">${d}</span>
+        ${top2}${more}
+        ${pop}
+      </div>`);
+    }
+    // 마지막 토요일 이후 빈 cell (grid 미려 정렬)
+    while(cells.length % 7 !== 0) cells.push('<div class="mo-cell empty"></div>');
+
+    $g.innerHTML = cells.join('');
+
+    // tap 호환 toggle 툴팁 (.has-items cell 만)
+    $g.querySelectorAll('.mo-cell.has-items').forEach(cell => {
+      cell.addEventListener('click', e => {
+        e.stopPropagation();
+        const wasOpen = cell.classList.contains('open');
+        $g.querySelectorAll('.mo-cell.open').forEach(c => c.classList.remove('open'));
+        if(!wasOpen) cell.classList.add('open');
+      });
+    });
   }
 
   // ─── 캘린더 그리드 (날짜 선택) ───────────────────
@@ -662,7 +935,10 @@
       renderUs(data.us);
       renderWorld(data.world);
       renderKr(data.kr);
+      ensureCalExt(data);                                          // v1.5.0: 옛 데이터 fallback
       renderCalendar(data.calendar);
+      renderCalendarWeek(data.calendarWeek, STATE.selectedDate);   // v1.5.0
+      renderCalendarMonth(data.calendarMonth, STATE.selectedDate); // v1.5.0
 
       hideStatus();
     } catch (e) {
@@ -715,6 +991,28 @@
     document.querySelectorAll('.subtab').forEach(b => b.classList.toggle('on', b === btn));
     document.querySelectorAll('.subpanel').forEach(p => p.classList.toggle('on', p.id === btn.dataset.st));
   }));
+
+  // v1.5.0: 일정 탭 세그먼트 컨트롤 (오늘 / 주간 / 월간)
+  document.querySelectorAll('.cal-view').forEach(btn => btn.addEventListener('click', () => {
+    if(btn.disabled) return;
+    const cv = btn.dataset.cv;
+    document.querySelectorAll('.cal-view').forEach(b => b.classList.toggle('on', b === btn));
+    document.querySelectorAll('.cal-pane').forEach(p => p.classList.toggle('on', p.id === 'cal-pane-' + cv));
+    STATE.calendarView = cv;
+
+    // 주간 뷰 진입 시 오늘 cell 로 스크롤
+    if(cv === 'week'){
+      setTimeout(() => {
+        const t = document.querySelector('#cal-week .wk-day.today');
+        if(t) t.scrollIntoView({behavior:'smooth', inline:'start', block:'nearest'});
+      }, 60);
+    }
+  }));
+
+  // 월간 cell 외부 클릭 시 툴팁 닫기
+  document.addEventListener('click', () => {
+    document.querySelectorAll('#cal-month .mo-cell.open').forEach(c => c.classList.remove('open'));
+  });
 
   // 캘린더 토글
   $('dateChip').addEventListener('click', e => {

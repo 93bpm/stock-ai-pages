@@ -118,6 +118,19 @@ routine이 **JSON 생성 후 저장 전 검증 단계**에서 정독.
 [필드 관계 검증]
   subNoteEm은 subNote의 부분 문자열이어야 함 (us / world / kr / calendar 4 섹션)
 
+[캘린더 확장 일관성 — ★v1.5.0 신설★]
+  ① calendarWeek 존재 시 days.length === 7 (빈 날도 items:[] 포함)
+  ② calendarWeek.start 의 요일 === 일요일 (0), end 의 요일 === 토요일 (6)
+  ③ calendarWeek.start ~ end 가 정확히 7일 (start + 6일 === end)
+  ④ data.date 가 calendarWeek.start ~ end 범위 안
+  ⑤ 오늘 일정 일관성: calendar.domestic/global 의 일정이 calendarWeek.days[todayIdx].items 에도 모두 존재
+     (옛 데이터 호환: calendarWeek 없으면 검증 skip)
+  ⑥ calendarMonth.year/month === KST 의 year/month (data.date 의 연·월)
+  ⑦ calendarMonth.days[*].date 가 모두 그 달 범위 안 (year-month-01 ~ year-month-말일)
+  ⑧ 韓 실적(calendarWeek/Month items 중 category="earnings" + region="domestic")의 종목명/코드가
+     data/whitelist-kr-marketcap.json 화이트리스트 안에 있어야 함
+  ⑨ 학회/컨퍼런스(category="conference") 가 data/whitelist-conferences.json 의 행사 키와 매칭
+
 [마스킹값 grep]
   §3의 4개 패턴 (+3,2xx / 5x.x조 / ○○○ / X.x%) 0건이어야 함
 

@@ -24,7 +24,9 @@
     "us": { "$ref": "#/$defs/UsBlock" },
     "world": { "$ref": "#/$defs/WorldBlock" },
     "kr": { "$ref": "#/$defs/KrBlock" },
-    "calendar": { "$ref": "#/$defs/CalendarBlock" }
+    "calendar": { "$ref": "#/$defs/CalendarBlock" },
+    "calendarWeek": { "$ref": "#/$defs/CalendarWeek" },
+    "calendarMonth": { "$ref": "#/$defs/CalendarMonth" }
   },
 
   "examples": [
@@ -153,6 +155,26 @@
         },
         "theme": "",
         "checks": ["", "", ""]
+      },
+      "calendarWeek": {
+        "start": "",
+        "end": "",
+        "days": [
+          {"date": "", "weekday": "일", "items": []},
+          {"date": "", "weekday": "월", "items": []},
+          {"date": "", "weekday": "화", "items": []},
+          {"date": "", "weekday": "수", "items": []},
+          {"date": "", "weekday": "목", "items": [{"region": "domestic", "time": "10:00", "event": "", "important": false, "category": "policy"}]},
+          {"date": "", "weekday": "금", "items": []},
+          {"date": "", "weekday": "토", "items": []}
+        ]
+      },
+      "calendarMonth": {
+        "year": 2026,
+        "month": 5,
+        "days": [
+          {"date": "", "items": [{"region": "domestic", "event": "", "important": false, "category": "policy"}]}
+        ]
       }
     }
   ],
@@ -460,6 +482,72 @@
           "minItems": 3,
           "maxItems": 5,
           "description": "체크리스트 항목"
+        }
+      }
+    },
+
+    "CalEventBase": {
+      "type": "object",
+      "required": ["region", "event"],
+      "additionalProperties": false,
+      "properties": {
+        "region": { "type": "string", "enum": ["domestic", "global"], "description": "domestic=국내, global=해외" },
+        "time": { "type": ["string", "null"], "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$", "description": "KST 시:분 (예: 21:30). 시간 미정이면 null" },
+        "event": { "type": "string", "description": "일정 제목" },
+        "important": { "type": "boolean", "default": false },
+        "category": { "type": "string", "enum": ["earnings", "policy", "macro", "conference"], "description": "earnings=실적, policy=금리/통화정책, macro=경제지표, conference=학회/컨퍼런스" }
+      }
+    },
+
+    "WeekDay": {
+      "type": "object",
+      "required": ["date", "weekday", "items"],
+      "additionalProperties": false,
+      "properties": {
+        "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "weekday": { "type": "string", "enum": ["일", "월", "화", "수", "목", "금", "토"] },
+        "items": { "type": "array", "items": { "$ref": "#/$defs/CalEventBase" } }
+      }
+    },
+
+    "CalendarWeek": {
+      "type": "object",
+      "required": ["start", "end", "days"],
+      "additionalProperties": false,
+      "description": "v1.5.0 신설 — 이번 주 일~토 7일 일정. 빈 날도 items:[] 로 포함",
+      "properties": {
+        "start": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "주의 일요일 (KST)" },
+        "end": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "주의 토요일 (KST)" },
+        "days": {
+          "type": "array",
+          "minItems": 7,
+          "maxItems": 7,
+          "items": { "$ref": "#/$defs/WeekDay" }
+        }
+      }
+    },
+
+    "MonthDay": {
+      "type": "object",
+      "required": ["date", "items"],
+      "additionalProperties": false,
+      "properties": {
+        "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "items": { "type": "array", "items": { "$ref": "#/$defs/CalEventBase" } }
+      }
+    },
+
+    "CalendarMonth": {
+      "type": "object",
+      "required": ["year", "month", "days"],
+      "additionalProperties": false,
+      "description": "v1.5.0 신설 — 이번 달 일정. hit 만 days[] 에 push (빈 날 생략). 월간은 time 미저장",
+      "properties": {
+        "year": { "type": "integer", "minimum": 2024, "maximum": 2099 },
+        "month": { "type": "integer", "minimum": 1, "maximum": 12 },
+        "days": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/MonthDay" }
         }
       }
     }
