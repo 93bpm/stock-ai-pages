@@ -20,6 +20,15 @@ routine이 **JSON 생성 후 저장 전 검증 단계**에서 정독.
 - 정보 불충분 → **마스킹 금지** (§3). 해당 항목 자체를 배열에서 제거 또는 빈 값으로
 - 정확도 100% 보장 아님 → 사용자 면책 전제
 
+### 🟠 등급 B (외부 캘린더 일정 — v1.5.0 신설)
+
+- 7일·30일 future window 일정 (`calendarWeek`, `calendarMonth`)
+- 출처: Investing.com earnings 캘린더 + Trading Economics + WebSearch (학회 일정 정확 날짜 확인)
+- **공지된 일정만** 포함 (추측·기억 금지). 발표일 미공지면 그 항목 자체 제외
+- 학회 일정은 **화이트리스트 매칭** 필수 (`data/whitelist-conferences.json`) — 매칭 없으면 추가 X
+- 韓 실적은 **시총 화이트리스트 hit만** (`data/whitelist-kr-marketcap.json`) — 시총 2000억+
+- 정확도 100% 보장 아님 (일정 변경·연기 가능). 매일 갱신으로 보정
+
 ---
 
 ## §2. categoryStyle 매핑 룰 (뉴스 아이템)
@@ -119,6 +128,8 @@ routine이 **JSON 생성 후 저장 전 검증 단계**에서 정독.
   subNoteEm은 subNote의 부분 문자열이어야 함 (us / world / kr / calendar 4 섹션)
 
 [캘린더 확장 일관성 — ★v1.5.0 신설★]
+  todayIdx 정의: calendarWeek.days 배열에서 data.date 와 일치하는 day 의 index (0=일요일 ~ 6=토요일).
+                예: data.date="2026-05-28"(목) → calendarWeek.days[4]
   ① calendarWeek 존재 시 days.length === 7 (빈 날도 items:[] 포함)
   ② calendarWeek.start 의 요일 === 일요일 (0), end 의 요일 === 토요일 (6)
   ③ calendarWeek.start ~ end 가 정확히 7일 (start + 6일 === end)
@@ -174,5 +185,7 @@ routine이 **JSON 생성 후 저장 전 검증 단계**에서 정독.
 | `kr.supply` (3열 grid) | 3개 | 2개 이하 → 빈 칸 발생 |
 | `kr.sectorsUp/Down` | 5+5개 | 4개 이하 → 정적 라벨 `강세 업종 TOP 5`가 어색 |
 | `world.global` / `world.domestic` | 12+12개 | 미만이면 어색 (카운트 라벨도 동적) |
+| `calendarWeek.days` ★v1.5.0★ | **7개 (고정)** | 7개 미만이면 일~토 그리드 깨짐. 빈 날도 `items: []` 로 포함 |
+| `calendarMonth.days` ★v1.5.0★ | hit only (가변) | 빈 날 생략. 1~말일 범위 안의 hit 날만 포함 |
 
 → **fallback 체인 끝까지 적극 시도해서 반드시 카운트 채울 것**. 다양한 출처·검색 쿼리·종목 후보로 노력. 정말 못 채우면 그건 운영 측 신호 (출처 측 큰 변화나 환경 차단). 그날 발화 후 사용자가 알아챌 수 있음.

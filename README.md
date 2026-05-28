@@ -11,7 +11,7 @@
 Claude routine이 매일 정해진 시각에 클라우드에서 자동 실행됩니다 (정확한 일정·cron: [`meta/context.md`](./meta/context.md) "발화 일정·산출물" 섹션):
 
 1. **데이터 수집** — Stooq · finviz · Trading Economics · Investing.com · Yahoo Finance · Google Finance · WebSearch
-2. **JSON 생성** — 4개 섹션(美 증시 / 세계 뉴스 / 韓 증시 예상 / 오늘 일정)
+2. **JSON 생성** — 4개 섹션(美 증시 / 세계 뉴스 / 韓 증시 예상 / 일정) + v1.5.0 일정 탭 3뷰(일간/주간/월간) 데이터(`calendarWeek`·`calendarMonth`)
 3. **자동 푸시** — GitHub Pages에 즉시 반영
 
 사용자는 페이지를 열면 그날 최신 브리핑을 보고, 상단 날짜 칩을 눌러 과거 날짜로 이동할 수 있습니다 (데이터가 있는 날만 활성).
