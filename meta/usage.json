@@ -192,7 +192,7 @@
       "status": "success",
       "duration_seconds": 1166,
       "tokens_estimated": 35000,
-      "response_size_kb": 31.1,
+      "response_size_kb": 25.2,
       "tool_calls": {
         "WebFetch": 19,
         "WebSearch": 18,
