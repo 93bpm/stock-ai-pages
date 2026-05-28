@@ -88,6 +88,15 @@ manifest·usage 갱신 절차: [`guides/outputs.md §1·§2`](./guides/outputs.m
 - [ ] 카테고리 분포 (한 카테고리 4건 초과 금지)
 → [`guides/news.md §2~§5`](./guides/news.md) ★필수 정독★
 
+### 📋 JSON 생성 (구조 정확히)
+- [ ] `schema.json` `examples[0]` 정독 → 구조 그대로 따라가기
+- [ ] ★**최상위 키 직접**★ (`data` 키 래핑 X) — `date`·`weekday`·`generatedAt`·`us`·`world`·`kr`·`calendar`
+- [ ] ★**`world.global`/`world.domestic`**★ 12+12건 (`news` 키 X)
+- [ ] ★**`calendar` 객체**★ (배열 X)
+- [ ] `us.comment`·`us.subNote`·`us.subNoteEm` 모두 작성
+- [ ] 빈 문자열은 실값으로 치환 (template 그대로 둘 시 Sanity fail)
+→ 어제 사고(2026-05-27 23:47 즉시 실행) 재발 방지 ★v1.4.4 신설★
+
 ### ✅ Sanity Check (저장 전)
 - [ ] 지수값 범위 / |등락률| < 20%
 - [ ] ★**KST 날짜 검증 5룰**★ (UTC + 9h = KST. data.date·weekday·generatedAt·파일명 모두 KST 일치) ★v1.4.1★
