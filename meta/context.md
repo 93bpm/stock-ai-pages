@@ -1,6 +1,6 @@
 # Daily Briefing Context
 
-> ★ **routine prompt(claude.ai trigger)와 본 문서가 충돌하면 본 문서가 우선**. v1.4.2~v1.4.4 룰(commit 메시지 형식 `routine: YYYY-MM-DD HH:MM`, Step 0 `START_TS` 측정, `wc -c` 실측, ⚡ 병렬 도구 호출 등)이 prompt에 미반영이지만 본 문서가 master. prompt의 옛 형식·절차와 다르면 본 문서 룰을 따를 것.
+> ★ **routine prompt(claude.ai trigger)와 본 문서가 충돌하면 본 문서가 우선**. v1.4.1~v1.5.0 룰(commit 메시지 형식 `routine: YYYY-MM-DD HH:MM`, Step 0 `START_TS` 측정, `wc -c` 실측, ⚡ 병렬 도구 호출, JSON 생성 5룰, `calendarWeek`·`calendarMonth` 신설, 화이트리스트 fetch 등)이 누적되어 있음. prompt에 인라인 일부 반영되었더라도 **본 문서가 master**. 충돌 시 본 문서 룰 우선.
 
 `stock-ai-pages` 일일 데이터 생성 routine이 매 발화 시 따르는 **메인 체크리스트**.
 디테일은 항목 옆 `→ guides/xxx.md §N` 링크. routine이 해당 작업 단계에서 그 파일을 추가 fetch.
@@ -34,6 +34,7 @@ manifest·usage 갱신 절차: [`guides/outputs.md §1·§2`](./guides/outputs.m
 | 데이터 수집 | [`guides/sources.md`](./guides/sources.md) |
 | 뉴스 큐레이션 | [`guides/news.md`](./guides/news.md) ★필수★ |
 | **JSON 생성 (구조 정확히)** | `schema.json` `examples[0]` ★필수★ — 빈 데이터로 정확한 구조 보존. routine은 이 예시를 그대로 따라가고 빈 문자열을 실값으로 채울 것. ★data 키 래핑 금지·world.global/domestic·calendar 객체★ |
+| **캘린더 확장 (v1.5.0)** | [`guides/sources.md §15·§16`](./guides/sources.md) + 화이트리스트 2개 raw URL fetch (`data/whitelist-kr-marketcap.json` + `data/whitelist-conferences.json`). 7일·30일 future window 일정 매칭 |
 | Sanity Check + 마스킹 + 카운트 | [`guides/data-quality.md`](./guides/data-quality.md) |
 | manifest·usage 갱신 + HTML 검증 | [`guides/outputs.md`](./guides/outputs.md) |
 | 휴장일·톤 | [`guides/operations.md`](./guides/operations.md) |
@@ -106,7 +107,7 @@ manifest·usage 갱신 절차: [`guides/outputs.md §1·§2`](./guides/outputs.m
 - [ ] ★**`calendar` 객체**★ (배열 X)
 - [ ] `us.comment`·`us.subNote`·`us.subNoteEm` 모두 작성
 - [ ] 빈 문자열은 실값으로 치환 (template 그대로 둘 시 Sanity fail)
-→ 어제 사고(2026-05-27 23:47 즉시 실행) 재발 방지 ★v1.4.4 신설★
+→ 5/27 23:47 즉시 실행 schema 사고 재발 방지 ★v1.5.0 신설★ (commit f10eb05)
 
 ### ✅ Sanity Check (저장 전)
 - [ ] 지수값 범위 / |등락률| < 20%

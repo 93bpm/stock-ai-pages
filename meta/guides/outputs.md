@@ -47,7 +47,7 @@ routine이 **산출물 작성 단계 + HTML 렌더링 검증**에서 정독.
 |---|---|---|---|
 | `date` | string | `"YYYY-MM-DD"` | KST 날짜 |
 | `time` | string | `"HH:MM"` | KST 24h 발화 시각 |
-| `model` | string | `"claude-sonnet-4-7"` 등 | 실행 모델명 (자체 보고) |
+| `model` | string | `"claude-opus-4-7"` 등 (콘솔 설정 값) | **자체 추측 금지** — claude.ai 콘솔의 routine 설정값을 그대로. 모를 시 `"unknown"`. LLM 자체 보고는 부정확 (5/26~5/28 사례) |
 | `status` | string | `"success" / "skip" / "fail"` | 정상 종료 / sanity skip / 예외 |
 | `duration_seconds` | number | 발화 시작~끝 초 (wall-clock) | **정확값 ✓** — 단, 아래 "duration_seconds 측정 절차" 따라야 함 |
 | `tokens_estimated` | number | 한국어 ~2자/토큰 환산 | **추산값** (정확값은 claude.ai Usage에서 확인) |
