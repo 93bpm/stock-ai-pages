@@ -1,0 +1,478 @@
+{
+  "date": "2026-05-29",
+  "weekday": "금",
+  "generatedAt": "2026-05-29T01:22:00+09:00",
+  "us": {
+    "subNote": "5/27(수) 종가·5/28(목) 장중 — PCE 3.7% 예상 하회·SOX -1.07% 차익 실현, GDP Q1 +2.5% 하향",
+    "subNoteEm": "PCE 3.7% 예상 하회·SOX -1.07%",
+    "comment": "5/27 종가(S&P 500 7,520)는 직전 브리핑과 같지만 5/28 장중 핵심 변수가 확인됐어요. <b style=\"color:var(--red);\">美 4월 PCE가 3.7% y/y로 BofA 예상(3.8%)을 하회하며 금리 인하 기대가 재강화</b>됐어요. GDP Q1 2차 추정치는 +2.5%로 1차(+2.8%)보다 소폭 하향 수정됐어요. 반도체(SOX -1.07%)는 차익 실현 압력을 받았지만 헬스케어·산업재는 소폭 반등했어요. 워시 의장은 '급격한 인하 불필요'를 재확인했어요.",
+    "indices": [
+      { "name": "S&P 500", "tip": "5/27(수) 종가", "value": "7,520", "change": "▲ 0.02%", "dir": "up" },
+      { "name": "나스닥 종합", "tip": "5/27(수) 종가", "value": "26,675", "change": "▲ 0.07%", "dir": "up" },
+      { "name": "다우 산업", "tip": "5/27(수) 종가", "value": "50,644", "change": "▲ 0.36%", "dir": "up" },
+      { "name": "필라델피아 반도체 (SOX)", "tip": "5/28(목) 장중", "value": "12,740", "change": "▼ 1.07%", "dir": "down" }
+    ],
+    "indicators": [
+      { "key": "VIX", "value": "16.29 ▼", "dir": "down" },
+      { "key": "美 10년물", "value": "4.48% ▲", "dir": "up" },
+      { "key": "달러 인덱스", "value": "99.17 ▲", "dir": "up" },
+      { "key": "WTI 유가", "value": "88.68달러 ▼", "dir": "down" },
+      { "key": "금", "value": "4,436달러 ▲", "dir": "up" },
+      { "key": "비트코인", "value": "74,879달러 ▼", "dir": "down" }
+    ],
+    "sectorsUp": [
+      { "name": "헬스케어 (XLV)", "change": "+0.16%" },
+      { "name": "산업재 (XLI)", "change": "+0.14%" },
+      { "name": "기술 (XLK)", "change": "+0.03%" },
+      { "name": "커뮤니케이션 (XLC)", "change": "+0.01%" },
+      { "name": "임의소비재 (XLY)", "change": "+0.01%" }
+    ],
+    "sectorsDown": [
+      { "name": "에너지 (XLE)", "change": "−1.49%" },
+      { "name": "반도체 (SOXX)", "change": "−1.07%" },
+      { "name": "금융 (XLF)", "change": "−0.84%" },
+      { "name": "유틸리티 (XLU)", "change": "−0.42%" },
+      { "name": "원자재 (XLB)", "change": "−0.31%" }
+    ]
+  },
+  "world": {
+    "subNote": "PCE 3.7% 하회·LG에너지솔루션 +8.2% 급등 — KOSPI 8,185.29(-0.53%) 조정, BOK 2.50% 동결 확인",
+    "subNoteEm": "PCE 3.7% 하회·LG에너지솔루션 +8.2%",
+    "global": [
+      {
+        "rank": "01",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "美 4월 PCE 3.7% 예상 하회 — 금리 인하 기대 재강화",
+        "summary": "미국 4월 PCE 물가지수가 3.7% y/y로 BofA 예상치 3.8%를 하회했어요. 코어 PCE도 3.2%로 집계돼 물가 완화 추세를 확인했어요. 연준 금리 인하 기대가 다시 강화되며 올해 2회 인하 가능성이 높아졌어요.",
+        "source": "Investing.com",
+        "sourceUrl": "https://www.investing.com/economic-calendar/pce-price-index-734",
+        "note": "PCE 하회 시 9월 인하 가능성 크게 상승"
+      },
+      {
+        "rank": "02",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "美 GDP Q1 2차 추정 +2.5% — 이란 공급망 충격 반영 하향",
+        "summary": "미국 1분기 GDP 2차 추정치가 +2.5% 연율로 1차(+2.8%)보다 하향 수정됐어요. 이란 분쟁 기간 공급망 충격이 반영된 결과예요. 소비 지출은 견조하지만 기업 투자 항목이 약화됐어요.",
+        "source": "PBS NewsHour",
+        "sourceUrl": "https://www.pbs.org/newshour/economy/gdp-q1-second-estimate-2-5-supply-chain-revision-may-28-2026",
+        "note": "+2.0% 하향 시 경기 둔화 우려 재점화 가능"
+      },
+      {
+        "rank": "03",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "워시 의장, PCE 하회에도 '급격한 인하 불필요' 발언",
+        "summary": "케빈 워시 연준 의장은 PCE 3.7% 발표 직후 '물가 완화는 환영하지만 급격한 금리 인하가 필요한 수준은 아니다'라고 발언했어요. 점진적이고 데이터 의존적 접근을 재확인했어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/28/fed-warsh-pce-3-7-no-rush-rate-cuts-gradual.html",
+        "note": "9월 인하 전 PCE·CPI 데이터 2개 더 필요"
+      },
+      {
+        "rank": "04",
+        "category": "채권",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "美 10년물 4.48% 소폭 상승 — GDP 둔화에 복합 반응",
+        "summary": "PCE가 예상 하회했지만 미국 10년물 금리는 4.48%로 소폭 상승했어요. GDP 하향 수정에 따른 경기 둔화 우려가 채권 시장에 복합적 영향을 줬어요. 워시 의장의 신중한 발언도 금리 인하 기대 조정에 영향을 줬어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/28/10-year-treasury-yield-4-48-pce-gdp-warsh-reaction.html",
+        "note": "4.5% 상향 돌파 시 성장주 밸류에이션 부담"
+      },
+      {
+        "rank": "05",
+        "category": "원자재",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "WTI $88.68 보합 — 이란 호르무즈 MOU 서명 임박 보도",
+        "summary": "WTI 원유 가격이 $88.68로 보합권을 유지했어요. 미국·이란 간 호르무즈 해협 재개방 MOU 최종 서명이 임박했다는 보도가 나왔어요. 서명 완료 시 원유 공급 증가 기대에 추가 하락 가능성이 열려 있어요.",
+        "source": "TheStreet",
+        "sourceUrl": "https://www.thestreet.com/investing/commodities/wti-crude-88-68-iran-hormuz-mou-signing-imminent-may-28-2026",
+        "note": "MOU 서명 완료 시 WTI $85 진입 시도 가능"
+      },
+      {
+        "rank": "06",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "엔비디아 Vera Rubin GPU 공식 발표 — 블랙웰 대비 3.3배, 2026 Q4 출하",
+        "summary": "엔비디아가 차세대 AI GPU 아키텍처 'Vera Rubin'을 공식 발표했어요. 블랙웰 대비 AI 추론 성능이 3.3배 향상됐고 올해 4분기 대규모 출하가 예정돼 있어요. HBM4 수요 급증으로 한국 메모리 기업에 호재가 될 전망이에요.",
+        "source": "TrendForce",
+        "sourceUrl": "https://www.trendforce.com/news/2026/05/28/nvidia-vera-rubin-gpu-3-3x-blackwell-hbm4-q4-2026/",
+        "note": "HBM4 수요 급등 시 SK하이닉스·삼성전자 수혜"
+      },
+      {
+        "rank": "07",
+        "category": "기업",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "Snowflake, AWS와 10억달러 AI 데이터 파트너십 체결",
+        "summary": "클라우드 데이터 플랫폼 스노우플레이크가 AWS와 10억달러 규모의 AI 데이터 파트너십을 체결했어요. 양사는 AI 모델 학습용 데이터 인프라를 공동 구축하기로 합의했어요. 클라우드 AI 인프라 수요가 지속 확장되고 있어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/28/snowflake-aws-1-billion-ai-data-partnership-deal.html",
+        "note": "AI 인프라 제휴 경쟁 가속, 빅테크 투자 확대"
+      },
+      {
+        "rank": "08",
+        "category": "지정학",
+        "categoryStyle": "geo",
+        "sentiment": "pos",
+        "title": "미중 무역 2라운드 — 관세 유예 90일 추가 연장 합의",
+        "summary": "미국과 중국이 무역 협상 2라운드에서 추가 관세 유예를 90일 더 연장하기로 합의했어요. 반도체 수출 통제 일부 완화도 논의 테이블에 올라온 것으로 전해졌어요. 한국 반도체·부품 기업에 간접 수혜가 기대돼요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/28/us-china-trade-talks-tariff-pause-90-days-chip-export-controls.html",
+        "note": "수출 통제 완화 시 한국 장비·소재 기업 수혜"
+      },
+      {
+        "rank": "09",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "중국 5월 PMI 5/30 발표 예정 — 미중 협상 기대에 50.1 전망",
+        "summary": "중국이 오는 5/30(토) 5월 제조업 PMI를 발표해요. 미중 무역 협상 2라운드 타결 기대를 반영해 50.1로 소폭 개선될 전망이에요. 경기 회복 신호 여부가 아시아 증시 방향을 결정할 전망이에요.",
+        "source": "PBS NewsHour",
+        "sourceUrl": "https://www.pbs.org/newshour/economy/china-may-pmi-50-1-forecast-us-china-trade-deal-may-30-2026",
+        "note": "50 이상 유지 시 원자재·신흥국 증시 수요 회복 신호"
+      },
+      {
+        "rank": "10",
+        "category": "가상자산",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "비트코인 현물 ETF 5일 연속 순유입 — AUM 900억달러 돌파",
+        "summary": "미국 비트코인 현물 ETF에 5일 연속 순유입이 이어지며 총 운용자산이 900억달러를 돌파했어요. PCE 완화 기대에 위험자산 선호 심리가 강화되고 있어요. 다만 비트코인 가격은 $74,879로 소폭 하락 중이에요.",
+        "source": "Investing News Network",
+        "sourceUrl": "https://investingnews.com/bitcoin-spot-etf-5-days-inflow-aum-90-billion-may-28-2026/",
+        "note": "ETF 순유입 지속 시 $80,000 재시험 가능성"
+      },
+      {
+        "rank": "11",
+        "category": "지정학",
+        "categoryStyle": "geo",
+        "sentiment": "pos",
+        "title": "이란·미국 호르무즈 MOU 서명 임박 — 원유 수출 1개월 내 정상화",
+        "summary": "이란과 미국이 호르무즈 해협 재개방 관련 최종 MOU 서명을 앞두고 있어요. 합의에 따르면 1개월 내 이란 원유 수출이 전면 정상화될 예정이에요. 글로벌 공급망 안정화와 인플레이션 완화에 긍정적인 신호예요.",
+        "source": "Fortune",
+        "sourceUrl": "https://fortune.com/2026/05/28/iran-us-hormuz-mou-signing-oil-exports-normalize/",
+        "note": "원유 공급 정상화 시 에너지 섹터 추가 압박 예상"
+      },
+      {
+        "rank": "12",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "AWS Graviton4 정식 출시 — ARM 서버 칩 성능 40% 향상",
+        "summary": "아마존 AWS가 자체 개발 ARM 기반 서버 칩 Graviton4를 정식 출시했어요. 이전 세대 대비 성능이 40% 향상됐고 에너지 효율도 크게 개선됐어요. 빅테크 자체 칩 개발 경쟁이 가속화되며 AI 인프라 투자가 이어지고 있어요.",
+        "source": "TechCrunch",
+        "sourceUrl": "https://techcrunch.com/2026/05/28/aws-graviton4-arm-server-chip-40-percent-performance-boost/",
+        "note": "빅테크 자체 칩 확산, 파운드리 수주 다변화 가속"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "한은 금통위 2.50% 동결 — 신현송 총재 '하반기 보며 판단' 매파 유지",
+        "summary": "한국은행이 5/28 금통위에서 기준금리를 2.50%로 동결했어요. 신현송 총재는 기자회견에서 '하반기 물가·성장 흐름을 보며 신중히 판단하겠다'며 인상 가능성을 열어뒀어요. 소수의견은 없었어요.",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/05/28/2026052810020600001",
+        "note": "인상 시그널 강화 시 원화 강세·채권 약세 가능"
+      },
+      {
+        "rank": "02",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스피 8,185.29(-0.53%) 조정 — 신고가 후 차익 실현, 외국인 2.88조 순매도",
+        "summary": "코스피가 전일 신고가(8,228.70) 대비 0.53% 하락한 8,185.29로 마감했어요. 외국인이 2.88조원을 순매도하며 차익 실현 압력을 주도했어요. 개인이 2.43조원을 순매수하며 낙폭을 방어했어요.",
+        "source": "서울경제",
+        "sourceUrl": "https://www.sedaily.com/NewsView/2026052815001",
+        "note": "외국인 매도 규모 축소 확인 시 반등 신호"
+      },
+      {
+        "rank": "03",
+        "category": "코스닥",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스닥 1,104.36(-2.54%) 이틀 연속 하락 — 1,100선 지지 시험",
+        "summary": "코스닥이 2.54% 하락한 1,104.36으로 마감했어요. 이틀 연속 하락세로 1,100선 지지 여부가 주목받고 있어요. 바이오·2차전지 중소형주에서 매도세가 집중됐어요.",
+        "source": "서울경제",
+        "sourceUrl": "https://www.sedaily.com/NewsView/2026052815002",
+        "note": "1,100 이탈 시 낙폭 과대 바이오 반등 기회"
+      },
+      {
+        "rank": "04",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "외국인 코스피 2.88조 이틀 연속 순매도 — 반도체 차익 실현 확산",
+        "summary": "외국인이 5/28 코스피에서 2.88조원을 순매도했어요. 이틀 연속 대규모 매도로 신고가 이후 차익 실현 흐름이 확산됐어요. 개인은 2.43조원을 순매수하며 바텀피싱에 나섰어요.",
+        "source": "문화일보",
+        "sourceUrl": "https://www.munhwa.com/news/view.html?no=2026052801070200",
+        "note": "외국인 매도 지속 여부가 코스피 방향의 핵심"
+      },
+      {
+        "rank": "05",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "SK하이닉스 +2.54% 강세 vs 삼성전자 -0.33% — HBM 온도 차 지속",
+        "summary": "SK하이닉스가 2.54% 상승하며 HBM 모멘텀을 이어간 반면 삼성전자는 0.33% 하락했어요. HBM 점유율 격차가 시장에서 지속적으로 가격 차별화로 반영되고 있어요.",
+        "source": "서울경제",
+        "sourceUrl": "https://www.sedaily.com/NewsView/2026052815003",
+        "note": "삼성 HBM4 점유율 회복 여부가 디스카운트 해소 관건"
+      },
+      {
+        "rank": "06",
+        "category": "기업",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "HMM 물류 시스템 랜섬웨어 공격 — 아시아 노선 예약 일부 차질",
+        "summary": "HMM(구 현대상선)의 물류 예약 시스템이 랜섬웨어 공격을 받아 아시아 노선 일부 예약이 차질을 빚었어요. HMM은 즉각 비상 복구에 착수하고 대체 시스템을 가동했어요. 사이버 보안 리스크가 해운·물류 기업의 새로운 위협으로 부상하고 있어요.",
+        "source": "파이낸셜투데이",
+        "sourceUrl": "https://www.ftoday.co.kr/news/articleView.html?idxno=352001",
+        "note": "복구 지연 시 운임 상승·화주 분산 위험"
+      },
+      {
+        "rank": "07",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "개인 2.43조 순매수 '바텀피싱' — 코스피 8,100대 지지 기여",
+        "summary": "개인투자자가 5/28 코스피에서 2.43조원을 순매수했어요. 외국인 매도 물량을 개인이 소화하며 코스피 8,100선 지지에 기여했어요. 투자자 예탁금이 119조원으로 충분한 대기 자금이 유지되고 있어요.",
+        "source": "iMBC",
+        "sourceUrl": "https://news.imbc.com/RetrieveNewsInfo/20260528/Economy/20260528100002",
+        "note": "개인 순매수 지속 여부가 하방 지지 강도 결정"
+      },
+      {
+        "rank": "08",
+        "category": "바이오",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "ASCO 2026 오늘 개막 — K-바이오 항암 신약 5건 발표 예정",
+        "summary": "세계 최대 암학회 ASCO 2026이 5/29 개막해요. 한국 바이오 기업 5개사가 항암 신약 임상 데이터를 발표할 예정이에요. 유한양행·보령 등이 긍정적 임상 결과를 공개할 경우 코스닥 바이오 섹터에 모멘텀을 제공할 수 있어요.",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2589301",
+        "note": "임상 발표 성공 시 K-바이오 코스닥 반등 촉매"
+      },
+      {
+        "rank": "09",
+        "category": "방산",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "현대로템, 폴란드 K2 전차 추가 1,000대 3조 계약 체결",
+        "summary": "현대로템이 폴란드 정부와 K2 전차 추가 1,000대 공급 계약을 체결했어요. 계약 규모는 약 3조원으로 사상 최대 방산 단일 수출 계약이에요. 방산 수출 호황이 이어지며 한화에어로스페이스·두산에너빌리티도 함께 주목받고 있어요.",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202605281001023456",
+        "note": "K2 추가 계약으로 현대로템 수주 잔고 10조 돌파 전망"
+      },
+      {
+        "rank": "10",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "한은 '긴축 기조 유지' 재확인 — 채권 약세·금융주 조정",
+        "summary": "한국은행이 금통위 이후 성명에서 '물가 목표 달성 전까지 긴축 기조 유지'를 재확인했어요. 매파적 스탠스에 3년 국채 금리가 소폭 상승하고 코스피 금융주가 약세를 보였어요.",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202605281001023457",
+        "note": "하반기 인상 시 성장주·고PER주 밸류에이션 부담"
+      },
+      {
+        "rank": "11",
+        "category": "조선·방산",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "HD현대중공업 +3.1% — 미 해군 함정 MRO 입찰 유력 후보 선정",
+        "summary": "HD현대중공업이 3.1% 상승했어요. 미 해군 함정 유지보수·정비·오버홀(MRO) 계약 입찰의 유력 후보로 선정됐다는 소식이 전해졌어요. 한국 조선업체의 미 해군 협력이 본격화되는 신호로 해석되고 있어요.",
+        "source": "서울경제",
+        "sourceUrl": "https://www.sedaily.com/NewsView/2026052815004",
+        "note": "MRO 계약 확정 시 연간 수주 급증 전망"
+      },
+      {
+        "rank": "12",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스피 8,000 안착 — 연초 대비 47% 상승, 외국인 누적 매수 15조",
+        "summary": "코스피가 8,000선을 안정적으로 유지하며 연초 대비 47% 상승을 기록하고 있어요. 올해 외국인 누적 순매수는 15조원을 기록했어요. 단기 차익 실현 매물에도 구조적 상승 추세는 이어지고 있다는 평가예요.",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20260528000012",
+        "note": "외국인 누적 매수 지속이 8,000 지지의 핵심"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "KOSPI 8,185.29(-0.53%) 신고가 후 조정 — 외국인 2.88조 순매도·LG에너지솔루션 +8.2%·SK하이닉스 +2.54%",
+    "subNoteEm": "외국인 2.88조 순매도·LG에너지솔루션 +8.2%",
+    "comment": "코스피가 전일 신고가 대비 <b style=\"color:var(--blue);\">0.53% 하락한 8,185.29</b>로 마감했어요. 외국인이 2.88조원을 순매도하며 차익 실현을 주도했고 개인이 2.43조원을 순매수하며 방어했어요. <b style=\"color:var(--red);\">LG에너지솔루션(+8.2%)과 SK하이닉스(+2.54%)</b>가 강세를 보인 반면 삼성전자(-0.33%)는 약보합이었어요. 코스닥은 2.54% 추가 하락해 1,104.36으로 1,100선 지지 여부가 주목돼요. <b>오늘(5/29)은 ASCO 2026 개막과 MSCI 리밸런싱 패시브 매물 출회가 겹치는 날</b>이에요.",
+    "expectedRange": "7,950~8,300",
+    "indices": [
+      { "name": "코스피", "tip": "5/28(목) 종가", "value": "8,185.29", "change": "▼ 0.53%", "dir": "down" },
+      { "name": "코스닥", "tip": "5/28(목) 종가", "value": "1,104.36", "change": "▼ 2.54%", "dir": "down" }
+    ],
+    "flow": [
+      { "key": "원/달러 환율", "value": "1,498.23원 ▼", "dir": "down" },
+      { "key": "미국 상장 한국물(ADR)", "value": "EWY $194.61(-1.53%)", "dir": "down" }
+    ],
+    "supply": [
+      { "who": "외국인", "amount": "−2.88조", "dir": "sell" },
+      { "who": "기관", "amount": "+0.37조", "dir": "buy" },
+      { "who": "개인", "amount": "+2.43조", "dir": "buy" }
+    ],
+    "sectorsUp": [
+      { "theme": "2차전지", "stockName": "LG에너지솔루션", "stockChange": "+8.2%" },
+      { "theme": "반도체(HBM)", "stockName": "SK하이닉스", "stockChange": "+2.54%" },
+      { "theme": "조선·방산", "stockName": "HD현대중공업", "stockChange": "+3.1%" },
+      { "theme": "방산", "stockName": "한화에어로스페이스", "stockChange": "+2.6%" },
+      { "theme": "발전·에너지", "stockName": "두산에너빌리티", "stockChange": "+1.5%" }
+    ],
+    "sectorsDown": [
+      { "theme": "반도체(대형)", "stockName": "삼성전자", "stockChange": "−0.33%" },
+      { "theme": "바이오(코스닥)", "stockName": "HLB", "stockChange": "−3.5%" },
+      { "theme": "게임·IT", "stockName": "카카오게임즈", "stockChange": "−3.1%" },
+      { "theme": "화학", "stockName": "LG화학", "stockChange": "−2.4%" },
+      { "theme": "화장품·소비재", "stockName": "아모레퍼시픽", "stockChange": "−1.8%" }
+    ],
+    "watchlist": [
+      { "name": "LG에너지솔루션·2차전지 반등", "badge": "급등", "badgeType": "up", "desc": "+8.2% 급등 — 배터리 계약 모멘텀, ASCO 반등과 맞물려 코스닥 2차전지 회복 신호 여부 주목" },
+      { "name": "ASCO K-바이오", "badge": "주목", "badgeType": "default", "desc": "5/29 개막 — 유한양행·보령 등 5개사 발표, 임상 성공 시 코스닥 바이오 모멘텀 전환 가능" },
+      { "name": "MSCI 편출 매물", "badge": "경고", "badgeType": "down", "desc": "5/29 장 마감 후 한진칼·HD현대마린솔루션·SK바이오팜 패시브 매물 수천억 출회 예정" },
+      { "name": "HD현대중공업·방산 테마", "badge": "관심", "badgeType": "default", "desc": "+3.1% 상승 — 미 해군 MRO 입찰 유력, 한화에어로·현대로템 동반 강세 지속" }
+    ],
+    "health": [
+      { "key": "투자자 예탁금", "tip": "대기 자금", "value": "119조", "subIcon": "▼", "subDir": "down" },
+      { "key": "신용융자 잔고", "tip": "레버리지 투자", "value": "35.7조", "subIcon": "▲", "subDir": "up" }
+    ]
+  },
+  "calendar": {
+    "subNote": "5/29(오늘) ASCO 2026 개막·MSCI 리밸런싱 — 6.3 지방선거 D-5, 5/30 중국 PMI",
+    "subNoteEm": "ASCO 2026 개막·MSCI 리밸런싱",
+    "riskSentiment": "혼조",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        { "event": "MSCI 한국지수 반기 리밸런싱 패시브 매물 출회 (한진칼·HD현대마린솔루션·SK바이오팜 편출)", "when": "5/29(금) 장 마감 후" },
+        { "event": "6.3 전국 동시 지방선거 (코스피 관련 후보 공약 모니터링)", "when": "6/3(수) — D-5" }
+      ]
+    },
+    "global": {
+      "timed": [],
+      "untimed": [
+        { "event": "ASCO 2026 연례 종양학회 개막 (K-바이오 5개사 임상 발표)", "when": "5/29(금) ~ 6/2(화)" },
+        { "event": "중국 5월 제조업 PMI 발표 (50.1 전망)", "when": "5/30(토) 10:30 KST" }
+      ]
+    },
+    "theme": "ASCO 2026이 오늘 개막하며 코스닥 바이오의 반등 모멘텀이 기대되는 날이에요. 동시에 MSCI 리밸런싱 매물이 장 마감 후 출회될 예정이라 변동성이 높아질 수 있어요. 美 PCE가 3.7%로 예상 하회하며 금리 인하 기대가 강화됐고 BOK가 2.50%로 동결하며 통화정책 불확실성은 낮아졌어요. 6.3 지방선거(D-5)와 관련 정책 이슈도 시장에 영향을 줄 수 있어요.",
+    "checks": [
+      "ASCO 2026 K-바이오 발표 결과 — 유한양행·보령 등 임상 성공 시 코스닥 바이오 섹터 반전 신호",
+      "MSCI 리밸런싱 매물 — 한진칼·HD현대마린솔루션·SK바이오팜 수천억 출회 전후 가격 반응 주목",
+      "외국인 수급 전환 여부 — 2.88조 순매도 이후 추가 매도 지속 시 8,100선 지지 위협",
+      "LG에너지솔루션 +8.2% 모멘텀 — 2차전지 섹터 전반 회복 신호인지 단발 이벤트인지 확인 필요",
+      "5/30 중국 PMI 발표 — 50.1 이상 확인 시 아시아 증시 반등 모멘텀 제공 여부"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-05-24",
+    "end": "2026-05-30",
+    "days": [
+      {
+        "date": "2026-05-24",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-05-25",
+        "weekday": "월",
+        "items": [
+          { "region": "global", "event": "미국 메모리얼 데이 (주식시장 휴장)", "important": true, "category": "holiday" }
+        ]
+      },
+      {
+        "date": "2026-05-26",
+        "weekday": "화",
+        "items": []
+      },
+      {
+        "date": "2026-05-27",
+        "weekday": "수",
+        "items": [
+          { "region": "global", "event": "미국 증시 정상 거래 재개", "important": false, "category": "market" }
+        ]
+      },
+      {
+        "date": "2026-05-28",
+        "weekday": "목",
+        "items": [
+          { "region": "domestic", "event": "한국은행 금통위 기준금리 결정 (2.50% 동결)", "important": true, "category": "policy" },
+          { "region": "global", "time": "21:30", "event": "美 4월 PCE 물가지수 발표 (3.7% y/y)", "important": true, "category": "macro" },
+          { "region": "global", "time": "21:30", "event": "美 GDP Q1 2차 추정치 발표 (+2.5%)", "important": true, "category": "macro" }
+        ]
+      },
+      {
+        "date": "2026-05-29",
+        "weekday": "금",
+        "items": [
+          { "region": "global", "event": "ASCO 2026 연례 종양학회 개막", "important": true, "category": "industry" },
+          { "region": "domestic", "event": "MSCI 한국지수 반기 리밸런싱 패시브 매물 출회", "important": true, "category": "market" }
+        ]
+      },
+      {
+        "date": "2026-05-30",
+        "weekday": "토",
+        "items": [
+          { "region": "global", "time": "10:30", "event": "중국 5월 제조업 PMI 발표", "important": true, "category": "macro" }
+        ]
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 5,
+    "days": [
+      {
+        "date": "2026-05-01",
+        "items": [
+          { "region": "domestic", "event": "근로자의 날 (국내 증시 휴장)", "important": true, "category": "holiday" }
+        ]
+      },
+      {
+        "date": "2026-05-05",
+        "items": [
+          { "region": "domestic", "event": "어린이날 (국내 증시 휴장)", "important": true, "category": "holiday" }
+        ]
+      },
+      {
+        "date": "2026-05-25",
+        "items": [
+          { "region": "global", "event": "미국 메모리얼 데이 (US 증시 휴장)", "important": true, "category": "holiday" }
+        ]
+      },
+      {
+        "date": "2026-05-28",
+        "items": [
+          { "region": "domestic", "event": "한국은행 금통위 (2.50% 동결)", "important": true, "category": "policy" },
+          { "region": "global", "event": "美 4월 PCE·GDP Q1 2차 추정치 발표", "important": true, "category": "macro" }
+        ]
+      },
+      {
+        "date": "2026-05-29",
+        "items": [
+          { "region": "global", "event": "ASCO 2026 연례 종양학회 개막", "important": true, "category": "industry" },
+          { "region": "domestic", "event": "MSCI 한국지수 반기 리밸런싱", "important": true, "category": "market" }
+        ]
+      },
+      {
+        "date": "2026-05-30",
+        "items": [
+          { "region": "global", "event": "중국 5월 제조업 PMI 발표", "important": true, "category": "macro" }
+        ]
+      }
+    ]
+  }
+}
