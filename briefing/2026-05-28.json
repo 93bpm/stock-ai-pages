@@ -377,5 +377,150 @@
       "코스닥 1,100 지지선 — 반도체 쏠림 완화 시 낙폭 과대 반등 여부",
       "5/29 MSCI 편출 수천억 패시브 매물 출회 전 한진칼·HD현대마린솔루션·SK바이오팜 주가 반응"
     ]
+  },
+  "calendarWeek": {
+    "start": "2026-05-24",
+    "end": "2026-05-30",
+    "days": [
+      {
+        "date": "2026-05-24",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-05-25",
+        "weekday": "월",
+        "items": [
+          {"region": "global", "time": null, "event": "美 메모리얼데이 휴장 (뉴욕증시 휴장)", "important": true, "category": "policy"}
+        ]
+      },
+      {
+        "date": "2026-05-26",
+        "weekday": "화",
+        "items": [
+          {"region": "global", "time": "23:00", "event": "美 5월 CB 소비자신뢰지수", "important": false, "category": "macro"},
+          {"region": "global", "time": "22:30", "event": "美 4월 내구재 주문", "important": false, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-05-27",
+        "weekday": "수",
+        "items": [
+          {"region": "domestic", "time": "09:00", "event": "삼성전자·SK하이닉스 2x 레버리지 ETF 16종 상장", "important": false, "category": "policy"},
+          {"region": "global", "time": "04:00", "event": "美 연준 베이지북 발표", "important": false, "category": "policy"}
+        ]
+      },
+      {
+        "date": "2026-05-28",
+        "weekday": "목",
+        "items": [
+          {"region": "domestic", "time": "10:00", "event": "한은 금통위 기준금리 결정 (2.50% 동결 유력, 신현송 총재 첫 회의)", "important": true, "category": "policy"},
+          {"region": "domestic", "time": "11:10", "event": "신현송 한국은행 총재 기자회견", "important": true, "category": "policy"},
+          {"region": "global", "time": "21:30", "event": "美 4월 PCE 물가지수 발표 (BofA 3.8% y/y 전망)", "important": true, "category": "macro"},
+          {"region": "global", "time": "21:30", "event": "美 GDP Q1 2차 추정치 발표 (1차 +2.8%)", "important": true, "category": "macro"},
+          {"region": "global", "time": "21:30", "event": "美 4월 개인소득·지출 발표", "important": false, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-05-29",
+        "weekday": "금",
+        "items": [
+          {"region": "domestic", "time": "15:30", "event": "MSCI 한국지수 반기 리밸런싱 패시브 매물 (한진칼·HD현대마린솔루션·SK바이오팜 편출)", "important": true, "category": "macro"},
+          {"region": "global", "time": "23:00", "event": "美 5월 시카고 PMI", "important": false, "category": "macro"},
+          {"region": "global", "time": "23:00", "event": "美 5월 미시간대 소비자심리지수 최종치", "important": false, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-05-30",
+        "weekday": "토",
+        "items": [
+          {"region": "global", "time": "10:30", "event": "中 5월 제조업 PMI 발표", "important": false, "category": "macro"}
+        ]
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 5,
+    "days": [
+      {
+        "date": "2026-05-04",
+        "items": [
+          {"region": "global", "event": "FOMC 5월 회의 결과 발표", "important": true, "category": "policy"},
+          {"region": "global", "event": "워시 의장 기자회견", "important": true, "category": "policy"}
+        ]
+      },
+      {
+        "date": "2026-05-13",
+        "items": [
+          {"region": "global", "event": "美 4월 CPI 발표", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-05-14",
+        "items": [
+          {"region": "global", "event": "美 4월 PPI 발표", "important": false, "category": "macro"},
+          {"region": "global", "event": "Apple WWDC 2026 키노트", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-05-20",
+        "items": [
+          {"region": "global", "event": "엔비디아 분기 실적 발표", "important": true, "category": "earnings"},
+          {"region": "domestic", "event": "LG에너지솔루션 분기 실적", "important": false, "category": "earnings"}
+        ]
+      },
+      {
+        "date": "2026-05-21",
+        "items": [
+          {"region": "global", "event": "Computex 2026 개막", "important": false, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-05-22",
+        "items": [
+          {"region": "global", "event": "마이크론 분기 실적 (장 마감 후)", "important": true, "category": "earnings"}
+        ]
+      },
+      {
+        "date": "2026-05-25",
+        "items": [
+          {"region": "global", "event": "美 메모리얼데이 휴장", "important": true, "category": "policy"}
+        ]
+      },
+      {
+        "date": "2026-05-26",
+        "items": [
+          {"region": "global", "event": "美 5월 CB 소비자신뢰지수", "important": false, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-05-27",
+        "items": [
+          {"region": "domestic", "event": "삼성·하이닉스 2x 레버리지 ETF 16종 상장", "important": false, "category": "policy"}
+        ]
+      },
+      {
+        "date": "2026-05-28",
+        "items": [
+          {"region": "domestic", "event": "한은 금통위 (2.50% 동결 유력)", "important": true, "category": "policy"},
+          {"region": "global", "event": "美 4월 PCE 발표", "important": true, "category": "macro"},
+          {"region": "global", "event": "美 GDP Q1 2차 추정치", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-05-29",
+        "items": [
+          {"region": "domestic", "event": "MSCI 한국 반기 리밸런싱 매물", "important": true, "category": "macro"},
+          {"region": "global", "event": "美 5월 시카고 PMI", "important": false, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-05-30",
+        "items": [
+          {"region": "global", "event": "中 5월 제조업 PMI", "important": false, "category": "macro"}
+        ]
+      }
+    ]
   }
 }
