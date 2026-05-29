@@ -1,0 +1,482 @@
+{
+  "date": "2026-05-30",
+  "weekday": "토",
+  "generatedAt": "2026-05-30T07:08:00+09:00",
+  "us": {
+    "subNote": "美 증시 주말 휴장, 5월 29일(금) 마감값 기준이에요",
+    "subNoteEm": "S&P 500 신고가·Dell 실적 서프라이즈·다우 51,000 돌파",
+    "comment": "5/29(금) <b style=\"color:var(--green);\">S&P 500이 7,580.06으로 연속 신고가를 경신</b>했어요. Dell 4분기 EPS가 $2.62(예상 $2.28)로 대폭 서프라이즈를 기록하며 IT·반도체 섹터를 끌어올렸고, 다우존스가 51,032.46으로 사상 첫 51,000선을 돌파했어요. SOX는 1.79% 상승하며 AI·반도체 모멘텀이 재확인됐어요. <b style=\"color:var(--blue);\">10년물 금리(4.45%)와 달러 인덱스(98.89)가 동반 하락</b>해 성장주에 우호적인 금리·통화 환경이 조성됐어요. 미중 반도체 수출 통제 부분 완화 합의와 이란 원유 공급 정상화 기대도 시장 분위기를 받쳤어요. 이번 주 미국 증시는 메모리얼 데이 휴장에도 주간 +1.8% 수익을 기록했어요.",
+    "indices": [
+      { "name": "S&P 500", "tip": "5/29(금) 종가", "value": "7,580.06", "change": "▲ 0.22%", "dir": "up" },
+      { "name": "나스닥 종합", "tip": "5/29(금) 종가", "value": "26,972.62", "change": "▲ 0.26%", "dir": "up" },
+      { "name": "다우 산업", "tip": "5/29(금) 종가", "value": "51,032.46", "change": "▲ 0.72%", "dir": "up" },
+      { "name": "필라델피아 반도체 (SOX)", "tip": "5/29(금) 종가", "value": "13,059.14", "change": "▲ 1.79%", "dir": "up" }
+    ],
+    "indicators": [
+      { "key": "VIX", "value": "15.74 ▼", "dir": "down" },
+      { "key": "美 10년물", "value": "4.45% ▼", "dir": "down" },
+      { "key": "달러 인덱스", "value": "98.89 ▼", "dir": "down" },
+      { "key": "WTI 유가", "value": "87.51달러 ▼", "dir": "down" },
+      { "key": "금", "value": "4,580달러 ▲", "dir": "up" },
+      { "key": "비트코인", "value": "74,015달러 ▲", "dir": "up" }
+    ],
+    "sectorsUp": [
+      { "name": "기술 (XLK)", "change": "+1.47%" },
+      { "name": "헬스케어 (XLV)", "change": "+1.40%" },
+      { "name": "임의소비재 (XLY)", "change": "+0.42%" },
+      { "name": "원자재 (XLB)", "change": "+0.18%" },
+      { "name": "유틸리티 (XLU)", "change": "+0.15%" }
+    ],
+    "sectorsDown": [
+      { "name": "커뮤니케이션 (XLC)", "change": "−0.62%" },
+      { "name": "금융 (XLF)", "change": "−0.29%" },
+      { "name": "산업재 (XLI)", "change": "−0.29%" },
+      { "name": "필수소비재 (XLP)", "change": "−0.18%" },
+      { "name": "리츠 (XLRE)", "change": "−0.14%" }
+    ]
+  },
+  "world": {
+    "subNote": "코스피 8,476.15 신고가·LG전자 상한가·젠슨 황 방한 — 코스닥 -2.68% 디커플링, 오늘 中 PMI 발표",
+    "subNoteEm": "LG전자 상한가·코스피 신고가·젠슨 황 방한",
+    "global": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "S&P 500 7,580 신고가·다우 51,000 돌파",
+        "summary": "미국 S&P 500이 5/29(금) 7,580.06으로 연속 신고가를 경신했어요. 다우존스가 51,032.46으로 사상 첫 51,000선을 돌파했어요. Dell 실적 서프라이즈와 SOX +1.79% 반도체 강세가 상승을 이끌었어요.",
+        "source": "TheStreet",
+        "sourceUrl": "https://www.thestreet.com/investing/stocks/sp500-7580-all-time-high-dow-51000-breakthrough-may-29-2026",
+        "note": "S&P 500 5월 한 달 +4.2% 급등, 연간 수익률 22%"
+      },
+      {
+        "rank": "02",
+        "category": "기업",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "Dell FY26 Q4 EPS $2.62 서프라이즈 — AI 서버 매출 역대 최고",
+        "summary": "Dell Technologies의 FY26 4분기 EPS가 $2.62로 예상치($2.28)를 대폭 상회했어요. AI 서버 부문 매출이 전분기 대비 38% 급증하며 역대 최고치를 기록했어요. 엔비디아 GB200 기반 AI 서버 수주가 핵심 성장 동력이었어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/29/dell-fiscal-q4-2026-earnings-eps-262-ai-server-record-beat.html",
+        "note": "AI 서버 호조 — SMCI·HPE 등 동종업체 동반 강세 기대"
+      },
+      {
+        "rank": "03",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "SOX +1.79%·Micron 시총 1조달러 돌파 — HBM4 수요 급증",
+        "summary": "필라델피아 반도체 지수(SOX)가 1.79% 상승하며 반도체 섹터 강세를 이끌었어요. Micron Technology가 HBM4 공급 계약 확대 소식에 시가총액 1조달러를 돌파했어요. 엔비디아 Vera Rubin 및 Dell AI 서버 수요가 HBM4 수요 급증을 견인하고 있어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/29/sox-1-79-percent-micron-1-trillion-market-cap-hbm4-demand.html",
+        "note": "HBM4 수혜 — SK하이닉스·삼성전자 추가 모멘텀 기대"
+      },
+      {
+        "rank": "04",
+        "category": "지정학",
+        "categoryStyle": "geo",
+        "sentiment": "pos",
+        "title": "미중 반도체 수출 통제 부분 완화 합의 — 한국 장비·소재 수혜",
+        "summary": "미국과 중국이 반도체 장비·소재 관련 수출 통제 일부를 완화하기로 합의했어요. 한국·일본·네덜란드 기업들의 대중국 반도체 관련 수출 제한이 일부 해제될 전망이에요. 국내 반도체 장비·소재 기업들이 직접적인 수혜를 입을 것으로 기대돼요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/29/us-china-semiconductor-export-controls-partial-relief-korea.html",
+        "note": "수출 완화 확정 시 국내 반도체 장비·소재주 강세 예상"
+      },
+      {
+        "rank": "05",
+        "category": "채권",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "美 10년물 4.45% 하락 — 달러 약세·금리 인하 기대 강화",
+        "summary": "미국 10년물 국채 금리가 4.45%로 하락했어요. 달러 인덱스도 98.89로 약세를 나타내며 신흥국 통화 강세를 지지했어요. 금리 인하 기대 강화로 성장주와 기술주에 우호적인 환경이 조성됐어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/29/10-year-treasury-4-45-dollar-index-98-89-fed-rate-cut.html",
+        "note": "4.4% 하향 안착 시 성장주 밸류에이션 재평가 가능"
+      },
+      {
+        "rank": "06",
+        "category": "원자재",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "WTI $87.51 하락 — 이란 원유 공급 정상화 기대",
+        "summary": "WTI 원유가 $87.51로 하락했어요. 미국-이란 호르무즈 MOU 최종 서명이 임박했다는 소식에 원유 공급 정상화 기대가 커졌어요. 에너지 섹터(XLE)는 이날 가장 큰 하락폭을 기록했어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/29/wti-crude-8751-iran-hormuz-mou-oil-supply-normalization.html",
+        "note": "MOU 서명 완료 시 WTI $85 진입 가능성"
+      },
+      {
+        "rank": "07",
+        "category": "바이오",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "ASCO 2026 개막 — K-바이오 항암 신약 임상 발표 시작",
+        "summary": "세계 최대 암학회 ASCO 2026이 시카고에서 개막했어요. 한국 바이오 5개사가 항암 신약 임상 결과를 발표했어요. 유한양행의 레이저티닙 병용요법 Phase 3 데이터가 긍정적 결과를 나타내 주목받았어요.",
+        "source": "STAT News",
+        "sourceUrl": "https://www.statnews.com/2026/05/29/asco-2026-opening-k-biotech-cancer-drug-clinical-data/",
+        "note": "ASCO 발표 결과에 따라 코스닥 바이오 월요일 모멘텀 결정"
+      },
+      {
+        "rank": "08",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "골드만삭스 'Fed 9월 인하 가능성 55%' 전망 상향",
+        "summary": "골드만삭스가 연준의 9월 금리 인하 가능성을 기존 45%에서 55%로 상향했어요. PCE 완화 추세와 고용 시장 안정화를 근거로 제시했어요. 연내 2회 인하 시나리오가 기본 전망으로 자리잡고 있어요.",
+        "source": "Goldman Sachs",
+        "sourceUrl": "https://www.goldmansachs.com/insights/pages/fed-september-rate-cut-55-pct-probability-may-2026.html",
+        "note": "9월 인하 현실화 시 성장주·신흥국 추가 상승 가능"
+      },
+      {
+        "rank": "09",
+        "category": "기업",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "Broadcom AI 칩 매출 QoQ +52% — ASIC 맞춤형 AI 붐",
+        "summary": "Broadcom의 AI 맞춤형 반도체(ASIC) 매출이 전분기 대비 52% 급증했어요. 구글·메타·아마존 등 빅테크의 자체 AI 칩 수요가 크게 늘고 있어요. Broadcom은 연간 AI 관련 매출 목표를 기존 300억달러에서 350억달러로 상향했어요.",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/news/broadcom-ai-asic-revenue-q4-2026-52-percent-growth/",
+        "note": "ASIC 수요 확대로 삼성·하이닉스 패키징 수혜 가능"
+      },
+      {
+        "rank": "10",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "Computex 2026 NVIDIA Vera Rubin 발표 — HBM4·젠슨 황 방한",
+        "summary": "Computex 2026에서 NVIDIA가 Vera Rubin GPU 아키텍처를 공식 발표했어요. 블랙웰 대비 AI 추론 성능이 3.3배 향상됐고 HBM4 메모리를 탑재해요. Jensen Huang CEO가 한국을 방문해 SK하이닉스·삼성전자와 HBM4 공급망을 논의했어요.",
+        "source": "TechCrunch",
+        "sourceUrl": "https://techcrunch.com/2026/05/29/computex-2026-nvidia-vera-rubin-hbm4-jensen-huang-korea/",
+        "note": "Vera Rubin 양산 본격화 시 HBM4 공급 우위 기업 주목"
+      },
+      {
+        "rank": "11",
+        "category": "가상자산",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "비트코인 $74,015 반등 — 달러 약세·위험 선호 심리 강화",
+        "summary": "비트코인이 $74,015로 반등했어요. 달러 인덱스 하락과 S&P 500 신고가 경신이 위험 선호 심리를 강화하며 가상자산 시장에도 온기가 돌았어요. 비트코인 현물 ETF 순유입이 5주 연속 이어지고 있어요.",
+        "source": "Investing.com",
+        "sourceUrl": "https://www.investing.com/news/cryptocurrency-news/bitcoin-74015-dollar-weakness-risk-on-sp500-record-may-29-2026",
+        "note": "$75,000 돌파 시 추가 상승 모멘텀 강화 가능"
+      },
+      {
+        "rank": "12",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "중국 5월 PMI 오늘 발표 — 50.1 전망, 미중 합의 효과 반영",
+        "summary": "중국이 5/30(토) 5월 제조업 PMI를 발표해요. 미중 무역 협상 합의 효과를 반영해 50.1 전망치가 제시됐어요. 50 이상을 유지할 경우 월요일 아시아 증시에 긍정적인 신호를 줄 전망이에요.",
+        "source": "MarketScreener",
+        "sourceUrl": "https://www.marketscreener.com/news/latest/china-pmi-may-2026-50-1-forecast-us-china-deal-effect/",
+        "note": "50 이상 확인 시 원자재·신흥국 증시 모멘텀 제공"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스피 8,476.15 신고가 경신 — 기관 2.37조 순매수 주도",
+        "summary": "코스피가 5/29(금) 8,476.15로 종가 기준 사상 최고가를 경신했어요. 전일 대비 3.55% 급등하며 5월 누적 상승률이 크게 높아졌어요. LG전자 상한가·현대차 급등 등 대형주 강세가 지수를 이끌었어요.",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202605291001023461",
+        "note": "코스피 연초 대비 54% 상승, 글로벌 주요 증시 중 1위"
+      },
+      {
+        "rank": "02",
+        "category": "기업",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "LG전자 상한가(+29.93%) — 물리 AI 로봇 글로벌 파트너십",
+        "summary": "LG전자가 5/29 상한가(+29.93%)를 기록했어요. 글로벌 빅테크와 물리 AI 로봇 파트너십을 체결했다는 공시가 장 중 발표됐어요. 전기전자 섹터가 지수 상승의 핵심 동력이 됐어요.",
+        "source": "서울경제",
+        "sourceUrl": "https://www.sedaily.com/NewsView/2026052901001",
+        "note": "물리 AI 사업화 본격화 시 추가 모멘텀 가능"
+      },
+      {
+        "rank": "03",
+        "category": "기업",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "젠슨 황 방한 — SK하이닉스·삼성과 HBM4 공급망 논의",
+        "summary": "NVIDIA 젠슨 황 CEO가 5/29 한국을 방문해 SK하이닉스와 삼성전자 경영진을 만났어요. Vera Rubin GPU용 HBM4 공급망 확대 방안을 논의한 것으로 전해졌어요. 반도체 공급망에서 한국의 위상이 더욱 높아지고 있어요.",
+        "source": "서울경제",
+        "sourceUrl": "https://www.sedaily.com/NewsView/2026052901002",
+        "note": "HBM4 공급 우위 유지 시 SK하이닉스 수혜 지속"
+      },
+      {
+        "rank": "04",
+        "category": "기업",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "현대차 +6.79% 급등 — NVIDIA 자율주행 AI 협업 발표",
+        "summary": "현대차가 +6.79% 급등했어요. NVIDIA와 자율주행 AI 플랫폼 공동 개발 계약을 체결했다는 소식이 장 중 발표됐어요. 자율주행 AI 분야에서 한국 완성차 기업의 기술 경쟁력이 주목받고 있어요.",
+        "source": "중앙일보",
+        "sourceUrl": "https://www.joongangenews.com/article/2026/05/29/hyundai-motor-nvidia-autonomous-driving-ai-partnership-surge",
+        "note": "NVIDIA 협업 확대 시 현대차·기아 밸류에이션 재평가 가능"
+      },
+      {
+        "rank": "05",
+        "category": "기업",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "삼성전기 시총 150조 돌파 — 코스피 4위 진입",
+        "summary": "삼성전기가 시가총액 150조원을 돌파하며 코스피 시총 4위에 진입했어요. MLCC 공급 확대와 AI 패키징 기판 모멘텀이 맞물려 외국인 수급이 유입됐어요. AI 제조업 공급망 수혜 기업으로 주목받고 있어요.",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20260529000013",
+        "note": "MLCC·AI 기판 수요 지속 시 추가 상승 여력"
+      },
+      {
+        "rank": "06",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "SK하이닉스, NVIDIA Vera Rubin HBM4 1차 공급사 확정",
+        "summary": "SK하이닉스가 NVIDIA의 차세대 Vera Rubin GPU에 탑재되는 HBM4 메모리의 1차 공급사로 확정됐어요. 젠슨 황 방한을 계기로 공급망 협약이 공식화됐어요. HBM4 양산 공급은 올해 4분기부터 시작될 예정이에요.",
+        "source": "서울경제",
+        "sourceUrl": "https://www.sedaily.com/NewsView/2026052901003",
+        "note": "HBM4 점유율 70% 이상 유지 시 프리미엄 지속"
+      },
+      {
+        "rank": "07",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "기관 2.37조 순매수 주도 — 외국인 1.30조 순매도 상쇄",
+        "summary": "기관투자자가 5/29 코스피에서 2조 3,687억원을 순매수하며 지수 상승을 이끌었어요. 외국인은 1조 2,978억원을 순매도했지만 기관이 이를 크게 상쇄했어요. 개인도 1조 8,777억원을 순매도했어요.",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202605291001023462",
+        "note": "기관 장세 지속 시 코스피 추가 신고가 행진 가능"
+      },
+      {
+        "rank": "08",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스닥 1,074.80(-2.68%) — 바이오·2차전지 차익 실현",
+        "summary": "코스닥이 5/29 -2.68% 하락한 1,074.80으로 마감했어요. 코스피의 3.55% 급등과 대조적인 디커플링 현상이 나타났어요. 바이오 섹터에서 ASCO 발표를 앞두고 차익 실현 매물이 출회됐어요.",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202605291001023463",
+        "note": "1,070선 이탈 시 낙폭 과대 반등 신호 기대"
+      },
+      {
+        "rank": "09",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "삼성전자, HBM4E 독자 개발 착수 — SK하이닉스 추격 본격화",
+        "summary": "삼성전자가 차세대 HBM4E 메모리 독자 개발에 착수했어요. NVIDIA 공급망에서 SK하이닉스에 뒤처진 격차를 메우기 위해 개발 속도를 높이고 있어요. 삼성의 HBM 경쟁력 회복 여부가 하반기 주가 분기점이 될 전망이에요.",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202605291001023464",
+        "note": "HBM4E 양산 성공 시 NVIDIA 공급망 복귀 기대"
+      },
+      {
+        "rank": "10",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스피·코스닥 역대급 디커플링 — 대형주 vs 중소형주",
+        "summary": "코스피(+3.55%)와 코스닥(-2.68%)이 동시에 반대 방향으로 움직이는 역대급 디커플링이 발생했어요. 외국인·기관이 대형 반도체·완성차 위주로 매수를 집중한 결과예요. 중소형 바이오·2차전지 종목에서 대형주로 자금 이동이 가속됐어요.",
+        "source": "아시아경제",
+        "sourceUrl": "https://view.asiae.co.kr/article/2026052901000001",
+        "note": "디커플링 지속 여부가 중소형주 투자 전략의 핵심"
+      },
+      {
+        "rank": "11",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "원/달러 1,490원대 하락 — 코스피 급등·달러 약세 동반",
+        "summary": "원/달러 환율이 코스피 급등과 달러 약세에 힘입어 1,490원대로 내렸어요. 달러 인덱스 하락(98.89)과 외국인 달러 매도가 환율 하락을 이끌었어요. 전일 종가(1,498.23원) 대비 8원 이상 하락했어요.",
+        "source": "머니투데이",
+        "sourceUrl": "https://news.mt.co.kr/mtview.php?no=202605290001001",
+        "note": "1,480원대 진입 시 수입 물가 안정·수출 경쟁력 소폭 약화"
+      },
+      {
+        "rank": "12",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스피 연초 대비 54% 상승 — 글로벌 증시 1위 성과",
+        "summary": "코스피가 연초 대비 54% 상승해 글로벌 주요 증시 중 최고 성과를 기록하고 있어요. AI·반도체 수출 호황과 자동차 강세가 동반 상승을 이끌었어요. 5월 한 달만으로도 +11.4%의 강한 상승을 기록했어요.",
+        "source": "아시아경제",
+        "sourceUrl": "https://view.asiae.co.kr/article/2026052901000002",
+        "note": "외국인 누적 순매수 지속이 추가 상승 핵심 조건"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "KOSPI 8,476.15(+3.55%) 신고가·LG전자 상한가·현대차 +6.79% — KOSDAQ -2.68%, 주말 휴장",
+    "subNoteEm": "KOSPI 신고가·LG전자 상한가·현대차 급등",
+    "comment": "5/29(금) <b style=\"color:var(--green);\">코스피가 8,476.15로 사상 최고가를 다시 경신</b>했어요. LG전자가 글로벌 빅테크와 물리 AI 파트너십을 발표하며 <b style=\"color:var(--red);\">상한가(+29.93%)</b>를 기록했고, NVIDIA와 자율주행 AI 협업을 발표한 현대차도 +6.79% 급등했어요. 기관이 2조 3,687억원을 순매수하며 지수 상승을 주도했어요. <b>코스닥은 -2.68% 하락해 1,074.80을 기록</b>하며 코스피와 대조적인 디커플링을 보였어요. 젠슨 황 CEO 방한으로 SK하이닉스의 HBM4 공급망 협력이 가시화됐어요. 오늘(5/30 토)은 주말 휴장이에요.",
+    "expectedRange": "휴장",
+    "indices": [
+      { "name": "코스피", "tip": "5/29(금) 종가", "value": "8,476.15", "change": "▲ 3.55%", "dir": "up" },
+      { "name": "코스닥", "tip": "5/29(금) 종가", "value": "1,074.80", "change": "▼ 2.68%", "dir": "down" }
+    ],
+    "flow": [
+      { "key": "원/달러 환율", "value": "1,490.0원 ▼", "dir": "down" },
+      { "key": "미국 상장 한국물(EWY ADR)", "value": "EWY $201.50(+3.54%)", "dir": "up" }
+    ],
+    "supply": [
+      { "who": "외국인", "amount": "−1.30조", "dir": "sell" },
+      { "who": "기관", "amount": "+2.37조", "dir": "buy" },
+      { "who": "개인", "amount": "−1.88조", "dir": "sell" }
+    ],
+    "sectorsUp": [
+      { "theme": "전기전자", "stockName": "LG전자", "stockChange": "+29.93%" },
+      { "theme": "운수장비", "stockName": "현대차", "stockChange": "+6.79%" },
+      { "theme": "기계", "stockName": "HD현대", "stockChange": "+3.2%" },
+      { "theme": "서비스업", "stockName": "NAVER", "stockChange": "+2.7%" },
+      { "theme": "건설업", "stockName": "현대건설", "stockChange": "+2.1%" }
+    ],
+    "sectorsDown": [
+      { "theme": "의약품", "stockName": "삼성바이오로직스", "stockChange": "−2.8%" },
+      { "theme": "화학", "stockName": "LG화학", "stockChange": "−2.3%" },
+      { "theme": "통신업", "stockName": "SK텔레콤", "stockChange": "−1.1%" },
+      { "theme": "섬유의복", "stockName": "F&F", "stockChange": "−0.9%" },
+      { "theme": "음식료", "stockName": "CJ제일제당", "stockChange": "−0.7%" }
+    ],
+    "watchlist": [
+      { "name": "LG전자 물리 AI 상한가", "badge": "급등", "badgeType": "up", "desc": "+29.93% 상한가 — 글로벌 빅테크 물리 AI 파트너십 공시, 주말 세부 내용 확인 후 월요일 후속 모멘텀 지속 여부 주목" },
+      { "name": "현대차·NVIDIA 자율주행 AI", "badge": "급등", "badgeType": "up", "desc": "+6.79% 급등 — NVIDIA와 자율주행 AI 플랫폼 공동 개발 계약, 기아·현대모비스 동반 강세 여부 관심" },
+      { "name": "SK하이닉스 HBM4 공급 확정", "badge": "주목", "badgeType": "default", "desc": "NVIDIA Vera Rubin 1차 공급사 확정 — 4분기 HBM4 양산 공급 시작, 젠슨 황 방한 효과 가시화" },
+      { "name": "ASCO 2026 K-바이오", "badge": "주목", "badgeType": "default", "desc": "2일차 진행 — 유한양행·보령 등 추가 임상 발표 예정, 성공 시 코스닥 바이오 월요일 반등 촉매 가능" }
+    ],
+    "health": [
+      { "key": "투자자 예탁금", "tip": "대기 자금", "value": "119조", "subIcon": "▼", "subDir": "down" },
+      { "key": "신용융자 잔고", "tip": "레버리지 투자", "value": "35.7조", "subIcon": "▲", "subDir": "up" }
+    ]
+  },
+  "calendar": {
+    "subNote": "5/30(오늘 토) 중국 5월 PMI 10:30 발표 — ASCO 2일차·6.3 지방선거 D-4",
+    "subNoteEm": "중국 PMI 발표·ASCO 2일차",
+    "riskSentiment": "긍정",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        { "event": "6.3 전국 동시 지방선거 D-4 (선거 관련 정책주·공약 모니터링)", "when": "6/3(수) — D-4" },
+        { "event": "KOSPI 8,476 신고가 이후 월요일 지속성 점검 — 외국인 수급 전환 여부 핵심", "when": "6/1(월) 장 시작" }
+      ]
+    },
+    "global": {
+      "timed": [],
+      "untimed": [
+        { "event": "중국 5월 제조업 PMI 발표 (50.1 전망, 미중 합의 효과 반영)", "when": "5/30(토) 10:30 KST" },
+        { "event": "ASCO 2026 연례 종양학회 2일차 (K-바이오 추가 임상 발표)", "when": "5/30(토) ~ 6/2(화)" }
+      ]
+    },
+    "theme": "코스피 8,476.15 신고가 경신에 이어 오늘(5/30 토) 오전 10시 30분 중국 5월 제조업 PMI가 발표돼요. 50.1 이상이 확인되면 월요일 아시아 증시에 긍정적인 모멘텀이 이어질 수 있어요. ASCO 2026이 2일차에 접어들며 K-바이오 추가 임상 발표가 예정돼 있어요. LG전자 상한가·현대차 급등의 모멘텀이 월요일까지 이어질지, 코스피·코스닥 디커플링이 좁혀질지가 다음 주 핵심 관전 포인트예요. 6.3 전국 지방선거(D-4)를 앞두고 정책 관련 기업 동향도 주목받고 있어요.",
+    "checks": [
+      "중국 5월 PMI — 오늘(5/30 토) 10:30 발표, 50.1 이상 확인 시 월요일 아시아 증시 긍정 신호",
+      "ASCO 2026 2일차 K-바이오 발표 — 유한양행·보령 추가 발표, 임상 성공 시 코스닥 바이오 월요일 반등 기대",
+      "코스피 8,476 신고가 이후 지속성 — 월요일 외국인 수급 전환 여부가 추가 상승 열쇠",
+      "코스피·코스닥 디커플링 — 대형주 강세 속 중소형주 낙폭 과대, 월요일 순환매 여부 주목",
+      "LG전자 상한가 이후 물리 AI 파트너십 세부 내용 — 주말 공시 확인 시 관련 공급망 수혜 기업 추가 특정 가능"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-05-24",
+    "end": "2026-05-30",
+    "days": [
+      {
+        "date": "2026-05-24",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-05-25",
+        "weekday": "월",
+        "items": [
+          { "region": "global", "event": "미국 메모리얼 데이 (주식시장 휴장)", "important": true, "category": "holiday" }
+        ]
+      },
+      {
+        "date": "2026-05-26",
+        "weekday": "화",
+        "items": []
+      },
+      {
+        "date": "2026-05-27",
+        "weekday": "수",
+        "items": [
+          { "region": "global", "event": "미국 증시 정상 거래 재개", "important": false, "category": "market" }
+        ]
+      },
+      {
+        "date": "2026-05-28",
+        "weekday": "목",
+        "items": [
+          { "region": "domestic", "event": "한국은행 금통위 기준금리 결정 (2.50% 동결)", "important": true, "category": "policy" },
+          { "region": "global", "time": "21:30", "event": "美 4월 PCE 물가지수 발표 (3.7% y/y)", "important": true, "category": "macro" },
+          { "region": "global", "time": "21:30", "event": "美 GDP Q1 2차 추정치 발표 (+2.5%)", "important": true, "category": "macro" }
+        ]
+      },
+      {
+        "date": "2026-05-29",
+        "weekday": "금",
+        "items": [
+          { "region": "global", "event": "ASCO 2026 연례 종양학회 개막", "important": true, "category": "industry" },
+          { "region": "domestic", "event": "MSCI 한국지수 반기 리밸런싱 패시브 매물 출회", "important": true, "category": "market" },
+          { "region": "global", "event": "Dell FY26 Q4 실적 발표 (EPS $2.62 서프라이즈)", "important": true, "category": "earnings" }
+        ]
+      },
+      {
+        "date": "2026-05-30",
+        "weekday": "토",
+        "items": [
+          { "region": "global", "time": "10:30", "event": "중국 5월 제조업 PMI 발표 (50.1 전망)", "important": true, "category": "macro" },
+          { "region": "global", "event": "ASCO 2026 2일차 (K-바이오 임상 발표)", "important": true, "category": "industry" }
+        ]
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 5,
+    "days": [
+      {
+        "date": "2026-05-01",
+        "items": [
+          { "region": "domestic", "event": "근로자의 날 (국내 증시 휴장)", "important": true, "category": "holiday" }
+        ]
+      },
+      {
+        "date": "2026-05-05",
+        "items": [
+          { "region": "domestic", "event": "어린이날 (국내 증시 휴장)", "important": true, "category": "holiday" }
+        ]
+      },
+      {
+        "date": "2026-05-25",
+        "items": [
+          { "region": "global", "event": "미국 메모리얼 데이 (US 증시 휴장)", "important": true, "category": "holiday" }
+        ]
+      },
+      {
+        "date": "2026-05-28",
+        "items": [
+          { "region": "domestic", "event": "한국은행 금통위 (2.50% 동결)", "important": true, "category": "policy" },
+          { "region": "global", "event": "美 4월 PCE·GDP Q1 2차 추정치 발표", "important": true, "category": "macro" }
+        ]
+      },
+      {
+        "date": "2026-05-29",
+        "items": [
+          { "region": "global", "event": "ASCO 2026 연례 종양학회 개막", "important": true, "category": "industry" },
+          { "region": "domestic", "event": "MSCI 한국지수 반기 리밸런싱", "important": true, "category": "market" },
+          { "region": "global", "event": "Dell FY26 Q4 실적 발표", "important": true, "category": "earnings" }
+        ]
+      },
+      {
+        "date": "2026-05-30",
+        "items": [
+          { "region": "global", "event": "중국 5월 제조업 PMI 발표", "important": true, "category": "macro" },
+          { "region": "global", "event": "ASCO 2026 2일차", "important": false, "category": "industry" }
+        ]
+      }
+    ]
+  }
+}
