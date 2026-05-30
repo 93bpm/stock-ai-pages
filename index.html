@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" rel="stylesheet">
 <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 <style>
   :root{
@@ -182,6 +183,26 @@
   .flow .r .v{font-weight:700;}
   .range{margin-top:11px;font-size:13.5px;color:var(--text-soft);}
 
+  /* 도움말 아이콘 + 팝업 (FlowItem 등 용어 설명) */
+  .help-btn{display:inline-flex;align-items:center;justify-content:center;
+    margin-left:4px;color:var(--text-dim);
+    cursor:pointer;border:none;background:transparent;padding:0;
+    vertical-align:middle;line-height:1;transition:.14s;}
+  .help-btn:hover{color:#79AEFF;}
+  .help-btn .material-symbols-outlined{
+    font-size:16px;
+    font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 20;
+  }
+  .help-pop{position:fixed;z-index:50;background:var(--surface);
+    border:1px solid var(--line);border-radius:12px;padding:13px 15px;
+    font-size:12.5px;line-height:1.6;color:var(--text-soft);
+    max-width:min(280px,calc(100vw - 28px));
+    box-shadow:0 8px 28px rgba(0,0,0,.5);display:none;}
+  .help-pop.on{display:block;}
+  .help-pop b{color:var(--text);font-weight:700;}
+  .help-pop .h{font-size:13px;font-weight:800;color:var(--text);
+    margin-bottom:6px;display:block;}
+
   /* 수급 상세 (3주체: 외인/기관/개인) */
   .supply{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;}
   @media(max-width:380px){.supply{grid-template-columns:1fr;}}
@@ -221,6 +242,11 @@
   .sched .cal{margin-top:2px;}
   .untimed{margin-top:11px;background:var(--surface);border-radius:11px;padding:11px 13px;}
   .untimed:empty{display:none;}
+  /* 일정 없음 상태 — .untimed 박스 디자인 차용 + 중앙 정렬 */
+  .no-events{margin-top:11px;background:var(--surface);border-radius:11px;
+    padding:24px 13px;text-align:center;color:var(--text-dim);
+    font-size:13px;font-weight:700;letter-spacing:.02em;}
+  .no-events .ic{display:block;font-size:20px;margin-bottom:6px;opacity:.5;}
   .untimed-head{font-size:11px;font-weight:800;color:var(--text-dim);letter-spacing:.03em;
     margin-bottom:8px;display:flex;align-items:center;gap:5px;}
   .ut{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-size:13.5px;padding:5px 0;}
@@ -529,12 +555,36 @@
   </footer>
 </div>
 
+<!-- 도움말 팝업 (FlowItem 등 용어 설명용 공유 popup) -->
+<div class="help-pop" id="helpPop" role="dialog" aria-label="용어 설명"></div>
+
 <script>
 (function(){
   'use strict';
 
   const DOW = ['일','월','화','수','목','금','토'];
   const BASE = './briefing/';
+
+  // 용어 설명 사전 (FlowItem key 패턴 매칭). routine이 라벨을 약간 다르게 만들어도
+  // 정규식으로 매칭되도록 — 예: "미국 상장 한국물(ADR)" / "미국 상장 한국물(EWY ADR)" 모두 hit.
+  const HELP = [
+    {
+      pattern: /미국 상장 한국물|EWY/,
+      title: '미국 상장 한국물 (EWY)',
+      body: '<b>iShares MSCI Korea ETF</b>의 등락이에요. 한국 시장이 닫힌 사이 미국에서 한국 자산이 어떻게 평가됐는지를 보여주는 지표예요. <b>다음날 韓 개장 분위기</b>를 미리 가늠하는 단서로 활용해요.'
+    },
+    {
+      pattern: /야간\s*선물|코스피200/,
+      title: '야간 선물 (코스피200)',
+      body: '韓 정규장 마감 후 ~ 다음 새벽까지 거래되는 <b>코스피200 야간선물</b>이에요. 美 마감 후 韓 개장 갭을 미리 예측할 때 참고해요.'
+    },
+    {
+      pattern: /원\/달러/,
+      title: '원/달러 환율 종가',
+      body: '서울외환시장 <b>15:30 마감 종가</b>예요. 환율 상승(원화 약세)은 韓 수출주에 +, 수입주에 −, 외인 매도 압박 요인으로 작용해요.'
+    }
+  ];
+  function findHelp(key){ return HELP.find(h => h.pattern.test(key)); }
   const STATE = {
     manifest: null,
     data: null,
@@ -690,12 +740,18 @@
       </div>
     `).join('');
 
-    $('kr-flow').innerHTML = kr.flow.map(f => `
-      <div class="r">
-        <span class="k">${esc(f.key)}</span>
-        <span class="v num ${dirClass(f.dir)}">${esc(f.value)}</span>
-      </div>
-    `).join('');
+    $('kr-flow').innerHTML = kr.flow.map(f => {
+      const hasHelp = findHelp(f.key);
+      const helpBtn = hasHelp
+        ? `<button type="button" class="help-btn" data-k="${esc(f.key)}" aria-label="${esc(f.key)} 설명"><span class="material-symbols-outlined">help</span></button>`
+        : '';
+      return `
+        <div class="r">
+          <span class="k">${esc(f.key)}${helpBtn}</span>
+          <span class="v num ${dirClass(f.dir)}">${esc(f.value)}</span>
+        </div>
+      `;
+    }).join('');
 
     $('kr-supply').innerHTML = kr.supply.map(s => `
       <div class="s">
@@ -747,16 +803,23 @@
     }
   }
 
+  // "일정 없음" 빈 상태 메시지 (시간 미정 디자인 차용 + 중앙 정렬)
+  const NO_EVENTS_HTML = '<div class="no-events"><span class="ic">📭</span>일정 없음</div>';
+
   // 옛 데이터 호환: 기존 cal.{domestic,global}.{timed,untimed} 그대로 렌더링
   function renderCalendarLegacy(cal){
     const timed = e => `<div class="e"><span class="t num">${esc(e.time)}</span><span>${esc(e.event)}</span>${e.important ? '<span class="imp">중요</span>' : ''}</div>`;
     const untimed = e => `<div class="ut"><span class="ut-ev">${esc(e.event)}</span><span class="ut-when">${esc(e.when)}</span></div>`;
-    $('cal-dom-timed').innerHTML = cal.domestic.timed.map(timed).join('');
-    $('cal-dom-untimed').innerHTML = cal.domestic.untimed.length
+    // 국내 일정
+    const domEmpty = !cal.domestic.timed.length && !cal.domestic.untimed.length;
+    $('cal-dom-timed').innerHTML = domEmpty ? NO_EVENTS_HTML : cal.domestic.timed.map(timed).join('');
+    $('cal-dom-untimed').innerHTML = (!domEmpty && cal.domestic.untimed.length)
       ? `<div class="untimed-head">⏳ 시간 미정</div>` + cal.domestic.untimed.map(untimed).join('')
       : '';
-    $('cal-glo-timed').innerHTML = cal.global.timed.map(timed).join('');
-    $('cal-glo-untimed').innerHTML = cal.global.untimed.length
+    // 해외 일정
+    const gloEmpty = !cal.global.timed.length && !cal.global.untimed.length;
+    $('cal-glo-timed').innerHTML = gloEmpty ? NO_EVENTS_HTML : cal.global.timed.map(timed).join('');
+    $('cal-glo-untimed').innerHTML = (!gloEmpty && cal.global.untimed.length)
       ? `<div class="untimed-head">⏳ 시간 미정</div>` + cal.global.untimed.map(untimed).join('')
       : '';
   }
@@ -797,12 +860,15 @@
     };
 
     // 4개 영역 각각 채움 (.cal-dom-timed / .cal-dom-untimed / .cal-glo-timed / .cal-glo-untimed)
-    $('cal-dom-timed').innerHTML   = domTimed.map(dyItemHtml).join('');
-    $('cal-dom-untimed').innerHTML = domUntimed.length
+    // 국내 / 해외 모두 일정 없으면 NO_EVENTS_HTML (시간 미정 디자인 + 중앙 정렬)
+    const domEmpty = !domTimed.length && !domUntimed.length;
+    $('cal-dom-timed').innerHTML   = domEmpty ? NO_EVENTS_HTML : domTimed.map(dyItemHtml).join('');
+    $('cal-dom-untimed').innerHTML = (!domEmpty && domUntimed.length)
       ? `<div class="untimed-head">시간 미정</div>` + domUntimed.map(dyItemHtml).join('')
       : '';
-    $('cal-glo-timed').innerHTML   = gloTimed.map(dyItemHtml).join('');
-    $('cal-glo-untimed').innerHTML = gloUntimed.length
+    const gloEmpty = !gloTimed.length && !gloUntimed.length;
+    $('cal-glo-timed').innerHTML   = gloEmpty ? NO_EVENTS_HTML : gloTimed.map(dyItemHtml).join('');
+    $('cal-glo-untimed').innerHTML = (!gloEmpty && gloUntimed.length)
       ? `<div class="untimed-head">시간 미정</div>` + gloUntimed.map(dyItemHtml).join('')
       : '';
   }
@@ -1216,6 +1282,42 @@
   $('calPop').addEventListener('click', e => e.stopPropagation());
   document.addEventListener('click', () => {
     if(!$('calPop').hidden) $('calPop').hidden = true;
+  });
+
+  // 도움말 ⓘ 아이콘 핸들러 (event delegation — kr-flow 재렌더링에도 자동 대응)
+  document.addEventListener('click', e => {
+    const pop = $('helpPop');
+    const btn = e.target.closest('.help-btn');
+    if(btn){
+      e.stopPropagation();
+      const key = btn.dataset.k;
+      const info = findHelp(key);
+      if(!info) return;
+      // 같은 버튼 다시 클릭 → 닫기
+      if(pop.classList.contains('on') && pop.dataset.k === key){
+        pop.classList.remove('on');
+        return;
+      }
+      pop.dataset.k = key;
+      pop.innerHTML = `<span class="h">${esc(info.title)}</span>${info.body}`;
+      // 버튼 아래에 위치. 화면 밖 넘어가면 좌우 보정.
+      const rect = btn.getBoundingClientRect();
+      const popW = Math.min(280, window.innerWidth - 28);
+      let left = rect.left + rect.width/2 - popW/2;
+      const margin = 14;
+      if(left < margin) left = margin;
+      if(left + popW > window.innerWidth - margin) left = window.innerWidth - popW - margin;
+      pop.style.left = left + 'px';
+      pop.style.top = (rect.bottom + 8) + 'px';
+      pop.classList.add('on');
+    } else if(!e.target.closest('#helpPop')){
+      // popup 바깥 클릭 → 닫기
+      pop.classList.remove('on');
+    }
+  });
+  // Esc 키로도 닫기
+  document.addEventListener('keydown', e => {
+    if(e.key === 'Escape') $('helpPop').classList.remove('on');
   });
 
   // URL 해시 변경 (뒤로/앞으로 가기 + 공유 링크)
