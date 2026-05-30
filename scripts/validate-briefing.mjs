@@ -95,19 +95,19 @@ function validateCalendarWeek(data) {
   if (!cw) return; // 옛 데이터 호환 — 없으면 skip
   // ① days = 7
   if (cw.days?.length !== 7) hard(`calendarWeek: days.length = ${cw.days?.length} (기대 7)`);
-  // ② start=일, end=토
+  // ② start=일, end=토  (★UTC 고정 — 로컬 타임존에서 toISOString 하루 밀림 방지)
   if (cw.start) {
-    const sd = new Date(cw.start + 'T00:00:00');
-    if (sd.getDay() !== 0) hard(`calendarWeek: start ${cw.start} 요일=${DOW[sd.getDay()]} (기대 일)`);
+    const sd = new Date(cw.start + 'T00:00:00Z');
+    if (sd.getUTCDay() !== 0) hard(`calendarWeek: start ${cw.start} 요일=${DOW[sd.getUTCDay()]} (기대 일)`);
   }
   if (cw.end) {
-    const ed = new Date(cw.end + 'T00:00:00');
-    if (ed.getDay() !== 6) hard(`calendarWeek: end ${cw.end} 요일=${DOW[ed.getDay()]} (기대 토)`);
+    const ed = new Date(cw.end + 'T00:00:00Z');
+    if (ed.getUTCDay() !== 6) hard(`calendarWeek: end ${cw.end} 요일=${DOW[ed.getUTCDay()]} (기대 토)`);
   }
   // ③ start + 6일 === end
   if (cw.start && cw.end) {
-    const s = new Date(cw.start + 'T00:00:00');
-    s.setDate(s.getDate() + 6);
+    const s = new Date(cw.start + 'T00:00:00Z');
+    s.setUTCDate(s.getUTCDate() + 6);
     const expEnd = s.toISOString().slice(0, 10);
     if (expEnd !== cw.end) hard(`calendarWeek: start+6=${expEnd} ≠ end ${cw.end}`);
   }
