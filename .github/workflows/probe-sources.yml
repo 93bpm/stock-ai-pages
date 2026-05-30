@@ -1,0 +1,64 @@
+name: Probe data sources (manual)
+
+# v1.6.0 Sub-Feature B 전제 검증용 — 수동 실행(workflow_dispatch) 전용.
+# claude.ai routine 환경은 Stooq/finviz 403 차단. GitHub Actions(ubuntu-latest) IP에서
+# Stooq/Trading Economics/Investing가 동작하는지 1회 확인 → B(시세 분담) 진행 여부 결정.
+#
+# 실행: GitHub repo → Actions 탭 → "Probe data sources" → Run workflow
+# 판정: Stooq CSV가 200 + 정상 OHLCV면 B 진행 가능 / 403이면 B 재설계 필요.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stooq — 美 지수 ^spx (S&P500)
+        run: |
+          echo "===== Stooq ^spx ====="
+          curl -s --max-time 25 -w "\n[HTTP %{http_code}] [%{time_total}s] [IP %{remote_ip}]\n" \
+            "https://stooq.com/q/l/?s=^spx&f=sd2t2ohlcv&h&e=csv" || echo "❌ curl 실패"
+
+      - name: Stooq — 나스닥종합 ^ixic / 섹터ETF xlk.us
+        run: |
+          echo "===== Stooq ^ixic (나스닥 종합) ====="
+          curl -s --max-time 25 -w "\n[HTTP %{http_code}]\n" \
+            "https://stooq.com/q/l/?s=^ixic&f=sd2t2ohlcv&h&e=csv" || echo "❌ FAIL"
+          echo "===== Stooq xlk.us (섹터 ETF) ====="
+          curl -s --max-time 25 -w "\n[HTTP %{http_code}]\n" \
+            "https://stooq.com/q/l/?s=xlk.us&f=sd2t2ohlcv&h&e=csv" || echo "❌ FAIL"
+
+      - name: Stooq — 韓 지수 ^kospi / ^kosdaq
+        run: |
+          echo "===== Stooq ^kospi ====="
+          curl -s --max-time 25 -w "\n[HTTP %{http_code}]\n" \
+            "https://stooq.com/q/l/?s=^kospi&f=sd2t2ohlcv&h&e=csv" || echo "❌ FAIL"
+          echo "===== Stooq ^kosdaq ====="
+          curl -s --max-time 25 -w "\n[HTTP %{http_code}]\n" \
+            "https://stooq.com/q/l/?s=^kosdaq&f=sd2t2ohlcv&h&e=csv" || echo "❌ FAIL"
+
+      - name: Stooq — 지표 (USD/KRW, WTI, 금, 10년물)
+        run: |
+          for s in "usdkrw" "cl.f" "gc.f" "10us.b"; do
+            echo "===== Stooq $s ====="
+            curl -s --max-time 25 -w "\n[HTTP %{http_code}]\n" \
+              "https://stooq.com/q/l/?s=$s&f=sd2t2ohlcv&h&e=csv" || echo "❌ FAIL"
+          done
+
+      - name: 캘린더 — Trading Economics / Investing / finviz (헤더만)
+        run: |
+          echo "===== Trading Economics calendar ====="
+          curl -sI --max-time 25 -w "[HTTP %{http_code}]\n" "https://tradingeconomics.com/calendar" | head -5 || echo "❌ FAIL"
+          echo "===== Investing earnings-calendar ====="
+          curl -sI --max-time 25 -w "[HTTP %{http_code}]\n" "https://www.investing.com/earnings-calendar/" | head -5 || echo "❌ FAIL"
+          echo "===== finviz groups (참고) ====="
+          curl -sI --max-time 25 -w "[HTTP %{http_code}]\n" "https://finviz.com/groups.ashx?g=sector&v=110" | head -5 || echo "❌ FAIL"
+
+      - name: 판정 가이드
+        run: |
+          echo "────────────────────────────────────────"
+          echo "✅ Stooq CSV가 [HTTP 200] + 정상 OHLCV  → B(시세 분담) 진행 가능"
+          echo "❌ [HTTP 403] 또는 빈 응답              → Stooq가 Actions IP 차단 → B 재설계"
+          echo "🟡 TE/Investing 200이면 캘린더 스크래핑 가능"
+          echo "────────────────────────────────────────"
