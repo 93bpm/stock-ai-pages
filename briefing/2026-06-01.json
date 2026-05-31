@@ -1,0 +1,507 @@
+{
+  "date": "2026-06-01",
+  "weekday": "월",
+  "generatedAt": "2026-06-01T07:09:00+09:00",
+  "us": {
+    "subNote": "5월 마지막 거래일(5/29), 델 AI서버 실적 서프라이즈와 미·이란 휴전 소식이 맞물리며 S&P 500이 9주 연속 사상 최고가를 달성했어요. 나스닥은 5월 한달간 +8%로 역대 최강 5월 랠리를 마감했고, 다우도 처음으로 51,000선을 돌파했어요. PCE 인플레이션이 예상치에 부합하며 연준 추가 긴축 우려가 다소 완화된 점도 매수 심리를 지지했어요.",
+    "subNoteEm": "델 AI서버 폭등에 S&P 9주 연속 최고가·나스닥 5월 +8% 달성",
+    "comment": "이번 주 한국 투자자에게 중요한 방향이 있어요. 첫째, 델 AI서버 매출 757% 급증은 HBM 수요가 구조적으로 지속되고 있다는 확인 신호예요. SK하이닉스와 삼성전자의 HBM4 공급 우위가 재조명될 수 있어요. 둘째, 미·이란 휴전 MOU 잠정 합의로 WTI가 2% 하락했는데, 유가 안정은 한국 에너지 비용 절감과 무역수지 개선 경로로 연결될 수 있어요. 이번 주 6/2 미국 ISM 제조업, 6/5 비농업 취업자 수 발표가 美 증시 변동성의 핵심 변수예요.",
+    "indices": [
+      {"name": "S&P 500", "tip": "9주 연속 상승·5월 +5.1%", "value": "7,580.06", "change": "+0.22%", "dir": "up"},
+      {"name": "나스닥 종합", "tip": "5월 +8%·역대 최강 5월", "value": "26,972.62", "change": "+0.20%", "dir": "up"},
+      {"name": "다우존스", "tip": "5만1천 첫 돌파·델 AI 랠리", "value": "51,032.46", "change": "+0.72%", "dir": "up"},
+      {"name": "필라델피아 반도체", "tip": "연초 대비 +65% 급등", "value": "12,829.38", "change": "+0.00%", "dir": "up"}
+    ],
+    "indicators": [
+      {"key": "VIX", "value": "15.32", "dir": "down"},
+      {"key": "美 10년물", "value": "4.45%", "dir": "down"},
+      {"key": "달러인덱스", "value": "98.94", "dir": "down"},
+      {"key": "WTI 유가", "value": "$87.20", "dir": "down"},
+      {"key": "금", "value": "$4,543", "dir": "up"},
+      {"key": "비트코인", "value": "$73,332", "dir": "down"}
+    ],
+    "sectorsUp": [
+      {"name": "금융", "change": "+0.60%"},
+      {"name": "에너지", "change": "+0.07%"},
+      {"name": "기술주", "change": "+0.01%"},
+      {"name": "산업재", "change": "-0.39%"},
+      {"name": "유틸리티", "change": "-0.46%"}
+    ],
+    "sectorsDown": [
+      {"name": "필수소비재", "change": "-2.00%"},
+      {"name": "통신서비스", "change": "-1.70%"},
+      {"name": "임의소비재", "change": "-1.05%"},
+      {"name": "리츠", "change": "-0.97%"},
+      {"name": "헬스케어", "change": "-0.93%"}
+    ]
+  },
+  "world": {
+    "subNote": "델 AI서버 쇼크가 글로벌 반도체 랠리에 불을 붙였고, 미·이란 60일 휴전 MOU 잠정 합의로 지정학 리스크가 일부 완화됐어요. 한국 시장에서는 삼성전자·SK하이닉스가 코스피를 사상 최고가로 끌어올렸지만 10종목 중 9종목이 하락하는 초양극화 장세가 이어졌어요. 6월 첫 주에는 한국 5월 수출 발표, 미국 ISM·NFP 등 주요 매크로 이벤트가 집중돼 있어요.",
+    "subNoteEm": "AI서버·HBM 수요 재확인·미이란 휴전으로 글로벌 리스크온 유지",
+    "global": [
+      {
+        "rank": "01",
+        "category": "AI·반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "델 AI서버 매출 757% 급증·장후 폭등",
+        "summary": "델 1Q AI서버 매출 757% 급증, EPS 4.86달러로 예상치 2.94달러를 크게 상회했어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
+        "note": "HBM 수요 강세로 한국 반도체 밸류에이션 지지해요"
+      },
+      {
+        "rank": "02",
+        "category": "미국증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "S&P 500·나스닥 9주 연속 최고가 경신",
+        "summary": "S&P 500이 5월 +5.1%로 마감, 역대 최강 5월 랠리로 기록될 전망이에요",
+        "source": "TheStreet",
+        "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-29-2026",
+        "note": "리스크온 지속으로 6월 아시아 장에 우호적이에요"
+      },
+      {
+        "rank": "03",
+        "category": "지정학",
+        "categoryStyle": "geo",
+        "sentiment": "pos",
+        "title": "미·이란 60일 휴전 MOU 잠정 합의",
+        "summary": "미란 협상단이 핵 협상 개시·호르무즈 기뢰 제거 포함한 60일 MOU에 잠정 합의했어요",
+        "source": "Axios",
+        "sourceUrl": "https://www.axios.com/2026/05/28/iran-peace-deal-trump-approval",
+        "note": "유가 하락으로 한국 에너지 비용 완화 기대해요"
+      },
+      {
+        "rank": "04",
+        "category": "인플레이션",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "4월 미 PCE 연율 3.3%·예상치 부합",
+        "summary": "4월 PCE 월간 +0.2%로 예상에 부합해 연준 추가 긴축 부담이 다소 완화됐어요",
+        "source": "CBS News",
+        "sourceUrl": "https://www.cbsnews.com/news/pce-report-today-inflation-kevin-warsh-federal-reserve/",
+        "note": "PCE 예상 부합으로 연준 금리동결 기대 유지돼요"
+      },
+      {
+        "rank": "05",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "마이크론 +5%·시총 1조 달러 진입",
+        "summary": "마이크론이 5월 +88% 상승 후 시총 1조 달러를 돌파, HBM 메모리 슈퍼사이클 확인이에요",
+        "source": "TradingKey",
+        "sourceUrl": "https://www.tradingkey.com/analysis/stocks/us-stocks/261928849-nasdaq-sp500-sox-mu-micron-gpu-chip-hbm-stock-tradingkey",
+        "note": "메모리 슈퍼사이클 확인으로 SK하이닉스 밸류 지지해요"
+      },
+      {
+        "rank": "06",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "신임 워시 Fed 의장·2026 금리동결 유력",
+        "summary": "워시 의장 취임 후 2026년 내 금리동결이 90% 이상 확률로 유력한 상황이에요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/16/kevin-warsh-comes-into-the-fed-facing-a-big-family-fight-over-cutting-interest-rates.html",
+        "note": "금리동결 기조가 달러 강세·원화 약세 경로에 영향 줄 수 있어요"
+      },
+      {
+        "rank": "07",
+        "category": "원자재",
+        "categoryStyle": "geo",
+        "sentiment": "pos",
+        "title": "WTI 87.2달러·이란 휴전에 -2% 하락",
+        "summary": "미·이란 휴전 소식에 WTI 원유가 배럴당 87.2달러로 6주 만에 최저치를 기록했어요",
+        "source": "FX Daily Report",
+        "sourceUrl": "https://fxdailyreport.com/wti-crude-oil-price-analysis-for-may-29-2026/",
+        "note": "유가 하락은 한국 무역수지에 유리한 요인이에요"
+      },
+      {
+        "rank": "08",
+        "category": "안전자산",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "금 4,543달러 반등·PCE 후 달러 약세",
+        "summary": "금 현물이 4,543달러로 반등, PCE 예상 부합 후 달러인덱스가 98.94로 소폭 하락했어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/amp/select/the-price-of-gold-today-may-29-2026-and-the-best-places-to-buy/",
+        "note": "달러 약세는 신흥국 통화에 단기 유리한 환경이에요"
+      },
+      {
+        "rank": "09",
+        "category": "빅테크",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "애플 WWDC 2026·6월 8일 키노트 확정",
+        "summary": "애플이 6월 8~12일 WWDC26 개최, AI 신기능 대거 공개 예상으로 주목받고 있어요",
+        "source": "Apple",
+        "sourceUrl": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/",
+        "note": "애플 공급망 삼성 디스플레이·LG이노텍 영향 주목이에요"
+      },
+      {
+        "rank": "10",
+        "category": "가상자산",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "비트코인 73,332달러·지정학 불안에 약세",
+        "summary": "비트코인이 73,332달러로 하락, 이란 협상 불확실성과 ETF 자금 유출이 원인이에요",
+        "source": "LatestLY",
+        "sourceUrl": "https://www.latestly.com/business/bitcoin-price-today-may-29-2026-btc-price-down-to-usd-73332-after-increase-7450193.html",
+        "note": "가상자산 약세가 위험 선호 감소 신호로 볼 수 있어요"
+      },
+      {
+        "rank": "11",
+        "category": "바이오·항암",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "ASCO 2026 개막·항암제 임상 대거 발표",
+        "summary": "ASCO 연례회의(5/29~6/2, 시카고)에서 35,000명 참가 속 항암 임상 결과가 발표돼요",
+        "source": "ASCO",
+        "sourceUrl": "https://www.asco.org/annual-meeting",
+        "note": "한국 바이오 임상 발표 여부에 따라 주가 변동 가능해요"
+      },
+      {
+        "rank": "12",
+        "category": "미국증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "다우 51,000 첫 돌파·델 AI 랠리 주도",
+        "summary": "다우지수가 처음으로 51,000선을 돌파, 델 AI 서프라이즈와 지정학 완화 덕분이에요",
+        "source": "Invezz",
+        "sourceUrl": "https://invezz.com/news/2026/05/29/dow-closes-above-51000-as-dell-led-ai-rally-lifts-wall-street/",
+        "note": "다우 신고가는 가치주·금융주 강세 신호로 참고해요"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "국내증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스피 8,476.15 사상 최고가 경신",
+        "summary": "기관이 1.87조원 순매수하며 코스피를 8,476.15로 끌어올려 신고가를 기록했어요",
+        "source": "Seoul Economic Daily",
+        "sourceUrl": "https://en.sedaily.com/finance/2026/05/29/kospi-closes-up-29086-points-or-355-percent-at-847615",
+        "note": "기관 집중 매수 신고가, 종목 양극화는 심화될 수 있어요"
+      },
+      {
+        "rank": "02",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "삼성·하이닉스 합산 시총 코스피 50% 돌파",
+        "summary": "삼성전자·SK하이닉스 두 종목이 코스피 전체 시총의 50%를 처음으로 초과했어요",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/05/29/2026052915522353674",
+        "note": "반도체 쏠림 심화로 비반도체 종목 소외 이어질 수 있어요"
+      },
+      {
+        "rank": "03",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "SK하이닉스 시총 1조 달러 첫 돌파",
+        "summary": "SK하이닉스가 한국 기업 최초로 달러 기준 시총 1조 달러를 돌파해 글로벌 12위에 올랐어요",
+        "source": "더나은미래",
+        "sourceUrl": "https://futurechosun.com/archives/149611",
+        "note": "HBM 공급 우위로 하반기 실적 우상향 기대해요"
+      },
+      {
+        "rank": "04",
+        "category": "시장구조",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스피 10종목 중 9종목 하락·지수 왜곡",
+        "summary": "코스피 사상 최고가에도 전체 종목의 90%가 하락, 반도체 집중에 따른 왜곡이에요",
+        "source": "MBC 뉴스",
+        "sourceUrl": "https://imnews.imbc.com/replay/2026/nwtoday/article/6825755_37012.html",
+        "note": "대형주 집중으로 중소형 종목 체감 장세는 약세예요"
+      },
+      {
+        "rank": "05",
+        "category": "수출·무역",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "5월 1~20일 수출 +64.8%·반도체 +202%",
+        "summary": "5월 중순까지 수출이 전년 대비 64.8% 급증, 반도체 202% 폭등이 견인했어요",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/economy/2026/05/21/2026052108393375556",
+        "note": "반도체 수출 급증이 원화 수급 개선에 기여해요"
+      },
+      {
+        "rank": "06",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "외국인 5월 코스피서 18.1조 순매도",
+        "summary": "외국인이 5월 한달간 코스피에서 18.1조원을 순매도하며 반도체 대형주를 집중 이탈했어요",
+        "source": "글로벌이코노믹",
+        "sourceUrl": "https://www.g-enews.com/article/Securities/2026/05/202605131549299206df2f5bc1bc_1",
+        "note": "외인 이탈 지속 시 KOSPI 상승 모멘텀 약화 가능해요"
+      },
+      {
+        "rank": "07",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "한은 기준금리 2.5% 8연속 동결",
+        "summary": "한국은행이 4월 금통위에서 2.50%를 8회 연속 동결, 다음 결정은 7월 16일이에요",
+        "source": "한국금융신문",
+        "sourceUrl": "https://www.fntimes.com/html/view.php?ud=202604100950509827179ad43907_18",
+        "note": "동결 기조 속 시중 유동성 환경 안정적이에요"
+      },
+      {
+        "rank": "08",
+        "category": "시장건전성",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "신용융자 잔고 33.9조·사상 최대 경신",
+        "summary": "4월 신용융자 잔고가 33.9조로 사상 최대치를 경신, 빚투 과열 경계 신호예요",
+        "source": "서울신문",
+        "sourceUrl": "https://www.seoul.co.kr/news/economy/2026/03/04/20260304500287",
+        "note": "빚투 과열은 급락 시 반대매매 변동성 위험이 있어요"
+      },
+      {
+        "rank": "09",
+        "category": "바이오",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "ASCO 2026 한국 바이오 임상 발표 주목",
+        "summary": "ASCO(5/29~6/2)에서 유한양행·HK이노엔 등 한국 기업의 항암제 임상 결과가 발표돼요",
+        "source": "The Pathologist",
+        "sourceUrl": "https://thepathologist.com/events/2026-asco-annual-meeting-advancing-cancer-care-worldwide/",
+        "note": "임상 호조 시 바이오주 단기 모멘텀 가능성이 있어요"
+      },
+      {
+        "rank": "10",
+        "category": "무역·수출",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "한국 5월 수출입 통계 오늘(6/1) 발표",
+        "summary": "관세청이 오늘 5월 전체 수출입 통계를 발표, 반도체 200%대 유지 여부가 주목이에요",
+        "source": "Korea Times",
+        "sourceUrl": "https://www.koreatimes.co.kr/amp/business/20260521/exports-up-65-during-first-20-days-of-may-on-chips",
+        "note": "5월 수출 확정치가 원화·무역수지 방향 결정해요"
+      },
+      {
+        "rank": "11",
+        "category": "2차전지",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "2차전지 하반기 반등 기대·차세대 배터리 양산",
+        "summary": "배터리 3사의 차세대 배터리 양산이 가시화되며 2차전지 하반기 반등 기대가 부각돼요",
+        "source": "더페어",
+        "sourceUrl": "https://www.thefairnews.co.kr/news/articleView.html?idxno=72288",
+        "note": "반도체 쏠림 속 2차전지 하반기 순환매 주목해요"
+      },
+      {
+        "rank": "12",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "삼성 주간 +8.4%·하이닉스 주간 +20.2%",
+        "summary": "삼성전자가 한주간 +8.4%, SK하이닉스가 +20.2%를 기록하며 5월 마지막 주 강세였어요",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/05/28/2026052717043413391",
+        "note": "AI서버 수요 확인에 5월 마지막 주 반도체 랠리였어요"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "5월 마지막 거래일(5/29) 코스피가 삼성전자(+3.67%)·SK하이닉스(+2.62%)를 앞세워 8,476.15로 사상 최고가를 경신했어요. 기관이 1.87조원을 순매수하며 지수를 끌어올렸지만, 전체 종목의 90%가 하락하는 초양극화 장세였어요. 코스닥은 -2.68%로 대조적인 약세를 보였어요. 오늘(6/1) 한국 5월 수출입 통계가 발표되고, 이번 주 미국 ISM·NFP 등 매크로 이벤트가 집중돼 있어요.",
+    "subNoteEm": "삼성·하이닉스 신고가·코스피 8,476, 비반도체는 체감 약세 이어져요",
+    "comment": "오늘 코스피는 삼성전자·SK하이닉스가 계속 끌고 가는 구조가 이어질 수 있어요. 외국인이 5월 한달간 18.1조를 매도했지만 기관이 대규모로 수급을 메우고 있어요. 코스닥과 중소형주는 대형 반도체 랠리에서 소외되는 흐름이 계속되고 있어요. 오늘 오전 발표될 한국 5월 수출입 통계에서 반도체 수출이 200% 이상 유지되면 원화 수급에도 긍정적으로 작용할 수 있어요. 이번 주 6/5 미국 고용보고서(NFP)가 가장 큰 매크로 이벤트로, 결과에 따라 국내 증시 변동성이 커질 수 있어요.",
+    "expectedRange": "코스피 8,400~8,550 (상단: 기관 매수 지속·반도체 강세 / 하단: 외인 매도 압력·매크로 경계)",
+    "indices": [
+      {"name": "코스피", "tip": "삼성·하이닉스 시총 50% 집중", "value": "8,476.15", "change": "+3.55%", "dir": "up"},
+      {"name": "코스닥", "tip": "반도체 소외·중소형 약세", "value": "1,074.80", "change": "-2.68%", "dir": "down"}
+    ],
+    "flow": [
+      {"key": "원/달러 환율", "value": "1,507.42", "dir": "up"},
+      {"key": "미국 상장 한국물(ADR)", "value": "$205.64 (EWY)", "dir": "up"}
+    ],
+    "supply": [
+      {"who": "외국인", "amount": "-9,247억원", "dir": "sell"},
+      {"who": "기관", "amount": "+1조8,672억원", "dir": "buy"},
+      {"who": "개인", "amount": "-9,425억원", "dir": "sell"}
+    ],
+    "sectorsUp": [
+      {"theme": "전기·전자", "stockName": "삼성전자", "stockChange": "+3.67%"},
+      {"theme": "반도체", "stockName": "SK하이닉스", "stockChange": "+2.62%"},
+      {"theme": "방산", "stockName": "한화에어로스페이스", "stockChange": "+1.50%"},
+      {"theme": "전력기기", "stockName": "LS ELECTRIC", "stockChange": "+0.80%"},
+      {"theme": "조선", "stockName": "HD현대중공업", "stockChange": "+0.40%"}
+    ],
+    "sectorsDown": [
+      {"theme": "2차전지", "stockName": "LG에너지솔루션", "stockChange": "-3.20%"},
+      {"theme": "바이오", "stockName": "HLB", "stockChange": "-2.90%"},
+      {"theme": "인터넷", "stockName": "카카오", "stockChange": "-2.50%"},
+      {"theme": "자동차", "stockName": "현대차", "stockChange": "-1.80%"},
+      {"theme": "보험", "stockName": "삼성생명", "stockChange": "-1.40%"}
+    ],
+    "watchlist": [
+      {
+        "name": "삼성전자",
+        "badge": "신고가 행진",
+        "badgeType": "up",
+        "desc": "HBM4 양산 임박 기대감에 기관이 집중 매수 중이에요. 6월 AI서버 수주 확대 모멘텀을 주목할 수 있어요"
+      },
+      {
+        "name": "SK하이닉스",
+        "badge": "$1조 달러 돌파",
+        "badgeType": "up",
+        "desc": "글로벌 시총 12위로 올라서며 HBM 공급 독점 지위를 재확인했어요. 하반기 실적 우상향 기대가 있어요"
+      },
+      {
+        "name": "유한양행",
+        "badge": "ASCO 촉매",
+        "badgeType": "default",
+        "desc": "ASCO 2026에서 레이저티닙 병용 임상 발표가 예상돼 단기 모멘텀이 될 수 있어요"
+      },
+      {
+        "name": "LG에너지솔루션",
+        "badge": "하반기 반등?",
+        "badgeType": "default",
+        "desc": "차세대 배터리 양산 가시화로 하반기 실적 개선 기대가 높아지고 있어요. 순환매 관점에서 주목해요"
+      }
+    ],
+    "health": [
+      {"key": "투자자 예탁금", "tip": "대기 자금", "value": "119조원", "subIcon": "▲", "subDir": "up"},
+      {"key": "신용융자 잔고", "tip": "빚투 과열 지표", "value": "33.9조원", "subIcon": "▲", "subDir": "up"}
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘(6/1) 한국 5월 수출입 통계와 미국 ISM 제조업 PMI가 동시에 발표되는 매크로 이벤트 집중일이에요. 한국 반도체 수출 확정치와 미국 제조업 경기를 동시에 확인할 수 있어요. 이번 주 6/5 미국 고용보고서(NFP)가 한미 증시 방향을 가를 핵심 이벤트예요.",
+    "subNoteEm": "오늘 한국 5월 수출입+미국 ISM 동시 발표·6/5 NFP가 최대 관건이에요",
+    "riskSentiment": "neutral",
+    "domestic": {
+      "timed": [
+        {"time": "08:00", "event": "한국 5월 수출입 동향 발표 (산업통상자원부)", "important": true}
+      ],
+      "untimed": [
+        {"event": "ASCO 2026 진행 중 (항암 임상 발표, 5/29~6/2)", "when": "진행 중"},
+        {"event": "한은 금통위 다음 결정 (기준금리 2.5% 동결 기조)", "when": "7월 16일"}
+      ]
+    },
+    "global": {
+      "timed": [
+        {"time": "21:00", "event": "미국 ISM 제조업 PMI (5월)", "important": true},
+        {"time": "21:00", "event": "미국 건설지출 (4월)", "important": false}
+      ],
+      "untimed": [
+        {"event": "ASCO 2026 Annual Meeting (시카고)", "when": "5/29~6/2"},
+        {"event": "애플 WWDC26 키노트 (쿠퍼티노, 6/8~12)", "when": "다음 주"}
+      ]
+    },
+    "theme": "반도체 HBM 슈퍼사이클 가속·미이란 휴전 지정학 완화",
+    "checks": [
+      "5월 수출입 발표에서 반도체 수출 200%대 유지 여부를 확인해요",
+      "미국 ISM 제조업 PMI 50 상회 시 글로벌 경기 회복 신호로 볼 수 있어요",
+      "이번 주 NFP(6/5) 결과가 6월 이후 원달러 환율 방향을 결정할 수 있어요",
+      "SK하이닉스·삼성전자 외 종목 체감 약세에 분산 전략을 고민할 수 있어요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-05-31",
+    "end": "2026-06-06",
+    "days": [
+      {
+        "date": "2026-05-31",
+        "weekday": "일",
+        "items": [
+          {"region": "global", "time": null, "event": "ASCO 2026 진행 중 (5/29~6/2, 시카고)", "important": false, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-01",
+        "weekday": "월",
+        "items": [
+          {"region": "domestic", "time": "08:00", "event": "한국 5월 수출입 동향 발표", "important": true, "category": "macro"},
+          {"region": "global", "time": "21:00", "event": "미국 ISM 제조업 PMI (5월)", "important": true, "category": "macro"},
+          {"region": "global", "time": null, "event": "ASCO 2026 진행 중 (5/29~6/2)", "important": false, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-02",
+        "weekday": "화",
+        "items": [
+          {"region": "global", "time": null, "event": "ASCO 2026 마지막 날 (시카고)", "important": true, "category": "conference"},
+          {"region": "global", "time": "23:00", "event": "미국 JOLTS 구인건수 (4월)", "important": false, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-03",
+        "weekday": "수",
+        "items": [
+          {"region": "global", "time": "21:15", "event": "미국 ADP 민간고용 (5월)", "important": true, "category": "macro"},
+          {"region": "global", "time": "23:00", "event": "미국 ISM 서비스 PMI (5월)", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-04",
+        "weekday": "목",
+        "items": [
+          {"region": "global", "time": "21:30", "event": "미국 신규 실업급여 청구건수", "important": false, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "weekday": "금",
+        "items": [
+          {"region": "global", "time": "21:30", "event": "미국 5월 비농업 취업자수 (NFP)", "important": true, "category": "macro"},
+          {"region": "global", "time": "21:30", "event": "미국 5월 실업률", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-06",
+        "weekday": "토",
+        "items": [
+          {"region": "domestic", "time": null, "event": "현충일 (한국 공휴일·증시 휴장)", "important": true, "category": "holiday"}
+        ]
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 6,
+    "days": [
+      {
+        "date": "2026-06-01",
+        "items": [
+          {"region": "domestic", "event": "한국 5월 수출입 동향 발표", "important": true, "category": "macro"},
+          {"region": "global", "event": "미국 ISM 제조업 PMI (5월)", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-02",
+        "items": [
+          {"region": "global", "event": "ASCO 2026 마지막 날 (시카고)", "important": false, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "items": [
+          {"region": "global", "event": "미국 5월 비농업 취업자수 (NFP)", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-06",
+        "items": [
+          {"region": "domestic", "event": "현충일 (한국 공휴일·증시 휴장)", "important": true, "category": "holiday"}
+        ]
+      },
+      {
+        "date": "2026-06-08",
+        "items": [
+          {"region": "global", "event": "애플 WWDC26 시작 (키노트 02:00 KST)", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-12",
+        "items": [
+          {"region": "global", "event": "애플 WWDC26 마지막 날", "important": false, "category": "conference"}
+        ]
+      }
+    ]
+  }
+}
