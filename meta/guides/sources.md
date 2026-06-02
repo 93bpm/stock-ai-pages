@@ -229,6 +229,12 @@ routine이 **데이터 수집 단계**에서 정독.
 - 기업명 + 발표 시점 ("장 마감 후" / "장 시작 전" / 구체 시각)
 - 한국 기업 잠정실적은 시점 미정인 경우 많음 → "예상 16:30" 같은 추정 허용
 
+### calendarWeek/Month 실적(earnings) push 룰 — 화이트리스트 기반 (★v1.6.0★)
+- **韓 실적**: `whitelist-kr-marketcap.json` hit만 (§15) → `region: "domestic"`
+- **美 빅테크 실적**: `./data/whitelist-us-bigtech.json` hit만 (M7 + 韓 직결 반도체 11종) → `region: "global"`, `category: "earnings"`
+  - Investing earnings에서 종목 매칭 → 화이트리스트 lookup → hit 시에만 실적일을 `calendarWeek/Month.items[]` push
+  - 화이트리스트 밖 美 기업 실적은 제외 (韓 증시 영향 큰 종목만)
+
 ---
 
 ## §14. 수급·업종·시장체력 (뉴스 추출)
@@ -281,20 +287,12 @@ routine이 **데이터 수집 단계**에서 정독.
 
 ### 화이트리스트 파일
 
-`./data/whitelist-conferences.json` — 10개 글로벌 행사.
+`./data/whitelist-conferences.json` — **17개 글로벌 행사 (SSOT)**. 행사 목록·시기(`expectedMonth`)·영향은 이 JSON이 단일 출처. **md에 표 중복 금지** (행사 추가·수정 시 JSON만 변경).
 
-| Key | 이름 | 카테고리 | 시기 | 영향 |
-|---|---|---|---|---|
-| CES | Consumer Electronics Show | tech | 1월 | 가전·자동차·반도체 |
-| JPMHealthcare | JPMorgan Healthcare Conf | bio | 1월 | 바이오 (삼바·셀트리온) |
-| ISSCC | IEEE Solid-State Circuits | semi | 2월 | 반도체 (삼성·SK하이닉스) |
-| MWC | Mobile World Congress | tech | 2~3월 | 5G·6G·통신 |
-| GTC | NVIDIA GTC | ai | 3월·10월 | AI·반도체 (HBM 영향) |
-| ASCO | ASCO Annual Meeting | bio | 5~6월 | 항암제·면역항암 임상 |
-| WWDC | Apple WWDC | tech | 6월 | Apple 공급망 (삼성·LG) |
-| Computex | Computex Taipei | semi | 5~6월 | AI 서버·PC 반도체 |
-| HotChips | Hot Chips Symposium | semi | 8월 | HBM·NPU 발표 |
-| NeurIPS | NeurIPS | ai | 12월 | AI 학계 (NVIDIA·Google) |
+포함 범위 (v1.6.0):
+- **반도체·AI 학회**: ISSCC · GTC · Computex · HotChips · NeurIPS
+- **빅테크 제품·개발자 이벤트**: CES · MWC · 삼성 언팩 · Google I/O · MS Build · WWDC · Apple 가을 · Meta Connect · MS Ignite · AWS re:Invent
+- **바이오**: JPM Healthcare · ASCO
 
 ### routine 사용 룰
 
@@ -303,7 +301,7 @@ routine이 **데이터 수집 단계**에서 정독.
    - 각 행사의 `expectedMonth` 가 현재 월 또는 다음 월에 해당하면 **WebSearch 1회** 로 정확한 날짜 확인
      예: `"NVIDIA GTC 2026 keynote date"`
    - 검색 결과로부터 행사 시작·종료일 추출 → 7일·30일 future window 안이면 `calendarWeek/Month.items[]` push
-   - `category: "conference"`, `region: "global"`, `important: true` (weight=high) / `false` (weight=mid)
+   - **`category` 는 반드시 `"conference"` 고정** — 학회·제품발표를 `industry`/`tech` 등으로 넣지 말 것 (schema enum 일관성). `region: "global"`, `important: true`(weight=high) / `false`(weight=mid)
 3. **이름·URL 표기**: 화이트리스트 `name` 필드 그대로 사용. 같은 행사가 여러 날 진행 시 keynote/메인 발표일 1개만 우선
 
 ### 갱신 주기

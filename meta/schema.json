@@ -266,7 +266,7 @@
       "additionalProperties": false,
       "properties": {
         "subNote": { "type": "string", "description": "섹션 노트 한 줄" },
-        "subNoteEm": { "type": "string", "description": "그중 강조할 부분 (subNote의 부분 문자열)" },
+        "subNoteEm": { "type": "string", "description": "섹션 핵심 헤드라인 한 줄. subNote의 부분문자열이면 inline 강조, 아니면 독립 헤드라인으로 분리 표시 (둘 다 허용 — v1.6.0)" },
         "comment": { "type": "string", "description": "💬 한줄평" },
         "indices": {
           "type": "array",
@@ -303,7 +303,7 @@
       "additionalProperties": false,
       "properties": {
         "subNote": { "type": "string" },
-        "subNoteEm": { "type": "string" },
+        "subNoteEm": { "type": "string", "description": "섹션 핵심 헤드라인 한 줄 (subNote와 별개 가능 — v1.6.0)" },
         "global": {
           "type": "array",
           "items": { "$ref": "#/$defs/NewsItem" },
@@ -380,7 +380,7 @@
       "additionalProperties": false,
       "properties": {
         "subNote": { "type": "string" },
-        "subNoteEm": { "type": "string" },
+        "subNoteEm": { "type": "string", "description": "섹션 핵심 헤드라인 한 줄 (subNote와 별개 가능 — v1.6.0)" },
         "comment": { "type": "string", "description": "💬 한줄평 (HTML 강조 가능)" },
         "expectedRange": { "type": "string", "description": "예: 코스피 +0.2% ~ +0.8% 부근" },
         "indices": {
@@ -471,7 +471,7 @@
       "additionalProperties": false,
       "properties": {
         "subNote": { "type": "string" },
-        "subNoteEm": { "type": "string" },
+        "subNoteEm": { "type": "string", "description": "섹션 핵심 헤드라인 한 줄 (subNote와 별개 가능 — v1.6.0)" },
         "riskSentiment": { "type": "string", "description": "예: 위험선호 우위 / 위험회피 / 혼조" },
         "domestic": { "$ref": "#/$defs/ScheduleSide" },
         "global": { "$ref": "#/$defs/ScheduleSide" },
@@ -495,7 +495,7 @@
         "time": { "type": ["string", "null"], "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$", "description": "KST 시:분 (예: 21:30). 시간 미정이면 null" },
         "event": { "type": "string", "description": "일정 제목" },
         "important": { "type": "boolean", "default": false },
-        "category": { "type": "string", "enum": ["earnings", "policy", "macro", "conference"], "description": "earnings=실적, policy=금리/통화정책, macro=경제지표, conference=학회/컨퍼런스" }
+        "category": { "type": "string", "enum": ["earnings", "policy", "macro", "conference", "holiday", "market", "industry"], "description": "earnings=실적, policy=금리/통화정책, macro=경제지표, conference=학회·컨퍼런스·제품발표(WWDC/GTC/Google I/O 등), holiday=증시 휴장, market=증시 이벤트(MSCI 리밸런싱·선물옵션 만기·거래 재개), industry=산업 일반 이벤트. ※ 명명된 학회·제품발표는 conference 우선 (v1.6.0)" }
       }
     },
 

@@ -34,7 +34,7 @@ manifest·usage 갱신 절차: [`guides/outputs.md §1·§2`](./guides/outputs.m
 | 데이터 수집 | [`guides/sources.md`](./guides/sources.md) |
 | 뉴스 큐레이션 | [`guides/news.md`](./guides/news.md) ★필수★ |
 | **JSON 생성 (구조 정확히)** | `schema.json` `examples[0]` ★필수★ — 빈 데이터로 정확한 구조 보존. routine은 이 예시를 그대로 따라가고 빈 문자열을 실값으로 채울 것. ★data 키 래핑 금지·world.global/domestic·calendar 객체★ |
-| **캘린더 확장 (v1.5.0)** | [`guides/sources.md §15·§16`](./guides/sources.md) + 화이트리스트 2개 raw URL fetch (`data/whitelist-kr-marketcap.json` + `data/whitelist-conferences.json`). 7일·30일 future window 일정 매칭 |
+| **캘린더 확장 (v1.5.0/v1.6.0)** | [`guides/sources.md §15·§16`](./guides/sources.md) + 화이트리스트 **3개** raw URL fetch (`whitelist-kr-marketcap.json` + `whitelist-conferences.json` + `whitelist-us-bigtech.json`). 7일·30일 future window 일정 매칭 |
 | Sanity Check + 마스킹 + 카운트 | [`guides/data-quality.md`](./guides/data-quality.md) |
 | manifest·usage 갱신 + HTML 검증 | [`guides/outputs.md`](./guides/outputs.md) |
 | 휴장일·톤 | [`guides/operations.md`](./guides/operations.md) |
@@ -84,12 +84,13 @@ manifest·usage 갱신 절차: [`guides/outputs.md §1·§2`](./guides/outputs.m
 → [`guides/sources.md §3~§14`](./guides/sources.md)
 
 ### 📅 캘린더 확장 (★v1.5.0 신설★)
-- [ ] `./data/whitelist-kr-marketcap.json` + `./data/whitelist-conferences.json` fetch (정적)
+- [ ] `./data/whitelist-kr-marketcap.json` + `./data/whitelist-conferences.json` + `./data/whitelist-us-bigtech.json` fetch (정적)
 - [ ] **매월 1일 발화 시**: KRX 시총 페이지 fetch → `whitelist-kr-marketcap.json` 재생성 (~500 종목)
 - [ ] 7일 future window (이번 주 일~토) 일정 수집 → `calendarWeek.days[]` 7-cell 모두 채움 (빈 날도 `items:[]`)
 - [ ] 30일 future window (이번 달) 일정 수집 → `calendarMonth.days[]` (hit only, 빈 날 생략)
 - [ ] 韓 실적: 시총 화이트리스트 hit 종목만 포함 + 한은 금통위 별도 WebSearch
-- [ ] 해외 학회: 학회 화이트리스트 매칭만 (GTC/WWDC/CES/NeurIPS/ASCO 등)
+- [ ] 美 빅테크 실적: `whitelist-us-bigtech.json` hit만 (M7+반도체 11종, region:global, category:earnings)
+- [ ] 해외 학회·빅테크 이벤트: 화이트리스트 매칭만 (GTC/WWDC/Google I/O/MS Build/삼성언팩 등 17종, ★category=conference 고정★)
 - [ ] 해외 일정 KST 환산 (sources.md §12)
 - [ ] 일관성 검증: 오늘 calendar 일정 ⊂ calendarWeek.days[todayIdx].items
 → [`guides/sources.md §15·§16`](./guides/sources.md)
@@ -112,7 +113,7 @@ manifest·usage 갱신 절차: [`guides/outputs.md §1·§2`](./guides/outputs.m
 ### ✅ Sanity Check (저장 전)
 - [ ] 지수값 범위 / |등락률| < 20%
 - [ ] ★**KST 날짜 검증 5룰**★ (UTC + 9h = KST. data.date·weekday·generatedAt·파일명 모두 KST 일치) ★v1.4.1★
-- [ ] subNoteEm ⊂ subNote (4섹션)
+- [ ] subNoteEm 작성 (4섹션 — 핵심 헤드라인. subNote 부분문자열 아니어도 됨, v1.6.0)
 - [ ] **뉴스 sourceUrl 5룰** (빈 값·차단·중복·도메인 일관성·valid URL)
 - [ ] 마스킹 grep 0건 / 출처 신선도
 → [`guides/data-quality.md §4`](./guides/data-quality.md)

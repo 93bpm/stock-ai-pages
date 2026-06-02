@@ -155,7 +155,8 @@ JSON 저장 직전 다음 패턴 grep — **0건이어야 함**:
   - 같은 발화 commit에 함께 push (1발화 = 1커밋 원칙 유지)
   - guides/sources.md §15 룰
 - **평일**: 정적 fetch만 (raw GitHub URL)
-- **학회 화이트리스트** (`whitelist-conferences.json`): 연 1회 갱신 (routine 부담 없음)
+- **학회 화이트리스트** (`whitelist-conferences.json`): 연 1회 갱신 (routine 부담 없음, 17종)
+- **美 빅테크 화이트리스트** (`whitelist-us-bigtech.json`) ★v1.6.0★: M7+반도체 11종. 구성 변동 적음 → 연 1~2회 점검 (시총·종목 변동 시)
 
 ### 일간 뷰 데이터 소스 정책
 

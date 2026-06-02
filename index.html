@@ -100,6 +100,8 @@
   .sec-sub{font-size:12px;color:var(--text-dim);margin-left:auto;font-weight:600;flex:none;}
   .sec-note{font-size:13px;color:var(--text-soft);margin:-6px 0 16px;font-weight:600;line-height:1.5;}
   .sec-note .em{color:var(--blue);font-weight:700;}
+  .sec-note .em-lead{display:block;margin-bottom:2px;}
+  .sec-note .aux{display:block;font-size:12px;color:var(--text-dim);font-weight:500;line-height:1.45;}
 
   .idx{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:14px;}
   .idx .it{background:var(--surface-2);border-radius:13px;padding:13px 14px;}
@@ -628,14 +630,20 @@
       ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   }
 
-  // subNote 안의 subNoteEm을 <span class="em"> 으로 wrap
+  // subNote + subNoteEm 렌더링 (v1.6.0 B안):
+  //  · subNoteEm이 subNote의 부분문자열이면 → 그 부분만 inline 강조 (원 의도)
+  //  · 부분문자열이 아니면 → subNoteEm을 핵심 헤드라인(굵게)으로, subNote를 보조 줄(.aux)로 분리 표시
+  //    routine이 subNoteEm을 "섹션 핵심 한 줄"로 쓰는 실제 패턴 수용 → 둘이 달라도 유실 0
   function emWrap(text, em){
-    if(!text) return '';
-    if(!em || !text.includes(em)) return esc(text);
-    const i = text.indexOf(em);
-    return esc(text.slice(0, i))
-         + `<span class="em">${esc(em)}</span>`
-         + esc(text.slice(i + em.length));
+    if(!text) return em ? `<span class="em em-lead">${esc(em)}</span>` : '';
+    if(!em) return esc(text);
+    if(text.includes(em)){
+      const i = text.indexOf(em);
+      return esc(text.slice(0, i))
+           + `<span class="em">${esc(em)}</span>`
+           + esc(text.slice(i + em.length));
+    }
+    return `<span class="em em-lead">${esc(em)}</span><span class="aux">${esc(text)}</span>`;
   }
 
   function sentimentLabel(s){
@@ -654,9 +662,12 @@
     return fetchJson(`./meta/manifest.json?t=${Date.now()}`);
   }
 
+  const _dataCache = new Map();   // iso → briefing JSON (발화분은 immutable이라 영구 캐시 안전)
   async function loadData(iso){
-    // 데이터 자체는 한 번 만들어지면 immutable이라 일반 fetch
-    return fetchJson(`${BASE}${iso}.json`);
+    if(_dataCache.has(iso)) return _dataCache.get(iso);
+    const data = await fetchJson(`${BASE}${iso}.json`);
+    _dataCache.set(iso, data);
+    return data;
   }
 
   // ─── 상태 표시 ──────────────────────────────────
@@ -965,7 +976,47 @@
     const imp = it.important ? `<span class="imp">중요</span>` : '';
     return `<div class="di"><span class="reg ${regCls}">${regLabel}</span><div class="body"><div class="ev">${esc(it.event)}</div><div class="meta"><span>${time}</span>${cat}${imp}</div></div></div>`;
   }
-  const CAT_LABEL = {earnings:'실적', policy:'정책', macro:'경제지표', conference:'컨퍼런스'};
+  const CAT_LABEL = {earnings:'실적', policy:'정책', macro:'경제지표', conference:'컨퍼런스', holiday:'휴장', market:'증시', industry:'산업'};
+
+  // ─── v1.6.0: 월간 종합 (렌더 시 같은 달 모든 briefing 머지) ───
+  // 문제: routine이 calendarMonth를 매일 from-scratch 재생성(누적 X) → 그날 검색이 놓친 일정 영구 누락.
+  // 해결: 월간 뷰 진입 시 manifest의 그 달 모든 날짜를 fetch해 calendarMonth.days + calendarWeek.days(그 달분)를
+  //       (date, event) 기준 dedup 머지. routine 무수정. 이미 발화된 과거 데이터도 즉시 종합됨.
+  const _monthAggCache = new Map();   // "YYYY-MM" → {year,month,days}
+  async function aggregateMonth(year, month){
+    const key = `${year}-${String(month).padStart(2,'0')}`;
+    if(_monthAggCache.has(key)) return _monthAggCache.get(key);
+    const dates = (STATE.manifest?.dates || []).filter(d => d.startsWith(key));
+    const dayMap = new Map();   // date → Map(eventKey → item)
+    const add = (date, it) => {
+      if(!date || !date.startsWith(key) || !it || !it.event) return;
+      if(!dayMap.has(date)) dayMap.set(date, new Map());
+      const m = dayMap.get(date), k = it.event.trim();
+      if(!m.has(k)) m.set(k, it);   // 첫 등장 우선 (중복 제거)
+    };
+    const results = await Promise.all(dates.map(d => loadData(d).catch(() => null)));
+    for(const data of results){
+      if(!data) continue;
+      for(const d of (data.calendarMonth?.days || []))
+        for(const it of (d.items || [])) add(d.date, it);
+      for(const d of (data.calendarWeek?.days || []))   // 주간이 더 촘촘 → 6/3·6/4 같은 누락분 포착
+        for(const it of (d.items || [])) add(d.date, it);
+    }
+    const days = [...dayMap.entries()].sort((a, b) => a[0].localeCompare(b[0]))
+      .map(([date, m]) => ({ date, items: [...m.values()] }));
+    const agg = { year, month, days };
+    _monthAggCache.set(key, agg);
+    return agg;
+  }
+
+  // 월간 종합 렌더 (lazy): 현재 선택 날짜가 속한 달을 종합해 교체. 날짜 일치 확인으로 navigate 경쟁 방지.
+  function renderMonthAggregated(iso){
+    if(!iso) return;
+    const d = parseISO(iso);
+    aggregateMonth(d.getFullYear(), d.getMonth() + 1)
+      .then(agg => { if(STATE.selectedDate === iso) renderCalendarMonth(agg, iso); })
+      .catch(() => { /* 종합 실패 시 navigate의 1차 렌더(그날 데이터) 유지 */ });
+  }
 
   // 월간 뷰: 6×7 grid. cell 안 pill 최대 2 + +N. 클릭 시 .selected + 하단 detail 갱신
   function renderCalendarMonth(month, todayISO){
@@ -1174,7 +1225,8 @@
 
       if(hasWeek){
         renderCalendarWeek(data.calendarWeek, STATE.selectedDate);
-        renderCalendarMonth(data.calendarMonth, STATE.selectedDate);
+        renderCalendarMonth(data.calendarMonth, STATE.selectedDate);   // 1차: 그날 데이터 즉시 (fetch 0)
+        if(STATE.calendarView === 'month') renderMonthAggregated(STATE.selectedDate);  // 월간 보던 중 날짜이동 → 종합 갱신
         bindWeekDrag();   // 3번: 마우스 드래그 스크롤 (idempotent)
       } else {
         // 옛 UI: [오늘] pane 만 활성 + 세그먼트 상태 초기화
@@ -1242,6 +1294,9 @@
     document.querySelectorAll('.cal-view').forEach(b => b.classList.toggle('on', b === btn));
     document.querySelectorAll('.cal-pane').forEach(p => p.classList.toggle('on', p.id === 'cal-pane-' + cv));
     STATE.calendarView = cv;
+
+    // v1.6.0: 월간 뷰 진입 시 같은 달 전체 종합 (lazy — 첫 진입만 fetch, 이후 캐시)
+    if(cv === 'month') renderMonthAggregated(STATE.selectedDate);
 
     // 주간 뷰 진입 시 오늘 cell 로 스크롤
     if(cv === 'week'){

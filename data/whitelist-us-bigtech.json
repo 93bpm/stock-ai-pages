@@ -1,0 +1,21 @@
+{
+  "version": "2026-06-01",
+  "description": "美 빅테크 실적 화이트리스트 — calendarWeek·calendarMonth 美 실적(earnings, region:global) 매칭용. 韓 증시 영향 큰 종목만 (v1.6.0 신설)",
+  "criteria": "Magnificent 7 + 韓 증시 직결 반도체(HBM·파운드리·메모리·AI GPU)",
+  "source": "고정 리스트 (시총·구성 변동 적음 → 연 1~2회 점검)",
+  "updatedAt": "2026-06-01T00:00:00+09:00",
+  "note": "美 실적은 분기마다 발표일이 바뀜 → routine이 Investing.com earnings calendar에서 이 종목들을 매칭해 실적일을 calendarWeek/Month에 push (category:earnings, region:global). krImpact는 韓 증시 연결고리 메모.",
+  "tickers": [
+    { "code": "NVDA",  "name": "엔비디아",        "market": "NASDAQ", "marketCap": "약 $3.3T", "krImpact": "HBM 수요 → SK하이닉스·삼성전자 직결" },
+    { "code": "AAPL",  "name": "애플",            "market": "NASDAQ", "marketCap": "약 $3.4T", "krImpact": "공급망 → LG이노텍·삼성디스플레이·삼성전기" },
+    { "code": "MSFT",  "name": "마이크로소프트",  "market": "NASDAQ", "marketCap": "약 $3.1T", "krImpact": "AI 클라우드 capex → 메모리·HBM 수요" },
+    { "code": "GOOGL", "name": "알파벳(구글)",    "market": "NASDAQ", "marketCap": "약 $2.2T", "krImpact": "AI·클라우드 capex → 반도체 수요" },
+    { "code": "AMZN",  "name": "아마존",          "market": "NASDAQ", "marketCap": "약 $2.0T", "krImpact": "AWS capex → 메모리·서버 수요" },
+    { "code": "META",  "name": "메타",            "market": "NASDAQ", "marketCap": "약 $1.3T", "krImpact": "AI capex → HBM·GPU 수요" },
+    { "code": "TSLA",  "name": "테슬라",          "market": "NASDAQ", "marketCap": "약 $1.0T", "krImpact": "2차전지 → LG에너지솔루션·삼성SDI" },
+    { "code": "AVGO",  "name": "브로드컴",        "market": "NASDAQ", "marketCap": "약 $1.0T", "krImpact": "AI 맞춤형 칩(ASIC) → 패키징·메모리" },
+    { "code": "TSM",   "name": "TSMC (ADR)",      "market": "NYSE",   "marketCap": "약 $0.9T", "krImpact": "파운드리 경쟁 → 삼성 파운드리 가늠자" },
+    { "code": "MU",    "name": "마이크론",        "market": "NASDAQ", "marketCap": "약 $0.15T","krImpact": "HBM·D램 경쟁 → SK하이닉스·삼성 (가격·수요 선행지표)" },
+    { "code": "AMD",   "name": "AMD",             "market": "NASDAQ", "marketCap": "약 $0.25T","krImpact": "AI GPU(MI 시리즈) → HBM 수요" }
+  ]
+}

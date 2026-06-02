@@ -182,11 +182,13 @@ function validatePersona(data) {
     if (n.note && [...n.note].length > LEN_LIMITS.note) soft(`길이: note ${[...n.note].length}자 (≤${LEN_LIMITS.note}) "${n.note.slice(0, 15)}..."`);
   }
 
-  // subNoteEm ⊂ subNote (4섹션)
+  // subNoteEm: v1.6.0 — "subNote의 부분문자열" 제약 폐지.
+  // UI(index.html emWrap)가 부분문자열이면 inline 강조, 아니면 독립 헤드라인으로 분리 표시(B안)
+  // → 어느 경우든 subNoteEm 유실 0. 따라서 부분문자열 검증 룰 제거. 빈 값만 SOFT로 안내.
   for (const sec of ['us', 'kr', 'world', 'calendar']) {
     const o = data[sec];
-    if (o?.subNoteEm && o?.subNote && !o.subNote.includes(o.subNoteEm)) {
-      hard(`subNoteEm: ${sec}.subNoteEm "${o.subNoteEm}" 가 subNote의 부분문자열 아님`);
+    if (o && typeof o === 'object' && 'subNoteEm' in o && !o.subNoteEm) {
+      soft(`subNoteEm: ${sec}.subNoteEm 빈 값 (헤드라인으로 표시되니 채우는 게 좋음)`);
     }
   }
 }

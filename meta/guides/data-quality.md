@@ -25,8 +25,9 @@ routine이 **JSON 생성 후 저장 전 검증 단계**에서 정독.
 - 7일·30일 future window 일정 (`calendarWeek`, `calendarMonth`)
 - 출처: Investing.com earnings 캘린더 + Trading Economics + WebSearch (학회 일정 정확 날짜 확인)
 - **공지된 일정만** 포함 (추측·기억 금지). 발표일 미공지면 그 항목 자체 제외
-- 학회 일정은 **화이트리스트 매칭** 필수 (`data/whitelist-conferences.json`) — 매칭 없으면 추가 X
+- 학회·빅테크 이벤트는 **화이트리스트 매칭** 필수 (`data/whitelist-conferences.json` 17종) — 매칭 없으면 추가 X
 - 韓 실적은 **시총 화이트리스트 hit만** (`data/whitelist-kr-marketcap.json`) — 시총 2000억+
+- 美 빅테크 실적은 **화이트리스트 hit만** (`data/whitelist-us-bigtech.json`) — M7+반도체 11종 ★v1.6.0★
 - 정확도 100% 보장 아님 (일정 변경·연기 가능). 매일 갱신으로 보정
 
 ---
@@ -125,7 +126,9 @@ routine이 **JSON 생성 후 저장 전 검증 단계**에서 정독.
   Stooq 응답 날짜가 date에서 5일 이상 떨어지면 의심 (주말·휴장일 감안)
 
 [필드 관계 검증]
-  subNoteEm은 subNote의 부분 문자열이어야 함 (us / world / kr / calendar 4 섹션)
+  subNoteEm: 섹션 핵심 헤드라인 (v1.6.0 — subNote의 부분문자열일 필요 없음).
+    UI(emWrap)가 부분문자열이면 inline 강조, 아니면 별도 헤드라인(.em-lead)+보조(.aux)로 분리 표시 → 유실 0.
+    검증은 "존재 여부"만 (빈 값 SOFT 경고). 부분문자열 강제 룰 폐지.
 
 [캘린더 확장 일관성 — ★v1.5.0 신설★]
   todayIdx 정의: calendarWeek.days 배열에서 data.date 와 일치하는 day 의 index (0=일요일 ~ 6=토요일).
@@ -138,8 +141,9 @@ routine이 **JSON 생성 후 저장 전 검증 단계**에서 정독.
      (옛 데이터 호환: calendarWeek 없으면 검증 skip)
   ⑥ calendarMonth.year/month === KST 의 year/month (data.date 의 연·월)
   ⑦ calendarMonth.days[*].date 가 모두 그 달 범위 안 (year-month-01 ~ year-month-말일)
-  ⑧ 韓 실적(calendarWeek/Month items 중 category="earnings" + region="domestic")의 종목명/코드가
-     data/whitelist-kr-marketcap.json 화이트리스트 안에 있어야 함
+  ⑧ 실적(earnings) 종목이 화이트리스트 안에 있어야 함 (region별):
+     · region="domestic" → data/whitelist-kr-marketcap.json (시총 2000억+ 韓)
+     · region="global"   → data/whitelist-us-bigtech.json (M7 + 韓 직결 반도체 11종) ★v1.6.0
   ⑨ 학회/컨퍼런스(category="conference") 가 data/whitelist-conferences.json 의 행사 키와 매칭
 
 [마스킹값 grep]

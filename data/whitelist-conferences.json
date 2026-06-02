@@ -1,11 +1,11 @@
 {
-  "version": "2026-05-28",
-  "description": "주식 영향력 큰 글로벌 학회·컨퍼런스 화이트리스트 — v1.5.0 calendarWeek·calendarMonth 매칭용",
-  "updatedAt": "2026-05-28T00:00:00+09:00",
+  "version": "2026-06-01",
+  "description": "주식 영향력 큰 글로벌 학회·컨퍼런스 화이트리스트 — calendarWeek·calendarMonth conference 매칭용 (v1.6.0: 빅테크 이벤트 7종 추가)",
+  "updatedAt": "2026-06-01T00:00:00+09:00",
   "categories": {
     "ai": "AI·머신러닝",
     "semi": "반도체",
-    "tech": "빅테크 (모바일·OS·플랫폼)",
+    "tech": "빅테크 (모바일·OS·플랫폼·클라우드)",
     "bio": "바이오·헬스케어"
   },
   "conferences": [
@@ -32,6 +32,18 @@
       "host": "JPMorgan",
       "url": "https://www.jpmorgan.com/insights/research/healthcare-conference",
       "note": "1월 샌프란시스코. 글로벌 바이오·제약 최대 컨퍼런스. 한국 바이오(삼성바이오로직스·셀트리온·셀바스AI) 발표 다수."
+    },
+    {
+      "key": "SamsungUnpacked",
+      "name": "삼성 갤럭시 언팩",
+      "fullName": "Samsung Galaxy Unpacked",
+      "category": "tech",
+      "weight": "high",
+      "region": "global",
+      "expectedMonth": [1, 7],
+      "host": "Samsung",
+      "url": "https://www.samsung.com/global/galaxy/events/",
+      "note": "1월·7월. 갤럭시 S·Z 시리즈 공개. 삼성전자 직접 + 부품(삼성전기·LG이노텍) 영향."
     },
     {
       "key": "ISSCC",
@@ -70,6 +82,30 @@
       "note": "3월(주력)·10월(워싱턴 D.C.). Jensen Keynote 발표 후 AI·반도체 섹터 변동성 큼. SK하이닉스 HBM·삼성전자 영향."
     },
     {
+      "key": "GoogleIO",
+      "name": "Google I/O",
+      "fullName": "Google I/O Developer Conference",
+      "category": "ai",
+      "weight": "high",
+      "region": "global",
+      "expectedMonth": [5],
+      "host": "Google",
+      "url": "https://io.google/",
+      "note": "5월 마운틴뷰. Gemini AI·안드로이드 신기능 발표. AI 생태계 — 삼성(안드로이드 파트너)·네이버 영향."
+    },
+    {
+      "key": "MSBuild",
+      "name": "Microsoft Build",
+      "fullName": "Microsoft Build",
+      "category": "ai",
+      "weight": "high",
+      "region": "global",
+      "expectedMonth": [5],
+      "host": "Microsoft",
+      "url": "https://build.microsoft.com/",
+      "note": "5월. Copilot·Azure AI·개발자 도구. AI 클라우드 capex 시그널 → 반도체·HBM 수요 영향."
+    },
+    {
       "key": "ASCO",
       "name": "ASCO",
       "fullName": "ASCO Annual Meeting",
@@ -80,18 +116,6 @@
       "host": "American Society of Clinical Oncology",
       "url": "https://www.asco.org/meetings/asco-annual-meeting",
       "note": "5~6월 시카고. 항암제·면역항암 임상 결과 공개. 한국 바이오(유한양행·HK이노엔·셀트리온) 영향."
-    },
-    {
-      "key": "WWDC",
-      "name": "Apple WWDC",
-      "fullName": "Apple Worldwide Developers Conference",
-      "category": "tech",
-      "weight": "high",
-      "region": "global",
-      "expectedMonth": [6],
-      "host": "Apple",
-      "url": "https://developer.apple.com/wwdc/",
-      "note": "6월 쿠퍼티노. iOS·macOS·Vision Pro 신기능. Apple 공급망(삼성·LG디스플레이·LG이노텍) 영향."
     },
     {
       "key": "Computex",
@@ -106,6 +130,18 @@
       "note": "5~6월 타이베이. AI 서버·PC·반도체 신제품. NVIDIA·AMD·Intel·삼성·SK하이닉스 참가."
     },
     {
+      "key": "WWDC",
+      "name": "Apple WWDC",
+      "fullName": "Apple Worldwide Developers Conference",
+      "category": "tech",
+      "weight": "high",
+      "region": "global",
+      "expectedMonth": [6],
+      "host": "Apple",
+      "url": "https://developer.apple.com/wwdc/",
+      "note": "6월 쿠퍼티노. iOS·macOS·Vision Pro 신기능. Apple 공급망(삼성·LG디스플레이·LG이노텍) 영향."
+    },
+    {
       "key": "HotChips",
       "name": "Hot Chips",
       "fullName": "Hot Chips Symposium",
@@ -116,6 +152,54 @@
       "host": "IEEE",
       "url": "https://hotchips.org/",
       "note": "8월 스탠퍼드. 반도체 아키텍처 최신 발표. 삼성전자·SK하이닉스 HBM·NPU 공개."
+    },
+    {
+      "key": "AppleFall",
+      "name": "Apple 가을 이벤트",
+      "fullName": "Apple September Event (iPhone)",
+      "category": "tech",
+      "weight": "high",
+      "region": "global",
+      "expectedMonth": [9],
+      "host": "Apple",
+      "url": "https://www.apple.com/apple-events/",
+      "note": "9월. 아이폰 신제품 공개. Apple 공급망 — LG이노텍·삼성디스플레이·삼성전기 직접 영향."
+    },
+    {
+      "key": "MetaConnect",
+      "name": "Meta Connect",
+      "fullName": "Meta Connect",
+      "category": "ai",
+      "weight": "mid",
+      "region": "global",
+      "expectedMonth": [9],
+      "host": "Meta",
+      "url": "https://www.meta.com/connect/",
+      "note": "9월. AR/VR(Quest)·Llama AI. AI capex·디스플레이 → 삼성·LG디스플레이 영향."
+    },
+    {
+      "key": "MSIgnite",
+      "name": "Microsoft Ignite",
+      "fullName": "Microsoft Ignite",
+      "category": "tech",
+      "weight": "mid",
+      "region": "global",
+      "expectedMonth": [11],
+      "host": "Microsoft",
+      "url": "https://ignite.microsoft.com/",
+      "note": "11월. 엔터프라이즈 클라우드·Azure·Copilot. AI 클라우드 capex → 메모리·서버 수요."
+    },
+    {
+      "key": "AWSreInvent",
+      "name": "AWS re:Invent",
+      "fullName": "AWS re:Invent",
+      "category": "tech",
+      "weight": "high",
+      "region": "global",
+      "expectedMonth": [12],
+      "host": "Amazon",
+      "url": "https://reinvent.awsevents.com/",
+      "note": "12월 라스베이거스. AWS 클라우드·AI 인프라(Trainium 등). capex → 메모리·서버·HBM 수요."
     },
     {
       "key": "NeurIPS",
