@@ -1,175 +1,175 @@
 {
   "date": "2026-06-02",
   "weekday": "화",
-  "generatedAt": "2026-06-02T07:09:00+09:00",
+  "generatedAt": "2026-06-02T22:32:00+09:00",
   "us": {
-    "subNote": "엔비디아가 ARM 기반 PC칩 RTX 스파크를 발표하며 S&P 500이 7,599.96 신고가를 경신했어요. 하지만 이란이 대미 협상을 전격 중단하며 WTI가 6% 급등, 인플레 우려가 동반 상승했어요. 퀄컴·인텔은 경쟁 우려에 급락하며 필라델피아 반도체 지수는 소폭 하락했어요. 케빈 워시 신임 의장의 첫 FOMC(6/16~17) 앞두고 오늘 JOLTS·이번 주 NFP가 핵심 변수예요.",
-    "subNoteEm": "케빈 워시 첫 FOMC(6/16~17) 앞두고 JOLTS·NFP 고용 지표 집중",
-    "comment": "엔비디아 RTX 스파크(N1X) PC칩 발표로 NVDA +6%, ARM +14.5% 급등했어요. TSMC 3nm 공정으로 삼성전자·SK하이닉스의 PC DRAM·HBM 수요 확대 기대감이 있어요. 반면 이란의 호르무즈 협상 중단 소식에 WTI가 배럴당 $92.60까지 치솟으며 에너지 인플레 우려가 커졌어요. <b>6월 10일 CPI</b>와 <b>6월 16~17일 FOMC</b>가 금리 방향의 핵심 분수령이에요. 코스피에는 AI·반도체 모멘텀이 긍정적으로 작용할 수 있어요.",
+    "subNote": "美 증시는 엔비디아가 컴퓨텍스에서 RTX 스파크 PC 슈퍼칩을 공개하며 기술주가 +2.8% 뛰었고, S&P 500이 7,599.96으로 사상 최고를 또 경신했어요. 다만 이란이 대미 협상을 중단했다는 보도에 WTI가 6% 급등해 美 10년물 금리는 4.48%, 달러인덱스는 99선으로 올라섰어요. 6월 16~17일 FOMC를 앞두고 오늘 밤 JOLTS, 금요일 5월 고용보고서가 금리 경로의 분수령이에요.",
+    "subNoteEm": "엔비디아 PC칩發 기술주 +2.8%, 유가 급등이 누른 신고가",
+    "comment": "엔비디아가 컴퓨텍스에서 <b>RTX 스파크 슈퍼칩</b>을 공개하며 NVDA가 약 6% 뛰었고, 마이크론은 2026년 HBM 물량이 완판됐다는 소식에 강세를 보였어요. 이 흐름은 삼성전자·SK하이닉스의 HBM·D램 수요 기대와 직접 연결돼요. 반대편에선 이란의 대미 협상 중단 보도로 WTI가 배럴당 $92대로 급등하면서 인플레 우려가 살아났고, 美 10년물 금리와 달러가 동반 상승했어요. <b>6/5 고용보고서</b>와 <b>6/16~17 FOMC</b>가 금리 방향을 가를 변수라, 환율(원/달러 1,516원)에 민감한 국내 증시도 함께 지켜볼 만해요.",
     "indices": [
-      {"name": "S&P 500", "tip": "기술·에너지 동반 상승 신고가", "value": "7,599.96", "change": "+0.26%", "dir": "up"},
-      {"name": "나스닥 종합", "tip": "NVDA +6%·ARM +14.5% 견인", "value": "27,086.81", "change": "+0.42%", "dir": "up"},
-      {"name": "다우존스", "tip": "유가 급등에 상승폭 제한", "value": "51,078.88", "change": "+0.09%", "dir": "up"},
-      {"name": "필라델피아 반도체", "tip": "QCOM·INTC 급락에 소폭 하락", "value": "12,829", "change": "-0.61%", "dir": "down"}
+      {"name": "S&P 500", "tip": "기술·에너지 강세에 신고가", "value": "7,599.96", "change": "+0.26%", "dir": "up"},
+      {"name": "나스닥 종합", "tip": "NVDA·마이크론 메모리 견인", "value": "27,086.81", "change": "+0.42%", "dir": "up"},
+      {"name": "다우존스", "tip": "유가·금리 상승에 상승폭 제한", "value": "51,078.88", "change": "+0.09%", "dir": "up"},
+      {"name": "필라델피아 반도체", "tip": "엔비디아·마이크론 강세", "value": "12,965.65", "change": "+1.06%", "dir": "up"}
     ],
     "indicators": [
-      {"key": "VIX", "value": "15.94", "dir": "up"},
-      {"key": "美 10년물", "value": "4.44%", "dir": "down"},
-      {"key": "달러인덱스", "value": "98.91", "dir": "down"},
-      {"key": "WTI 유가", "value": "$92.60", "dir": "up"},
+      {"key": "VIX", "value": "16.14", "dir": "up"},
+      {"key": "美 10년물", "value": "4.48%", "dir": "up"},
+      {"key": "달러인덱스", "value": "99.15", "dir": "up"},
+      {"key": "WTI 유가", "value": "$92.42", "dir": "up"},
       {"key": "금", "value": "$4,455", "dir": "down"},
-      {"key": "비트코인", "value": "$71,500", "dir": "down"}
+      {"key": "비트코인", "value": "$69,256", "dir": "down"}
     ],
     "sectorsUp": [
-      {"name": "에너지", "change": "+3.5%"},
-      {"name": "기술주", "change": "+2.5%"},
-      {"name": "커뮤니케이션", "change": "+1.2%"},
-      {"name": "임의소비재", "change": "+0.7%"},
-      {"name": "소재", "change": "+0.2%"}
+      {"name": "기술", "change": "+2.77%"},
+      {"name": "에너지", "change": "+1.78%"},
+      {"name": "금융", "change": "-0.26%"},
+      {"name": "소재", "change": "-0.41%"},
+      {"name": "산업재", "change": "-0.68%"}
     ],
     "sectorsDown": [
-      {"name": "헬스케어", "change": "-1.1%"},
-      {"name": "유틸리티", "change": "-0.9%"},
-      {"name": "산업재", "change": "-0.4%"},
-      {"name": "금융", "change": "-0.3%"},
-      {"name": "필수소비재", "change": "-0.2%"}
+      {"name": "유틸리티", "change": "-2.51%"},
+      {"name": "경기소비재", "change": "-2.11%"},
+      {"name": "커뮤니케이션", "change": "-1.28%"},
+      {"name": "부동산", "change": "-1.16%"},
+      {"name": "헬스케어", "change": "-1.15%"}
     ]
   },
   "world": {
-    "subNote": "엔비디아 PC칩 혁신이 AI 하드웨어 생태계를 흔들고, 이란 긴장 재점화로 유가가 6% 급등하는 이중 구도예요. 코스피는 삼성전자 시총 2천조로 8,788 신고가를 달성했지만 코스닥 5일 하락과 신용 레버리지 우려가 균형을 잡고 있어요.",
-    "subNoteEm": "엔비디아 RTX 스파크 PC칩 충격·이란 유가 급등 이중 변수",
+    "subNote": "엔비디아 PC칩 혁신이 글로벌 AI 하드웨어 사이클을 자극하는 가운데, 이란發 유가 급등이 인플레·금리 부담으로 맞서는 이중 구도예요. 韓 증시는 삼성전자 시총 2천조와 코스피 8,800선 안착으로 강세지만, 코스닥 급락과 외국인 18일째 순매도가 균형을 잡고 있어요.",
+    "subNoteEm": "AI 하드웨어 훈풍 vs 이란發 유가·금리 부담의 줄다리기",
     "global": [
       {
         "rank": "01",
         "category": "AI·반도체",
         "categoryStyle": "tech",
         "sentiment": "pos",
-        "title": "엔비디아, ARM 기반 PC칩 RTX 스파크 출시",
-        "summary": "NVDA +6%, ARM +14.5% 급등, TSMC 3nm 공정·Dell·HP·MS 탑재 예정이에요",
+        "title": "엔비디아, 컴퓨텍스서 'RTX 스파크' 공개",
+        "summary": "ARM+블랙웰 PC 슈퍼칩 발표, NVDA 약 6% 급등했어요",
         "source": "CNBC",
         "sourceUrl": "https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html",
-        "note": "삼성·SK하이닉스 PC DRAM 수혜 가능해요"
+        "note": "삼성·SK 메모리 수요 기대 커져요"
       },
       {
         "rank": "02",
         "category": "미국증시",
         "categoryStyle": "default",
         "sentiment": "pos",
-        "title": "S&P 500 신고가, 기술·에너지 동반 상승",
-        "summary": "7,599.96 마감, 나스닥 0.42% 올라 6월 첫날 기록 경신했어요",
-        "source": "TheStreet",
-        "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-01-2026",
-        "note": "아시아 장 우호적 출발 가능성 있어요"
+        "title": "S&P 500, 6월 첫날 또 사상 최고 마감",
+        "summary": "기술·에너지 강세로 7,599.96, 나스닥도 0.42% 올랐어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/31/stock-market-today-live-updates.html",
+        "note": "아시아 위험선호에 우호적이에요"
       },
       {
         "rank": "03",
         "category": "지정학",
         "categoryStyle": "geo",
         "sentiment": "neg",
-        "title": "이란 협상 전격 중단, WTI 6% 급등",
-        "summary": "이란이 대미 협상 중단·호르무즈 봉쇄 경고, WTI $92.60 급등했어요",
+        "title": "이란 대미 협상 중단 보도…WTI 6% 급등",
+        "summary": "호르무즈 봉쇄 우려로 WTI가 배럴당 92달러대로 치솟았어요",
         "source": "Deseret News",
         "sourceUrl": "https://www.deseret.com/business/2026/06/01/donald-trump-iran-war-oil-industry-strait-of-hormuz-gas-prices-increase/",
-        "note": "유가 인플레 재점화로 韓 에너지 비용 부담↑"
+        "note": "유가發 인플레로 韓 부담 커져요"
       },
       {
         "rank": "04",
-        "category": "통화정책",
+        "category": "아시아증시",
         "categoryStyle": "default",
         "sentiment": "neu",
-        "title": "FOMC 동결 98% 확률, 6/16~17 첫 워시 회의",
-        "summary": "4월 CPI 3.8%로 동결 유력, 6월 10일 CPI가 핵심 변수예요",
+        "title": "홍콩 항셍 +2.4%·中 강세, 닛케이는 약보합",
+        "summary": "中 본토 CSI300 상승 vs 일본·한국은 차익실현에 눌렸어요",
         "source": "CNBC",
-        "sourceUrl": "https://www.cnbc.com/2026/05/16/kevin-warsh-comes-into-the-fed-facing-a-big-family-fight-over-cutting-interest-rates.html",
-        "note": "금리 방향 불확실성 유지 중이에요"
+        "sourceUrl": "https://www.cnbc.com/2026/06/02/asia-pacific-markets-today-kospi-nikkei-225-hang-seng-index.html",
+        "note": "홍콩 강세, 韓 수급엔 부담 공존"
       },
       {
         "rank": "05",
-        "category": "빅테크",
+        "category": "반도체",
         "categoryStyle": "tech",
         "sentiment": "pos",
-        "title": "애플 WWDC 2026, 6/8 온디바이스 AI 공개",
-        "summary": "iOS 27 Siri 전면 개편, LG디스플레이·삼성 공급망 수혜 기대돼요",
-        "source": "Newsweek",
-        "sourceUrl": "https://www.newsweek.com/wwdc-2026-everything-apple-is-expected-to-announce-on-june-8-12016937",
-        "note": "삼성·LG 공급망 간접 수혜 가능해요"
+        "title": "마이크론, 2026년 HBM 물량 '완판'",
+        "summary": "AI 수요로 HBM 선계약 완료, 메모리 가격 강세가 이어져요",
+        "source": "Alpha Spread",
+        "sourceUrl": "https://www.alphaspread.com/market-news/earnings/micron-rallies-as-ai-demand-sells-out-2026-hbm-production-strong-q1-results-and-analyst-upgrades-fuel-optimism",
+        "note": "韓 메모리 밸류 지지 요인이에요"
       },
       {
         "rank": "06",
         "category": "통화정책",
         "categoryStyle": "default",
-        "sentiment": "neg",
-        "title": "BOJ 6월 기준금리 인상 유력 74% 확률",
-        "summary": "전 BOJ 위원 '6/15~16 인상 가능성 크다'고 발언, 엔화 강세 전환이에요",
-        "source": "Japan Times",
-        "sourceUrl": "https://www.japantimes.co.jp/business/2026/05/29/economy/boj-rate-hike-june-former-board-member/",
-        "note": "엔 강세 시 韓 수출 경쟁력에 영향 줄 수 있어요"
+        "sentiment": "neu",
+        "title": "6월 FOMC 동결 유력…PCE 물가 부담",
+        "summary": "근원 물가 반등에 금리 인하 기대가 후퇴하는 분위기예요",
+        "source": "Goldman Sachs",
+        "sourceUrl": "https://www.goldmansachs.com/insights/articles/the-outlook-for-fed-rate-cuts-in-2026",
+        "note": "금리 동결 무게, 환율 변수예요"
       },
       {
         "rank": "07",
-        "category": "규제·정책",
-        "categoryStyle": "geo",
+        "category": "원자재",
+        "categoryStyle": "default",
         "sentiment": "neg",
-        "title": "美, AI칩 수출 규제 중국 해외법인까지 확대",
-        "summary": "中 화웨이 계열 제3국 법인도 AI칩 수출 금지 적용, 오늘 발효됐어요",
-        "source": "Al Jazeera",
-        "sourceUrl": "https://www.aljazeera.com/economy/2026/6/1/us-says-ban-on-ai-chip-shipments-applies-to-chinese-firms-outside-china",
-        "note": "엔비디아 중국 간접 매출 추가 차단 가능성"
+        "title": "금값 급락…금리 인하 기대 후퇴 영향",
+        "summary": "온스당 4,455달러로 1.9% 하락, 안전자산이 후퇴했어요",
+        "source": "Fortune",
+        "sourceUrl": "https://fortune.com/article/current-price-of-gold-06-01-2026/",
+        "note": "안전자산 후퇴, 위험선호 신호예요"
       },
       {
         "rank": "08",
-        "category": "반도체",
-        "categoryStyle": "tech",
-        "sentiment": "neg",
-        "title": "퀄컴 -9.5%, 인텔 -6.5% 급락",
-        "summary": "엔비디아 ARM PC칩 출시로 기존 PC 반도체 점유율 우려가 급부상했어요",
-        "source": "The Motley Fool",
-        "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/06/01/stock-market-today-june-1-tech-and-software-stocks-lift-markets/",
-        "note": "PC 반도체 구도 변화 속도 주목이에요"
-      },
-      {
-        "rank": "09",
-        "category": "반도체",
-        "categoryStyle": "tech",
-        "sentiment": "pos",
-        "title": "글로벌 반도체 매출 2026년 $1조 돌파 전망",
-        "summary": "컴퓨팅·저장장치 부문 +41.4% 주도, HBM 수요 직접 수혜예요",
-        "source": "CNBC",
-        "sourceUrl": "https://www.cnbc.com/2026/05/20/global-market-reordering-is-accelerating-as-the-ai-rally-gains-pace.html",
-        "note": "삼성·SK하이닉스 밸류에이션 지지해요"
-      },
-      {
-        "rank": "10",
         "category": "가상자산",
         "categoryStyle": "default",
         "sentiment": "neg",
-        "title": "비트코인 $71,500 하락, 위험자산 압박",
-        "summary": "유가 급등·달러 강세 영향으로 BTC 당일 -2.8% 하락했어요",
+        "title": "비트코인 6만9천달러대로 하락",
+        "summary": "유가·달러 강세 속 위험자산 약세로 BTC가 밀렸어요",
+        "source": "Fortune",
+        "sourceUrl": "https://fortune.com/article/price-of-bitcoin-06-02-2026/",
+        "note": "위험선호 약화 점검 지표예요"
+      },
+      {
+        "rank": "09",
+        "category": "AI·반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "컴퓨텍스 2026, AI PC·신형 CPU 격돌",
+        "summary": "엔비디아 베라 CPU 양산·인텔 신제품 등 신경전이 벌어졌어요",
+        "source": "Tom's Hardware",
+        "sourceUrl": "https://www.tomshardware.com/tech-industry/computex-2026-day-zero-wrap-up-nvidia-launches-rtx-spark-superchip-assault-on-laptop-and-desktop-markets-intel-readies-xeon-6",
+        "note": "AI PC 사이클 韓 부품 수혜 기대"
+      },
+      {
+        "rank": "10",
+        "category": "채권·외환",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "美 국채금리·달러 동반 상승",
+        "summary": "유가發 인플레 경계에 10년물 4.48%·달러 99선으로 올랐어요",
         "source": "Yahoo Finance",
-        "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-june-1-2026-prices-falling-this-morning-141555512.html",
-        "note": "위험선호 심리 점검 지표예요"
+        "sourceUrl": "https://finance.yahoo.com/markets/currencies/articles/dollar-rides-rising-yields-largest-045936182.html",
+        "note": "원/달러 상승 압력 자극해요"
       },
       {
         "rank": "11",
-        "category": "경제지표",
-        "categoryStyle": "default",
+        "category": "빅테크",
+        "categoryStyle": "tech",
         "sentiment": "neu",
-        "title": "JOLTS 4월 취업공고 오늘 23:00 KST 발표",
-        "summary": "3월 690만건 이후 추이 확인, 연준 정책 단서가 될 수 있어요",
-        "source": "BLS",
-        "sourceUrl": "https://www.bls.gov/news.release/jolts.nr0.htm",
-        "note": "예상 하회 시 달러 약세 가능해요"
+        "title": "애플 WWDC 6월 8일 개막…온디바이스 AI 주목",
+        "summary": "iOS 27·시리 개편 전망, 공급망 부품주 관심이 모여요",
+        "source": "Newsweek",
+        "sourceUrl": "https://www.newsweek.com/wwdc-2026-everything-apple-is-expected-to-announce-on-june-8-12016937",
+        "note": "삼성·LG 공급망 간접 수혜 가능"
       },
       {
         "rank": "12",
         "category": "경제지표",
         "categoryStyle": "default",
-        "sentiment": "pos",
-        "title": "美 ISM 제조업 PMI 5월 54%, 2022년來 최고",
-        "summary": "5회 연속 확장, 경기 회복 흐름을 어제(6/1) 확인했어요",
-        "source": "PR Newswire",
-        "sourceUrl": "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-54-may-2026-ism-manufacturing-pmi-report-302786165.html",
-        "note": "제조업 회복으로 소재·산업재 기회 주목이에요"
+        "sentiment": "neu",
+        "title": "이번 주 美 5월 고용보고서…금리 분수령",
+        "summary": "금요일 NFP 결과가 6월 FOMC 금리 경로를 좌우할 수 있어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/05/29/stock-market-next-week-outlook-for-june-1-5-2026.html",
+        "note": "고용 결과가 금리 경로 좌우해요"
       }
     ],
     "domestic": [
@@ -178,205 +178,207 @@
         "category": "국내증시",
         "categoryStyle": "default",
         "sentiment": "pos",
-        "title": "코스피 8,788 역대 신고가·삼성전자 시총 2천조",
-        "summary": "삼성전자 시총 사상 첫 2,000조 돌파, 코스피 3.68% 급등했어요",
-        "source": "MBC 뉴스",
-        "sourceUrl": "https://imnews.imbc.com/replay/2026/nwdesk/article/6826849_37004.html",
-        "note": "코스피 9,000선 기대감 형성 중이에요"
+        "title": "코스피, 첫 8,800선 안착…사상 최고 마감",
+        "summary": "외국인 6.6조 매도에도 13.11p 올라 8,801.49 신고가로 마쳤어요",
+        "source": "FN News",
+        "sourceUrl": "https://www.fnnews.com/news/202606021552432375",
+        "note": "9천선 기대와 과열 경계 공존"
       },
       {
         "rank": "02",
-        "category": "국내증시",
+        "category": "수급",
         "categoryStyle": "default",
         "sentiment": "neg",
-        "title": "코스닥 5일 연속 하락, 1,050선 위협",
-        "summary": "코스닥 -2.30%, 대형주-중소형주 디커플링 심화되고 있어요",
-        "source": "Seoul Economic Daily",
-        "sourceUrl": "https://en.sedaily.com/finance/2026/05/31/kospi-eyes-8500-as-june-faces-speed-bump-test",
-        "note": "코스닥 바닥 확인 전 신중함이 필요해요"
+        "title": "외국인 6.6조 순매도, 18일째 '셀 코리아'",
+        "summary": "개인 6.4조·기관 0.2조 순매수로 지수 하단을 방어했어요",
+        "source": "Newspim",
+        "sourceUrl": "https://www.newspim.com/news/view/20260602000839",
+        "note": "외인 18일째 매도 흐름 주목해요"
       },
       {
         "rank": "03",
-        "category": "자동차",
+        "category": "반도체",
         "categoryStyle": "tech",
         "sentiment": "pos",
-        "title": "현대차 +10.67%, 유럽 관세 반사이익 기대",
-        "summary": "美 유럽산 차 관세 25% 인상, 현대·기아 가격 경쟁력 상승했어요",
-        "source": "Nate News",
-        "sourceUrl": "https://news.nate.com/view/20260504n20383",
-        "note": "기아·제네시스도 동반 수혜 가능해요"
+        "title": "삼성전자, 시총 2천조…글로벌 10위 진입",
+        "summary": "장중 35만원 터치, 글로벌 시가총액 순위 10위로 올라섰어요",
+        "source": "FN News",
+        "sourceUrl": "https://www.fnnews.com/news/202606021627566186",
+        "note": "메모리 대장株 영향력 커졌어요"
       },
       {
         "rank": "04",
-        "category": "반도체",
-        "categoryStyle": "tech",
-        "sentiment": "pos",
-        "title": "젠슨황, 이번 주 방한…HBM·AI 협력 논의",
-        "summary": "삼성·SK하이닉스와 HBM4, AI 가속기 협력 기대감이 있어요",
-        "source": "서울신문",
-        "sourceUrl": "https://www.seoul.co.kr/news/economy/2026/05/28/20260528500263",
-        "note": "HBM 공급 확대 기대로 주가 모멘텀이에요"
+        "category": "코스닥",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스닥 -2.29% 급락…1,026선으로 밀려",
+        "summary": "차익실현에 중소형주 약세, 대형주와 디커플링이 뚜렷했어요",
+        "source": "Etoday",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2590011",
+        "note": "중소형주 디커플링 심화됐어요"
       },
       {
         "rank": "05",
-        "category": "반도체",
-        "categoryStyle": "tech",
-        "sentiment": "pos",
-        "title": "삼성전자, HBM4E 세계 최초 샘플 선공개",
-        "summary": "젠슨황 방한 앞두고 선제 카드, HBM4 기술 우위 어필했어요",
-        "source": "FN News",
-        "sourceUrl": "https://www.fnnews.com/news/202605290500537517",
-        "note": "SK하이닉스와 HBM4 주도권 경쟁 중이에요"
+        "category": "시장제도",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "6월 3일 지방선거일, 증시 휴장",
+        "summary": "거래소 증권·파생·상품시장 휴장, 7월 17일 제헌절도 쉬어요",
+        "source": "Newspim",
+        "sourceUrl": "https://www.newspim.com/news/view/20260520000433",
+        "note": "내일 휴장, 거래일 하루 줄어요"
       },
       {
         "rank": "06",
-        "category": "조선·방산",
-        "categoryStyle": "tech",
-        "sentiment": "pos",
-        "title": "HD현대重·한화오션, 美 해군 MRO 1분기 초과",
-        "summary": "1분기 만에 작년 연간 실적 초과 수주, 수주잔고 급증했어요",
-        "source": "Finance Thesmileinfo",
-        "sourceUrl": "https://finance.thesmileinfo.com/2026/06/2026-top-pick-investment.html",
-        "note": "조선·방산 밸류체인 모멘텀 지속될 수 있어요"
+        "category": "외환",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "원·달러 1,516.4원…12거래일째 1,500원대",
+        "summary": "12.1원 올라 4월 이후 최고, 중동發 달러 강세가 이어졌어요",
+        "source": "FN News",
+        "sourceUrl": "https://www.fnnews.com/news/202606021534149735",
+        "note": "수입물가·외인 수급에 부담돼요"
       },
       {
         "rank": "07",
-        "category": "바이오",
+        "category": "반도체",
         "categoryStyle": "tech",
         "sentiment": "pos",
-        "title": "셀트리온 1Q 영업익 3,219억, 전년比 +115%",
-        "summary": "매출 1.1조, 2026년 연간 영업익 1조 돌파 전망이에요",
-        "source": "Pharm Edaily",
-        "sourceUrl": "https://pharm.edaily.co.kr/news/read?newsId=03742486645446296",
-        "note": "K-바이오 실적 고성장 확인됐어요"
+        "title": "마이크론 15% 폭등…'30만전자' 촉매 기대",
+        "summary": "마이크론 급등이 메모리 투심을 자극하며 삼성전자를 끌었어요",
+        "source": "News1",
+        "sourceUrl": "https://www.news1.kr/finance/general-stock/6161812",
+        "note": "메모리 투심 자극 요인이에요"
       },
       {
         "rank": "08",
-        "category": "바이오",
+        "category": "반도체",
         "categoryStyle": "tech",
         "sentiment": "pos",
-        "title": "K-바이오 1분기 어닝 서프라이즈, 청신호",
-        "summary": "삼성바이오 영업익 5,808억(+35%), CMO 수요 확대 수혜예요",
-        "source": "Medical Times",
-        "sourceUrl": "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1168676",
-        "note": "위탁생산 수요 확대로 하반기도 기대돼요"
+        "title": "증권가 '50만전자·300만닉스' 목표가 상향",
+        "summary": "HBM 슈퍼사이클 기대에 반도체 대장주 눈높이가 올라갔어요",
+        "source": "Edaily",
+        "sourceUrl": "https://marketin.edaily.co.kr/News/ReadE?newsId=06796166645446624",
+        "note": "증권가 눈높이 상향 흐름이에요"
       },
       {
         "rank": "09",
-        "category": "시장건전성",
+        "category": "국내증시",
         "categoryStyle": "default",
-        "sentiment": "neg",
-        "title": "신용잔고 38조 역대 최고, 레버리지 경고",
-        "summary": "코스피 9,000 기대감에 마진론 38조 신기록, 급락 시 위험해요",
-        "source": "Seoul Economic Daily",
-        "sourceUrl": "https://en.sedaily.com/finance/2026/06/01/koreas-margin-loans-hit-record-38-trillion-won-as-kospi",
-        "note": "레버리지 과잉 경계 신호예요"
+        "sentiment": "neu",
+        "title": "코스피, 장중 첫 8,900 돌파 후 혼조",
+        "summary": "외국인 매도 폭탄에 8,900선 반납, 변동성이 크게 확대됐어요",
+        "source": "Herald",
+        "sourceUrl": "https://biz.heraldcorp.com/article/10762108",
+        "note": "장중 변동성 관리가 필요해요"
       },
       {
         "rank": "10",
-        "category": "반도체·수출",
-        "categoryStyle": "tech",
-        "sentiment": "pos",
-        "title": "K-반도체 5월 수출 300억달러 돌파, 3개월 연속",
-        "summary": "HBM·AI서버 호황으로 반도체 수출 사상 최고치 유지해요",
-        "source": "BizHankook",
-        "sourceUrl": "https://www.bizhankook.com/bk/article/32208",
-        "note": "경상수지 개선·원화 지지 효과예요"
+        "category": "시장건전성",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "투자자예탁금 137조 사상 최대…빚투 36조",
+        "summary": "대기자금이 역대 최대로 불었지만 신용융자도 36조로 늘었어요",
+        "source": "FN News",
+        "sourceUrl": "https://www.fnnews.com/news/202605101810068391",
+        "note": "대기자금 풍부, 빚투는 경계해요"
       },
       {
         "rank": "11",
-        "category": "국내증시",
-        "categoryStyle": "default",
+        "category": "반도체",
+        "categoryStyle": "tech",
         "sentiment": "pos",
-        "title": "코스피 9,000 근접·두 번째 깐부회동 기대",
-        "summary": "KOSPI 9,000 달성 시 한국 증시 세계 최강 상승률 가능해요",
-        "source": "Digital Today",
-        "sourceUrl": "https://www.digitaltoday.co.kr/en/view/59942/kospi-nears-9000-as-second-kkangbu-meeting-stocks-lead-rally",
-        "note": "과열 밸류에이션 우려도 병존해요"
+        "title": "삼성전자 9% 급등, '35만전자' 목전",
+        "summary": "마이크론 훈풍에 메모리 투심 회복, 삼성전자가 강세였어요",
+        "source": "Herald",
+        "sourceUrl": "https://biz.heraldcorp.com/article/10760839",
+        "note": "반도체 쏠림 흐름 이어졌어요"
       },
       {
         "rank": "12",
-        "category": "2차전지",
+        "category": "바이오",
         "categoryStyle": "tech",
-        "sentiment": "pos",
-        "title": "삼성SDI, AI 데이터센터 ESS 수요 강세",
-        "summary": "AI 데이터센터 전력 수요 급증으로 2차전지 ESS 랠리 기대감이에요",
-        "source": "Nate News",
-        "sourceUrl": "https://news.nate.com/view/20260528n08833",
-        "note": "2차전지 저점 매수 기회 탐색 중이에요"
+        "sentiment": "neg",
+        "title": "코스닥 바이오株 약세…금리 민감 부담",
+        "summary": "금리 경계에 바이오주가 흔들리며 코스닥 낙폭을 키웠어요",
+        "source": "Herald",
+        "sourceUrl": "https://biz.heraldcorp.com/article/10740663",
+        "note": "금리 민감 바이오 변동성 커요"
       }
     ]
   },
   "kr": {
-    "subNote": "코스피 8,788 역대 신고가 달성 후 첫 거래일이에요. 젠슨황 방한·HBM 모멘텀과 이란 유가 리스크가 혼재하는 상황이에요. 코스닥 5일 연속 하락과 신용잔고 38조 레버리지 경고가 주의 신호예요. 오늘 미국 JOLTS, 이번 주 금요일 NFP가 환율과 증시 방향에 영향을 줄 수 있어요.",
-    "subNoteEm": "젠슨황 방한·HBM 모멘텀",
-    "comment": "코스피가 8,788.38로 역대 신고가를 경신했어요! 삼성전자 시총이 처음으로 2,000조원을 돌파하며 지수를 견인했고, 현대차가 미국의 유럽산 차 관세 인상 반사이익 기대에 +10.67% 급등했어요. 반면 코스닥은 5거래일 연속 하락하며 1,050선으로 밀려, 대형주-중소형주 디커플링이 뚜렷해졌어요. <b>기관이 2.1조원 이상 순매수하며 외국인 매도를 방어</b>했고, 젠슨황 방한 시 HBM 협력 확대 발표 여부가 반도체주의 단기 모멘텀으로 작용할 수 있어요.",
-    "expectedRange": "코스피 8,650~8,950 (상단: 젠슨황 방한 HBM 모멘텀·기관 매수 지속 / 하단: 유가 급등 인플레 우려·코스닥 약세 확산)",
+    "subNote": "코스피가 외국인 6.6조원 순매도에도 개인·기관 매수로 13.11p 올라 사상 첫 8,800선(8,801.49)에 안착했어요. 삼성전자가 글로벌 시총 10위에 오르며 지수를 끌었지만, 코스닥은 차익실현에 -2.29% 급락해 대형주-중소형주 디커플링이 뚜렷했어요. 내일(6/3)은 지방선거일로 증시가 휴장하니, 美 고용 지표 주간과 함께 변동성에 유의할 시점이에요.",
+    "subNoteEm": "외국인 6.6조 매도에도 코스피 8,800 첫 안착·삼성전자 시총 2천조",
+    "comment": "코스피가 장중 8,900선을 잠시 넘었다가 외국인의 거센 매도에 밀렸지만, <b>개인 6.4조·기관 0.2조 순매수</b>로 8,801.49 신고가에 마감했어요. 삼성전자는 35만원을 터치하며 글로벌 시총 10위로 올라섰고, 마이크론 급등이 메모리 투심을 데웠어요. 반면 SK하이닉스·삼성전기는 차익실현에 밀렸고 코스닥은 -2.29%로 약세였어요. <b>내일 6/3은 지방선거 휴장</b>이라 거래일이 하루 줄고, 원/달러가 1,516원까지 올라 환율 부담도 살펴볼 만해요. 투자 판단은 본인 책임이라는 점 늘 기억해요.",
+    "expectedRange": "코스피 8,650~8,950 (상단: 반도체 시총주 강세·개인 매수 지속 / 하단: 외국인 매도·환율 1,500원대 부담·코스닥 약세 확산)",
     "indices": [
-      {"name": "코스피", "tip": "삼성전자 시총 2천조 돌파·신고가", "value": "8,788.38", "change": "+3.68%", "dir": "up"},
-      {"name": "코스닥", "tip": "5일 연속 하락·대형주 디커플링", "value": "1,050.03", "change": "-2.30%", "dir": "down"}
+      {"name": "코스피", "tip": "외국인 매도 딛고 첫 8,800선 안착", "value": "8,801.49", "change": "+0.15%", "dir": "up"},
+      {"name": "코스닥", "tip": "차익실현에 중소형주 약세", "value": "1,026.03", "change": "-2.29%", "dir": "down"}
     ],
     "flow": [
-      {"key": "원/달러 환율", "value": "1,504.30", "dir": "down"}
+      {"key": "원/달러 환율", "value": "1,516.4원", "dir": "up"},
+      {"key": "미국 상장 한국물(ADR)", "value": "EWY +5.3%", "dir": "up"}
     ],
     "supply": [
-      {"who": "외국인", "amount": "-8,500억원", "dir": "sell"},
-      {"who": "기관", "amount": "+2조1,000억원", "dir": "buy"},
-      {"who": "개인", "amount": "-1조2,500억원", "dir": "sell"}
+      {"who": "외국인", "amount": "-6조6,093억원", "dir": "sell"},
+      {"who": "기관", "amount": "+2,373억원", "dir": "buy"},
+      {"who": "개인", "amount": "+6조3,501억원", "dir": "buy"}
     ],
     "sectorsUp": [
-      {"theme": "자동차", "stockName": "현대차", "stockChange": "+10.67%"},
-      {"theme": "원자력", "stockName": "두산에너빌리티", "stockChange": "+2.41%"},
-      {"theme": "조선", "stockName": "HD현대중공업", "stockChange": "+1.86%"},
-      {"theme": "방산·조선", "stockName": "한화오션", "stockChange": "+0.86%"},
-      {"theme": "바이오", "stockName": "삼성바이오로직스", "stockChange": "+0.68%"}
+      {"theme": "IT서비스", "stockName": "SK스퀘어", "stockChange": "+7.17%"},
+      {"theme": "건설·상사", "stockName": "삼성물산", "stockChange": "+6.70%"},
+      {"theme": "반도체", "stockName": "삼성전자", "stockChange": "+3.30%"},
+      {"theme": "보험", "stockName": "삼성생명", "stockChange": "+2.93%"},
+      {"theme": "반도체(우선주)", "stockName": "삼성전자우", "stockChange": "+1.09%"}
     ],
     "sectorsDown": [
-      {"theme": "전기·가스", "stockName": "한국가스공사", "stockChange": "-6.79%"},
-      {"theme": "보험", "stockName": "삼성생명", "stockChange": "-4.44%"},
-      {"theme": "통신", "stockName": "SK텔레콤", "stockChange": "-3.07%"},
-      {"theme": "금융", "stockName": "KB금융", "stockChange": "-2.88%"},
-      {"theme": "증권", "stockName": "미래에셋증권", "stockChange": "-2.47%"}
+      {"theme": "IT부품(MLCC)", "stockName": "삼성전기", "stockChange": "-9.58%"},
+      {"theme": "자동차", "stockName": "현대차", "stockChange": "-2.80%"},
+      {"theme": "2차전지", "stockName": "LG에너지솔루션", "stockChange": "-2.75%"},
+      {"theme": "로봇", "stockName": "레인보우로보틱스", "stockChange": "-2.41%"},
+      {"theme": "조선", "stockName": "HD현대중공업", "stockChange": "-1.61%"}
     ],
     "watchlist": [
       {
         "name": "삼성전자",
-        "badge": "시총 2천조 돌파",
+        "badge": "시총 2천조·글로벌 10위",
         "badgeType": "up",
-        "desc": "사상 첫 시총 2,000조 돌파, HBM4E 선공개로 젠슨황 방한 앞두고 모멘텀이 살아있어요"
+        "desc": "35만원을 터치하며 글로벌 시총 10위에 올랐어요. 마이크론 HBM 완판 소식이 메모리 투심을 자극하고 있어 모멘텀을 지켜볼 만해요"
       },
       {
         "name": "SK하이닉스",
-        "badge": "HBM4 주도권",
-        "badgeType": "up",
-        "desc": "HBM4 독점 공급 유지 여부, 젠슨황 방한 시 협력 확대 가능성을 주목할 수 있어요"
+        "badge": "차익실현 매물",
+        "badgeType": "down",
+        "desc": "전일 급등 후 차익 매물에 약세였지만, HBM4 주도권과 AI 메모리 수요는 여전히 관심 포인트예요"
       },
       {
-        "name": "현대차",
-        "badge": "하루 +10.67%",
-        "badgeType": "up",
-        "desc": "유럽산 차 관세 인상 반사이익, 제네시스·고급 SUV 가격 경쟁력 개선이 기대돼요"
+        "name": "삼성전기",
+        "badge": "하루 -9.6%",
+        "badgeType": "down",
+        "desc": "MLCC·반도체 기판 차익실현에 급락했어요. 단기 변동성이 커진 만큼 분할 접근과 리스크 관리가 필요해요"
       },
       {
-        "name": "한화에어로스페이스",
-        "badge": "수주잔고 130조",
+        "name": "삼성물산",
+        "badge": "하루 +6.7%",
         "badgeType": "up",
-        "desc": "사우디 추가 계약 포함 130조 수주잔고, K-방산 대장주 실적 가시성이 높아요"
+        "desc": "지주·건설 가치 재평가 기대에 강세였어요. 그룹 지배구조 이슈와 함께 흐름을 살펴볼 수 있어요"
       }
     ],
     "health": [
-      {"key": "신용융자 잔고", "tip": "빚투 과열 지표", "value": "38.0조원", "subIcon": "▲", "subDir": "up"}
+      {"key": "투자자 예탁금", "tip": "증시 대기 자금", "value": "136.99조원", "subIcon": "▲", "subDir": "up"},
+      {"key": "신용융자 잔고", "tip": "빚투 과열 지표", "value": "35.5조원", "subIcon": "▲", "subDir": "up"}
     ]
   },
   "calendar": {
-    "subNote": "오늘(6/2) 미국 JOLTS 4월 취업공고(23:00 KST)가 발표되고, 수요일 ADP·ISM 서비스, 금요일 NFP로 이어지는 고용 지표 주간이에요. 젠슨황 방한이 한국 반도체주에 단기 모멘텀을 줄 수 있고, 6/6(토)은 현충일이에요.",
-    "subNoteEm": "JOLTS(오늘)·ADP(수)·NFP(금) 미국 고용 지표 집중 주간",
+    "subNote": "오늘 밤 美 JOLTS 4월 구인건수(23:00 KST)를 시작으로, 수요일 ADP·ISM 서비스, 금요일 5월 고용보고서(NFP)로 이어지는 고용 지표 주간이에요. 국내는 내일 6/3 지방선거일과 6/6 현충일로 이번 주 거래일이 줄어요.",
+    "subNoteEm": "JOLTS(오늘 밤)→ADP(수)→NFP(금) 美 고용 주간, 6/3 지방선거 휴장",
     "riskSentiment": "neutral",
     "domestic": {
       "timed": [],
       "untimed": [
-        {"event": "젠슨황 방한 (이번 주, 삼성·SK하이닉스 HBM 협력 논의)", "when": "이번 주"},
-        {"event": "현충일 (한국 공휴일·증시 휴장)", "when": "6월 6일(토)"}
+        {"event": "지방선거일 증시 휴장", "when": "6월 3일(수)"},
+        {"event": "현충일 증시 휴장", "when": "6월 6일(토)"}
       ]
     },
     "global": {
@@ -385,16 +387,15 @@
       ],
       "untimed": [
         {"event": "ASCO 2026 마지막 날 (시카고)", "when": "오늘 종료"},
-        {"event": "애플 WWDC26 키노트 (쿠퍼티노, 6/8~12)", "when": "다음 주"},
-        {"event": "미국 NFP 5월 고용보고서", "when": "6월 5일(금) 21:30"}
+        {"event": "미국 5월 고용보고서(NFP)", "when": "6월 5일(금) 21:30"}
       ]
     },
-    "theme": "미국 고용 지표 주간·젠슨황 방한 HBM 협력 확인",
+    "theme": "美 고용 지표 주간과 6/3 지방선거 휴장 속 변동성 관리",
     "checks": [
-      "오늘 23:00 KST JOLTS 4월 취업공고 예상치와 비교해요",
-      "젠슨황 방한 일정과 삼성·하이닉스 HBM 협력 발표 모니터링이 필요해요",
-      "이란 호르무즈 긴장 지속 여부와 WTI 방향을 체크해요",
-      "코스닥 6일 연속 하락 여부와 기술적 반등 가능성을 확인해요"
+      "오늘 23:00 KST 美 JOLTS 4월 구인건수와 예상치를 비교해 봐요",
+      "내일 6/3은 지방선거로 국내 증시가 휴장하니 포지션 관리에 유의해요",
+      "이란·호르무즈 긴장과 WTI·원/달러 환율(1,516원) 방향을 함께 점검해요",
+      "코스닥 추가 약세 여부와 대형주 쏠림 완화 가능성을 확인해 봐요"
     ]
   },
   "calendarWeek": {
@@ -412,8 +413,9 @@
         "date": "2026-06-01",
         "weekday": "월",
         "items": [
-          {"region": "domestic", "time": "08:00", "event": "한국 5월 수출입 동향 발표", "important": true, "category": "macro"},
-          {"region": "global", "time": "21:00", "event": "미국 ISM 제조업 PMI (5월)", "important": true, "category": "macro"},
+          {"region": "domestic", "time": "09:00", "event": "한국 5월 수출입 동향 발표", "important": true, "category": "macro"},
+          {"region": "global", "time": "23:00", "event": "미국 ISM 제조업 PMI (5월)", "important": true, "category": "macro"},
+          {"region": "global", "time": null, "event": "엔비디아 컴퓨텍스 2026 키노트", "important": true, "category": "conference"},
           {"region": "global", "time": null, "event": "ASCO 2026 진행 중 (5/29~6/2)", "important": false, "category": "conference"}
         ]
       },
@@ -421,16 +423,17 @@
         "date": "2026-06-02",
         "weekday": "화",
         "items": [
-          {"region": "global", "time": null, "event": "ASCO 2026 마지막 날 (시카고)", "important": false, "category": "conference"},
-          {"region": "global", "time": "23:00", "event": "미국 JOLTS 4월 구인건수", "important": true, "category": "macro"}
+          {"region": "global", "time": "23:00", "event": "미국 JOLTS 4월 구인건수", "important": true, "category": "macro"},
+          {"region": "global", "time": null, "event": "ASCO 2026 마지막 날 (시카고)", "important": false, "category": "conference"}
         ]
       },
       {
         "date": "2026-06-03",
         "weekday": "수",
         "items": [
+          {"region": "domestic", "time": null, "event": "지방선거일 증시 휴장", "important": true, "category": "holiday"},
           {"region": "global", "time": "21:15", "event": "미국 ADP 민간고용 (5월)", "important": true, "category": "macro"},
-          {"region": "global", "time": "23:00", "event": "미국 ISM 서비스 PMI (5월)", "important": true, "category": "macro"}
+          {"region": "global", "time": "23:00", "event": "미국 ISM 서비스 PMI (5월)", "important": false, "category": "macro"}
         ]
       },
       {
@@ -465,7 +468,8 @@
         "date": "2026-06-01",
         "items": [
           {"region": "domestic", "event": "한국 5월 수출입 동향 발표", "important": true, "category": "macro"},
-          {"region": "global", "event": "미국 ISM 제조업 PMI (5월)", "important": true, "category": "macro"}
+          {"region": "global", "event": "미국 ISM 제조업 PMI (5월)", "important": true, "category": "macro"},
+          {"region": "global", "event": "엔비디아 컴퓨텍스 2026 키노트", "important": true, "category": "conference"}
         ]
       },
       {
@@ -478,8 +482,9 @@
       {
         "date": "2026-06-03",
         "items": [
+          {"region": "domestic", "event": "지방선거일 증시 휴장", "important": true, "category": "holiday"},
           {"region": "global", "event": "미국 ADP 민간고용 (5월)", "important": true, "category": "macro"},
-          {"region": "global", "event": "미국 ISM 서비스 PMI (5월)", "important": true, "category": "macro"}
+          {"region": "global", "event": "미국 ISM 서비스 PMI (5월)", "important": false, "category": "macro"}
         ]
       },
       {
