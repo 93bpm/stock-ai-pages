@@ -440,7 +440,37 @@
       "push": {
         "branch": "claude/exciting-pasteur-NRNI4"
       }
+    },
+    {
+      "date": "2026-06-05",
+      "time": "07:09",
+      "model": "claude-opus-4-8[1m]",
+      "status": "success",
+      "duration_seconds": 1315,
+      "tokens_estimated": 119000,
+      "response_size_kb": 26.1,
+      "tool_calls": {
+        "WebFetch": 2,
+        "WebSearch": 46,
+        "Read": 10,
+        "Write": 2,
+        "Bash": 9
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq": "blocked(미시도)",
+        "YahooFinance(fetch)": "blocked(미시도)",
+        "WebSearch": "46/46"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/exciting-pasteur-e9wMc"
+      }
     }
   ],
-  "updatedAt": "2026-06-04T07:14:00+09:00"
+  "updatedAt": "2026-06-05T07:09:00+09:00"
 }
