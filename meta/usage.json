@@ -470,7 +470,37 @@
       "push": {
         "branch": "claude/exciting-pasteur-e9wMc"
       }
+    },
+    {
+      "date": "2026-06-06",
+      "time": "07:25",
+      "model": "claude-opus-4-8[1m]",
+      "status": "success",
+      "duration_seconds": 990,
+      "tokens_estimated": 121000,
+      "response_size_kb": 25.9,
+      "tool_calls": {
+        "WebFetch": 7,
+        "WebSearch": 24,
+        "Read": 2,
+        "Write": 1,
+        "Bash": 4
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq": "blocked(미시도)",
+        "WebFetch(fool.com)": "fail:403",
+        "WebSearch": "24/24"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/exciting-pasteur-W6Dbj"
+      }
     }
   ],
-  "updatedAt": "2026-06-05T07:09:00+09:00"
+  "updatedAt": "2026-06-06T07:25:00+09:00"
 }
