@@ -198,8 +198,9 @@ JS (`emWrap`):
 | `categoryStyle: "default"` | `.tag` (단독) |
 | `categoryStyle: "geo"` | `.tag.geo` |
 | `categoryStyle: "tech"` | `.tag.tech` |
-| `badgeType: "up"` | `.badge2.up` |
-| `badgeType: "default"` | `.badge2` (단독) |
+| `badgeType: "up"` | `.badge2.up` (빨강=상승) |
+| `badgeType: "down"` | `.badge2` (파랑=하락) |
+| `badgeType: "default"` | `.badge2` (파랑=중립/주의) |
 
 ### §4.6 카운트 표시
 

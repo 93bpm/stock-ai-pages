@@ -354,8 +354,8 @@
         "badge": { "type": "string", "description": "예: 관심 / 주의" },
         "badgeType": {
           "type": "string",
-          "enum": ["up", "default"],
-          "description": "up=빨강(관심), default=파랑(주의)"
+          "enum": ["up", "down", "default"],
+          "description": "up=빨강(상승), down=파랑(하락), default=파랑(중립/주의). 화면은 up만 빨강, down·default는 파랑 (한국 관습: 상승=빨강·하락=파랑) — v1.6.1"
         },
         "desc": { "type": "string" }
       }
@@ -393,9 +393,9 @@
         "flow": {
           "type": "array",
           "items": { "$ref": "#/$defs/FlowItem" },
-          "minItems": 3,
+          "minItems": 2,
           "maxItems": 3,
-          "description": "원/달러 환율, 야간 선물, 미국 상장 한국물(ADR) 순"
+          "description": "원/달러 환율, 야간 선물, 미국 상장 한국물(ADR) 순. 주말·휴장으로 야간선물/ADR을 못 구하면 해당 항목 제외 가능 (2~3개) — v1.6.1"
         },
         "supply": {
           "type": "array",
