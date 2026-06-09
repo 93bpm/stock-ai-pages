@@ -4,8 +4,9 @@ name: Validate briefing
 # routine이 Sanity Check를 빼먹어도 CI가 schema/sourceUrl/카운트/calendarWeek 일관성/페르소나를
 # 자동 검증. 검증 로직은 scripts/validate-briefing.mjs.
 #
-# ★ 리포트 모드 (기본): 위반을 로그에 출력하되 CI는 초록 (auto-merge 머지 영향 0).
-#   데이터 품질이 안정되면 env VALIDATE_STRICT=1 로 게이트화.
+# ★ 게이트 모드 (기본, v1.6.1~): HARD 위반 시 CI 빨간 X (VALIDATE_STRICT=1).
+#   데이터 품질 안정(5/28~6/9 HARD 0건)으로 리포트→게이트 승격.
+#   리포트 모드로 되돌리려면 workflow_dispatch에서 strict=false 입력.
 # ★ auto-merge-routine.yml 과 독립 — 이 CI가 빨개도 머지는 진행됨 (페이지 빈 화면 방지).
 
 on:
@@ -21,9 +22,9 @@ on:
         description: '검증할 날짜 YYYY-MM-DD (비우면 변경 파일 또는 latest)'
         required: false
       strict:
-        description: 'STRICT 게이트 모드 (true 시 HARD 위반에서 실패)'
+        description: 'STRICT 게이트 (기본 on — false 입력 시에만 리포트 모드)'
         required: false
-        default: 'false'
+        default: 'true'
 
 jobs:
   validate:
@@ -44,7 +45,7 @@ jobs:
 
       - name: Validate briefing(s)
         env:
-          VALIDATE_STRICT: ${{ github.event.inputs.strict == 'true' && '1' || '' }}
+          VALIDATE_STRICT: ${{ github.event.inputs.strict == 'false' && '' || '1' }}
         run: |
           # 1) 수동 입력 날짜 우선
           if [ -n "${{ github.event.inputs.date }}" ]; then
