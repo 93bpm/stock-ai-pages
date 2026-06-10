@@ -593,7 +593,40 @@
       "push": {
         "branch": "claude/exciting-pasteur-ddodl7"
       }
+    },
+    {
+      "date": "2026-06-11",
+      "time": "07:03",
+      "model": "unknown",
+      "status": "success",
+      "duration_seconds": 1047,
+      "tokens_estimated": 140000,
+      "response_size_kb": 27.8,
+      "tool_calls": {
+        "WebFetch": 27,
+        "WebSearch": 35,
+        "Read": 7,
+        "Write": 1,
+        "Bash": 11
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq": "fail:403",
+        "YahooFinance(WebFetch)": "fail:403(13/13)",
+        "GoogleFinance/TradingEconomics/Investing(WebFetch)": "fail:403",
+        "raw.githubusercontent(whitelists+meta)": "5/5 OK (guides는 로컬 repo에서 Read)",
+        "WebSearch": "35/35",
+        "note": "6/10 close: KOSPI -4.52%(7,730.82) 4일째 사이드카·외인 -3.2조/기관 -2.9조; US CPI 4.2% in-line 후 Iran 충돌 격화에 Dow -953p; SOX는 SOXX ETF 대용(547.56,+0.16%); 야간선물 미확보로 flow 2개"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/modest-clarke-y1ggj3"
+      }
     }
   ],
-  "updatedAt": "2026-06-09T07:04:00+09:00"
+  "updatedAt": "2026-06-11T07:21:00+09:00"
 }

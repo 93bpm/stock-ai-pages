@@ -1,0 +1,319 @@
+{
+  "date": "2026-06-11",
+  "weekday": "목",
+  "generatedAt": "2026-06-11T07:17:00+09:00",
+  "us": {
+    "subNote": "美 증시는 수요일(6/10) 이란 리스크에 다시 크게 흔들렸어요. 아침에 나온 5월 CPI가 전년比 4.2%로 예상에 부합하며 장 초반엔 유가·반도체가 안도 랠리를 보였지만, 트럼프 대통령이 이란과의 협상이 '너무 오래 걸린다'며 추가 공습을 시사하고 美·이란이 상호 공습을 주고받자 분위기가 급변했어요. 다우가 953p(-1.87%) 빠졌고 S&P500 -1.62%, 나스닥 -1.98%로 마감했어요. 산업재(-3.0%)와 소재(-2.7%)가 가장 약했고 에너지(+1.7%)·필수소비재(+1.3%)만 버텼어요. WTI가 90달러를 넘어서며 인플레 부담이 남은 가운데, 오늘 밤 21:30 KST 5월 PPI가 다음 확인 지점이라 위험회피 분위기가 아시아 장에도 부담으로 작용할 수 있어요.",
+    "subNoteEm": "이란 충돌 격화에 다우 -953p…CPI는 예상 부합",
+    "comment": "美 증시는 수요일 <b>이란 리스크에 다시 급락</b>했어요. 5월 CPI가 <b>전년比 4.2%로 예상에 부합</b>하고 근원 CPI는 월 0.2%로 안정되며 장 초반엔 안도감이 있었지만, 트럼프 대통령이 <b>이란 추가 공습을 시사</b>하고 양국이 상호 공습을 주고받자 매물이 쏟아졌어요. <b>다우 -953p(-1.87%)</b>, S&P500 -1.62%, 나스닥 -1.98%로 밀렸고, 산업재가 -3.0%로 가장 약했어요. 반면 <b>에너지(+1.7%)·필수소비재(+1.3%)</b>가 버텼고, 전일 급락했던 반도체(SOXX)는 +0.16% 보합으로 선방했어요. <b>WTI가 90달러</b>를 넘어 인플레 부담이 남았고 금은 4,286달러로 밀렸어요. 오늘 밤 <b>21:30 KST 5월 PPI</b>가 금리 경로의 다음 가늠자인데, 국장은 선물·옵션 동시만기일까지 겹쳐 있어 변동성에 유의해야 해요. 투자 판단은 본인 책임이라는 점 기억해요.",
+    "indices": [
+      {"name": "S&P 500", "tip": "이란 충돌 격화에 반락", "value": "7,266.99", "change": "-1.62%", "dir": "down"},
+      {"name": "나스닥 종합", "tip": "기술주 -2.3% 약세", "value": "25,169.50", "change": "-1.98%", "dir": "down"},
+      {"name": "다우존스", "tip": "953p 급락", "value": "49,918.78", "change": "-1.87%", "dir": "down"},
+      {"name": "필라델피아 반도체", "tip": "SOXX ETF 대용", "value": "547.56", "change": "+0.16%", "dir": "up"}
+    ],
+    "indicators": [
+      {"key": "VIX", "value": "19.87", "dir": "up"},
+      {"key": "美 10년물", "value": "4.52%", "dir": "down"},
+      {"key": "달러인덱스", "value": "100.0", "dir": "up"},
+      {"key": "WTI 유가", "value": "$90.03", "dir": "up"},
+      {"key": "금", "value": "$4,286", "dir": "down"},
+      {"key": "비트코인", "value": "$61,500", "dir": "down"}
+    ],
+    "sectorsUp": [
+      {"name": "에너지", "change": "+1.7%"},
+      {"name": "필수소비재", "change": "+1.3%"},
+      {"name": "부동산", "change": "+0.5%"},
+      {"name": "유틸리티", "change": "-0.1%"},
+      {"name": "금융", "change": "-0.2%"}
+    ],
+    "sectorsDown": [
+      {"name": "산업재", "change": "-3.0%"},
+      {"name": "소재", "change": "-2.7%"},
+      {"name": "기술(IT)", "change": "-2.3%"},
+      {"name": "자유소비재", "change": "-2.0%"},
+      {"name": "커뮤니케이션", "change": "-1.4%"}
+    ]
+  },
+  "world": {
+    "subNote": "어제는 韓·美가 같이 흔들린 하루였어요. 코스피가 CPI 경계와 중동 불안에 -4.52% 급락하며 7,730선으로 밀렸고, 밤사이 美 증시도 이란 충돌 격화에 다우가 953p 빠졌어요. CPI 자체는 예상에 부합했지만 유가가 90달러를 넘어서며 인플레 부담이 남았고, 오늘은 국장 선물·옵션 동시만기일에 밤엔 美 PPI까지 대기하고 있어요.",
+    "subNoteEm": "중동 충돌 격화에 韓 -4.52%·美 다우 -953p 동반 급락",
+    "global": [
+      {"rank": "01", "category": "미국증시", "categoryStyle": "default", "sentiment": "neg", "title": "다우 -953p, 이란 충돌에 급락", "summary": "美·이란 상호 공습 소식에 다우 -1.87%·S&P500 -1.62%로 밀렸어요", "source": "TheStreet", "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-10-2026", "note": "아시아 위험회피 부담돼요"},
+      {"rank": "02", "category": "경제지표", "categoryStyle": "default", "sentiment": "neu", "title": "美 5월 CPI 4.2%, 3년 만에 최고", "summary": "헤드라인은 예상 부합, 근원은 월 0.2%로 안정세를 보였어요", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html", "note": "에너지發 물가라 충격 제한적이에요"},
+      {"rank": "03", "category": "지정학", "categoryStyle": "geo", "sentiment": "neg", "title": "美, 이란 재공습…협상 흔들", "summary": "헬기 격추에 美가 재타격했고 이란은 중동 美 기지를 공격했어요", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/06/09/stock-market-today-live-updates.html", "note": "지정학 변동성 확대 국면이에요"},
+      {"rank": "04", "category": "원자재", "categoryStyle": "geo", "sentiment": "neg", "title": "WTI 90달러 돌파, +2.07%", "summary": "중동 충돌 격화에 WTI가 배럴당 90.03달러로 올라섰어요", "source": "Trading Economics", "sourceUrl": "https://tradingeconomics.com/commodity/crude-oil", "note": "수입물가·인플레 부담이에요"},
+      {"rank": "05", "category": "기업", "categoryStyle": "default", "sentiment": "neg", "title": "산업재 -3%, 아마존 운송 확장 충격", "summary": "아마존 화물운송 확대 소식에 운송·항공·방산주가 밀렸어요", "source": "Charles Schwab", "sourceUrl": "https://www.schwab.com/learn/story/stock-market-update-open", "note": "물류 경쟁 심화 신호예요"},
+      {"rank": "06", "category": "AI", "categoryStyle": "tech", "sentiment": "neg", "title": "크루소, 1.8GW 데이터센터 중단", "summary": "고객 요청으로 와이오밍 AI 데이터센터 공사를 멈췄어요", "source": "DCD", "sourceUrl": "https://www.datacenterdynamics.com/en/news/crusoe-pauses-work-on-18gw-cheyenne-wyoming-data-center-at-the-request-of-our-customer/", "note": "AI 수요 둔화 우려 자극해요"},
+      {"rank": "07", "category": "반도체", "categoryStyle": "tech", "sentiment": "neu", "title": "반도체, 급등락 끝 보합 마감", "summary": "CPI 후 반등했던 칩주가 이란 악재에 상승분을 반납했어요", "source": "TipRanks", "sourceUrl": "https://www.tipranks.com/news/why-ai-chip-stocks-nvda-mu-amd-intc-are-falling-today-june-10-2026", "note": "삼성·하이닉스 투심 변수예요"},
+      {"rank": "08", "category": "원자재", "categoryStyle": "default", "sentiment": "neu", "title": "금값 4,286달러로 하락", "summary": "CPI 예상 부합에 안전자산 쏠림이 진정되며 금이 밀렸어요", "source": "Trading Economics", "sourceUrl": "https://tradingeconomics.com/commodity/gold", "note": "안전자산 수요 진정 신호예요"},
+      {"rank": "09", "category": "가상자산", "categoryStyle": "default", "sentiment": "neg", "title": "비트코인 6.1만달러, ETF 이탈", "summary": "열흘간 29.7억달러가 현물 ETF에서 빠지며 6만달러 초반이에요", "source": "Fortune", "sourceUrl": "https://fortune.com/article/price-of-bitcoin-06-10-2026/", "note": "위험선호 위축 이어져요"},
+      {"rank": "10", "category": "변동성", "categoryStyle": "default", "sentiment": "neu", "title": "VIX 19.87, FOMC 앞 경계감", "summary": "9일물 변동성 지수는 22를 넘어 다음주 FOMC 경계가 커졌어요", "source": "Saxo", "sourceUrl": "https://www.home.saxo/content/articles/options/options-brief---the-fear-gauge-already-knows---10-june-2026-10062026", "note": "이벤트 변동성 대비가 필요해요"},
+      {"rank": "11", "category": "경제지표", "categoryStyle": "default", "sentiment": "neu", "title": "오늘 밤 美 5월 PPI 발표", "summary": "21:30 KST PPI와 실업급여 청구가 금리 경로의 가늠자예요", "source": "BLS", "sourceUrl": "https://www.bls.gov/schedule/news_release/ppi.htm", "note": "물가 연속 확인 구간이에요"},
+      {"rank": "12", "category": "반도체", "categoryStyle": "tech", "sentiment": "neu", "title": "마이크론, 6/24 실적 발표 확정", "summary": "메모리 업황을 가늠할 FY 3분기 실적이 6월 24일에 나와요", "source": "StockTitan", "sourceUrl": "https://www.stocktitan.net/news/MU/micron-technology-to-report-fiscal-third-quarter-results-on-june-24-22gcrbths4gp.html", "note": "메모리 업황 가늠자예요"}
+    ],
+    "domestic": [
+      {"rank": "01", "category": "국내증시", "categoryStyle": "default", "sentiment": "neg", "title": "코스피 -4.52%, 7,730선 후퇴", "summary": "CPI 경계와 중동 불안 속 투매에 366p 급락 마감했어요", "source": "뉴스핌", "sourceUrl": "https://www.newspim.com/news/view/20260610001077", "note": "8천선 회복 하루 만에 반납했어요"},
+      {"rank": "02", "category": "시장제도", "categoryStyle": "default", "sentiment": "neg", "title": "4거래일 연속 사이드카 발동", "summary": "급등락이 반복되며 매도 사이드카가 또 발동됐어요", "source": "헤럴드경제", "sourceUrl": "https://biz.heraldcorp.com/article/10768855", "note": "변동성 장세가 이어져요"},
+      {"rank": "03", "category": "수급", "categoryStyle": "default", "sentiment": "neg", "title": "외국인 23일째 순매도 행진", "summary": "5월 7일 이후 23거래일 연속으로 한국 주식을 팔고 있어요", "source": "머니투데이", "sourceUrl": "https://www.mt.co.kr/stock/2026/06/10/2026061015465996681", "note": "외인 복귀가 반등 열쇠예요"},
+      {"rank": "04", "category": "반도체", "categoryStyle": "tech", "sentiment": "neg", "title": "삼성전자 -6%·하이닉스 -7.5%", "summary": "장중 '29만전자'까지 밀리며 반도체 투심이 얼어붙었어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202606101347406673", "note": "AI 수요 둔화 우려가 겹쳤어요"},
+      {"rank": "05", "category": "외환", "categoryStyle": "default", "sentiment": "neg", "title": "환율 1,524.2원, 12.1원 급등", "summary": "중동 불안과 외인 매도에 17일째 1,500원대를 이어갔어요", "source": "서울파이낸스", "sourceUrl": "https://www.seoulfn.com/news/articleView.html?idxno=630817", "note": "외인 수급에 이중 부담이에요"},
+      {"rank": "06", "category": "코스닥", "categoryStyle": "default", "sentiment": "neg", "title": "코스닥 -1.67%, 951선 마감", "summary": "장중 983까지 올랐다가 외인·기관 매도에 되밀렸어요", "source": "서울신문", "sourceUrl": "https://m.seoul.co.kr/news/2026/06/10/20260610500214", "note": "코스피보다 낙폭은 작았어요"},
+      {"rank": "07", "category": "시장제도", "categoryStyle": "default", "sentiment": "neg", "title": "반대매매 1,700억, 올해 최대", "summary": "8% 급락 직후 하루 1,700억원 빚투 강제청산이 나왔어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202606101746032705", "note": "레버리지 청산 압력이 커요"},
+      {"rank": "08", "category": "시장제도", "categoryStyle": "default", "sentiment": "neg", "title": "신용융자 37.9조, 빚투 경고음", "summary": "사흘간 5,000억원이 강제 청산되며 빚투 부담이 커졌어요", "source": "서울경제", "sourceUrl": "https://www.sedaily.com/article/20054113", "note": "추가 반대매매가 변수예요"},
+      {"rank": "09", "category": "유통", "categoryStyle": "default", "sentiment": "pos", "title": "급락장에 신세계 +6.4% 선방", "summary": "백화점·패션 등 내수주가 약세장에서 강세를 보였어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202606101458449414", "note": "내수 방어주로 피난했어요"},
+      {"rank": "10", "category": "조선", "categoryStyle": "tech", "sentiment": "pos", "title": "HD현대중공업 +4.7% 홀로 강세", "summary": "시총 상위가 일제히 밀린 날 조선 대장주만 올랐어요", "source": "세계일보", "sourceUrl": "https://segye.com/newsView/20260610513578", "note": "조선·방산 모멘텀 주목돼요"},
+      {"rank": "11", "category": "수급", "categoryStyle": "default", "sentiment": "neu", "title": "개인, 급락장서 5.8조 저가매수", "summary": "'지금이 기회'라며 마이너스통장 대출도 6천억 늘었어요", "source": "MBC", "sourceUrl": "https://imnews.imbc.com/news/2026/econo/article/6829118_36932.html", "note": "개인 수급 과열은 경계해요"},
+      {"rank": "12", "category": "증시제도", "categoryStyle": "default", "sentiment": "neu", "title": "오늘 선물·옵션 동시만기일", "summary": "네 마녀의 날, 프로그램 매물이 변동성을 키울 수 있어요", "source": "중기이코노미", "sourceUrl": "https://www.junggi.co.kr/news/articleView.html?idxno=36642", "note": "장 막판 수급 출렁임 주의해요"}
+    ]
+  },
+  "kr": {
+    "subNote": "어제(6/10) 국장은 역대급 반등 하루 만에 다시 급락했어요. 코스피가 전장보다 366.11p(-4.52%) 내린 7,730.82로 마감하며 8천선을 반납했고, 4거래일 연속 사이드카(매도)가 발동됐어요. 美 CPI 경계감에 중동 충돌 우려, 크루소 데이터센터 중단發 AI 수요 둔화 우려까지 겹치며 외국인이 3조2,186억원, 기관이 2조8,923억원을 순매도했고 개인이 5조8,455억원을 받아냈어요. 삼성전자 -6.06%, SK하이닉스 -7.54%로 반도체가 지수를 끌어내린 반면, 신세계 +6.41%·HD현대중공업 +4.74% 등 내수·조선은 선방했어요. 환율은 1,524.2원으로 12.1원 뛰었고 코스닥은 -1.67% 내린 951.63이었어요. 오늘은 선물·옵션 동시만기일이라 변동성에 더 유의해야 해요.",
+    "subNoteEm": "코스피 -4.52% 7,730선…오늘은 선물·옵션 동시만기일",
+    "comment": "어제 국장은 역대급 반등 하루 만에 <b>-4.52% 급락한 7,730.82</b>로 되밀렸어요. <b>4거래일 연속 사이드카</b>가 발동된 롤러코스터 장세예요. 美 CPI 경계감에 중동 충돌 우려, 크루소 데이터센터 중단發 <b>AI 수요 둔화 우려</b>까지 겹치며 <b>외국인 -3조2,186억·기관 -2조8,923억</b> 투매가 쏟아졌고, 개인이 5조8,455억원을 받아냈어요. <b>삼성전자 -6.06%, SK하이닉스 -7.54%</b>로 반도체가 지수를 끌어내렸지만, <b>신세계 +6.41%·HD현대중공업 +4.74%</b> 등 내수·조선은 피난처가 됐어요. 환율은 <b>1,524.2원(+12.1원)</b>으로 뛰었고, 신용융자 37.9조원에 하루 1,700억원 반대매매까지 나와 레버리지 부담이 커요. 오늘은 <b>선물·옵션 동시만기일(네 마녀의 날)</b>인 데다 밤 21:30엔 美 PPI도 나와요. 만기 수급이 장 막판 지수를 흔들 수 있는 만큼 차분한 대응이 필요해요. 투자 판단은 본인 책임이라는 점 늘 기억해요.",
+    "expectedRange": "오늘은 밤사이 美 급락에 선물·옵션 동시만기까지 겹쳐 변동성이 클 수 있어요. 코스피 7,500~7,900선 등락이 예상되는데, 만기 프로그램 매물과 21:30 美 PPI, 1,524원대 환율이 변수예요",
+    "indices": [
+      {"name": "코스피", "tip": "366p 급락, 4거래일 연속 사이드카", "value": "7,730.82", "change": "-4.52%", "dir": "down"},
+      {"name": "코스닥", "tip": "장중 983 터치 후 반락", "value": "951.63", "change": "-1.67%", "dir": "down"}
+    ],
+    "flow": [
+      {"key": "원/달러 환율", "value": "1,524.2원", "dir": "up"},
+      {"key": "미국 상장 한국물(ADR)", "value": "EWY -3.15%", "dir": "down"}
+    ],
+    "supply": [
+      {"who": "외국인", "amount": "-3조2,186억원", "dir": "sell"},
+      {"who": "기관", "amount": "-2조8,923억원", "dir": "sell"},
+      {"who": "개인", "amount": "+5조8,455억원", "dir": "buy"}
+    ],
+    "sectorsUp": [
+      {"theme": "반도체 인버스", "stockName": "SOL SK하이닉스인버스2X", "stockChange": "+14.57%"},
+      {"theme": "반도체 인버스", "stockName": "PLUS 삼성전자인버스2X", "stockChange": "+13.61%"},
+      {"theme": "방산", "stockName": "KODEX 방산TOP10레버리지", "stockChange": "+10.38%"},
+      {"theme": "내수·유통", "stockName": "신세계", "stockChange": "+6.41%"},
+      {"theme": "조선", "stockName": "HD현대중공업", "stockChange": "+4.74%"}
+    ],
+    "sectorsDown": [
+      {"theme": "IT부품", "stockName": "삼성전기", "stockChange": "-8.38%"},
+      {"theme": "반도체", "stockName": "SK하이닉스", "stockChange": "-7.54%"},
+      {"theme": "IT지주", "stockName": "SK스퀘어", "stockChange": "-6.78%"},
+      {"theme": "보험", "stockName": "삼성생명", "stockChange": "-6.36%"},
+      {"theme": "반도체", "stockName": "삼성전자", "stockChange": "-6.06%"}
+    ],
+    "watchlist": [
+      {"name": "삼성전자", "badge": "직전 -6.06%", "badgeType": "down", "desc": "장중 29만원대까지 밀렸어요. 오늘 밤 美 PPI와 반도체 투심, 동시만기 수급을 함께 살펴봐요"},
+      {"name": "SK하이닉스", "badge": "직전 -7.54%", "badgeType": "down", "desc": "AI 수요 둔화 우려와 외인 매도가 겹쳤어요. 변동성이 큰 구간이라 분할 접근을 함께 챙겨봐요"},
+      {"name": "HD현대중공업", "badge": "직전 +4.74%", "badgeType": "up", "desc": "급락장에서 홀로 오르며 조선 모멘텀을 보여줬어요. 중동 긴장 속 방산·조선 순환매를 지켜봐요"},
+      {"name": "신세계", "badge": "직전 +6.41%", "badgeType": "up", "desc": "내수 방어주로 매수세가 몰렸어요. 급락장 피난처 성격이라 추세가 이어질지 확인해 봐요"}
+    ],
+    "health": [
+      {"key": "신용융자 잔고", "tip": "빚투 과열 지표", "value": "37조9,290억원", "subIcon": "▲", "subDir": "up"},
+      {"key": "반대매매 규모(일)", "tip": "강제청산, 올해 최대", "value": "1,700억원", "subIcon": "▲", "subDir": "up"}
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘 6/11(목)은 선물·옵션 동시만기일(네 마녀의 날)에 밤 21:30 美 5월 PPI까지 겹친 변동성 경계일이에요. 美·이란 충돌 격화로 위험회피가 짙어진 만큼 만기 수급과 물가 지표를 함께 챙겨야 해요.",
+    "subNoteEm": "동시만기 + 美 PPI 겹친 고변동성 하루",
+    "riskSentiment": "위험회피",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        {"event": "6월 선물·옵션 동시만기일 (네 마녀의 날)", "when": "장중"}
+      ]
+    },
+    "global": {
+      "timed": [
+        {"time": "21:30", "event": "미국 5월 생산자물가지수(PPI) 발표", "important": true},
+        {"time": "21:30", "event": "미국 신규 실업급여 청구건수", "important": false}
+      ],
+      "untimed": [
+        {"event": "애플 WWDC26 개발자 세션 (~6/12)", "when": "진행 중"}
+      ]
+    },
+    "theme": "美·이란 충돌과 코스피 급락 다음날, 선물·옵션 동시만기와 美 PPI가 겹친 고변동성 하루예요. 만기 프로그램 매물과 외인 수급을 살피며 차분히 대응하는 날이에요",
+    "checks": [
+      "선물·옵션 동시만기일 프로그램 매물이 장 막판 지수를 흔들 수 있어 수급을 챙겨봐요",
+      "오늘 밤 9시 30분 美 5월 PPI가 CPI에 이어 금리 경로를 좌우할 수 있어 주목해요",
+      "美·이란 충돌 격화로 유가가 90달러를 넘은 만큼 정유·운송 원가 영향을 점검해요",
+      "1,524원대 환율과 외국인 23일째 순매도가 이어질지 살펴봐요",
+      "신용융자 37.9조원과 하루 1,700억원 반대매매 등 레버리지 청산 압력을 경계해요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-06-07",
+    "end": "2026-06-13",
+    "days": [
+      {
+        "date": "2026-06-07",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-06-08",
+        "weekday": "월",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 -8.29%·코스닥 -9.08% 검은 월요일, 서킷브레이커 발동", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "애플 WWDC26 개막 (현지 6/8, ~6/12)", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-09",
+        "weekday": "화",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 +8.18% 역대 최대 반등·매수 사이드카 (8,096.93)", "important": true, "category": "market"},
+          {"region": "global", "time": "02:00", "event": "애플 WWDC26 키노트 — 새 Siri·iOS 27 공개", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-10",
+        "weekday": "수",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 -4.52% 급락·4거래일 연속 사이드카 (7,730.82)", "important": true, "category": "market"},
+          {"region": "global", "time": "21:30", "event": "미국 5월 소비자물가지수(CPI) 발표 — 4.2%, 예상 부합", "important": true, "category": "macro"},
+          {"region": "global", "time": null, "event": "크루소, 1.8GW 와이오밍 데이터센터 중단 발표", "important": false, "category": "industry"}
+        ]
+      },
+      {
+        "date": "2026-06-11",
+        "weekday": "목",
+        "items": [
+          {"region": "domestic", "time": null, "event": "6월 선물·옵션 동시만기일 (네 마녀의 날)", "important": true, "category": "market"},
+          {"region": "global", "time": "21:30", "event": "미국 5월 생산자물가지수(PPI) 발표", "important": true, "category": "macro"},
+          {"region": "global", "time": "21:30", "event": "미국 신규 실업급여 청구건수", "important": false, "category": "macro"},
+          {"region": "global", "time": null, "event": "애플 WWDC26 개발자 세션 (~6/12)", "important": false, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-12",
+        "weekday": "금",
+        "items": [
+          {"region": "global", "time": null, "event": "애플 WWDC26 마지막 날", "important": false, "category": "conference"},
+          {"region": "global", "time": "23:00", "event": "미시간대 6월 소비자심리지수 (예비치)", "important": false, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-13",
+        "weekday": "토",
+        "items": []
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 6,
+    "days": [
+      {
+        "date": "2026-06-01",
+        "items": [
+          {"region": "domestic", "event": "한국 5월 수출입 동향 발표", "important": true, "category": "macro"},
+          {"region": "global", "event": "미국 ISM 제조업 PMI (5월)", "important": true, "category": "macro"},
+          {"region": "global", "event": "엔비디아 컴퓨텍스 2026 키노트", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-02",
+        "items": [
+          {"region": "global", "event": "ASCO 2026 마지막 날 (시카고)", "important": false, "category": "conference"},
+          {"region": "global", "event": "컴퓨텍스 2026 개막 (~6/5)", "important": false, "category": "conference"},
+          {"region": "global", "event": "미국 JOLTS 4월 구인건수", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-03",
+        "items": [
+          {"region": "domestic", "event": "지방선거일 증시 휴장", "important": true, "category": "holiday"},
+          {"region": "global", "event": "브로드컴 2분기 실적 발표", "important": true, "category": "earnings"},
+          {"region": "global", "event": "미국 ADP 민간고용 (5월)", "important": true, "category": "macro"},
+          {"region": "global", "event": "미국 ISM 서비스업 PMI (5월)", "important": false, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-04",
+        "items": [
+          {"region": "global", "event": "미국 연준 베이지북 공개", "important": false, "category": "policy"},
+          {"region": "global", "event": "미국 신규 실업급여 청구건수", "important": false, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "items": [
+          {"region": "global", "event": "미국 5월 비농업 취업자수 (NFP, +17.2만)", "important": true, "category": "macro"},
+          {"region": "global", "event": "컴퓨텍스 2026 폐막", "important": false, "category": "conference"},
+          {"region": "domestic", "event": "코스피 -5.54% 급락·사이드카 발동", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-06",
+        "items": [
+          {"region": "domestic", "event": "현충일 (한국 공휴일·증시 휴장)", "important": true, "category": "holiday"}
+        ]
+      },
+      {
+        "date": "2026-06-08",
+        "items": [
+          {"region": "domestic", "event": "코스피 -8.29%·코스닥 -9.08% 검은 월요일·서킷브레이커", "important": true, "category": "market"},
+          {"region": "global", "event": "애플 WWDC26 개막 (~6/12)", "important": true, "category": "conference"},
+          {"region": "global", "event": "마벨, S&P500 편입 확정 발표", "important": false, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-09",
+        "items": [
+          {"region": "domestic", "event": "코스피 +8.18% 역대 최대 반등 (8,096.93)·매수 사이드카", "important": true, "category": "market"},
+          {"region": "global", "event": "애플 WWDC26 키노트 (02:00 KST·새 Siri·iOS 27)", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-10",
+        "items": [
+          {"region": "domestic", "event": "코스피 -4.52% 급락·4거래일 연속 사이드카 (7,730.82)", "important": true, "category": "market"},
+          {"region": "global", "event": "미국 5월 CPI — 4.2%, 예상 부합", "important": true, "category": "macro"},
+          {"region": "global", "event": "크루소, 1.8GW 와이오밍 데이터센터 중단 발표", "important": false, "category": "industry"}
+        ]
+      },
+      {
+        "date": "2026-06-11",
+        "items": [
+          {"region": "domestic", "event": "6월 선물·옵션 동시만기일 (네 마녀의 날)", "important": true, "category": "market"},
+          {"region": "global", "event": "미국 5월 PPI·신규 실업급여 청구", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-12",
+        "items": [
+          {"region": "global", "event": "애플 WWDC26 마지막 날", "important": false, "category": "conference"},
+          {"region": "global", "event": "미시간대 6월 소비자심리지수 (예비치)", "important": false, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-15",
+        "items": [
+          {"region": "global", "event": "BOJ 통화정책결정회의 (~16일)", "important": true, "category": "policy"}
+        ]
+      },
+      {
+        "date": "2026-06-16",
+        "items": [
+          {"region": "global", "event": "FOMC 회의 시작 (~17일)", "important": true, "category": "policy"}
+        ]
+      },
+      {
+        "date": "2026-06-17",
+        "items": [
+          {"region": "global", "event": "FOMC 금리결정 발표", "important": true, "category": "policy"}
+        ]
+      },
+      {
+        "date": "2026-06-19",
+        "items": [
+          {"region": "global", "event": "준틴스데이 美 증시 휴장", "important": false, "category": "holiday"}
+        ]
+      },
+      {
+        "date": "2026-06-24",
+        "items": [
+          {"region": "global", "event": "마이크론 FY 3분기 실적 발표", "important": true, "category": "earnings"}
+        ]
+      }
+    ]
+  }
+}
