@@ -626,7 +626,40 @@
       "push": {
         "branch": "claude/modest-clarke-y1ggj3"
       }
+    },
+    {
+      "date": "2026-06-12",
+      "time": "07:03",
+      "model": "unknown",
+      "status": "success",
+      "duration_seconds": 1677,
+      "tokens_estimated": 180000,
+      "response_size_kb": 28.3,
+      "tool_calls": {
+        "WebFetch": 16,
+        "WebSearch": 67,
+        "Read": 9,
+        "Write": 1,
+        "Bash": 13
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq": "fail:403",
+        "YahooFinance(WebFetch)": "fail:403(10/10)",
+        "GoogleFinance/TradingEconomics/Stooq/국내매체(WebFetch)": "fail:403 — 환경 network policy 차단",
+        "raw.githubusercontent(meta 2)": "2/2 OK (guides·whitelist는 로컬 repo Read)",
+        "WebSearch": "67/67",
+        "note": "6/11 close: KOSPI +0.43%(7,763.95) 동시만기 V자·KOSDAQ +4.76%(996.93) 매수사이드카; US Trump 이란 공습 철회에 Dow +930p(50,848.75)·S&P +1.75%(7,394.30); SOX는 SOXX 대용(584.81, 전일比 +6.8% 계산); 美 섹터별 마감 등락률 공식 집계 미공표(발화 07시 KST)로 sectorsUp/Down 3+3 방향만 수록(data-quality §5); kr.sectorsDown도 실값 3건만; 야간선물 미확보로 flow=환율+EWY"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/modest-clarke-jfual6"
+      }
     }
   ],
-  "updatedAt": "2026-06-11T07:21:00+09:00"
+  "updatedAt": "2026-06-12T07:30:00+09:00"
 }
