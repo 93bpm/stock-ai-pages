@@ -250,13 +250,13 @@
       .join(' · ');
   }
 
-  // 모델명 단축 표시 (claude-sonnet-4-7 → Sonnet 4.7)
+  // 모델명 단축 표시 (claude-opus-4-8 → Opus 4.8, claude-fable-5 → Fable 5)
   function shortModelName(full){
-    if(!full) return 'Unknown';
-    const m = full.match(/claude-([a-z]+)-(\d+)-(\d+)/i);
+    if(!full || full === 'unknown') return 'Unknown';
+    const m = full.match(/claude-([a-z]+)-(\d+)(?:-(\d+))?/i);
     if(m){
       const tier = m[1].charAt(0).toUpperCase() + m[1].slice(1).toLowerCase();
-      return `${tier} ${m[2]}.${m[3]}`;
+      return m[3] ? `${tier} ${m[2]}.${m[3]}` : `${tier} ${m[2]}`;
     }
     return full;
   }
