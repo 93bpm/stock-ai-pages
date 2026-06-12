@@ -659,7 +659,38 @@
       "push": {
         "branch": "claude/modest-clarke-jfual6"
       }
+    },
+    {
+      "date": "2026-06-13",
+      "time": "07:03",
+      "model": "claude-fable-5",
+      "status": "success",
+      "duration_seconds": 1487,
+      "tokens_estimated": 230000,
+      "response_size_kb": 28.4,
+      "tool_calls": {
+        "WebFetch": 15,
+        "WebSearch": 49,
+        "Read": 10,
+        "Write": 1,
+        "Bash": 12
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq/YahooFinance/GoogleFinance/TradingEconomics(WebFetch)": "fail:403 — 환경 network policy 차단(13/13)",
+        "raw.githubusercontent(meta 2)": "2/2 OK (guides·whitelist·schema는 로컬 repo Read)",
+        "WebSearch": "49/49",
+        "note": "주말(토) 발화 — 6/12(금) 마감 기준. KOSPI +4.63%(8,123.62) 외국인 25거래일만 순매수 +2.7조; US 3대 지수 동반 상승(다우 +353.51p, 51,202.26)·스페이스X 첫날 +19%; SOX는 SOXX 대용(586.93, 전일比 +0.36% 계산); VIX는 금요일 마감값 미집계로 12일 장중(10:46 ET) 19.25 수록; 美 섹터는 Bloomberg 10종(소재 미확보)으로 TOP5/BOTTOM5 산출; 급등장에 검증된 하락 종목 부재로 kr.sectorsDown 2건(지수 하회 종목, §5 룰); 야간선물 미확보로 flow=환율+EWY"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/focused-cori-wgf7iu"
+      }
     }
   ],
-  "updatedAt": "2026-06-12T07:30:00+09:00"
+  "updatedAt": "2026-06-13T07:27:00+09:00"
 }
