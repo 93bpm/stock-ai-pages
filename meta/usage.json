@@ -690,7 +690,38 @@
       "push": {
         "branch": "claude/focused-cori-wgf7iu"
       }
+    },
+    {
+      "date": "2026-06-16",
+      "time": "01:54",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1395,
+      "tokens_estimated": 265000,
+      "response_size_kb": 25.7,
+      "tool_calls": {
+        "WebFetch": 3,
+        "WebSearch": 38,
+        "Read": 10,
+        "Write": 1,
+        "Bash": 14
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq/YahooFinance/TheStreet(WebFetch)": "fail:403 — 환경 network policy 차단(3/3)",
+        "raw.githubusercontent(meta 2)": "2/2 OK (guides·whitelist·schema는 로컬 repo Read)",
+        "WebSearch": "38/38",
+        "note": "KST 01:54 조기 발화 — 6/15(월) 韓 마감 기준, 美 6/15장은 마감 전(현지 정오)이라 US 지수/지표/섹터는 6/12 마지막 종가로 앵커(추측·계산 금지 룰)하고 6/15 종전 랠리·유가 급락은 서술·뉴스로 반영. KOSPI +5.20%(8,545.98)·KOSDAQ +0.48%(1,034.03)·환율 1,511.1원(-8.7); 외인 +1조84억·기관 +5,499억·개인 -1조4,953억; 유가 급락에 항공주 줄상한가(티웨이 +29.75%); 삼성·하이닉스는 장중 6~7%대(종가 미확보)로 sectorsUp에 장중 표기; 검증된 韓 하락 종목 % 부재로 kr.sectorsDown 0건(data-quality §5); WebSearch가 5/15↔6/15 데이터 혼입돼 다중 날짜 교차검증으로 6/15 확정"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-xscr1b"
+      }
     }
   ],
-  "updatedAt": "2026-06-13T07:27:00+09:00"
+  "updatedAt": "2026-06-16T01:54:00+09:00"
 }
