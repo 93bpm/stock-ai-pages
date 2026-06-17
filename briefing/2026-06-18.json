@@ -1,0 +1,323 @@
+{
+  "date": "2026-06-18",
+  "weekday": "목",
+  "generatedAt": "2026-06-18T07:02:00+09:00",
+  "us": {
+    "subNote": "6/17(수) 뉴욕은 매파 FOMC에 장중 상승분을 반납하며 하락했어요. 워시 의장 첫 회의에서 기준금리는 3.50~3.75%로 동결했지만, 점도표가 연말 금리를 3.8%(3월 3.4%)로 올리고 위원 18명 중 9명이 '연내 인상'을 가리키며 매파로 해석됐어요. 다우는 장중 사상 최고를 썼다가 -0.97%(51,493.16)로 반락했고, S&P -1.21%(7,420.13)·나스닥 -1.35%(26,021.66)로 되돌림했어요. 달러인덱스는 99.6으로 올랐고 비트코인은 -2%대 6만4천달러로 밀렸어요. WTI는 호르무즈 재개에 5거래일째 내려 75달러대였어요. 인하 기대가 사라진 만큼 아시아 성장주엔 단기 부담으로 작용할 수 있어요. (필라델피아 반도체 종가·美 섹터 등락률은 방향 중심 잠정치예요)",
+    "subNoteEm": "매파 FOMC…점도표 '연내 인상' 9명·증시 되돌림",
+    "comment": "<b>워시 첫 FOMC</b>는 금리를 <b>3.50~3.75%로 동결</b>했지만, <b>점도표가 연내 '인상' 신호</b>(연말 3.8%)를 내며 매파로 읽혔어요. 그 결과 다우가 장중 사상 최고를 찍고도 지수가 일제히 되돌림해 <b>S&P -1.21%·나스닥 -1.35%</b>로 마감했어요. <b>달러는 강세(99.6)</b>, 2년물 금리도 뛰며 인하 기대가 사라졌는데, 이는 오늘 환율·외국인 수급을 통해 韓 증시에 부담으로 작용할 수 있어요. 다만 어제 국장은 반도체 쇼티지 힘으로 사상 최고를 쓴 만큼, 美 매파 재료와 반도체 모멘텀이 맞붙는 하루가 될 수 있어요. 투자 판단은 본인 책임이라는 점 기억해요.",
+    "indices": [
+      {"name": "S&P 500", "tip": "6/17 종가·매파 FOMC 되돌림", "value": "7,420.13", "change": "-1.21%", "dir": "down"},
+      {"name": "나스닥 종합", "tip": "기술주 약세 -354p", "value": "26,021.66", "change": "-1.35%", "dir": "down"},
+      {"name": "다우존스", "tip": "-507p·장중 최고서 반락", "value": "51,493.16", "change": "-0.97%", "dir": "down"},
+      {"name": "필라델피아 반도체", "tip": "SOXX 대용·매파 FOMC(방향 잠정)", "value": "13,360", "change": "-1.9%", "dir": "down"}
+    ],
+    "indicators": [
+      {"key": "VIX", "value": "16.41 ▲", "dir": "up"},
+      {"key": "美 10년물", "value": "4.46%", "dir": "neutral"},
+      {"key": "달러인덱스", "value": "99.65 ▲", "dir": "up"},
+      {"key": "WTI 유가", "value": "$75.40 ▼", "dir": "down"},
+      {"key": "금", "value": "$4,352", "dir": "neutral"},
+      {"key": "비트코인", "value": "$64,387 ▼", "dir": "down"}
+    ],
+    "sectorsUp": [
+      {"name": "금융", "change": "+0.6%"},
+      {"name": "산업재", "change": "+0.4%"},
+      {"name": "헬스케어", "change": "+0.2%"},
+      {"name": "필수소비재", "change": "+0.1%"},
+      {"name": "에너지", "change": "+0.1%"}
+    ],
+    "sectorsDown": [
+      {"name": "기술(IT)", "change": "-2.2%"},
+      {"name": "부동산", "change": "-1.3%"},
+      {"name": "커뮤니케이션", "change": "-1.1%"},
+      {"name": "유틸리티", "change": "-0.9%"},
+      {"name": "임의소비재", "change": "-0.6%"}
+    ]
+  },
+  "world": {
+    "subNote": "간밤 매파 FOMC(점도표 '연내 인상' 9명)에 美 증시가 장중 상승분을 반납하며 S&P -1.21%로 내렸고 달러는 99.6으로 강해졌어요. 반면 韓 코스피는 6/17 반도체 쇼티지 힘으로 +1.58% 8,864.24 사상 최고가를 썼고, SK하이닉스가 252만원(250만닉스)을 돌파했어요. 오늘은 美 매파 재료와 반도체 모멘텀이 부딪히는 하루예요.",
+    "subNoteEm": "매파 FOMC vs 반도체…코스피 8,864 신고가",
+    "global": [
+      {"rank": "01", "category": "통화정책", "categoryStyle": "default", "sentiment": "neg", "title": "연준 금리 동결…점도표는 매파 '인상' 신호", "summary": "워시 첫 회의서 3.50~3.75% 동결, 연말 점도표는 3.8%로 올렸어요", "source": "CNN", "sourceUrl": "https://www.cnn.com/2026/06/17/business/live-news/federal-reserve-interest-rate-kevin-warsh", "note": "인하 기대가 사라졌어요"},
+      {"rank": "02", "category": "미국증시", "categoryStyle": "default", "sentiment": "neg", "title": "뉴욕증시 하락…매파 FOMC에 되돌림", "summary": "S&P -1.21%·나스닥 -1.35%·다우 -0.97%로 장중 상승분을 반납했어요", "source": "TheStreet", "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-17-2026", "note": "위험자산 되돌림이 나왔어요"},
+      {"rank": "03", "category": "통화정책", "categoryStyle": "default", "sentiment": "neg", "title": "FOMC 위원 18명 중 9명 '연내 인상'", "summary": "점도표 연말 금리 3.8%로 3월 3.4%보다 상향, 인상 가능성을 시사했어요", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html", "note": "장기 고금리 부담이 커져요"},
+      {"rank": "04", "category": "가상자산", "categoryStyle": "default", "sentiment": "neg", "title": "비트코인 2%↓ 6만4천달러…매파에 위축", "summary": "FOMC 매파 점도표에 위험자산이 위축돼 비트코인이 6만4천달러대로 내렸어요", "source": "Investing.com", "sourceUrl": "https://ca.investing.com/news/cryptocurrency-news/bitcoin-steady-at-65k-with-fed-meeting-in-focus-uniswap-surges-4695004", "note": "위험선호 약화 신호예요"},
+      {"rank": "05", "category": "환율", "categoryStyle": "default", "sentiment": "neg", "title": "달러인덱스 99.6…매파 FOMC에 강세", "summary": "연준 인상 시사에 달러가 강세를 보이며 99.6선으로 올라섰어요", "source": "FXStreet", "sourceUrl": "https://www.fxstreet.com/news/forex-today-us-dollar-jumps-after-warsh-led-fed-holds-rates-hints-upcoming-hike-202606172022", "note": "원/달러 환율에 부담돼요"},
+      {"rank": "06", "category": "지정학", "categoryStyle": "geo", "sentiment": "pos", "title": "美·이란 19일 종전 서명…호르무즈 재개", "summary": "스위스서 19일 공식 서명 예정, 60일 휴전 골격에 유가 안정 기대예요", "source": "NBC News", "sourceUrl": "https://www.nbcnews.com/news/us-news/deal-reached-united-states-iran-war-rcna350039", "note": "유가·물가 안정에 우호적이에요"},
+      {"rank": "07", "category": "거시", "categoryStyle": "default", "sentiment": "neu", "title": "美 5월 소매판매 +0.9%…예상 상회", "summary": "소매판매가 예상 0.5%를 웃돈 0.9% 증가로 견조한 소비를 확인했어요", "source": "Charles Schwab", "sourceUrl": "https://www.schwab.com/learn/story/stock-market-update-open", "note": "고금리 장기화 명분이 돼요"},
+      {"rank": "08", "category": "반도체", "categoryStyle": "tech", "sentiment": "neg", "title": "반도체 차익실현…AI칩 변동성 지속", "summary": "브로드컴 가이던스 여파 속 매파 FOMC까지 겹쳐 칩 주가가 출렁였어요", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/chip-selloff-hits-sox-broadcoms-100511793.html", "note": "韓 반도체 투심과 연동돼요"},
+      {"rank": "09", "category": "거시", "categoryStyle": "default", "sentiment": "neg", "title": "美 2년물 4.2%로 급등…단기금리 반응", "summary": "매파 점도표에 2년물이 1년여 만 최고로 뛰고 10년물은 4.46% 보합이었어요", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/quotes/US10Y", "note": "고금리 장기화를 반영해요"},
+      {"rank": "10", "category": "증시제도", "categoryStyle": "default", "sentiment": "neu", "title": "19일 준틴스데이 美 증시 휴장", "summary": "19일 준틴스데이로 美 증시가 쉬어요. 종전 서명까지 겹쳐 일정이 몰려요", "source": "Investing.com", "sourceUrl": "https://kr.investing.com/holiday-calendar/", "note": "유동성 변화에 대비해요"},
+      {"rank": "11", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "워시, 연준 운영 개편 태스크포스 예고", "summary": "워시 의장이 연준 주요 운영을 손볼 태스크포스 신설을 예고했어요", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/06/17/fed-meeting-today-live-updates.html", "note": "연준 기조 변화를 봐요"},
+      {"rank": "12", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "마이크론 24일 실적…메모리 슈퍼사이클 주목", "summary": "24일 마이크론 실적이 HBM·D램 업황 가늠자로 韓 메모리주와 연동돼요", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/news/semiconductor-stocks-like-nvidia-and-micron-are-on-a-remarkable-streak-150827239.html", "note": "韓 메모리 선행지표예요"}
+    ],
+    "domestic": [
+      {"rank": "01", "category": "국내증시", "categoryStyle": "default", "sentiment": "pos", "title": "코스피 8,864 사상 최고…+1.58% 마감", "summary": "반도체 강세에 137.64p 올라 종가 기준 사상 최고치를 새로 썼어요", "source": "뉴스핌", "sourceUrl": "https://www.newspim.com/news/view/20260617000912", "note": "반도체가 지수를 끌었어요"},
+      {"rank": "02", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "SK하이닉스 252만원…'250만닉스' 돌파", "summary": "+5.84% 급등해 신고가, 시총 1,796조로 삼성전자를 바짝 쫓았어요", "source": "전자신문", "sourceUrl": "https://www.etnews.com/20260617000364", "note": "HBM 쇼티지가 동력이에요"},
+      {"rank": "03", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "삼성전자 시총 2천조…코스피 8800 견인", "summary": "+1.02% 34만6500원으로 시총 2,025조를 지키며 지수 상승을 도왔어요", "source": "Investing.com", "sourceUrl": "https://kr.investing.com/news/stock-market-news/article-1966308", "note": "대형 반도체 쏠림 이어져요"},
+      {"rank": "04", "category": "수급", "categoryStyle": "default", "sentiment": "pos", "title": "美반도체 조정 이긴 코스피…개인·기관 '사자'", "summary": "외국인 순매도에도 개인·기관 매수로 8800선에 안착했어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202606171610292113", "note": "개인·기관 매수가 떠받쳤어요"},
+      {"rank": "05", "category": "코스닥", "categoryStyle": "default", "sentiment": "pos", "title": "코스닥 +1.30% 1,031…반도체 동반 강세", "summary": "13.28p 올라 1,031.96로 마감, 반도체주가 함께 올랐어요", "source": "서울경제", "sourceUrl": "https://www.sedaily.com/article/20056892", "note": "양 시장 반도체 동반 강세예요"},
+      {"rank": "06", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "증권가 '반도체 초호황'…목표가 줄상향", "summary": "삼성 61만·SK하이닉스 400만원까지 목표가 상향이 잇따랐어요", "source": "이투데이", "sourceUrl": "https://www.etoday.co.kr/news/view/2594593", "note": "실적 기대가 높아져요"},
+      {"rank": "07", "category": "조선·방산", "categoryStyle": "tech", "sentiment": "pos", "title": "한화에어로 6%대…K방산·실적 기대", "summary": "K방산 부각·실적 기대에 한화에어로스페이스가 6%대 강세였어요", "source": "머니투데이", "sourceUrl": "https://www.mt.co.kr/stock/2026/06/17/2026061709210984355", "note": "방산 모멘텀 이어져요"},
+      {"rank": "08", "category": "조선·방산", "categoryStyle": "tech", "sentiment": "pos", "title": "조선·원전 강세…대미투자 기대 반영", "summary": "HD현대중공업·두산에너빌리티가 대미투자 기대에 강세를 보였어요", "source": "아시아경제", "sourceUrl": "https://www.asiae.co.kr/article/2026061716094598778", "note": "대미투자 수혜를 봐요"},
+      {"rank": "09", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "SK하이닉스 레버리지 ETF 수익률 상위", "summary": "반도체 강세에 SK하이닉스 레버리지 ETF가 수익률 상위를 휩쓸었어요", "source": "뉴스핌", "sourceUrl": "https://www.newspim.com/news/view/20260617000935", "note": "반도체 쏠림 단면이에요"},
+      {"rank": "10", "category": "증시전망", "categoryStyle": "default", "sentiment": "pos", "title": "9천피 앞둔 코스피…변동성 속 최고가", "summary": "장초반 하락 출발 후 반도체 매수로 상승 전환해 최고가로 마쳤어요", "source": "한국경제", "sourceUrl": "https://www.hankyung.com/article/2026060232996", "note": "9천선 기대도 거론돼요"},
+      {"rank": "11", "category": "증시전망", "categoryStyle": "default", "sentiment": "neu", "title": "FOMC 앞 일부 대형주 약세…NAVER 하락", "summary": "반도체 외 NAVER 등 일부 대형주는 차익실현에 약세였어요", "source": "경향신문", "sourceUrl": "https://www.khan.co.kr/article/202606171542011", "note": "쏠림 속 옥석이 갈려요"},
+      {"rank": "12", "category": "국내증시", "categoryStyle": "default", "sentiment": "pos", "title": "코스피 8864 최고가…SK하이닉스 250만 돌파", "summary": "외국인 매도에도 반도체 급등에 사상 최고가로 마감했어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202606171622075750", "note": "반도체 주도 장세예요"}
+    ]
+  },
+  "kr": {
+    "subNote": "어제(6/17) 코스피는 반도체 쇼티지 힘으로 사상 최고가를 갈아치웠어요. 美 반도체 조정에도 SK하이닉스가 +5.84% 급등해 252만원(250만닉스)을 넘었고, 삼성전자도 +1.02%로 시총 2,025조를 지키며 코스피가 +1.58%(137.64p) 오른 8,864.24로 종가 최고치를 썼어요. 코스닥도 +1.30%(1,031.96)로 반도체가 양 시장을 끌었어요. 외국인은 9,924억 순매도했지만 개인(+5,397억)·기관(+5,802억)이 받아냈고, 한화에어로(+6%대)·두산에너빌리티(+2.41%)·HD현대중공업(+1.86%) 등 방산·원전·조선도 강했어요. 다만 NAVER 등 일부 대형주는 약세였고, 환율은 1,513원대로 원화가 약했어요. 간밤 매파 FOMC와 달러 강세(99.6)가 오늘 외국인 수급엔 변수예요. (약세 업종 등락률은 일부 방향 중심 잠정치예요)",
+    "subNoteEm": "코스피 8,864 사상최고·SK하이닉스 '250만닉스'",
+    "comment": "<b>반도체 쇼티지</b>가 어제 사상 최고가의 핵심이에요. <b>SK하이닉스가 +5.84%</b>로 252만원을 넘어 '250만닉스'를 달성했고 <b>삼성전자도 시총 2천조</b>를 지켰어요. 외국인이 9,924억 순매도했지만 <b>개인·기관이 1조 넘게 받아내며</b> 지수를 끌어올렸고, 방산·원전·조선도 대미투자 기대에 강세였어요. 다만 간밤 <b>매파 FOMC·달러 강세(99.6)</b>로 인하 기대가 사라진 점은 외국인 수급에 변수가 될 수 있어요. 증권가 목표가가 줄상향됐지만 단기 쏠림도 커진 만큼, 추격보다 호흡을 고르며 보는 게 좋아요. 투자 판단은 본인 책임이라는 점 기억해요.",
+    "expectedRange": "오늘은 매파 FOMC·달러 강세 부담과 반도체 모멘텀이 맞물려 코스피 8,750~8,950선 등락이 예상돼요",
+    "indices": [
+      {"name": "코스피", "tip": "+137.64p·종가 사상 최고", "value": "8,864.24", "change": "+1.58%", "dir": "up"},
+      {"name": "코스닥", "tip": "+13.28p·반도체 동반강세", "value": "1,031.96", "change": "+1.30%", "dir": "up"}
+    ],
+    "flow": [
+      {"key": "원/달러 환율", "value": "1,513.4원 ▲", "dir": "up"},
+      {"key": "미국 상장 한국물(ADR)", "value": "EWY $205.08 ▼", "dir": "down"}
+    ],
+    "supply": [
+      {"who": "외국인", "amount": "-9,924억원", "dir": "sell"},
+      {"who": "기관", "amount": "+5,802억원", "dir": "buy"},
+      {"who": "개인", "amount": "+5,397억원", "dir": "buy"}
+    ],
+    "sectorsUp": [
+      {"theme": "반도체 (HBM 쇼티지)", "stockName": "SK하이닉스", "stockChange": "+5.84%"},
+      {"theme": "방산 (K방산 기대)", "stockName": "한화에어로스페이스", "stockChange": "+6.42%"},
+      {"theme": "원전·전력 (대미투자)", "stockName": "두산에너빌리티", "stockChange": "+2.41%"},
+      {"theme": "조선 (대미투자)", "stockName": "HD현대중공업", "stockChange": "+1.86%"},
+      {"theme": "반도체 대형", "stockName": "삼성전자", "stockChange": "+1.02%"}
+    ],
+    "sectorsDown": [
+      {"theme": "인터넷·플랫폼 (차익실현)", "stockName": "NAVER", "stockChange": "-2.30%"},
+      {"theme": "통신 (금리 부담)", "stockName": "SK텔레콤", "stockChange": "-1.0%"},
+      {"theme": "정유 (유가 5일째 약세)", "stockName": "S-Oil", "stockChange": "-0.9%"},
+      {"theme": "유틸리티 (한전)", "stockName": "한국전력", "stockChange": "-0.8%"},
+      {"theme": "화장품·유통 (소외)", "stockName": "아모레퍼시픽", "stockChange": "-0.6%"}
+    ],
+    "watchlist": [
+      {"name": "SK하이닉스", "badge": "250만닉스", "badgeType": "up", "desc": "+5.84% 252만원으로 신고가, 시총 1,796조로 삼성전자를 바짝 쫓았어요. 24일 마이크론 실적도 함께 봐요"},
+      {"name": "삼성전자", "badge": "시총 2천조", "badgeType": "up", "desc": "+1.02% 34만6500원으로 시총 2,025조를 지켰어요. 증권가 목표가 상향이 이어지지만 단기 쏠림도 함께 봐요"},
+      {"name": "한화에어로스페이스", "badge": "K방산", "badgeType": "up", "desc": "K방산·실적 기대에 6%대 강세였어요. 19일 美·이란 종전 서명 결과에 따라 변동성이 있을 수 있어요"},
+      {"name": "두산에너빌리티", "badge": "원전·대미투자", "badgeType": "up", "desc": "+2.41% 강세로 대미투자·원전 기대를 반영했어요. 정책 기대가 과열로 흐르는지도 함께 살펴요"},
+      {"name": "NAVER", "badge": "차익실현", "badgeType": "down", "desc": "-2.30%로 반도체 쏠림 속 일부 대형주가 소외됐어요. 매파 FOMC 부담도 함께 작용할 수 있어요"}
+    ],
+    "health": [
+      {"key": "투자자 예탁금", "tip": "대기 자금 (6월 기준)", "value": "127조3,718억원", "subIcon": "▲", "subDir": "up"},
+      {"key": "신용융자 잔고", "tip": "빚투 지표 (최근)", "value": "36조6,564억원", "subIcon": "▲", "subDir": "up"}
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘 18일 새벽 FOMC가 매파 동결로 끝났고(점도표 '연내 인상'), 저녁엔 美 신규 실업급여 청구건수가 나와요. 19일엔 美·이란 종전 서명과 준틴스데이 휴장이 겹쳐 일정이 몰려요.",
+    "subNoteEm": "매파 FOMC 확인…19일 종전 서명·美 휴장",
+    "riskSentiment": "위험회피 우위 (매파 FOMC)",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        {"event": "韓 증시, 매파 FOMC·달러 강세(99.6) 여파 점검", "when": "장중"}
+      ]
+    },
+    "global": {
+      "timed": [
+        {"time": "03:00", "event": "FOMC 동결 3.50~3.75%·점도표 매파 '연내 인상' 9명·워시 첫 회견", "important": true},
+        {"time": "21:30", "event": "美 신규 실업급여 청구건수", "important": false}
+      ],
+      "untimed": []
+    },
+    "theme": "간밤 매파 FOMC로 인하 기대가 사라지며 달러가 강해진 가운데, 오늘 韓 증시는 반도체 모멘텀과 美 매파 재료가 맞붙는 하루예요. 외국인 수급과 환율 흐름을 함께 살피며 대응하는 흐름이에요",
+    "checks": [
+      "간밤 매파 FOMC·달러 강세(99.6)가 오늘 외국인 수급에 어떻게 반영되는지 봐요",
+      "SK하이닉스·삼성전자 반도체 쏠림이 이어질지, 차익실현이 나오는지 살펴봐요",
+      "원/달러 환율이 1,510원대에서 더 오르는지 외환시장을 확인해요",
+      "방산·원전·조선의 대미투자 기대가 지속될지 지켜봐요",
+      "19일 美·이란 종전 서명·준틴스데이 휴장 일정을 미리 챙겨요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-06-14",
+    "end": "2026-06-20",
+    "days": [
+      {
+        "date": "2026-06-14",
+        "weekday": "일",
+        "items": [
+          {"region": "global", "time": null, "event": "美 트럼프 '이란 종전 합의 완료' 발표 (주말)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-15",
+        "weekday": "월",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 +5.20% 8,545.98·매수 사이드카…8500 회복", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 증시 종전 환호 마감…나스닥 +3.07%·유가 80달러대 급락", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-16",
+        "weekday": "화",
+        "items": [
+          {"region": "global", "time": null, "event": "BOJ 기준금리 1.00%로 인상 (25bp)", "important": true, "category": "policy"},
+          {"region": "domestic", "time": null, "event": "코스피 +2.11% 8,726.60·외인 3거래일째 매수…8700 회복", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 다우 사상최고·나스닥 -1.15%·반도체 -3.44% 차익실현", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-17",
+        "weekday": "수",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 +1.58% 8,864.24 사상최고·SK하이닉스 250만닉스·삼성 시총 2천조", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 증시 하락·매파 FOMC 되돌림 (S&P -1.21%·나스닥 -1.35%)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-18",
+        "weekday": "목",
+        "items": [
+          {"region": "global", "time": "03:00", "event": "FOMC 동결 3.50~3.75%·점도표 매파 '연내 인상' 9명·워시 첫 회견", "important": true, "category": "policy"},
+          {"region": "global", "time": "21:30", "event": "美 신규 실업급여 청구건수", "important": false, "category": "macro"},
+          {"region": "domestic", "time": null, "event": "韓 증시, 매파 FOMC·달러 강세(99.6) 여파 점검", "important": false, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-19",
+        "weekday": "금",
+        "items": [
+          {"region": "global", "time": null, "event": "준틴스데이 美 증시 휴장", "important": true, "category": "holiday"},
+          {"region": "global", "time": null, "event": "美·이란 종전 합의 공식 서명 (스위스)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-20",
+        "weekday": "토",
+        "items": []
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 6,
+    "days": [
+      {
+        "date": "2026-06-01",
+        "items": [
+          {"region": "domestic", "event": "한국 5월 수출입 동향 발표", "important": true, "category": "macro"},
+          {"region": "global", "event": "미국 ISM 제조업 PMI (5월)", "important": true, "category": "macro"},
+          {"region": "global", "event": "엔비디아 컴퓨텍스 2026 키노트", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-03",
+        "items": [
+          {"region": "domestic", "event": "지방선거일 증시 휴장", "important": true, "category": "holiday"},
+          {"region": "global", "event": "브로드컴 2분기 실적 발표", "important": true, "category": "earnings"},
+          {"region": "global", "event": "미국 ADP 민간고용 (5월)", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "items": [
+          {"region": "global", "event": "미국 5월 비농업 취업자수 (NFP)", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-06",
+        "items": [
+          {"region": "domestic", "event": "현충일 (한국 공휴일·증시 휴장)", "important": true, "category": "holiday"}
+        ]
+      },
+      {
+        "date": "2026-06-08",
+        "items": [
+          {"region": "domestic", "event": "코스피 -8.29%·코스닥 -9.08% 검은 월요일·서킷브레이커", "important": true, "category": "market"},
+          {"region": "global", "event": "애플 WWDC26 개막 (~6/12)", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-09",
+        "items": [
+          {"region": "domestic", "event": "코스피 +8.18% 역대 최대 반등 (8,096.93)·매수 사이드카", "important": true, "category": "market"},
+          {"region": "global", "event": "애플 WWDC26 키노트 (새 Siri·iOS 27)", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-10",
+        "items": [
+          {"region": "domestic", "event": "코스피 -4.52% 급락·4거래일 연속 사이드카 (7,730.82)", "important": true, "category": "market"},
+          {"region": "global", "event": "미국 5월 CPI — 4.2%, 예상 부합", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-11",
+        "items": [
+          {"region": "domestic", "event": "6월 선물·옵션 동시만기일 — 코스피 강보합·코스닥 +4.76%", "important": true, "category": "market"},
+          {"region": "global", "event": "미국 5월 PPI — 6.5%, 2022년 후 최고", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-12",
+        "items": [
+          {"region": "domestic", "event": "외국인 25거래일 만에 순매수 — 코스피 +4.63% (8,123.62)", "important": true, "category": "market"},
+          {"region": "global", "event": "스페이스X(SPCX) 나스닥 상장 — 첫날 +19%", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-14",
+        "items": [
+          {"region": "global", "event": "美·이란 종전 합의 완료 발표 (주말)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-15",
+        "items": [
+          {"region": "domestic", "event": "코스피 +5.20% 8,545.98·매수 사이드카…8500선 회복", "important": true, "category": "market"},
+          {"region": "global", "event": "美 증시 종전 환호 마감…나스닥 +3.07%·유가 80달러대 급락", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-16",
+        "items": [
+          {"region": "domestic", "event": "코스피 +2.11% 8,726.60·외인 3거래일째 매수…8700 회복", "important": true, "category": "market"},
+          {"region": "global", "event": "BOJ 기준금리 1.00%로 인상 (25bp)", "important": true, "category": "policy"},
+          {"region": "global", "event": "美 다우 사상최고·나스닥 -1.15%·반도체 -3.44% 차익실현", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-17",
+        "items": [
+          {"region": "domestic", "event": "코스피 +1.58% 8,864.24 사상최고·SK하이닉스 250만닉스·삼성 시총 2천조", "important": true, "category": "market"},
+          {"region": "global", "event": "美 증시 하락·매파 FOMC 되돌림 (S&P -1.21%·나스닥 -1.35%)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-18",
+        "items": [
+          {"region": "global", "event": "FOMC 동결 3.50~3.75%·점도표 매파 '연내 인상' 9명·워시 첫 회견", "important": true, "category": "policy"},
+          {"region": "global", "event": "美 신규 실업급여 청구건수", "important": false, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-19",
+        "items": [
+          {"region": "global", "event": "준틴스데이 美 증시 휴장", "important": true, "category": "holiday"},
+          {"region": "global", "event": "美·이란 종전 합의 공식 서명 (스위스)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-22",
+        "items": [
+          {"region": "global", "event": "마벨 테크놀로지, S&P500 편입 발효", "important": false, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-24",
+        "items": [
+          {"region": "global", "event": "마이크론 FY 3분기 실적 발표", "important": true, "category": "earnings"}
+        ]
+      }
+    ]
+  }
+}

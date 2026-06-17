@@ -783,7 +783,38 @@
       "push": {
         "branch": "claude/relaxed-feynman-4kdwe2"
       }
+    },
+    {
+      "date": "2026-06-18",
+      "time": "07:02",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1121,
+      "tokens_estimated": 158000,
+      "response_size_kb": 28.5,
+      "tool_calls": {
+        "WebFetch": 4,
+        "WebSearch": 22,
+        "Read": 8,
+        "Write": 1,
+        "Bash": 6
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebSearch": "22/22 OK (지수·지표·FOMC·수급·뉴스)",
+        "WebFetch(thestreet·yahoo·cnbc·stockanalysis·kr.investing SOX)": "fail:403 — 4건 차단(WebSearch로 대체)",
+        "로컬 repo Read(context·schema·guides·whitelist·전일 briefing)": "8/8 OK",
+        "note": "KST 07:02 정규 발화. US 6/17(수) 마감(매파 FOMC 되돌림): S&P 7,420.13(-1.21%)·나스닥 26,021.66(-1.35%)·다우 51,493.16(-0.97%·장중 사상최고서 반락). FOMC 동결 3.50~3.75%(워시 첫 회의)·점도표 연말 3.8%(3월 3.4%)·18명 중 9명 '연내 인상'=매파. 지표 VIX 16.41·10Y 4.46%·DXY 99.65(+0.11%)·WTI $75.40(5일째↓ 호르무즈)·금 $4,352·BTC $64,387(-2.1%). 2Y 4.2%대 급등. KR 6/17(수) 마감: 코스피 8,864.24(+1.58%·종가 사상최고)·코스닥 1,031.96(+1.30%)·SK하이닉스 +5.84% 252만원(250만닉스)·삼성전자 +1.02% 시총 2,025조. 외국인 -9,924억·개인+5,397억·기관+5,802억. 환율 1,513.4원(주간종가)·EWY $205.08(▼). 필라델피아 반도체 종가는 출처 6/15~16 혼선으로 미검증 → SOXX 대용·방향 중심 잠정(-1.9%). US 섹터(매파일 금융↑·기술/부동산↓)·KR 약세업종(NAVER -2.30% 검증, 나머지 방향 잠정)은 §5 방향 보정. flow는 야간선물 미검증으로 2개(환율+ADR, v1.6.1). FOMC 결과는 18일 03시 KST → calendarWeek/Month 6/18 배치."
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-7oeh46"
+      }
     }
   ],
-  "updatedAt": "2026-06-17T07:02:00+09:00"
+  "updatedAt": "2026-06-18T07:02:00+09:00"
 }
