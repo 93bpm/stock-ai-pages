@@ -876,7 +876,39 @@
       "push": {
         "branch": "claude/relaxed-feynman-nkilvz"
       }
+    },
+    {
+      "date": "2026-06-21",
+      "time": "07:01",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 790,
+      "tokens_estimated": 205000,
+      "response_size_kb": 29.0,
+      "tool_calls": {
+        "WebFetch": 24,
+        "WebSearch": 24,
+        "Read": 2,
+        "Write": 1,
+        "Bash": 8
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebSearch": "24/24 OK (US 6/18 마감·SOX·VIX·금리·DXY·유가·금·BTC·KR 6/19 마감·수급·환율·예탁금·美 섹터·KR 업종·시총·EWY·애플인텔칩·종전·중국·주간 캘린더)",
+        "WebFetch(stooq CSV 14건·yahoo chart 2건)": "fail:403 — 16건 전량 차단(WebSearch로 대체)",
+        "WebFetch(raw.githubusercontent context·schema·guides operations/news/sources·whitelist 3종)": "8/8 OK",
+        "로컬 repo Read(전일 briefing 2026-06-20·manifest)": "2/2 OK",
+        "note": "KST 07:01 일요일 주말 발화. 美·韓 동시 휴장이고 19일(금)도 준틴스데이 美 휴장이라, 시세는 전일 6/20(토) 발화와 동일 세션을 carry: US=6/18(목) 마감(S&P 7,500.58 +1.08%·나스닥 26,517.93 +1.91%·다우 51,564.70·필반 14,376 +6.67%·VIX 16.2·10Y 4.46%·DXY 99.69·WTI $76.90·금 $4,250·BTC $66,257), KR=6/19(금) 마감(코스피 9,102.55 +0.43%·코스닥 1,008.42 +0.75%·SK하이닉스 시총 2천조·삼성 38만 신고가·외인 -8,420억·기관 +5,360억·개인 +2,890억·환율 1,516.8원). 시리즈 일관성 위해 전일 확정 세션값 carry(stooq/yahoo 403로 신규 tick 미확보·WebSearch 신규치는 상호 불일치 환각 다수→전일 확정값 우선). 신규 호재 반영: 트럼프 애플·인텔 美 칩 생산 발표(인텔 +10%, CNBC). flow 2개(환율+ADR, US휴장 야간선물 제외·v1.6.1). 캘린더: 일요일이라 calendar.timed/untimed 전부 빈 배열(일요일 cell items:[] subset 룰⑤ 준수). calendarWeek 신규 주(6/21 일~6/27 토): 6/22 美 재개·마벨 S&P500 편입, 6/23 美 소비자신뢰, 6/24 마이크론 FY3Q 실적(us-bigtech hit)·신규주택, 6/25 1Q GDP확정·내구재, 6/26 美 5월 PCE물가. calendarMonth 6/23·6/25·6/26 신규 추가+6/19 애플인텔(industry) 추가. category 7종 enum 전수 통과. 美 섹터·일부 종목 등락률은 §5 방향 중심 잠정. 매월 1일 아님→화이트리스트 재생성 없음."
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-bfu78v"
+      }
     }
   ],
-  "updatedAt": "2026-06-20T07:01:00+09:00"
+  "updatedAt": "2026-06-21T07:01:00+09:00"
 }
