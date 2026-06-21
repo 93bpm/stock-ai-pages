@@ -908,7 +908,39 @@
       "push": {
         "branch": "claude/relaxed-feynman-bfu78v"
       }
+    },
+    {
+      "date": "2026-06-22",
+      "time": "07:01",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 932,
+      "tokens_estimated": 210000,
+      "response_size_kb": 28.1,
+      "tool_calls": {
+        "WebFetch": 9,
+        "WebSearch": 28,
+        "Read": 9,
+        "Write": 1,
+        "Bash": 9
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebSearch": "28/28 OK (핵심 출처. KR 6/19 마감·수급·환율·업종/종목 등락·예탁금·금통위·마이크론·PCE·MSCI·호르무즈·보험·조선·美 주간전망 등)",
+        "WebFetch(raw.githubusercontent context·schema·guides·whitelist)": "2/2 OK (context·schema; guides/whitelist는 로컬 repo Read)",
+        "WebFetch(fnnews·hankyung·etoday·news2day·yahoo 종목/지수)": "fail:403 — 7건 전량 차단(WebSearch 본문 요약으로 대체)",
+        "로컬 repo Read(guides 5종·schema·전일 briefing 6/19·whitelist 2종)": "9/9 OK",
+        "note": "KST 07:01 월요일 발화. 19일(금) 준틴스데이 美 휴장+주말로 US 시세는 6/18(목) 마감 carry(S&P 7,500.58 +1.08%·나스닥 26,517.93 +1.91%·다우 51,564.70·필반 14,376 +6.67%·VIX 16.2·10Y 4.46%·DXY 99.69·WTI $76.90·금 $4,250·BTC $66,257). KR은 6/19(금) 실제 마감 신규 확보: 코스피 9,052.42 -0.13%(장중 사상 첫 9,385.59 ATH 후 8,831까지 급락·종목 86% 하락)·코스닥 966.59 -3.43%·SK하이닉스 +2.94% 276.4만(280만닉스·시총 첫 2천조)·삼성전자 -2.34% 35.4만·삼성전기 +6.82% 신고가·삼성생명 +5.76%·삼성화재 +8.42%(상법 개정 보험 강세)·환율 1,529.2원·외인 -3,922억·기관 -1.2조·개인 +1.7조. ※ 전 주말 6/20·6/21 briefing이 carry한 6/19 코스피 9,102.55는 오기로 판단(MTN·etoday·sedaily·fnnews·한경 5개 매체 9,052.42 일치)→실제 마감값 채택. flow 2개(환율+ADR EWY, US휴장 야간선물 제외·v1.6.1). 주말 신규 호재/악재: 이란 호르무즈 해협 재봉쇄 선언(6/21, MOU 위반 주장)→유가·지정학 risk-off. 캘린더 신규 주(6/21 일~6/27 토): 6/22 마벨 S&P500 편입, 6/23 MSCI 시장분류 리뷰(韓 관찰국 292억$ 기대), 6/24 마이크론 FY3Q 실적(us-bigtech hit·earnings), 6/25 PCE·1Q GDP·내구재(21:30 KST), 6/26 미시간대 소비심리. calendarMonth 6/19 갱신+6/21·22·23·25 신규. 학회 7일 window 내 없음(WWDC·Computex 종료). 한은 금통위 7/16(6월 외). category 7종 enum 전수 통과·실적 화이트리스트(마이크론/브로드컴) 통과. 매월 1일 아님→화이트리스트 재생성 없음."
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-9k0ona"
+      }
     }
   ],
-  "updatedAt": "2026-06-21T07:01:00+09:00"
+  "updatedAt": "2026-06-22T07:01:00+09:00"
 }
