@@ -940,7 +940,38 @@
       "push": {
         "branch": "claude/relaxed-feynman-9k0ona"
       }
+    },
+    {
+      "date": "2026-06-23",
+      "time": "07:01",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1496,
+      "tokens_estimated": 235000,
+      "response_size_kb": 29.4,
+      "tool_calls": {
+        "WebFetch": 8,
+        "WebSearch": 33,
+        "Read": 6,
+        "Write": 1,
+        "Bash": 5
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebSearch": "33/33 OK (핵심 출처. US 6/22 마감·섹터·지표, KR 6/22 마감·수급·환율·종목 등락·예탁금, MSCI·마이크론·SpaceX·중국·뉴스 URL 확보)",
+        "WebFetch": "0/8 — 전량 403 차단(thestreet·fortune·yahoo·investing·cnbc·tradingkey·google·barchart). WebSearch 요약으로 대체",
+        "로컬 repo Read(schema·guides 4종·전일 briefing 6/22·whitelist via Bash)": "6/6 OK",
+        "note": "KST 07:01 화요일 발화. 美는 6/22(월) 정규장 마감 신규 확보: S&P 7,472.79 -0.37%·나스닥 26,166.60 -1.32%·다우 51,712.71 +0.29%(사상최고)·필반(SOX) 14,634.72 +2.04%(역행 강세)·VIX 16.78·10Y 4.50%·DXY 101.02·WTI $74.30(美·이란 협상 진전·호르무즈 통항 재개로 하락)·금 $4,193·BTC $65,034. 빅테크 순환매: 알파벳 -6.7%(법적 악재)·아마존 -4.3%·메타 -2.7%·MS -3%, 칩 역행(마이크론 +6.8%·Anthropic HBM 협약·엔비디아 S&P500 편입). 나스닥100 리밸런싱(코어위브·아스테라랩스 편입)·SpaceX -16% 200억$ 채권. KR 6/22(월) 마감: 코스피 9,114.55 +0.69%(사상최고 종가·장중 8,900~9,253 롤러코스터)·코스닥 968.40 +0.19%·★SK하이닉스 +5.60% 291.9만 삼성전자(-0.14%) 제치고 25년7개월만 코스피 시총 1위 등극(보통주 기준·시총 2,080조 vs 2,066조)★·두산퓨얼셀 +17.60%·삼화콘덴서/미래산업 상한가·현대차 -5.22%·NAVER -2.30%·셀트리온 -1.45%·환율 1,537.89원·외인 -2.5조/기관 +0.3조/개인 +2.1조. flow 2개(환율+ADR EWY $219.2 보합·야간선물 값 미확보로 제외·v1.6.1). 캘린더 주(6/21일~6/27토): 6/23 오늘(MSCI 발표 임박)·6/24 MSCI 시장분류 결과 05:30 KST(韓 관찰대상국 등재 여부)+마이크론 FY3Q 실적·6/25 PCE/1Q GDP/내구재 21:30·6/26 미시간대 소비심리. ※전일(6/22) briefing이 MSCI를 6/23로 배치했으나 실제 韓 결과 공개는 KST 6/24 05:30 확인→6/24로 정정. calendarMonth 6/22·6/23·6/24·6/26 갱신+신규. 학회 7일 window 내 없음. 한은 금통위 7/16(6월 외). category 7종 enum 전수 통과·실적 화이트리스트(마이크론 MU·브로드컴 AVGO us-bigtech) 통과. 매월 1일 아님→화이트리스트 재생성 없음. WebFetch는 routine 환경에서 전량 403."
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-w16yeb"
+      }
     }
   ],
-  "updatedAt": "2026-06-22T07:01:00+09:00"
+  "updatedAt": "2026-06-23T07:01:00+09:00"
 }
