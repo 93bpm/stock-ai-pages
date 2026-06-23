@@ -1,0 +1,350 @@
+{
+  "date": "2026-06-24",
+  "weekday": "수",
+  "generatedAt": "2026-06-24T07:01:00+09:00",
+  "us": {
+    "subNote": "6월 23일(화) 뉴욕은 글로벌 기술주 매도가 덮친 '검은 화요일'이었어요. 아시아 장에서 코스피가 -9.99% 폭락한 충격이 그대로 번지며 나스닥이 -2.30%(25,564.77), S&P 500이 -1.53%(7,358.46)로 밀렸고 다우도 -0.58%(51,412.78) 내렸어요. 필라델피아 반도체는 칩 동반 매도로 8%가량 급락했고요. 알파벳이 AI 핵심 인재 이탈로 -6.5%, 엔비디아·마이크론·오라클도 줄줄이 빠졌어요. BofA가 '연내 Fed 3회 인상' 전망을 내놓은 가운데 美 10년물은 안전자산 선호로 4.48%로 내렸고 달러인덱스는 101.39로 13개월 최고예요. 24일 마이크론 실적·25일 PCE가 분수령이에요. (美 섹터 등락률은 6/23 방향 중심 잠정치예요)",
+    "subNoteEm": "코스피 폭락이 부른 글로벌 기술주 '검은 화요일'",
+    "comment": "뉴욕은 <b>아시아발 충격이 번진 '검은 화요일'</b>이었어요. <b>코스피가 -10% 폭락</b>한 여파로 <b>나스닥 -2.3%·S&P 500 -1.5%</b>가 밀렸고, <b>알파벳이 AI 인재 이탈로 -6.5%</b>·엔비디아·마이크론도 동반 급락했어요. AI 투자비가 수익보다 빠르게 늘 거란 의구심이 핵심이에요. 다만 <b>유틸리티·필수소비재 같은 방어주로 자금이 옮겨가</b> 다우 낙폭은 상대적으로 작았고, <b>美 10년물은 4.48%로 내려</b> 안전자산 선호가 확인됐어요. <b>24일 마이크론 실적</b>과 25일 PCE가 韓 메모리·환율 흐름의 분수령이라 추격보다 호흡을 고르는 게 좋아요. 투자 판단은 본인 책임이에요.",
+    "indices": [
+      {"name": "S&P 500", "tip": "정규장 종가·기술주 매도", "value": "7,358.46", "change": "-1.53%", "dir": "down"},
+      {"name": "나스닥 종합", "tip": "AI·반도체 급락 -600p", "value": "25,564.77", "change": "-2.30%", "dir": "down"},
+      {"name": "다우존스", "tip": "방어주 순환매로 낙폭 제한", "value": "51,412.78", "change": "-0.58%", "dir": "down"},
+      {"name": "필라델피아 반도체", "tip": "SOXX 대용·칩 급락(방향·등락 잠정)", "value": "13,434.67", "change": "-8.20%", "dir": "down"}
+    ],
+    "indicators": [
+      {"key": "VIX", "value": "20.0 ▲", "dir": "up"},
+      {"key": "美 10년물", "value": "4.48% ▼", "dir": "down"},
+      {"key": "달러인덱스", "value": "101.39 ▲", "dir": "up"},
+      {"key": "WTI 유가", "value": "$73.40 ▼", "dir": "down"},
+      {"key": "금", "value": "$4,129 ▼", "dir": "down"},
+      {"key": "비트코인", "value": "$62,500 ▼", "dir": "down"}
+    ],
+    "sectorsUp": [
+      {"name": "유틸리티", "change": "+1.5%"},
+      {"name": "필수소비재", "change": "+1.1%"},
+      {"name": "부동산", "change": "+0.9%"},
+      {"name": "헬스케어", "change": "+0.7%"},
+      {"name": "금융", "change": "+0.4%"}
+    ],
+    "sectorsDown": [
+      {"name": "기술(IT)", "change": "-4.1%"},
+      {"name": "커뮤니케이션", "change": "-3.4%"},
+      {"name": "에너지", "change": "-1.0%"},
+      {"name": "소재", "change": "-0.6%"},
+      {"name": "산업재", "change": "-0.4%"}
+    ]
+  },
+  "world": {
+    "subNote": "전 세계 증시가 기술주 매도에 휩쓸린 하루였어요. 아시아 장에서 코스피가 -9.99% 폭락한 충격이 美로 번져 나스닥 -2.3%·S&P -1.5%가 밀렸고, AI 투자비 회수 우려가 핵심이었어요. 韓은 SK하이닉스·삼성전자가 12%대 동반 급락했고 MSCI 선진국 편입까지 또 불발됐어요. 24일 마이크론 실적·25일 PCE가 이번 주 분수령이에요.",
+    "subNoteEm": "코스피 -10% 폭락이 부른 글로벌 기술주 매도",
+    "global": [
+      {"rank": "01", "category": "미국증시", "categoryStyle": "default", "sentiment": "neg", "title": "나스닥 -2.3%·다우 -0.58% 글로벌 매도", "summary": "아시아 급락이 美로 번지며 기술주 중심으로 큰 폭 하락했어요", "source": "TheStreet", "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-23-2026", "note": "亞 급락이 美로 번졌어요"},
+      {"rank": "02", "category": "빅테크", "categoryStyle": "tech", "sentiment": "neg", "title": "알파벳·엔비디아 급락·AI 수익성 의문", "summary": "AI 투자비가 수익보다 빠르게 늘 거란 우려에 빅테크가 동반 하락했어요", "source": "CBS News", "sourceUrl": "https://www.cbsnews.com/news/tech-stock-selloff-ai-profits-nasdaq-nvidia-alphabet-spacex/", "note": "AI 투자비 회수 우려예요"},
+      {"rank": "03", "category": "통화정책", "categoryStyle": "default", "sentiment": "neg", "title": "BofA '연내 Fed 3회 인상' 전망", "summary": "끈적한 인플레와 워시 매파 기조에 9·10·12월 인상을 전망했어요", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/06/22/bank-of-america-sees-3-fed-hikes-in-2026-inflation-unambiguously-worse.html", "note": "강달러·환율에 부담이에요"},
+      {"rank": "04", "category": "반도체", "categoryStyle": "tech", "sentiment": "neg", "title": "반도체 트레이드 균열·SOX 급락", "summary": "고점 부담 속 칩주가 동반 매도되며 필라델피아 반도체가 8%가량 빠졌어요", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/markets/article/wall-streets-hottest-trade-is-cracking-in-a-trillion-dollar-wipeout-184540683.html", "note": "韓 메모리 투심에 직격이에요"},
+      {"rank": "05", "category": "반도체", "categoryStyle": "tech", "sentiment": "neu", "title": "마이크론 24일 FY3Q 실적 분수령", "summary": "HBM 완판 속 24일 실적이 메모리 업황의 가늠자가 될 전망이에요", "source": "TheStreet", "sourceUrl": "https://www.thestreet.com/investing/stocks/mu-micron-stock-q3-2026-earnings-high-bandwidth-memory", "note": "韓 메모리 선행지표예요"},
+      {"rank": "06", "category": "거시", "categoryStyle": "default", "sentiment": "neu", "title": "美 10년물 4.48%로 하락·안전자산 선호", "summary": "주가 급락에 안전자산 수요가 늘며 국채금리가 되레 내렸어요", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/amp/2026/06/23/treasury-yields-interest-rate-concerns-hit-tech-stocks.html", "note": "안전자산 선호로 금리 내렸어요"},
+      {"rank": "07", "category": "기업", "categoryStyle": "default", "sentiment": "neu", "title": "스페이스X, 변동성 끝 소폭 반등", "summary": "데뷔가 아래로 밀렸다가 1%대 반등하며 3일 연속 하락을 끊었어요", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/06/23/spacex-stock-tech-sell-off.html", "note": "신규 상장주 변동성 커요"},
+      {"rank": "08", "category": "원자재", "categoryStyle": "geo", "sentiment": "pos", "title": "유가 73달러대·3개월 최저", "summary": "美·이란 평화로 공급 우려가 줄며 WTI가 3개월 최저로 내렸어요", "source": "Crux Investor", "sourceUrl": "https://www.cruxinvestor.com/posts/us-iran-deal-cuts-supply-risk-sends-crude-to-three-month-lows-supports-rate-cut-expectations", "note": "물가·정유 부담 덜어요"},
+      {"rank": "09", "category": "원자재", "categoryStyle": "default", "sentiment": "neg", "title": "금값 4,129달러로 하락", "summary": "강달러와 Fed 인상 경계에 금이 전 거래일보다 1.5% 내렸어요", "source": "Fortune", "sourceUrl": "https://fortune.com/article/current-price-of-gold-06-23-2026/", "note": "강달러·고금리 부담이에요"},
+      {"rank": "10", "category": "환율", "categoryStyle": "default", "sentiment": "neu", "title": "달러 13개월 최고·비트코인 6.3만 하회", "summary": "Fed 인상 베팅에 달러가 강해지고 비트코인은 위험회피로 밀렸어요", "source": "Capital.com", "sourceUrl": "https://capital.com/en-int/market-updates/bitcoin-price-forecast-23-06-2026", "note": "강달러가 위험자산 눌러요"},
+      {"rank": "11", "category": "글로벌증시", "categoryStyle": "default", "sentiment": "neg", "title": "전 세계 기술주 동반 매도 심화", "summary": "AI·칩·메모리 고평가 우려가 글로벌 증시 전반으로 번졌어요", "source": "NBC News", "sourceUrl": "https://www.nbcnews.com/business/business-news/tech-sell-off-markets-spacex-alphabet-nasdaq100-stocks-rcna351331", "note": "전 세계 동반 매도였어요"},
+      {"rank": "12", "category": "투자심리", "categoryStyle": "default", "sentiment": "neg", "title": "공포지수 VIX 20선으로 급등", "summary": "기술주 매도에 변동성이 커지며 공포지수가 한 단계 뛰었어요", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-jun-23-132400480.html", "note": "변동성 확대 신호예요"}
+    ],
+    "domestic": [
+      {"rank": "01", "category": "국내증시", "categoryStyle": "default", "sentiment": "neg", "title": "코스피 -9.99% 8,203·검은 화요일", "summary": "910포인트 넘게 빠진 역대 최대 낙폭으로 8,203.84에 마감했어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202606231634553710", "note": "역대 최대 낙폭이에요"},
+      {"rank": "02", "category": "증시제도", "categoryStyle": "default", "sentiment": "neg", "title": "서킷브레이커·매도 사이드카 발동", "summary": "오후 2시 33분 올해 네 번째 서킷브레이커가 발동돼 거래가 멈췄어요", "source": "뉴스1", "sourceUrl": "https://www.news1.kr/finance/general-stock/6205989", "note": "안전판이 줄가동됐어요"},
+      {"rank": "03", "category": "수급", "categoryStyle": "default", "sentiment": "neg", "title": "외인·기관 각 4조 매도 폭탄", "summary": "외국인 -4.1조·기관 -4.6조를 개인이 역대 최대 +8.6조로 받아냈어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202606231203219904", "note": "개인이 8.6조 받았어요"},
+      {"rank": "04", "category": "반도체", "categoryStyle": "tech", "sentiment": "neg", "title": "삼·하 12% 급락·반도체 차익실현", "summary": "SK하이닉스 -12.47%·삼성전자 -12.31%로 대형 반도체가 폭락했어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202606231602307695", "note": "쏠림 역풍이 컸어요"},
+      {"rank": "05", "category": "증시전망", "categoryStyle": "default", "sentiment": "neg", "title": "시총 1위 내준 삼성·고점 신호?", "summary": "전날 1위에 오른 SK하이닉스가 폭락하며 쏠림 부작용 경고가 나왔어요", "source": "MBC", "sourceUrl": "https://imnews.imbc.com/replay/2026/nwdesk/article/6832027_37004.html", "note": "쏠림 부작용 경고예요"},
+      {"rank": "06", "category": "증시제도", "categoryStyle": "default", "sentiment": "neg", "title": "MSCI 선진국 편입 또 불발", "summary": "韓이 신흥국에 그대로 남고 관찰대상국에도 빠져 내년을 기약했어요", "source": "아시아경제", "sourceUrl": "https://www.asiae.co.kr/en/article/2026062308553914513", "note": "수급 기대가 꺾였어요"},
+      {"rank": "07", "category": "증시자금", "categoryStyle": "default", "sentiment": "neu", "title": "신용융자 36.5조 사상 최고", "summary": "빚투가 사상 최고로 불어 급락장에서 변동성을 키운 요인이 됐어요", "source": "MBC", "sourceUrl": "https://imnews.imbc.com/news/2026/econo/article/6823404_36932.html", "note": "빚투가 변동성 키워요"},
+      {"rank": "08", "category": "증시자금", "categoryStyle": "default", "sentiment": "neu", "title": "예탁금 127조·대형주 쏠림 심화", "summary": "대기자금 127조가 대형주에 집중되며 양극화가 깊어졌어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202606151341010487", "note": "유동성 양극화 신호예요"},
+      {"rank": "09", "category": "코스닥", "categoryStyle": "default", "sentiment": "neg", "title": "코스닥 -7.94% 891·동반 급락", "summary": "장중 6%대 급락 후 낙폭을 키워 891.52로 마감하며 사이드카가 걸렸어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202606231408047250", "note": "중소형주가 더 흔들렸어요"},
+      {"rank": "10", "category": "증시제도", "categoryStyle": "default", "sentiment": "neu", "title": "MSCI '기대 낮춰야' 목소리도", "summary": "발표 전부터 편입 가능성이 낮다는 신중론이 함께 나왔어요", "source": "아시아경제", "sourceUrl": "https://www.asiae.co.kr/en/article/2026062214351078560", "note": "눈높이 조정이 필요했어요"},
+      {"rank": "11", "category": "실적", "categoryStyle": "tech", "sentiment": "pos", "title": "삼·하 2Q 합산 영업익 160조 기대", "summary": "급락에도 삼성·SK 2분기 합산 160조 돌파 기대는 유지되고 있어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202606210630482509", "note": "펀더멘털은 견조해요"},
+      {"rank": "12", "category": "반도체", "categoryStyle": "tech", "sentiment": "neu", "title": "'풍향계' 마이크론 24일 실적 주목", "summary": "메모리 3위 마이크론 실적이 삼·하 투심을 가늠하는 풍향계가 돼요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202606210601271943", "note": "韓 메모리 선행지표예요"}
+    ]
+  },
+  "kr": {
+    "subNote": "6월 23일(화) 코스피는 -9.99%(8,203.84) 폭락하며 '검은 화요일'을 맞았어요. 910포인트 넘게 빠진 역대 최대 낙폭이고, 오후 2시 33분 올해 네 번째 서킷브레이커까지 발동됐어요. 전날 시총 1위에 오른 SK하이닉스가 -12.47%, 삼성전자가 -12.31%로 동반 폭락했고, 코스닥도 -7.94%(891.52) 급락했어요. 외국인 -4.1조·기관 -4.6조 매도 폭탄을 개인이 역대 최대 +8.6조로 받아냈고요. 24일 새벽 MSCI는 韓을 신흥국에 그대로 둬 선진국 편입이 또 불발됐어요. 강세는 사실상 인버스(헤지) 상품에 국한됐어요. (인버스 ETF 등락은 지수 역추종 기준 잠정치예요)",
+    "subNoteEm": "코스피 -9.99% 폭락·올해 네 번째 서킷브레이커",
+    "comment": "국장에 <b>'검은 화요일'</b>이 닥쳤어요. <b>코스피가 -9.99%(8,203.84)로 역대 최대 낙폭</b>을 기록하며 올해 네 번째 서킷브레이커가 발동됐어요. 전날 시총 1위에 오른 <b>SK하이닉스(-12.47%)·삼성전자(-12.31%)가 동반 폭락</b>했고, 반도체 쏠림의 역풍이 그대로 돌아왔어요. <b>외국인·기관이 각 4조 넘게 팔고 개인이 8.6조를 받아낸</b> 극단적 수급이었고요. 새벽 <b>MSCI 선진국 편입은 또 불발</b>돼 기대 매수세도 꺾였어요. 다만 예탁금 127조가 버티고 실적 펀더멘털은 견조한 만큼, 변동성 국면에선 추격보다 분할 대응이 좋아요. 투자 판단은 본인 책임이에요.",
+    "expectedRange": "오늘은 급락 후 반발 매수와 MSCI 불발 실망이 맞물려 코스피 8,100~8,500선 변동성 장세가 예상돼요",
+    "indices": [
+      {"name": "코스피", "tip": "-910.71p·검은 화요일·역대 최대 낙폭", "value": "8,203.84", "change": "-9.99%", "dir": "down"},
+      {"name": "코스닥", "tip": "-76.88p·동반 급락·사이드카", "value": "891.52", "change": "-7.94%", "dir": "down"}
+    ],
+    "flow": [
+      {"key": "원/달러 환율", "value": "1,535.97원 ▼", "dir": "down"},
+      {"key": "미국 상장 한국물(ADR)", "value": "EWY $197.45 ▼ (-9.9%)", "dir": "down"}
+    ],
+    "supply": [
+      {"who": "외국인", "amount": "-41,320억원", "dir": "sell"},
+      {"who": "기관", "amount": "-45,500억원", "dir": "sell"},
+      {"who": "개인", "amount": "+85,900억원", "dir": "buy"}
+    ],
+    "sectorsUp": [
+      {"theme": "인버스 2X (서킷 발동·헤지 급등)", "stockName": "KODEX 200선물인버스2X", "stockChange": "+19.6%"},
+      {"theme": "인버스 2X (지수 역추종)", "stockName": "TIGER 200선물인버스2X", "stockChange": "+19.4%"},
+      {"theme": "코스닥 인버스 2X (동반 급락 헤지)", "stockName": "KODEX 코스닥150선물인버스2X", "stockChange": "+15.7%"},
+      {"theme": "단순 인버스 (하락 베팅)", "stockName": "KODEX 인버스", "stockChange": "+9.8%"},
+      {"theme": "코스닥 인버스 (지수 역추종)", "stockName": "KODEX 코스닥150선물인버스", "stockChange": "+7.9%"}
+    ],
+    "sectorsDown": [
+      {"theme": "반도체 (검은 화요일 급락)", "stockName": "SK하이닉스", "stockChange": "-12.47%"},
+      {"theme": "반도체 대형 (시총 쟁탈 후폭풍)", "stockName": "삼성전자", "stockChange": "-12.31%"},
+      {"theme": "2차전지 (코스닥 동반 급락)", "stockName": "에코프로", "stockChange": "-10.04%"},
+      {"theme": "2차전지 소재 (배터리 약세)", "stockName": "에코프로비엠", "stockChange": "-9.48%"},
+      {"theme": "바이오·제약 (방어주도 하락)", "stockName": "셀트리온", "stockChange": "-4.75%"}
+    ],
+    "watchlist": [
+      {"name": "SK하이닉스", "badge": "급락 -12%", "badgeType": "down", "desc": "전날 시총 1위에 오른 다음날 -12.47% 폭락했어요. 24일 마이크론 실적이 HBM·메모리 투심의 분수령이 될 전망이에요"},
+      {"name": "삼성전자", "badge": "-12% 동반", "badgeType": "down", "desc": "-12.31% 급락하며 하루 만에 시총 변동성이 커졌어요. 외국인 매도가 얼마나 집중됐는지 함께 살펴봐요"},
+      {"name": "마이크론(美)", "badge": "24일 실적", "badgeType": "up", "desc": "24일(美 장 마감 후) FY3Q 실적을 내요. HBM 완판 속 결과가 삼성·SK 메모리 투심의 선행지표가 될 수 있어요"},
+      {"name": "개인 투자자", "badge": "8.6조 순매수", "badgeType": "default", "desc": "외국인·기관 매도를 개인이 역대 최대 8.6조로 받아냈어요. 저가 매수가 반등으로 이어질지 지켜봐요"}
+    ],
+    "health": [
+      {"key": "투자자 예탁금", "tip": "대기 자금 (6/11 기준)", "value": "127조3,718억원", "subIcon": "▲", "subDir": "up"},
+      {"key": "신용융자 잔고", "tip": "빚투 지표 (사상 최고)", "value": "36조6,564억원", "subIcon": "▲", "subDir": "up"}
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘(6/24)은 검은 화요일 급락 다음날이라 반등·안정화 여부가 관건이에요. 새벽 MSCI 선진국 편입이 또 불발됐고, 24일 마이크론 실적·25일 PCE가 줄대기예요.",
+    "subNoteEm": "MSCI 또 불발·마이크론 실적 앞둔 반등 시험대",
+    "riskSentiment": "위험회피 (검은 화요일·AI 거품 경계)",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        {"event": "韓 증시 개장 — 검은 화요일 급락 후 반등·당국 안정화 조치 점검", "when": "장중"}
+      ]
+    },
+    "global": {
+      "timed": [
+        {"time": "05:30", "event": "MSCI 시장분류 결과 — 韓 신흥국 잔류·선진국 편입 또 불발(관찰대상국 제외)", "important": true}
+      ],
+      "untimed": [
+        {"event": "마이크론 FY3Q 실적 (美 장 마감 후·HBM 가늠자·결과 25일 새벽 KST)", "when": "새벽"}
+      ]
+    },
+    "theme": "오늘 국장은 '검은 화요일' 급락 다음날로, 반발 매수가 들어올지와 당국의 안정화 조치가 변동성을 진정시킬지 가늠하는 하루예요. 새벽 MSCI에서 韓 선진국 편입이 또 불발돼 기대 매수세는 줄었지만, 24일 마이크론 실적·25일 美 PCE가 메모리 투심과 환율 흐름을 좌우할 분수령이라 호흡을 고르며 살펴봐요",
+    "checks": [
+      "검은 화요일 급락 후 반발 매수가 들어오는지, 추가 변동성은 없는지 봐요",
+      "당국의 증시 안정화 조치(공매도 등) 검토 소식을 챙겨요",
+      "새벽 MSCI 선진국 편입 불발이 외국인 수급에 주는 영향을 살펴봐요",
+      "24일 마이크론 실적이 HBM·메모리 투심에 주는 신호를 점검해요",
+      "25일 美 PCE를 앞둔 국채금리·환율 흐름을 함께 봐요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-06-21",
+    "end": "2026-06-27",
+    "days": [
+      {
+        "date": "2026-06-21",
+        "weekday": "일",
+        "items": [
+          {"region": "global", "time": null, "event": "美·이란 협상 진전·호르무즈 통항 재개 조짐 (주말)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-22",
+        "weekday": "월",
+        "items": [
+          {"region": "domestic", "time": null, "event": "SK하이닉스, 삼성전자 제치고 코스피 시총 1위 등극 (25년 7개월 만)·코스피 9,114.55 사상최고", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "BofA '연내 Fed 3회 인상' 전망 노트·마이크론-Anthropic AI 메모리 협약", "important": true, "category": "policy"},
+          {"region": "global", "time": null, "event": "美 나스닥100 리밸런싱 발효 (코어위브·아스테라랩스 편입)", "important": false, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-23",
+        "weekday": "화",
+        "items": [
+          {"region": "domestic", "time": null, "event": "검은 화요일 — 코스피 -9.99% 8,203.84 역대 최대 낙폭·서킷브레이커·삼성/SK -12% 폭락", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 빅테크·반도체 급락 — 알파벳 -6.5%(AI 인재 이탈)·나스닥 -2.3%·SOX 8%대 급락", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-24",
+        "weekday": "수",
+        "items": [
+          {"region": "global", "time": "05:30", "event": "MSCI 시장분류 결과 — 韓 신흥국 잔류·선진국 편입 또 불발(관찰대상국 제외)", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "마이크론 FY3Q 실적 발표 (장 마감 후·HBM 가늠자·결과 25일 새벽 KST)", "important": true, "category": "earnings"},
+          {"region": "domestic", "time": null, "event": "韓 증시 개장 — 검은 화요일 급락 후 반등·당국 안정화 조치 점검", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-25",
+        "weekday": "목",
+        "items": [
+          {"region": "global", "time": "21:30", "event": "美 5월 PCE 물가·1Q GDP 확정·내구재 주문", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-26",
+        "weekday": "금",
+        "items": [
+          {"region": "global", "time": "23:00", "event": "美 6월 미시간대 소비자심리 확정치", "important": false, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-27",
+        "weekday": "토",
+        "items": []
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 6,
+    "days": [
+      {
+        "date": "2026-06-01",
+        "items": [
+          {"region": "domestic", "event": "한국 5월 수출입 동향 발표", "important": true, "category": "macro"},
+          {"region": "global", "event": "미국 ISM 제조업 PMI (5월)", "important": true, "category": "macro"},
+          {"region": "global", "event": "엔비디아 컴퓨텍스 2026 키노트", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-03",
+        "items": [
+          {"region": "domestic", "event": "지방선거일 증시 휴장", "important": true, "category": "holiday"},
+          {"region": "global", "event": "브로드컴 2분기 실적 발표", "important": true, "category": "earnings"},
+          {"region": "global", "event": "미국 ADP 민간고용 (5월)", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "items": [
+          {"region": "global", "event": "미국 5월 비농업 취업자수 (NFP)", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-06",
+        "items": [
+          {"region": "domestic", "event": "현충일 (한국 공휴일·증시 휴장)", "important": true, "category": "holiday"}
+        ]
+      },
+      {
+        "date": "2026-06-08",
+        "items": [
+          {"region": "domestic", "event": "코스피 -8.29%·코스닥 -9.08% 검은 월요일·서킷브레이커", "important": true, "category": "market"},
+          {"region": "global", "event": "애플 WWDC26 개막 (~6/12)", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-09",
+        "items": [
+          {"region": "domestic", "event": "코스피 +8.18% 역대 최대 반등 (8,096.93)·매수 사이드카", "important": true, "category": "market"},
+          {"region": "global", "event": "애플 WWDC26 키노트 (새 Siri·iOS 27)", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-10",
+        "items": [
+          {"region": "domestic", "event": "코스피 -4.52% 급락·4거래일 연속 사이드카 (7,730.82)", "important": true, "category": "market"},
+          {"region": "global", "event": "미국 5월 CPI — 4.2%, 예상 부합", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-11",
+        "items": [
+          {"region": "domestic", "event": "6월 선물·옵션 동시만기일 — 코스피 강보합·코스닥 +4.76%", "important": true, "category": "market"},
+          {"region": "global", "event": "미국 5월 PPI — 6.5%, 2022년 후 최고", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-12",
+        "items": [
+          {"region": "domestic", "event": "외국인 25거래일 만에 순매수 — 코스피 +4.63% (8,123.62)", "important": true, "category": "market"},
+          {"region": "global", "event": "스페이스X(SPCX) 나스닥 상장 — 첫날 +19%", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-14",
+        "items": [
+          {"region": "global", "event": "美·이란 종전 합의 완료 발표 (주말)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-15",
+        "items": [
+          {"region": "domestic", "event": "코스피 +5.20% 8,545.98·매수 사이드카…8500선 회복", "important": true, "category": "market"},
+          {"region": "global", "event": "美 증시 종전 환호 마감…나스닥 +3.07%·유가 80달러대 급락", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-16",
+        "items": [
+          {"region": "domestic", "event": "코스피 +2.11% 8,726.60·외인 3거래일째 매수…8700 회복", "important": true, "category": "market"},
+          {"region": "global", "event": "BOJ 기준금리 1.00%로 인상 (25bp)", "important": true, "category": "policy"},
+          {"region": "global", "event": "美 다우 사상최고·나스닥 -1.15%·반도체 -3.44% 차익실현", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-17",
+        "items": [
+          {"region": "domestic", "event": "코스피 +1.58% 8,864.24 사상최고·SK하이닉스 250만닉스·삼성 시총 2천조", "important": true, "category": "market"},
+          {"region": "global", "event": "美 증시 하락·매파 FOMC 되돌림 (S&P -1.21%·나스닥 -1.35%)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-18",
+        "items": [
+          {"region": "global", "event": "FOMC 동결 3.50~3.75%·점도표 매파 '연내 인상' 9명·워시 첫 회견", "important": true, "category": "policy"},
+          {"region": "domestic", "event": "코스피 +2.25% 9,063.84 사상 첫 9000 돌파·270만닉스·코스닥 -3.01% 1000붕괴", "important": true, "category": "market"},
+          {"region": "global", "event": "美 증시 반등·필라델피아 반도체 +6.67% (S&P +1.08%·나스닥 +1.91%)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-19",
+        "items": [
+          {"region": "domestic", "event": "코스피 9300 첫 돌파 후 9,052.42 마감·코스닥 -3.43% 966.59·종목 86% 하락", "important": true, "category": "market"},
+          {"region": "global", "event": "준틴스데이 美 증시·채권 휴장", "important": true, "category": "holiday"},
+          {"region": "global", "event": "美·이란 종전 MOU 발효·스위스 서명식 생략", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-21",
+        "items": [
+          {"region": "global", "event": "美·이란 협상 진전·호르무즈 통항 재개 조짐 (주말)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-22",
+        "items": [
+          {"region": "domestic", "event": "SK하이닉스, 삼성전자 제치고 코스피 시총 1위 등극 (25년 7개월 만)·코스피 9,114.55 사상최고", "important": true, "category": "market"},
+          {"region": "global", "event": "BofA '연내 Fed 3회 인상' 노트·마이크론-Anthropic AI 메모리 협약·나스닥100 리밸런싱", "important": true, "category": "policy"}
+        ]
+      },
+      {
+        "date": "2026-06-23",
+        "items": [
+          {"region": "domestic", "event": "검은 화요일 — 코스피 -9.99% 8,203.84 역대 최대 낙폭·올해 4번째 서킷브레이커·삼성/SK -12%", "important": true, "category": "market"},
+          {"region": "global", "event": "美 빅테크·반도체 급락 — 알파벳 -6.5%(AI 인재 이탈)·나스닥 -2.3%·SOX 8%대 급락", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-24",
+        "items": [
+          {"region": "global", "event": "MSCI 시장분류 결과 — 韓 신흥국 잔류·선진국 편입 또 불발(관찰대상국 제외)", "important": true, "category": "market"},
+          {"region": "global", "event": "마이크론 FY3Q 실적 발표 (HBM 가늠자·결과 25일 새벽 KST)", "important": true, "category": "earnings"}
+        ]
+      },
+      {
+        "date": "2026-06-25",
+        "items": [
+          {"region": "global", "event": "美 5월 PCE 물가·1Q GDP 확정·내구재 주문", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-26",
+        "items": [
+          {"region": "global", "event": "美 6월 미시간대 소비자심리 확정치", "important": false, "category": "macro"}
+        ]
+      }
+    ]
+  }
+}

@@ -971,7 +971,38 @@
       "push": {
         "branch": "claude/relaxed-feynman-w16yeb"
       }
+    },
+    {
+      "date": "2026-06-24",
+      "time": "07:01",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 941,
+      "tokens_estimated": 250000,
+      "response_size_kb": 30.5,
+      "tool_calls": {
+        "WebFetch": 2,
+        "WebSearch": 39,
+        "Read": 9,
+        "Write": 1,
+        "Bash": 8
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebSearch": "39/39 OK (핵심 출처. US 6/23 마감·섹터·지표, KR 6/23 검은화요일 마감·수급·환율·종목 등락·예탁금, MSCI 결과·마이크론·알파벳 AI인재이탈·BofA·인버스ETF 등 확보)",
+        "WebFetch": "2/2 시도(context.md·schema.json raw GitHub만)·시세/뉴스 WebFetch는 환경 403 전제로 미시도, WebSearch로 대체",
+        "로컬 repo Read(schema·guides 4종·전일 briefing 6/23·whitelist 2종·manifest)": "9/9 OK",
+        "note": "KST 07:01 수요일 발화. ★검은 화요일★ 6/23(화) 마감 신규 확보. US 6/23: S&P 7,358.46 -1.53%·나스닥 25,564.77 -2.30%·다우 51,412.78 -0.58%·필반(SOX) 8%대 급락(~13,434 잠정)·VIX~20·10Y 4.48%(안전자산 선호로 하락)·DXY 101.39(13개월최고)·WTI $73.40(3개월최저)·금 $4,129·BTC ~$62.5k. 알파벳 -6.5%(AI 핵심인재 Shazeer→OpenAI·Jumper→Anthropic 이탈)·엔비디아·마이크론·오라클 급락·BofA 연내 Fed 3회인상 전망. 美 섹터는 방어주(유틸/필수소비재) 순환·tech -4.13%로 방향 잠정. KR 6/23: ★코스피 8,203.84 -9.99%(910.71p·역대 최대 낙폭·오후 2:33 올해 4번째 서킷브레이커)★·코스닥 891.52 -7.94%·SK하이닉스 -12.47%·삼성전자 -12.31%·에코프로 -10.04%·에코프로비엠 -9.48%·셀트리온 -4.75%·환율 1,535.97원·EWY $197.45(-9.9%)·외인 -4.1조/기관 -4.6조/개인 +8.6조(역대최대). 강세는 인버스(헤지) ETF에 국한→sectorsUp는 인버스 2X/1X 5종(지수 역추종 등락 잠정). flow 2개(환율+ADR·야간선물 미확보). 새벽 05:30 MSCI 시장분류 결과 韓 신흥국 잔류·선진국 편입 또 불발(관찰대상국 제외). 캘린더 주(6/21일~6/27토) 7칸: 6/22 BofA노트·시총1위, 6/23 검은화요일, 6/24 오늘(MSCI 불발+마이크론 FY3Q 실적), 6/25 PCE/GDP 21:30, 6/26 미시간. calendarMonth 6/22·6/23·6/24·6/25·6/26 갱신+신규. 학회 7일 window 내 없음. 美빅테크 실적 화이트리스트 hit: 마이크론(MU). 한은 금통위 7/16(6월 외). category 7종 enum 전수 통과·실적 화이트리스트 통과. 매월 1일 아님→화이트리스트 재생성 없음."
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-3tcfzg"
+      }
     }
   ],
-  "updatedAt": "2026-06-23T07:01:00+09:00"
+  "updatedAt": "2026-06-24T07:01:00+09:00"
 }
