@@ -1002,7 +1002,38 @@
       "push": {
         "branch": "claude/relaxed-feynman-3tcfzg"
       }
+    },
+    {
+      "date": "2026-06-25",
+      "time": "07:01",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1017,
+      "tokens_estimated": 250000,
+      "response_size_kb": 31.6,
+      "tool_calls": {
+        "WebFetch": 5,
+        "WebSearch": 21,
+        "Read": 4,
+        "Write": 2,
+        "Bash": 9
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebSearch": "21건(시세/뉴스 핵심 출처). US 6/24 마감·SOX·지표(VIX/10Y/DXY/WTI/금/BTC), KR 6/24 반등 마감·수급·환율·종목 등락·예탁금/신용/공매도, 마이크론 사상최대 실적·PCE 일정 확보",
+        "WebFetch": "5건 시도. context.md·schema.json raw GitHub 2건 OK. Stooq/TheStreet/CNBC 본문은 환경 403 → WebSearch 합성으로 대체",
+        "로컬 repo Read(schema·news.md·data-quality.md·전일 briefing 6/24)": "4 OK + whitelist 3종·manifest·usage Bash 조회",
+        "note": "KST 07:01 목요일 발화. ★반등★ 6/24(수) 마감 신규 확보. US 6/24: S&P 7,358.22 -0.10%·나스닥 25,476.64 -0.43%·다우 51,848.90 +0.35%·SOX 13,145.27 -2.50%·VIX~19.1·10Y 4.41%(유가급락에 8bp 급락)·DXY 101.61·WTI $70.34(70붕괴·종전前)·금 $3,987(-3.07%)·BTC ~$62.7k. ★장 마감 후 마이크론 FY3Q 사상최대(매출 41.5조원·EPS $25.11 vs $20.20·Q4 가이던스 $50B)→칩주 시간외 급등★. 美 섹터는 에너지 급락·tech 약세·방어주 강세로 종가 방향 잠정. KR 6/24: ★코스피 8,471.02 +3.26%(+267.18) 반등·코스닥 909.30 +1.99%★·삼성전자 +9.84% 시총 1위 탈환(1,990조)·3년 90조 자사주 매입·SK하이닉스 +0.98%(1,838조)·알테오젠 +11.56%(바이오 주도)·환율 1,544.78원·외인 -5.2조/기관 +2.13조/개인 +2.89조·VKOSPI 95.27 사상최고·신용 38.5조·공매도 22.6조. flow 3개(환율+야간선물+ADR 추정). 캘린더 주(6/21~6/27) 7칸 갱신: 6/24 마이크론 사상최대+코스피 반등+삼성 자사주, 6/25 오늘(PCE 21:30+마이크론 결과 새벽), 6/26 미시간. calendarMonth 6/24·6/25 갱신. 학회 7일 window 내 없음. 美빅테크 실적 화이트리스트 hit: 마이크론(MU). category 7종 enum 전수 통과·실적 화이트리스트 통과. 페르소나 위반 grep 0(단정/추천/격식체). 매월 1일 아님→화이트리스트 재생성 없음."
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-8x2wrn"
+      }
     }
   ],
-  "updatedAt": "2026-06-24T07:01:00+09:00"
+  "updatedAt": "2026-06-25T07:01:49+09:00"
 }
