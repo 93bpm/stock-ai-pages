@@ -1033,7 +1033,38 @@
       "push": {
         "branch": "claude/relaxed-feynman-8x2wrn"
       }
+    },
+    {
+      "date": "2026-06-26",
+      "time": "07:01",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 872,
+      "tokens_estimated": 250000,
+      "response_size_kb": 33.0,
+      "tool_calls": {
+        "WebFetch": 8,
+        "WebSearch": 16,
+        "Read": 2,
+        "Write": 1,
+        "Bash": 6
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebSearch": "16건(시세/뉴스 핵심 출처). US 6/25 마감(S&P 7,357.49 -0.01%·나스닥 25,358.60 -0.46% 4일째↓·다우 51,920.62 +0.14%)·애플 -6.13%/MS -3.23% 메모리값 가격인상·마이크론 +15%·PCE(근원 3.4% 부합/헤드라인 4.1% 최고·골스비 매파)·유가/금/BTC, KR 6/25(코스피 8,934.29 +5.47% 장중 9,044 사이드카·SK하이닉스 +13.06%·삼성 +5.29%·코스닥 891.52 -1.95%·예탁금 136.8조/신용 38조·JP모건 목표 12,500) 확보",
+        "WebFetch": "8건. context.md·schema.json·guides 4종(sources/news/operations/data-quality)·whitelist 3종·usage/manifest raw GitHub OK. 시세/뉴스 본문 WebFetch는 환경 403 전제로 WebSearch 합성 대체",
+        "로컬 repo Read(전일 briefing 6/25·manifest)": "2 OK",
+        "note": "KST 07:01 금요일 발화(UTC 2026-06-25 22:01 +9h). ★마이크론 슈퍼사이클 확인·반도체 랠리★. US 6/25(목): S&P 7,357.49 -0.01%·나스닥 25,358.60 -0.46%(4거래일째 하락)·다우 51,920.62 +0.14%·SOX 13,461.80 +2.41%(마이크론 효과 잠정)·VIX 18.6·10Y 4.43%·DXY 101.9·WTI $68.90·금 $3,948·BTC $61.2k. ★애플 -6.13%/MS -3.23% 메모리값에 맥·아이패드·Xbox 가격 인상→Mag7 약세, 마이크론 +15%(영업마진 81%·16개 장기계약 $100B)★. PCE 근원 3.4% 부합·헤드라인 4.1%(2023.4 후 최고)·골스비 '인플레 너무 높다'. 美 섹터 종가방향 잠정. KR 6/25: ★코스피 8,934.29 +5.47%(+463.27)·장중 9,044 매수 사이드카·코스닥 891.52 -1.95%★·SK하이닉스 +13.06%(291.7만)·삼성전자 +5.29%(35.85만)·시총격차 11%·반도체 투톱 비중 56%·JP모건 코스피 목표 1만2,500 상향·예탁금 136.8조(연중최고)·신용 38조. 수급(외인 +2.14조/기관 +0.98조/개인 -2.96조)·환율 1,542.80원은 잠정·추정. flow 3개. 캘린더 주(6/21~6/27) 7칸 갱신: 6/25 PCE 결과+애플·MS 가격인상(industry)+마이크론 +15%(earnings)+코스피 +5.47%, 6/26 오늘(미시간 23:00+빅테크 여진+랠리 점검). calendarMonth 6/24·6/25·6/26 갱신. 학회 7일 window 내 없음. 美빅테크 실적 화이트리스트 hit: 마이크론(MU). category 7종 enum 전수 통과·earnings 전부 us-bigtech 화이트리스트 hit. 페르소나 위반 grep 0(단정/추천/격식체)·길이(title≤30/summary≤60/note≤25) 통과. 매월 1일 아님→화이트리스트 재생성 없음."
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-kjchke"
+      }
     }
   ],
-  "updatedAt": "2026-06-25T07:01:49+09:00"
+  "updatedAt": "2026-06-26T07:01:00+09:00"
 }

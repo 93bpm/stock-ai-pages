@@ -1,0 +1,360 @@
+{
+  "date": "2026-06-26",
+  "weekday": "금",
+  "generatedAt": "2026-06-26T07:01:00+09:00",
+  "us": {
+    "subNote": "6월 25일(목) 뉴욕은 마이크론 깜짝 실적의 온기와 빅테크 가격 인상 충격이 부딪힌 하루였어요. S&P 500은 7,357.49로 -0.01% 보합, 다우는 +0.14%(51,920.62) 강보합이었지만, 나스닥은 -0.46%(25,358.60)로 4거래일 연속 내렸어요. 메모리값 폭등에 애플(-6.13%)과 마이크로소프트(-3.23%)가 맥·아이패드·엑스박스 가격 인상을 발표하며 Mag7을 끌어내렸고요. 반면 마이크론은 영업마진 81%·16개 장기계약 $100B의 사상 최대 실적에 +15% 급등하며 일부 반도체주를 떠받쳤어요. 밤에 나온 5월 PCE는 근원 3.4%로 예상에 부합했지만 헤드라인은 4.1%로 2023년 4월 이후 최고였어요. (美 섹터 등락률은 종가 방향 중심 잠정치예요)",
+    "subNoteEm": "애플·MS 메모리發 가격 인상에 Mag7 약세·마이크론은 +15% 급등",
+    "comment": "뉴욕은 <b>마이크론 호재와 빅테크 악재가 정면으로 부딪힌</b> 하루였어요. 메모리값 폭등에 <b>애플과 MS가 제품 가격 인상을 발표하며 6%·3% 급락</b>해 나스닥을 4거래일 연속 끌어내렸지만, <b>마이크론은 영업마진 81%·$100B 장기계약의 사상 최대 실적</b>으로 15% 급등했어요. 같은 '메모리 슈퍼사이클'이 누군가에겐 비용, 누군가에겐 호황으로 갈린 셈이에요. <b>밤 PCE는 근원 3.4%로 부합</b>했지만 헤드라인 4.1%에 골스비 위원은 경계감을 드러냈고요. 韓 메모리엔 더없이 우호적인 출발이지만, 빅테크 약세는 부담이라 균형 있게 보는 게 좋아요. 투자 판단은 본인 책임이에요.",
+    "indices": [
+      {"name": "S&P 500", "tip": "보합·빅테크 vs 칩 상쇄", "value": "7,357.49", "change": "-0.01%", "dir": "down"},
+      {"name": "나스닥 종합", "tip": "애플·MS 약세·4일째 하락", "value": "25,358.60", "change": "-0.46%", "dir": "down"},
+      {"name": "다우존스", "tip": "방어주 선호·강보합", "value": "51,920.62", "change": "+0.14%", "dir": "up"},
+      {"name": "필라델피아 반도체", "tip": "SOX·마이크론 효과(잠정)", "value": "13,461.80", "change": "+2.41%", "dir": "up"}
+    ],
+    "indicators": [
+      {"key": "VIX", "value": "18.6 ▼", "dir": "down"},
+      {"key": "美 10년물", "value": "4.43% ▲", "dir": "up"},
+      {"key": "달러인덱스", "value": "101.9 ▲", "dir": "up"},
+      {"key": "WTI 유가", "value": "$68.90 ▼", "dir": "down"},
+      {"key": "금", "value": "$3,948 ▼", "dir": "down"},
+      {"key": "비트코인", "value": "$61,200 ▼", "dir": "down"}
+    ],
+    "sectorsUp": [
+      {"name": "헬스케어", "change": "+1.2%"},
+      {"name": "필수소비재", "change": "+0.5%"},
+      {"name": "유틸리티", "change": "+0.4%"},
+      {"name": "금융", "change": "+0.3%"},
+      {"name": "산업재", "change": "+0.2%"}
+    ],
+    "sectorsDown": [
+      {"name": "에너지", "change": "-2.2%"},
+      {"name": "기술(IT)", "change": "-0.7%"},
+      {"name": "커뮤니케이션", "change": "-0.5%"},
+      {"name": "부동산", "change": "-0.3%"},
+      {"name": "소재", "change": "-0.2%"}
+    ]
+  },
+  "world": {
+    "subNote": "마이크론이 'AI 버블론'을 잠재운 하루였어요. 영업마진 81%·16개 장기계약 $100B의 사상 최대 실적에 마이크론이 +15% 급등하자, 韓에선 SK하이닉스가 +13.06% 뛰며 코스피가 +5.47%(8,934.29) 급등해 장중 9,044선을 회복했어요. 반면 美에선 애플·MS가 메모리값 인상을 이유로 제품 가격을 올리며 Mag7이 약세였고요. 밤 美 PCE는 근원 3.4%로 부합, 헤드라인은 4.1%로 최고치였어요.",
+    "subNoteEm": "마이크론 슈퍼사이클 확인·코스피 +5.47% 9,000 육박",
+    "global": [
+      {"rank": "01", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "마이크론 매출 41.5조·영업마진 81% 신기록", "summary": "AI 메모리 수요로 매출이 1년 새 4배, 마진도 사상 최고를 찍었어요", "source": "TechTimes", "sourceUrl": "https://www.techtimes.com/articles/319032/20260625/micron-q3-2026-earnings-100b-contracts-signals-ai-memory-cycle-break.htm", "note": "韓 메모리 투톱 선행 호재예요"},
+      {"rank": "02", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "마이크론 16개 장기계약 100조원 확보", "summary": "테이크오어페이 계약으로 메모리가 구조적 호황 국면에 들어섰어요", "source": "TradingKey", "sourceUrl": "https://www.tradingkey.com/analysis/stocks/us-stocks/261990207-micron-shatters-record-84-9-margin-cements-ai-memory-crunch-through-2027-tradingkey", "note": "공급 부족 2027년까지래요"},
+      {"rank": "03", "category": "빅테크", "categoryStyle": "tech", "sentiment": "neg", "title": "애플, 맥·아이패드 가격 인상·주가 6% 급락", "summary": "메모리값 폭등에 가격을 올리자 비용 전가 우려로 애플이 6%대 빠졌어요", "source": "CBS News", "sourceUrl": "https://www.cbsnews.com/news/apple-price-hikes-macbook-ipad-2026/", "note": "메모리 수요 그만큼 강해요"},
+      {"rank": "04", "category": "빅테크", "categoryStyle": "tech", "sentiment": "neg", "title": "MS도 Xbox 가격 인상·주가 3% 하락", "summary": "엑스박스 가격을 올리며 메모리 비용 부담을 인정해 MS도 약세였어요", "source": "Digital Trends", "sourceUrl": "https://www.digitaltrends.com/gaming/as-xbox-gets-pricier-microsoft-launches-buy-now-pay-later-scheme-for-consoles/", "note": "메모리 슈퍼사이클 방증이에요"},
+      {"rank": "05", "category": "미국증시", "categoryStyle": "default", "sentiment": "neu", "title": "나스닥 4거래일 연속 하락·S&P 보합", "summary": "마이크론 호재에도 애플·MS 약세가 겹쳐 지수가 혼조로 마감했어요", "source": "TheStreet", "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-25-2026", "note": "빅테크 차익 vs 칩 강세예요"},
+      {"rank": "06", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "마이크론 15% 급등·반도체주 동반 강세", "summary": "깜짝 실적에 마이크론이 15% 뛰며 일부 반도체주를 끌어올렸어요", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/06/25/micron-stock-3q-earnings-memory.html", "note": "HBM 밸류체인에 온기예요"},
+      {"rank": "07", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "美 5월 근원 PCE 3.4%·헤드라인 4.1%", "summary": "근원은 예상에 부합했지만 헤드라인은 2023년 4월 이후 최고였어요", "source": "Morningstar", "sourceUrl": "https://www.morningstar.com/economy/may-pce-expected-show-rising-inflation", "note": "금리 인하 기대엔 부담이에요"},
+      {"rank": "08", "category": "통화정책", "categoryStyle": "default", "sentiment": "neg", "title": "골스비 '근원 인플레 너무 높다' 발언", "summary": "시카고 연은 총재가 인플레가 잘못된 방향이라며 경계감을 드러냈어요", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/amp/2026/05/28/goolsbee-iran-energy-inflation-asia-stagflation-shock-ai-artificial-intelligence-jobs.html", "note": "Fed 긴축 우려 남아요"},
+      {"rank": "09", "category": "원자재", "categoryStyle": "geo", "sentiment": "pos", "title": "WTI 70달러 붕괴·전쟁 前 수준 회복", "summary": "美·이란 종전 기대로 호르무즈 우려가 풀리며 유가가 4일째 내렸어요", "source": "CNN", "sourceUrl": "https://www.cnn.com/2026/06/24/world/live-news/iran-war-trump-israel-lebanon", "note": "물가·금리 부담 덜어줘요"},
+      {"rank": "10", "category": "원자재", "categoryStyle": "geo", "sentiment": "neg", "title": "금값 4,000달러 붕괴·8개월來 최저", "summary": "달러 강세와 Fed 긴축 경계에 안전자산 금이 빠르게 식었어요", "source": "CoinDesk", "sourceUrl": "https://www.coindesk.com/markets/2026/06/24/gold-silver-and-bitcoin-tumble-as-debasement-trade-unwinds", "note": "위험선호 회귀 신호예요"},
+      {"rank": "11", "category": "가상자산", "categoryStyle": "default", "sentiment": "neg", "title": "비트코인 6.1만달러·긴축 경계에 약세", "summary": "워시 체제 긴축 우려에 디베이스먼트 거래가 풀리며 비트코인도 빠졌어요", "source": "Bitcoin Magazine", "sourceUrl": "https://bitcoinmagazine.com/markets/bitcoin-price-slides-toward-61000", "note": "위험자산 변동성 커요"},
+      {"rank": "12", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "마이크론 데이터센터 매출 8배·HBM 견인", "summary": "AI 가속기용 HBM이 포함된 부문 매출이 1년 새 8배 가까이 늘었어요", "source": "TechTimes", "sourceUrl": "https://www.techtimes.com/articles/318825/20260622/micron-earnings-2026-record-margins-confirm-ai-memory-tax-your-next-pc.htm", "note": "SK·삼성 HBM 수요 방증이에요"}
+    ],
+    "domestic": [
+      {"rank": "01", "category": "국내증시", "categoryStyle": "default", "sentiment": "pos", "title": "코스피 +5.47%·장중 9,044 사이드카", "summary": "마이크론 훈풍에 463p 급등하며 장중 9,000선을 회복했어요", "source": "이투데이", "sourceUrl": "https://www.etoday.co.kr/news/view/2597182", "note": "반도체가 지수 끌어올렸어요"},
+      {"rank": "02", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "SK하이닉스 +13.06%·마이크론 효과", "summary": "마이크론 슈퍼사이클 확인에 13% 급등하며 삼성 추격을 다시 좁혔어요", "source": "서울경제", "sourceUrl": "https://www.sedaily.com/article/20057081", "note": "HBM 글로벌 선두 부각이에요"},
+      {"rank": "03", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "삼성전자 +5.29% 35.9만·시총 1위 유지", "summary": "전날 자사주 90조 발표에 이어 5%대 올라 시총 1위를 지켰어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202606251859274670", "note": "메모리 투톱 동반 강세예요"},
+      {"rank": "04", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "마이크론, 'AI 버블론' 잠재우다·HBM 2차전", "summary": "사상 최대 실적이 삼전·SK 조정론에 제동을 걸며 랠리 기대를 키웠어요", "source": "뉴데일리", "sourceUrl": "https://biz.newdaily.co.kr/site/data/html/2026/06/25/2026062500064.html", "note": "메모리 투심 강하게 살아나요"},
+      {"rank": "05", "category": "코스닥", "categoryStyle": "default", "sentiment": "neg", "title": "코스닥 -1.95% 891·대형 반도체 쏠림", "summary": "자금이 대형 반도체로 몰리며 바이오·중소형주는 차익 매물에 밀렸어요", "source": "이데일리", "sourceUrl": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02607606645485000", "note": "쏠림에 온도차 커졌어요"},
+      {"rank": "06", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "JP모건 코스피 목표 1만2,500으로 상향", "summary": "마이크론 훈풍에 반도체 질주가 이어진다며 목표치를 올렸어요", "source": "서울경제", "sourceUrl": "https://www.sedaily.com/article/20060264", "note": "추가 상승 여력 제시예요"},
+      {"rank": "07", "category": "증시자금", "categoryStyle": "default", "sentiment": "neu", "title": "예탁금 136조·신용융자 38조 연중 최고", "summary": "대기 자금과 빚투가 동시에 불며 자금이 대형주로 쏠렸어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202606241516185973", "note": "유동성 대형주 집중이에요"},
+      {"rank": "08", "category": "메모리", "categoryStyle": "tech", "sentiment": "pos", "title": "마이크론發 장기계약 시대·삼전·SK도 검토", "summary": "테이크오어페이 계약 확산으로 국내 메모리도 안정적 수요가 기대돼요", "source": "이투데이", "sourceUrl": "https://www.etoday.co.kr/news/view/2597329", "note": "실적 가시성 높아져요"},
+      {"rank": "09", "category": "증시구조", "categoryStyle": "default", "sentiment": "neu", "title": "반도체 투톱, 코스피 시총 56% 차지", "summary": "삼성·SK 두 종목 비중이 56%를 넘어 쏠림 우려도 함께 커졌어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202606200851138121", "note": "지수 변동성 키울 수 있어요"},
+      {"rank": "10", "category": "수급", "categoryStyle": "default", "sentiment": "pos", "title": "외국인, 반도체 사자 전환·수급 개선", "summary": "전날 매도하던 외국인이 대형 반도체로 돌아오며 수급이 개선됐어요", "source": "한국경제", "sourceUrl": "https://markets.hankyung.com/investment/foreigner-trading", "note": "외인 복귀가 관건이에요"},
+      {"rank": "11", "category": "바이오", "categoryStyle": "tech", "sentiment": "neg", "title": "알테오젠 등 바이오 차익 매물에 약세", "summary": "전날 급등했던 바이오가 반도체 쏠림 속 차익 실현에 되돌려졌어요", "source": "이데일리", "sourceUrl": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02197606645484016", "note": "옥석 가리기 이어져요"},
+      {"rank": "12", "category": "거시", "categoryStyle": "default", "sentiment": "neu", "title": "美 미시간대 심리·반도체 랠리 지속 관건", "summary": "오늘 밤 美 소비심리와 반도체 랠리 연속성이 다음 변수로 꼽혀요", "source": "이투데이", "sourceUrl": "https://www.etoday.co.kr/news/view/2597324", "note": "이벤트 대기 장세예요"}
+    ]
+  },
+  "kr": {
+    "subNote": "6월 25일(목) 코스피는 +5.47%(8,934.29) 급등하며 장중 9,044선까지 올라 매수 사이드카가 발동됐어요. 마이크론이 영업마진 81%·$100B 장기계약의 사상 최대 실적을 내자 SK하이닉스가 +13.06%(291만7천원)로 급등해 삼성전자와의 시총 격차를 11%대로 좁혔고, 삼성전자도 +5.29%(35만8,500원)로 시총 1위를 지켰어요. 반면 코스닥은 -1.95%(891.52)로 밀렸는데, 자금이 대형 반도체로 쏠리며 전날 강했던 바이오가 차익 매물에 되돌려졌어요. JP모건은 코스피 12개월 목표를 1만2,500으로 올렸고요. (외국인·기관·개인 수급 금액은 잠정·추정치예요)",
+    "subNoteEm": "SK하이닉스 +13%·코스피 +5.47% 8,934·장중 9,044 사이드카",
+    "comment": "국장이 <b>마이크론 훈풍에 +5.47% 급등</b>하며 장중 9,000선을 회복하고 매수 사이드카까지 발동됐어요. 마이크론의 사상 최대 실적이 'AI 버블론'을 잠재우자 <b>SK하이닉스가 +13.06% 급등</b>해 삼성과의 시총 격차를 11%대로 좁혔고, <b>삼성전자도 +5.29%로 시총 1위를 지켰어요</b>. 다만 <b>자금이 대형 반도체로 쏠리며 코스닥은 -1.95%</b>로 밀렸고, 전날 강했던 바이오는 차익 매물에 되돌려졌어요. <b>JP모건이 코스피 목표를 1만2,500으로 상향</b>한 점은 든든하지만, 美 빅테크 약세와 시총 56% 쏠림은 변동성 요인이에요. 추격보다 분할 대응이 편할 수 있어요. 투자 판단은 본인 책임이에요.",
+    "expectedRange": "오늘은 마이크론發 반도체 슈퍼사이클 온기가 이어지며 코스피 8,800~9,150선 등락이 예상돼요",
+    "indices": [
+      {"name": "코스피", "tip": "+463.27p·장중 9,044 사이드카", "value": "8,934.29", "change": "+5.47%", "dir": "up"},
+      {"name": "코스닥", "tip": "-17.78p·대형 반도체 쏠림에 약세", "value": "891.52", "change": "-1.95%", "dir": "down"}
+    ],
+    "flow": [
+      {"key": "원/달러 환율", "value": "1,542.80원 ▼ (외인 매수·소폭 강세)", "dir": "down"},
+      {"key": "야간 선물", "value": "약보합 (美 빅테크 약세 반영·추정)", "dir": "down"},
+      {"key": "미국 상장 한국물(ADR)", "value": "EWY $210 ▲ (지수 연동·추정)", "dir": "up"}
+    ],
+    "supply": [
+      {"who": "외국인", "amount": "+21,400억원", "dir": "buy"},
+      {"who": "기관", "amount": "+9,800억원", "dir": "buy"},
+      {"who": "개인", "amount": "-29,600억원", "dir": "sell"}
+    ],
+    "sectorsUp": [
+      {"theme": "반도체 대형 (마이크론 효과·HBM 슈퍼사이클)", "stockName": "SK하이닉스", "stockChange": "+13.06%"},
+      {"theme": "반도체 대형 (시총 1위·자사주 90조)", "stockName": "삼성전자", "stockChange": "+5.29%"},
+      {"theme": "반도체 소부장 (HBM 장비 수혜)", "stockName": "한미반도체", "stockChange": "+9.2%"},
+      {"theme": "반도체 후공정 (메모리 밸류체인)", "stockName": "하나마이크론", "stockChange": "+7.5%"},
+      {"theme": "디스플레이·소재 (반도체 동반 강세)", "stockName": "한솔케미칼", "stockChange": "+4.8%"}
+    ],
+    "sectorsDown": [
+      {"theme": "인버스 2X (지수 급반등 역방향)", "stockName": "KODEX 200선물인버스2X", "stockChange": "-5.4%"},
+      {"theme": "바이오 (대형주 쏠림·차익실현)", "stockName": "알테오젠", "stockChange": "-4.5%"},
+      {"theme": "펩타이드·신약 (전날 급등 되돌림)", "stockName": "펩트론", "stockChange": "-6.0%"},
+      {"theme": "2차전지 (수급 이탈)", "stockName": "에코프로비엠", "stockChange": "-2.1%"},
+      {"theme": "통신 (위험선호 회귀·방어주 약세)", "stockName": "SK텔레콤", "stockChange": "-1.0%"}
+    ],
+    "watchlist": [
+      {"name": "SK하이닉스", "badge": "+13.06%·마이크론 효과", "badgeType": "up", "desc": "마이크론 슈퍼사이클 확인에 +13.06% 급등해 291만7천원에 마감했어요. 삼성과의 시총 격차를 11%대로 좁혔고, HBM 글로벌 선두로 자금이 집중되고 있어요"},
+      {"name": "삼성전자", "badge": "+5.29%·시총 1위 유지", "badgeType": "up", "desc": "+5.29% 올라 35만8,500원에 마감하며 시총 1위를 지켰어요. 전날 발표한 3년 90조원 자사주 매입 효과가 이어졌고, 범용 D램 가격 상승이 하반기 변수예요"},
+      {"name": "마이크론(美)", "badge": "영업마진 81%·$100B 계약", "badgeType": "up", "desc": "영업마진 81%·16개 장기계약 $100B의 사상 최대 실적을 내며 +15% 급등했어요. 삼성·SK 메모리 실적의 선행지표로 읽혀요"},
+      {"name": "알테오젠", "badge": "바이오 차익실현", "badgeType": "down", "desc": "전날 급등했던 코스닥 대장주가 자금이 대형 반도체로 쏠리며 차익 매물에 밀렸어요. 美 특허 모멘텀이 추가 변수예요"}
+    ],
+    "health": [
+      {"key": "투자자 예탁금", "tip": "대기 자금 (6/23·연중 최고)", "value": "136조8,313억원", "subIcon": "▲", "subDir": "up"},
+      {"key": "신용융자 잔고", "tip": "빚투 지표 (6/23 기준)", "value": "38조936억원", "subIcon": "▼", "subDir": "down"},
+      {"key": "공매도 순보유잔고", "tip": "하락 베팅 (6/17 기준)", "value": "22조5,989억원", "subIcon": "▲", "subDir": "up"}
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘(6/26)은 마이크론發 반도체 슈퍼사이클 온기 속에 반도체 랠리가 이어질지가 관건이에요. 밤에는 美 6월 미시간대 소비심리 확정치가 나오고요. 美 빅테크 약세는 부담 요인이에요.",
+    "subNoteEm": "美 미시간대 심리·반도체 랠리 지속 시험대",
+    "riskSentiment": "위험선호 (반도체 슈퍼사이클 vs 美 빅테크·인플레 경계)",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        {"event": "韓 증시 — 마이크론發 반도체 슈퍼사이클·전날 +5.47% 랠리 지속 여부 점검", "when": "장중"}
+      ]
+    },
+    "global": {
+      "timed": [
+        {"time": "23:00", "event": "美 6월 미시간대 소비자심리 확정치", "important": false}
+      ],
+      "untimed": [
+        {"event": "美 빅테크 약세 여진 — 애플·MS 가격 인상發 투심 점검", "when": "장중"}
+      ]
+    },
+    "theme": "오늘 국장은 전날 +5.47% 급등의 연장선에서, 마이크론이 확인한 메모리 슈퍼사이클이 삼성·SK 반도체 랠리를 어디까지 끌고 갈지 가늠하는 하루예요. 다만 애플·MS의 가격 인상으로 美 빅테크가 약세였던 점, 그리고 반도체 투톱이 코스피 시총 56%를 차지하는 쏠림은 변동성 요인이라 호흡을 고르며 살펴봐요",
+    "checks": [
+      "마이크론 슈퍼사이클 온기가 삼성전자·SK하이닉스 랠리로 이어지는지 봐요",
+      "전날 +5.47% 급등 뒤 외국인 매수가 계속되는지, 차익 매물이 나오는지 살펴봐요",
+      "대형 반도체 쏠림에 밀린 코스닥·바이오가 반등하는지 점검해요",
+      "밤 11시 美 6월 미시간대 소비심리 확정치와 인플레 기대를 챙겨요",
+      "애플·MS 가격 인상發 美 빅테크 약세가 韓 투심에 주는 영향을 확인해요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-06-21",
+    "end": "2026-06-27",
+    "days": [
+      {
+        "date": "2026-06-21",
+        "weekday": "일",
+        "items": [
+          {"region": "global", "time": null, "event": "美·이란 협상 진전·호르무즈 통항 재개 조짐 (주말)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-22",
+        "weekday": "월",
+        "items": [
+          {"region": "domestic", "time": null, "event": "SK하이닉스, 삼성전자 제치고 코스피 시총 1위 등극 (25년 7개월 만)·코스피 9,114.55 사상최고", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "BofA '연내 Fed 3회 인상' 전망 노트·마이크론-Anthropic AI 메모리 협약", "important": true, "category": "policy"},
+          {"region": "global", "time": null, "event": "美 나스닥100 리밸런싱 발효 (코어위브·아스테라랩스 편입)", "important": false, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-23",
+        "weekday": "화",
+        "items": [
+          {"region": "domestic", "time": null, "event": "검은 화요일 — 코스피 -9.99% 8,203.84 역대 최대 낙폭·서킷브레이커·삼성/SK -12% 폭락", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 빅테크·반도체 급락 — 알파벳 -6.5%(AI 인재 이탈)·나스닥 -2.3%·SOX 8%대 급락", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-24",
+        "weekday": "수",
+        "items": [
+          {"region": "global", "time": "05:30", "event": "MSCI 시장분류 결과 — 韓 신흥국 잔류·선진국 편입 또 불발(관찰대상국 제외)", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "마이크론 FY3Q 사상 최대 실적 발표 (매출 41.5조원·EPS 25.11달러·4분기 500억달러 가이던스)", "important": true, "category": "earnings"},
+          {"region": "domestic", "time": null, "event": "코스피 +3.26% 8,471 반등·삼성전자 +9.84% 시총 1위 탈환·3년 90조 자사주 매입", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-25",
+        "weekday": "목",
+        "items": [
+          {"region": "global", "time": "21:30", "event": "美 5월 PCE 물가 — 근원 3.4% 부합·헤드라인 4.1% 2023년 4월 후 최고", "important": true, "category": "macro"},
+          {"region": "global", "time": null, "event": "애플·MS 메모리값 인상발 가격 인상 — 애플 -6.13%·MS -3.23%·Mag7 약세", "important": true, "category": "industry"},
+          {"region": "global", "time": null, "event": "마이크론 +15% 급등 — 영업마진 81%·16개 장기계약 $100B 확인", "important": true, "category": "earnings"},
+          {"region": "domestic", "time": null, "event": "코스피 +5.47% 8,934.29·장중 9,044 매수 사이드카·SK하이닉스 +13.06%", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-26",
+        "weekday": "금",
+        "items": [
+          {"region": "global", "time": "23:00", "event": "美 6월 미시간대 소비자심리 확정치", "important": false, "category": "macro"},
+          {"region": "global", "time": null, "event": "美 빅테크 약세 여진 — 애플·MS 가격 인상發 투심 점검", "important": false, "category": "market"},
+          {"region": "domestic", "time": null, "event": "韓 증시 — 마이크론發 반도체 슈퍼사이클·전날 +5.47% 랠리 지속 여부 점검", "important": false, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-27",
+        "weekday": "토",
+        "items": []
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 6,
+    "days": [
+      {
+        "date": "2026-06-01",
+        "items": [
+          {"region": "domestic", "event": "한국 5월 수출입 동향 발표", "important": true, "category": "macro"},
+          {"region": "global", "event": "미국 ISM 제조업 PMI (5월)", "important": true, "category": "macro"},
+          {"region": "global", "event": "엔비디아 컴퓨텍스 2026 키노트", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-03",
+        "items": [
+          {"region": "domestic", "event": "지방선거일 증시 휴장", "important": true, "category": "holiday"},
+          {"region": "global", "event": "브로드컴 2분기 실적 발표", "important": true, "category": "earnings"},
+          {"region": "global", "event": "미국 ADP 민간고용 (5월)", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "items": [
+          {"region": "global", "event": "미국 5월 비농업 취업자수 (NFP)", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-06",
+        "items": [
+          {"region": "domestic", "event": "현충일 (한국 공휴일·증시 휴장)", "important": true, "category": "holiday"}
+        ]
+      },
+      {
+        "date": "2026-06-08",
+        "items": [
+          {"region": "domestic", "event": "코스피 -8.29%·코스닥 -9.08% 검은 월요일·서킷브레이커", "important": true, "category": "market"},
+          {"region": "global", "event": "애플 WWDC26 개막 (~6/12)", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-09",
+        "items": [
+          {"region": "domestic", "event": "코스피 +8.18% 역대 최대 반등 (8,096.93)·매수 사이드카", "important": true, "category": "market"},
+          {"region": "global", "event": "애플 WWDC26 키노트 (새 Siri·iOS 27)", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-06-10",
+        "items": [
+          {"region": "domestic", "event": "코스피 -4.52% 급락·4거래일 연속 사이드카 (7,730.82)", "important": true, "category": "market"},
+          {"region": "global", "event": "미국 5월 CPI — 4.2%, 예상 부합", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-11",
+        "items": [
+          {"region": "domestic", "event": "6월 선물·옵션 동시만기일 — 코스피 강보합·코스닥 +4.76%", "important": true, "category": "market"},
+          {"region": "global", "event": "미국 5월 PPI — 6.5%, 2022년 후 최고", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-06-12",
+        "items": [
+          {"region": "domestic", "event": "외국인 25거래일 만에 순매수 — 코스피 +4.63% (8,123.62)", "important": true, "category": "market"},
+          {"region": "global", "event": "스페이스X(SPCX) 나스닥 상장 — 첫날 +19%", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-14",
+        "items": [
+          {"region": "global", "event": "美·이란 종전 합의 완료 발표 (주말)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-15",
+        "items": [
+          {"region": "domestic", "event": "코스피 +5.20% 8,545.98·매수 사이드카…8500선 회복", "important": true, "category": "market"},
+          {"region": "global", "event": "美 증시 종전 환호 마감…나스닥 +3.07%·유가 80달러대 급락", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-16",
+        "items": [
+          {"region": "domestic", "event": "코스피 +2.11% 8,726.60·외인 3거래일째 매수…8700 회복", "important": true, "category": "market"},
+          {"region": "global", "event": "BOJ 기준금리 1.00%로 인상 (25bp)", "important": true, "category": "policy"},
+          {"region": "global", "event": "美 다우 사상최고·나스닥 -1.15%·반도체 -3.44% 차익실현", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-17",
+        "items": [
+          {"region": "domestic", "event": "코스피 +1.58% 8,864.24 사상최고·SK하이닉스 250만닉스·삼성 시총 2천조", "important": true, "category": "market"},
+          {"region": "global", "event": "美 증시 하락·매파 FOMC 되돌림 (S&P -1.21%·나스닥 -1.35%)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-18",
+        "items": [
+          {"region": "global", "event": "FOMC 동결 3.50~3.75%·점도표 매파 '연내 인상' 9명·워시 첫 회견", "important": true, "category": "policy"},
+          {"region": "domestic", "event": "코스피 +2.25% 9,063.84 사상 첫 9000 돌파·270만닉스·코스닥 -3.01% 1000붕괴", "important": true, "category": "market"},
+          {"region": "global", "event": "美 증시 반등·필라델피아 반도체 +6.67% (S&P +1.08%·나스닥 +1.91%)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-19",
+        "items": [
+          {"region": "domestic", "event": "코스피 9300 첫 돌파 후 9,052.42 마감·코스닥 -3.43% 966.59·종목 86% 하락", "important": true, "category": "market"},
+          {"region": "global", "event": "준틴스데이 美 증시·채권 휴장", "important": true, "category": "holiday"},
+          {"region": "global", "event": "美·이란 종전 MOU 발효·스위스 서명식 생략", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-21",
+        "items": [
+          {"region": "global", "event": "美·이란 협상 진전·호르무즈 통항 재개 조짐 (주말)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-22",
+        "items": [
+          {"region": "domestic", "event": "SK하이닉스, 삼성전자 제치고 코스피 시총 1위 등극 (25년 7개월 만)·코스피 9,114.55 사상최고", "important": true, "category": "market"},
+          {"region": "global", "event": "BofA '연내 Fed 3회 인상' 노트·마이크론-Anthropic AI 메모리 협약·나스닥100 리밸런싱", "important": true, "category": "policy"}
+        ]
+      },
+      {
+        "date": "2026-06-23",
+        "items": [
+          {"region": "domestic", "event": "검은 화요일 — 코스피 -9.99% 8,203.84 역대 최대 낙폭·올해 4번째 서킷브레이커·삼성/SK -12%", "important": true, "category": "market"},
+          {"region": "global", "event": "美 빅테크·반도체 급락 — 알파벳 -6.5%(AI 인재 이탈)·나스닥 -2.3%·SOX 8%대 급락", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-24",
+        "items": [
+          {"region": "global", "event": "MSCI 시장분류 결과 — 韓 신흥국 잔류·선진국 편입 또 불발(관찰대상국 제외)", "important": true, "category": "market"},
+          {"region": "global", "event": "마이크론 FY3Q 사상 최대 실적·매출 41.5조원·4분기 500억달러 가이던스", "important": true, "category": "earnings"},
+          {"region": "domestic", "event": "코스피 +3.26% 8,471 반등·삼성전자 +9.84% 시총 1위 탈환·3년 90조 자사주 매입", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-25",
+        "items": [
+          {"region": "global", "event": "美 5월 PCE — 근원 3.4% 부합·헤드라인 4.1% 2023년 4월 후 최고·골스비 매파 발언", "important": true, "category": "macro"},
+          {"region": "global", "event": "애플·MS 메모리값發 가격 인상 — 애플 -6.13%·MS -3.23%·마이크론 +15% 급등", "important": true, "category": "industry"},
+          {"region": "domestic", "event": "코스피 +5.47% 8,934.29·장중 9,044 매수 사이드카·SK하이닉스 +13.06%", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-06-26",
+        "items": [
+          {"region": "global", "event": "美 6월 미시간대 소비자심리 확정치", "important": false, "category": "macro"}
+        ]
+      }
+    ]
+  }
+}
