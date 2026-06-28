@@ -1117,7 +1117,34 @@
         "localTemplate": "reuse 6/27 factual close"
       },
       "notes": "일요일 주말 발화 — 직전 거래일 6/26(금) 마감값 기준(주말 시세 불변, 6/27 팩트 재사용). 美 주말휴장 명시. 美: S&P 7,354.02(-0.05%)·나스닥 25,297.62(-0.24%,5일째↓)·다우 51,876.11(-0.09%)·SOX 13,145.27(-2.35%,잠정)·러셀+0.71%. 韓: 코스피 -5.86% 8,411 서킷브레이커·삼성 -9.34%·SK -8.13%·코스닥 -2.85% 866.15. flow 2개(주말 야간선물 생략). 글로벌 'AI 비용' 공포·OpenAI IPO 2027 연기·소프트뱅크 -12%. 주말 '버블 아닌 조정'(나스닥 YTD+10%) 분석 추가(global rank8 NPR). 韓 6월 수출 620억달러 역대최대(domestic rank6) 추가. ★calendarWeek 신규 주(6/28일~7/4토) 7칸★: 6/29 재개장·7/1 韓 6월수출+美 ISM제조업+워시연설·7/2 美 6월NFP 조기발표(컨센17.2만,독립기념일 앞당김)·7/3 美 독립기념일 대체휴장·7/4 독립기념일. calendarMonth 6월 유지(6/27·28 주말 무이벤트). 7일 window 학회·韓실적·美빅테크실적 신규 없음. category 7종 enum 전수통과. 페르소나 위반 grep 0(단정/추천/격식체). 매월 1일 아님→화이트리스트 재생성 없음. todayIdx=0(일) superset 통과."
+    },
+    {
+      "date": "2026-06-29",
+      "time": "07:02",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 524,
+      "tokens_estimated": 48000,
+      "response_size_kb": 32.8,
+      "tool_calls": {
+        "WebFetch": 0,
+        "WebSearch": 8,
+        "Read": 6,
+        "Write": 1,
+        "Bash": 6
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebSearch": "8/8",
+        "localTemplate": "reuse 6/26(금) factual close",
+        "Stooq/finviz": "skip:환경차단 기지"
+      },
+      "notes": "월요일 재개장 발화 — KST 07:02, 직전 거래일 6/26(금) 마감값 기준(美 월요일장은 오늘 밤 22:30 KST 개장 예정, KR은 오늘 09:00 재개장 예정이라 양쪽 모두 6/26 종가 유지). 美: S&P 7,354.02(-0.05%)·나스닥 25,297.62(-0.24%,5일째↓)·다우 51,876.11(-0.09%)·SOX 13,145.27(-2.35%,잠정·SOXX대용)·VIX 18.9·달러인덱스 101.3(매파 강세). 韓: 코스피 -5.86% 8,411 서킷브레이커·삼성 -9.34% 32.5만·SK -8.13% 270만·코스닥 -2.85% 866.15. flow 2개(주말 야간선물 부재→환율 1,522.31·EWY 추정). 글로벌 신규 앵글: 마이크론 호실적에도 애플 -6.1%(메모리값↑ 원가압박)·인텔-7.8%·AMD-6%·NVDA-3%, 골드만 '저가매수 국면'(global rank10 CNBC)·일본중국테크 반등(rank11 Schwab)·Fed 12월인상 54%·BofA 3회인상(rank08 TradingKey)·美 10년물 4.55%터치·달러100위(rank09). 韓 신규: 환율 2분기평균 1500.1원 외환위기후 처음(domestic rank5 MT)·삼성 2분기 영업익 92조 기대 7/7 잠정실적(rank7 한경)·외인 22거래일째 매도지만 반도체보유비중 1년래최저→매도둔화 기대(rank10)·6월수출 컨센55%↑(rank6). calendarWeek 같은 주(6/28일~7/4토) 유지·6/29 월에 재개장+美 월요일장 2개 item 추가. calendarMonth 6월에 6/29 재개장 1행 추가. 일관성: todayIdx=1(월) calendar 2일정⊂week 통과·month 6월범위·category 7종 enum 전수통과·badgeType up/down∈enum. sourceUrl 24/24 unique·차단도메인0·source↔URL 일치. 페르소나 위반 grep 0(단정/추천/격식체)·길이(title30/summary60/note25) 0. 매월 1일 아님→화이트리스트 재생성 없음. Stooq/finviz 환경차단 기지로 WebSearch 폴백."
     }
   ],
-  "updatedAt": "2026-06-28T07:01:37+09:00"
+  "updatedAt": "2026-06-29T07:02:02+09:00"
 }
