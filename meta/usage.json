@@ -569,7 +569,7 @@
       "status": "success",
       "duration_seconds": 688,
       "tokens_estimated": 150000,
-      "response_size_kb": 26.0,
+      "response_size_kb": 26,
       "tool_calls": {
         "WebFetch": 7,
         "WebSearch": 14,
@@ -884,7 +884,7 @@
       "status": "success",
       "duration_seconds": 790,
       "tokens_estimated": 205000,
-      "response_size_kb": 29.0,
+      "response_size_kb": 29,
       "tool_calls": {
         "WebFetch": 24,
         "WebSearch": 24,
@@ -1041,7 +1041,7 @@
       "status": "success",
       "duration_seconds": 872,
       "tokens_estimated": 250000,
-      "response_size_kb": 33.0,
+      "response_size_kb": 33,
       "tool_calls": {
         "WebFetch": 8,
         "WebSearch": 16,
@@ -1144,7 +1144,34 @@
         "Stooq/finviz": "skip:환경차단 기지"
       },
       "notes": "월요일 재개장 발화 — KST 07:02, 직전 거래일 6/26(금) 마감값 기준(美 월요일장은 오늘 밤 22:30 KST 개장 예정, KR은 오늘 09:00 재개장 예정이라 양쪽 모두 6/26 종가 유지). 美: S&P 7,354.02(-0.05%)·나스닥 25,297.62(-0.24%,5일째↓)·다우 51,876.11(-0.09%)·SOX 13,145.27(-2.35%,잠정·SOXX대용)·VIX 18.9·달러인덱스 101.3(매파 강세). 韓: 코스피 -5.86% 8,411 서킷브레이커·삼성 -9.34% 32.5만·SK -8.13% 270만·코스닥 -2.85% 866.15. flow 2개(주말 야간선물 부재→환율 1,522.31·EWY 추정). 글로벌 신규 앵글: 마이크론 호실적에도 애플 -6.1%(메모리값↑ 원가압박)·인텔-7.8%·AMD-6%·NVDA-3%, 골드만 '저가매수 국면'(global rank10 CNBC)·일본중국테크 반등(rank11 Schwab)·Fed 12월인상 54%·BofA 3회인상(rank08 TradingKey)·美 10년물 4.55%터치·달러100위(rank09). 韓 신규: 환율 2분기평균 1500.1원 외환위기후 처음(domestic rank5 MT)·삼성 2분기 영업익 92조 기대 7/7 잠정실적(rank7 한경)·외인 22거래일째 매도지만 반도체보유비중 1년래최저→매도둔화 기대(rank10)·6월수출 컨센55%↑(rank6). calendarWeek 같은 주(6/28일~7/4토) 유지·6/29 월에 재개장+美 월요일장 2개 item 추가. calendarMonth 6월에 6/29 재개장 1행 추가. 일관성: todayIdx=1(월) calendar 2일정⊂week 통과·month 6월범위·category 7종 enum 전수통과·badgeType up/down∈enum. sourceUrl 24/24 unique·차단도메인0·source↔URL 일치. 페르소나 위반 grep 0(단정/추천/격식체)·길이(title30/summary60/note25) 0. 매월 1일 아님→화이트리스트 재생성 없음. Stooq/finviz 환경차단 기지로 WebSearch 폴백."
+    },
+    {
+      "date": "2026-06-30",
+      "time": "07:01",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 834,
+      "tokens_estimated": 52000,
+      "response_size_kb": 33.9,
+      "tool_calls": {
+        "WebFetch": 6,
+        "WebSearch": 20,
+        "Read": 9,
+        "Write": 1,
+        "Bash": 9
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebSearch": "20/20",
+        "WebFetch": "0/6 (Yahoo·Investing·namu·imbc 403 차단)",
+        "Stooq/finviz": "skip:환경차단 기지"
+      },
+      "notes": "화요일 발화 — KST 07:01. 美 6/29(월) 정규장 종가 기준(한국시간 새벽 5시 마감), 韓 6/29(월) 종가 기준. 美: 다우 사상 첫 52,000 돌파 52,182.74(+0.59%)·6/29부터 알파벳 버라이즌 대체 다우 편입(첫날 ~+5%)·S&P 7,440.43(+1.18%)·나스닥 25,820.14(+2.07%)·SOX 13,539.63(+3.0%,잠정 SOXX대용)·VIX 17.65▼·10년물 4.38%·달러 100.9▼·WTI $70.57▲·금 $4,030▼·BTC $59,959▼. 韓: 코스피 -0.20% 8,394.65 강보합(반도체 약세·삼성SK 대규모 투자 발표로 장중 8,500 회복)·코스닥 +8.09% 936.18(거래소 승강제 등 정책 기대 역대 2번째 상승률). flow 3개(환율 1,520.10▲·야간선물 +1.4%·EWY 강세 추정). 글로벌 신규 앵글: 슈퍼마이크로 대만 압수수색(엔비디아 칩 對중국 밀반출 조사 geo, global rank4 SeekingAlpha)·분기말 리밸런싱 변동성(rank5 TheStreet)·반도체 저가매수 반등(rank3 Schwab)·AI버블vs조정 진정(rank10 CNN). 韓 신규: 외인 5개월째 셀코리아 5월 47조 순매도(domestic rank5 Investing.com)·7/7 삼성 잠정실적 영업익 90조 컨센 일부 100조(rank6 fnnews)·삼성 HBM4 매출 변수(rank7 톱스타뉴스)·예탁금 132조 신용 38조936억(rank9)·코스닥 8% 정책급등(rank2). calendarWeek 같은 주(6/28일~7/4토)·6/29(월) 강보합/코스닥급등+美 다우52k 갱신, 6/30(화) 오늘 개장+산업활동동향+美 소비자신뢰/시카고PMI 추가. calendarMonth 6월에 6/29 갱신(코스피강보합·코스닥급등·다우52k·슈퍼마이크로)+6/30(산업활동·美소비자신뢰) 추가. 일관성: todayIdx=2(화) calendar 일정⊂week 통과·month 6월범위·category 7종 enum 전수통과·badgeType up/down∈enum·sourceUrl 24/24 unique 차단도메인0 source↔URL 일치. 페르소나 위반 grep 0(단정/추천/격식체)·길이(title30/summary60/note25) 0. 매월 1일 아님→화이트리스트 재생성 없음. WebFetch 6건 모두 403 차단→WebSearch 20건 폴백."
     }
   ],
-  "updatedAt": "2026-06-29T07:02:02+09:00"
+  "updatedAt": "2026-06-30T07:01:00+09:00"
 }
