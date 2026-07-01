@@ -1171,7 +1171,38 @@
         "Stooq/finviz": "skip:환경차단 기지"
       },
       "notes": "화요일 발화 — KST 07:01. 美 6/29(월) 정규장 종가 기준(한국시간 새벽 5시 마감), 韓 6/29(월) 종가 기준. 美: 다우 사상 첫 52,000 돌파 52,182.74(+0.59%)·6/29부터 알파벳 버라이즌 대체 다우 편입(첫날 ~+5%)·S&P 7,440.43(+1.18%)·나스닥 25,820.14(+2.07%)·SOX 13,539.63(+3.0%,잠정 SOXX대용)·VIX 17.65▼·10년물 4.38%·달러 100.9▼·WTI $70.57▲·금 $4,030▼·BTC $59,959▼. 韓: 코스피 -0.20% 8,394.65 강보합(반도체 약세·삼성SK 대규모 투자 발표로 장중 8,500 회복)·코스닥 +8.09% 936.18(거래소 승강제 등 정책 기대 역대 2번째 상승률). flow 3개(환율 1,520.10▲·야간선물 +1.4%·EWY 강세 추정). 글로벌 신규 앵글: 슈퍼마이크로 대만 압수수색(엔비디아 칩 對중국 밀반출 조사 geo, global rank4 SeekingAlpha)·분기말 리밸런싱 변동성(rank5 TheStreet)·반도체 저가매수 반등(rank3 Schwab)·AI버블vs조정 진정(rank10 CNN). 韓 신규: 외인 5개월째 셀코리아 5월 47조 순매도(domestic rank5 Investing.com)·7/7 삼성 잠정실적 영업익 90조 컨센 일부 100조(rank6 fnnews)·삼성 HBM4 매출 변수(rank7 톱스타뉴스)·예탁금 132조 신용 38조936억(rank9)·코스닥 8% 정책급등(rank2). calendarWeek 같은 주(6/28일~7/4토)·6/29(월) 강보합/코스닥급등+美 다우52k 갱신, 6/30(화) 오늘 개장+산업활동동향+美 소비자신뢰/시카고PMI 추가. calendarMonth 6월에 6/29 갱신(코스피강보합·코스닥급등·다우52k·슈퍼마이크로)+6/30(산업활동·美소비자신뢰) 추가. 일관성: todayIdx=2(화) calendar 일정⊂week 통과·month 6월범위·category 7종 enum 전수통과·badgeType up/down∈enum·sourceUrl 24/24 unique 차단도메인0 source↔URL 일치. 페르소나 위반 grep 0(단정/추천/격식체)·길이(title30/summary60/note25) 0. 매월 1일 아님→화이트리스트 재생성 없음. WebFetch 6건 모두 403 차단→WebSearch 20건 폴백."
+    },
+    {
+      "date": "2026-07-02",
+      "time": "07:08",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 897,
+      "tokens_estimated": 58000,
+      "response_size_kb": 32.2,
+      "tool_calls": {
+        "WebFetch": 2,
+        "WebSearch": 14,
+        "Read": 6,
+        "Write": 2,
+        "Bash": 6
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq/finviz": "skip:환경차단 기지",
+        "WebFetch": "1/2 (context.md·schema.json raw fetch; 시세 소스는 로컬 클론 사용)",
+        "WebSearch": "14/14"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-0z9bsf"
+      },
+      "notes": "목요일 발화 — KST 07:08. 로컬 클론(origin/main 733a3d4)에서 컨텍스트·스키마·가이드·화이트리스트 정독. 간밤 7/1(수) 美장 종가 기준(KST 7/2 05시 마감), 韓 7/1(수) 종가 기준. 美: 다우 52,305.24(-0.03% 강보합)·S&P 7,482.87(-0.22%)·나스닥 26,040.71(-0.66%)·SOX 13,761(-1.0% SOXX대용 잠정)·최고분기(2020후) 마감 뒤 관망 숨고르기·6월 ADP 9.8만 소프트·ISM 53.3·VIX 16.45▼·10년물 4.46%▲(워시 매파)·달러 100.1▲·WTI $68.06▼(이란협상)·금 $4,096▲·BTC $58,294▼. 韓: 코스피 -1.04% 8,388.45(장초 8,591서 차익반락)·코스닥 911.33(-1.53%)·삼성전자 -4.04% 32만500원(6월 반도체수출 첫400억에도 차익). 6월 수출 첫 1,000억달러(1,022억)·반도체 첫 400억(448억,+199.5%)·상반기 반도체 1,924억(작년연간 초과). 순환매(조선·방산·전력기기) 차기주도론. 외인 5개월째 셀코리아(5월 47조). flow 3개(환율 1,522.40▲·야간선물 -0.3%·EWY 약보합 추정). calendarWeek 6/28일~7/4토(todayIdx=4 목)·6/30(화)·7/1(수) 과거화 갱신+7/2(오늘 물가08:00·NFP 21:30)+7/3 美휴장+7/4 독립기념일. calendarMonth 7월 8일(7/1수출·7/2고용·7/3휴장·7/4·7/7삼성잠정 earnings⊂wl-kr·7/16 금통위 policy·7/22 삼성언팩 conference⊂wl-conf·7/29 FOMC policy). 일관성: cal 일정⊂week[4] 통과·month 7월범위·category 7종enum 전수·earnings(삼성전자)⊂wl-kr·conference(언팩)⊂wl-conf·badgeType up/down∈enum. sourceUrl 24/24 unique·차단0·source↔URL 일치(글로벌 실검색 URL 다수). 페르소나 grep 0(단정/추천/격식체)·길이(title30/summary60/note25) 0. 매월1일 아님→화이트리스트 재생성 없음. WebFetch 시세소스 환경차단 관행→WebSearch로 시세·뉴스 수집(검색환경이 시리즈 정합 데이터 반환)."
     }
   ],
-  "updatedAt": "2026-06-30T07:01:00+09:00"
+  "updatedAt": "2026-07-02T07:08:00+09:00"
 }
