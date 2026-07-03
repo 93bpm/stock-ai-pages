@@ -1,0 +1,896 @@
+{
+  "date": "2026-07-03",
+  "weekday": "금",
+  "generatedAt": "2026-07-03T10:21:00+09:00",
+  "us": {
+    "subNote": "간밤(7/2 목) 뉴욕은 방어·가치와 기술주가 정반대로 갈린 롤러코스터 장이었어요. 다우는 +1.14%(52,900.07)로 사상 최고를 새로 썼지만, 나스닥은 -1.27%(25,710)·필라델피아 반도체는 -6.7%로 이틀째 무너졌어요. 6월 고용이 +5.7만(예상 11만↓)으로 크게 식자 9월 인상 기대가 후퇴하며 10년물은 4.44%로 내렸고, 안전자산 금은 $4,120대로 올랐어요. 메타의 사업 확장과 'AI 과잉투자·메모리 정점' 논쟁이 칩 밸류 되돌림을 키웠고, 이 여파가 어제 韓 반도체 폭락으로 번졌어요. 오늘 밤 美 증시는 독립기념일로 휴장이에요. (美 섹터 등락률은 종가 방향 중심 잠정치예요)",
+    "subNoteEm": "다우 사상최고 52,900 vs 반도체 -6.7% 이틀째 투매·6월 고용 +5.7만 쇼크",
+    "comment": "간밤 뉴욕은 <b>방어·가치와 기술주가 정반대로 갈린 장</b>이었어요. <b>다우는 +1.14% 52,900 사상 최고</b>인데, <b>반도체(SOX)는 -6.7%로 이틀째 급락</b>했죠. <b>6월 고용이 +5.7만</b>으로 크게 식으며 <b>10년물 4.44%</b>로 내렸고, 안전자산 금은 <b>$4,120</b>대로 올랐어요. <b>메타發 AI 자본지출 논쟁·메모리 정점론</b>이 칩 밸류 되돌림을 키웠고, 그 파장이 어제 <b>韓 반도체 폭락</b>으로 이어졌어요. 오늘 밤 美는 <b>독립기념일 휴장</b>이라, 다음 방향은 실적 시즌에서 가려질 수 있어요. 투자 판단은 본인 책임이에요.",
+    "indices": [
+      {
+        "name": "S&P 500",
+        "tip": "7/2 종가·기술주 약세 반영",
+        "value": "7,467.91",
+        "change": "-0.20%",
+        "dir": "down"
+      },
+      {
+        "name": "나스닥 종합",
+        "tip": "반도체·기술 이틀째 급락",
+        "value": "25,709.99",
+        "change": "-1.27%",
+        "dir": "down"
+      },
+      {
+        "name": "다우존스",
+        "tip": "방어·가치 순환·사상 최고",
+        "value": "52,900.07",
+        "change": "+1.14%",
+        "dir": "up"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "tip": "SOXX ETF 대용·이틀째 투매(잠정)",
+        "value": "12,839.01",
+        "change": "-6.70%",
+        "dir": "down"
+      }
+    ],
+    "indicators": [
+      {
+        "key": "VIX",
+        "value": "16.15 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "美 10년물",
+        "value": "4.44% ▼",
+        "dir": "down"
+      },
+      {
+        "key": "달러인덱스",
+        "value": "100.9 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "WTI 유가",
+        "value": "$67.47 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "금",
+        "value": "$4,124 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "비트코인",
+        "value": "$61,446 ▲",
+        "dir": "up"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "name": "유틸리티",
+        "change": "+1.8%"
+      },
+      {
+        "name": "소재",
+        "change": "+1.7%"
+      },
+      {
+        "name": "부동산",
+        "change": "+1.3%"
+      },
+      {
+        "name": "에너지",
+        "change": "+1.1%"
+      },
+      {
+        "name": "금융",
+        "change": "+0.8%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "name": "반도체(SOX)",
+        "change": "-6.7%"
+      },
+      {
+        "name": "기술(IT)",
+        "change": "-1.7%"
+      },
+      {
+        "name": "커뮤니케이션서비스",
+        "change": "-1.0%"
+      },
+      {
+        "name": "임의소비재",
+        "change": "-0.9%"
+      },
+      {
+        "name": "산업재",
+        "change": "-0.2%"
+      }
+    ]
+  },
+  "world": {
+    "subNote": "간밤 뉴욕은 다우가 사상 최고(52,900)를 쓴 반면 반도체(SOX)는 -6.7%로 이틀째 무너지는 극단적 차별화 장이었어요. '메타發 AI 자본지출 논쟁'과 '메모리 정점론'이 칩 밸류 되돌림을 키웠고, 그 여파로 어제 韓 코스피는 -7.89% 폭락해 서킷브레이커가 걸렸어요. 6월 美 고용이 +5.7만으로 식으며 금리는 내렸지만 위험회피가 우세했고요. 오늘 밤 美는 독립기념일 휴장, 다음주 7/7 삼성 잠정실적과 7/16 한은 금통위가 이어져요.",
+    "subNoteEm": "다우 사상최고 vs 반도체 -6.7% 극단 차별화·韓 코스피 -7.89% 폭락",
+    "global": [
+      {
+        "rank": "01",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "美 반도체 이틀째 투매·SOX -6.7%",
+        "summary": "AI 밸류 부담에 필라델피아 반도체가 이틀째 급락했어요",
+        "source": "Investing.com",
+        "sourceUrl": "https://www.investing.com/news/stock-market-news/chip-stocks-selloff-extends-on-valuation-metas-pivot-fears-4772457",
+        "note": "韓 반도체에 직격탄이에요"
+      },
+      {
+        "rank": "02",
+        "category": "빅테크",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "메타發 AI 자본지출 과열 경계",
+        "summary": "메타의 사업 확장 소식에 AI 과잉투자·수익성 우려가 번졌어요",
+        "source": "Saxo",
+        "sourceUrl": "https://www.home.saxo/content/articles/macro/market-quick-take---2-july-2026-02072026",
+        "note": "밸류 눈높이 조정이에요"
+      },
+      {
+        "rank": "03",
+        "category": "고용",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "美 6월 고용 +5.7만·예상 크게 하회",
+        "summary": "6월 신규고용이 5.7만에 그쳐 고용 둔화가 뚜렷했어요",
+        "source": "Charles Schwab",
+        "sourceUrl": "https://www.schwab.com/learn/story/stock-market-update-open",
+        "note": "Fed 인상 후퇴 재료예요"
+      },
+      {
+        "rank": "04",
+        "category": "미국증시",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "다우 사상최고 52,900·기술주 약세",
+        "summary": "방어주로 순환하며 다우는 최고, 나스닥은 밀렸어요",
+        "source": "24/7 Wall St.",
+        "sourceUrl": "https://247wallst.com/investing/2026/07/02/stock-market-live-july-2-2026-sp-500-spy-flat-with-new-jobs-data/",
+        "note": "방어·가치로 순환했어요"
+      },
+      {
+        "rank": "05",
+        "category": "반도체장비",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "마벨 $250 붕괴·칩 랠리 되돌림",
+        "summary": "한국發 반도체 쇼크에 마벨 등 美 칩주가 급락했어요",
+        "source": "FX Leaders",
+        "sourceUrl": "https://www.fxleaders.com/news/2026/07/02/marvell-mrvl-stock-breaks-key-250-support-as-korean-chip-rout-accelerates-ai-sector-selloff/",
+        "note": "AI 밸류체인 조정이에요"
+      },
+      {
+        "rank": "06",
+        "category": "파생상품",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "3배 반도체 ETF SOXL 하루 -16%",
+        "summary": "레버리지 반도체 ETF가 하루 16% 무너졌어요",
+        "source": "24/7 Wall St.",
+        "sourceUrl": "https://247wallst.com/investing/2026/07/01/soxls-16-daily-collapse-exposes-the-real-cost-7-9-billion-in-hidden-swap-financing/",
+        "note": "레버리지 위험 부각이에요"
+      },
+      {
+        "rank": "07",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "약한 고용에 美 10년물 하락",
+        "summary": "고용 둔화로 9월 인상 기대가 후퇴하며 금리가 내렸어요",
+        "source": "Trading Economics",
+        "sourceUrl": "https://tradingeconomics.com/united-states/government-bond-yield",
+        "note": "환율엔 숨통이에요"
+      },
+      {
+        "rank": "08",
+        "category": "원자재",
+        "categoryStyle": "geo",
+        "sentiment": "neu",
+        "title": "WTI $67·호르무즈 긴장 완화",
+        "summary": "美·이란 협상 진전에 유가가 67달러대로 밀렸어요",
+        "source": "Forbes",
+        "sourceUrl": "https://www.forbes.com/advisor/investing/oil-prices-today/",
+        "note": "정유·물가에 영향이에요"
+      },
+      {
+        "rank": "09",
+        "category": "안전자산",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "금값 $4,120·안전자산 재부각",
+        "summary": "위험회피와 금리 하락에 금이 4,100달러대로 올랐어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/amp/select/the-price-of-gold-today-july-2-2026/",
+        "note": "위험회피 수요예요"
+      },
+      {
+        "rank": "10",
+        "category": "가상자산",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "비트코인 $61,446·변동 속 반등",
+        "summary": "증시 변동 속에도 비트코인은 2%대 반등했어요",
+        "source": "24/7 Wall St.",
+        "sourceUrl": "https://247wallst.com/investing/cryptocurrency/2026/07/02/bitcoin-price-prediction-for-july-2026/",
+        "note": "위험선호 온기예요"
+      },
+      {
+        "rank": "11",
+        "category": "국제증시",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "韓 급락에 아시아·신흥국 동반 약세",
+        "summary": "한국 반도체 쇼크가 아시아·신흥국 증시로 번졌어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/07/02/samsung-sk-hynix-shares-slide-kospi-tech-selloff-nasdaq.html",
+        "note": "위험회피 확산이에요"
+      },
+      {
+        "rank": "12",
+        "category": "휴장",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "美 증시 오늘 밤 독립기념일 휴장",
+        "summary": "오늘 밤 뉴욕은 독립기념일로 하루 쉬어가요",
+        "source": "Edward Jones",
+        "sourceUrl": "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/daily-market-recap",
+        "note": "이번주 마무리 휴장이에요"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "국내증시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스피 -7.89% 7,648·서킷브레이커",
+        "summary": "반도체 투매에 코스피가 7.9% 폭락하며 사이드카가 걸렸어요",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20260702000959",
+        "note": "역대급 급락일이에요"
+      },
+      {
+        "rank": "02",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "삼성전자 -9.06%·SK하이닉스 -14.57%",
+        "summary": "메모리 대형주가 두 자릿수 급락하며 지수를 끌어내렸어요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202607030351226298",
+        "note": "메모리 정점 논란이에요"
+      },
+      {
+        "rank": "03",
+        "category": "증시제도",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스피·코스닥 매도 사이드카 발동",
+        "summary": "양 시장에 매도 사이드카가 걸릴 만큼 낙폭이 컸어요",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2599605",
+        "note": "美 반도체 쇼크 여파예요"
+      },
+      {
+        "rank": "04",
+        "category": "트리거",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "메타發 악재에 코스피 8000선 붕괴",
+        "summary": "메타 사업확장 우려가 도화선이 돼 8000이 깨졌어요",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2599476",
+        "note": "AI 수요 눈높이 조정이에요"
+      },
+      {
+        "rank": "05",
+        "category": "국내증시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "하루새 코스피 시총 534조 증발",
+        "summary": "코스피·코스닥이 각각 8000·900선 아래로 밀렸어요",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2599713",
+        "note": "변동성 급확대예요"
+      },
+      {
+        "rank": "06",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "개인 8조 저점매수·외인 5조 매도",
+        "summary": "개인이 8조 넘게 사들이며 외국인 매물을 받아냈어요",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2599731",
+        "note": "개인 저점매수 유입이에요"
+      },
+      {
+        "rank": "07",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "상반기 외국인 삼전닉스 130조 매도",
+        "summary": "외국인이 올 상반기 반도체 양대장을 130조 팔았어요",
+        "source": "헤럴드경제",
+        "sourceUrl": "https://biz.heraldcorp.com/article/10796449",
+        "note": "외인 셀코리아 지속이에요"
+      },
+      {
+        "rank": "08",
+        "category": "코스닥",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "코스닥 866·원익IPS -17.8% 급락",
+        "summary": "코스닥도 6.7% 급락하고 반도체 장비주가 특히 약했어요",
+        "source": "중앙이코노미뉴스",
+        "sourceUrl": "https://www.joongangenews.com/news/articleView.html?idxno=530209",
+        "note": "중소형 낙폭 컸어요"
+      },
+      {
+        "rank": "09",
+        "category": "순환매",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "반도체 쏠림 끝·조선·방산 순환매론",
+        "summary": "반도체 변동성에 조선·방산으로 눈을 돌리자는 목소리예요",
+        "source": "서울경제",
+        "sourceUrl": "https://www.sedaily.com/article/20062849",
+        "note": "비반도체 대안 부각이에요"
+      },
+      {
+        "rank": "10",
+        "category": "실적",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "7/7 삼성 잠정실적 최대 분수령",
+        "summary": "다음주 삼성 2분기 잠정실적이 반등 실마리로 꼽혀요",
+        "source": "서울경제",
+        "sourceUrl": "https://www.sedaily.com/article/20062322",
+        "note": "실적이 바닥 가늠자예요"
+      },
+      {
+        "rank": "11",
+        "category": "반등",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "폭락 뒤 반발 매수 유입될까",
+        "summary": "낙폭 과대 인식에 오늘은 반발 매수 기대도 나와요",
+        "source": "MBC",
+        "sourceUrl": "https://imnews.imbc.com/replay/2026/nwdesk/article/6832331_37004.html",
+        "note": "저가매수 관전이에요"
+      },
+      {
+        "rank": "12",
+        "category": "코스닥",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "코스닥 대장 알테오젠·에코프로 부진",
+        "summary": "코스닥 시총 상위 바이오·2차전지도 함께 밀렸어요",
+        "source": "딜사이트",
+        "sourceUrl": "https://dealsite.co.kr/articles/159193",
+        "note": "대장주 변동성 커요"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "어제(7/2 목) 국장은 '검은 목요일'이었어요. 美 반도체 투매가 밤사이 번지며 코스피는 -7.89%(7,648.09)로 폭락해 장중 매도 사이드카가 걸렸고, 코스닥도 -6.74%(866.72) 급락했어요. 삼성전자 -9.06%·SK하이닉스 -14.57% 등 메모리 대형주가 두 자릿수로 밀렸고, 외국인이 코스피에서만 5.1조를 순매도했어요. 반대로 개인은 8조 넘게 저점매수에 나섰고요. 원/달러는 1,537원대로 뛰며 원화가 약세를 보였어요. 오늘(7/3 금)은 낙폭 과대 인식 속 반발 매수와 추가 조정이 엇갈릴 수 있어요. 7/7 삼성 잠정실적이 반등의 실마리로 꼽혀요. (수급·환율·야간선물은 잠정·추정치예요)",
+    "subNoteEm": "어제 코스피 -7.89% 폭락·서킷 발동·개인 8조 저점매수·오늘 반발매수 관전",
+    "comment": "어제 국장은 <b>美 반도체 쇼크</b>에 <b>코스피 -7.89%(7,648) 폭락·매도 사이드카</b>가 걸린 하루였어요. <b>삼성전자 -9.06%·SK하이닉스 -14.57%</b>로 메모리 대형주가 무너졌고, <b>외국인 5.1조 순매도</b>가 낙폭을 키웠죠. 다만 <b>개인이 8조 넘게 저점매수</b>로 맞섰고, <b>LG에너지솔루션·삼성바이오</b>는 오히려 올랐어요. 오늘은 <b>낙폭 과대 반발</b>과 추가 조정이 엇갈릴 수 있어, 추격보다 분할로 호흡을 고르는 게 편할 수 있어요. <b>7/7 삼성 잠정실적</b>이 분위기를 가를 분수령이에요. 투자 판단은 본인 책임이에요.",
+    "expectedRange": "오늘은 반발 매수와 추가 조정이 엇갈리며 코스피 7,500~7,900선의 큰 등락이 예상돼요",
+    "indices": [
+      {
+        "name": "코스피",
+        "tip": "7/2 종가·美 반도체 쇼크 폭락",
+        "value": "7,648.09",
+        "change": "-7.89%",
+        "dir": "down"
+      },
+      {
+        "name": "코스닥",
+        "tip": "반도체 투매 동반 급락",
+        "value": "866.72",
+        "change": "-6.74%",
+        "dir": "down"
+      }
+    ],
+    "flow": [
+      {
+        "key": "원/달러 환율",
+        "value": "1,537.2원 ▲ (외인 대량 매도·원화 약세)",
+        "dir": "up"
+      },
+      {
+        "key": "야간 선물",
+        "value": "코스피200 야간선물 약세 (美 기술주 부진·추정)",
+        "dir": "down"
+      },
+      {
+        "key": "미국 상장 한국물(ADR)",
+        "value": "EWY 급락 (韓 반도체 투매 연동·추정)",
+        "dir": "down"
+      }
+    ],
+    "supply": [
+      {
+        "who": "외국인",
+        "amount": "-5조 1,330억원",
+        "dir": "sell"
+      },
+      {
+        "who": "기관",
+        "amount": "-4,757억원",
+        "dir": "sell"
+      },
+      {
+        "who": "개인",
+        "amount": "+5조 3,960억원",
+        "dir": "buy"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "theme": "2차전지 (역실적 선방)",
+        "stockName": "LG에너지솔루션",
+        "stockChange": "+1.72%"
+      },
+      {
+        "theme": "반도체 장비 (일부 반등·저가매수)",
+        "stockName": "주성엔지니어링",
+        "stockChange": "+0.83%"
+      },
+      {
+        "theme": "바이오 (방어·순환매)",
+        "stockName": "삼성바이오로직스",
+        "stockChange": "+0.72%"
+      },
+      {
+        "theme": "방산 (경기방어·추정)",
+        "stockName": "한화에어로스페이스",
+        "stockChange": "+0.4%"
+      },
+      {
+        "theme": "통신 (경기방어·추정)",
+        "stockName": "SK텔레콤",
+        "stockChange": "+0.3%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "theme": "반도체 대형 (메모리 정점 논란·투매)",
+        "stockName": "SK하이닉스",
+        "stockChange": "-14.57%"
+      },
+      {
+        "theme": "반도체 대형 (외인 매도)",
+        "stockName": "삼성전자",
+        "stockChange": "-9.06%"
+      },
+      {
+        "theme": "반도체 소부장 (HBM 밸류체인 급락)",
+        "stockName": "원익IPS",
+        "stockChange": "-17.81%"
+      },
+      {
+        "theme": "반도체 후공정 (검사·투매)",
+        "stockName": "리노공업",
+        "stockChange": "-8.08%"
+      },
+      {
+        "theme": "2차전지 소재 (동반 약세)",
+        "stockName": "에코프로비엠",
+        "stockChange": "-5.73%"
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "삼성전자",
+        "badge": "-9.06%·7/7 잠정실적",
+        "badgeType": "down",
+        "desc": "어제 반도체 투매에 9% 넘게 급락했어요. 6월 반도체 수출은 첫 400억달러를 넘었지만, 7/7 2분기 잠정실적(영업익 82~89조 컨센)이 반등의 분수령이 될 수 있어요"
+      },
+      {
+        "name": "SK하이닉스",
+        "badge": "-14.57%·메모리 정점 논란",
+        "badgeType": "down",
+        "desc": "메모리 슈퍼사이클 선두지만 어제 14% 넘게 급락했어요. 'D램 정점' 논란이 커진 가운데 HBM 수요가 이어질지 차분히 살펴보는 게 좋아요 (수급은 추정치예요)"
+      },
+      {
+        "name": "LG에너지솔루션",
+        "badge": "+1.72%·역실적 선방",
+        "badgeType": "up",
+        "desc": "반도체 폭락 속에서도 2차전지가 상대적으로 버텨줬어요. 반도체 쏠림이 풀릴 때 대안으로 거론되지만 흐름은 차분히 보는 게 좋아요 (수급은 추정치예요)"
+      },
+      {
+        "name": "삼성바이오로직스",
+        "badge": "+0.72%·방어주 부각",
+        "badgeType": "up",
+        "desc": "급락장에서 방어주로 소폭 올랐어요. 순환매 기대가 있는 업종이라 변동성이 큰 장에서 방어 성격을 참고할 수 있어요 (수급은 추정치예요)"
+      }
+    ],
+    "health": [
+      {
+        "key": "투자자 예탁금",
+        "tip": "대기 자금 (직전 발표 기준)",
+        "value": "132조원",
+        "subIcon": "▲",
+        "subDir": "up"
+      },
+      {
+        "key": "신용융자 잔고",
+        "tip": "빚투 지표 (직전 발표 기준)",
+        "value": "38조936억원",
+        "subIcon": "▲",
+        "subDir": "up"
+      },
+      {
+        "key": "공매도 순보유잔고",
+        "tip": "하락 베팅 (직전 발표 기준)",
+        "value": "22조5,989억원",
+        "subIcon": "▲",
+        "subDir": "up"
+      }
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘(7/3 금)은 어제 급락의 여진 속에 반발 매수 여부가 관전 포인트예요. 오늘 밤 美 증시는 독립기념일로 휴장이라 해외 변수는 잦아들어요. 다음주엔 7/7 삼성 2분기 잠정실적, 7/16 한은 금통위, 7/22 삼성 갤럭시 언팩이 줄줄이 대기해요.",
+    "subNoteEm": "오늘 반발매수 관전·美 독립기념일 휴장·다음주 7/7 삼성 실적",
+    "riskSentiment": "위험회피 우위 (美 반도체 밸류 되돌림·메타發 쇼크·韓 서킷브레이커 여진, 美 휴장 속 반발매수 관전)",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        {
+          "event": "코스피·코스닥 — 어제 급락 뒤 반발 매수·추가 조정 주시",
+          "when": "오늘 09:00 개장"
+        }
+      ]
+    },
+    "global": {
+      "timed": [],
+      "untimed": [
+        {
+          "event": "美 증시 휴장 — 독립기념일 대체휴장 (7/4 토)",
+          "when": "오늘 밤"
+        }
+      ]
+    },
+    "theme": "어제 美 반도체發 충격으로 코스피가 서킷브레이커까지 갈 만큼 급락했어요. 오늘은 낙폭 과대에 따른 반발 매수와 추가 조정이 엇갈릴 수 있고, 美 휴장으로 해외 변수는 잠잠해요. 7/7 삼성 잠정실적·7/16 한은 금통위를 차분히 준비하며 메모리·순환매 흐름을 함께 살펴봐요",
+    "checks": [
+      "오늘 09:00 개장 때 반발 매수가 들어오며 낙폭을 되돌리는지 살펴봐요",
+      "어제 -9% 밀린 삼성전자와 -14% 급락한 SK하이닉스가 진정되는지 점검해요",
+      "외국인 매도가 이어지는지, 개인 저점매수가 계속되는지 확인해요",
+      "원/달러 1,537원대 고환율이 더 오르는지 챙겨봐요",
+      "7/7 삼성 잠정실적을 앞두고 반도체 투자심리가 회복되는지 봐요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-06-28",
+    "end": "2026-07-04",
+    "days": [
+      {
+        "date": "2026-06-28",
+        "weekday": "일",
+        "items": [
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "韓 증시 — 주말 휴장 (다음 거래일은 6/29 월요일)",
+            "important": false,
+            "category": "holiday"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "美 증시 — 주말 휴장·'AI 비용' 논쟁과 반도체 향방 점검",
+            "important": false,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-29",
+        "weekday": "월",
+        "items": [
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "코스피 -0.20% 8,394 강보합·코스닥 +8% 급등(정책 기대)·삼성·SK 투자 발표",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "美 다우 사상 첫 52,000 돌파·알파벳 다우 편입·나스닥 +2.07% 반등",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-30",
+        "weekday": "화",
+        "items": [
+          {
+            "region": "domestic",
+            "time": "08:00",
+            "event": "한국 5월 산업활동동향 (통계청)",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "코스피 +0.97% 8,476 반등·간밤 美 반등 이어받아 강세",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "美 최고 분기 마감 — 다우 52,319·S&P 7,499·나스닥 26,213",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "time": "23:00",
+            "event": "美 6월 컨퍼런스보드 소비자신뢰지수 91.2·예상 하회",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-01",
+        "weekday": "수",
+        "items": [
+          {
+            "region": "domestic",
+            "time": "09:00",
+            "event": "한국 6월 수출 첫 1,000억달러(1,022억)·반도체 첫 400억(448억) 돌파",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "코스피 -1.04% 8,388 반락·삼성전자 -4.04% 차익실현",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "time": "23:00",
+            "event": "美 6월 ISM 제조업 PMI 53.3·6개월째 확장",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "21:15",
+            "event": "美 6월 ADP 민간고용 9.8만·예상 하회",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "美 3대지수 소폭 하락 — 다우 52,305 강보합",
+            "important": false,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-02",
+        "weekday": "목",
+        "items": [
+          {
+            "region": "domestic",
+            "time": "08:00",
+            "event": "한국 6월 소비자물가동향 (통계청)",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "코스피 -7.89% 7,648 폭락·매도 사이드카·삼성 -9.06%·SK하이닉스 -14.57%",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "美 6월 고용보고서 +5.7만·예상 하회·실업률 4.2%",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "美 다우 사상최고 52,900·나스닥 -1.27%·SOX -6.7% 반도체 투매",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-03",
+        "weekday": "금",
+        "items": [
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "코스피·코스닥 — 어제 급락 뒤 반발 매수·추가 조정 주시",
+            "important": false,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "美 증시 휴장 — 독립기념일 대체휴장 (7/4 토)",
+            "important": true,
+            "category": "holiday"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-04",
+        "weekday": "토",
+        "items": [
+          {
+            "region": "global",
+            "time": null,
+            "event": "美 독립기념일 (Independence Day)",
+            "important": false,
+            "category": "holiday"
+          }
+        ]
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 7,
+    "days": [
+      {
+        "date": "2026-07-01",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "한국 6월 수출 첫 1,000억달러 돌파·반도체 첫 400억달러(448억)",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "美 6월 ISM 제조업 PMI 53.3·6개월째 확장",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "美 6월 ADP 민간고용 9.8만·예상 하회",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "event": "코스피 -1.04% 8,388 반락·삼성전자 -4.04% 차익실현",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-02",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 6월 고용보고서 +5.7만·예상 하회·실업률 4.2%",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "event": "코스피 -7.89% 7,648 폭락·서킷브레이커·삼성 -9.06%·SK하이닉스 -14.57%",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "event": "美 다우 사상최고 52,900·나스닥 -1.27%·SOX -6.7% 반도체 투매",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-03",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "코스피·코스닥 — 어제 급락 뒤 반발 매수·추가 조정 주시",
+            "important": false,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "event": "美 증시 휴장 — 독립기념일 대체휴장",
+            "important": true,
+            "category": "holiday"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-04",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 독립기념일 (Independence Day)",
+            "important": false,
+            "category": "holiday"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-07",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "삼성전자 2분기 잠정실적 발표 (영업익 82~89조 컨센)",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "한국은행 금융통화위원회 통화정책방향 결정",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-22",
+        "items": [
+          {
+            "region": "global",
+            "event": "삼성 갤럭시 언팩 2026 (런던)·Z폴드8·Z플립8 공개",
+            "important": true,
+            "category": "conference"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-29",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 FOMC 통화정책 결정 (7/28~29)",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      }
+    ]
+  }
+}

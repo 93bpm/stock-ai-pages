@@ -1202,7 +1202,38 @@
         "branch": "claude/relaxed-feynman-0z9bsf"
       },
       "notes": "목요일 발화 — KST 07:08. 로컬 클론(origin/main 733a3d4)에서 컨텍스트·스키마·가이드·화이트리스트 정독. 간밤 7/1(수) 美장 종가 기준(KST 7/2 05시 마감), 韓 7/1(수) 종가 기준. 美: 다우 52,305.24(-0.03% 강보합)·S&P 7,482.87(-0.22%)·나스닥 26,040.71(-0.66%)·SOX 13,761(-1.0% SOXX대용 잠정)·최고분기(2020후) 마감 뒤 관망 숨고르기·6월 ADP 9.8만 소프트·ISM 53.3·VIX 16.45▼·10년물 4.46%▲(워시 매파)·달러 100.1▲·WTI $68.06▼(이란협상)·금 $4,096▲·BTC $58,294▼. 韓: 코스피 -1.04% 8,388.45(장초 8,591서 차익반락)·코스닥 911.33(-1.53%)·삼성전자 -4.04% 32만500원(6월 반도체수출 첫400억에도 차익). 6월 수출 첫 1,000억달러(1,022억)·반도체 첫 400억(448억,+199.5%)·상반기 반도체 1,924억(작년연간 초과). 순환매(조선·방산·전력기기) 차기주도론. 외인 5개월째 셀코리아(5월 47조). flow 3개(환율 1,522.40▲·야간선물 -0.3%·EWY 약보합 추정). calendarWeek 6/28일~7/4토(todayIdx=4 목)·6/30(화)·7/1(수) 과거화 갱신+7/2(오늘 물가08:00·NFP 21:30)+7/3 美휴장+7/4 독립기념일. calendarMonth 7월 8일(7/1수출·7/2고용·7/3휴장·7/4·7/7삼성잠정 earnings⊂wl-kr·7/16 금통위 policy·7/22 삼성언팩 conference⊂wl-conf·7/29 FOMC policy). 일관성: cal 일정⊂week[4] 통과·month 7월범위·category 7종enum 전수·earnings(삼성전자)⊂wl-kr·conference(언팩)⊂wl-conf·badgeType up/down∈enum. sourceUrl 24/24 unique·차단0·source↔URL 일치(글로벌 실검색 URL 다수). 페르소나 grep 0(단정/추천/격식체)·길이(title30/summary60/note25) 0. 매월1일 아님→화이트리스트 재생성 없음. WebFetch 시세소스 환경차단 관행→WebSearch로 시세·뉴스 수집(검색환경이 시리즈 정합 데이터 반환)."
+    },
+    {
+      "date": "2026-07-03",
+      "time": "10:21",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1222,
+      "tokens_estimated": 72000,
+      "response_size_kb": 32.6,
+      "tool_calls": {
+        "WebFetch": 37,
+        "WebSearch": 24,
+        "Read": 0,
+        "Write": 1,
+        "Bash": 12
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "masking_used": [],
+      "sources_attempted": {
+        "Stooq/finviz": "skip:환경차단 기지(403)",
+        "WebFetch": "10/37 (context·schema·guides·whitelist raw만 성공; Stooq 13·Yahoo 13·TheStreet 1은 조직 egress 정책 403 차단)",
+        "WebSearch": "24/24"
+      },
+      "push": {
+        "branch": "claude/relaxed-feynman-xhbp9m"
+      },
+      "notes": "금요일 발화 — KST 10:21(정기 07:00보다 지연). 로컬 클론(claude/relaxed-feynman-xhbp9m)에서 컨텍스트·스키마·가이드·화이트리스트3종 정독. 간밤 7/2(목) 美장 종가 기준(KST 7/3 05시 마감)·韓 7/2(목) 종가 기준. 오늘 7/3(금)은 韓 정규장·美는 독립기념일 대체휴장(7/4 토). Stooq·Yahoo·TheStreet 등 시세소스 조직 egress 403 전면차단→WebSearch 24건으로 시세·뉴스 수집. 시세는 직전 SSOT(7/1 briefing: 다우52,305·S&P7,482.87·나스닥26,040.71·SOX13,761)에 소싱된 7/2 일간등락 적용해 정합 도출. 美: 다우 +1.14% 52,900.07 사상최고(방어·가치 순환)·S&P -0.20% 7,467.91·나스닥 -1.27% 25,709.99·SOX -6.7% 12,839(SOXX대용,잠정)·6월 고용 +5.7만(예상 11만↓)·실업 4.2%·10년물 4.44%▼·VIX16.15▼·달러100.9▲·WTI$67.47▼·금$4,124▲·BTC$61,446▲. 촉매: 메타 사업확장發 'AI 과잉투자·메모리 정점론'→반도체 이틀째 투매(마벨·마이크론·SOXL-16%). 韓: 코스피 -7.89% 7,648.09 폭락·서킷/사이드카·코스닥 -6.74% 866.72·삼성전자 -9.06%·SK하이닉스 -14.57%·원익IPS-17.81%. 수급 외인 -5.1조·기관 -4,757억·개인 +5.4조 저점매수. LG엔솔+1.72%·삼바+0.72% 선방. flow3(환율1,537.2▲·야간선물약세추정·EWY급락추정). 뉴스 글로벌12(반도체투매·메타·고용·다우최고·마벨·SOXL·금리·유가·금·BTC·신흥국·美휴장)·국내12(코스피폭락·삼전닉스·사이드카·메타트리거·시총534조·개인8조·외인130조·코스닥·순환매·7/7삼성·반발매수·코스닥대장). calendarWeek 6/28일~7/4토(todayIdx=5 금)·7/2 폭락 과거화·7/3 반발매수관전+美휴장·7/4. calendarMonth 7월 8일(7/2 crash 갱신). 일관성: cal 오늘일정⊂week[5] 통과·month 7월범위·category 7종enum 전수·earnings(삼성)⊂wl-kr·conference(언팩)⊂wl-conf·badgeType down/up∈enum. sourceUrl 24/24 unique·차단0·source↔URL 일치. 페르소나 grep 0(단정/추천/격식체)·길이(title30/summary60/note25) 0. 매월1일 아님→화이트리스트 재생성 없음."
     }
   ],
-  "updatedAt": "2026-07-02T07:08:00+09:00"
+  "updatedAt": "2026-07-03T10:21:00+09:00"
 }
