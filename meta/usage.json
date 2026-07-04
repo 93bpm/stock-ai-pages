@@ -1264,6 +1264,37 @@
         "branch": "claude/relaxed-feynman-b4n7ss"
       },
       "notes": "토요일 주말 발화 — KST 07:08(정기 07:00 근접). 주말+美 독립기념일 겹침: 美증시 7/3(금)·7/4(토) 이틀째 휴장→美 데이터는 7/2(목) 마감값 기준(7/3 briefing과 동일). 韓은 7/3(금) 정규장이 신규 데이터 소스→그 종가 반영. 韓증시 7/4(토) 주말 휴장. 韓 7/3 급반등: 코스피 +5.76% 8,088.34(전날 -7.89% 하루만에 8000 회복)·코스닥 +0.19% 868.41·삼성전자 +8.22% 309,500·SK하이닉스 +10.88% 2,425,000. 수급 기관 +4조8,691억 폭풍매수 주도·개인 +2조7,301억·외국인 -2조2,229억(한국거래소+넥스트레이드 통합, news1/sedaily 시황종합). 원/달러 -30.2원 1,525.60(3개월래 최대낙폭·달러약세·원화강세, fnnews/etoday/헤럴드). flow는 v1.6.1 완화 적용 2개(원/달러 실값 + 야간선물·ADR은 美휴장 부재). 美(7/2 종가): 다우 +1.14% 52,900.07 사상최고·S&P -0.20% 7,467.91·나스닥 -1.27% 25,709.99·SOX -6.7% 12,839(SOXX대용,잠정)·6월고용+5.7만·10년물4.44%▼·금$4,124▲·BTC$61,446▲. 개별 韓 업종/종목 등락은 검증값(SK+10.88·삼성+8.22·삼화전자 상한가·금호건설우 하한가) 외 순환매 대표주는 (추정) 표기. 뉴스 글로벌12(다우최고·반도체투매·6월고용·금·BTC·유가·美휴장·금리·어닝시즌·FOMC20%·아시아확산·ISM)·국내12(코스피급반등·기관4.9조·쌍두마차·환율급락·코스닥·7/7삼성실적·하이닉스목표가·삼화전자·원화강세·핑퐁증시·충당금·주간전망). calendarWeek 6/28일~7/4토(todayIdx=6 토)·7/3 실제종가로 갱신·7/4 韓美 주말휴장. calendarMonth 7월 10일(7/3 갱신+7/6 ISM서비스·7/8 FOMC의사록 추가). 일관성: cal 오늘일정⊂week[6] 통과·month 7월범위·category 6종(market/macro/holiday/earnings/policy/conference)⊂7enum·earnings(삼성)⊂wl-kr·conference(언팩=SamsungUnpacked)⊂wl-conf 17종·badgeType up/down∈enum. sourceUrl 24/24 unique·차단0(bloomberg/wsj/ft/reuters/mk/yna)·source↔URL 도메인 일치·all https. 페르소나 grep 0(단정/추천/격식체)·길이(title30/summary60/note25) 위반0. 매월1일 아님→화이트리스트 재생성 없음."
+    },
+    {
+      "date": "2026-07-05",
+      "time": "07:08",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 731,
+      "tokens_estimated": 72000,
+      "response_size_kb": 26.1,
+      "tool_calls": {
+        "WebFetch": 8,
+        "WebSearch": 18,
+        "Read": 1,
+        "Write": 1,
+        "Bash": 4
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq/finviz": "skip:환경차단(403)",
+        "WebFetch": "8건(context·schema·guides5·whitelist3·briefing0704 등; businesskorea·thestreet 2건 egress 403→WebSearch 대체)",
+        "WebSearch": "18/18"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-ycp5ty"
+      },
+      "notes": "일요일 주말 발화 — KST 07:08(정기 07:00 근접). 07-05는 07-04(토)와 동일 세션 커버: 美 7/2(목)·韓 7/3(금)이 여전히 최신 거래일(美 7/3 독립기념일 대체휴장·7/4토·7/5일 3일 연속 휴장, 韓 7/4토·7/5일 주말 휴장). 새 거래 無→시세·수급·업종·watchlist·health는 07-04 검증값 승계(WebSearch로 韓 코스피+5.76% 8,088.34·원/달러 1,525.60·삼성+8.22%·SK하이닉스+10.88%·기관 폭풍매수·외국인 매도·美 다우52,900 사상최고·나스닥-1.27%·SOX-6.7%·6월고용+5.7만 재확인 일치). 날짜의존부만 갱신: date/weekday(일)/generatedAt·페르소나 시제(지난 금요일·내일 7/6 재개·사흘째 휴장)·뉴스 프레이밍(이번주 7/7삼성·7/8 FOMC의사록·내일 7/6 ISM). ★신규 calendarWeek 7/5(일)~7/11(토) todayIdx=0★: 7/5 韓美 주말휴장·7/6 韓美 재개+ISM서비스·7/7 삼성 잠정실적(earnings)·7/8 FOMC의사록(policy)·7/9~10 빈 items[]·7/11 주말휴장. calendarMonth 7월 11일(7/5 휴장 추가). 일관성 전수통과: week 7일·start일/end토·7일범위·cal 오늘일정⊂week[0]·month 7월범위·category 6종(holiday/market/macro/earnings/policy/conference)⊂7enum·earnings(삼성)⊂wl-kr·conference(언팩=SamsungUnpacked)⊂wl-conf17·badgeType up/down∈enum. sourceUrl 24/24 unique·차단0·source↔URL 도메인일치·all https. 페르소나 grep 0(단정/추천/격식체)·길이(title30/summary60/note25)위반0. flow 2개(v1.6.1 완화·야간선물/ADR 美휴장 부재). 매월1일 아님→화이트리스트 재생성 없음."
     }
   ],
   "updatedAt": "2026-07-04T07:08:00+09:00"
