@@ -1295,7 +1295,39 @@
         "branch": "claude/relaxed-feynman-ycp5ty"
       },
       "notes": "일요일 주말 발화 — KST 07:08(정기 07:00 근접). 07-05는 07-04(토)와 동일 세션 커버: 美 7/2(목)·韓 7/3(금)이 여전히 최신 거래일(美 7/3 독립기념일 대체휴장·7/4토·7/5일 3일 연속 휴장, 韓 7/4토·7/5일 주말 휴장). 새 거래 無→시세·수급·업종·watchlist·health는 07-04 검증값 승계(WebSearch로 韓 코스피+5.76% 8,088.34·원/달러 1,525.60·삼성+8.22%·SK하이닉스+10.88%·기관 폭풍매수·외국인 매도·美 다우52,900 사상최고·나스닥-1.27%·SOX-6.7%·6월고용+5.7만 재확인 일치). 날짜의존부만 갱신: date/weekday(일)/generatedAt·페르소나 시제(지난 금요일·내일 7/6 재개·사흘째 휴장)·뉴스 프레이밍(이번주 7/7삼성·7/8 FOMC의사록·내일 7/6 ISM). ★신규 calendarWeek 7/5(일)~7/11(토) todayIdx=0★: 7/5 韓美 주말휴장·7/6 韓美 재개+ISM서비스·7/7 삼성 잠정실적(earnings)·7/8 FOMC의사록(policy)·7/9~10 빈 items[]·7/11 주말휴장. calendarMonth 7월 11일(7/5 휴장 추가). 일관성 전수통과: week 7일·start일/end토·7일범위·cal 오늘일정⊂week[0]·month 7월범위·category 6종(holiday/market/macro/earnings/policy/conference)⊂7enum·earnings(삼성)⊂wl-kr·conference(언팩=SamsungUnpacked)⊂wl-conf17·badgeType up/down∈enum. sourceUrl 24/24 unique·차단0·source↔URL 도메인일치·all https. 페르소나 grep 0(단정/추천/격식체)·길이(title30/summary60/note25)위반0. flow 2개(v1.6.1 완화·야간선물/ADR 美휴장 부재). 매월1일 아님→화이트리스트 재생성 없음."
+    },
+    {
+      "date": "2026-07-06",
+      "time": "07:08",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1069,
+      "tokens_estimated": 74000,
+      "response_size_kb": 20.4,
+      "tool_calls": {
+        "WebFetch": 9,
+        "WebSearch": 20,
+        "Read": 0,
+        "Write": 1,
+        "Bash": 5
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq/finviz": "skip:환경차단(403)",
+        "Yahoo Finance": "fail:egress 403→WebSearch 대체",
+        "WebFetch": "9건(context·schema·guides5·whitelist3=kr/us/conf·businesskorea 403)",
+        "WebSearch": "20/20"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-0q4scc"
+      },
+      "notes": "월요일 07:08(정기 07:00 근접). 장 시작 전이라 최신 거래일은 여전히 美 7/2(목)·韓 7/3(금). 美 7/3(금)은 독립기념일 대체휴장(7/4토)→오늘 밤 7/6(월) 재개장. 신규 수집(WebSearch): 美 S&P 7,483.23(-0.22%)·나스닥 26,040.03(-0.66%)·다우 52,305.24 사상최고(전통주 순환매)·SOX 12,626.22(-5.44%)·VIX 15.81·WTI 68.78·금 4,187·DXY 101.4·6월고용 5.7만(예상 11.3만 하회)·실업률 4.2%. 韓 코스피 8,088.34(+5.76%·전일 8%대 폭락 서킷브레이커 후 급반등·매수사이드카)·코스닥 868.41(+0.19%)·삼성 +8.22%·SK하이닉스 +10.88%·기관 4조8,691억 순매수/외국인 2조2,229억·개인 2조7,301억 순매도·원/달러 1,528.92(-30원). 美 섹터: 헬스케어+2.63·유틸+2.21·필수+2.03·금융+1.53·에너지+0.78 상승 / 반도체-5.44·IT-2.71·경기소비-0.82 하락. ★kr.sectorsDown=[] : 매수사이드카 발동된 광범위 +5.76% 반등장이라 출처확인 하락 업종 부재→마스킹 금지 원칙에 따라 항목 제거(guides/data-quality §5). us.sectorsDown 3개(확인된 하락 섹터만). flow 2개(v1.6.1·美 7/3휴장으로 ADR/야간선물 부재, EWY 7/2 종가 참고). ★calendarWeek 7/5(일)~7/11(토) todayIdx=1(월)★: 7/7 삼성 잠정실적(earnings·wl-kr hit)·7/9 FOMC의사록(policy)+실업수당(macro)·7/10 SK하이닉스 ADR상장(market)·주말/월/수 items[]. calendarMonth 6건(7/7·9·10·16 금통위policy·22 삼성언팩conference=SamsungUnpacked hit·24 삼성확정실적). 일관성 41/41 통과: week 7일·start일/end토·7일범위·today⊂week[1](빈)·month 7월범위·category 5종(earnings/policy/macro/market/conference)⊂7enum·earnings⊂wl-kr·conference⊂wl-conf17. sourceUrl 24/24 unique·차단0·all https·source↔URL 일치. 페르소나 grep 0(단정/추천/격식체)·note≤25 위반0. 매월1일 아님→화이트리스트 재생성 없음."
     }
   ],
-  "updatedAt": "2026-07-04T07:08:00+09:00"
+  "updatedAt": "2026-07-06T07:08:00+09:00"
 }
