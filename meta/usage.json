@@ -1358,6 +1358,37 @@
         "branch": "claude/relaxed-feynman-ejb42a"
       },
       "notes": "금요일 07:08(정기 07:00 근접). 07-06(월) 이후 4거래일 만의 발화(07-07~09 미실행 gap)—최신 거래일 美 7/9(목)·韓 7/9(목) 신규 수집. 이번주 서사: 7/6 美 다우 첫 53,000 돌파·반도체 반등→7/7 삼성 2분기 잠정실적 89.4조(역대최대·엔비디아 넘어섬)이나 셀온 '검은 화요일' 삼성-4.9%→7/8 코스피 -5.35% 7,246·매도사이드카(올17번째)·삼성-6.92%·SK하이닉스-6.06%·원/달러1,498.5(중동+반도체셀온)→7/9 코스피 +0.62% 7,291.91·코스닥+1.15% 794·기관1조2,879억 매수 4일만반등·SK하이닉스+5.30%·SK스퀘어+4.49%·삼성전자+0.18%/삼성생명-5.78%·삼성물산-4.18%·현대차-3.68% 하락·원/달러1,506.1(+7.6). 美 7/9: S&P+0.81% 7,543.64·나스닥+1.30% 26,206.89·다우+0.27% 52,487.41·마이크론+7.5%(美반도체30억달러투자)·샌디스크/WD 6~7%·SOX급반등(SOXX+5%,intraday13,170~13,180)·VIX16.90·10년물4.58%·WTI-2% $72.08(이란협상기대)·금$4,087·BTC$6.2만대. ★오늘 7/10 SK하이닉스 나스닥 ADR 'SKHY' 상장(약$28B·역대최대 외국기업IPO·7배초과청약)★. flow 2개(v1.6.1·야간선물/ADR 정량부재→질적기술). us.sectors 일부(추정) 라벨. health 3개 직전발표승계(예탁금132조·신용융자38조936억·공매도22조5,989억). ★calendarWeek 7/5(일)~7/11(토) todayIdx=5(금)★: 7/5주말휴장·7/6다우53000+반도체반등(market)·7/7삼성잠정실적(earnings,wl-kr hit)+검은화요일·7/8급락사이드카·7/9양시장반등·7/10 SK하이닉스나스닥상장(market,region:global)·7/11주말휴장. calendarMonth 12일: 7/1·2·3·6·7(earnings)·8·9·10·16금통위(policy)·22삼성언팩(conference=SamsungUnpacked hit)·23 SK하이닉스실적(earnings,wl-kr hit)·29 FOMC(policy). 일관성 전수통과: week7일·start일/end토·7일범위·date⊂범위·cal오늘일정⊂week[5]·month7월범위·category 5종(holiday/market/earnings/policy/conference)⊂7enum·earnings(삼성전자·SK하이닉스)⊂wl-kr·conference(삼성언팩)⊂wl-conf17·badgeType up/down∈enum. sourceUrl 24/24 unique·차단0(bloomberg/wsj/ft/reuters/mk/yna 0)·all https·source↔URL 도메인일치. 페르소나 grep 0(단정/추천/격식체)·길이(title30/summary60/note25)위반0. 매월1일 아님→화이트리스트 재생성 없음."
+    },
+    {
+      "date": "2026-07-11",
+      "time": "07:08",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 703,
+      "tokens_estimated": 92000,
+      "response_size_kb": 29.9,
+      "tool_calls": {
+        "WebFetch": 7,
+        "WebSearch": 16,
+        "Read": 0,
+        "Write": 1,
+        "Bash": 5
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq/finviz": "skip:환경차단(403)",
+        "WebFetch": "7건(context·schema·sources·news·operations·data-quality·outputs md; 나머지 repo 로컬 Bash)",
+        "WebSearch": "16/16"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-879ied"
+      },
+      "notes": "토요일 07:08(주말·양시장 휴장). 최신 거래일 美 7/10(금)·韓 7/10(금) 신규 수집. 서사: 韓 7/10 코스피 +2.52% 7,475.94·코스닥 +5.47% 837.43 폭등·양시장 매수 사이드카·기관 1조1,319억 순매수(개인-7,728억·외국인-3,226억)·삼성전자+2.52% 285,000원(마이크론·메타發 메모리기대 반등)·KB금융+7.58%·삼성전기+6.10%·삼성바이오+5.28%·LG엔솔+3.99%/SK하이닉스국내-0.27%(상장앞두고차익)·원/달러1,501.40(-4.7). 美 7/10: S&P+0.42% 7,575.39·나스닥+0.29% 26,281.61·다우+0.29% 52,637.01·엔비디아+4%·메타+6%(클라우드)·마이크론2,500억달러투자·SOX+3.92%(잠정)·VIX17.65·10년물4.54%·DXY100.9·WTI$71.41(-0.9%,이란협상)·금$4,111·BTC$6.4만. ★핵심:SK하이닉스 나스닥데뷔 첫날+13% $168.01·시초가$170·공모가$149·265억달러조달(역대최대 外IPO)·최태원'역사적순간'·임시티커SKHYV→7/13 SKHY전환★. kr.flow 2개(주말·야간선물/ADR 질적기술). us/kr.sectorsDown 일부(추정)라벨(상승장 하락종목 제한). health 3개 직전발표승계. ★calendarWeek 7/5(일)~7/11(토) todayIdx=6(토)★: 7/10셀 실적반영업데이트(코스피폭등+SK하이닉스데뷔+S&P)·7/11주말휴장(today). calendarMonth 13일: 7/10 실적반영·7/13 SKHY전환추가·16금통위·22삼성언팩·23 SK하이닉스실적·29 FOMC. 일관성 전수통과: week7일·start일/end토·7일범위·date⊂범위·cal오늘⊂week[6]·month7월범위·category(holiday/market/earnings/policy/conference·macro)⊂7enum·earnings(삼성전자·SK하이닉스)⊂wl-kr·conference(삼성언팩)⊂wl-conf17. sourceUrl 24/24 unique·차단0·all https·도메인일치. 페르소나 grep 0(단정/추천/격식체). 매월1일 아님→화이트리스트 재생성 없음. 브랜치: 지정 claude/relaxed-feynman-879ied 유지(미머지 07-10 커밋 위에 07-11 누적)."
     }
   ],
   "updatedAt": "2026-07-10T07:08:00+09:00"

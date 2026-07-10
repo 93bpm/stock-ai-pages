@@ -1,0 +1,296 @@
+{
+  "date": "2026-07-11",
+  "weekday": "토",
+  "generatedAt": "2026-07-11T07:08:00+09:00",
+  "us": {
+    "subNote": "어젯밤(7/10 금) 뉴욕은 반도체 강세 속 3대 지수가 나란히 올라 변동성 컸던 한 주를 상승으로 마무리했어요. S&P 500이 +0.42%(7,575.39)로 주간 1% 넘게 올랐고, 나스닥 +0.29%(26,281.61)·다우 +0.29%(52,637.01)도 강보합이었어요. 엔비디아 +4%·마이크론이 2035년까지 美에 2,500억달러 투자를 밝히며 반도체가 지수를 이끌었고, 메타는 클라우드 진출 기대로 +6% 올랐어요. 무엇보다 SK하이닉스가 나스닥 데뷔 첫날 +13%($168.01)로 성공적으로 상장(265억달러 조달·역대 최대 외국기업 IPO)하며 'AI 메모리' 심리가 뜨거웠어요. 유가는 이란 협상 기대에 WTI -0.9%($71.41)로 진정됐고요. 韓 반도체엔 우호적 신호라 다음주 국장 반도체 흐름이 관전 포인트예요. (섹터 등락률 일부는 잠정·추정치예요)",
+    "subNoteEm": "美 S&P +0.42% 7,575 주간 1%↑·SK하이닉스 나스닥 데뷔 +13%·엔비디아 +4%·유가 진정",
+    "comment": "어젯밤 뉴욕은 <b>반도체 강세로 3대 지수가 나란히 상승</b>하며 변동성 컸던 한 주를 웃으며 마쳤어요. <b>S&P +0.42%(7,575)</b>가 주간 1% 넘게 올랐고, <b>엔비디아 +4%</b>·<b>마이크론 美 2,500억달러 투자</b>로 반도체가 지수를 이끌었죠. <b>메타 +6%</b>는 클라우드 진출 기대가 붙었고요. 특히 <b>SK하이닉스가 나스닥 데뷔 첫날 +13%($168.01)</b>로 성공 상장(265억달러·역대 최대 외국기업 IPO)하며 'AI 메모리' 심리가 뜨거웠어요. <b>유가는 WTI -0.9%($71.41)</b>로 진정됐고요. 韓 반도체엔 우호적이라 다음주 국장 흐름이 관전 포인트예요. 급등 뒤엔 호흡을 고르는 것도 방법이에요. 투자 판단은 본인 책임이에요.",
+    "indices": [
+      {"name": "S&P 500", "tip": "7/10 종가·주간 1%↑ 마감", "value": "7,575.39", "change": "+0.42%", "dir": "up"},
+      {"name": "나스닥 종합", "tip": "엔비디아·반도체 주도 강보합", "value": "26,281.61", "change": "+0.29%", "dir": "up"},
+      {"name": "다우존스", "tip": "강보합·+149p 마감", "value": "52,637.01", "change": "+0.29%", "dir": "up"},
+      {"name": "필라델피아 반도체", "tip": "7/10 반도체 강세(SOX 잠정)", "value": "13,121.36", "change": "+3.92%(잠정)", "dir": "up"}
+    ],
+    "indicators": [
+      {"key": "VIX", "value": "17.65 ▼", "dir": "down"},
+      {"key": "美 10년물", "value": "4.54% ▼", "dir": "down"},
+      {"key": "달러인덱스", "value": "100.9 ▼", "dir": "down"},
+      {"key": "WTI 유가", "value": "$71.41 ▼", "dir": "down"},
+      {"key": "금", "value": "$4,111 ▼", "dir": "down"},
+      {"key": "비트코인", "value": "$64,000 ▲", "dir": "up"}
+    ],
+    "sectorsUp": [
+      {"name": "반도체(SOX)", "change": "+3.9%(잠정)"},
+      {"name": "커뮤니케이션서비스", "change": "+1.5%(추정·메타 강세)"},
+      {"name": "기술(IT)", "change": "+0.8%(추정)"},
+      {"name": "임의소비재", "change": "+0.4%(추정)"},
+      {"name": "소재", "change": "+0.3%(추정)"}
+    ],
+    "sectorsDown": [
+      {"name": "에너지", "change": "-0.9%(추정·유가 하락)"},
+      {"name": "유틸리티", "change": "-0.5%(추정)"},
+      {"name": "필수소비재", "change": "-0.4%(추정)"},
+      {"name": "부동산", "change": "-0.3%(추정)"},
+      {"name": "헬스케어", "change": "-0.2%(추정)"}
+    ]
+  },
+  "world": {
+    "subNote": "어젯밤 해외는 반도체가 분위기를 이끌었어요. 엔비디아 +4%·마이크론 2,500억달러 투자로 나스닥이 +0.29% 올랐고, SK하이닉스는 나스닥 데뷔 첫날 +13%($168.01)로 성공 상장했어요(265억달러 조달·역대 최대 외국기업 IPO). 메타는 클라우드 기대로 +6% 올랐고, 유가는 이란 협상 기대에 WTI $71.41로 진정됐어요. 금은 $4,111로 소폭 밀렸고 비트코인은 $6.4만대로 주간 3% 올랐어요. 국내엔 반도체 온기와 SK하이닉스 상장 성공이 함께 우호적으로 작용할 수 있어요.",
+    "subNoteEm": "반도체 랠리로 나스닥 +0.29%·SK하이닉스 나스닥 데뷔 +13% 성공·엔비디아 +4%",
+    "global": [
+      {"rank": "01", "category": "기업공개", "categoryStyle": "tech", "sentiment": "pos", "title": "SK하이닉스 나스닥 데뷔 +13% $168.01", "summary": "美 상장 첫날 13% 오르며 성공적으로 데뷔했어요", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/07/10/sk-hynix-skhy-stock-nasdaq.html", "note": "韓 대표주 위상 강화예요"},
+      {"rank": "02", "category": "미국증시", "categoryStyle": "default", "sentiment": "pos", "title": "S&P 500 +0.42% 7,575·주간 1%↑ 마감", "summary": "3대 지수가 나란히 올라 한 주를 상승으로 마쳤어요", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-10-dow-sp-nasdaq-113921604.html", "note": "위험선호 유지예요"},
+      {"rank": "03", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "엔비디아 +4%·반도체가 지수 견인", "summary": "엔비디아 등 반도체 강세가 S&P 상승을 이끌었어요", "source": "Motley Fool", "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/07/10/stock-market-today-july-10-markets-edge-higher-and-sk-hynix-soars-on-debut/", "note": "HBM·韓 반도체 온기예요"},
+      {"rank": "04", "category": "빅테크", "categoryStyle": "tech", "sentiment": "pos", "title": "메타 +6%·클라우드 사업 진출 기대", "summary": "메타가 남는 AI 컴퓨팅을 파는 클라우드 진출로 강세였어요", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/07/02/metas-push-into-cloud-excites-wall-street-despite-lower-margins.html", "note": "AI 인프라 수요 기대예요"},
+      {"rank": "05", "category": "반도체투자", "categoryStyle": "tech", "sentiment": "pos", "title": "마이크론 美 2,500억달러 투자 확대", "summary": "마이크론이 2035년까지 美 투자를 2,500억달러로 늘려요", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/07/09/micron-stock-us-chipmaking.html", "note": "메모리 업황 기대예요"},
+      {"rank": "06", "category": "원자재", "categoryStyle": "geo", "sentiment": "pos", "title": "WTI $71.41·이란 협상에 유가 진정", "summary": "이란 협상 기대에 유가가 내리며 부담을 덜었어요", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/markets/article/trumps-iran-deal-is-getting-major-blowback-from-everyone-except-the-markets-181657742.html", "note": "물가·환율에 숨통이에요"},
+      {"rank": "07", "category": "안전자산", "categoryStyle": "geo", "sentiment": "neu", "title": "금값 $4,111·위험선호에 소폭 하락", "summary": "위험선호가 이어지며 금이 4,111달러로 소폭 밀렸어요", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-july-10-2026-gold-finally-opens-higher-this-morning-120806614.html", "note": "안전자산 수요 완화예요"},
+      {"rank": "08", "category": "가상자산", "categoryStyle": "default", "sentiment": "pos", "title": "비트코인 $6.4만·주간 3% 상승", "summary": "비트코인이 6만4천달러대로 올라 주간 3% 상승했어요", "source": "Fortune", "sourceUrl": "https://fortune.com/article/price-of-bitcoin-07-10-2026/", "note": "위험선호 가늠자예요"},
+      {"rank": "09", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "美 7월 FOMC 동결 우세·매파 점도표", "summary": "7/28~29 FOMC 동결 전망이 우세하나 매파 기조가 남아요", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/fed-hike-interest-rates-july-060507499.html", "note": "환율 흐름 변수예요"},
+      {"rank": "10", "category": "메모리", "categoryStyle": "tech", "sentiment": "pos", "title": "SK하이닉스 265억달러 조달 역대최대 外IPO", "summary": "SK하이닉스가 나스닥 외국기업 사상 최대 IPO를 마쳤어요", "source": "Fast Company", "sourceUrl": "https://www.fastcompany.com/91571722/sk-hynix-stock-price-nasdaq-trading-start-time-skhy-ipo-update", "note": "AI 메모리 신뢰 신호예요"},
+      {"rank": "11", "category": "반도체지수", "categoryStyle": "tech", "sentiment": "pos", "title": "필라델피아 반도체 +3.9%·메모리 강세", "summary": "SOX가 반도체 강세에 3%대 오르며 지수를 도왔어요", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-10-075400187.html", "note": "국내 밸류체인 온기예요"},
+      {"rank": "12", "category": "미국증시", "categoryStyle": "default", "sentiment": "neu", "title": "SK하이닉스 데뷔 앞두고 관망 뒤 상승", "summary": "상장 이벤트를 소화하며 지수가 강보합으로 올랐어요", "source": "TheStreet", "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-july-10-2026-nasdaq-futures-slip-ahead-of-sk-hynix-debut", "note": "이벤트 뒤 순환매예요"}
+    ],
+    "domestic": [
+      {"rank": "01", "category": "국내증시", "categoryStyle": "default", "sentiment": "pos", "title": "코스피 +2.52% 7,475·기관 순매수 급등", "summary": "기관 매수에 코스피가 2.52% 급등하며 마감했어요", "source": "서울신문", "sourceUrl": "https://www.seoul.co.kr/news/economy/securities/2026/07/10/20260710500192", "note": "반도체 훈풍 유입이에요"},
+      {"rank": "02", "category": "코스닥", "categoryStyle": "tech", "sentiment": "pos", "title": "코스닥 +5.47% 837·중소형 폭등", "summary": "코스닥이 5.47% 폭등하며 837포인트로 마쳤어요", "source": "이데일리", "sourceUrl": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04188566645513208", "note": "위험선호 강하게 회복이에요"},
+      {"rank": "03", "category": "시황", "categoryStyle": "default", "sentiment": "pos", "title": "코스피·코스닥 매수 사이드카 동반 발동", "summary": "양 시장이 급등하며 매수 사이드카가 나란히 걸렸어요", "source": "이투데이", "sourceUrl": "https://www.etoday.co.kr/news/view/2602477", "note": "폭등장 이례적 신호예요"},
+      {"rank": "04", "category": "환율", "categoryStyle": "default", "sentiment": "pos", "title": "원/달러 1,501.40원·4.7원 내려 주간 종료", "summary": "위험선호 회복에 환율이 4.7원 내려 마감했어요", "source": "Business Korea", "sourceUrl": "https://www.businesskorea.co.kr/news/articleView.html?idxno=272863", "note": "수입물가 부담 완화예요"},
+      {"rank": "05", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "삼성전자 +2.52% 285,000원·기관 러브콜", "summary": "메모리 기대에 기관 매수가 몰리며 삼성전자가 반등했어요", "source": "이투데이", "sourceUrl": "https://www.etoday.co.kr/news/view/2602557", "note": "공급과잉 우려 완화예요"},
+      {"rank": "06", "category": "상장", "categoryStyle": "tech", "sentiment": "pos", "title": "SK하이닉스 나스닥 시초가 $170·공모가 +14%", "summary": "SK하이닉스 ADR이 170달러에 거래를 시작했어요", "source": "뉴스핌", "sourceUrl": "https://www.newspim.com/news/view/20260711000007", "note": "美 상장 성공 출발이에요"},
+      {"rank": "07", "category": "기업공개", "categoryStyle": "tech", "sentiment": "pos", "title": "최태원 '역사적 순간'·SK하이닉스 美 입성", "summary": "최태원 회장이 나스닥 상장을 역사적 순간이라 평했어요", "source": "머니투데이", "sourceUrl": "https://www.mt.co.kr/world/2026/07/11/2026071101440341893", "note": "글로벌 위상 강화예요"},
+      {"rank": "08", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "코스피 장중 7,700선 탈환·반도체 훈풍", "summary": "美 반도체 훈풍에 코스피가 장중 7,700선까지 올랐어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202607101335026701", "note": "반도체 쏠림 강했어요"},
+      {"rank": "09", "category": "특징주", "categoryStyle": "default", "sentiment": "pos", "title": "거래상위 강세·금호타이어 상한가", "summary": "대형주 강세 속 금호타이어가 상한가로 마쳤어요", "source": "서울신문", "sourceUrl": "https://www.seoul.co.kr/news/economy/securities/2026/07/10/20260710500130", "note": "온기 확산 국면이에요"},
+      {"rank": "10", "category": "대형주", "categoryStyle": "default", "sentiment": "pos", "title": "KB금융·삼성바이오 급등·대형주 강세", "summary": "금융·바이오 대형주가 급등하며 지수를 끌어올렸어요", "source": "뉴스핌", "sourceUrl": "https://www.newspim.com/news/view/20260710001009", "note": "매수세 대형주로 확산이에요"},
+      {"rank": "11", "category": "시황", "categoryStyle": "default", "sentiment": "pos", "title": "하루 만에 비명→환호·양시장 사이드카", "summary": "전날 급락을 딛고 하루 만에 환호로 돌아섰어요", "source": "한국경제", "sourceUrl": "https://www.hankyung.com/article/2026071078216", "note": "변동성 여전히 커요"},
+      {"rank": "12", "category": "시황", "categoryStyle": "default", "sentiment": "neu", "title": "코스피 반도체 투심 개선·7,400선 회복", "summary": "반도체 투자심리가 살아나며 7,400선을 회복했어요", "source": "인포스탁데일리", "sourceUrl": "https://www.infostockdaily.co.kr/news/articleView.html?idxno=216776", "note": "심리 회복 조짐이에요"}
+    ]
+  },
+  "kr": {
+    "subNote": "어제(7/10 금) 국장은 폭발적으로 반등했어요. 코스피가 +2.52%(7,475.94) 급등하고 코스닥은 +5.47%(837.43) 폭등하며 양 시장에 매수 사이드카가 걸렸어요. 기관이 1조1,319억을 담으며 지수를 끌어올렸고, 개인 -7,728억·외국인 -3,226억은 차익을 실현했어요. 마이크론 대규모 투자와 메타 인프라 확장이 메모리 공급과잉 우려를 씻어내며 삼성전자가 +2.52%(285,000원) 반등했고, KB금융 +7%대·삼성바이오 +5%대·삼성전기 +6%대도 강세였어요. SK하이닉스는 나스닥 상장을 앞두고 국내선 -0.27%로 차익실현이 나왔고요. 원/달러는 4.7원 내린 1,501.40원으로 주간을 마쳤어요. 다음주 SK하이닉스 나스닥 데뷔 성공 흐름과 7/16 금통위가 관전 포인트예요. (개별 종목·업종 등락 일부는 잠정·추정치예요)",
+    "subNoteEm": "어제 코스피 +2.52% 7,475·코스닥 +5.47% 폭등·양시장 매수 사이드카·기관 1.1조 매수",
+    "comment": "어제 국장은 <b>코스피 +2.52%(7,475)·코스닥 +5.47%</b>로 폭발적 반등하며 <b>양 시장에 매수 사이드카</b>가 걸렸어요. <b>기관이 1조1,319억 순매수</b>로 지수를 끌어올렸고, <b>삼성전자 +2.52%(285,000원)</b>가 마이크론·메타發 메모리 기대에 반등했죠. <b>KB금융 +7%대</b>·삼성바이오 +5%대도 힘을 보탰고요. SK하이닉스는 나스닥 상장을 앞두고 국내선 <b>-0.27%</b>로 차익실현이 나왔지만, 밤사이 <b>美 데뷔 첫날 +13%($168.01)</b>로 성공 상장했어요. <b>원/달러는 1,501.40원</b>으로 4.7원 내렸고요. 다음주 7/16 금통위와 반도체 랠리 지속 여부가 관전 포인트예요. 급등 뒤엔 분할로 대응하는 게 편할 수 있어요. 투자 판단은 본인 책임이에요.",
+    "expectedRange": "주말 휴장이에요. 다음 거래일 7/13(월)은 SK하이닉스 나스닥 데뷔 성공과 반도체 랠리 지속 여부에 따라 코스피 7,400~7,700선 흐름이 예상돼요",
+    "indices": [
+      {"name": "코스피", "tip": "7/10 종가·기관 매수 급등", "value": "7,475.94", "change": "+2.52%", "dir": "up"},
+      {"name": "코스닥", "tip": "중소형 폭등·매수 사이드카", "value": "837.43", "change": "+5.47%", "dir": "up"}
+    ],
+    "flow": [
+      {"key": "원/달러 환율", "value": "1,501.40원 ▼ (4.7원 하락·1500원 초반 주간 종료)", "dir": "down"},
+      {"key": "야간 선물·ADR", "value": "SK하이닉스 나스닥 데뷔 +13% $168.01·美 나스닥 +0.29%·위험선호 유지", "dir": "up"}
+    ],
+    "supply": [
+      {"who": "외국인", "amount": "-3,226억원", "dir": "sell"},
+      {"who": "기관", "amount": "+1조 1,319억원", "dir": "buy"},
+      {"who": "개인", "amount": "-7,728억원", "dir": "sell"}
+    ],
+    "sectorsUp": [
+      {"theme": "금융 (대형주 강세·지수 견인)", "stockName": "KB금융", "stockChange": "+7.58%"},
+      {"theme": "전자부품 (전장·MLCC 수요)", "stockName": "삼성전기", "stockChange": "+6.10%"},
+      {"theme": "바이오 (방어주 반등 동참)", "stockName": "삼성바이오로직스", "stockChange": "+5.28%"},
+      {"theme": "2차전지 (위험선호 회복)", "stockName": "LG에너지솔루션", "stockChange": "+3.99%"},
+      {"theme": "반도체 대장 (기관 러브콜·저가매수)", "stockName": "삼성전자", "stockChange": "+2.52%"}
+    ],
+    "sectorsDown": [
+      {"theme": "반도체 (나스닥 상장 앞두고 차익실현)", "stockName": "SK하이닉스", "stockChange": "-0.27%"},
+      {"theme": "방산 (반도체 쏠림에 소외·추정)", "stockName": "한화에어로스페이스", "stockChange": "-1.2%(추정)"},
+      {"theme": "통신 (경기민감 순환 이탈·추정)", "stockName": "SK텔레콤", "stockChange": "-0.8%(추정)"},
+      {"theme": "유틸리티 (금리·방어주 약세·추정)", "stockName": "한국전력", "stockChange": "-0.6%(추정)"},
+      {"theme": "음식료 (방어주 차익실현·추정)", "stockName": "오리온", "stockChange": "-0.5%(추정)"}
+    ],
+    "watchlist": [
+      {"name": "SK하이닉스", "badge": "나스닥 데뷔 +13%·국내 -0.27%", "badgeType": "up", "desc": "美 상장 첫날 13% 오르며 성공적으로 데뷔했어요. 국내선 상장을 앞두고 차익실현에 소폭 눌렸는데, 다음주 'SKHY' 정식 거래 전환 뒤 국내외 주가가 어떻게 연동되는지 차분히 지켜보는 게 좋아요"},
+      {"name": "삼성전자", "badge": "+2.52%·기관 매수 반등", "badgeType": "up", "desc": "마이크론·메타發 메모리 수요 기대에 기관이 담으며 3% 안팎 반등했어요. 반도체 업황과 외국인 복귀 여부를 함께 챙겨보는 게 좋아요"},
+      {"name": "KB금융", "badge": "+7.58%·대형주 강세", "badgeType": "up", "desc": "금융 대형주가 지수 반등에 힘을 크게 보탰어요. 금리 흐름과 실적 시즌을 함께 보며 대응하는 게 좋아요"},
+      {"name": "삼성바이오로직스", "badge": "+5.28%·바이오 반등", "badgeType": "up", "desc": "방어주 성격의 바이오도 반등에 동참했어요. 반도체 쏠림이 이어질지, 순환매가 퍼질지 흐름을 함께 살펴봐요"}
+    ],
+    "health": [
+      {"key": "투자자 예탁금", "tip": "대기 자금 (직전 발표 기준)", "value": "132조원", "subIcon": "▲", "subDir": "up"},
+      {"key": "신용융자 잔고", "tip": "빚투 지표 (직전 발표 기준)", "value": "38조936억원", "subIcon": "▲", "subDir": "up"},
+      {"key": "공매도 순보유잔고", "tip": "하락 베팅 (직전 발표 기준)", "value": "22조5,989억원", "subIcon": "±", "subDir": "neutral"}
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘(7/11 토)은 국내외 증시 모두 주말 휴장이에요. 어젯밤 SK하이닉스가 나스닥 데뷔 첫날 +13%로 성공 상장하며 'AI 메모리' 붐을 재확인했어요. 다음 거래일은 7/13(월)로, SK하이닉스 정식 티커 'SKHY' 전환이 예정돼 있어요. 다음주 7/16 한은 금통위·7/22 삼성 언팩·7/23 SK하이닉스 실적·7/28~29 FOMC가 줄줄이 대기해요.",
+    "subNoteEm": "주말 휴장·전일 SK하이닉스 나스닥 데뷔 +13% 성공·다음주 7/16 금통위·7/13 SKHY 전환",
+    "riskSentiment": "위험선호 (반도체 랠리·SK하이닉스 상장 성공·유가 진정으로 위험선호 우위, 다음주 금통위·FOMC가 변수)",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        {"event": "韓 증시 — 주말 휴장 (다음 거래일 7/13 월·SK하이닉스 'SKHY' 정식 티커 전환)", "when": "주말"}
+      ]
+    },
+    "global": {
+      "timed": [],
+      "untimed": [
+        {"event": "美 증시 — 주말 휴장 (전일 SK하이닉스 나스닥 데뷔 +13% 성공)", "when": "주말"}
+      ]
+    },
+    "theme": "어제 국장이 큰 폭으로 반등하고 SK하이닉스 나스닥 상장까지 성공하며 한 주를 뜨겁게 마쳤어요. 오늘은 주말이라 시장을 쉬며, 다음주 7/16 금통위와 반도체 랠리 지속 여부를 차분히 준비해요. 급등 뒤 변동성이 커질 수 있으니 호흡을 고르며 대응하는 게 좋아요",
+    "checks": [
+      "SK하이닉스 나스닥 데뷔 +13% 흐름이 다음주 국내 주가·수급에 어떻게 이어지는지 살펴봐요",
+      "어제 반도체 랠리(삼성전자 반등)가 다음주에도 지속되는지 점검해요",
+      "기관 순매수(1.1조)가 이어지고 외국인이 매수로 돌아서는지 확인해요",
+      "다음주 7/16 한은 금통위 금리 결정과 원/달러 1,500원대 흐름을 챙겨봐요",
+      "7/22 삼성 언팩·7/23 SK하이닉스 실적 등 다음주 이벤트를 미리 준비해요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-07-05",
+    "end": "2026-07-11",
+    "days": [
+      {
+        "date": "2026-07-05",
+        "weekday": "일",
+        "items": [
+          {"region": "domestic", "time": null, "event": "韓 증시 — 주말 휴장 (다음 거래일 7/6 월)", "important": false, "category": "holiday"},
+          {"region": "global", "time": null, "event": "美 증시 — 주말 휴장·독립기념일 연휴 마무리", "important": false, "category": "holiday"}
+        ]
+      },
+      {
+        "date": "2026-07-06",
+        "weekday": "월",
+        "items": [
+          {"region": "global", "time": null, "event": "美 다우 첫 53,000선 돌파·나스닥 반도체 반등(SOX 13,104)", "important": true, "category": "market"},
+          {"region": "domestic", "time": null, "event": "코스피 재개장·전주 급반등 뒤 반도체 중심 등락", "important": false, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-07",
+        "weekday": "화",
+        "items": [
+          {"region": "domestic", "time": null, "event": "삼성전자 2분기 잠정실적 — 매출 171조·영업익 89.4조 역대최대", "important": true, "category": "earnings"},
+          {"region": "domestic", "time": null, "event": "코스피 '검은 화요일'·삼성전자 -4.9% 셀온·반도체 약세", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 나스닥 반도체 투매 -1%·다우 53,000 하회", "important": false, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-08",
+        "weekday": "수",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 -5.35% 7,246·코스닥 -5.56% 785·매도 사이드카(올해 17번째)·삼성 -6.92%·SK하이닉스 -6.06%", "important": true, "category": "market"},
+          {"region": "domestic", "time": null, "event": "원/달러 29.7원 급락 1,498.5원 (중동發 위험회피)", "important": false, "category": "market"},
+          {"region": "global", "time": null, "event": "美 S&P 반등·반도체 저가매수·유가 하락", "important": false, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-09",
+        "weekday": "목",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 +0.62% 7,291·코스닥 +1.15% 794·기관 1.3조 매수 4일 만에 반등·SK하이닉스 +5.30%", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 나스닥 +1.30% 26,206·마이크론 +7.5% 반도체 급반등·다우 52,487·WTI -2% $72.08", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "SK하이닉스 나스닥 IPO 7배 초과청약·공모가 $149 확정", "important": false, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-10",
+        "weekday": "금",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 +2.52% 7,475.94·코스닥 +5.47% 837.43 폭등·양시장 매수 사이드카·기관 1.1조 순매수·삼성전자 +2.52%", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "SK하이닉스 나스닥 데뷔 첫날 +13% $168.01·시초가 $170·265억달러 조달(역대 최대 外IPO)", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 S&P +0.42% 7,575·나스닥 +0.29% 26,282·엔비디아 +4%·SOX +3.9%·주간 1%↑", "important": false, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-11",
+        "weekday": "토",
+        "items": [
+          {"region": "domestic", "time": null, "event": "韓 증시 — 주말 휴장 (다음 거래일 7/13 월·SKHY 정식 티커 전환)", "important": false, "category": "holiday"},
+          {"region": "global", "time": null, "event": "美 증시 — 주말 휴장", "important": false, "category": "holiday"}
+        ]
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 7,
+    "days": [
+      {
+        "date": "2026-07-01",
+        "items": [
+          {"region": "domestic", "time": null, "event": "한국 6월 수출 첫 1,000억달러 돌파·반도체 첫 400억달러(448억)", "important": true, "category": "macro"},
+          {"region": "global", "time": null, "event": "美 6월 ISM 제조업 PMI 53.3·6개월째 확장", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-07-02",
+        "items": [
+          {"region": "global", "time": null, "event": "美 6월 고용보고서 +5.7만·예상 하회·실업률 4.2%", "important": true, "category": "macro"},
+          {"region": "domestic", "time": null, "event": "코스피 -7.89% 7,648 폭락·서킷브레이커·삼성 -9.06%·SK하이닉스 -14.57%", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 다우 사상최고 52,900·나스닥 -1.27%·SOX -6.7% 반도체 투매", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-03",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 +5.76% 8,088 급반등·기관 4.9조 매수·삼성 +8.22%·SK하이닉스 +10.88%", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 증시 휴장 — 독립기념일 대체휴장", "important": true, "category": "holiday"}
+        ]
+      },
+      {
+        "date": "2026-07-06",
+        "items": [
+          {"region": "global", "time": null, "event": "美 다우 첫 53,000선 돌파·나스닥 반도체 반등", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-07",
+        "items": [
+          {"region": "domestic", "time": null, "event": "삼성전자 2분기 잠정실적 영업익 89.4조·매출 171조 역대최대", "important": true, "category": "earnings"},
+          {"region": "domestic", "time": null, "event": "코스피 '검은 화요일'·삼성전자 -4.9% 셀온", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-08",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 -5.35% 7,246·매도 사이드카·삼성 -6.92%·SK하이닉스 -6.06% (중동+반도체 셀온)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-09",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 +0.62% 7,291·기관 1.3조 매수 4일 만에 반등·SK하이닉스 +5.30%", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 나스닥 +1.30%·마이크론 +7.5% 반도체 급반등·SK하이닉스 美 IPO 초과청약", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-10",
+        "items": [
+          {"region": "global", "time": null, "event": "SK하이닉스 나스닥 데뷔 첫날 +13% $168.01·265억달러 조달(역대 최대 外IPO)·최태원 '역사적 순간'", "important": true, "category": "market"},
+          {"region": "domestic", "time": null, "event": "코스피 +2.52% 7,475.94·코스닥 +5.47% 폭등·양시장 매수 사이드카·기관 1.1조 순매수", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-13",
+        "items": [
+          {"region": "global", "time": null, "event": "SK하이닉스 정식 티커 'SKHY' 전환·레버리지 ETF(SKUU·SKDD) 상장 예정", "important": false, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "items": [
+          {"region": "domestic", "time": null, "event": "한국은행 금융통화위원회 통화정책방향 결정", "important": true, "category": "policy"}
+        ]
+      },
+      {
+        "date": "2026-07-22",
+        "items": [
+          {"region": "global", "time": null, "event": "삼성 갤럭시 언팩 2026 (런던)·Z폴드8·Z플립8 공개", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-07-23",
+        "items": [
+          {"region": "domestic", "time": null, "event": "SK하이닉스 2분기 잠정실적 발표 예정", "important": true, "category": "earnings"}
+        ]
+      },
+      {
+        "date": "2026-07-29",
+        "items": [
+          {"region": "global", "time": null, "event": "美 FOMC 통화정책 결정 (7/28~29)", "important": true, "category": "policy"}
+        ]
+      }
+    ]
+  }
+}
