@@ -1389,7 +1389,38 @@
         "branch": "claude/relaxed-feynman-879ied"
       },
       "notes": "토요일 07:08(주말·양시장 휴장). 최신 거래일 美 7/10(금)·韓 7/10(금) 신규 수집. 서사: 韓 7/10 코스피 +2.52% 7,475.94·코스닥 +5.47% 837.43 폭등·양시장 매수 사이드카·기관 1조1,319억 순매수(개인-7,728억·외국인-3,226억)·삼성전자+2.52% 285,000원(마이크론·메타發 메모리기대 반등)·KB금융+7.58%·삼성전기+6.10%·삼성바이오+5.28%·LG엔솔+3.99%/SK하이닉스국내-0.27%(상장앞두고차익)·원/달러1,501.40(-4.7). 美 7/10: S&P+0.42% 7,575.39·나스닥+0.29% 26,281.61·다우+0.29% 52,637.01·엔비디아+4%·메타+6%(클라우드)·마이크론2,500억달러투자·SOX+3.92%(잠정)·VIX17.65·10년물4.54%·DXY100.9·WTI$71.41(-0.9%,이란협상)·금$4,111·BTC$6.4만. ★핵심:SK하이닉스 나스닥데뷔 첫날+13% $168.01·시초가$170·공모가$149·265억달러조달(역대최대 外IPO)·최태원'역사적순간'·임시티커SKHYV→7/13 SKHY전환★. kr.flow 2개(주말·야간선물/ADR 질적기술). us/kr.sectorsDown 일부(추정)라벨(상승장 하락종목 제한). health 3개 직전발표승계. ★calendarWeek 7/5(일)~7/11(토) todayIdx=6(토)★: 7/10셀 실적반영업데이트(코스피폭등+SK하이닉스데뷔+S&P)·7/11주말휴장(today). calendarMonth 13일: 7/10 실적반영·7/13 SKHY전환추가·16금통위·22삼성언팩·23 SK하이닉스실적·29 FOMC. 일관성 전수통과: week7일·start일/end토·7일범위·date⊂범위·cal오늘⊂week[6]·month7월범위·category(holiday/market/earnings/policy/conference·macro)⊂7enum·earnings(삼성전자·SK하이닉스)⊂wl-kr·conference(삼성언팩)⊂wl-conf17. sourceUrl 24/24 unique·차단0·all https·도메인일치. 페르소나 grep 0(단정/추천/격식체). 매월1일 아님→화이트리스트 재생성 없음. 브랜치: 지정 claude/relaxed-feynman-879ied 유지(미머지 07-10 커밋 위에 07-11 누적)."
+    },
+    {
+      "date": "2026-07-12",
+      "time": "07:08",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 545,
+      "tokens_estimated": 78000,
+      "response_size_kb": 29.0,
+      "tool_calls": {
+        "WebFetch": 5,
+        "WebSearch": 7,
+        "Read": 7,
+        "Write": 1,
+        "Bash": 9
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq/finviz": "skip:환경차단(403 전제)·주말 휴장",
+        "WebFetch": "5건(context·schema·operations·sources·news md; 나머지 repo 로컬 Read/Bash)",
+        "WebSearch": "7/7(주말 글로벌/국내 시황·美 어닝캘린더·美 매크로캘린더·TSMC 7/16 실적확정·한은 금통위 7/16)"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-5evozh"
+      },
+      "notes": "일요일 07:08(주말·양시장 휴장). 직전 거래일 美 7/10(금)·韓 7/10(금) 종가 승계(전일 07-11 검증값 재사용, weekend rule '직전 거래일 종가+휴장 명시'). 시세 사실데이터는 페르소나 영향 X 원문 유지: 韓 코스피 +2.52% 7,475.94·코스닥 +5.47% 837.43·기관 1.1조 순매수·삼성전자 +2.52% 285,000·원/달러 1,501.40(-4.7). 美 S&P +0.42% 7,575.39·나스닥 +0.29%·다우 +0.29%·SOX +3.92%(잠정)·VIX 17.65·10Y 4.54%·DXY 100.9·WTI $71.41·금 $4,111·BTC $6.4만·SK하이닉스 나스닥 데뷔 +13% $168.01. 해설·전망 필드는 일요일 주말+다음주 프리뷰 페르소나로 신규 작성(subNote/comment/theme/checks/watchlist desc). ★핵심 신규: calendarWeek를 새 주 7/12(일)~7/18(토) 7칸 전면 생성(todayIdx=0 일)★: 7/12·7/18 주말휴장, 7/13 SKHY전환(market), 7/14 美CPI 21:30 화(macro,important)+어닝시즌개막, 7/15 美PPI(macro), ★7/16 목: 한은금통위 10:30 25bp인상전망(policy)+TSMC 2분기실적 15:00(earnings,us-bigtech TSM hit)+美소매판매★, 7/17 미시간지수. calendarMonth 7월에 7/14(CPI)·7/16(금통위+TSMC) 추가. 뉴스는 주말recap+다음주preview 혼합(TSMC 7/16·美CPI·금통위·BNP파리바 3% 등 신규 URL 6건). 일관성 전수통과: week 7일·start일/end토·7일범위·date⊂범위·cal오늘⊂week[0]·month 2026-07범위·category(holiday/market/macro/policy/earnings/conference)⊂7enum·earnings(TSMC⊂wl-us-bigtech, 삼성전자·SK하이닉스⊂wl-kr)·conference(삼성언팩⊂wl-conf17). sourceUrl 24/24 unique·차단(bloomberg/wsj/ft/reuters/mk/yna)0·all https·도메인일치. 페르소나 grep 0(단정/추천/격식체). kr.flow 2개(주말 야간선물/ADR 질적). 매월1일 아님→화이트리스트 재생성 없음. 브랜치: 지정 claude/relaxed-feynman-5evozh 유지(전 PR 머지완료→main과 even, 신규 커밋 누적)."
     }
   ],
-  "updatedAt": "2026-07-10T07:08:00+09:00"
+  "updatedAt": "2026-07-12T07:08:00+09:00"
 }
