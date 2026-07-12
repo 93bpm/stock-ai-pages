@@ -1420,6 +1420,37 @@
         "branch": "claude/relaxed-feynman-5evozh"
       },
       "notes": "일요일 07:08(주말·양시장 휴장). 직전 거래일 美 7/10(금)·韓 7/10(금) 종가 승계(전일 07-11 검증값 재사용, weekend rule '직전 거래일 종가+휴장 명시'). 시세 사실데이터는 페르소나 영향 X 원문 유지: 韓 코스피 +2.52% 7,475.94·코스닥 +5.47% 837.43·기관 1.1조 순매수·삼성전자 +2.52% 285,000·원/달러 1,501.40(-4.7). 美 S&P +0.42% 7,575.39·나스닥 +0.29%·다우 +0.29%·SOX +3.92%(잠정)·VIX 17.65·10Y 4.54%·DXY 100.9·WTI $71.41·금 $4,111·BTC $6.4만·SK하이닉스 나스닥 데뷔 +13% $168.01. 해설·전망 필드는 일요일 주말+다음주 프리뷰 페르소나로 신규 작성(subNote/comment/theme/checks/watchlist desc). ★핵심 신규: calendarWeek를 새 주 7/12(일)~7/18(토) 7칸 전면 생성(todayIdx=0 일)★: 7/12·7/18 주말휴장, 7/13 SKHY전환(market), 7/14 美CPI 21:30 화(macro,important)+어닝시즌개막, 7/15 美PPI(macro), ★7/16 목: 한은금통위 10:30 25bp인상전망(policy)+TSMC 2분기실적 15:00(earnings,us-bigtech TSM hit)+美소매판매★, 7/17 미시간지수. calendarMonth 7월에 7/14(CPI)·7/16(금통위+TSMC) 추가. 뉴스는 주말recap+다음주preview 혼합(TSMC 7/16·美CPI·금통위·BNP파리바 3% 등 신규 URL 6건). 일관성 전수통과: week 7일·start일/end토·7일범위·date⊂범위·cal오늘⊂week[0]·month 2026-07범위·category(holiday/market/macro/policy/earnings/conference)⊂7enum·earnings(TSMC⊂wl-us-bigtech, 삼성전자·SK하이닉스⊂wl-kr)·conference(삼성언팩⊂wl-conf17). sourceUrl 24/24 unique·차단(bloomberg/wsj/ft/reuters/mk/yna)0·all https·도메인일치. 페르소나 grep 0(단정/추천/격식체). kr.flow 2개(주말 야간선물/ADR 질적). 매월1일 아님→화이트리스트 재생성 없음. 브랜치: 지정 claude/relaxed-feynman-5evozh 유지(전 PR 머지완료→main과 even, 신규 커밋 누적)."
+    },
+    {
+      "date": "2026-07-13",
+      "time": "07:08",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 578,
+      "tokens_estimated": 82000,
+      "response_size_kb": 29.2,
+      "tool_calls": {
+        "WebFetch": 6,
+        "WebSearch": 10,
+        "Read": 0,
+        "Write": 1,
+        "Bash": 4
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq/finviz": "skip:환경차단(403 전제)·주말 美휴장",
+        "WebFetch": "6건(context·schema·sources·news·operations md+whitelist 3개 raw)",
+        "WebSearch": "10/10(주간전망·BTC·美CPI·TSMC실적·코스피월요전망·금통위·SKHY전환·코스피주간·JPM실적·SOX)"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-g1dk49"
+      },
+      "notes": "월요일 07:08(韓 거래일·오늘 09:00 개장 프리뷰, 美 주말휴장 후 오늘밤 재개장). 직전 거래일 美 7/10(금)·韓 7/10(금) 종가 승계(주말간 시장 미변동). 시세 사실데이터 페르소나 영향 X 원문: 韓 코스피 +2.52% 7,475.94·코스닥 +5.47% 837.43·기관 1.1조 순매수·삼성전자 +2.52% 285,000·원/달러 1,501.40. 美 S&P +0.42% 7,575.39·나스닥 +0.29% 26,281.61·다우 +0.29% 52,637.01·SOX +3.92%(잠정)·VIX 17.65·10Y 4.54%·DXY 100.9·WTI $71.41·금 $4,111·BTC $6.4만(주말 보합 $64,100). SK하이닉스 나스닥 데뷔 +13% $168.01·오늘 'SKHYV→SKHY' 정식전환. 해설·전망 필드는 월요 프리뷰 페르소나 신규작성(subNote/comment/theme/checks/watchlist/expectedRange). calendarWeek 동일주 7/12(일)~7/18(토) 유지·todayIdx=1(월). 갱신: 7/13 today items(SKHY전환 market)·7/14 CPI 3.9%전망(전주 3.8→3.9 업데이트)+대형은행개막+워시증언·7/15 PPI+워시증언·7/16 금통위10:30(2.75%)+TSMC15:00(earnings)+소매판매·7/17 미시간. calendarMonth 7월 7/14 CPI 3.9%로 갱신. 뉴스 월요 프리뷰 혼합(신규URL: kiplinger CPI·tipranks JPM·yahoo TSMC·cnbc 주간전망·schwab 워시·sbsbiz SKHY·ebn 주간·tradersunion·fnnews SKHY잭팟). 일관성 전수통과: week 7일·start일/end토·7일범위·date⊂범위·cal오늘⊂week[1]·month 2026-07범위·category(holiday/market/macro/policy/earnings/conference)⊂7enum·earnings(TSMC⊂wl-us-bigtech, 삼성전자·SK하이닉스⊂wl-kr)·conference(삼성언팩⊂wl-conf17). sourceUrl 24/24 unique·차단(bloomberg/wsj/ft/reuters/mk/yna)0·all https·도메인일치. 페르소나 grep 0(단정/추천/격식체)·길이(title≤30·summary≤60·note≤25) 통과(title 2건 축약수정). kr.flow 2개. 매월1일 아님→화이트리스트 재생성 없음. 브랜치: 지정 claude/relaxed-feynman-g1dk49(전 PR 머지완료→main과 even, 신규커밋)."
     }
   ],
   "updatedAt": "2026-07-12T07:08:00+09:00"
