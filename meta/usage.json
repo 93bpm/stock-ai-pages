@@ -1482,7 +1482,38 @@
         "branch": "claude/relaxed-feynman-03icf1"
       },
       "notes": "화요일 07:08(韓 거래일·오늘 09:00 개장 프리뷰). 직전 거래일 美 7/13(월)·韓 7/13(월) 종가 승계. ★7/13 '검은 월요일'★: 韓 코스피 -8.95% 6,806.93·코스닥 -4.55% 799.36·올해7번째 서킷브레이커·외국인 -1.685조·기관 -2.219조·개인 +3.882조·SK하이닉스 -15.37% 184.5만·삼성전자 -10.70% 254,500·방산조선(한화에어로·HD현대중공업) 순환매 강세·원/달러 1,530원선 급등. 美 S&P -0.79% 7,515.34·나스닥 -1.55% 25,873.18·다우 -0.26% 52,498.64(에너지 방어)·SOX -3%(잠정)·VIX 17.09(+13.7%)·10Y 4.59%·DXY 100.97·WTI $73.89(+3.5%)·금 $4,053·BTC $6.26만. 美-이란 충돌격화(CENTCOM 이란시설 140곳 타격·이란 호르무즈 봉쇄 선언). 시세 사실데이터 페르소나 영향 X 원문. 해설·전망 필드 화요 프리뷰 페르소나 신규작성. calendarWeek 동일주 7/12(일)~7/18(토)·todayIdx=2(화). 갱신: 7/13 실제화(검은월요일 market)·7/14 today(CPI 21:30 3.7~3.9%전망+대형은행+워시증언+韓반등시도)·7/16 금통위10:00(2.75%)+TSMC15:00(earnings). calendarMonth 7월 7/13 검은월요일로 갱신. 일관성 전수통과: week 7일·start일/end토·7일범위·cal오늘⊂week[2]·month 2026-07·category 7enum·earnings(TSMC⊂wl-us-bigtech·삼성전자·SK하이닉스⊂wl-kr)·conference(삼성언팩⊂wl-conf17). sourceUrl 24/24 unique·차단0·all https·도메인일치. 페르소나 grep 0(단정/추천/격식체)·길이 통과. kr.flow 2개(schema 2~3 허용). watchlist badgeType down 2건(SK하이닉스·삼성전자). 매월1일 아님→화이트리스트 재생성 없음. 브랜치: 지정 claude/relaxed-feynman-03icf1(main과 even, 신규커밋)."
+    },
+    {
+      "date": "2026-07-15",
+      "time": "07:09",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 988,
+      "tokens_estimated": 98000,
+      "response_size_kb": 31.2,
+      "tool_calls": {
+        "WebFetch": 7,
+        "WebSearch": 16,
+        "Read": 6,
+        "Write": 1,
+        "Bash": 5
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq/finviz/Yahoo": "403 차단(Yahoo 직접 fetch 403)→WebSearch 폴백",
+        "WebFetch": "7건(context·schema md 2 + Read 로컬 guides/whitelist 대체·Yahoo화요wrap 403 1)",
+        "WebSearch": "16건(美마감·6월CPI·코스피마감·환율·코스닥·VIX지표·SOX·美섹터·은행실적·KR업종·VIX/오일·KR개별·KR바이오·이란·TSMC·금통위·PPI·칩랠리·KR시총·저가매수)"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-dk3qnf"
+      },
+      "notes": "수요일 07:09(韓 거래일·오늘 09:00 개장 프리뷰). 직전 거래일 美 7/14(화)·韓 7/14(화) 종가 승계. ★7/14 반등★: 美 6월 CPI 3.5% 둔화(예상 3.8% 하회·근원 0%/2.6%)→9월인상 74→59%·10Y -6bp 4.55%·달러 약세. 美 S&P +0.38% 7,543.59·나스닥 +0.90% 26,107.01·다우 +0.02% 52,508.27·SOX +4%(잠정 SOXX)·AMD +5%·인텔 +4%·엔비디아 +3.5%·마이크론 급등·JPM +41%·골드만 사상최대. VIX 17.2(유가경계)·WTI $79.34(+1.5%·美 이란 재타격)·금 $4,008 강보합·BTC $6.21만(-2.6%). 韓 코스피 +0.73% 6,856.83(장중 6,448까지 밀렸다 삼전닉스 저가매수 반등)·코스닥 -1.92% 783.98(올해 8번째 매도사이드카)·외국인 +9,528억·기관 +3조2,159억·개인 -4조1,428억·원/달러 1,493.0(-10.4·2개월래 1,480원대)·삼성전자 +3.34%·SK하이닉스 +3.69%·SK스퀘어 +2.50%·운송장비 -4%대(조선방산 되돌림)·화학 -3.24%·예탁금 105.6조/신용 35조대(역머니무브). 시세·수급·업종 사실데이터 페르소나 영향 X. 해설·전망 필드 수요 프리뷰 페르소나 신규작성. calendarWeek 동일주 7/12(일)~7/18(토)·todayIdx=3(수). 7/14 실제화(CPI3.5%·은행실적·나스닥반등·코스피반등/코스닥사이드카)·7/15 today(PPI21:30 macro·워시상원증언 policy·글로벌반도체실적시즌 industry·韓반도체반등지속). 7/16 금통위10:00(policy)+TSMC15:00(earnings)+소매판매. calendarMonth 7월 7/14 실제화+7/15 추가. 일관성 전수통과: week7일·start일/end토·7일범위·date⊂범위·cal오늘⊂week[3]·month 2026-07·category 7enum(macro/market/policy/earnings/holiday/industry)·earnings(TSMC⊂wl-us-bigtech·삼성전자/SK하이닉스⊂wl-kr)·conference(삼성언팩⊂wl-conf17). sourceUrl 24/24 unique·차단(bloomberg/wsj/ft/reuters/mk/yna)0·all https·도메인일치(CNN/247wallst/fool/cryptobriefing/fxleaders/fxstreet/g-enews 매핑외 공개매체 확인). 페르소나 grep 0(단정/추천/격식체)·길이(title≤30·summary≤60·note≤25) 통과. kr.flow 2개(schema 2~3)·watchlist badgeType up 2건(SK하이닉스·삼성전자). 매월1일 아님→화이트리스트 재생성 없음. 브랜치: 지정 claude/relaxed-feynman-dk3qnf(main과 even·신규커밋)."
     }
   ],
-  "updatedAt": "2026-07-14T07:08:00+09:00"
+  "updatedAt": "2026-07-15T07:09:00+09:00"
 }

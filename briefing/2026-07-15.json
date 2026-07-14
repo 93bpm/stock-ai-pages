@@ -1,0 +1,315 @@
+{
+  "date": "2026-07-15",
+  "weekday": "수",
+  "generatedAt": "2026-07-15T07:09:00+09:00",
+  "us": {
+    "subNote": "어젯밤(7/14) 뉴욕은 6월 CPI가 3.5%로 예상(3.8%)을 밑돌며 둔화하자 반도체가 앞장서 반등했어요. 나스닥이 +0.90%(26,107.01)로 강했고, S&P 500 +0.38%(7,543.59)·다우는 +0.02%(52,508.27)로 보합권이었어요. 근원 CPI가 전월 대비 0%로 나오며 9월 인상 확률이 74%→59%로 낮아졌고, 10년물 금리는 6bp 내린 4.55%, 달러도 밀렸어요. AMD +5%·인텔 +4%·엔비디아 +3.5%·마이크론 급등으로 SOX가 4%대 반등(잠정)했고, JPM(순익 +41%)·골드만(사상 최대) 등 대형은행 실적도 호조였어요. 다만 美 이란 재타격에 WTI가 +1.5%($79.34)로 다시 올라 유가·지정학은 변수로 남았어요. 오늘 밤 21:30(KST) 6월 PPI와 워시 Fed 의장 상원 증언, 16일 TSMC 실적이 이어져요. (美 섹터·SOX 일부는 잠정·추정치예요)",
+    "subNoteEm": "美 6월 CPI 3.5% 둔화·반도체 반등·나스닥 +0.9%·오늘밤 PPI 대기",
+    "comment": "어젯밤 뉴욕은 <b>6월 CPI 3.5% 둔화</b>(예상 3.8% 하회)에 위험선호가 살아나며 <b>반도체가 앞장서 반등</b>했어요. <b>나스닥 +0.90%(26,107)</b>가 강했고 <b>S&P +0.38%(7,543)</b>·다우는 보합이었죠. 근원 물가가 0%로 나오며 <b>9월 인상 확률이 74%→59%</b>로 낮아졌고, <b>10년물 −6bp 4.55%</b>·달러 약세가 뒤따랐어요. <b>AMD +5%·인텔 +4%·마이크론 급등</b>으로 SOX가 4%대 반등(잠정)했고, <b>JPM(+41%)·골드만(사상 최대)</b> 은행 실적도 좋았어요. 다만 <b>美 이란 재타격에 WTI +1.5%($79)</b>로 유가는 다시 올라 지정학은 변수로 남아요. 오늘 밤 <b>6월 PPI(21:30)</b>·워시 증언, 16일 TSMC 실적이 대기해요. 이벤트가 몰린 주라 호흡을 고르며 대응하는 게 편할 수 있어요. 투자 판단은 본인 책임이에요.",
+    "indices": [
+      {"name": "S&P 500", "tip": "7/14 종가·CPI 둔화 반등", "value": "7,543.59", "change": "+0.38%", "dir": "up"},
+      {"name": "나스닥 종합", "tip": "반도체 반등 주도", "value": "26,107.01", "change": "+0.90%", "dir": "up"},
+      {"name": "다우존스", "tip": "은행 실적·보합 마감", "value": "52,508.27", "change": "+0.02%", "dir": "up"},
+      {"name": "필라델피아 반도체", "tip": "SOXX ETF 대용·칩 반등(잠정)", "value": "13,080(잠정)", "change": "+4.0%(잠정)", "dir": "up"}
+    ],
+    "indicators": [
+      {"key": "VIX", "value": "17.2 ▲ (유가·지정학 경계)", "dir": "up"},
+      {"key": "美 10년물", "value": "4.55% ▼ (−6bp)", "dir": "down"},
+      {"key": "달러인덱스", "value": "100.7 ▼ (소프트 CPI 약세)", "dir": "down"},
+      {"key": "WTI 유가", "value": "$79.34 ▲ (+1.5%·이란 재타격)", "dir": "up"},
+      {"key": "금", "value": "$4,008 (강보합)", "dir": "neutral"},
+      {"key": "비트코인", "value": "$62,100 ▼ (−2.6%)", "dir": "down"}
+    ],
+    "sectorsUp": [
+      {"name": "기술(IT) (반도체·AI 반등 주도·추정)", "change": "+2%대(추정)"},
+      {"name": "커뮤니케이션서비스 (성장주 강세·추정)", "change": "+1%대(추정)"},
+      {"name": "임의소비재 (금리 하락 수혜·추정)", "change": "+1%대(추정)"},
+      {"name": "에너지 (유가 반등·추정)", "change": "+0.8%(추정)"},
+      {"name": "부동산 (금리 하락 수혜·추정)", "change": "+0.6%(추정)"}
+    ],
+    "sectorsDown": [
+      {"name": "필수소비재 (방어주 차익·추정)", "change": "-0.5%(추정)"},
+      {"name": "유틸리티 (순환 이탈·추정)", "change": "-0.4%(추정)"},
+      {"name": "헬스케어 (약세·추정)", "change": "-0.3%(추정)"},
+      {"name": "소재 (혼조·추정)", "change": "-0.2%(추정)"},
+      {"name": "금융 (은행 실적 차익·추정)", "change": "-0.1%(추정)"}
+    ]
+  },
+  "world": {
+    "subNote": "어젯밤 글로벌은 6월 美 CPI가 3.5%로 둔화하며 반도체 주도로 반등했어요. 나스닥 +0.90%·엔비디아 +3.5%·AMD +5% 등 칩주가 저가매수로 되살아났고, JPM·골드만 등 대형은행 실적도 호조였어요. 물가 둔화에 9월 인상 확률이 59%로 낮아지고 10년물이 4.55%로 내렸지만, 美 이란 재타격에 WTI가 +1.5%($79.34)로 올라 유가·지정학은 변수로 남았어요. 오늘 밤 6월 PPI(21:30)·워시 증언, 16일 TSMC 실적·韓 금통위가 이어져 국내 반도체에도 함께 작용할 수 있어요.",
+    "subNoteEm": "美 CPI 3.5% 둔화에 반도체 주도 반등·유가·지정학은 변수",
+    "global": [
+      {"rank": "01", "category": "거시", "categoryStyle": "default", "sentiment": "pos", "title": "美 6월 CPI 3.5% 둔화·예상 하회", "summary": "6월 물가가 3.5%로 둔화해 예상(3.8%)을 밑돌았어요", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html", "note": "금리 부담 완화 신호예요"},
+      {"rank": "02", "category": "미국증시", "categoryStyle": "default", "sentiment": "pos", "title": "나스닥·S&P 반등·기술주 안도", "summary": "물가 둔화에 위험선호가 살아나며 뉴욕이 반등했어요", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-14-083900447.html", "note": "아시아 장에 온기 가능해요"},
+      {"rank": "03", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "엔비디아·마이크론·인텔 반도체 반등", "summary": "칩주가 전쟁 우려를 딛고 저가매수로 반등했어요", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/nvidia-intel-micron-rebound-chip-210146757.html", "note": "韓 반도체에 우호적이에요"},
+      {"rank": "04", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "AMD +5%·인텔 +4% 칩 랠리", "summary": "물가 둔화에 고베타 칩주가 앞장서 급반등했어요", "source": "24/7 Wall St.", "sourceUrl": "https://247wallst.com/investing/2026/07/14/amd-rallies-5-intel-rises-4-as-cooling-inflation-sparks-a-chip-rebound/", "note": "위험선호 회복 신호예요"},
+      {"rank": "05", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "마이크론 급등·$2,500억 투자 부각", "summary": "마이크론이 美 투자 확대 기대에 5%대 급등했어요", "source": "Motley Fool", "sourceUrl": "https://www.fool.com/investing/2026/07/14/why-micron-technology-stock-rallied-on-tuesday/", "note": "메모리 업황 기대예요"},
+      {"rank": "06", "category": "실적", "categoryStyle": "default", "sentiment": "pos", "title": "JPM·골드만 등 대형은행 실적 호조", "summary": "JPM 순익 +41%·골드만 사상 최대 실적을 냈어요", "source": "Crypto Briefing", "sourceUrl": "https://cryptobriefing.com/major-banks-historic-q2-2026-earnings/", "note": "경기·자본시장 온기예요"},
+      {"rank": "07", "category": "원자재", "categoryStyle": "geo", "sentiment": "neg", "title": "美 이란 재타격에 WTI +1.5% $79", "summary": "美 이란 공습 재개에 국제유가가 다시 올랐어요", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/07/14/oil-prices-today-brent-wti-hormuz-trump-toll-iran.html", "note": "물가·수입물가 부담이에요"},
+      {"rank": "08", "category": "지정학", "categoryStyle": "geo", "sentiment": "neg", "title": "美-이란 호르무즈 충돌 지속", "summary": "美-이란이 호르무즈에서 공방을 이어가고 있어요", "source": "NPR", "sourceUrl": "https://www.npr.org/2026/07/13/nx-s1-5891746/us-iran-strait-of-hormuz-updates", "note": "유가·위험자산 변수예요"},
+      {"rank": "09", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "워시 Fed 의장 '아직 안심 일러'", "summary": "워시 의장이 물가 안심은 이르다며 신중론을 폈어요", "source": "CNN", "sourceUrl": "https://www.cnn.com/2026/07/14/business/live-news/cpi-inflation-kevin-warsh-capitol-hill-testimony", "note": "금리 경로 변수예요"},
+      {"rank": "10", "category": "반도체", "categoryStyle": "tech", "sentiment": "neu", "title": "TSMC 7/16 2분기 실적 대기", "summary": "AI·HBM 수요 가늠자인 TSMC 실적이 16일 나와요", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/tsmc-q2-earnings-preview-why-190000466.html", "note": "韓 반도체 밸류체인 직결"},
+      {"rank": "11", "category": "가상자산", "categoryStyle": "default", "sentiment": "neg", "title": "비트코인 $6.2만·위험자산 혼조", "summary": "지정학 경계에 비트코인이 6만2천달러대로 밀렸어요", "source": "FXLeaders", "sourceUrl": "https://www.fxleaders.com/news/2026/07/14/us-inflation-data-today-gold-silver-bitcoin-forex-and-dollar-outlook/", "note": "위험선호 가늠자예요"},
+      {"rank": "12", "category": "거시", "categoryStyle": "default", "sentiment": "neu", "title": "오늘밤 美 6월 PPI·달러 약세", "summary": "소프트 CPI에 달러가 밀렸고 오늘 PPI가 대기해요", "source": "FXStreet", "sourceUrl": "https://www.fxstreet.com/news/united-states-dollar-index-slips-as-soft-us-cpi-dents-fed-rate-hike-bets-202607141806", "note": "오늘밤 21:30 발표예요"}
+    ],
+    "domestic": [
+      {"rank": "01", "category": "국내증시", "categoryStyle": "default", "sentiment": "pos", "title": "코스피 +0.73% 6,856·삼전닉스 방어", "summary": "삼성전자·SK하이닉스 반등이 지수 하단을 지켰어요", "source": "이데일리", "sourceUrl": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04657606645514520", "note": "급락 하루 만에 반등했어요"},
+      {"rank": "02", "category": "코스닥", "categoryStyle": "tech", "sentiment": "neg", "title": "코스닥 -1.92% 783·매도 사이드카", "summary": "장중 6%대 급락에 올해 8번째 매도 사이드카가 걸렸어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202607141328397458", "note": "중소형주 약세가 컸어요"},
+      {"rank": "03", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "삼성전자 +3.3%·저가매수 유입", "summary": "전날 급락 뒤 저가매수가 들어와 반도체가 반등했어요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202607140955088563", "note": "외인·기관이 되샀어요"},
+      {"rank": "04", "category": "수급", "categoryStyle": "default", "sentiment": "pos", "title": "외인·기관 4조 순매수·개인 매도", "summary": "외국인·기관이 4조 원을 순매수하며 지수를 받쳤어요", "source": "뉴스핌", "sourceUrl": "https://www.newspim.com/news/view/20260714001035", "note": "개인은 차익 실현했어요"},
+      {"rank": "05", "category": "증시흐름", "categoryStyle": "default", "sentiment": "neu", "title": "코스피 반등·코스닥 사이드카 대조", "summary": "대형 반도체는 웃고 중소형주는 우는 차별화 장이었어요", "source": "이투데이", "sourceUrl": "https://www.etoday.co.kr/news/view/2603659", "note": "지수 간 온도차 컸어요"},
+      {"rank": "06", "category": "환율", "categoryStyle": "default", "sentiment": "pos", "title": "원/달러 1,493원·2개월래 1,480원대", "summary": "원화가 강세로 돌며 장중 1,480원대까지 내렸어요", "source": "머니투데이", "sourceUrl": "https://www.mt.co.kr/economy/2026/07/14/2026071416465642548", "note": "수입물가 부담 완화예요"},
+      {"rank": "07", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "한은 금통위 7/16·2.75% 인상 유력", "summary": "물가·환율·부동산에 3년 반 만의 인상이 점쳐져요", "source": "이투데이", "sourceUrl": "https://www.etoday.co.kr/news/view/2602556", "note": "인상 폭·속도 주목이에요"},
+      {"rank": "08", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "통화긴축 개막·연속 인상 여부 관심", "summary": "7월 인상 뒤 8월·10월 추가 인상 시나리오가 거론돼요", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202607120545564818", "note": "환율·수급 변수예요"},
+      {"rank": "09", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "반도체 고점론 반박·실적시즌 주목", "summary": "ASML·TSMC 실적이 반도체 방향을 가늠할 이정표예요", "source": "글로벌이코노믹", "sourceUrl": "https://www.g-enews.com/article/Securities/2026/07/202607101425077750923c501012_1", "note": "고점 신호는 아직 없어요"},
+      {"rank": "10", "category": "수급", "categoryStyle": "default", "sentiment": "neg", "title": "예탁금 105조·역머니무브 조짐", "summary": "대기 자금이 한 달 새 22조 줄며 예금으로 옮겨갔어요", "source": "뉴스핌", "sourceUrl": "https://www.newspim.com/news/view/20260713000989", "note": "위험선호 약화 신호예요"},
+      {"rank": "11", "category": "증시흐름", "categoryStyle": "default", "sentiment": "neg", "title": "운송장비 -4%·조선·방산 되돌림", "summary": "전날 강했던 조선·방산이 순환매 되돌림에 밀렸어요", "source": "서울경제", "sourceUrl": "https://www.sedaily.com/article/20067509", "note": "테마 순환이 빨라요"},
+      {"rank": "12", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "반도체가 코스피 하단 방어", "summary": "반도체 대형주가 지수 방어의 버팀목이 돼줬어요", "source": "뉴스1", "sourceUrl": "https://www.news1.kr/photos/8008292", "note": "지수 안정판 역할이에요"}
+    ]
+  },
+  "kr": {
+    "subNote": "오늘(7/15 수) 국장은 어젯밤 美 증시 반도체 반등을 반영하며 출발할 것으로 보여요. 어제(7/14)는 코스피가 장중 6,448까지 밀렸다가 삼성전자·SK하이닉스 저가매수에 힘입어 +0.73%(6,856.83)로 반등 마감했어요. 반면 코스닥은 장중 6%대 급락에 올해 8번째 매도 사이드카가 발동되며 -1.92%(783.98)로 밀려 지수 간 온도차가 컸어요. 외국인·기관이 4조 원 넘게 순매수하며 지수를 받쳤고, 개인은 차익 실현에 나섰어요. 원/달러는 원화 강세로 장중 1,480원대까지 내려 1,493.0원에 마감했고요. 어젯밤 美 CPI 둔화·칩 반등이 우호적이지만, 오늘 밤 6월 PPI와 16일 한은 금통위(2.75% 인상 전망)·TSMC 실적이 이어져 변동성이 남아 있어요. (개별·업종 등락 일부는 업종지수 기준이에요)",
+    "subNoteEm": "어제 코스피 +0.73% 6,856 반등·코스닥 사이드카·오늘밤 PPI·16일 금통위",
+    "comment": "어제 국장은 <b>코스피 +0.73%(6,856.83)</b>로 급락 하루 만에 반등했지만, <b>코스닥은 -1.92%(783.98)</b>로 올해 8번째 <b>매도 사이드카</b>가 걸리며 지수 간 온도차가 컸어요. <b>삼성전자 +3.3%·SK하이닉스 +3.7%</b> 저가매수가 하단을 지켰고, <b>외국인·기관이 4조 원 순매수</b>로 받쳤어요. 반면 전날 강했던 <b>운송장비·조선·방산은 순환매 되돌림</b>에 −4%대로 밀렸죠. <b>원/달러는 1,493원</b>으로 원화가 강세를 보였어요. 어젯밤 <b>美 CPI 3.5% 둔화·칩 반등</b>이 우호적이지만, 오늘 밤 <b>6월 PPI</b>와 <b>16일 금통위(2.75% 인상 전망)·TSMC 실적</b>이 남아 있어요. 이벤트가 몰린 주라 분할로 호흡을 고르며 대응하는 게 편할 수 있어요. 투자 판단은 본인 책임이에요.",
+    "expectedRange": "오늘 국장은 어젯밤 美 반도체 반등과 CPI 둔화를 반영해 반등 시도가 예상되지만, 유가·지정학과 금통위 대기가 변동성을 키울 수 있어요. 코스피 6,750~7,050선 등락이 가능하고, 오늘 밤 美 PPI가 방향을 가늠할 수 있어요",
+    "indices": [
+      {"name": "코스피", "tip": "7/14 종가·저가매수 반등", "value": "6,856.83", "change": "+0.73%", "dir": "up"},
+      {"name": "코스닥", "tip": "매도 사이드카·800선 회복 실패", "value": "783.98", "change": "-1.92%", "dir": "down"}
+    ],
+    "flow": [
+      {"key": "원/달러 환율", "value": "1,493.0원 ▼ (−10.4원·원화 강세·장중 1,480원대)", "dir": "down"},
+      {"key": "야간 선물·ADR", "value": "美 반도체 반등(SOX +4%)·나스닥 +0.9% 연동 강세", "dir": "up"}
+    ],
+    "supply": [
+      {"who": "외국인", "amount": "+9,528억원", "dir": "buy"},
+      {"who": "기관", "amount": "+3조 2,159억원", "dir": "buy"},
+      {"who": "개인", "amount": "-4조 1,428억원", "dir": "sell"}
+    ],
+    "sectorsUp": [
+      {"theme": "반도체 (美 CPI 둔화·저가매수 반등)", "stockName": "SK하이닉스", "stockChange": "+3.69%"},
+      {"theme": "반도체 대장 (외인·기관 순매수 회귀)", "stockName": "삼성전자", "stockChange": "+3.34%"},
+      {"theme": "전기·전자 우선주 (동반 강세)", "stockName": "삼성전자우", "stockChange": "+3.00%"},
+      {"theme": "반도체 지주 (지수 방어 가세)", "stockName": "SK스퀘어", "stockChange": "+2.50%"},
+      {"theme": "전기·전자 (지수 방어 업종)", "stockName": "전기·전자 업종", "stockChange": "+2.76%"}
+    ],
+    "sectorsDown": [
+      {"theme": "운송장비·부품 (조선·방산 순환매 되돌림)", "stockName": "운송장비·부품 업종", "stockChange": "-4%대"},
+      {"theme": "화학 (위험회피 매물)", "stockName": "화학 업종", "stockChange": "-3.24%"},
+      {"theme": "증권 (거래대금 우려)", "stockName": "증권 업종", "stockChange": "-3%대"},
+      {"theme": "음식료·담배 (경기방어 차익)", "stockName": "음식료·담배 업종", "stockChange": "-2.36%"},
+      {"theme": "제약·바이오 (투자심리 위축)", "stockName": "제약 업종", "stockChange": "-2.28%"}
+    ],
+    "watchlist": [
+      {"name": "SK하이닉스", "badge": "+3.69%·저가매수 반등", "badgeType": "up", "desc": "전날 -15% 급락 뒤 저가매수가 들어와 반등했어요. 16일 TSMC 실적과 HBM 수요 신호, 외국인 매수 지속 여부를 함께 지켜보는 게 좋아요"},
+      {"name": "삼성전자", "badge": "+3.34%·지수 방어", "badgeType": "up", "desc": "외국인·기관 저가매수에 3%대 반등하며 지수 하단을 지켰어요. 어젯밤 美 반도체 반등 온기가 이어질지, 오늘 밤 PPI를 함께 챙겨보는 게 좋아요"},
+      {"name": "한은 금통위", "badge": "7/16·2.75% 인상 유력", "badgeType": "default", "desc": "16일 금통위에서 3년 반 만의 인상(2.50%→2.75%) 가능성이 점쳐져요. 인상 폭과 추가 인상 시그널이 환율·수급에 어떻게 작용하는지 지켜보는 게 좋아요"},
+      {"name": "TSMC 실적", "badge": "7/16·AI·HBM 가늠자", "badgeType": "default", "desc": "16일 발표되는 TSMC 2분기 실적이 AI·HBM 수요의 방향을 가늠해요. CoWoS 증설·capex 코멘트가 韓 반도체에 주는 신호를 미리 챙겨보는 게 좋아요"},
+      {"name": "美 6월 PPI", "badge": "오늘밤 21:30·물가 확인", "badgeType": "default", "desc": "어젯밤 CPI 둔화에 이어 오늘 밤 PPI가 물가 둔화를 재확인해줄지가 관건이에요. 유가 반등이 생산자물가에 주는 영향과 금리·환율 흐름을 함께 살펴보는 게 좋아요"}
+    ],
+    "health": [
+      {"key": "투자자 예탁금", "tip": "대기 자금 (7/10 기준·역머니무브)", "value": "105조5,757억원", "subIcon": "▼", "subDir": "down"},
+      {"key": "신용융자 잔고", "tip": "빚투 지표 (7/10 기준·6/24 38.6조 정점 후↓)", "value": "35조원대", "subIcon": "▼", "subDir": "down"}
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘(7/15 수)은 어젯밤 美 CPI 둔화·반도체 반등을 소화하며 국장이 열려요. 오늘 밤 21:30 美 6월 PPI와 워시 Fed 의장 상원 증언이 대기하고, 16일 한은 금통위(2.75% 인상 전망)·TSMC 실적, 17일 미시간 소비심리가 이어져요.",
+    "subNoteEm": "오늘밤 美 6월 PPI·워시 증언·16일 금통위·TSMC 실적 이벤트 집중",
+    "riskSentiment": "위험선호 회복 우위 (美 CPI 둔화·반도체 반등이 우호적, 유가·지정학과 16일 금통위·TSMC 실적이 변수)",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        {"event": "코스피 반등·코스닥 사이드카 이후 반도체 반등 지속 여부 주목", "when": "장중"}
+      ]
+    },
+    "global": {
+      "timed": [
+        {"time": "21:30", "event": "美 6월 생산자물가지수(PPI) 발표", "important": true},
+        {"time": "23:00", "event": "워시 Fed 의장 상원 은행위 증언(둘째날)", "important": false}
+      ],
+      "untimed": [
+        {"event": "글로벌 반도체 실적시즌·ASML 등 실적 발표", "when": "장중"}
+      ]
+    },
+    "theme": "어젯밤 美 6월 CPI가 3.5%로 둔화하며 반도체가 앞장서 반등했고, 어제 국장도 코스피가 급락 하루 만에 +0.73% 반등했어요. 오늘은 그 온기를 이어갈지가 관건인데, 오늘 밤 6월 PPI가 물가 둔화를 다시 확인해줄지 주목돼요. 이벤트가 몰린 한 주(PPI·16일 금통위·TSMC 실적)라 변동성이 남아 있으니 호흡을 고르며 대응하는 게 좋아요",
+    "checks": [
+      "어제 반등(코스피 +0.73%)이 오늘도 이어질지, 코스닥 사이드카 뒤 반등 여부를 살펴봐요",
+      "오늘 밤 美 6월 PPI(21:30)가 CPI에 이어 물가 둔화를 확인해줄지 챙겨봐요",
+      "美-이란 호르무즈 충돌·WTI $79대 유가가 물가·환율에 주는 영향을 지켜봐요",
+      "16일 한은 금통위(2.75% 인상 전망)와 원/달러 1,490원대 흐름을 확인해요",
+      "16일 TSMC 2분기 실적이 AI·HBM 수요와 韓 반도체에 주는 신호를 미리 준비해요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-07-12",
+    "end": "2026-07-18",
+    "days": [
+      {
+        "date": "2026-07-12",
+        "weekday": "일",
+        "items": [
+          {"region": "domestic", "time": null, "event": "韓 증시 — 주말 휴장", "important": false, "category": "holiday"},
+          {"region": "global", "time": null, "event": "美 증시 — 주말 휴장", "important": false, "category": "holiday"}
+        ]
+      },
+      {
+        "date": "2026-07-13",
+        "weekday": "월",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 -8.95% 6,806.93 '검은 월요일'·서킷브레이커·SK하이닉스 -15.37%·삼성전자 -10.70%", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 나스닥 -1.55% 25,873·반도체 투매·美-이란 충돌·WTI +3.5% $73.89", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-14",
+        "weekday": "화",
+        "items": [
+          {"region": "global", "time": "21:30", "event": "美 6월 CPI 3.5% 둔화(예상 3.8% 하회)·근원 0%", "important": true, "category": "macro"},
+          {"region": "global", "time": null, "event": "美 대형은행 실적 호조(JPM +41%·골드만 사상 최대)", "important": false, "category": "market"},
+          {"region": "global", "time": "23:00", "event": "워시 Fed 의장 하원 금융서비스위 증언(첫날)", "important": false, "category": "policy"},
+          {"region": "global", "time": null, "event": "美 나스닥 +0.90% 26,107·반도체 반등(AMD +5%·인텔 +4%)", "important": true, "category": "market"},
+          {"region": "domestic", "time": null, "event": "코스피 +0.73% 6,856.83 반등·코스닥 -1.92% 매도 사이드카(올해 8번째)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-15",
+        "weekday": "수",
+        "items": [
+          {"region": "global", "time": "21:30", "event": "美 6월 생산자물가지수(PPI) 발표", "important": true, "category": "macro"},
+          {"region": "global", "time": "23:00", "event": "워시 Fed 의장 상원 은행위 증언(둘째날)", "important": false, "category": "policy"},
+          {"region": "global", "time": null, "event": "글로벌 반도체 실적시즌·ASML 등 실적 발표", "important": false, "category": "industry"},
+          {"region": "domestic", "time": null, "event": "코스피 반등·코스닥 사이드카 이후 반도체 반등 지속 여부 주목", "important": false, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "weekday": "목",
+        "items": [
+          {"region": "domestic", "time": "10:00", "event": "한국은행 금융통화위원회 기준금리 결정·25bp 인상 전망(2.75%)", "important": true, "category": "policy"},
+          {"region": "global", "time": "15:00", "event": "TSMC 2분기 실적 발표·AI·HBM 수요·CoWoS 주목", "important": true, "category": "earnings"},
+          {"region": "global", "time": "21:30", "event": "美 6월 소매판매·신규 실업수당청구 발표", "important": false, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "weekday": "금",
+        "items": [
+          {"region": "global", "time": "23:00", "event": "美 7월 미시간대 소비자심리지수(예비)", "important": false, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-07-18",
+        "weekday": "토",
+        "items": [
+          {"region": "domestic", "time": null, "event": "韓 증시 — 주말 휴장", "important": false, "category": "holiday"},
+          {"region": "global", "time": null, "event": "美 증시 — 주말 휴장", "important": false, "category": "holiday"}
+        ]
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 7,
+    "days": [
+      {
+        "date": "2026-07-01",
+        "items": [
+          {"region": "domestic", "time": null, "event": "한국 6월 수출 첫 1,000억달러 돌파·반도체 첫 400억달러(448억)", "important": true, "category": "macro"},
+          {"region": "global", "time": null, "event": "美 6월 ISM 제조업 PMI 53.3·6개월째 확장", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-07-02",
+        "items": [
+          {"region": "global", "time": null, "event": "美 6월 고용보고서 +5.7만·예상 하회·실업률 4.2%", "important": true, "category": "macro"},
+          {"region": "domestic", "time": null, "event": "코스피 -7.89% 7,648 폭락·서킷브레이커·삼성 -9.06%·SK하이닉스 -14.57%", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 다우 사상최고 52,900·나스닥 -1.27%·SOX -6.7% 반도체 투매", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-03",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 +5.76% 8,088 급반등·기관 4.9조 매수·삼성 +8.22%·SK하이닉스 +10.88%", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 증시 휴장 — 독립기념일 대체휴장", "important": true, "category": "holiday"}
+        ]
+      },
+      {
+        "date": "2026-07-06",
+        "items": [
+          {"region": "global", "time": null, "event": "美 다우 첫 53,000선 돌파·나스닥 반도체 반등", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-07",
+        "items": [
+          {"region": "domestic", "time": null, "event": "삼성전자 2분기 잠정실적 영업익 89.4조·매출 171조 역대최대", "important": true, "category": "earnings"},
+          {"region": "domestic", "time": null, "event": "코스피 '검은 화요일'·삼성전자 -4.9% 셀온", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-08",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 -5.35% 7,246·매도 사이드카·삼성 -6.92%·SK하이닉스 -6.06% (중동+반도체 셀온)", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-09",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 +0.62% 7,291·기관 1.3조 매수 4일 만에 반등·SK하이닉스 +5.30%", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 나스닥 +1.30%·마이크론 +7.5% 반도체 급반등·SK하이닉스 美 IPO 초과청약", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-10",
+        "items": [
+          {"region": "global", "time": null, "event": "SK하이닉스 나스닥 데뷔 첫날 +13% $168.01·265억달러 조달(역대 최대 外IPO)", "important": true, "category": "market"},
+          {"region": "domestic", "time": null, "event": "코스피 +2.52% 7,475.94·코스닥 +5.47% 폭등·양시장 매수 사이드카·기관 1.1조 순매수", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-13",
+        "items": [
+          {"region": "domestic", "time": null, "event": "코스피 -8.95% 6,806.93 '검은 월요일'·올해 7번째 서킷브레이커·SK하이닉스 -15.37%·삼성 -10.70%", "important": true, "category": "market"},
+          {"region": "global", "time": null, "event": "美 나스닥 -1.55%·반도체 투매·美-이란 충돌 격화·WTI +3.5% $73.89 유가 급등", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-14",
+        "items": [
+          {"region": "global", "time": null, "event": "美 6월 CPI 3.5% 둔화(예상 3.8% 하회)·대형은행 실적 호조(JPM +41%·골드만 사상 최대)·반도체 반등", "important": true, "category": "macro"},
+          {"region": "domestic", "time": null, "event": "코스피 +0.73% 6,856.83 반등·코스닥 -1.92% 매도 사이드카·외인기관 4조 순매수", "important": true, "category": "market"}
+        ]
+      },
+      {
+        "date": "2026-07-15",
+        "items": [
+          {"region": "global", "time": null, "event": "美 6월 PPI·워시 Fed 의장 상원 증언·글로벌 반도체 실적시즌(ASML)", "important": true, "category": "macro"}
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "items": [
+          {"region": "domestic", "time": null, "event": "한국은행 금융통화위원회 기준금리 결정·25bp 인상 전망(2.75%)", "important": true, "category": "policy"},
+          {"region": "global", "time": null, "event": "TSMC 2분기 실적 발표·AI·HBM 수요·CoWoS 주목", "important": true, "category": "earnings"}
+        ]
+      },
+      {
+        "date": "2026-07-22",
+        "items": [
+          {"region": "global", "time": null, "event": "삼성 갤럭시 언팩 2026 (런던)·Z폴드8·Z플립8 공개", "important": true, "category": "conference"}
+        ]
+      },
+      {
+        "date": "2026-07-23",
+        "items": [
+          {"region": "domestic", "time": null, "event": "SK하이닉스 2분기 잠정실적 발표 예정", "important": true, "category": "earnings"}
+        ]
+      },
+      {
+        "date": "2026-07-29",
+        "items": [
+          {"region": "global", "time": null, "event": "美 FOMC 통화정책 결정 (7/28~29)", "important": true, "category": "policy"}
+        ]
+      }
+    ]
+  }
+}
