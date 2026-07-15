@@ -1513,7 +1513,39 @@
         "branch": "claude/relaxed-feynman-dk3qnf"
       },
       "notes": "수요일 07:09(韓 거래일·오늘 09:00 개장 프리뷰). 직전 거래일 美 7/14(화)·韓 7/14(화) 종가 승계. ★7/14 반등★: 美 6월 CPI 3.5% 둔화(예상 3.8% 하회·근원 0%/2.6%)→9월인상 74→59%·10Y -6bp 4.55%·달러 약세. 美 S&P +0.38% 7,543.59·나스닥 +0.90% 26,107.01·다우 +0.02% 52,508.27·SOX +4%(잠정 SOXX)·AMD +5%·인텔 +4%·엔비디아 +3.5%·마이크론 급등·JPM +41%·골드만 사상최대. VIX 17.2(유가경계)·WTI $79.34(+1.5%·美 이란 재타격)·금 $4,008 강보합·BTC $6.21만(-2.6%). 韓 코스피 +0.73% 6,856.83(장중 6,448까지 밀렸다 삼전닉스 저가매수 반등)·코스닥 -1.92% 783.98(올해 8번째 매도사이드카)·외국인 +9,528억·기관 +3조2,159억·개인 -4조1,428억·원/달러 1,493.0(-10.4·2개월래 1,480원대)·삼성전자 +3.34%·SK하이닉스 +3.69%·SK스퀘어 +2.50%·운송장비 -4%대(조선방산 되돌림)·화학 -3.24%·예탁금 105.6조/신용 35조대(역머니무브). 시세·수급·업종 사실데이터 페르소나 영향 X. 해설·전망 필드 수요 프리뷰 페르소나 신규작성. calendarWeek 동일주 7/12(일)~7/18(토)·todayIdx=3(수). 7/14 실제화(CPI3.5%·은행실적·나스닥반등·코스피반등/코스닥사이드카)·7/15 today(PPI21:30 macro·워시상원증언 policy·글로벌반도체실적시즌 industry·韓반도체반등지속). 7/16 금통위10:00(policy)+TSMC15:00(earnings)+소매판매. calendarMonth 7월 7/14 실제화+7/15 추가. 일관성 전수통과: week7일·start일/end토·7일범위·date⊂범위·cal오늘⊂week[3]·month 2026-07·category 7enum(macro/market/policy/earnings/holiday/industry)·earnings(TSMC⊂wl-us-bigtech·삼성전자/SK하이닉스⊂wl-kr)·conference(삼성언팩⊂wl-conf17). sourceUrl 24/24 unique·차단(bloomberg/wsj/ft/reuters/mk/yna)0·all https·도메인일치(CNN/247wallst/fool/cryptobriefing/fxleaders/fxstreet/g-enews 매핑외 공개매체 확인). 페르소나 grep 0(단정/추천/격식체)·길이(title≤30·summary≤60·note≤25) 통과. kr.flow 2개(schema 2~3)·watchlist badgeType up 2건(SK하이닉스·삼성전자). 매월1일 아님→화이트리스트 재생성 없음. 브랜치: 지정 claude/relaxed-feynman-dk3qnf(main과 even·신규커밋)."
+    },
+    {
+      "date": "2026-07-16",
+      "time": "07:09",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 892,
+      "tokens_estimated": 112000,
+      "response_size_kb": 31.3,
+      "tool_calls": {
+        "WebFetch": 4,
+        "WebSearch": 17,
+        "Read": 11,
+        "Write": 1,
+        "Bash": 9
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq/finviz": "403 차단(추정)→미시도",
+        "Yahoo(직접)": "403 차단(^GSPC·fnnews wrap)→WebSearch 폴백",
+        "WebFetch": "4건(context.md·schema.json + Yahoo^GSPC 403 + fnnews 403)",
+        "WebSearch": "17건(美마감7/15·PPI·코스피마감·금통위·VIX지표·美섹터·삼전닉스·환율·TSMC·외인수급·KR업종·SOX·예탁금·ASML·마이크론中·금통위관전·코스피7000·KR업종하락)"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-tkec9m"
+      },
+      "notes": "목요일 07:09(韓 거래일·오늘 09:00 개장 프리뷰·금통위일). 직전 거래일 美 7/15(수)·韓 7/15(수) 종가 승계. ★7/15 반등 지속★: 美 6월 PPI 전월 -0.3%(예상 보합)·전년 5.5%(예상 6.2% 하회)→CPI에 이어 둔화·9월인상 확률 추가하락·10Y 4.5%대. 美 S&P +0.38% 7,572.40·나스닥 +0.62% 26,269.23·다우 +0.29% 52,658.64·애플 +4% 사상최고 $327(시총 5조달러 근접)·ASML +3%(2Q 깜짝실적·가이던스 또 상향)·마이크론 -7%(中 메모리 경쟁·美 수출규제 우려·AMD/램리서치 -3% 동반)·SOX 혼조(장비↑ 메모리↓·값 12,660선 잠정). VIX 16.2(주간최저권)·WTI $80.2·금 $4,030 보합권·BTC $6.47만(위험선호 회복)·모건스탠리 실적 호조. 韓 코스피 +6.24% 7,284.41(개장 6분 매수사이드카·7천피 탈환)·코스닥 +5.80% 829.43(동반 급등)·삼성전자 +6.27% 27.95만·SK하이닉스 +8.83% 208.2만·SK스퀘어 +16.13%·삼성생명 +6.47%·기계장비 +8.76%·외국인 +2조3,227억·기관 +1,827억·개인 -2조4,680억·원/달러 1,484.7(-8.3·원화강세)·비금속 -0.27%/부동산 -0.20%(급등장 소수 약세)·예탁금 105.6조/신용 35조대(역머니무브)·증권가 신중론(추세반전 이르다). 시세·수급·업종·뉴스 사실데이터 페르소나 영향 X. 해설·전망 필드 목요 프리뷰 페르소나 신규작성. calendarWeek 동일주 7/12(일)~7/18(토)·todayIdx=4(목). 7/15 실제화(PPI-0.3%·애플사상최고·ASML/마이크론·코스피+6.24%)·7/16 today(금통위10:00+총재회견11:10 policy·TSMC15:00 earnings·소매판매21:30 macro). calendarMonth 7월 7/15 실제화+7/16 유지. 일관성 전수통과: week7일·start일/end토·7일범위·date⊂범위·cal오늘⊂week[4](문구 정합)·month 2026-07·category 6종∈7enum(macro/market/policy/earnings/holiday/conference)·earnings(TSMC⊂wl-us-bigtech·삼성전자/SK하이닉스⊂wl-kr)·conference(삼성언팩⊂wl-conf17). sourceUrl 24/24 unique·차단(bloomberg/wsj/ft/reuters/mk/yna)0·all https·도메인일치(247wallst/thestreet/marketbeat/liquidityfinder/businesskorea 매핑외 공개매체 확인). 페르소나 grep 0(단정/추천/격식체)·길이(title≤30·summary≤60·note≤25) 통과. kr.flow 2개(schema 2~3·야간선물/ADR 혼조 통합)·watchlist badgeType up 2(SK하이닉스·삼성전자)·down 1(메모리 반도체). 매월1일 아님→화이트리스트 재생성 없음. 브랜치: 지정 claude/relaxed-feynman-tkec9m(origin/main과 even에서 신규커밋)."
     }
   ],
-  "updatedAt": "2026-07-15T07:09:00+09:00"
+  "updatedAt": "2026-07-16T07:09:00+09:00"
 }
