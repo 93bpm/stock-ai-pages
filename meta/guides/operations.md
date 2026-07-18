@@ -164,6 +164,25 @@ JSON 저장 직전 다음 패턴 grep — **0건이어야 함**:
 - 옛 `calendar.{domestic,global}.{timed,untimed}` 도 routine이 채워야 함 (사용자에게 보이지 않더라도 Sanity Check 일관성 룰의 superset 검증에 사용 — guides/data-quality.md §4)
 - 두 데이터 동기화 룰: `calendar.timed/untimed`의 모든 일정이 `calendarWeek.days[today].items`에도 존재해야 함
 
+#### ★ timed / untimed 필드 모양 — 섞지 말 것 ★ (2026-07-17 사고)
+
+`calendar.*.timed[]` 와 `calendar.*.untimed[]` 는 **필드 구성이 다릅니다.** `schema.json`의
+`$defs.TimedEvent` / `$defs.UntimedEvent` 가 SSOT이고, 둘 다 `additionalProperties: false` 입니다.
+
+| 배열 | 필수 | 허용 필드 | 금지 |
+|---|---|---|---|
+| `timed[]` | `time`, `event` | `time`(KST `HH:MM`) · `event` · `important`(bool) | `when` |
+| `untimed[]` | `event`, `when` | `event` · `when` | `time` · `important` |
+
+- `when` 은 시각이 안 정해진 일정의 시점 표현 — 예: `장중` / `장 마감 후` / `미정` / `새벽 ~05시 전후`
+- ★`untimed` 에 `{"time": null, ..., "important": false}` 를 쓰지 말 것★ — `time`·`important` 는
+  `additionalProperties` 위반 + `when` 누락으로 **Validate briefing CI가 HARD 3건씩 실패**합니다
+
+**2026-07-17 사고**: routine이 `untimed[0]`에 TimedEvent 모양(`{time, event, important}`)을 기록 →
+HARD 위반 6건으로 CI 실패. auto-merge는 별개 workflow라 잘못된 데이터가 그대로 main에 머지됨
+(빈 화면 방지 trade-off). 화면은 `calendarWeek` 경로로 렌더링돼 표시 영향은 없었으나,
+CI 게이트가 무력화되므로 재발 시 즉시 교정 필요.
+
 ### routine prompt update (RemoteTrigger API 차단 상태)
 
 - v1.5.0 룰을 claude.ai 콘솔에서 사용자가 직접 본문 끝에 추가 (수동 update)
