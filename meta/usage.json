@@ -1609,6 +1609,37 @@
         "branch": "claude/relaxed-feynman-oyomoo"
       },
       "notes": "토요일 18:53(주말 편). ★핵심: 韓 금요일(7/17) 제헌절(공휴일 재지정) 휴장→韓 최근 마감은 목요일 7/16 종가 승계. 美는 금요일 7/17 정상거래 실측. ★어제(7/17) briefing이 7/17을 '정상개장'으로 잘못 표기→calendarWeek·Month 7/17 셀을 holiday로 정정. 美 7/17: 中 문샷 Kimi K3(2.8조 파라미터 오픈웨이트) 'DeepSeek 2.0' 충격→반도체 약세장 진입(SOX 고점比 -19%·잠정 11,850선 -1.6%). S&P -1.02% 7,457·나스닥 -1.40% 25,520·다우 -0.77% 52,146. 엔비디아 -3.5%·애플 장중 시총1위 잠깐 탈환·TSMC -7%·마이크론 -5.7%·넷플릭스 -9%(가이던스 실망)·닛케이 -4%·Z.ai(HK) -30%. 중동發 유가 급등 WTI $82.5(+4.5%·주간+14%)·VIX 18.77(+12.2%)·10Y 4.55%·DXY 100.7·금 $3,984($4천 하회)·BTC $6.2만. 에너지 +1.4% 등 8/11 섹터 상승(가치주 로테이션)·IT -4.3%. 주간 나스닥 -2.9%·반도체 1년여 최악. 韓 7/16 종가 승계: 코스피 -6.37% 6,820.60·코스닥 -4.53% 791.84·삼성 -8.77% 25.5만·SK하이닉스 -11.53% 184.2만(ADR 금요일 -13%·이틀 -21%)·외인 -1.4조·기관 -2.4조·개인 +3.7조·원달러 1,480.4. kr.flow 3(환율·ADR·휴장효과). 시세·수급·업종·뉴스 사실 페르소나 X. calendar 주말 휴장(timed 공백). calendarWeek 동일주 7/12~7/18·todayIdx=6(토)·7/17 domestic=holiday(제헌절)·global=Kimi K3 실측 정정. calendarMonth 7월 7/17 정정(제헌절+Kimi K3). 일관성 전수통과: week7일·start일/end토·date⊂범위·today(주말)⊂week[6]·month 2026-07·category∈7enum(holiday/market/macro/policy/earnings/conference)·earnings(TSMC⊂wl-us-bigtech·삼성/SK하이닉스⊂wl-kr)·conference(삼성언팩⊂wl-conf17). sourceUrl 24/24 unique·차단0·all https·중복1(seoul.co.kr)→global#08 Eastern Herald로 교체. 카테고리 최대 반도체3(≤4). 페르소나 grep 0(단정/추천/격식체)·길이(title≤30·summary≤60·note≤25). 매월1일 아님→화이트리스트 재생성 없음. 브랜치: 지정 claude/relaxed-feynman-oyomoo."
+    },
+    {
+      "date": "2026-07-20",
+      "time": "07:08",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 847,
+      "tokens_estimated": 128000,
+      "response_size_kb": 29.6,
+      "tool_calls": {
+        "WebFetch": 3,
+        "WebSearch": 14,
+        "Read": 0,
+        "Write": 1,
+        "Bash": 8
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebFetch": "3건(context.md·schema.json 성공 / guides 5·news.md 404→로컬 미존재→context.md 체크리스트+schema examples[0]+직전 briefing으로 대체)",
+        "WebSearch": "14건(美 7/17 마감 S&P/나스닥/다우·SOX 약세장·코스피/코스닥 7/16·원달러/VIX/10Y·유가/금/BTC·반도체셀오프·美 실적주간·삼성언팩·한은금통위·국내전망·글로벌뉴스·SOX/VIX종가·ECB/PMI·인텔/TSMC)",
+        "Stooq/Yahoo(WebFetch)": "403 차단 추정→WebSearch 폴백"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-guntxh"
+      },
+      "notes": "월요일 07:08 발화. ★월요일 국장 재개 편★. 美 최근 마감=금요일 7/17(정상거래)·韓 최근 마감=목요일 7/16(7/17 제헌절 휴장+주말). 07:00 KST 시점 韓·美 모두 미개장→시세는 각 직전 마감 승계. 美 7/17: 필라델피아 반도체 6월 고점比 -20% 약세장 진입(잠정 11,850선 -1.6%)·S&P -1.02% 7,457.69·나스닥 -1.40% 25,520.24·다우 -0.77% 52,146.42. TSMC 순익+77%·capex $60~64B 상향 호실적에도 AI과잉투자 경계로 칩 매도·넷플릭스 가이던스 실망 -10%·워시Fed 매파·중동 유가급등 WTI $82.5(주간+14%)·VIX 18.77(+12.2%)·10Y 4.55%·DXY 100.7·금 $4,017·BTC $6.42만. 韓 7/16 종가 승계: 코스피 -6.37% 6,820.60·코스닥 -4.53% 791.84·삼성 -8.77% 255,000·SK하이닉스 -11.53% 1,842,000(ADR 7/17 -13%·이틀 -21%)·외인 -1.4조·기관 -2.4조·개인 +3.7조·원달러 1,480.4. 한은 금통위 7/16 기준금리 2.75% 인상(+0.25%p·만장일치). kr.flow 3(환율·ADR·관전포인트). 시세·수급·업종·뉴스 사실 페르소나 X. ★이번주 슈퍼위크★: calendarWeek 7/19~7/25(todayIdx=1 월). 7/22 삼성언팩(conference·wl-conf 삼성언팩 expectedMonth[1,7]✓)+테슬라/알파벳 실적(earnings global·wl-us-bigtech✓). 7/23 SK하이닉스 실적(earnings domestic·wl-kr✓)+ECB(policy)+실업수당(macro). 7/24 美/유로존 플래시PMI(macro). ★인텔·TI·GM·버라이즌 실적은 wl-us-bigtech 미포함→calendar earnings 제외(뉴스 prose로만 언급)★. calendarMonth 7월 hit(7/16 금통위+TSMC·7/17 제헌절+반도체약세장·7/22 언팩+빅테크·7/23 SK하이닉스+ECB·7/24 PMI·7/28 FOMC). 일관성 전수통과(0 err): week7일·start일/end토·start+6=end·date⊂범위·today(월)⊂week[1](거래재개+어닝시즌)·month 2026-07·earnings⊂wl(region별)·conference⊂wl17·category∈7enum·어닝시즌마커는 market으로 분류(특정종목아님). sourceUrl 24/24 unique·전부 https·차단0(naver/tistory 등 미사용)·도메인일관. 뉴스 카테고리 반도체 최대(글로벌 반도체3·국내 반도체2 ≤4). 페르소나 grep 0(단정/추천/격식체)·길이(title≤30·summary≤60·note≤25). 매월1일 아님→시총 화이트리스트 재생성 없음(단 wl-kr updatedAt 06-01·07-01 갱신 누락 상태 관찰). 브랜치: 지정 claude/relaxed-feynman-guntxh."
     }
   ],
   "updatedAt": "2026-07-18T18:53:00+09:00"

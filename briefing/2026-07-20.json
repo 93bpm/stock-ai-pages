@@ -1,0 +1,780 @@
+{
+  "date": "2026-07-20",
+  "weekday": "월",
+  "generatedAt": "2026-07-20T07:08:40+09:00",
+  "us": {
+    "subNote": "지난 금요일(7/17) 뉴욕은 반도체가 또 무너지며 필라델피아 반도체가 6월 고점 대비 약 20% 빠져 '약세장'에 진입했어요. 나스닥 -1.40%(25,520)·S&P 500 -1.02%(7,457)·다우 -0.77%(52,146)로 3대 지수가 동반 하락했고요. TSMC가 2분기 순익 +77%·설비투자 $64B 상향으로 호실적을 냈는데도 'AI 과잉투자' 경계에 오히려 칩이 팔렸고, 넷플릭스도 가이던스 실망에 -10% 밀렸어요. 반면 중동發 유가 급등(WTI $82·주간 +14%)에 에너지가 강했고 금융·필수소비재로 온기가 돌았어요. VIX는 18.8(+12%)로 뛰었고요. 이번 주는 22일 테슬라·알파벳, 23일 인텔 실적과 ECB(23일)가 줄줄이 대기해 한국 증시에도 파장이 클 수 있어요. (필라델피아 반도체 종가는 잠정치예요)",
+    "subNoteEm": "필라델피아 반도체 약세장 진입·나스닥 -1.40%·이번 주 빅테크 실적 러시",
+    "comment": "월요일 국장은 금요일 美 반도체 투매를 소화해야 하는 부담을 안고 출발해요. 다만 TSMC 실적이 견조했고 밸류 부담이 일부 덜어진 만큼, 22~23일 빅테크·SK하이닉스 실적이 반등의 실마리가 될 수 있는지 지켜보는 게 좋아요. 투자 판단은 본인 책임이에요.",
+    "indices": [
+      {
+        "name": "S&P 500",
+        "tip": "美 대형주 500",
+        "value": "7,457.69",
+        "change": "-1.02%",
+        "dir": "down"
+      },
+      {
+        "name": "나스닥 종합",
+        "tip": "기술주 중심",
+        "value": "25,520.24",
+        "change": "-1.40%",
+        "dir": "down"
+      },
+      {
+        "name": "다우존스",
+        "tip": "우량주 30",
+        "value": "52,146.42",
+        "change": "-0.77%",
+        "dir": "down"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "tip": "6월 고점 대비 약 -20%·약세장(잠정)",
+        "value": "11,850선",
+        "change": "-1.6%",
+        "dir": "down"
+      }
+    ],
+    "indicators": [
+      {
+        "key": "VIX",
+        "value": "18.77 ▲ (+12.2%·위험회피)",
+        "dir": "up"
+      },
+      {
+        "key": "美 10년물",
+        "value": "4.55% (매파 Fed 부담)",
+        "dir": "up"
+      },
+      {
+        "key": "달러인덱스",
+        "value": "100.7 (보합)",
+        "dir": "up"
+      },
+      {
+        "key": "WTI 유가",
+        "value": "$82.5 ▲ (+4.5%·중동 긴장·주간 +14%)",
+        "dir": "up"
+      },
+      {
+        "key": "금",
+        "value": "$4,017 ▲ (+1.0%·주간 -3%)",
+        "dir": "up"
+      },
+      {
+        "key": "비트코인",
+        "value": "$64,200선 ▼ (약보합·위험회피)",
+        "dir": "down"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "name": "에너지 (유가 급등·중동 긴장)",
+        "change": "+1.4%"
+      },
+      {
+        "name": "필수소비재 (방어·순환 유입)",
+        "change": "강세"
+      },
+      {
+        "name": "금융 (가치주 순환 매수)",
+        "change": "강세"
+      },
+      {
+        "name": "산업재 (경기순환 유입)",
+        "change": "강세"
+      },
+      {
+        "name": "유틸리티 (방어 선호)",
+        "change": "상대 강세"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "name": "정보기술(IT) (빅테크 로테이션)",
+        "change": "-4.3%"
+      },
+      {
+        "name": "반도체 (SOX 약세장·SOXX 대용)",
+        "change": "-1.6%(잠정)"
+      },
+      {
+        "name": "메모리 (마이크론 약세·中 경쟁)",
+        "change": "약세"
+      },
+      {
+        "name": "커뮤니케이션서비스 (넷플릭스 -10%)",
+        "change": "약세"
+      },
+      {
+        "name": "임의소비재 (성장주 이탈)",
+        "change": "상대 약세"
+      }
+    ]
+  },
+  "world": {
+    "subNote": "지난 금요일 글로벌 증시는 반도체發 매물이 이어지며 美 필라델피아 반도체가 약세장에 진입했고, 아시아 반도체도 동반 약세였어요. 한국은 목요일(7/16) 금통위 인상·코스피 -6.37% 급락 뒤 금요일 제헌절로 휴장해 이 충격을 하루 피했고요. 이번 주는 월요일 국장이 금요일 美 투매를 어떻게 소화할지가 첫 관문이고, 22일 삼성 언팩·테슬라·알파벳, 23일 SK하이닉스·인텔 실적과 ECB가 방향을 가늠할 수 있어요.",
+    "subNoteEm": "반도체 약세장·이번 주 삼성 언팩(22)·빅테크·SK하이닉스 실적(23) 러시",
+    "global": [
+      {
+        "rank": "01",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "필라델피아 반도체 약세장 진입",
+        "summary": "6월 고점 대비 약 -20%, AI 과잉투자 우려에 급락했어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/07/16/stock-market-today-live-updates.html",
+        "note": "韓 반도체 투심에 부담이에요"
+      },
+      {
+        "rank": "02",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "TSMC 호실적에도 칩 매도",
+        "summary": "순익 +77%·capex $64B 상향에도 AI칩이 동반 하락했어요",
+        "source": "Investing.com",
+        "sourceUrl": "https://www.investing.com/news/stock-market-news/tsmc-and-ai-stocks-fall-despite-upbeat-earnings-heres-whats-worrying-investors-4794941",
+        "note": "HBM 실수요는 견조 신호예요"
+      },
+      {
+        "rank": "03",
+        "category": "실적",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "넷플릭스 실적 실망 -10%",
+        "summary": "매출 $12.56B로 컨센 하회, 3분기 가이던스도 약했어요",
+        "source": "24/7 Wall St.",
+        "sourceUrl": "https://247wallst.com/investing/2026/07/17/live-nasdaq-composite-tech-stocks-plunge-on-rising-ai-costs-and-netflix-guidance-miss/liveupdates/1/",
+        "note": "성장주 눈높이 조정 신호예요"
+      },
+      {
+        "rank": "04",
+        "category": "유가",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "중동 긴장에 유가 급등",
+        "summary": "WTI $82대·주간 +14%, 에너지주가 반사 강세였어요",
+        "source": "TheStreet",
+        "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-17-2026",
+        "note": "물가·항공 비용에 변수예요"
+      },
+      {
+        "rank": "05",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "Fed 워시 의장 의회 증언",
+        "summary": "인플레 진정 자신·대차대조표 축소 방향을 시사했어요",
+        "source": "Schwab",
+        "sourceUrl": "https://www.schwab.com/learn/story/stock-market-update-open",
+        "note": "금리 경로에 영향 줄 수 있어요"
+      },
+      {
+        "rank": "06",
+        "category": "AI",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "AI 자본지출 과잉 논쟁",
+        "summary": "하이퍼스케일러 capex 지속가능성에 의구심이 커졌어요",
+        "source": "Bloomberg",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-07-02/chip-stocks-off-to-rough-start-in-third-quarter-with-2-day-skid",
+        "note": "메모리 수요 전망에 변수예요"
+      },
+      {
+        "rank": "07",
+        "category": "실적",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "빅테크 실적 주간 개막",
+        "summary": "22일 테슬라·알파벳 2분기 실적이 투심 분수령이에요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/07/17/stock-market-next-week-outlook-for-july-20-24-2026.html",
+        "note": "韓 증시 방향타가 될 수 있어요"
+      },
+      {
+        "rank": "08",
+        "category": "실적",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "인텔 23일 실적 변동성 예고",
+        "summary": "옵션 시장이 실적 후 15% 변동을 반영하고 있어요",
+        "source": "TipRanks",
+        "sourceUrl": "https://www.tipranks.com/news/intel-intc-stock-price-braces-for-a-15-move-as-q2-earnings-near",
+        "note": "반도체 투심에 파급될 수 있어요"
+      },
+      {
+        "rank": "09",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "ECB 23일 금리 동결 전망",
+        "summary": "6월 인상 후 2.25% 유지, 9월 추가 인상론이 우세해요",
+        "source": "Morningstar",
+        "sourceUrl": "https://global.morningstar.com/en-eu/economy/ecb-rate-decision-what-expect-july-23",
+        "note": "유로·달러 흐름에 주목이에요"
+      },
+      {
+        "rank": "10",
+        "category": "채권",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "美 10년물 4.55% 매파 부담",
+        "summary": "워시 Fed 매파 기조·AI 회사채 발행에 금리가 올랐어요",
+        "source": "Trading Economics",
+        "sourceUrl": "https://tradingeconomics.com/united-states/government-bond-yield",
+        "note": "성장주 밸류에 부담이에요"
+      },
+      {
+        "rank": "11",
+        "category": "안전자산",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "금값 $4,000선 등락",
+        "summary": "안전선호에도 주간 -3%, 달러 강세가 눌렀어요",
+        "source": "Trading Economics",
+        "sourceUrl": "https://tradingeconomics.com/commodity/gold",
+        "note": "위험회피 강도 가늠자예요"
+      },
+      {
+        "rank": "12",
+        "category": "지수",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "나스닥 주간 -2.9% 반도체 최악",
+        "summary": "필라델피아 반도체가 1년여 만에 최악의 주간이었어요",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-17-dow-sp-500-nasdaq-092345307.html",
+        "note": "월요일 국장에 부담 요인이에요"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "지수",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스피 -6.37% 7천피 반납",
+        "summary": "7/16 반도체 투매에 463p 급락하며 6,820으로 밀렸어요",
+        "source": "서울신문",
+        "sourceUrl": "https://www.seoul.co.kr/news/economy/securities/2026/07/16/20260716500039",
+        "note": "월요일 반등 여부가 관건이에요"
+      },
+      {
+        "rank": "02",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "삼성·SK하이닉스 동반 급락",
+        "summary": "HBM 수요 둔화 우려에 8~11%대 크게 밀렸어요",
+        "source": "뉴스1",
+        "sourceUrl": "https://www.news1.kr/photos/8012555",
+        "note": "실적 발표가 분수령이에요"
+      },
+      {
+        "rank": "03",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "한은 기준금리 2.75% 인상",
+        "summary": "3년 반 만에 +0.25%p, 추가 인상 기조를 시사했어요",
+        "source": "조세일보",
+        "sourceUrl": "https://m.joseilbo.com/news/view.htm?newsid=572037",
+        "note": "환율·수급에 영향 줄 수 있어요"
+      },
+      {
+        "rank": "04",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "외국인·기관 동반 순매도",
+        "summary": "7/16 외인 1.4조·기관 2.4조 팔며 지수를 눌렀어요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202607121807595209",
+        "note": "매도 지속 여부가 관건이에요"
+      },
+      {
+        "rank": "05",
+        "category": "IT",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "삼성 갤럭시 언팩 22일",
+        "summary": "Z Fold8·신규 폼팩터 공개로 부품주 기대가 커요",
+        "source": "Samsung Newsroom",
+        "sourceUrl": "https://news.samsung.com/global/invitation-galaxy-unpacked-july-2026-a-new-shape-unfolds",
+        "note": "삼성전기·LG이노텍에 관심이에요"
+      },
+      {
+        "rank": "06",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "中 CXMT 증설·경쟁 우려",
+        "summary": "창신메모리 IPO·증설이 메모리 투심을 얼렸어요",
+        "source": "다음금융",
+        "sourceUrl": "https://m.finance.daum.net/domestic",
+        "note": "D램 가격 흐름을 봐야 해요"
+      },
+      {
+        "rank": "07",
+        "category": "지수",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스닥 -4.53% 791선",
+        "summary": "성장주 이탈에 코스닥도 크게 밀렸어요",
+        "source": "인베스팅닷컴",
+        "sourceUrl": "https://kr.investing.com/indices/kospi-historical-data",
+        "note": "중소형 반도체주에 부담이에요"
+      },
+      {
+        "rank": "08",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "원/달러 1,480원 원화 강세",
+        "summary": "금리 인상에도 4.3원 내리며 원화가 강세였어요",
+        "source": "다음뉴스",
+        "sourceUrl": "https://v.daum.net/v/20260716110353864",
+        "note": "외국인 수급에 영향 줄 수 있어요"
+      },
+      {
+        "rank": "09",
+        "category": "전망",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "이번 주 반도체 변동성 지속",
+        "summary": "저평가 반등론과 투매 경계론이 팽팽히 맞서요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202607121008296320",
+        "note": "실적이 방향을 가를 수 있어요"
+      },
+      {
+        "rank": "10",
+        "category": "실적",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "SK하이닉스 23일 실적 주목",
+        "summary": "2분기 실적이 반도체·코스피 방향을 가를 수 있어요",
+        "source": "알파스퀘어",
+        "sourceUrl": "https://alphasquare.co.kr/home/stock-summary?code=000660",
+        "note": "HBM 가이던스가 핵심이에요"
+      },
+      {
+        "rank": "11",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "투자자 예탁금 105조 대기",
+        "summary": "대기 자금은 105조대, 신용융자는 35조대로 줄었어요",
+        "source": "한국경제",
+        "sourceUrl": "https://datacenter.hankyung.com/rates-bonds",
+        "note": "저가 매수 여력 가늠자예요"
+      },
+      {
+        "rank": "12",
+        "category": "테마",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "방산·조선·바이오 밸류 순환",
+        "summary": "반도체 이탈 자금이 방어·가치주로 돌았어요",
+        "source": "유안타증권",
+        "sourceUrl": "https://www.myasset.com/myasset/research/rs_global/RS_0401000_M.cmd?glblGubun=KS",
+        "note": "순환매 지속 여부가 관건이에요"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "국내 증시는 목요일(7/16) 마감이 가장 최근이에요. 금요일(7/17)은 제헌절로 휴장했고, 오늘(7/20 월) 다시 문을 열어요. 7/16 코스피는 美 반도체 투매를 받아 -6.37%(6,820.60)로 7천피를 반납했고, 코스닥도 -4.53%(791.84)로 밀렸어요. 삼성전자 -8.77%(255,000원)·SK하이닉스 -11.53%(1,842,000원)가 지수를 끌어내렸고, 외국인·기관이 1조4,061억·2조3,678억을 순매도, 개인이 3조6,740억을 순매수했어요. 원/달러는 4.3원 내린 1,480.4원이었고요. 한은은 기준금리를 2.75%로 3년 반 만에 올렸지만 예상 부합이라 영향은 제한적이었어요. 오늘 국장이 금요일 美 반도체 약세장(SK하이닉스 ADR 이틀 -21%)을 어떻게 소화할지, 22일 삼성 언팩·23일 SK하이닉스 실적이 분수령이에요. (개별·업종 등락은 7/16 종가 기준이에요)",
+    "subNoteEm": "오늘 국장 재개·금요일 美 반도체 약세장 소화 관건·22일 언팩·23일 SK하이닉스 실적",
+    "comment": "오늘 국장은 금요일 美 반도체 투매와 SK하이닉스 ADR 급락을 반영하며 변동성이 클 수 있어요. 다만 지수가 극단적 저평가 국면이라는 시각도 있어, 작은 호재에도 반전이 나올 수 있고요. 22~23일 삼성 언팩·SK하이닉스 실적을 확인하며 대응하는 게 좋아요. 투자 판단은 본인 책임이에요.",
+    "expectedRange": "코스피 6,650~6,980 (금요일 美 반도체 약세장 갭 하락 우려와 저평가 반등 기대가 팽팽해요)",
+    "indices": [
+      {
+        "name": "코스피",
+        "tip": "7/16 종가 (제헌절·주말로 최근 마감)",
+        "value": "6,820.60",
+        "change": "-6.37%",
+        "dir": "down"
+      },
+      {
+        "name": "코스닥",
+        "tip": "7/16 종가",
+        "value": "791.84",
+        "change": "-4.53%",
+        "dir": "down"
+      }
+    ],
+    "flow": [
+      {
+        "key": "원/달러 환율",
+        "value": "1,480.4원 (7/16 종가·−4.3원·원화 강세)",
+        "dir": "down"
+      },
+      {
+        "key": "美 상장 한국물(ADR)",
+        "value": "SK하이닉스 ADR 7/17 −13%(이틀 −21%)·엔비디아 −2.2%",
+        "dir": "down"
+      },
+      {
+        "key": "월요일 관전 포인트",
+        "value": "금요일 美 반도체 투매 소화 여부·삼성 언팩(7/22)·SK하이닉스 실적(7/23)",
+        "dir": "down"
+      }
+    ],
+    "supply": [
+      {
+        "who": "외국인",
+        "amount": "-1조4,061억원",
+        "dir": "sell"
+      },
+      {
+        "who": "기관",
+        "amount": "-2조3,678억원",
+        "dir": "sell"
+      },
+      {
+        "who": "개인",
+        "amount": "+3조6,740억원",
+        "dir": "buy"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "theme": "통신 (금리 인상 속 방어주 강세)",
+        "stockName": "통신 업종",
+        "stockChange": "+3.39%"
+      },
+      {
+        "theme": "음식료·담배 (경기방어·순환 유입)",
+        "stockName": "음식료 업종",
+        "stockChange": "+2.12%"
+      },
+      {
+        "theme": "종이·목재 (내수 방어주 강세)",
+        "stockName": "종이/목재 업종",
+        "stockChange": "+2.00%"
+      },
+      {
+        "theme": "보험 (금리 인상 수혜·상대 강세)",
+        "stockName": "보험 업종",
+        "stockChange": "상대 강세"
+      },
+      {
+        "theme": "전기가스 (유틸리티 방어 선호)",
+        "stockName": "전기가스 업종",
+        "stockChange": "상대 강세"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "theme": "전기·전자 (반도체 투매·삼성·SK하이닉스)",
+        "stockName": "전기·전자 업종",
+        "stockChange": "-9.43%"
+      },
+      {
+        "theme": "제조 (반도체 비중·동반 약세)",
+        "stockName": "제조 업종",
+        "stockChange": "-7.51%"
+      },
+      {
+        "theme": "기계·장비 (전일 급등분 반납)",
+        "stockName": "기계·장비 업종",
+        "stockChange": "-4.70%"
+      },
+      {
+        "theme": "증권 (거래대금·투심 위축)",
+        "stockName": "증권 업종",
+        "stockChange": "상대 약세"
+      },
+      {
+        "theme": "화학·2차전지 (위험회피 이탈)",
+        "stockName": "화학 업종",
+        "stockChange": "상대 약세"
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "SK하이닉스",
+        "badge": "-11.53%(7/16)·실적 7/23",
+        "badgeType": "down",
+        "desc": "목요일 11%대 급락에 이어 금요일 美 ADR도 -13% 더 빠지며 이틀 새 21% 밀렸어요. 23일 2분기 실적이 반도체·코스피 방향을 가를 수 있어, 실적 눈높이와 HBM 가이던스를 함께 지켜보는 게 좋아요"
+      },
+      {
+        "name": "삼성전자",
+        "badge": "-8.77%·255,000원(7/16)·언팩 7/22",
+        "badgeType": "down",
+        "desc": "외국인·기관 매도에 8%대 밀리며 25만5천원으로 내려왔어요. 22일 갤럭시 언팩에서 Z Fold8·신규 폼팩터가 공개될 예정이라, 부품주 기대와 함께 투심 회복 여부를 지켜보는 게 좋아요"
+      },
+      {
+        "name": "美 빅테크 실적",
+        "badge": "테슬라·알파벳 7/22",
+        "badgeType": "default",
+        "desc": "22일 테슬라·알파벳 실적이 글로벌 AI 투심을 가늠할 분수령이에요. 클라우드·자본지출 코멘트가 韓 반도체 수요 전망에도 연결될 수 있어, 실적 후 반응을 함께 살펴보는 게 좋아요"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "badge": "약세장 진입·6월 고점 -20%",
+        "badgeType": "down",
+        "desc": "美 반도체 지수가 6월 고점 대비 20% 빠지며 약세장에 들어섰어요. 월가는 과도한 공포를 경계하는 시각도 있어, 반등 신호와 실적 흐름을 함께 지켜보는 게 좋아요"
+      },
+      {
+        "name": "원/달러 환율",
+        "badge": "1,480원대·인상에도 원화 강세",
+        "badgeType": "default",
+        "desc": "금리 인상과 안전선호가 맞물렸는데도 4.3원 내린 1,480원대로 원화가 강세였어요. 향후 환율 흐름이 외국인 반도체 수급에 주는 영향을 지켜보는 게 좋아요"
+      }
+    ],
+    "health": [
+      {
+        "key": "투자자 예탁금",
+        "tip": "대기 자금 (7/10 기준·역머니무브)",
+        "value": "105조5,757억원",
+        "subIcon": "▼",
+        "subDir": "down"
+      },
+      {
+        "key": "신용융자 잔고",
+        "tip": "빚투 지표 (7/10 기준·6/24 정점 후↓)",
+        "value": "35조원대",
+        "subIcon": "▼",
+        "subDir": "down"
+      }
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘(7/20 월) 국장은 제헌절·주말 휴장 뒤 첫 거래일로, 금요일 美 반도체 투매를 소화하며 출발해요. 美 증시도 정상 개장하고요. 주중엔 22일 삼성 언팩·테슬라·알파벳, 23일 SK하이닉스·인텔 실적과 ECB(동결 예상), 24일 플래시 PMI가 대기해 변동성이 큰 한 주예요.",
+    "subNoteEm": "오늘 국장 재개·주중 삼성 언팩(22)·빅테크/SK하이닉스 실적(23)·ECB·PMI",
+    "riskSentiment": "위험회피 우위 (금요일 美 반도체 약세장 진입·SK하이닉스 ADR 이틀 -21%가 월요일 국장 갭 하락 부담이지만, 저평가 반등 기대와 주중 실적 대기가 하방을 일부 지지)",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        {
+          "event": "코스피 거래 재개 — 금요일 美 반도체 투매 소화(제헌절·주말 후 첫 거래일)",
+          "when": "장 전"
+        }
+      ]
+    },
+    "global": {
+      "timed": [],
+      "untimed": [
+        {
+          "event": "美 2분기 어닝시즌 본격화 — 주중 테슬라·알파벳·인텔 실적",
+          "when": "주간"
+        }
+      ]
+    },
+    "theme": "이번 주는 실적과 이벤트가 몰린 '슈퍼위크'예요. 월요일(7/20) 국장은 금요일 美 반도체 약세장 진입과 SK하이닉스 ADR 이틀 -21%를 소화하며 출발하고, 22일엔 삼성 갤럭시 언팩(Z Fold8·신규 폼팩터)과 테슬라·알파벳 실적이, 23일엔 SK하이닉스 2분기 실적·인텔 실적·ECB 회의가 줄줄이 대기해요. 반도체 투심이 저평가 반등론과 투매 경계론 사이에서 어디로 기우는지가 코스피 방향을 가를 수 있어, 실적 눈높이와 외국인 수급을 함께 지켜보는 게 좋아요.",
+    "checks": [
+      "오늘(7/20) 국장이 금요일 美 반도체 약세장·SK하이닉스 ADR 급락을 어떻게 소화할지 살펴봐요",
+      "22일 삼성 갤럭시 언팩(Z Fold8·신규 폼팩터)이 삼성전자·부품주에 주는 영향을 지켜봐요",
+      "23일 SK하이닉스 2분기 실적이 반도체·코스피 방향을 가를 수 있어 눈높이를 챙겨봐요",
+      "22~23일 테슬라·알파벳·인텔 등 美 빅테크 실적이 글로벌 투심에 주는 신호를 확인해요",
+      "원/달러 1,480원대 흐름과 외국인 반도체 순매도가 이어질지 함께 살펴봐요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-07-19",
+    "end": "2026-07-25",
+    "days": [
+      {
+        "date": "2026-07-19",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-07-20",
+        "weekday": "월",
+        "items": [
+          {
+            "region": "domestic",
+            "time": "09:00",
+            "event": "코스피 거래 재개 — 금요일 美 반도체 투매 소화",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "event": "美 2분기 어닝시즌 본격화 주간 시작",
+            "important": false,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-21",
+        "weekday": "화",
+        "items": []
+      },
+      {
+        "date": "2026-07-22",
+        "weekday": "수",
+        "items": [
+          {
+            "region": "global",
+            "time": "장 마감 후",
+            "event": "美 실적 — 테슬라·알파벳(2분기)",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "time": "22:00",
+            "event": "삼성 갤럭시 언팩 — Z Fold8·신규 폼팩터",
+            "important": true,
+            "category": "conference"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-23",
+        "weekday": "목",
+        "items": [
+          {
+            "region": "domestic",
+            "time": "장중",
+            "event": "SK하이닉스 2분기 실적",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "time": "20:45",
+            "event": "ECB 통화정책 결정 — 동결 예상(2.25%)",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "美 신규 실업수당 청구",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-24",
+        "weekday": "금",
+        "items": [
+          {
+            "region": "global",
+            "time": "22:45",
+            "event": "美 7월 플래시 PMI(제조·서비스)",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "17:00",
+            "event": "유로존 7월 플래시 PMI",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-25",
+        "weekday": "토",
+        "items": []
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 7,
+    "days": [
+      {
+        "date": "2026-07-16",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "한은 금통위 — 기준금리 2.75% 인상(+0.25%p)",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "event": "TSMC 2분기 실적 — 설비투자 $60~64B 상향",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "제헌절 — 韓 증시 휴장",
+            "important": true,
+            "category": "holiday"
+          },
+          {
+            "region": "global",
+            "event": "필라델피아 반도체 약세장 진입",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-22",
+        "items": [
+          {
+            "region": "global",
+            "event": "테슬라·알파벳 2분기 실적",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "event": "삼성 갤럭시 언팩",
+            "important": true,
+            "category": "conference"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-23",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "SK하이닉스 2분기 실적",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "event": "ECB 통화정책 결정",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-24",
+        "items": [
+          {
+            "region": "global",
+            "event": "美·유로존 7월 플래시 PMI",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-28",
+        "items": [
+          {
+            "region": "global",
+            "event": "FOMC(7/28~29) — 금리 결정",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      }
+    ]
+  }
+}
