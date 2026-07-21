@@ -1671,7 +1671,38 @@
         "branch": "claude/relaxed-feynman-8x3k7q"
       },
       "notes": "화요일 08:34 발화. ★화요일 국장 진행중 편★. 美 최근 마감=월요일 7/20·韓 최근 마감=월요일 7/20(국장 재개일). 美 7/20: S&P -0.19% 7,443.28·나스닥 -0.05% 25,508.07·다우 -0.59% 51,839.26·필라델피아 반도체 +2.37% 11,950.11(반등, 6월 고점比 약세권). VIX 18.65·10Y 4.59%·DXY 100.7·WTI $81선(장중 $90·美-이란 6일째 공습)·금 $4,005.60·BTC $6.43만. 넷플릭스 -10% 여진. ★韓 7/20 검은월요일★: 코스피 -4.46% 6,516.27·코스닥 -5.33% 749.64(52주 신저가·750붕괴)·양시장 2거래일 연속 매도 사이드카·삼성 -4.31% 244,000·SK하이닉스 -4.23% 1,764,000·장막판 외인+4,165억·기관+933억 순매수로 6500 사수·개인 -5,197억·원달러 1,478.4(-0.1). SK하이닉스 ADR ~25% 프리미엄 유지(Barclays 목표 $330). 시세·수급·업종·뉴스 사실 페르소나 X. calendarWeek 7/19~7/25(todayIdx=2 화). 오늘(화)⊂week[2]: 반도체반등소화(market)+GM/3M실적어닝시즌확대(market)+어닝시즌마커(market). 7/22 삼성언팩(conference·wl-conf 삼성언팩 expectedMonth[1,7]✓)+알파벳/테슬라 실적(earnings global·wl-us-bigtech GOOGL/TSLA✓). 7/23 SK하이닉스 실적(earnings domestic·wl-kr 000660✓)+ECB동결예상2.25%(policy)+실업수당(macro). 7/24 유로존/美 플래시PMI(macro). ★GM·3M·인텔 실적은 wl-us-bigtech 미포함→calendar earnings 제외(뉴스/오늘일정 prose로만)★. calendarMonth 7월 hit(7/16 금통위+TSMC·7/17 제헌절+반도체약세장·7/20 검은월요일+SOX반등·7/22 언팩+빅테크·7/23 SK하이닉스+ECB·7/24 PMI·7/28 FOMC). 일관성 전수통과(0 err): week7일·start일/end토·start+6=end·date⊂범위·today(화)⊂week[2]·month 2026-07·earnings⊂wl(global:알파벳/테슬라/TSMC·domestic:SK하이닉스)·conference⊂wl17(삼성언팩)·category∈7enum. sourceUrl 24/24 unique·전부 https·차단0(bloomberg/wsj/ft/reuters/mk/yna 미사용)·도메인일관. 페르소나 grep 0(단정/추천/격식체)·길이(title≤30·summary≤60·note≤25). 매월1일 아님(21일)→화이트리스트 재생성 없음. 브랜치: 지정 claude/relaxed-feynman-8x3k7q."
+    },
+    {
+      "date": "2026-07-22",
+      "time": "07:09",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1152,
+      "tokens_estimated": 140000,
+      "response_size_kb": 31.3,
+      "tool_calls": {
+        "WebFetch": 11,
+        "WebSearch": 18,
+        "Read": 0,
+        "Write": 1,
+        "Bash": 6
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebFetch": "11건(context.md·schema.json·guides 5개·화이트리스트 3개 성공 / Motley Fool·Yahoo sg·SundayGuardian 마켓랩 403차단→WebSearch 폴백)",
+        "WebSearch": "18건(美 7/21 마감 S&P/나스닥/다우·SOX/Micron·VIX/10Y/DXY/유가/금/BTC·美섹터·코스피/코스닥 7/21·수급·원달러·삼성/SK하이닉스·업종·알파벳/테슬라실적·GM/인텔·Fed·ECB·이란유가·반도체수출·언팩·TSMC)",
+        "Stooq/Yahoo(WebFetch)": "403 차단 추정→WebSearch 폴백"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-075v29"
+      },
+      "notes": "수요일 07:09 발화. ★수요일 국장 개장 전 편★. 美 최근 마감=화요일 7/21·韓 최근 마감=화요일 7/21. ★반등 확인★: 美 7/21 반도체 랠리(마이크론 +12%)로 3거래일만에 반등 — S&P +0.89% 7,509.50·나스닥 +1.29% 25,837.10·다우 +0.74% 52,225.00·필라델피아 반도체 +3.40% 12,356.20. VIX 17.84(-4.34%)·10Y 4.60%·DXY 100.8·WTI $84.29(+2.2%·이란 지속)·금 $4,065.80·BTC $6.64만. ★韓 7/21 급반등★: 검은월요일 하루만에 코스피 +3.56% 6,747.95(6700선 회복)·코스닥 +0.49% 753.34. 반도체 수출 역대최대(7/1~20 549억달러·반도체 +180.6%)가 견인. 삼성전자 +6.15% 259,000·SK하이닉스 +4.08% 1,836,000. 외인 +5,959억·기관 +1조6,480억 순매수(매수 사이드카)·개인 -2조1,647억 순매도. 원달러 1,473.4(-5.0·6거래일 연속 하락·SK하이닉스 ADR 환전). 시세·수급·업종·뉴스 사실 페르소나 X. calendarWeek 7/19~7/25(todayIdx=3 수). 오늘(수)⊂week[3]: 언팩대기(market)+삼성언팩(conference)+알파벳/테슬라실적(earnings global). 7/22 삼성언팩(conference·wl-conf SamsungUnpacked expectedMonth[1,7]✓)+알파벳/테슬라 실적(earnings global·wl-us-bigtech GOOGL/TSLA✓). 7/23 SK하이닉스 실적(earnings domestic·wl-kr 000660✓)+ECB동결 2.25%(policy)+실업수당(macro)+인텔실적(market·wl미포함). 7/24 플래시PMI(macro). ★GM·인텔은 wl-us-bigtech 미포함→earnings 제외, category=market 처리★. calendarMonth 7월 hit(7/16 금통위+TSMC·7/17 제헌절·7/20 검은월요일·7/21 반등·7/22 언팩+빅테크·7/23 SK하이닉스+ECB·7/24 PMI·7/28 FOMC). 일관성 전수통과(0 err): week7일·start일/end토·start+6=end·date⊂범위·today(수)⊂week[3]·month 2026-07·earnings⊂wl(global:알파벳/테슬라/TSMC·domestic:SK하이닉스)·conference⊂wl17(삼성언팩)·category∈7enum. sourceUrl 24/24 unique·전부 https·차단0(bloomberg/wsj/ft/reuters/mk/yna 미사용)·도메인일관(mt×3·newspim×2·기타). 페르소나 grep 0(단정/추천/격식체)·길이(title≤30·summary≤60·note≤25). 매월1일 아님(22일)→화이트리스트 재생성 없음. SOX 값은 마켓랩 403로 moomoo 스냅샷(12,356.20·+3.40%) 채택. 브랜치: 지정 claude/relaxed-feynman-075v29."
     }
   ],
-  "updatedAt": "2026-07-21T08:34:00+09:00"
+  "updatedAt": "2026-07-22T07:09:00+09:00"
 }
