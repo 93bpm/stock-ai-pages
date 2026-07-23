@@ -1,0 +1,874 @@
+{
+  "date": "2026-07-24",
+  "weekday": "금",
+  "generatedAt": "2026-07-24T07:10:00+09:00",
+  "us": {
+    "subNote": "밤사이(7/23) 뉴욕은 AI 자본지출 우려와 유가 급등에 일제히 밀렸어요. 나스닥 −2.15%(25,137.69)로 기술주가 크게 눌렸고 S&P 500 −1.21%(7,408.30)·다우 −0.97%(51,711.65)도 하락했어요. 필라델피아 반도체는 −0.54%(12,507)로 상대적으로 선방했어요. 알파벳이 2분기 실적은 좋았지만 올해 설비투자를 2,000억달러로 상향하자 현금소진 우려에 −7%대 급락했고, 테슬라도 순익 미스에 −14% 급락했어요. 예멘 후티의 홍해 유조선 공격으로 브렌트유가 $100을 돌파(WTI $92·+6.4%)하며 물가 자극 우려가 커졌고, VIX는 16.64였어요. 반면 이 AI capex 확대는 韓 HBM·메모리 수요엔 우호적이라 국장과 시각차가 벌어졌어요.",
+    "subNoteEm": "나스닥 −2.15%·알파벳 capex 쇼크(−7%)·테슬라 −14%·유가 $100 돌파",
+    "comment": "밤사이 <b style=\"color:var(--blue);\">나스닥 −2.15% 급락</b>은 오늘 국장에 되돌림 압력이 될 수 있어요. 다만 알파벳의 <b style=\"color:var(--red);\">capex $2,000억 확대</b>는 SK하이닉스·삼성 HBM 수요엔 우호적이라, 유가·환율과 반도체 수급을 함께 확인하며 대응하는 게 좋아요. 투자 판단은 본인 책임이에요.",
+    "indices": [
+      {
+        "name": "S&P 500",
+        "tip": "美 대형주 500",
+        "value": "7,408.30",
+        "change": "▼ 1.21%",
+        "dir": "down"
+      },
+      {
+        "name": "나스닥 종합",
+        "tip": "기술주 중심",
+        "value": "25,137.69",
+        "change": "▼ 2.15%",
+        "dir": "down"
+      },
+      {
+        "name": "다우존스",
+        "tip": "우량주 30",
+        "value": "51,711.65",
+        "change": "▼ 0.97%",
+        "dir": "down"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "tip": "반도체 대표지수(SOX)",
+        "value": "12,507.07",
+        "change": "▼ 0.54%",
+        "dir": "down"
+      }
+    ],
+    "indicators": [
+      {
+        "key": "VIX",
+        "value": "16.64",
+        "dir": "neutral"
+      },
+      {
+        "key": "美 10년물",
+        "value": "4.66% ▲",
+        "dir": "up"
+      },
+      {
+        "key": "달러인덱스",
+        "value": "98.18 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "WTI 유가",
+        "value": "$92.36 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "금",
+        "value": "$4,045 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "비트코인",
+        "value": "$6.50만 ▼",
+        "dir": "down"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "name": "에너지 (유가 $100·중동 긴장)",
+        "change": "강세"
+      },
+      {
+        "name": "유틸리티 (방어주 선호)",
+        "change": "상대 강세"
+      },
+      {
+        "name": "필수소비재 (위험회피 수혜)",
+        "change": "상대 강세"
+      },
+      {
+        "name": "금융 (수익률곡선·방어)",
+        "change": "보합권"
+      },
+      {
+        "name": "반도체 (SOX 상대 선방)",
+        "change": "낙폭 제한"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "name": "커뮤니케이션 (알파벳 −7%)",
+        "change": "약세"
+      },
+      {
+        "name": "임의소비재 (테슬라 −14%)",
+        "change": "약세"
+      },
+      {
+        "name": "정보기술(IT) (AI capex 우려)",
+        "change": "약세"
+      },
+      {
+        "name": "산업재 (경기·유가 부담)",
+        "change": "상대 약세"
+      },
+      {
+        "name": "헬스케어 (성장주 동반 조정)",
+        "change": "상대 약세"
+      }
+    ]
+  },
+  "world": {
+    "subNote": "밤사이 글로벌은 나스닥이 −2.15% 급락하며 위험선호가 후퇴했어요. 알파벳이 AI 설비투자를 2,000억달러로 상향하자 현금소진 우려에 −7%대 밀렸고 테슬라도 순익 미스로 −14% 급락했어요. 유가는 홍해 공격에 브렌트 기준 $100을 넘겼어요. 반대로 한국은 어제 같은 AI capex 뉴스를 'HBM 수요 확대'로 해석하며 외국인 2조원 순매수에 코스피가 +4.40% 급등했어요. 오늘은 밤사이 美 조정과 국장 급등분의 되돌림이 맞부딪칠 수 있어요.",
+    "subNoteEm": "美 tech 급락 vs 韓 반도체 랠리…AI capex 해석이 가른 디커플링",
+    "global": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "나스닥 −2.15% 급락…AI 우려·유가 겹악재",
+        "summary": "기술주 매물에 3대 지수 동반 하락, 위험선호 후퇴했어요",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-23-dow-sp-500-nasdaq-oil-bonds-earnings-084444369.html",
+        "note": "美 급락 → 아시아 장 조정 압력"
+      },
+      {
+        "rank": "02",
+        "category": "AI·클라우드",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "알파벳 capex $2,000억 상향에 −7%",
+        "summary": "실적은 좋았지만 AI 투자 급증에 현금소진 우려가 커졌어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html",
+        "note": "capex↑ → 韓 HBM·SK하이닉스 수혜"
+      },
+      {
+        "rank": "03",
+        "category": "실적",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "테슬라 순익 미스에 −14% 급락",
+        "summary": "매출은 늘었지만 마진 급락하며 1년 만에 최대 낙폭이었어요",
+        "source": "Motley Fool",
+        "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/07/23/stock-market-today-july-23-tesla-stock-crashes-on-earnings-miss-and-rising-ai-spending/",
+        "note": "2차전지 투심 → LG엔솔·삼성SDI"
+      },
+      {
+        "rank": "04",
+        "category": "원자재",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "유가 $100 돌파…홍해 유조선 공격",
+        "summary": "후티의 사우디 유조선 타격에 브렌트가 $100을 넘겼어요",
+        "source": "The National",
+        "sourceUrl": "https://www.thenationalnews.com/business/energy/2026/07/23/oil-hits-100-for-the-first-time-since-may-after-houthi-attacks-on-saudi-ships-in-red-sea/",
+        "note": "고유가 → 韓 물가·원가 부담"
+      },
+      {
+        "rank": "05",
+        "category": "안전자산",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "금값 $4,045로 −2%…차익 실현",
+        "summary": "달러 약세에도 최근 급등 부담에 되밀리며 조정받았어요",
+        "source": "Fortune",
+        "sourceUrl": "https://fortune.com/article/current-price-of-gold-07-23-2026/",
+        "note": "금·달러 흐름 → 환율 시그널"
+      },
+      {
+        "rank": "06",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "ECB 금리 동결(2.25%)…9월 인상 여지",
+        "summary": "만장일치 동결하되 유가 변수로 9월 인상 가능성 열어뒀어요",
+        "source": "Euronews",
+        "sourceUrl": "https://www.euronews.com/business/2026/07/23/ecb-hostage-to-oil-prices-lagarde-leaves-door-open-for-a-september-hike",
+        "note": "유럽 통화정책 → 위험선호 변수"
+      },
+      {
+        "rank": "07",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "TI 호실적에도 −3%…높은 눈높이",
+        "summary": "매출·가이던스 상회했지만 급등 부담에 차익 매물이 나왔어요",
+        "source": "Benzinga",
+        "sourceUrl": "https://www.benzinga.com/trading-ideas/movers/26/07/60630336/texas-instruments-says-ai-data-center-demand-will-stay-strong-for-the-foreseeable-future",
+        "note": "칩 고평가 부담 → 韓 반도체 눈높이"
+      },
+      {
+        "rank": "08",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "FOMC 28~29일…매파 기조 부담",
+        "summary": "동결 유력하나 물가 자극에 연내 인상 여지까지 거론돼요",
+        "source": "Forbes",
+        "sourceUrl": "https://www.forbes.com/sites/investor-hub/article/fed-meeting-tracker-interest-rate-strategy/",
+        "note": "고금리 장기화 → 환율 변수"
+      },
+      {
+        "rank": "09",
+        "category": "가상자산",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "비트코인 6.5만달러로 하락",
+        "summary": "AI 지출·Fed 경계에 위험자산 심리가 약해졌어요",
+        "source": "Sunday Guardian",
+        "sourceUrl": "https://sundayguardianlive.com/business/bitcoin-price-today-july-23-why-is-bitcoin-btc-down-today-ai-spending-and-fed-outlook-weigh-on-crypto-market-check-latest-price-in-usd-inr-gbp-euro-and-yen-244302/",
+        "note": "위험자산 심리 가늠자"
+      },
+      {
+        "rank": "10",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "반도체 약세장 진단…버블 논쟁",
+        "summary": "고점 대비 조정 속 AI 수요 지속성이 방향을 가른대요",
+        "source": "RealClearMarkets",
+        "sourceUrl": "https://www.realclearmarkets.com/2026/07/23/why_semiconductor_bear_market_isnt_foreboding_1195981.html",
+        "note": "HBM 수요 → SK하이닉스·삼성"
+      },
+      {
+        "rank": "11",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "칩·빅테크 매도에 지수 동반 침몰",
+        "summary": "실적 실망과 유가 $100 재돌파가 위험자산을 눌렀어요",
+        "source": "24/7 Wall St.",
+        "sourceUrl": "https://247wallst.com/investing/2026/07/23/live-nasdaq-composite-stocks-sink-on-worrisome-q2-tech-earnings-oil-retakes-100/",
+        "note": "美 위험선호 후퇴 → 韓 수급"
+      },
+      {
+        "rank": "12",
+        "category": "외환",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "달러인덱스 98선…달러 약세 흐름",
+        "summary": "위험회피 속에도 달러가 눌리며 원화엔 우호적이었어요",
+        "source": "Rio Times",
+        "sourceUrl": "https://www.riotimesonline.com/global-economy-briefing-july-23-2026/",
+        "note": "달러 약세 → 외인 원화자산 우호"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스피 +4.40% 7,096.89…7000 회복",
+        "summary": "반도체 투심 회복에 5거래일 만에 7,000선을 되찾았어요",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/07/23/2026072315015067484",
+        "note": "7,000선 안착 여부가 관건"
+      },
+      {
+        "rank": "02",
+        "category": "코스닥",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스닥 +5.22% 790.28…매수 사이드카",
+        "summary": "올해 14번째 매수 사이드카가 발동될 만큼 급등했어요",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/07/23/2026072315021674781",
+        "note": "바이오·2차전지 순환매 활발"
+      },
+      {
+        "rank": "03",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "외국인 2.1조 순매수로 지수 견인",
+        "summary": "4거래일 연속 사자로 코스피가 7,100선에 바짝 다가섰어요",
+        "source": "아주경제",
+        "sourceUrl": "https://www.ajunews.com/view/20260723153456314",
+        "note": "외인 복귀가 반등 지지력"
+      },
+      {
+        "rank": "04",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "'땡큐 구글'…AI capex에 반도체 투심",
+        "summary": "알파벳 투자 확대가 HBM 수요 기대로 이어지며 강세였어요",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/07/23/2026072315460428512",
+        "note": "하이퍼스케일러 capex → 韓 메모리"
+      },
+      {
+        "rank": "05",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "원/달러 1,466.8원…13.3원 하락",
+        "summary": "달러 약세와 외인 매수에 원화가 강세로 돌아섰어요",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20260723001097",
+        "note": "원화 강세 → 외인 수급 우호"
+      },
+      {
+        "rank": "06",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "삼성전자·SK하이닉스 반도체 급등",
+        "summary": "삼성전자 +3.65%·SK하이닉스 +4.86%로 지수를 이끌었어요",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2606776",
+        "note": "AI capex 기대 → 대형 반도체"
+      },
+      {
+        "rank": "07",
+        "category": "방산",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "한화시스템 +12.60%…방산 강세",
+        "summary": "수출 기대에 방산주가 급등하며 순환매 흐름을 탔어요",
+        "source": "톱스타뉴스",
+        "sourceUrl": "https://www.topstarnews.net/news/articleView.html?idxno=16143932",
+        "note": "방산 모멘텀 → 대형 수출주"
+      },
+      {
+        "rank": "08",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스닥 급등에 매수 사이드카 발동",
+        "summary": "5%대 급등에 프로그램 매수 호가 효력이 일시 정지됐어요",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/2026072319866",
+        "note": "중소형·성장주 위험선호 회복"
+      },
+      {
+        "rank": "09",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "알파벳 투자에 살아난 반도체 투심",
+        "summary": "메모리 피크아웃 우려가 덜어지며 매수세가 확산됐어요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202607231603513186",
+        "note": "전력기기·2차전지로도 확산"
+      },
+      {
+        "rank": "10",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "외국인 4거래일째 순매수 지속",
+        "summary": "저평가 인식에 외인 자금이 반도체 중심으로 유입됐어요",
+        "source": "헤럴드경제",
+        "sourceUrl": "https://biz.heraldcorp.com/article/10817608",
+        "note": "외인 순매수 지속 여부 관건"
+      },
+      {
+        "rank": "11",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "개인 2.2조 순매도…차익 실현",
+        "summary": "급등에 개인은 물량을 내놨고 외국인이 이를 받아냈어요",
+        "source": "위키트리",
+        "sourceUrl": "https://www.wikitree.co.kr/articles/1148099",
+        "note": "개인·외인 수급 엇갈림 주시"
+      },
+      {
+        "rank": "12",
+        "category": "바이오",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "코스닥 바이오·2차전지 순환매 급등",
+        "summary": "알테오젠·에코프로 등 주도주로 매수세가 번졌어요",
+        "source": "블록미디어",
+        "sourceUrl": "https://www.blockmedia.co.kr/archives/1119942",
+        "note": "성장 테마 순환매 지속 여부"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "어제(7/23 목) 국장은 급등했어요. 코스피는 +4.40%(7,096.89)로 5거래일 만에 7,000선을 회복했고, 코스닥은 +5.22%(790.28) 급등하며 올해 14번째 매수 사이드카가 발동됐어요. 알파벳의 AI 설비투자 확대가 'HBM 수요 기대'로 해석되며 삼성전자(+3.65%)·SK하이닉스(+4.86%) 등 반도체가 랠리를 이끌었고, 삼성전기(+7.66%)·한화시스템(+12.60% 방산)·LG에너지솔루션(+4.83%)·알테오젠(+14.37%)까지 순환매가 번졌어요. 외국인이 2조1,372억원을 순매수(4거래일째)하며 지수를 끌어올렸고 개인은 2조2,127억원을 순매도했어요. 원/달러는 13.3원 내린 1,466.8원이었어요. 오늘(7/24 금)은 밤사이 美 나스닥 −2.15% 급락과 유가 $100 부담을 안고 열려요. (개별·업종 등락은 7/23 종가 기준이에요)",
+    "subNoteEm": "코스피 +4.40% 7000 회복·외국인 2.1조 순매수·코스닥 사이드카",
+    "comment": "어제 급등은 <b style=\"color:var(--red);\">외국인 2.1조 순매수</b>와 'AI capex→HBM 수혜' 기대가 이끌었어요. 다만 밤사이 美 tech 급락·유가 $100이 되돌림 변수라, 외국인 수급 지속과 반도체 투심을 확인하며 대응하는 게 좋아요. 투자 판단은 본인 책임이에요.",
+    "expectedRange": "코스피 6,980~7,180 (AI capex 수혜 기대와 밤사이 美 급락·유가 부담이 팽팽해요)",
+    "indices": [
+      {
+        "name": "코스피",
+        "tip": "유가증권시장",
+        "value": "7,096.89",
+        "change": "▲ 4.40%",
+        "dir": "up"
+      },
+      {
+        "name": "코스닥",
+        "tip": "코스닥시장",
+        "value": "790.28",
+        "change": "▲ 5.22%",
+        "dir": "up"
+      }
+    ],
+    "flow": [
+      {
+        "key": "원/달러 환율",
+        "value": "1,466.8원 ▼ (7/23 종가·−13.3원·달러 약세)",
+        "dir": "down"
+      },
+      {
+        "key": "美 반도체·빅테크",
+        "value": "SOX −0.54%·나스닥 −2.15%·알파벳 −7%·테슬라 −14%",
+        "dir": "down"
+      },
+      {
+        "key": "오늘 관전 포인트",
+        "value": "美·유로존 플래시 PMI·유가 $100·외국인 수급 지속 여부",
+        "dir": "neutral"
+      }
+    ],
+    "supply": [
+      {
+        "who": "외국인",
+        "amount": "+2조1,372억원",
+        "dir": "buy"
+      },
+      {
+        "who": "기관",
+        "amount": "+1,010억원",
+        "dir": "buy"
+      },
+      {
+        "who": "개인",
+        "amount": "−2조2,127억원",
+        "dir": "sell"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "theme": "IT부품 (반도체 장비·기판)",
+        "stockName": "삼성전기",
+        "stockChange": "+7.66%"
+      },
+      {
+        "theme": "방산 (수출 기대·순환매)",
+        "stockName": "한화시스템",
+        "stockChange": "+12.60%"
+      },
+      {
+        "theme": "메모리 반도체 (HBM 수요)",
+        "stockName": "SK하이닉스",
+        "stockChange": "+4.86%"
+      },
+      {
+        "theme": "2차전지 (반등 확산)",
+        "stockName": "LG에너지솔루션",
+        "stockChange": "+4.83%"
+      },
+      {
+        "theme": "바이오 (코스닥 주도)",
+        "stockName": "알테오젠",
+        "stockChange": "+14.37%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "theme": "통신 (위험선호에 소외)",
+        "stockName": "업종 지수",
+        "stockChange": "상대 약세"
+      },
+      {
+        "theme": "전력·유틸리티 (방어주 이탈)",
+        "stockName": "업종 지수",
+        "stockChange": "상대 약세"
+      },
+      {
+        "theme": "은행 (성장주로 자금 이동)",
+        "stockName": "KB금융",
+        "stockChange": "+0.69%(상대 소외)"
+      },
+      {
+        "theme": "제약 대형 (반도체로 순환)",
+        "stockName": "삼성바이오로직스",
+        "stockChange": "+0.51%(상대 소외)"
+      },
+      {
+        "theme": "음식료 (경기방어 소외)",
+        "stockName": "업종 지수",
+        "stockChange": "상대 약세"
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "삼성전자",
+        "badge": "+3.65%·270,000원·반도체",
+        "badgeType": "up",
+        "desc": "AI capex 기대에 3.65% 올라 27만원에 마쳤어요. 다음주 30일 확정실적과 HBM4 진행 상황이 방향을 가를 수 있어 외국인 수급과 함께 지켜보는 게 좋아요"
+      },
+      {
+        "name": "SK하이닉스",
+        "badge": "+4.86%·1,919,000원·HBM",
+        "badgeType": "up",
+        "desc": "HBM 수요 기대에 4.86% 급등했어요. 29일 예정된 2분기 실적과 HBM·D램 가이던스가 반도체 투심의 분수령이라 컨퍼런스콜 코멘트를 함께 지켜보는 게 좋아요"
+      },
+      {
+        "name": "알테오젠",
+        "badge": "+14.37%·306,500원·바이오",
+        "badgeType": "up",
+        "desc": "코스닥 바이오 순환매를 타고 14%대 급등했어요. 성장주 위험선호가 회복되는 국면이라 실적·기술수출 모멘텀과 코스닥 수급을 함께 살펴보는 게 좋아요"
+      },
+      {
+        "name": "원/달러 환율",
+        "badge": "1,466.8원·−13.3원",
+        "badgeType": "down",
+        "desc": "달러 약세와 외국인 매수에 13.3원 내리며 원화가 강세로 돌아섰어요. 환율 방향이 외국인 반도체 수급에 주는 영향을 지켜보는 게 좋아요"
+      }
+    ],
+    "health": [
+      {
+        "key": "투자자 예탁금",
+        "tip": "대기 자금 (7/14 기준·최근 감소세)",
+        "value": "111조3,000억원",
+        "subIcon": "▼",
+        "subDir": "down"
+      },
+      {
+        "key": "신용융자 잔고",
+        "tip": "빚투 지표 (사상 최고권)",
+        "value": "36조5,000억원",
+        "subIcon": "▲",
+        "subDir": "up"
+      }
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘(7/24 금)은 국장이 밤사이 美 나스닥 −2.15% 급락과 유가 $100 부담을 안고 열려요. 저녁엔 유로존·美 7월 플래시 PMI가 경기 온도를 가늠할 지표로 나와요.",
+    "subNoteEm": "오늘 美·유로존 플래시 PMI·밤사이 美 tech 급락 소화",
+    "riskSentiment": "위험선호 혼재 (AI capex→HBM 수혜 기대는 우호적이나, 밤사이 美 tech 급락·유가 $100·다음주 FOMC 경계가 되돌림 압력으로 상존)",
+    "domestic": {
+      "timed": [],
+      "untimed": []
+    },
+    "global": {
+      "timed": [
+        {
+          "time": "17:00",
+          "event": "유로존 7월 플래시 PMI(제조·서비스)",
+          "important": false
+        },
+        {
+          "time": "22:45",
+          "event": "美 7월 플래시 PMI(제조·서비스)",
+          "important": false
+        }
+      ],
+      "untimed": []
+    },
+    "theme": "오늘은 어제 +4.40% 급등한 국장이 밤사이 美 조정을 얼마나 소화하느냐가 관건이에요. 알파벳의 AI capex 확대는 韓 HBM·메모리엔 우호적이지만, 나스닥 −2.15% 급락과 유가 $100 돌파는 되돌림 압력이에요. 외국인 4거래일째 순매수가 이어질지, 원/달러 1,466원대 강세가 수급을 뒷받침할지가 반등 지속 여부를 좌우할 수 있어, 지표와 수급을 확인하며 대응하는 게 좋아요.",
+    "checks": [
+      "밤사이 美 나스닥 −2.15% 급락과 유가 $100 돌파가 급등한 국장에 주는 조정 압력을 봐요",
+      "외국인 4거래일째 순매수가 오늘도 이어질지, 원/달러 1,466원대 강세의 수급 영향을 살펴봐요",
+      "알파벳 capex $2,000억 확대가 SK하이닉스·삼성 HBM 수요로 이어질지 반도체 투심을 확인해요",
+      "저녁 유로존·美 7월 플래시 PMI가 경기·물가 그림에 주는 신호를 챙겨봐요",
+      "다음주 FOMC(7/28~29)·SK하이닉스 실적(7/29)을 앞둔 관망 심리를 함께 봐요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-07-19",
+    "end": "2026-07-25",
+    "days": [
+      {
+        "date": "2026-07-19",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-07-20",
+        "weekday": "월",
+        "items": [
+          {
+            "region": "domestic",
+            "time": "15:30",
+            "event": "코스피 검은월요일 −4.46%·2거래일 연속 사이드카",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "event": "美 지수 소폭 하락·필라델피아 반도체 +2.37% 반등",
+            "important": false,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-21",
+        "weekday": "화",
+        "items": [
+          {
+            "region": "domestic",
+            "time": "15:30",
+            "event": "코스피 +3.56% 급반등(6,747.95)·6700선 회복",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "event": "美 반도체 랠리·마이크론 +12%·나스닥 +1.29%",
+            "important": false,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-22",
+        "weekday": "수",
+        "items": [
+          {
+            "region": "domestic",
+            "time": "15:30",
+            "event": "코스피 +0.74%(6,797.70)·장중 7,000 터치 후 반납",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "domestic",
+            "time": "22:00",
+            "event": "삼성 갤럭시 언팩 — Z폴드8·폴드8울트라·플립8 공개",
+            "important": true,
+            "category": "conference"
+          },
+          {
+            "region": "global",
+            "event": "美 실적 — 알파벳 매출 +24% 서프라이즈·테슬라 순익 미스",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-23",
+        "weekday": "목",
+        "items": [
+          {
+            "region": "domestic",
+            "time": "15:30",
+            "event": "코스피 +4.40%(7,096.89) 7000 회복·코스닥 +5.22% 매수 사이드카",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "time": "20:45",
+            "event": "ECB 금리 동결(2.25%)·9월 인상 여지·라가르드 회견",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "event": "美 나스닥 −2.15% 급락·알파벳 capex 쇼크·유가 $100 돌파",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-24",
+        "weekday": "금",
+        "items": [
+          {
+            "region": "global",
+            "time": "17:00",
+            "event": "유로존 7월 플래시 PMI(제조·서비스)",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "22:45",
+            "event": "美 7월 플래시 PMI(제조·서비스)",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-25",
+        "weekday": "토",
+        "items": []
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 7,
+    "days": [
+      {
+        "date": "2026-07-16",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "한은 금통위 — 기준금리 2.75% 인상(+0.25%p)",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "event": "TSMC 2분기 실적 — 설비투자 상향",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "제헌절 — 韓 증시 휴장",
+            "important": true,
+            "category": "holiday"
+          },
+          {
+            "region": "global",
+            "event": "필라델피아 반도체 약세장 진입",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "코스피 검은월요일 −4.46%·2거래일 연속 사이드카",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "event": "필라델피아 반도체 +2.37% 반등",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-21",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "코스피 +3.56% 급반등·6700선 회복",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "event": "美 반도체 랠리·마이크론 +12%",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-22",
+        "items": [
+          {
+            "region": "global",
+            "event": "알파벳 매출 +24% 서프라이즈·테슬라 순익 미스",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "event": "삼성 갤럭시 언팩 — Z폴드8 3종 공개",
+            "important": true,
+            "category": "conference"
+          },
+          {
+            "region": "domestic",
+            "event": "코스피 +0.74%·장중 7,000 터치 후 반납",
+            "important": false,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-23",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "코스피 +4.40% 7000 회복·코스닥 사이드카",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "event": "ECB 금리 동결(2.25%)·9월 인상 여지",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "event": "美 나스닥 −2.15% 급락·유가 $100 돌파",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-24",
+        "items": [
+          {
+            "region": "global",
+            "event": "美·유로존 7월 플래시 PMI",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-28",
+        "items": [
+          {
+            "region": "global",
+            "event": "FOMC(7/28~29) — 금리 결정",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-29",
+        "items": [
+          {
+            "region": "global",
+            "event": "MS·메타 2분기 실적 발표",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "event": "SK하이닉스 2분기 실적·HBM 가이던스",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-30",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "삼성전자 2분기 확정실적 컨퍼런스콜",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "event": "애플·아마존 2분기 실적",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      }
+    ]
+  }
+}

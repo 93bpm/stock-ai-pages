@@ -1733,6 +1733,38 @@
         "branch": "claude/relaxed-feynman-woacxn"
       },
       "notes": "목요일 07:10 발화. ★목요일 국장 개장 전 편★. 美 최근 마감=수요일 7/22·韓 최근 마감=수요일 7/22. ★美 7/22 빅테크 실적 앞 관망 혼조★: S&P -0.14% 7,498.96·나스닥 -0.57% 25,690.90·다우 -0.01% 52,218.58·SOX 반도체 반등에 +1%대(3거래일째·SOXX대용 잠정 약12,500). VIX 17.05(-8.58%)·10Y 4.62%·DXY 100.9·WTI $85.14(+0.95%·이란 호르무즈·브렌트 장중 $95)·금 $4,143.15(+1.64%)·BTC $6.21만(-2.59%). ★장마감후 실적★: 알파벳 매출 1,198억달러 +24% 서프라이즈·테슬라 매출 282억달러 +26%나 순익 미스(-3% 시간외). ★韓 7/22 강보합★: 코스피 +0.74% 6,797.70(장중 7,000 터치 후 차익반납)·코스닥 -0.30% 751.09. 외인 +3조5,097억 순매수(개인 -1조9,829억·기관 -1조4,824억 순매도·2개 매핑출처 newspim/mt 일치). 현대차 +4.76% 자동차 견인·삼성전기 +2.67%·삼성전자 +0.58%·SK하이닉스 -0.33%(실적 앞 약보합). 원달러 1,480.1(+6.7·6거래일 하락 뒤 반등). 밤 삼성 갤럭시 언팩(Z폴드8 3종·런던). 시세·수급·업종·뉴스 사실 페르소나 X. calendarWeek 7/19~7/25(todayIdx=4 목). 오늘(목)⊂week[4]: SK하이닉스 실적(earnings domestic)+ECB동결 2.25%(policy 20:45)+실업수당(macro 21:30)+인텔실적(market). 7/22 코스피(market)+삼성언팩(conference·wl-conf SamsungUnpacked expectedMonth[1,7]✓)+알파벳/테슬라 실적(earnings global·wl-us-bigtech GOOGL/TSLA✓). ★인텔은 wl-us-bigtech 미포함→earnings 제외 category=market★. calendarMonth 7월 hit(7/16 금통위+TSMC·7/17 제헌절·7/20 검은월요일·7/21 반등·7/22 언팩+빅테크+코스피·7/23 SK하이닉스+ECB·7/24 PMI·7/28 FOMC). 일관성 전수통과(0 err/0 warn): week7일·start일/end토·start+6=end·date⊂범위·today(목)⊂week[4]·month 2026-07·earnings⊂wl(global:알파벳/테슬라/TSMC·domestic:SK하이닉스)·conference⊂wl17(삼성언팩)·category∈7enum·time형식. sourceUrl 24/24 unique·전부 https·차단0(bloomberg/wsj/ft/reuters/mk/yna 미사용)·도메인일관(mt×3·etoday×3·newspim/hankyung/asiae/sedaily/fnnews/imbc). 페르소나 grep 0(단정/추천/격식체)·길이(title≤30·summary≤60·note≤25). 매월1일 아님(23일)→화이트리스트 재생성 없음. ★SOX 정확 7/22 종가는 Yahoo/investing/nasdaqomx 모두 403차단으로 미확보→WebSearch 근거 '3거래일째 +1%'만 확정, 값은 잠정(약12,500·SOXX대용) 명시★. 브랜치: 지정 claude/relaxed-feynman-woacxn."
+    },
+    {
+      "date": "2026-07-24",
+      "time": "07:10",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1094,
+      "tokens_estimated": 155000,
+      "response_size_kb": 31.9,
+      "tool_calls": {
+        "WebFetch": 13,
+        "WebSearch": 28,
+        "Read": 3,
+        "Write": 2,
+        "Bash": 6
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebFetch": "13건(context.md·schema.json·guides 5개·화이트리스트 3개 raw GitHub 성공 / WaPo·newspim·indexergo·daum·stockanalysis·fortune 마켓랩 6건 403차단→WebSearch 폴백)",
+        "WebSearch": "28건(美 7/23 마감 S&P/나스닥/다우·SOX(7/22 12,574.97×−0.54%=12,507.07)·VIX/10Y/DXY/유가/금/BTC·美섹터·알파벳/테슬라/TXN 실적·코스피/코스닥 7/23·수급·원달러·업종·한화시스템방산·SK하이닉스실적일정·ECB결과·Fed FOMC·홍해유가·HBM·개장전망)",
+        "Read": "3건(로컬 repo: manifest·usage·전일 briefing 2026-07-23)",
+        "Stooq/finviz(WebFetch)": "403 차단 추정→Yahoo/WebSearch 폴백"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/relaxed-feynman-90do3p"
+      },
+      "notes": "금요일 07:10 발화. ★금요일 국장 개장 전 편★. 美 최근 마감=목요일 7/23·韓 최근 마감=목요일 7/23. ★★디커플링 데이★★: 같은 알파벳 AI capex 뉴스를 美는 '현금소진 우려'로, 韓은 'HBM 수요 확대'로 정반대 해석. ★美 7/23 급락★: S&P −1.21% 7,408.30·나스닥 −2.15% 25,137.69·다우 −0.97% 51,711.65·SOX −0.54% 12,507.07(7/22 종가 12,574.97 확보 후 −0.54% 산술계산·newspim 7/24 리포트 근거). 알파벳 capex $2,000억 상향에 −7.5%·테슬라 순익미스 −14%·TXN 호실적에도 −3%. VIX 16.64·10Y 4.66%·DXY 98.18(달러 약세)·WTI $92.36(+6.4%·브렌트 $100 돌파·후티 홍해 유조선 공격)·금 $4,045(−2.06%)·BTC $6.5만. ECB 동결 2.25%(만장일치·9월 인상 여지·라가르드). ★韓 7/23 급등★: 코스피 +4.40% 7,096.89(7000 회복·5거래일만)·코스닥 +5.22% 790.28(올해 14번째 매수 사이드카). 외국인 +2조1,372억 순매수(4거래일째)·기관 +1,010억·개인 −2조2,127억. 삼성전자 +3.65% 270,000·SK하이닉스 +4.86% 1,919,000·삼성전기 +7.66%·한화시스템 +12.60%(방산)·LG엔솔 +4.83%·알테오젠 +14.37%·에코프로 +9.34%. 원달러 1,466.8(−13.3·달러 약세). ★broad 랠리로 sectorsDown은 방어주 상대 소외로 구성(통신·유틸·은행 KB금융+0.69%·제약 삼성바이오+0.51%·음식료)·마스킹 아닌 '상대 약세/소외' 정성 표기★. 시세·수급·업종·뉴스 사실 페르소나 X. calendarWeek 7/19~7/25(todayIdx=5 금). 오늘(금)⊂week[5]: 유로존 PMI 17:00+美 PMI 22:45(둘다 global macro). 7/23 갱신: 코스피 +4.40%(market)+ECB 동결(policy 20:45)+美 나스닥 급락·유가$100(market). ★SK하이닉스 실적은 실제 7/29→calendarWeek(7/23)에서 제거하고 calendarMonth 7/29로 이동(어제 briefing 오류 정정)★. calendarMonth 7월 hit: 7/16 금통위+TSMC·7/17 제헌절·7/20 검은월요일·7/21 반등·7/22 언팩+빅테크·7/23 코스피+ECB+美급락·7/24 PMI·7/28 FOMC·7/29 SK하이닉스실적+MS/메타·7/30 삼성확정실적+애플/아마존. 일관성 전수통과(0 err): week7일·start일/end토·start+6=end·date⊂범위·today(금)⊂week[5]·month 2026-07·earnings⊂wl(global:알파벳/테슬라/TSMC/MS/메타/애플/아마존·domestic:SK하이닉스/삼성전자)·conference⊂wl17(삼성언팩)·category∈7enum. sourceUrl 24/24 unique·전부 https·차단0(bloomberg/wsj/ft/reuters/mk/yna 미사용)·도메인일관(mt×3·newspim/etoday/hankyung/ajunews/fnnews/heraldcorp/wikitree/blockmedia/topstarnews·Yahoo/CNBC/MotleyFool/TheNational/Fortune/Euronews/Benzinga/Forbes/SundayGuardian/247wallst/RealClearMarkets/RioTimes). 페르소나 grep 0(단정/추천/격식체)·길이(title≤30·summary≤60·note≤25). 매월1일 아님(24일)→화이트리스트 재생성 없음. 브랜치는 push 후 기록."
     }
   ],
   "updatedAt": "2026-07-23T07:10:00+09:00"
