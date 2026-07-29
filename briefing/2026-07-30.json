@@ -1,0 +1,692 @@
+{
+  "date": "2026-07-30",
+  "weekday": "목",
+  "generatedAt": "2026-07-30T07:10:00+09:00",
+  "us": {
+    "subNote": "7월 29일 워시 연준이 5회 연속 금리를 동결했지만 매파 기조에 다우가 1,150p 넘게 밀렸어요. 중동 긴장으로 유가는 6%대 급등했고, AI 투자 과열 우려 속 반도체주 매도가 이어졌어요.",
+    "subNoteEm": "매파 연준·중동 리스크에 뉴욕증시 급락",
+    "comment": "9월 인상 가능성이 커지면서 성장주엔 부담이 이어질 수 있어요. 유가 급등은 물가·환율을 자극할 수 있어 아시아 장에도 파장이 갈 수 있어요. 투자 판단은 본인 책임이에요.",
+    "indices": [
+      {
+        "name": "S&P 500",
+        "tip": "美 대형주 500",
+        "value": "7,316.15",
+        "change": "-1.52%",
+        "dir": "down"
+      },
+      {
+        "name": "나스닥 종합",
+        "tip": "기술주 중심",
+        "value": "24,442.94",
+        "change": "-1.74%",
+        "dir": "down"
+      },
+      {
+        "name": "다우존스",
+        "tip": "우량주 30",
+        "value": "51,594.14",
+        "change": "-2.19%",
+        "dir": "down"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "tip": "반도체 30종(SOX)",
+        "value": "10,750.25",
+        "change": "-4.76%",
+        "dir": "down"
+      }
+    ],
+    "indicators": [
+      {
+        "key": "VIX",
+        "value": "19.59",
+        "dir": "up"
+      },
+      {
+        "key": "美 10년물",
+        "value": "4.64%",
+        "dir": "up"
+      },
+      {
+        "key": "달러인덱스",
+        "value": "101.30",
+        "dir": "down"
+      },
+      {
+        "key": "WTI 유가",
+        "value": "$84.18",
+        "dir": "up"
+      },
+      {
+        "key": "금",
+        "value": "$4,029",
+        "dir": "down"
+      },
+      {
+        "key": "비트코인",
+        "value": "$64,244",
+        "dir": "up"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "name": "에너지",
+        "change": "+2.5%"
+      },
+      {
+        "name": "유틸리티",
+        "change": "+0.9%"
+      },
+      {
+        "name": "필수소비재",
+        "change": "+0.6%"
+      },
+      {
+        "name": "헬스케어",
+        "change": "+0.5%"
+      },
+      {
+        "name": "부동산",
+        "change": "+0.3%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "name": "반도체",
+        "change": "-4.8%"
+      },
+      {
+        "name": "정보기술",
+        "change": "-2.3%"
+      },
+      {
+        "name": "임의소비재",
+        "change": "-1.8%"
+      },
+      {
+        "name": "커뮤니케이션",
+        "change": "-1.5%"
+      },
+      {
+        "name": "산업재",
+        "change": "-1.2%"
+      }
+    ]
+  },
+  "world": {
+    "subNote": "연준의 매파적 동결과 중동발 유가 급등, AI 반도체 조정이 겹치며 글로벌 위험자산이 출렁였어요. 국내외 반도체주 동반 약세가 특히 두드러졌어요.",
+    "subNoteEm": "매파 연준·반도체 쇼크가 글로벌 증시 흔들어",
+    "global": [
+      {
+        "rank": "01",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "美 연준, 5회 연속 금리 동결",
+        "summary": "워시 의장 매파 기조 속 3명 인상 소수의견, 9월 인상 가능성 부각",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html",
+        "note": "9월 인상 우려에 韓 증시 부담 커요"
+      },
+      {
+        "rank": "02",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "매파 연준에 뉴욕증시 급락",
+        "summary": "다우 1,150p 넘게 하락, S&P·나스닥도 동반 약세로 마감",
+        "source": "The Motley Fool",
+        "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/07/29/stock-market-today-july-29-stocks-slide-on-hawkish-fed-and-increased-middle-east-tensions/",
+        "note": "위험자산 회피, 아시아 장에도 파장 가능해요"
+      },
+      {
+        "rank": "03",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "반도체株 시총 1조달러 증발",
+        "summary": "AI 투자 과열 우려에 엔비디아·마이크론 등 칩주 급락 지속",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html",
+        "note": "삼성·SK하이닉스에 직접 타격 줄 수 있어요"
+      },
+      {
+        "rank": "04",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "필라델피아 반도체지수 약세",
+        "summary": "SOX 기술적 지지선 붕괴, 전 종목 50일선 하회 국면 진입",
+        "source": "Seeking Alpha",
+        "sourceUrl": "https://seekingalpha.com/news/4619204-semiconductor-breadth-hits-a-wall-as-sox-loses-technical-footing",
+        "note": "국내 반도체 투심에도 찬물 될 수 있어요"
+      },
+      {
+        "rank": "05",
+        "category": "원자재",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "중동 긴장에 국제유가 급등",
+        "summary": "트럼프 對이란 강경 발언, WTI 6%대 급등하며 84달러 근접",
+        "source": "FX Daily Report",
+        "sourceUrl": "https://fxdailyreport.com/wti-crude-oil-price-analysis-for-july-29-2026/",
+        "note": "유가 급등, 물가·환율에 부담 될 수 있어요"
+      },
+      {
+        "rank": "06",
+        "category": "산업",
+        "categoryStyle": "geo",
+        "sentiment": "neu",
+        "title": "에너지, 올해 최고 섹터 등극",
+        "summary": "이란 사태로 유가 상승, 에너지주가 기술주 제치고 선두로",
+        "source": "Benzinga",
+        "sourceUrl": "https://www.benzinga.com/markets/equities/26/07/60554062/energy-overtakes-tech-best-sector-2026",
+        "note": "에너지·정유 관련주 관심 쏠릴 수 있어요"
+      },
+      {
+        "rank": "07",
+        "category": "채권",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "美 국채금리 상승 압력",
+        "summary": "유가 급등·매파 연준에 10년물 금리 4.64%로 상승",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/amp/2026/07/29/treasury-yields-fed-interest-rates.html",
+        "note": "금리 부담에 성장주 밸류 눌릴 수 있어요"
+      },
+      {
+        "rank": "08",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "연준 위원 9명 연내 인상 시사",
+        "summary": "워시 의장 물가 통제 강조, 인상 소수의견 3명으로 늘어",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/warsh-hawkish-shock-9-fed-180221394.html",
+        "note": "연내 추가 인상 경계감 이어질 수 있어요"
+      },
+      {
+        "rank": "09",
+        "category": "실적",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "빅테크 실적 발표 줄줄이 대기",
+        "summary": "MS·메타 이어 애플·아마존 실적, AI 투자 지속성 관건",
+        "source": "Fortune",
+        "sourceUrl": "https://fortune.com/2026/07/26/big-tech-earnings-meta-microsoft-apple-amazon-market-revolt-ai-spending/",
+        "note": "capex가 반도체 수요 가늠자 될 수 있어요"
+      },
+      {
+        "rank": "10",
+        "category": "원자재",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "금값 4,000달러대 등락",
+        "summary": "달러 약세에도 위험회피 속 금 소폭 조정, 온스당 4,029달러",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/select/the-price-of-gold-today-july-29-2026/",
+        "note": "안전자산 수요 여전, 변동성 큰 국면이에요"
+      },
+      {
+        "rank": "11",
+        "category": "가상자산",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "비트코인 6.4만달러 부근 등락",
+        "summary": "연준 결정·중동 변수 속 가상자산 관망세 이어져",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-july-29-2026-crypto-investors-watching-the-fed-decision-closely-131641825.html",
+        "note": "위험자산 투심 바로미터로 볼 수 있어요"
+      },
+      {
+        "rank": "12",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "2조달러 반도체 매도 분수령",
+        "summary": "칩 랠리 조정 국면, 기술적 분기점서 방향성 시험대",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/markets/article/the-2-trillion-chip-sell-off-hits-a-make-or-break-level-chart-of-the-day-155000822.html",
+        "note": "반등이냐 추가 하락이냐 갈림길이에요"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스피 이틀째 폭락 5,663",
+        "summary": "코스닥도 6%대 급락, 양 시장 이틀 연속 서킷브레이커 발동",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20260729000988",
+        "note": "레버리지 청산 공포가 낙폭 키웠어요"
+      },
+      {
+        "rank": "02",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "개미 폭풍매도에 사이드카",
+        "summary": "개인 1조원 넘게 순매도, 코스피·코스닥 동반 매도 사이드카",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202607291132094290",
+        "note": "개인 투매가 하락 주도했어요"
+      },
+      {
+        "rank": "03",
+        "category": "정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "코스피 5,700선도 붕괴",
+        "summary": "김용범 부총리 '레버리지 탓만은 아냐', 당국 시장 점검 착수",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/07/29/2026072911214711433",
+        "note": "당국 안정화 발언에 시선 쏠려요"
+      },
+      {
+        "rank": "04",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "삼성전자·SK하이닉스 급락",
+        "summary": "SK하이닉스 12% 급락 136만원, 삼성전자도 7%대 하락 마감",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/07/29/2026072913395165309",
+        "note": "美 칩 약세가 대형주 끌어내렸어요"
+      },
+      {
+        "rank": "05",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스피 6%대 급락 5,600대",
+        "summary": "장중 반등 시도 무산되며 오후 낙폭 확대, 6,000선 하회",
+        "source": "헤럴드경제",
+        "sourceUrl": "https://biz.heraldcorp.com/article/10824257",
+        "note": "변동성 극심, 신중히 봐야 해요"
+      },
+      {
+        "rank": "06",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스피 6,000선 밑으로",
+        "summary": "이틀 연속 폭락에 지수 6,000선 무너지며 5,663 마감",
+        "source": "블록미디어",
+        "sourceUrl": "https://www.blockmedia.co.kr/archives/1121903",
+        "note": "심리적 지지선 붕괴 부담 커요"
+      },
+      {
+        "rank": "07",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스피·코스닥 사이드카 발동",
+        "summary": "양 시장 동반 매도 사이드카, 코스피 다시 5,000대 위협",
+        "source": "한국일보",
+        "sourceUrl": "https://www.hankookilbo.com/news/article/A2026072908350001146",
+        "note": "추가 변동성 대비할 필요 있어요"
+      },
+      {
+        "rank": "08",
+        "category": "종목",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "급락장서 셀트리온만 상승",
+        "summary": "시총 상위 대부분 약세 속 셀트리온 1%대 상승 마감",
+        "source": "서울신문",
+        "sourceUrl": "https://www.seoul.co.kr/news/economy/securities/2026/07/29/20260729500117",
+        "note": "방어주로 시선 옮겨갈 수 있어요"
+      },
+      {
+        "rank": "09",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "거래상위 종목 약세 우세",
+        "summary": "삼성전자·SK하이닉스 급락에 거래상위 대부분 하락 마감",
+        "source": "서울신문",
+        "sourceUrl": "https://www.seoul.co.kr/news/economy/securities/2026/07/29/20260729500118",
+        "note": "반도체 쏠림이 낙폭 키웠어요"
+      },
+      {
+        "rank": "10",
+        "category": "진단",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스피 7월에만 30% 폭락",
+        "summary": "中 반도체 추격·외국인 매도·반도체 쏠림이 낙폭 키운 배경",
+        "source": "헤럴드경제",
+        "sourceUrl": "https://biz.heraldcorp.com/article/10824319",
+        "note": "쏠림 구조 취약성 드러났어요"
+      },
+      {
+        "rank": "11",
+        "category": "테마",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "급락장 속 상승 종목 30선",
+        "summary": "로봇·바이오 등 순환매 속 코스닥 상한가 4종목 등장",
+        "source": "이비엔",
+        "sourceUrl": "https://www.ebn.co.kr/news/articleView.html?idxno=1718262",
+        "note": "순환매 테마에 관심 갈 수 있어요"
+      },
+      {
+        "rank": "12",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "외국인·기관 저가매수 유입",
+        "summary": "개인 1.4조 매도 속 외국인·기관은 순매수로 지수 방어",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/07/29/2026072910325486297",
+        "note": "저점 인식 매수 나타났어요"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "7월 29일 코스피가 5.98% 급락한 5,663으로 마감하며 이틀 연속 서킷브레이커가 발동됐어요. 개인이 1조원 넘게 던진 반면 외국인·기관은 저가 매수에 나섰어요. 美 반도체 약세가 삼성전자·SK하이닉스를 끌어내렸어요.",
+    "subNoteEm": "레버리지 공포에 국장 이틀째 폭락",
+    "comment": "레버리지 청산과 반대매매 공포가 낙폭을 키운 하루였어요. 외국인·기관 순매수가 저점 인식을 보여주지만 변동성이 커서 신중하게 볼 필요가 있어요. 투자 판단은 본인 책임이에요.",
+    "expectedRange": "코스피 5,500~5,850",
+    "indices": [
+      {
+        "name": "코스피",
+        "tip": "유가증권시장",
+        "value": "5,663.24",
+        "change": "-5.98%",
+        "dir": "down"
+      },
+      {
+        "name": "코스닥",
+        "tip": "코스닥시장",
+        "value": "662.68",
+        "change": "-6.12%",
+        "dir": "down"
+      }
+    ],
+    "flow": [
+      {
+        "key": "원/달러 환율",
+        "value": "1,454원",
+        "dir": "down"
+      },
+      {
+        "key": "미국 상장 한국물(ADR)",
+        "value": "EWY -5.5%",
+        "dir": "down"
+      }
+    ],
+    "supply": [
+      {
+        "who": "외국인",
+        "amount": "+912억",
+        "dir": "buy"
+      },
+      {
+        "who": "기관",
+        "amount": "+1조2,686억",
+        "dir": "buy"
+      },
+      {
+        "who": "개인",
+        "amount": "-1조3,662억",
+        "dir": "sell"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "theme": "유통",
+        "stockName": "한화갤러리아우",
+        "stockChange": "+29.87%"
+      },
+      {
+        "theme": "섬유·의류",
+        "stockName": "온타이드",
+        "stockChange": "+7.02%"
+      },
+      {
+        "theme": "로봇",
+        "stockName": "KR모터스",
+        "stockChange": "+6.40%"
+      },
+      {
+        "theme": "음식료",
+        "stockName": "마니커",
+        "stockChange": "+5.73%"
+      },
+      {
+        "theme": "바이오",
+        "stockName": "셀트리온",
+        "stockChange": "+1.47%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "theme": "건설",
+        "stockName": "GS건설",
+        "stockChange": "-16.27%"
+      },
+      {
+        "theme": "반도체",
+        "stockName": "SK하이닉스",
+        "stockChange": "-11.94%"
+      },
+      {
+        "theme": "방산",
+        "stockName": "한화에어로스페이스",
+        "stockChange": "-8.11%"
+      },
+      {
+        "theme": "반도체",
+        "stockName": "삼성전자",
+        "stockChange": "-7.73%"
+      },
+      {
+        "theme": "원전·에너지",
+        "stockName": "두산에너빌리티",
+        "stockChange": "-7.73%"
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "SK하이닉스",
+        "badge": "-11.94%",
+        "badgeType": "down",
+        "desc": "HBM 대장주가 美 칩 약세에 12% 급락했어요"
+      },
+      {
+        "name": "삼성전자",
+        "badge": "-7.73%",
+        "badgeType": "down",
+        "desc": "시총 1위도 20만원선으로 밀려 지수 눌렀어요"
+      },
+      {
+        "name": "셀트리온",
+        "badge": "+1.47%",
+        "badgeType": "up",
+        "desc": "급락장서 드물게 오른 대형 방어주예요"
+      },
+      {
+        "name": "GS건설",
+        "badge": "-16.27%",
+        "badgeType": "down",
+        "desc": "건설주 낙폭 커지며 16% 넘게 급락했어요"
+      }
+    ],
+    "health": [
+      {
+        "key": "투자자 예탁금",
+        "tip": "증시 대기 자금",
+        "value": "약 120조원",
+        "subIcon": "▼",
+        "subDir": "down"
+      },
+      {
+        "key": "신용융자 잔고",
+        "tip": "빚투 잔액",
+        "value": "약 37조원",
+        "subIcon": "▼",
+        "subDir": "down"
+      },
+      {
+        "key": "반대매매",
+        "tip": "강제 청산액",
+        "value": "일평균 527억원",
+        "subIcon": "▲",
+        "subDir": "up"
+      }
+    ]
+  },
+  "calendar": {
+    "subNote": "이번 주 MS·메타에 이어 애플·아마존 실적이 발표돼요. 연준 결정 후폭풍과 유가 흐름도 함께 살펴볼 만해요.",
+    "subNoteEm": "빅테크 실적과 연준 후폭풍 주목",
+    "riskSentiment": "위험회피",
+    "domestic": {
+      "timed": [],
+      "untimed": []
+    },
+    "global": {
+      "timed": [
+        {
+          "time": "03:00",
+          "event": "美 FOMC 기준금리 결정·워시 의장 회견",
+          "important": true
+        },
+        {
+          "time": "05:00",
+          "event": "마이크로소프트·메타 분기 실적 발표",
+          "important": true
+        }
+      ],
+      "untimed": []
+    },
+    "theme": "빅테크 실적 시즌과 반도체 투심 회복 여부",
+    "checks": [
+      "빅테크 capex 가이던스가 반도체 수요에 주는 신호를 확인해요",
+      "외국인·기관 저가 매수가 이어질지 살펴봐요",
+      "유가 급등이 환율·물가에 주는 영향을 점검해요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-07-26",
+    "end": "2026-08-01",
+    "days": [
+      {
+        "date": "2026-07-26",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-07-27",
+        "weekday": "월",
+        "items": []
+      },
+      {
+        "date": "2026-07-28",
+        "weekday": "화",
+        "items": []
+      },
+      {
+        "date": "2026-07-29",
+        "weekday": "수",
+        "items": []
+      },
+      {
+        "date": "2026-07-30",
+        "weekday": "목",
+        "items": [
+          {
+            "region": "global",
+            "time": "03:00",
+            "event": "美 FOMC 기준금리 결정·워시 의장 회견",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "time": "05:00",
+            "event": "마이크로소프트·메타 분기 실적 발표",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-31",
+        "weekday": "금",
+        "items": [
+          {
+            "region": "global",
+            "time": "05:00",
+            "event": "애플·아마존 분기 실적 발표",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-01",
+        "weekday": "토",
+        "items": []
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 7,
+    "days": [
+      {
+        "date": "2026-07-16",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "한국은행 금통위 기준금리 결정",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-22",
+        "items": [
+          {
+            "region": "global",
+            "event": "삼성 갤럭시 언팩 2026",
+            "important": true,
+            "category": "conference"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-30",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 FOMC 기준금리 결정",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "event": "마이크로소프트·메타 분기 실적",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-31",
+        "items": [
+          {
+            "region": "global",
+            "event": "애플·아마존 분기 실적",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      }
+    ]
+  }
+}
