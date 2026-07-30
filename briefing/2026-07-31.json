@@ -1,0 +1,176 @@
+{
+  "date": "2026-07-31",
+  "weekday": "금",
+  "generatedAt": "2026-07-31T07:10:00+09:00",
+  "us": {
+    "subNote": "7월 30일 뉴욕증시가 하루 만에 급반등했어요. 마이크로소프트가 애저 매출 1000억달러 돌파에 16% 폭등하며 나스닥이 2.8% 뛰었고, 마이크론·AMD 등 반도체가 8% 급반등했어요.",
+    "subNoteEm": "MS 16% 폭등에 뉴욕증시 하루 만에 급반등",
+    "comment": "간밤 반도체가 8% 급반등해 삼성전자·SK하이닉스 투심에도 훈풍이 될 수 있어요. 다만 연준 매파 기조와 애플·아마존 실적은 변수로 남아 있어요. 투자 판단은 본인 책임이에요.",
+    "indices": [
+      {"name": "S&P 500", "tip": "美 대형주 500", "value": "7,437.63", "change": "+1.66%", "dir": "up"},
+      {"name": "나스닥 종합", "tip": "기술주 중심", "value": "25,122.18", "change": "+2.78%", "dir": "up"},
+      {"name": "다우존스", "tip": "우량주 30", "value": "52,208.06", "change": "+1.19%", "dir": "up"},
+      {"name": "필라델피아 반도체", "tip": "반도체 30종(SOX)", "value": "11,610.27", "change": "+8.00%", "dir": "up"}
+    ],
+    "indicators": [
+      {"key": "VIX", "value": "17.77", "dir": "down"},
+      {"key": "美 10년물", "value": "4.68%", "dir": "up"},
+      {"key": "달러인덱스", "value": "100.98", "dir": "down"},
+      {"key": "WTI 유가", "value": "$83.58", "dir": "down"},
+      {"key": "금", "value": "$4,160", "dir": "up"},
+      {"key": "비트코인", "value": "$64,493", "dir": "up"}
+    ],
+    "sectorsUp": [
+      {"name": "반도체", "change": "+8.4%"},
+      {"name": "정보기술", "change": "+3.1%"},
+      {"name": "커뮤니케이션", "change": "+1.8%"},
+      {"name": "임의소비재", "change": "+1.5%"},
+      {"name": "산업재", "change": "+0.9%"}
+    ],
+    "sectorsDown": [
+      {"name": "에너지", "change": "-1.2%"},
+      {"name": "유틸리티", "change": "-0.6%"},
+      {"name": "필수소비재", "change": "-0.5%"},
+      {"name": "부동산", "change": "-0.4%"},
+      {"name": "헬스케어", "change": "-0.2%"}
+    ]
+  },
+  "world": {
+    "subNote": "연준 동결 충격을 하루 만에 딛고 뉴욕증시가 급반등했어요. 반도체가 8% 튀며 국내 반도체 투심에도 온기가 돌 수 있어요.",
+    "subNoteEm": "美 반도체 8% 급반등, 글로벌 위험선호 회복",
+    "global": [
+      {"rank": "01", "category": "증시", "categoryStyle": "default", "sentiment": "pos", "title": "뉴욕증시 급반등, 나스닥 2.8%↑", "summary": "연준 발 하락 하루 만에 반전, 다우·S&P·나스닥 일제히 급등 마감", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-30-dow-sp-500-nasdaq-082255995.html", "note": "위험선호 회복, 아시아 장에도 훈풍 가능해요"},
+      {"rank": "02", "category": "실적", "categoryStyle": "tech", "sentiment": "pos", "title": "MS 16% 폭등, 애저 1000억달러", "summary": "마이크로소프트 클라우드 매출 첫 1000억달러 돌파에 2008년 이후 최대 급등", "source": "The Motley Fool", "sourceUrl": "https://www.fool.com/investing/2026/07/30/nasdaq-best-day-since-june-on-microsoft-surge/", "note": "AI 투자 지속, 메모리 수요 호재예요"},
+      {"rank": "03", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "반도체 8% 급반등, 마이크론 18%↑", "summary": "램리서치·MS 호실적에 칩주 일제 반등, AMD·인텔도 두 자릿수 상승", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/07/30/chip-stock-rally-lam-research-micron-amd.html", "note": "삼성·SK하이닉스 반등 실마리 될 수 있어요"},
+      {"rank": "04", "category": "실적", "categoryStyle": "tech", "sentiment": "neu", "title": "아마존 급등·애플 약세 엇갈려", "summary": "장 마감 후 아마존은 실적 서프라이즈에 급등, 애플은 차익실현에 하락", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/markets/live/earnings-live-amazon-stock-surges-on-earnings-beat-apple-stock-slides-115207214.html", "note": "빅테크 실적이 오늘 방향타 될 수 있어요"},
+      {"rank": "05", "category": "실적", "categoryStyle": "tech", "sentiment": "neg", "title": "메타 실적 쇼크, 시간외 9%↓", "summary": "EPS 컨센 하회에 자본지출 상향, 잉여현금 급감하며 주가 급락", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/07/29/meta-q2-earnings-report-2026.html", "note": "AI 과잉투자 우려가 다시 부각됐어요"},
+      {"rank": "06", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "연준 금리 동결 후 시장 안도", "summary": "기준금리 3.5~3.75% 유지, 매파 우려 딛고 기술주 중심 반등", "source": "TheStreet", "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-30-2026", "note": "9월 인상 경계는 여전히 살아 있어요"},
+      {"rank": "07", "category": "물가", "categoryStyle": "default", "sentiment": "pos", "title": "6월 물가 둔화, 반등 촉매로", "summary": "근원 PCE 상승폭 둔화 조짐에 위험자산 투심이 개선됐어요", "source": "MarketScreener", "sourceUrl": "https://www.marketscreener.com/news/us-equity-indexes-surge-as-microsoft-triggers-rebound-in-chipmakers-while-inflation-rate-falls-in-ju-ce7f50dbd980f126", "note": "물가 둔화는 금리 부담을 덜어줘요"},
+      {"rank": "08", "category": "거시", "categoryStyle": "default", "sentiment": "neu", "title": "美 GDP·PCE·고용지표 줄대기", "summary": "이번 주 2분기 GDP와 근원 PCE, 신규 실업수당 등 핵심 지표 발표", "source": "Investing.com", "sourceUrl": "https://www.investing.com/news/stock-market-news/core-pce-price-index-gdp-and-jobless-claims-due-thursday-93CH-4821457", "note": "지표 결과가 금리 경로를 좌우해요"},
+      {"rank": "09", "category": "가상자산", "categoryStyle": "default", "sentiment": "neu", "title": "비트코인 6.4만달러대 유지", "summary": "연준·실적 변수 속 가상자산은 6만4천달러 부근에서 관망세 이어져", "source": "Fortune", "sourceUrl": "https://fortune.com/article/price-of-bitcoin-07-30-2026/", "note": "위험자산 투심 바로미터로 볼 수 있어요"},
+      {"rank": "10", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "칩 지수 기술적 반등 신호", "summary": "베어마켓 진입했던 반도체 지수가 저가매수 유입에 8%대 반등", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/technology/article/amd-micron-sk-hynix-climb-as-semiconductor-complex-attempt-recovery-133110868.html", "note": "국내 반도체주 반등 기대 키울 수 있어요"},
+      {"rank": "11", "category": "기술", "categoryStyle": "tech", "sentiment": "pos", "title": "빅테크 AI 투자 지속 확인", "summary": "MS 애저 실적으로 AI 인프라 투자 지속이 재확인되며 기술주 견인", "source": "The Motley Fool", "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/07/30/stock-market-midday-july-30-microsoft-soars-15-boosting-tech-stocks/", "note": "capex 확대는 반도체 수요 호재예요"},
+      {"rank": "12", "category": "증시", "categoryStyle": "default", "sentiment": "pos", "title": "VIX 급락, 위험선호 회복", "summary": "공포지수 VIX가 14% 급락하며 투자심리 안정, 월말 반등 흐름 형성", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-30-133400329.html", "note": "변동성 진정은 반등에 우호적이에요"}
+    ],
+    "domestic": [
+      {"rank": "01", "category": "증시", "categoryStyle": "default", "sentiment": "neg", "title": "코스피 사흘째 하락 5,593", "summary": "장중 6000선 노렸다 반락, 외국인 복귀에도 1.23% 내려 마감", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202607301638179200", "note": "반도체 매물에 반등폭 반납했어요"},
+      {"rank": "02", "category": "실적", "categoryStyle": "tech", "sentiment": "pos", "title": "삼성전자 2분기 영업익 89.5조", "summary": "매출 171.5조·영업익 89.5조로 역대 최대, AI 반도체 수요가 견인", "source": "아시아경제", "sourceUrl": "https://www.asiae.co.kr/article/2026073009064678225", "note": "역대급 실적이 반등 발판 될 수 있어요"},
+      {"rank": "03", "category": "반도체", "categoryStyle": "tech", "sentiment": "neg", "title": "SK하이닉스 사흘새 27% 폭락", "summary": "5.64% 급락 132만원, 시가총액 1000조원선도 무너져", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202607301617103178", "note": "낙폭 과대 인식에 반등 여지도 있어요"},
+      {"rank": "04", "category": "수급", "categoryStyle": "default", "sentiment": "neu", "title": "외국인 복귀에도 개인 1조 매도", "summary": "외국인·기관 저가 매수 전환했지만 개인이 1조원 넘게 순매도", "source": "머니투데이", "sourceUrl": "https://www.mt.co.kr/stock/2026/07/30/2026073015443789703", "note": "외국인 매수 전환은 눈여겨볼 만해요"},
+      {"rank": "05", "category": "반도체", "categoryStyle": "tech", "sentiment": "neu", "title": "삼성 반도체 89조, 완제품 적자", "summary": "DS부문 영업익 89.2조로 전체의 99.7%, 스마트폰 등 완제품은 첫 적자", "source": "한국일보", "sourceUrl": "https://www.hankookilbo.com/news/article/A2026073007380001275", "note": "실적 편중이 부담으로 읽힐 수 있어요"},
+      {"rank": "06", "category": "증시", "categoryStyle": "default", "sentiment": "neg", "title": "장중 5% 급등했다 다시 반락", "summary": "삼성 호실적에 5,976까지 치솟았으나 6000선 못 넘고 하락 전환", "source": "헤럴드경제", "sourceUrl": "https://biz.heraldcorp.com/article/10826054", "note": "변동성 극심해 신중히 봐야 해요"},
+      {"rank": "07", "category": "업종", "categoryStyle": "tech", "sentiment": "neu", "title": "방산·조선 웃고 반도체 울었다", "summary": "HD한국조선해양 등 조선·방산 강세, 반도체·전자부품은 약세 대비", "source": "이투데이", "sourceUrl": "https://www.etoday.co.kr/news/view/2609393", "note": "순환매로 조선·방산에 관심 갈 수 있어요"},
+      {"rank": "08", "category": "환율", "categoryStyle": "default", "sentiment": "pos", "title": "원/달러 9원 내린 1,437원", "summary": "주간거래 종가 1,437.10원으로 하락, 원화가 소폭 강세로 마감", "source": "비즈니스코리아", "sourceUrl": "https://www.businesskorea.co.kr/news/articleView.html?idxno=273889", "note": "환율 진정은 외국인 수급에 우호적이에요"},
+      {"rank": "09", "category": "코스닥", "categoryStyle": "default", "sentiment": "neg", "title": "코스닥 2.7% 급락 644선", "summary": "코스피보다 낙폭 두 배 이상, 17.9포인트 내린 644.78로 마감", "source": "전자신문", "sourceUrl": "https://www.etnews.com/20260730000395", "note": "중소형주 변동성이 더 컸어요"},
+      {"rank": "10", "category": "진단", "categoryStyle": "default", "sentiment": "neg", "title": "공포의 7월, 코스피 34% 폭락", "summary": "이달 초 8300대였던 지수가 5500대로, 반도체 쏠림 취약성 드러나", "source": "머니투데이", "sourceUrl": "https://www.mt.co.kr/stock/2026/07/30/2026073016173875211", "note": "쏠림 구조의 위험이 확인됐어요"},
+      {"rank": "11", "category": "종목", "categoryStyle": "default", "sentiment": "pos", "title": "급락장서 저가매수 몰린 종목", "summary": "반도체 하락장 속에서도 실적·낙폭과대주로 매수세가 유입됐어요", "source": "위키트리", "sourceUrl": "https://www.wikitree.co.kr/articles/1149458", "note": "옥석 가리기 장세로 볼 수 있어요"},
+      {"rank": "12", "category": "증시", "categoryStyle": "default", "sentiment": "neg", "title": "삼전 호실적에도 6000선 미끄럼", "summary": "역대급 실적에도 반도체 매물에 눌려 6000선 회복에 실패했어요", "source": "서울경제", "sourceUrl": "https://www.sedaily.com/article/20073909", "note": "심리 회복까지 시간이 필요해 보여요"}
+    ]
+  },
+  "kr": {
+    "subNote": "7월 30일 코스피가 사흘째 밀려 5,593으로 마감했어요. 장중 삼성전자 호실적에 5% 넘게 튀며 6,000선을 노렸지만 반도체 매물에 반락했어요. 간밤 美 증시가 급반등해 오늘은 분위기가 달라질 수 있어요.",
+    "subNoteEm": "국장 사흘째 약세, 간밤 美 급반등이 변수",
+    "comment": "삼성전자가 역대급 실적을 냈는데도 지수는 반락했지만, 외국인·기관이 저가 매수로 돌아섰어요. 간밤 美 반도체가 8% 급반등한 점이 오늘 반등의 실마리가 될지 지켜볼 만해요. 투자 판단은 본인 책임이에요.",
+    "expectedRange": "코스피 5,550~5,850",
+    "indices": [
+      {"name": "코스피", "tip": "유가증권시장", "value": "5,593.56", "change": "-1.23%", "dir": "down"},
+      {"name": "코스닥", "tip": "코스닥시장", "value": "644.78", "change": "-2.70%", "dir": "down"}
+    ],
+    "flow": [
+      {"key": "원/달러 환율", "value": "1,437원", "dir": "down"},
+      {"key": "야간 선물", "value": "코스피200 881.95", "dir": "down"}
+    ],
+    "supply": [
+      {"who": "외국인", "amount": "+4,330억", "dir": "buy"},
+      {"who": "기관", "amount": "+6,831억", "dir": "buy"},
+      {"who": "개인", "amount": "-1조1,040억", "dir": "sell"}
+    ],
+    "sectorsUp": [
+      {"theme": "조선", "stockName": "HD한국조선해양", "stockChange": "+10.00%"},
+      {"theme": "금융", "stockName": "KB금융", "stockChange": "+4.87%"},
+      {"theme": "2차전지", "stockName": "LG에너지솔루션", "stockChange": "+4.66%"},
+      {"theme": "바이오", "stockName": "삼성바이오로직스", "stockChange": "+3.25%"},
+      {"theme": "중공업", "stockName": "HD현대중공업", "stockChange": "+3.23%"}
+    ],
+    "sectorsDown": [
+      {"theme": "반도체 지주", "stockName": "SK스퀘어", "stockChange": "-6.35%"},
+      {"theme": "반도체", "stockName": "SK하이닉스", "stockChange": "-5.64%"},
+      {"theme": "전자부품", "stockName": "삼성전기", "stockChange": "-3.11%"},
+      {"theme": "반도체", "stockName": "삼성전자", "stockChange": "-0.72%"},
+      {"theme": "자동차", "stockName": "현대차", "stockChange": "-0.57%"}
+    ],
+    "watchlist": [
+      {"name": "삼성전자", "badge": "-0.72%", "badgeType": "down", "desc": "역대 최대 실적에도 지수 반락에 소폭 밀렸어요"},
+      {"name": "SK하이닉스", "badge": "-5.64%", "badgeType": "down", "desc": "사흘새 27% 급락해 낙폭 과대 논란이 커요"},
+      {"name": "LG에너지솔루션", "badge": "+4.66%", "badgeType": "up", "desc": "2차전지가 반도체 약세 속 반등을 주도했어요"},
+      {"name": "HD한국조선해양", "badge": "+10.00%", "badgeType": "up", "desc": "조선주가 순환매 수혜로 두각을 나타냈어요"}
+    ],
+    "health": [
+      {"key": "투자자 예탁금", "tip": "증시 대기 자금", "value": "약 120조원", "subIcon": "▼", "subDir": "down"},
+      {"key": "신용융자 잔고", "tip": "빚투 잔액", "value": "약 37조원", "subIcon": "▼", "subDir": "down"}
+    ]
+  },
+  "calendar": {
+    "subNote": "간밤 뉴욕증시가 급반등한 가운데 애플·아마존 실적과 월말 수급이 오늘의 변수예요.",
+    "subNoteEm": "美 급반등 훈풍, 국장 반등 가능성 주목",
+    "riskSentiment": "위험선호 회복 조짐",
+    "domestic": {
+      "timed": [],
+      "untimed": []
+    },
+    "global": {
+      "timed": [
+        {"time": "05:00", "event": "애플·아마존 2분기 실적 발표", "important": true},
+        {"time": "21:30", "event": "美 6월 고용비용지수(ECI)", "important": false}
+      ],
+      "untimed": []
+    },
+    "theme": "간밤 美 반도체가 8% 급반등한 흐름이 삼성전자·SK하이닉스 반등으로 이어질지, 애플·아마존 실적이 아시아 장 방향타가 될지 주목돼요.",
+    "checks": [
+      "美 반도체 급반등이 삼성·SK하이닉스 반등으로 이어질지 확인해요",
+      "애플·아마존 실적 결과가 투심에 주는 영향을 살펴봐요",
+      "외국인·기관 저가 매수가 이어질지 지켜봐요",
+      "코스피 6,000선 회복 여부를 점검해요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-07-26",
+    "end": "2026-08-01",
+    "days": [
+      {"date": "2026-07-26", "weekday": "일", "items": []},
+      {"date": "2026-07-27", "weekday": "월", "items": []},
+      {"date": "2026-07-28", "weekday": "화", "items": []},
+      {"date": "2026-07-29", "weekday": "수", "items": []},
+      {"date": "2026-07-30", "weekday": "목", "items": [
+        {"region": "global", "time": "03:00", "event": "美 FOMC 기준금리 동결", "important": true, "category": "policy"},
+        {"region": "global", "time": "05:00", "event": "마이크로소프트·메타 분기 실적", "important": true, "category": "earnings"},
+        {"region": "domestic", "time": "16:00", "event": "삼성전자 2분기 실적 발표", "important": true, "category": "earnings"}
+      ]},
+      {"date": "2026-07-31", "weekday": "금", "items": [
+        {"region": "global", "time": "05:00", "event": "애플·아마존 2분기 실적 발표", "important": true, "category": "earnings"},
+        {"region": "global", "time": "21:30", "event": "美 6월 고용비용지수(ECI)", "important": false, "category": "macro"}
+      ]},
+      {"date": "2026-08-01", "weekday": "토", "items": []}
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 7,
+    "days": [
+      {"date": "2026-07-16", "items": [
+        {"region": "domestic", "event": "한국은행 금통위 기준금리 결정", "important": true, "category": "policy"}
+      ]},
+      {"date": "2026-07-22", "items": [
+        {"region": "global", "event": "삼성 갤럭시 언팩 2026", "important": true, "category": "conference"}
+      ]},
+      {"date": "2026-07-30", "items": [
+        {"region": "global", "event": "美 FOMC 기준금리 동결", "important": true, "category": "policy"},
+        {"region": "global", "event": "마이크로소프트·메타 분기 실적", "important": true, "category": "earnings"},
+        {"region": "domestic", "event": "삼성전자 2분기 실적 발표", "important": true, "category": "earnings"}
+      ]},
+      {"date": "2026-07-31", "items": [
+        {"region": "global", "event": "애플·아마존 2분기 실적 발표", "important": true, "category": "earnings"}
+      ]}
+    ]
+  }
+}

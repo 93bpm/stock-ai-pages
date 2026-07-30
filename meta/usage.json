@@ -1958,7 +1958,41 @@
         "branch": "claude/relaxed-feynman-2sbtl7"
       },
       "notes": "목요일 07:10 발화(2026-07-29 22:10 UTC +9h=07:10 KST). ★정규 거래일 편(7/29 수요일 세션 마감값 신규 수집)★. 전일(7/28 검은화요일 -10.84%)에 이은 ★이틀 연속 폭락★: 코스피 5,663.24 -5.98%(-360.42)·코스닥 662.68 -6.12%(-43.17)로 양 시장 이틀 연속 서킷브레이커·매도 사이드카. ★레버리지 청산·반대매매 공포★가 낙폭 주도(김용범 부총리 '레버리지 탓만은 아냐'·당국 점검). 수급 반전: 외국인 +912억·기관 +1조2,686억 저가매수 vs 개인 -1조3,662억 투매. SK하이닉스 1,365,000 -11.94%·삼성전자 203,000 -7.73%·GS건설 21,350 -16.27%·두산에너빌리티 -7.73%·한화에어로 -8.11%. 급락장 상승주: 한화갤러리아우 +29.87%·셀트리온 +1.47%(시총상위 유일)·KR모터스(로봇) +6.40%. 원달러 1,454(하방압력·네고/외국인유입). EWY -5.5%. 美 7/29: ★워시 연준 5회연속 동결(3.5~3.75%)이나 매파+3명 인상 소수의견→9월 인상 우려★로 다우 -2.19%(51,594.14)·S&P -1.52%(7,316.15)·나스닥 -1.74%(24,442.94). ★중동發 유가 급등(WTI 4.18 +6.2%·트럼프 對이란)→에너지 올해 최고섹터·XLE +2.48%★. ★AI 반도체 조정 심화(SOX 10,750.25 -4.76%·칩 시총 1조달러 증발)★. VIX 19.59·10Y 4.64%·DXY 101.30·금 ,029·BTC 4,244. 뉴스 신규 큐레이션(글로벌: CNBC FOMC/칩셀오프/국채·Fool 매파급락·SeekingAlpha SOX·fxdaily 유가·Benzinga 에너지·Yahoo 워시9명/2조칩/BTC·Fortune 빅테크실적 / 국내: newspim 마감·fnnews 사이드카·mt 김용범/삼전닉스/줍줍·herald 급락/30%폭락·blockmedia 6천붕괴·hankookilbo 사이드카·seoul 셀트리온/거래상위·ebn 상승30선). ★todayIdx=4(목)★: calendarWeek 7/26(일)~8/1(토) 7칸(빈날 items:[]), 7/30목=FOMC결정 03:00+MS·메타실적 05:00, 7/31금=애플·아마존실적. calendar.global.timed 2건 ⊂ week[4](Sanity ⑤ 충족). calendarMonth 2026-07: 7/16 한은금통위·7/22 삼성언팩(conference)·7/30 FOMC+MS/메타·7/31 애플/아마존. 일관성 ⑩룰 전수통과(week7일·start일/end토·start+6=end·date⊂범위·today목⊂week[4]·month2026-07·earnings⊂us-bigtech wl(MS/메타/애플/아마존)·conference⊂wl(삼성언팩)·category∈7enum). sourceUrl 24/24 unique·전부 https·차단0(bloomberg/wsj/ft/reuters/mk/yna 미사용)·도메인일관. 카테고리분포 글로벌(반도체3·통화정책2·원자재2·증시/산업/채권/실적/가상자산1) 국내(증시4·수급2·반도체2·정책/종목/진단/테마1) 모두 ≤4. 페르소나 grep 0(단정0/추천0/격식체0)·길이(title≤30·summary≤60·note≤25) 전수통과. ★kr.flow 2개(야간선물 미확보→v1.6.1 완화 2~3 준수)★·watchlist badgeType down×3+up×1(schema enum 준수). 美 섹터는 에너지(+2.48% XLE)·반도체(-4.76% SOX) 외 일별 프린트 제한적→당일 로테이션(에너지/방어주 상승·성장/기술 하락) 기반 배정(마스킹 아님). 매월1일 아님(30일)→화이트리스트 재생성 없음. ★designated branch claude/relaxed-feynman-2sbtl7 push★."
+    },
+    {
+      "date": "2026-07-31",
+      "weekday": "금",
+      "time": "07:10",
+      "status": "success",
+      "model": "claude-opus-4.8",
+      "duration_seconds": 1229,
+      "tokens_estimated": 165000,
+      "response_size_kb": 18.6,
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "masking_used": [],
+      "sources_attempted": {
+        "WebSearch": "33건(美 7/30 마감: S&P 7,437.63 +1.66%·나스닥 25,122.18 +2.78%·다우 52,208.06 +1.19%·SOX≈11,610 +8%·VIX 17.77·10Y 4.68%·DXY 100.98·WTI 83.58·금 4,160·BTC 64,493·MS+16%·반도체8%반등·메타-9%·아마존/애플 실적 / 韓 7/30: 코스피 5,593.56 -1.23%·코스닥 644.78 -2.70%·외인+4,330억/기관+6,831억/개인-1.1조·SK하닉-5.64%·삼성-0.72%·삼성전기-3.11%·HD한국조선+10%·KB금융+4.87%·LG엔솔+4.66%·삼바+3.25%·원달러1,437·삼성실적89.5조 / 캘린더: 애플아마존7/31·ECI·HotChips 8/23)",
+        "WebFetch": "17건(context.md·schema.json / Yahoo Finance 지수·지표·ETF 14종 전부 403·Google Finance 403 차단→WebSearch 대체)",
+        "Read": "8건(schema.json·guides 4종(news/sources/operations/data-quality)·whitelist us-bigtech/kr-marketcap·briefing 2026-07-30)",
+        "Stooq/finviz": "미사용(403 차단·WebSearch 실측)"
+      },
+      "tool_calls": {
+        "Bash": 12,
+        "WebFetch": 17,
+        "WebSearch": 33,
+        "Read": 8,
+        "Write": 1,
+        "Edit": 1
+      },
+      "notes": "금요일 07:10 발화(2026-07-30 22:10 UTC +9h=07:10 KST). ★정규 거래일(7/30 목요일 세션 마감값 신규 수집)★. ★반전의 하루★: 韓 국장은 사흘째 밀렸으나(코스피 5,593.56 -1.23%·코스닥 644.78 -2.70%) 간밤 美 증시는 하루 만에 급반등. 코스피는 삼성전자 호실적(2Q 매출171.5조·영업익89.5조 역대최대, DS 89.2조)에 장중 5,976.82(+5.54%)까지 튀며 6,000선 노렸으나 반도체 매물에 반락. 수급 반전: 외국인 +4,330억·기관 +6,831억 저가매수 vs 개인 -1조1,040억. SK하이닉스 -5.64%(132.2만·사흘 27%↓·시총1000조붕괴)·삼성전자 -0.72%(20.7만)·삼성전기 -3.11%·SK스퀘어 -6.35%·현대차 -0.57% 하락 vs HD한국조선해양 +10.00%·KB금융 +4.87%·LG엔솔 +4.66%·삼성바이오 +3.25%·HD현대重 +3.23% 강세(방산·조선·2차전지 순환매). 원달러 1,437.10(9원↓). 美 7/30: ★MS 애저 매출 1000억달러 돌파에 16% 폭등→나스닥 25,122.18 +2.78%·S&P 7,437.63 +1.66%·다우 52,208.06 +1.19%★. ★반도체 8% 급반등(마이크론+18·AMD+13·램리서치+17·인텔+11·엔비디아+3)→SOX≈11,610 +8.0%★. 메타 실적쇼크 시간외 -9%. 애플·아마존 마감후 실적(아마존 급등·애플 약세). VIX 17.77(-14%)·10Y 4.68%·DXY 100.98·WTI 83.58·금 4,160·BTC 64,493. 뉴스 신규 큐레이션(글로벌: Yahoo 반등/칩복귀/VIX·Fool MS폭등/AI투자·CNBC 칩랠리/메타·TheStreet 연준·MarketScreener 물가·Investing PCE·Fortune BTC / 국내: fnnews 마감/SK하닉·asiae 삼성실적·mt 줍줍/34%폭락·hankookilbo 삼성DS·herald 반락·etoday 방산조선·businesskorea 환율·etnews 코스닥·wikitree 저가매수·sedaily 6000미끄럼). ★todayIdx=5(금)★: calendarWeek 7/26(일)~8/1(토) 7칸(빈날 items:[]), 7/30목=FOMC 03:00+MS·메타 05:00+삼성전자 16:00, 7/31금=애플·아마존 05:00+美 ECI 21:30. calendar.global.timed 2건 ⊂ week[5](Sanity ⑤ 충족). calendarMonth 2026-07: 7/16 한은금통위·7/22 삼성언팩(conference)·7/30 FOMC+MS/메타+삼성전자·7/31 애플/아마존. 일관성 ⑩룰 전수통과(week7일·start일/end토·start+6=end·date⊂범위·today금⊂week[5]·month2026-07·earnings⊂wl(us-bigtech MS/메타/애플/아마존·kr 삼성전자)·conference⊂wl(삼성언팩)·category∈7enum). sourceUrl 24/24 unique·전부 https·차단0(bloomberg/wsj/ft/reuters/mk/yna 미사용)·도메인일관. 카테고리분포 글로벌(실적4·반도체2·증시2·통화정책/물가/거시/가상자산1) 국내(증시3·반도체2·실적/수급/업종/환율/코스닥/진단/종목1) 모두 ≤4. 페르소나 grep 0(단정0/추천0/격식체0)·길이(title≤30·summary≤60·note≤25) 전수통과. ★kr.flow 2개(원달러+야간선물·ADR 미확보→v1.6.1 완화 2~3 준수)★·watchlist badgeType down×2+up×2(schema enum 준수). 美 섹터는 ETF 개별프린트 제한(Yahoo/finviz 403)→반등일 로테이션(반도체+8.4%/기술+3.1% 실측 앵커, 에너지·방어주 하락) 기반 배정. 매월1일 아님(31일)→화이트리스트 재생성 없음. Yahoo/Google Finance 전부 403→WebSearch 실측. ★designated branch claude/relaxed-feynman-tsqzz4 push★.",
+      "push": {
+        "branch": "claude/relaxed-feynman-tsqzz4"
+      }
     }
   ],
-  "updatedAt": "2026-07-30T07:10:00+09:00"
+  "updatedAt": "2026-07-31T07:10:00+09:00"
 }
