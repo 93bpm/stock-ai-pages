@@ -1992,7 +1992,40 @@
       "push": {
         "branch": "claude/relaxed-feynman-tsqzz4"
       }
+    },
+    {
+      "date": "2026-08-01",
+      "weekday": "토",
+      "time": "07:10",
+      "status": "success",
+      "model": "claude-opus-4.8",
+      "duration_seconds": 1495,
+      "tokens_estimated": 255000,
+      "response_size_kb": 18.8,
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "masking_used": [],
+      "sources_attempted": {
+        "WebSearch": "32건(美 7/31 마감: S&P 7,489.72 +0.70%·나스닥 25,373.85 +1.00%(신고가)·다우 52,485.03 +0.53%·SOX≈11,311 -2.58%·VIX 17.09·10Y 4.74%(다년최고)·DXY 100.12·WTI 85.87·금 4,086·BTC 62,929(-2.9%)·아마존+15%·애플-9.7% $301.12 / 韓 7/31: ★코스피 6,595.45 +17.91%(+1001.89p 역대최대)·코스닥 719.76 +11.63%★·외인+7.22조/기관+1.15조/개인-8.26조 투매·SK하이닉스 +29.95%(상한가 172만·사상최초)·삼성전자+26.81%(26.25만)·삼성전기+29.92%(상한가)·SK스퀘어+29.91%(상한가)·현대차+10.54%·삼성바이오-2.75%·KB금융+0.66%·POSCO+3.99%·SKT+3.71%·원달러1,424(-13.4) / 캘린더: 美고용8/7·CPI8/12·HotChips8/23·엔비디아실적8/26·한은금통위8/27·잭슨홀8/27~29)",
+        "WebFetch": "7건(context.md·schema.json / TheStreet·newspim·mt·nspna·naver finance 403 차단→WebSearch 대체)",
+        "Read": "4건(guides operations/news/data-quality·briefing 2026-07-31)",
+        "Stooq/Yahoo/naver": "미사용(403·JS 차단→WebSearch 실측)"
+      },
+      "tool_calls": {
+        "Bash": 18,
+        "WebFetch": 7,
+        "WebSearch": 32,
+        "Read": 4,
+        "Write": 1
+      },
+      "notes": "토요일 07:10 발화(2026-07-31 22:10 UTC +9h=08-01 07:10 KST). ★주말★이나 美 금요일(7/31)·韓 금요일(7/31) 정규세션이 발화 前 마감→양시장 신규 7/31 마감값 수집(7/25 토 사례와 동일 패턴). ★역사적 대반전★: 코스피 6,595.45 +17.91%(+1001.89p)로 46년 만에 역대 최대 상승률·상승폭, SK하이닉스 30% 상한가(사상 최초·172만)·삼성전기·SK스퀘어도 상한가·삼성전자+26.81%. 외국인+7.22조·기관+1.15조 저가매수 vs 개인 -8.26조 공포투매. 코스닥 719.76 +11.63%(역대 2위). 원달러 1,424(-13.4). 美 7/31: 아마존 실적서프라이즈+15%(10년내 최대)로 ★나스닥 25,373.85·S&P 7,489.72 사상 최고 마감★, 다우 4개월 연속↑. 애플 -9.7%($301.12·서비스/중국부진). ★10Y 4.74% 다년최고 급등·WTI 85.87(이란긴장)★로 상단 눌림. SOX≈11,311 -2.58%(차익실현). VIX 17.09·DXY 100.12·금 4,086·BTC 62,929(-2.9%). ★sectorsDown 특이사항★: 7/31은 전 업종 상승(통신·유틸 +4%·제약 +1%)한 '올업' 장→대형 하락주 희소. 실검증 하락주는 삼성바이오 -2.75% 유일, 나머지는 지수(+17.91%) 대비 극단 소외 종목(KB금융+0.66%·LG엔솔+2.5%·SKT+3.71%·POSCO+3.99%)을 '약세 업종'으로 배치(전량 실값, 마스킹0). 美 섹터는 ETF 개별프린트 403 제한→아마존/애플·유가/금리 실앵커 기반 로테이션 추정(임의소비재·에너지↑, IT·금리민감주↓). 뉴스 신규(글로벌: Yahoo신고가·Fool아마존/비트코인·Benzinga애플·TheStreet금리·CNBC연준/금값/다우·Forbes유가·Investing반도체·Finviz신고가·Fortune BTC / 국내: 뉴스핌마감/코스닥·fnnews불기둥/반도체·mt하이닉스상한가/코스닥/환율·서울경제상한가/8월전망·한경외인/바닥론·국민일보개인투매). sourceUrl 24/24 unique·전부 https·차단0(bloomberg/wsj/ft/reuters/mk/yna 미사용)·source↔도메인 일관. 카테고리분포 글로벌(증시3·실적2·원자재2·가상자산2·채권/통화정책/반도체1) 국내(반도체3·증시2·수급2·진단2·코스닥/환율/종목1) 모두 ≤4. 페르소나 grep 0(단정0/추천0/격식체0)·길이(title≤30·summary≤60·note≤25) 전수통과. kr.flow 2개(원달러+간밤SOX·야간선물/ADR 주말 미확보→v1.6.1 완화 2~3 준수)·watchlist up×3+down×1(enum 준수). ★todayIdx=6(토)★: calendarWeek 7/26(일)~8/1(토) 7칸(빈날 items:[]), 7/30목·7/31금 과거 이벤트 유지, 오늘 토=items:[]. 주말이라 calendar.domestic/global timed·untimed 전부 []( Sanity ⑤ ⊂ week[6]=[] 충족). calendarMonth 2026-08 신월 전환: 美고용 8/7(macro)·美CPI 8/12(macro)·HotChips 8/23(conference⊂wl)·엔비디아실적 8/27(earnings⊂us-bigtech)·한은금통위 8/27(policy)·잭슨홀 8/28(policy). 일관성 ⑩룰 전수통과(week7일·start일/end토·start+6=end·date⊂범위·today토⊂week[6]·month2026-08·earnings⊂wl(엔비디아·MS/메타/애플/아마존·삼성전자)·conference⊂wl(HotChips)·category∈7enum). 매월1일→whitelist-kr-marketcap 재생성 시도했으나 data.krx/naver finance 403·JS 차단으로 보류(기존 2026-06-01판 유지, 7/1도 동일 사유 스킵·시총상위 안정적). 리포지토리 validate-briefing.mjs HARD 검증 통과. ★designated branch claude/routine-2026-08-01 push★.",
+      "push": {
+        "branch": "claude/routine-2026-08-01"
+      }
     }
   ],
-  "updatedAt": "2026-07-31T07:10:00+09:00"
+  "updatedAt": "2026-08-01T07:10:00+09:00"
 }
