@@ -2025,7 +2025,39 @@
       "push": {
         "branch": "claude/routine-2026-08-01"
       }
+    },
+    {
+      "date": "2026-08-02",
+      "weekday": "일",
+      "time": "07:08",
+      "status": "success",
+      "model": "claude-opus-4.8",
+      "duration_seconds": 426,
+      "tokens_estimated": 110000,
+      "response_size_kb": 19.0,
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "masking_used": [],
+      "sources_attempted": {
+        "WebSearch": "4건(美 economic calendar 8/3~7: 고용보고서 8/7 21:30 KST(8:30 ET)·ADP 8/5·ISM제조 8/3·ISM서비스 8/5 확인 / 주말 크립토·시황: M7 주도 테크 반등·S&P 주간+1%·BTC YTD-27%·Coinbase 분기손실 / 韓 실적일정: 이번주 whitelist hit 없음(삼성·SK 등 7/30~31 기보고))",
+        "WebFetch": "2건(context.md·schema.json 정독)",
+        "Read": "5건(schema.json·operations.md·briefing 2026-08-01·whitelist-us-bigtech·whitelist-conferences)"
+      },
+      "tool_calls": {
+        "Bash": 19,
+        "WebFetch": 2,
+        "WebSearch": 4,
+        "Read": 5,
+        "Edit": 6
+      },
+      "notes": "일요일 07:08 발화(2026-08-01 22:08 UTC +9h=08-02 07:08 KST). ★주말 2일차(일)★ 美·韓 동시 휴장→금요일(7/31) 마감값 유지(operations §2 주말 룰). 시세·지표·수급·업종·watchlist·health·뉴스24건 전량 전일(8/1 토, CI검증완료) carry-forward(가장 최근 세션=7/31 금 마감이 유지되므로 값 불변·sourceUrl 24/24 불변·차단0). 날짜의존 필드만 갱신: date/weekday/generatedAt + subNote 주말 문구('오늘도 주말 휴장, 8/3 월 재개장') + '다음 주→이번 주' 리프레이밍(美 고용보고서 8/7이 이제 이번 주). ★핵심 변경=calendarWeek 신 윈도 8/2(일)~8/8(토)★: 8/3월 ISM제조PMI(23:00 KST)·8/5수 ADP민간고용(21:15)+ISM서비스PMI(23:00)·8/7금 美 7월 고용보고서(21:30·important) 배치, 나머지 4칸 items:[](7칸 전부 유지). 오늘=일(todayIdx=0)이라 calendar.domestic/global timed·untimed 전부 [](Sanity ⑤ ⊂ week[0]=[] 충족). calendarMonth 2026-08 유지(美고용 8/7·CPI 8/12·HotChips 8/23·엔비디아실적 8/27·한은금통위 8/27·잭슨홀 8/28). 오늘 2026-08-02는 매월1일 아님→whitelist 재생성 불필요(정적 fetch만). 일관성 ⑩룰 전수통과(week 7일·start일/end토·start+6=end·date⊂범위·today일⊂week[0]·month2026-08·category∈7enum). 페르소나 grep 0(단정0/추천0/격식체0)·길이(title≤30·summary≤60·note≤25) 전수통과. kr.flow 2개(원달러+간밤SOX·주말 야간선물/ADR 미확보→v1.6.1 완화 2~3 준수)·watchlist up×3+down×1(enum). 리포지토리 validate-briefing.mjs HARD 검증 통과(ajv 로컬설치 후). ★designated branch claude/relaxed-feynman-yf2vmw push★.",
+      "push": {
+        "branch": "claude/relaxed-feynman-yf2vmw"
+      }
     }
   ],
-  "updatedAt": "2026-08-01T07:10:00+09:00"
+  "updatedAt": "2026-08-02T07:08:00+09:00"
 }
