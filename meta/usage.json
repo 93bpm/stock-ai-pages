@@ -2057,7 +2057,38 @@
       "push": {
         "branch": "claude/relaxed-feynman-yf2vmw"
       }
+    },
+    {
+      "date": "2026-08-03",
+      "time": "07:20",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 588,
+      "tokens_estimated": 118000,
+      "response_size_kb": 19.6,
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "masking_used": [],
+      "sources_attempted": {
+        "WebSearch": "12건(월요일 재개장 프리뷰·주간전망: BTC $63,381 주말회복·코스피 8/3 개장전망·美 주간아웃룩(AMD 8/4·NFP 8/7)·이란유가·AMD Q2 8/4 장마감후 확정·주간전망(fnnews/etoday/edaily)·삼성전자 2Q 89.4조 확정·AI실적시즌·금값 4,043 7/31)",
+        "WebFetch": "2건(context.md·schema.json)",
+        "Read": "9건(guides sources/news/operations/data-quality/outputs·schema·briefing 2026-08-02·whitelist-us-bigtech·whitelist-conferences)"
+      },
+      "tool_calls": {
+        "Bash": 6,
+        "WebFetch": 2,
+        "WebSearch": 12,
+        "Read": 8,
+        "Write": 1
+      },
+      "notes": "월요일 07:17 발화(2026-08-02 22:10 UTC +9h=08-03 07:17 KST). ★국내증시 재개장일(월)★ 美·韓 모두 직전 세션=금요일(7/31) 마감이 발화 전 최종→시세·지표·수급·업종·watchlist·health는 7/31 마감값 유지(주말 carry-forward, CI검증완료 08-02 기준). 갱신: 크립토는 주말 거래→BTC $63,381(+금,7/31 62,929 대비 회복, dir up), 금은 7/31 스팟종가 $4,043(-1.47%, 프레시서치)로 갱신. 나머지 지표 불변(VIX 17.09·10Y 4.74%·DXY 100.12·WTI 85.87). ★뉴스 리프레시(월요일 프레이밍)★: 금요일 역사적 폭등(코스피 +17.91% 6,595·SK하이닉스 첫 상한가·삼성전자 +26.81%) 유지 + 주간전망/실적 신규(삼성전자 2Q 영업익 89.4조 역대최대 확정[한경]·이번주 美고용 분수령[CNBC]·AMD 8/4 실적 프리뷰[Yahoo]·AI실적시즌 강세[TipRanks]·비트코인 주말회복[CoinDesk]·주간전망 7000선재도전[edaily/fnnews]·AMD샌디스크 투심[etoday]). sourceUrl 24/24 unique·전부 https·차단0(bloomberg/wsj/ft/reuters/mk/yna 미사용)·source↔도메인 일관(17매체 매핑 검증). 카테고리분포 글로벌(실적3·반도체2·원자재2·증시/채권/통화정책/거시/가상자산1) 국내(증시3·반도체3·수급2·실적/코스닥/진단/환율1) 모두 ≤4. ★핵심 변경=calendarWeek 8/2(일)~8/8(토), todayIdx=1(월)★: 오늘 월=美 ISM제조PMI 23:00(macro), 화 8/4=AMD 2Q실적 장마감후(earnings·global·important, us-bigtech wl hit), 수 8/5=ADP 21:15+ISM서비스 23:00, 금 8/7=美 고용보고서 21:30(important), 나머지 items:[]. calendar.global.timed=ISM 1건(Sanity⑤ ⊂ week[1] 충족)·domestic []. Palantir 8/4는 whitelist 밖→calendarWeek earnings 미포함(뉴스/테마로만). SanDisk 8/5도 wl 밖→제외. calendarMonth 2026-08 갱신: AMD실적 8/4(earnings⊂us-bigtech, 신규추가)·美고용 8/7·CPI 8/12·HotChips 8/23(conference⊂wl)·엔비디아실적 8/27(earnings⊂wl)+한은금통위 8/27(policy)·잭슨홀 8/28(policy). 일관성 ⑩룰 전수통과(week7일·start일/end토·start+6=end·date⊂범위·today월⊂week[1]·month2026-08·earnings AMD/엔비디아⊂us-bigtech·conference HotChips⊂wl·category∈7enum). 오늘 08-03은 매월1일 아님→whitelist 재생성 불필요. 페르소나 grep 0(단정0/추천0/격식체0)·길이(title≤30·summary≤60·note≤25) 전수통과·source↔domain 0불일치. kr.flow 2개(원달러+간밤SOX·주말 야간선물/ADR 미확보→v1.6.1 완화 2~3 준수)·watchlist up×3+down×1(enum). scripts/validate-briefing.mjs HARD 검증 통과(ajv 로컬설치). ★designated branch claude/relaxed-feynman-1hrzpr push★.",
+      "push": {
+        "branch": "claude/relaxed-feynman-1hrzpr"
+      }
     }
   ],
-  "updatedAt": "2026-08-02T07:08:00+09:00"
+  "updatedAt": "2026-08-03T07:20:00+09:00"
 }
