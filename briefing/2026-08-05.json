@@ -1,0 +1,772 @@
+{
+  "date": "2026-08-05",
+  "weekday": "수",
+  "generatedAt": "2026-08-05T07:13:00+09:00",
+  "us": {
+    "subNote": "美 증시가 이란 협상 기대와 팔란티어發 실적 훈풍에 3대 지수 모두 사상 최고를 새로 썼어요. 유가는 5% 급락했고 반도체는 인텔·브로드컴 주도로 크게 반등했어요. 밤사이 강세는 아시아 장에 우호적으로 작용할 수 있어요.",
+    "subNoteEm": "3대 지수 사상 최고, 반도체 급반등",
+    "comment": "지정학 리스크가 완화되고 유가가 내리면서 위험선호가 살아났어요. 다만 AMD·엔비디아 실적과 금요일 고용보고서가 이어져 방향을 다시 시험할 수 있어요. 투자 판단은 본인 책임이에요.",
+    "indices": [
+      {
+        "name": "S&P 500",
+        "tip": "美 대형주 500",
+        "value": "7,736.52",
+        "change": "+1.79%",
+        "dir": "up"
+      },
+      {
+        "name": "나스닥 종합",
+        "tip": "기술주 중심",
+        "value": "26,584.99",
+        "change": "+2.59%",
+        "dir": "up"
+      },
+      {
+        "name": "다우존스",
+        "tip": "우량주 30",
+        "value": "54,085.88",
+        "change": "+1.71%",
+        "dir": "up"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "tip": "반도체 대표",
+        "value": "12,093.31",
+        "change": "+5.80%",
+        "dir": "up"
+      }
+    ],
+    "indicators": [
+      {
+        "key": "VIX",
+        "value": "15.61",
+        "dir": "down"
+      },
+      {
+        "key": "美 10년물",
+        "value": "4.63%",
+        "dir": "down"
+      },
+      {
+        "key": "달러인덱스",
+        "value": "99.92",
+        "dir": "up"
+      },
+      {
+        "key": "WTI 유가",
+        "value": "$76.14",
+        "dir": "down"
+      },
+      {
+        "key": "금",
+        "value": "$4,068",
+        "dir": "down"
+      },
+      {
+        "key": "비트코인",
+        "value": "$63,500",
+        "dir": "down"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "name": "기술",
+        "change": "+4.20%"
+      },
+      {
+        "name": "산업재",
+        "change": "+3.30%"
+      },
+      {
+        "name": "소재",
+        "change": "+2.52%"
+      },
+      {
+        "name": "금융",
+        "change": "+1.05%"
+      },
+      {
+        "name": "커뮤니케이션",
+        "change": "+0.84%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "name": "유틸리티",
+        "change": "-0.36%"
+      },
+      {
+        "name": "에너지",
+        "change": "-0.34%"
+      },
+      {
+        "name": "부동산",
+        "change": "+0.05%"
+      },
+      {
+        "name": "경기소비재",
+        "change": "+0.06%"
+      },
+      {
+        "name": "헬스케어",
+        "change": "+0.08%"
+      }
+    ]
+  },
+  "world": {
+    "subNote": "美 증시는 지정학 완화와 실적 훈풍에 사상 최고를 썼고, 국내 증시도 순환매로 반등했어요. 밤사이 반도체 급등과 오늘 밤 美 고용 지표가 방향을 좌우할 수 있어요.",
+    "subNoteEm": "美 사상 최고·韓 순환매 반등",
+    "global": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "S&P·다우, 지정학 완화에 사상 최고",
+        "summary": "美·이란 협상 기대와 강한 실적에 3대 지수가 동반 상승했어요",
+        "source": "Motley Fool",
+        "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/08/04/stock-market-today-aug-4-s-and-p-500-and-dow-set-new-highs-on-easing-geopolitical-tensions/",
+        "note": "위험선호 확산은 韓 증시에도 우호적이에요"
+      },
+      {
+        "rank": "02",
+        "category": "증시",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "나스닥 2.6% 급등, 기술주 랠리",
+        "summary": "팔란티어·반도체가 주도하며 나스닥이 사상 최고를 새로 썼어요",
+        "source": "TheStreet",
+        "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-4-2026",
+        "note": "기술주 강세는 코스닥에도 온기를 줄 수 있어요"
+      },
+      {
+        "rank": "03",
+        "category": "실적",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "팔란티어, 2분기 매출 93% 폭발",
+        "summary": "AI 소프트웨어 수요 급증에 실적이 예상을 크게 웃돌며 27% 급등했어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html",
+        "note": "AI 실적 기대가 SW株에도 번질 수 있어요"
+      },
+      {
+        "rank": "04",
+        "category": "실적",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "AMD, 실적 발표 앞두고 8% 급등",
+        "summary": "데이터센터 성장 기대에 장 마감 후 2분기 실적 발표를 앞두고 강세였어요",
+        "source": "TradingKey",
+        "sourceUrl": "https://www.tradingkey.com/news/market-movers/262073815-market-movers-amd-20260804",
+        "note": "AMD 실적은 HBM 수요 가늠자가 돼요"
+      },
+      {
+        "rank": "05",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "인텔 10%·브로드컴 6% 칩 랠리",
+        "summary": "위험선호 회복에 반도체株가 일제히 반등하며 지수가 급등했어요",
+        "source": "24/7 Wall St.",
+        "sourceUrl": "https://247wallst.com/investing/2026/08/04/intel-soars-10-amd-jumps-8-broadcom-rises-6-as-chip-stocks-ride-a-risk-on-rally/",
+        "note": "美 반도체 강세는 삼성·SK엔 양날의 검이에요"
+      },
+      {
+        "rank": "06",
+        "category": "원자재",
+        "categoryStyle": "geo",
+        "sentiment": "pos",
+        "title": "국제유가 5% 급락, 호르무즈 완화",
+        "summary": "美·이란 협상 기대로 공급 우려가 줄며 WTI가 76달러대로 내려왔어요",
+        "source": "Trading Economics",
+        "sourceUrl": "https://tradingeconomics.com/commodity/crude-oil",
+        "note": "유가 하락은 韓 물가·항공주엔 호재예요"
+      },
+      {
+        "rank": "07",
+        "category": "원자재",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "금값 4,070달러, 이란 리스크 상존",
+        "summary": "위험선호 속 차익 실현이 나왔지만 지정학 불안이 하단을 받쳤어요",
+        "source": "Forbes",
+        "sourceUrl": "https://www.forbes.com/advisor/investing/gold-price/",
+        "note": "안전자산 수요는 여전히 살펴볼 부분이에요"
+      },
+      {
+        "rank": "08",
+        "category": "가상자산",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "비트코인 6.3만달러대, 규제 주시",
+        "summary": "가상자산 제도화 법안 진전을 지켜보며 6만3천달러 부근에서 등락했어요",
+        "source": "Fortune",
+        "sourceUrl": "https://fortune.com/article/price-of-bitcoin-08-04-2026/",
+        "note": "제도화 흐름은 위험자산 심리와 연결돼요"
+      },
+      {
+        "rank": "09",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "9월 Fed 인하 기대, 고용이 분수령",
+        "summary": "고용 둔화 신호에 9월 인하 기대가 커지며 이번주 지표에 시선이 쏠려요",
+        "source": "Goldman Sachs",
+        "sourceUrl": "https://www.goldmansachs.com/insights/articles/the-outlook-for-fed-rate-cuts-in-2026",
+        "note": "금리 인하 기대는 환율·성장주에 우호적이에요"
+      },
+      {
+        "rank": "10",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "엔비디아 2% 상승, 실적 대기",
+        "summary": "AI 수요 기대가 이어지며 자체 실적 발표를 앞두고 강세 흐름을 보였어요",
+        "source": "IBTimes",
+        "sourceUrl": "https://www.ibtimes.com.au/nvidia-stock-performance-2026-ai-demand-1873547",
+        "note": "엔비디아 실적은 HBM 대장주와 직결돼요"
+      },
+      {
+        "rank": "11",
+        "category": "거시",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "中 차이신 제조업 PMI 50.9 둔화",
+        "summary": "7월 제조업 경기가 예상을 밑돌며 중국 내수 부진 우려가 다시 부각됐어요",
+        "source": "VT Markets",
+        "sourceUrl": "https://www.vtmarkets.com/en-ca/live-updates/chinas-caixin-manufacturing-pmi-misses-forecast-growth-momentum-cools-and-fuels-risk-off-positioning/",
+        "note": "중국 둔화는 韓 수출주엔 부담일 수 있어요"
+      },
+      {
+        "rank": "12",
+        "category": "실적",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "캐터필러 사상 최대 매출, 5.6%↑",
+        "summary": "분기 실적 호조에 경기민감주가 강세를 보이며 산업재를 끌어올렸어요",
+        "source": "Advisor Perspectives",
+        "sourceUrl": "https://www.advisorperspectives.com/commentaries/2026/08/04/energy-tech-etfs-focus-s-p-500-earnings",
+        "note": "경기민감주 온기는 조선·기계에도 긍정적이에요"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스피 6300·코스닥 780 회복",
+        "summary": "비메모리 순환매 속에 상승 종목이 83%에 달하며 지수가 반등했어요",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/amp/stock/2026/08/04/2026080415154089277",
+        "note": "순환매가 이어질지 지켜볼 시점이에요"
+      },
+      {
+        "rank": "02",
+        "category": "코스닥",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스닥 3거래일째 매수 사이드카",
+        "summary": "바이오·2차전지로 매수세가 몰리며 코스닥이 5.88% 급등 마감했어요",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20260804001266",
+        "note": "과열 신호인 사이드카는 유의해서 봐요"
+      },
+      {
+        "rank": "03",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "개인 순매수에 코스피 6300 안착",
+        "summary": "개인이 1.2조원 넘게 사들이며 외국인 매도 물량을 받아냈어요",
+        "source": "아주경제",
+        "sourceUrl": "https://www.ajunews.com/view/20260804153408657",
+        "note": "개인 주도 장세는 변동성이 커질 수 있어요"
+      },
+      {
+        "rank": "04",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "삼전·닉스 관건은 AMD 실적",
+        "summary": "비반도체로 온기가 번진 가운데 밤사이 AMD 실적이 향방을 좌우해요",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/08/04/2026080416551484894",
+        "note": "AMD 실적이 HBM 투심을 가를 수 있어요"
+      },
+      {
+        "rank": "05",
+        "category": "산업",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "우주항공·국방 10% 급등, 방산 강세",
+        "summary": "방산·원전으로 순환매가 확산하며 한화에어로가 9%대 급등했어요",
+        "source": "글로벌이코노믹",
+        "sourceUrl": "https://www.g-enews.com/article/Securities/2026/08/202608041537571080923c501012_1",
+        "note": "정책 기대가 방산주 관심을 키우고 있어요"
+      },
+      {
+        "rank": "06",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "삼성전자·SK하이닉스 3%대 약세",
+        "summary": "지난주 급등에 따른 되돌림으로 반도체 대형주가 차익 실현에 밀렸어요",
+        "source": "전자신문",
+        "sourceUrl": "https://www.etnews.com/20260804000075",
+        "note": "반도체 반등 시점을 지켜볼 필요가 있어요"
+      },
+      {
+        "rank": "07",
+        "category": "정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "7월 물가 3%대, 한은 8월 촉각",
+        "summary": "소비자물가가 두 달째 3%대를 기록하며 금리 논의에 무게가 실려요",
+        "source": "헤럴드경제",
+        "sourceUrl": "https://biz.heraldcorp.com/article/10827878",
+        "note": "물가 흐름이 8월 금통위 변수로 떠올라요"
+      },
+      {
+        "rank": "08",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "증시 대기자금 축소, 신용 청산",
+        "summary": "예탁금이 줄고 신용융자 청산이 나오며 유동성 지표가 위축됐어요",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2610517",
+        "note": "대기자금 감소는 반등 탄력을 제한할 수 있어요"
+      },
+      {
+        "rank": "09",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "HBM 왕좌 놓고 삼성·SK 승부",
+        "summary": "6세대 HBM4와 장기계약을 두고 두 회사의 경쟁이 한층 치열해졌어요",
+        "source": "헤럴드경제",
+        "sourceUrl": "https://biz.heraldcorp.com/article/10826093",
+        "note": "HBM 주도권이 주가를 가를 수 있어요"
+      },
+      {
+        "rank": "10",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "원/달러 1,429원, 저가매수 공방",
+        "summary": "달러 강세 속 저가매수가 맞서며 환율이 1,430원선에서 등락했어요",
+        "source": "이데일리",
+        "sourceUrl": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02958566645544040",
+        "note": "환율 방향은 외국인 수급과 맞물려 있어요"
+      },
+      {
+        "rank": "11",
+        "category": "코스닥",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "알테오젠·에코프로비엠 동반 강세",
+        "summary": "바이오·2차전지·반도체가 함께 오르며 코스닥 대형주가 급등했어요",
+        "source": "CBC뉴스",
+        "sourceUrl": "https://www.cbci.co.kr/news/articleView.html?idxno=594452",
+        "note": "코스닥 쏠림은 순환매 지속이 관건이에요"
+      },
+      {
+        "rank": "12",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스피 1.6%·코스닥 5.9% 급등",
+        "summary": "삼전·닉스 회복과 중소형주 순환매에 양대 지수가 나란히 뛰었어요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202608041631169275",
+        "note": "지수 온기가 이어질지 이번주가 분수령이에요"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "국내 증시가 하루 만에 반등해 코스피는 6,358, 코스닥은 780선을 회복했어요. 반도체 대형주는 차익 실현에 밀렸지만 방산·바이오·2차전지로 순환매가 확산했어요. 밤사이 美 반도체 급등이 오늘 반도체 투심에 어떻게 반영될지 주목돼요.",
+    "subNoteEm": "비메모리 순환매로 코스피·코스닥 반등",
+    "comment": "외국인이 반도체를 팔았지만 개인이 1.2조원을 받아내며 지수를 끌어올렸어요. 순환매가 이어질지, 반도체가 반등할지가 이번주 관전 포인트예요. 투자 판단은 본인 책임이에요.",
+    "expectedRange": "코스피 6,280~6,430선 등락 예상돼요",
+    "indices": [
+      {
+        "name": "코스피",
+        "tip": "국내 대표 지수",
+        "value": "6,358.95",
+        "change": "+1.62%",
+        "dir": "up"
+      },
+      {
+        "name": "코스닥",
+        "tip": "중소·벤처 중심",
+        "value": "780.72",
+        "change": "+5.88%",
+        "dir": "up"
+      }
+    ],
+    "flow": [
+      {
+        "key": "원/달러 환율",
+        "value": "1,429.8원",
+        "dir": "up"
+      },
+      {
+        "key": "간밤 美 반도체(SOX)",
+        "value": "12,093",
+        "dir": "up"
+      }
+    ],
+    "supply": [
+      {
+        "who": "외국인",
+        "amount": "6,464억",
+        "dir": "sell"
+      },
+      {
+        "who": "기관",
+        "amount": "7,017억",
+        "dir": "buy"
+      },
+      {
+        "who": "개인",
+        "amount": "1조 2,124억",
+        "dir": "buy"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "theme": "우주항공·국방",
+        "stockName": "한화에어로스페이스",
+        "stockChange": "+9.25%"
+      },
+      {
+        "theme": "바이오",
+        "stockName": "알테오젠",
+        "stockChange": "+9.29%"
+      },
+      {
+        "theme": "원자력·발전",
+        "stockName": "두산에너빌리티",
+        "stockChange": "+7.83%"
+      },
+      {
+        "theme": "2차전지",
+        "stockName": "에코프로비엠",
+        "stockChange": "+5.89%"
+      },
+      {
+        "theme": "조선",
+        "stockName": "HD현대중공업",
+        "stockChange": "+2.66%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "theme": "생명보험",
+        "stockName": "삼성생명",
+        "stockChange": "-7.70%"
+      },
+      {
+        "theme": "반도체",
+        "stockName": "삼성전자",
+        "stockChange": "-3.13%"
+      },
+      {
+        "theme": "메모리반도체",
+        "stockName": "SK하이닉스",
+        "stockChange": "-3.06%"
+      },
+      {
+        "theme": "손해보험",
+        "stockName": "삼성화재",
+        "stockChange": "-2.53%"
+      },
+      {
+        "theme": "유통",
+        "stockName": "유통 대형주",
+        "stockChange": "-1.38%"
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "알테오젠",
+        "badge": "+9.29%",
+        "badgeType": "up",
+        "desc": "바이오 순환매 대장주로 9%대 급등하며 코스닥 상승을 이끌었어요"
+      },
+      {
+        "name": "한화에어로스페이스",
+        "badge": "+9.25%",
+        "badgeType": "up",
+        "desc": "방산·우주 기대가 커지며 9%대 올라 순환매 선두에 섰어요"
+      },
+      {
+        "name": "에코프로비엠",
+        "badge": "+5.89%",
+        "badgeType": "up",
+        "desc": "2차전지 투심이 살아나며 6% 가까이 반등했어요"
+      },
+      {
+        "name": "삼성전자",
+        "badge": "-3.13%",
+        "badgeType": "down",
+        "desc": "지난주 급등 되돌림에 3%대 밀리며 반도체 약세를 이끌었어요"
+      }
+    ],
+    "health": [
+      {
+        "key": "투자자 예탁금",
+        "tip": "증시 대기 자금",
+        "value": "약 104.1조원",
+        "subIcon": "▼",
+        "subDir": "down"
+      },
+      {
+        "key": "신용융자 잔고",
+        "tip": "빚투 잔액",
+        "value": "약 33.6조원",
+        "subIcon": "▼",
+        "subDir": "down"
+      }
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘 밤 美 ADP 고용과 ISM 서비스업 지표가 나오고, 금요일 고용보고서까지 이어져요. 국내는 순환매 지속 여부와 반도체 반등 시점이 관건이에요.",
+    "subNoteEm": "美 고용 지표 주간, 순환매 시험대",
+    "riskSentiment": "위험선호 우위, 美 고용 지표 관망",
+    "domestic": {
+      "timed": [],
+      "untimed": []
+    },
+    "global": {
+      "timed": [
+        {
+          "time": "21:15",
+          "event": "美 ADP 민간고용 (7월)",
+          "important": false
+        },
+        {
+          "time": "23:00",
+          "event": "美 ISM 서비스업 PMI (7월)",
+          "important": true
+        }
+      ],
+      "untimed": []
+    },
+    "theme": "美 고용 지표 주간과 국내 순환매 지속 여부",
+    "checks": [
+      "밤사이 美 ADP·ISM 서비스업 결과가 9월 Fed 인하 기대에 어떤 영향을 줄지 살펴봐요",
+      "코스피 비메모리 순환매가 이어질지, 반도체 대형주 반등 시점을 지켜봐요",
+      "금요일 美 고용보고서를 앞두고 원/달러 환율 흐름에 주목해요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-08-02",
+    "end": "2026-08-08",
+    "days": [
+      {
+        "date": "2026-08-02",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-08-03",
+        "weekday": "월",
+        "items": [
+          {
+            "region": "global",
+            "time": "23:00",
+            "event": "美 ISM 제조업 PMI (7월)",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-04",
+        "weekday": "화",
+        "items": [
+          {
+            "region": "domestic",
+            "time": "08:00",
+            "event": "7월 소비자물가동향",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "美 AMD 2분기 실적 (장 마감 후)",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-05",
+        "weekday": "수",
+        "items": [
+          {
+            "region": "global",
+            "time": "21:15",
+            "event": "美 ADP 민간고용 (7월)",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "23:00",
+            "event": "美 ISM 서비스업 PMI (7월)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-06",
+        "weekday": "목",
+        "items": [
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "美 신규 실업수당 청구",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-07",
+        "weekday": "금",
+        "items": [
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "美 고용보고서 (비농업·실업률)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-08",
+        "weekday": "토",
+        "items": []
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 8,
+    "days": [
+      {
+        "date": "2026-08-04",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "7월 소비자물가동향",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "美 AMD 2분기 실적",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-05",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 ADP 민간고용 (7월)",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "美 ISM 서비스업 PMI (7월)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-06",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 신규 실업수당 청구",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-07",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 고용보고서 (비농업·실업률)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-12",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 7월 소비자물가 (CPI)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-23",
+        "items": [
+          {
+            "region": "global",
+            "event": "Hot Chips 2026 (HC38)",
+            "important": false,
+            "category": "conference"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-27",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 엔비디아 2분기 실적",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "event": "한국은행 금융통화위원회",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-28",
+        "items": [
+          {
+            "region": "global",
+            "event": "잭슨홀 미팅",
+            "important": false,
+            "category": "policy"
+          }
+        ]
+      }
+    ]
+  }
+}
