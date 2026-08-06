@@ -2181,7 +2181,39 @@
       "push": {
         "branch": "claude/relaxed-feynman-1mxru2"
       }
+    },
+    {
+      "date": "2026-08-07",
+      "time": "07:14",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 960,
+      "tokens_estimated": 156000,
+      "response_size_kb": 20.3,
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "masking_used": [],
+      "sources_attempted": {
+        "WebFetch": "3건(raw.githubusercontent context.md·schema.json 성공 || fnnews 마감시황 403 routine env 차단)",
+        "WebSearch": "22건(美 8/6 마감: S&P 7709.96(-0.18%)·나스닥 26348.35(-0.06%)·다우 53885.10(-0.85%,-464p 5일랠리 마감)·필라델피아반도체 -1.5%·샌디스크-9%(가이던스 실망)·웨스턴디지털-13%(전망 부진)·앱러빈-14%·인텔/AMD 약세·SW(Atlassian/Salesforce/Adobe/Zscaler) 급락·VIX16.5(+4%)/10Y4.64%/DXY99.76/WTI77.29(+2.8% 이란 호르무즈 강경초안)/금4128(-0.59%)/BTC64.3k·9of11 섹터 상승(에너지/헬스케어/금융 주도)·구글 AI수뇌부(제프딘 등) 이탈 알파벳 약세 || 韓 8/6 마감: 코스피 6296.38(-4.58%,-301.88p 6300붕괴)·코스닥 800선 사수(15거래일만)·삼성전자-6.30%(230,500원)·SK하이닉스-10.37%(1,495,000원)·외인-3조3271억/기관-1220억/개인+3조3390억·원달러1423.8(-0.7)·코스닥 상한가7종목(비큐AI+29.99·이스트에이드+29.97·매드업+29.93·본느+29.93·큐라티스+29.93·아로마티카+29.90)·인바디+23.46%(70000원)·온코닉테라퓨틱스+22.33%(15940원)·예탁금104.1조/신용융자 연중고점比 10조↓)",
+        "Read": "4건(2026-08-06.json·schema·whitelist-us-bigtech·whitelist-conferences)"
+      },
+      "tool_calls": {
+        "Bash": 16,
+        "WebFetch": 3,
+        "WebSearch": 22,
+        "Read": 4,
+        "Write": 1,
+        "Edit": 2
+      },
+      "notes": "금요일 07:14 발화(2026-08-06 22:14 UTC +9h=08-07 07:14 KST). ★직전 세션=목요일(8/6) 마감★ 美는 8/6 정규장(현지 목요일) 종료 후 발화→美 시세·지표 8/6 마감값 / 韓도 8/6 정규장 종료→시세·수급·업종·watchlist 8/6 마감값. ★美 혼조·반도체發 조정★: 다우 53885.10(-0.85%,-464p) 5거래일 랠리 마감(사상최고서 후퇴), S&P 7709.96(-0.18%)·나스닥 26348.35(-0.06%) 보합권. 반도체·SW 약세가 지수 눌러: 샌디스크-9%(호실적에도 가이던스 하회)·웨스턴디지털-13%(예상 상회에도 전망 부진)·앱러빈-14%(실적 실망)·인텔/AMD 약세·필라델피아반도체 -1.5%·SW(Atlassian/Salesforce/Adobe/Zscaler) 급락. 유가 WTI 77.29(+2.8%, 이란이 호르무즈 강경 초안 공개-美/이스라엘 선박 통행제한)·금 4128(-0.59%)·VIX16.5(+4%)·10Y4.64%(↑)·DXY99.76(↑)·BTC64.3k. 美섹터 9of11 상승(에너지+1.9%/헬스케어/금융/필수소비재 주도), 정보기술·커뮤니케이션만 하락(칩·SW). 구글 AI수뇌부(제프딘·하사비스 등) 이탈로 알파벳 약세(8/5~). ★韓 반도체 투매·디커플링★: 코스피 6598.26→6296.38(-4.58%,-301.88p) 하루만에 급반락 6300선 붕괴. 간밤 美 샌디스크 실적실망+반도체 단기과열 우려에 삼성전자-6.30%(230,500원)·SK하이닉스-10.37%(1,495,000원) 투톱 투매. 외국인 3조3271억 순매도(반도체 집중)·기관-1220억·개인+3조3390억(저가매수 방어). 반면 코스닥은 15거래일만 800선 사수(순환매): 바이오·로보틱스·2차전지 강세, 상한가 7종목(비큐AI+29.99·큐라티스+29.93·아로마티카+29.90·매드업+29.93·본느+29.93·이스트에이드+29.97)+인바디+23.46%+온코닉테라퓨틱스+22.33%. 원달러 1423.8(-0.7 원화강세). ★뉴스 24건★ 글로벌12(美 해설가)·국내12(韓 해설가) sourceUrl 24/24 unique·전부 https·차단0(bloomberg/wsj/ft/reuters/mk/yna 미사용)·source↔도메인 일관(CNBC/Detroit News/24-7 Wall St/Proactive Investors/Benzinga/France24/Continuum Economics/Trading Economics/TheStreet/Yahoo Finance + 뉴스핌/국민일보/Businesskorea/블록미디어/민주신문/로봇신문/톱스타뉴스/EBN/뉴시스/이투데이). 카테고리 글로벌(증시2·반도체2·실적3·원자재1·지정학1·AI1·고용1·통화정책1) 국내(증시2·반도체2·수급3·코스닥2·로보틱스1·환율1·증시제도1) 모두 ≤4. ★calendarWeek 8/2(일)~8/8(토) todayIdx=5(금)★: 월8/3=ISM제조(macro), 화8/4=CPI08:00(domestic·macro·imp)+AMD실적(earnings·us-bigtech hit), 수8/5=ADP21:15+ISM서비스23:00(imp), 목8/6=신규실업수당21:30, 금8/7=고용보고서21:30(imp·TODAY), 일/토 items:[]. calendar.global.timed=고용보고서 1건(Sanity⑤ ⊂ week[5] 충족)·domestic []. calendarMonth 2026-08: CPI/AMD 8/4·ADP/ISM 8/5·실업수당 8/6·고용 8/7·美CPI 8/12·Hot Chips 8/23(conference⊂wl)·엔비디아실적 8/27(earnings⊂us-bigtech)+한은금통위 8/27(policy)·잭슨홀 8/28(policy). 일관성 ⑩룰 전수통과(week7일·start일/end토·start+6=end·date⊂범위·today금⊂week[5]·month2026-08·earnings AMD/엔비디아⊂us-bigtech·conference HotChips⊂wl·category∈4종⊂7enum). 08-07은 매월1일 아님→whitelist 재생성 불필요. 페르소나 grep 0(단정0/추천0/격식체0)·길이(title≤30·summary≤60·note≤25) 전수통과. kr.flow 2개(원달러+간밤 필라델피아반도체·야간선물/ADR 미확보→v1.6.1 완화 2~3 준수)·watchlist down×2(투톱)+up×2(코스닥 승자)로 디커플링 반영. scripts/validate-briefing.mjs HARD 검증 통과(ajv 로컬설치). ★환경 데이터 한계 명시(저신뢰 3영역)★: routine env가 Stooq/Yahoo/finviz/investing/fnnews 등 시세·뉴스 사이트 다수 403 차단→WebSearch 의존. 헤드라인 지수·지표·삼성전자/SK하이닉스·외인수급·주요종목·뉴스는 다출처 교차검증 완료. 단 ①코스닥 정확 종가는 '800선 사수/15거래일만' 정성 확인만(전일 799.59 기준 약 802·+0.3% 추정 표기), ②美 섹터 개별%는 방향(에너지/헬스케어/금융↑·정보기술/커뮤니케이션↓)은 출처기반이나 정밀%는 추론, ③韓 sectorsDown 3~5위(한미반도체/SK스퀘어/삼성전기)는 반도체 투매로 하락 방향 확실하나 개별%는 미확보→'약 -7/-6/-4%' 추정 표기(반도체 소부장·지주 집단 하락 맥락). 위 3영역 정밀값은 낮은 신뢰도. ★designated branch claude/relaxed-feynman-msdygk push★.",
+      "push": {
+        "branch": "claude/relaxed-feynman-msdygk"
+      }
     }
   ],
-  "updatedAt": "2026-08-06T07:15:00+09:00"
+  "updatedAt": "2026-08-07T07:14:00+09:00"
 }
