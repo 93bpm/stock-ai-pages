@@ -2245,7 +2245,39 @@
       "push": {
         "branch": "claude/relaxed-feynman-mf638q"
       }
+    },
+    {
+      "date": "2026-08-09",
+      "time": "07:12",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 779,
+      "tokens_estimated": 175000,
+      "response_size_kb": 25.9,
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "masking_used": [],
+      "sources_attempted": {
+        "WebFetch": "19건 시도 / 2건 성공 (raw.githubusercontent context.md·schema.json). 차단 17건: thestreet·tradingeconomics·stooq·finance.yahoo·cnbc·investing·stockanalysis·quantlake 모두 EGRESS_BLOCKED",
+        "WebSearch": "43건 (美 8/7 마감: S&P 7757.64(+0.62% 사상최고)·나스닥 26690.62(+1.30%)·다우 54036.93(+0.28%,+151.83p)·7월고용 -23k(첫 순감, 예상 +80k, 2개월 하향수정 10만+)·9월 동결확률 60%(CME)/65%(Kalshi)·VIX 14.90(CBOE)·DXY 99.56(-0.37%, 유로 7주최고 1.156)·10Y 4.65%·WTI 78.2(금요일 +1%, 주간 -7%)·12월물 금 4399.70(+2.33%, 6/17來 최고)·BTC 64748 || 美 섹터 11종 8/7: XLB+1.52·XLY+1.34·XLK+1.25·XLU+0.88·XLRE+0.76·XLI+0.42·XLV+0.29·XLP-0.07·XLC-0.33·XLF-0.47·XLE-1.16 || 韓 8/7 마감: 코스피 6258.77(-0.60%,-37.61p 7주연속·주간 -5.10%/-336.68p)·코스닥 798.81(-0.36%)·외인 -8633억·기관 +5791억·원달러 1416.1·예탁금 104조1354억(7/31, 한달 -16조)·신용융자 28조9350억(7/31, 하루 -3.2조)·NH 주간전망 6000~7000 || 일정: 美 CPI 8/12·PPI 8/13·소매판매 8/14·Hot Chips 8/23~25(Stanford)·한은 금통위 8/27(현 2.75%)·잭슨홀 8/28)",
+        "Read": "6건 (schema.json·guides/operations·sources·news·data-quality·outputs)",
+        "Bash": "13건 (date·git·JSON 생성·sanity·validate-briefing STRICT)"
+      },
+      "tool_calls": {
+        "Bash": 13,
+        "WebFetch": 19,
+        "WebSearch": 43,
+        "Read": 6,
+        "Write": 0
+      },
+      "notes": "일요일 07:12 발화(2026-08-08 22:12 UTC +9h = 08-09 07:12 KST). ★주말 = 美·韓 동시 휴장★ → 美·韓 시세·지표·수급·업종 모두 8/7(금) 마감값 기준(guides/operations §2 주말 룰 적용, us.subNote·kr.subNote에 명시). ★美 고용쇼크 랠리 지속★: 7월 비농업 -23k(첫 순감, 예상 +80k, 직전 2개월 10만+ 하향수정)→'연준 인상 서두를 필요 감소' 해석. S&P 7757.64(+0.62% 사상최고)·나스닥 26690.62(+1.30%)·다우 54036.93(+0.28%) 3대 지수 동반 최고, 주간으로 4월來 최강. 9월 FOMC 동결확률 60%(CME FedWatch)/65%(Kalshi). VIX 14.90·DXY 99.56(-0.37%, 유로 7주최고)·10Y 4.65%·금 12월물 4399.70(+2.33% 6/17來 최고)·WTI 78.2(금요일 +1%지만 주간 -7%). ★섹터 11종 전수 실값 확보★(어제는 일부 추정): 소재+1.52/경기소비재+1.34/정보기술+1.25/유틸+0.88/부동산+0.76 상위, 에너지-1.16/금융-0.47/커뮤-0.33/필수소비재-0.07/헬스케어+0.29 하위(정렬 기준 하위5, 헬스케어는 소폭 상승이나 하위권). ★韓 7주 연속 하락★: 코스피 6258.77(-0.60%) 주간 -5.10%(-336.68p), 코스닥 798.81(-0.36%). SK하이닉스 HBM 스펙 조정 우려로 -4.35%. 외인 -8633억/기관 +5791억/개인 +약2800억. 원달러 1416.1(원화 강세). 美 폴리실리콘 15% 관세(12/4 시행, 최저수입가 kg당 $21) 반사이익에 한화솔루션·OCI홀딩스 등 태양광·2차전지 급등, 코스닥 상한가 6종목. 예탁금 104조1354억·신용융자 28조9350억(7/31 기준 실값으로 교체 — 어제 '약 103조/약 28.4조' 근사치 대신 출처 명시값 사용, tip에 '7월 말 기준' 표기). ★뉴스 24건★ 글로벌12(美 해설가: 증시1·고용2·통화정책3·물가1·반도체1·AI1·원자재2·거시1) 국내12(韓 해설가: 증시1·증시전망2·수급3·태양광1·정책1·반도체2·통화정책1·자동차1) 모두 카테고리 ≤4. sourceUrl 24/24 unique·전부 https·차단 도메인 0(bloomberg/wsj/ft/reuters/mk/yna 미사용)·source↔도메인 일관 전수 검증(워싱턴포스트/Forbes×1/CNBC×3/Yahoo Finance×2/Invezz/Motley Fool/Vantage Markets/Hargreaves Lansdown/Kiplinger + 비즈니스코리아/이투데이×2/아주경제×3/머니투데이×2/뉴시스/파이낸셜뉴스/이데일리/뉴스핌). ★calendarWeek 신주 8/9(일)~8/15(토) todayIdx=0★: 일8/9·월8/10·화8/11 items:[](주말·미공지), 수8/12 美 7월 CPI 21:30(macro·imp), 목8/13 美 PPI+신규 실업수당 21:30, 금8/14 美 소매판매 21:30(imp), 토8/15 광복절(holiday·토요일). calendar(오늘 일요일) domestic/global timed·untimed 모두 []→Sanity⑤ 자동 충족. calendarMonth 2026-08 11일치(8/4 韓 CPI+AMD실적, 8/5 ADP·ISM서비스, 8/6·8/13 실업수당, 8/7 고용보고서, 8/12 CPI, 8/13 PPI, 8/14 소매판매, 8/15 광복절, 8/23 Hot Chips(HC38 Stanford 8/23~25), 8/27 엔비디아 실적+한은 금통위, 8/28 잭슨홀). 일관성 ⑩룰 전수 통과(week 7일·start 일/end 토·start+6=end·date⊂범위·todayIdx=0 일치·month 2026-08·earnings AMD/엔비디아 ⊂ whitelist-us-bigtech·conference Hot Chips ⊂ whitelist-conferences 17종·category ∈ 7 enum{macro·earnings·conference·policy·holiday}). 08-09는 매월 1일 아님 → whitelist 재생성 불필요. 페르소나 grep 0건(단정0/추천성0/격식체0)·길이 전수 통과(title≤30·summary≤60·note≤25)·subNoteEm 4섹션 헤드라인 작성. kr.flow 2개(원/달러 + 간밤 美 나스닥 — 주말이라 야간선물/ADR 미개장, v1.6.1 완화 2~3 준수). watchlist 4건(down×1 하이닉스·up×2·default×1 한화솔루션 관세수혜). scripts/validate-briefing.mjs STRICT 통과. ★환경 제약★: routine env에서 WebFetch가 Stooq·Yahoo·finviz·Investing·TradingEconomics·CNBC·stockanalysis 등 시세 도메인 전부 EGRESS_BLOCKED → 전 수치를 WebSearch 다출처 교차검증으로 확보. ★저신뢰 2영역 명시★: ①필라델피아 반도체(SOX)는 8/7 종가 미확보 → '약 12,150 / 약 +2.0%' 근사 유지(SOXX 대용 표기), ②韓 sectorsDown 2~5위(한미반도체·이오테크닉스·SK스퀘어·LG이노텍)는 HBM 복합체 동반 약세 방향은 출처 기반이나 개별 %는 '약 -3/-2/-2/-1%' 근사, ③개인 순매수 약 2800억은 외인·기관 잔차 추정. ★model 필드 주의★: prompt Step 8 고정 명시값(claude-opus-4.8)을 그대로 기록했으나 실제 실행 모델과 다름 — prompt Step 8 한 줄 갱신 필요. ★designated branch claude/adoring-fermi-p3tkau push★.",
+      "push": {
+        "branch": "claude/adoring-fermi-p3tkau"
+      }
     }
   ],
-  "updatedAt": "2026-08-08T07:13:00+09:00"
+  "updatedAt": "2026-08-09T07:12:00+09:00"
 }
