@@ -1,0 +1,853 @@
+{
+  "date": "2026-08-10",
+  "weekday": "월",
+  "generatedAt": "2026-08-10T07:14:00+09:00",
+  "us": {
+    "subNote": "美 증시는 8월 7일(금) 3대 지수가 나란히 사상 최고로 마감했어요. 7월 고용이 2.3만명 순감하며 연준 인상 부담이 줄었다는 해석이 랠리를 이끌었고, 필라델피아 반도체는 2.56% 뛴 12,356.79로 칩 반등을 확인시켜 줬어요. 주말 휴장이라 금요일 마감값 기준이고, 이번 주는 12일 美 7월 CPI가 최대 분수령이에요.",
+    "subNoteEm": "필라델피아 반도체 2.56% 급등, 3대 지수 사상 최고",
+    "comment": "<b>7월 고용이 2.3만명 줄며</b> 첫 순감을 기록하자 9월 인상 확률이 44%까지 내려왔어요. 소재·경기소비재·정보기술이 앞장섰고 에너지는 뒤처졌어요. 필라델피아 반도체가 2.56% 뛴 만큼 오늘 국내 반도체주 반응을 지켜봐요. 투자 판단은 본인 책임이에요.",
+    "indices": [
+      {
+        "name": "S&P 500",
+        "tip": "美 대형주 500·사상 최고",
+        "value": "7,757.64",
+        "change": "+0.62%",
+        "dir": "up"
+      },
+      {
+        "name": "나스닥 종합",
+        "tip": "기술주 중심·주간 4월來 최강",
+        "value": "26,690.62",
+        "change": "+1.30%",
+        "dir": "up"
+      },
+      {
+        "name": "다우존스",
+        "tip": "우량주 30·+151.83p",
+        "value": "54,036.93",
+        "change": "+0.28%",
+        "dir": "up"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "tip": "SOX·+308.09p 칩 반등",
+        "value": "12,356.79",
+        "change": "+2.56%",
+        "dir": "up"
+      }
+    ],
+    "indicators": [
+      {
+        "key": "VIX",
+        "value": "14.90",
+        "dir": "down"
+      },
+      {
+        "key": "美 10년물",
+        "value": "4.65%",
+        "dir": "down"
+      },
+      {
+        "key": "달러인덱스",
+        "value": "99.56",
+        "dir": "down"
+      },
+      {
+        "key": "WTI 유가",
+        "value": "$78.20",
+        "dir": "up"
+      },
+      {
+        "key": "금",
+        "value": "$4,399.70",
+        "dir": "up"
+      },
+      {
+        "key": "비트코인",
+        "value": "$64,748",
+        "dir": "up"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "name": "소재",
+        "change": "+1.52%"
+      },
+      {
+        "name": "경기소비재",
+        "change": "+1.34%"
+      },
+      {
+        "name": "정보기술",
+        "change": "+1.25%"
+      },
+      {
+        "name": "유틸리티",
+        "change": "+0.88%"
+      },
+      {
+        "name": "부동산",
+        "change": "+0.76%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "name": "에너지",
+        "change": "-1.16%"
+      },
+      {
+        "name": "금융",
+        "change": "-0.47%"
+      },
+      {
+        "name": "커뮤니케이션",
+        "change": "-0.33%"
+      },
+      {
+        "name": "필수소비재",
+        "change": "-0.07%"
+      },
+      {
+        "name": "헬스케어",
+        "change": "+0.29%"
+      }
+    ]
+  },
+  "world": {
+    "subNote": "美 고용 쇼크가 금리 부담을 덜어주며 위험선호가 살아났고, 국내는 반도체 조정 속에 태양광·2차전지로 순환매가 이어졌어요. 이번 주는 12일 美 7월 CPI와 AI 기업 실적이 양쪽 방향을 함께 결정할 전망이에요.",
+    "subNoteEm": "고용 쇼크가 연 위험선호, 이번 주 CPI가 관문",
+    "global": [
+      {
+        "rank": "01",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "9월 연준 금리인상 확률 급락",
+        "summary": "7월 고용 쇼크에 인상 확률이 44%로 내려앉았어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/07/odds-the-fed-hikes-in-september-tumble-following-big-july-jobs-miss.html",
+        "note": "금리 부담 완화는 韓 증시에 우호적"
+      },
+      {
+        "rank": "02",
+        "category": "고용",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "美 7월 고용 2.3만명 순감",
+        "summary": "예상 8.3만명 증가와 정반대로 일자리가 줄었어요",
+        "source": "NBC News",
+        "sourceUrl": "https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138",
+        "note": "경기 둔화 신호도 함께 봐야 해요"
+      },
+      {
+        "rank": "03",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "연준 9월 인상 전망 뒤집혀",
+        "summary": "이코노미스트들이 인상 베팅을 거둬들이고 있어요",
+        "source": "CBS News",
+        "sourceUrl": "https://www.cbsnews.com/news/federal-reserve-september-rate-decision-jobs-report-kevin-warsh/",
+        "note": "원화 약세 압력이 줄 수 있어요"
+      },
+      {
+        "rank": "04",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "약한 고용에 인상 베팅 식어",
+        "summary": "12일 CPI가 이 흐름을 다시 시험할 수 있어요",
+        "source": "Kiplinger",
+        "sourceUrl": "https://www.kiplinger.com/investing/economy/jobs-report-july-2026-what-to-expect",
+        "note": "수요일 물가가 최대 변수예요"
+      },
+      {
+        "rank": "05",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "S&P 500 사상 최고로 새 주 시작",
+        "summary": "4월 이후 가장 강한 한 주를 보내고 최고치에 섰어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/07/stock-market-next-week-outlook-for-aug-10-14-2026-.html",
+        "note": "위험선호가 아시아 장에 번질 수 있어요"
+      },
+      {
+        "rank": "06",
+        "category": "물가",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "이번 주 美 CPI·PPI 줄줄이 대기",
+        "summary": "헤드라인 0.2%, 근원 0.3% 상승이 예상되고 있어요",
+        "source": "TradingKey",
+        "sourceUrl": "https://www.tradingkey.com/analysis/stocks/us-stocks/262090642-weekly-preview-us-cpi-ppi-data-market-focus-crwv-amat-earnings-reports-tradingkey",
+        "note": "물가가 높으면 되돌림이 올 수 있어요"
+      },
+      {
+        "rank": "07",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "16단 HBM4 수주 경쟁 본격화",
+        "summary": "엔비디아 4분기 물량을 두고 3사가 맞붙고 있어요",
+        "source": "TweakTown",
+        "sourceUrl": "https://www.tweaktown.com/news/109495/sk-hynix-samsung-and-micron-fighting-for-nvidia-supply-contracts-for-new-16-hi-hbm4-orders/index.html",
+        "note": "하이닉스·삼성 수주 소식에 주목해요"
+      },
+      {
+        "rank": "08",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "엔비디아 16단 HBM 요구에 판 커져",
+        "summary": "웨이퍼를 30㎛까지 얇게 깎는 기술이 관건이 됐어요",
+        "source": "The Korea Herald",
+        "sourceUrl": "https://www.koreaherald.com/article/10645471",
+        "note": "국내 메모리 3사 경쟁 구도가 갈려요"
+      },
+      {
+        "rank": "09",
+        "category": "AI",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "구글, 앤스로픽 데이터센터 보증",
+        "summary": "텍사스 AI 캠퍼스 150억달러 조달을 뒷받침하기로 했어요",
+        "source": "Data Center Dynamics",
+        "sourceUrl": "https://www.datacenterdynamics.com/en/news/google-to-provide-financial-backing-for-multi-billion-dollar-anthropic-data-center-in-texas-report/",
+        "note": "AI 캐펙스가 메모리 수요로 이어져요"
+      },
+      {
+        "rank": "10",
+        "category": "AI",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "앤스로픽 360억달러 추가 조달설",
+        "summary": "구글 칩 확보를 위해 사모대출 조달이 거론되고 있어요",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/anthropics-google-chip-procurement-could-174620108.html",
+        "note": "AI 투자 부채 부담도 함께 봐요"
+      },
+      {
+        "rank": "11",
+        "category": "지정학",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "이란 호르무즈 초안에 유가 반등",
+        "summary": "통항 제한 조건이 알려지며 WTI가 다시 올랐어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/06/oil-price-iran-war-strait-hormuz-oman-deal.html",
+        "note": "유가는 국내 물가에 바로 닿아요"
+      },
+      {
+        "rank": "12",
+        "category": "중국",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "中 7월 수출 23% 급증",
+        "summary": "무역흑자가 세 달 연속 1000억달러를 넘어섰어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/07/china-july-trade-exports-imports-surplus-imbalance-tariffs-.html",
+        "note": "中 부양책은 미뤄질 수 있어요"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "증시전망",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "반도체 쏠림 완화, 순환매 시험대",
+        "summary": "저평가 소외주로 매수세가 번질지 지켜보는 한 주예요",
+        "source": "이데일리",
+        "sourceUrl": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01830246645545680",
+        "note": "주도주 교체 여부가 관건이에요"
+      },
+      {
+        "rank": "02",
+        "category": "증시전망",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "증권가 코스피 6000~7000 제시",
+        "summary": "美 CPI와 AI 실적을 보며 방향을 잡을 전망이에요",
+        "source": "네이트뉴스",
+        "sourceUrl": "https://news.nate.com/view/20260809n01416",
+        "note": "변동성은 점차 진정되는 흐름이에요"
+      },
+      {
+        "rank": "03",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스피 7주 연속 하락 마감",
+        "summary": "외국인 매도에 6,258.77로 밀리며 한 주를 접었어요",
+        "source": "비즈니스코리아",
+        "sourceUrl": "https://www.businesskorea.co.kr/news/articleView.html?idxno=274390",
+        "note": "7주 연속은 2022년 이후 최장이에요"
+      },
+      {
+        "rank": "04",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "SK하이닉스 4.88% 급락",
+        "summary": "엔비디아 HBM 사양 조정 검토 소식이 부담이 됐어요",
+        "source": "전자신문",
+        "sourceUrl": "https://www.etnews.com/20260807000284",
+        "note": "HBM 노출도가 큰 만큼 민감해요"
+      },
+      {
+        "rank": "05",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "SK하이닉스 HBM4 장기계약 결실",
+        "summary": "하이퍼스케일 10곳과 새 장기 공급계약을 맺었어요",
+        "source": "글로벌이코노믹",
+        "sourceUrl": "https://www.g-enews.com/article/Global-Biz/2026/08/202608010709515469fbbec65dfb_1",
+        "note": "가격 결정권 확보에 무게가 실려요"
+      },
+      {
+        "rank": "06",
+        "category": "태양광",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "폴리실리콘 관세에 태양광주 급등",
+        "summary": "한화솔루션·OCI홀딩스가 나란히 11%대 뛰었어요",
+        "source": "조세일보",
+        "sourceUrl": "https://m.joseilbo.com/news/view.htm?newsid=573444",
+        "note": "비중국 공급망 수혜 기대가 붙었어요"
+      },
+      {
+        "rank": "07",
+        "category": "태양광",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "美 수입장벽에 한화큐셀·OCI 반색",
+        "summary": "비중국산 원료 부담은 변수로 남아 있어요",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20260807000903",
+        "note": "수혜 폭은 현지 생산비중이 갈라요"
+      },
+      {
+        "rank": "08",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "원/달러 1,416.10원 마감",
+        "summary": "달러 약세에 원화가 강해지며 환율이 내려왔어요",
+        "source": "철강금속신문",
+        "sourceUrl": "https://www.snmnews.com/news/articleView.html?idxno=573052",
+        "note": "환율 하락은 외인 수급에 우호적이에요"
+      },
+      {
+        "rank": "09",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "개인 거래비중 48%에서 31%로",
+        "summary": "떠난 개미 자금이 현물로 돌아올지가 관심이에요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202608040845485132",
+        "note": "개인 수급이 지수 탄력을 좌우해요"
+      },
+      {
+        "rank": "10",
+        "category": "코스닥",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스닥 3거래일 연속 매수 사이드카",
+        "summary": "사상 처음으로 3거래일 연속 발동되며 달아올랐어요",
+        "source": "헤럴드경제",
+        "sourceUrl": "https://biz.heraldcorp.com/article/10830734",
+        "note": "과열 신호도 함께 살펴봐요"
+      },
+      {
+        "rank": "11",
+        "category": "코스닥",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "코스닥 거래대금 두 달 새 60% 급감",
+        "summary": "정책 효과에 따른 수급 변화가 주목받고 있어요",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20260803001271",
+        "note": "거래대금 회복 여부가 관건이에요"
+      },
+      {
+        "rank": "12",
+        "category": "일정",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "이번 주 부처 일정 8/10~8/14",
+        "summary": "가계대출 동향과 수출입물가지수 발표가 예정돼 있어요",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2612427",
+        "note": "정책 이슈가 업종별로 갈릴 수 있어요"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "국내 증시는 8월 7일(금) 코스피 6,258.77로 7주 연속 밀리며 한 주를 마쳤어요. SK하이닉스가 HBM 사양 조정 우려에 4.88% 빠지며 지수를 눌렀지만, 폴리실리콘 관세 반사이익에 한화솔루션·OCI홀딩스가 11%대 뛰며 낙폭을 줄였어요. 주간으로 코스피는 5.10% 내린 반면 코스닥은 10.98% 올라 디커플링이 뚜렷했어요.",
+    "subNoteEm": "간밤 美 칩 반등, 오늘 국장 되돌림 시험대",
+    "comment": "<b>SK하이닉스</b>가 HBM 사양 조정 우려에 4.88% 밀리며 한 주 내내 지수를 눌렀어요. 반면 태양광·2차전지로 순환매가 번지며 코스닥은 주간 10.98% 올라 코스피와 갈라섰어요. 간밤 필라델피아 반도체가 2.56% 뛴 만큼 오늘 반도체 되돌림 폭을 지켜봐요. 투자 판단은 본인 책임이에요.",
+    "expectedRange": "코스피 6,000~7,000선 주간 밴드에서 반등 시도가 예상돼요",
+    "indices": [
+      {
+        "name": "코스피",
+        "tip": "국내 대표 지수·주간 -5.10%",
+        "value": "6,258.77",
+        "change": "-0.60%",
+        "dir": "down"
+      },
+      {
+        "name": "코스닥",
+        "tip": "중소·벤처 중심·주간 +10.98%",
+        "value": "798.81",
+        "change": "-0.36%",
+        "dir": "down"
+      }
+    ],
+    "flow": [
+      {
+        "key": "원/달러 환율",
+        "value": "1,416.10원 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "간밤 필라델피아 반도체",
+        "value": "12,356.79 ▲ 2.56%",
+        "dir": "up"
+      }
+    ],
+    "supply": [
+      {
+        "who": "외국인",
+        "amount": "8,633억",
+        "dir": "sell"
+      },
+      {
+        "who": "기관",
+        "amount": "5,790억",
+        "dir": "buy"
+      },
+      {
+        "who": "개인",
+        "amount": "2,677억",
+        "dir": "buy"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "theme": "태양광 소재",
+        "stockName": "OCI홀딩스",
+        "stockChange": "+11.68%"
+      },
+      {
+        "theme": "태양광",
+        "stockName": "한화솔루션",
+        "stockChange": "+11.51%"
+      },
+      {
+        "theme": "화학",
+        "stockName": "코스피 화학업종",
+        "stockChange": "+4.37%"
+      },
+      {
+        "theme": "전자부품",
+        "stockName": "삼성전기",
+        "stockChange": "+3.91%"
+      },
+      {
+        "theme": "음식료·담배",
+        "stockName": "코스피 음식료·담배업종",
+        "stockChange": "+3.34%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "theme": "반도체·HBM",
+        "stockName": "SK하이닉스",
+        "stockChange": "-4.88%"
+      },
+      {
+        "theme": "증권",
+        "stockName": "코스피 증권업종",
+        "stockChange": "-2.41%"
+      },
+      {
+        "theme": "자동차",
+        "stockName": "현대차",
+        "stockChange": "-2.12%"
+      },
+      {
+        "theme": "건설",
+        "stockName": "코스피 건설업종",
+        "stockChange": "-2.07%"
+      },
+      {
+        "theme": "통신",
+        "stockName": "코스피 통신업종",
+        "stockChange": "-1.72%"
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "SK하이닉스",
+        "badge": "-4.88%",
+        "badgeType": "down",
+        "desc": "HBM 사양 조정 우려에 5% 가까이 밀리며 지수를 눌렀어요"
+      },
+      {
+        "name": "삼성전자",
+        "badge": "+0.22%",
+        "badgeType": "up",
+        "desc": "메모리 투톱 가운데 나홀로 강보합으로 버텨줬어요"
+      },
+      {
+        "name": "한화솔루션",
+        "badge": "+11.51%",
+        "badgeType": "up",
+        "desc": "폴리실리콘 관세로 비중국 공급망 수혜 기대가 붙었어요"
+      },
+      {
+        "name": "LG에너지솔루션",
+        "badge": "+2.32%",
+        "badgeType": "up",
+        "desc": "ESS로 관세 수혜가 번질 수 있다는 기대가 실렸어요"
+      }
+    ],
+    "health": [
+      {
+        "key": "투자자 예탁금",
+        "tip": "8월 5일 기준·대기 자금",
+        "value": "103조 2,125억원",
+        "subIcon": "▼",
+        "subDir": "down"
+      },
+      {
+        "key": "신용융자 잔고",
+        "tip": "8월 5일 기준·7거래일 만에 증가",
+        "value": "28조 4,179억원",
+        "subIcon": "▲",
+        "subDir": "up"
+      }
+    ]
+  },
+  "calendar": {
+    "subNote": "월요일은 국내에서 금융감독원·한국은행 발표가 낮 12시에 몰려 있고, 해외 지표는 비어 있어요. 수요일 밤 美 7월 CPI, 목요일 생산자물가, 금요일 소매판매가 차례로 이어져요.",
+    "subNoteEm": "수요일 밤 美 7월 CPI가 이번 주 최대 분수령",
+    "riskSentiment": "위험선호 우위, 美 CPI 대기",
+    "domestic": {
+      "timed": [
+        {
+          "time": "12:00",
+          "event": "금융감독원 해외부동산 공모펀드 분쟁사례·투자자 유의사항 안내",
+          "important": false
+        },
+        {
+          "time": "12:00",
+          "event": "한국은행 통화안정증권 발행제도 개선",
+          "important": false
+        }
+      ],
+      "untimed": []
+    },
+    "global": {
+      "timed": [],
+      "untimed": []
+    },
+    "theme": "간밤 필라델피아 반도체가 2.56% 뛴 만큼, 오늘 국장이 지난주 반도체 낙폭을 얼마나 되돌리는지가 첫 관문이에요",
+    "checks": [
+      "개장 때 삼성전자·SK하이닉스가 간밤 美 칩 반등을 따라가는지 살펴봐요",
+      "7주 연속 이어진 외국인 순매도가 멈추는지 수급을 확인해봐요",
+      "태양광·2차전지 순환매가 이어질지, 과열은 없는지 함께 봐요",
+      "수요일 밤 21:30 KST 美 7월 CPI 결과에 주목해요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-08-09",
+    "end": "2026-08-15",
+    "days": [
+      {
+        "date": "2026-08-09",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-08-10",
+        "weekday": "월",
+        "items": [
+          {
+            "region": "domestic",
+            "time": "12:00",
+            "event": "금융감독원 해외부동산 공모펀드 분쟁사례·투자자 유의사항 안내",
+            "important": false,
+            "category": "market"
+          },
+          {
+            "region": "domestic",
+            "time": "12:00",
+            "event": "한국은행 통화안정증권 발행제도 개선",
+            "important": false,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-11",
+        "weekday": "화",
+        "items": []
+      },
+      {
+        "date": "2026-08-12",
+        "weekday": "수",
+        "items": [
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "美 7월 소비자물가 (CPI)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-13",
+        "weekday": "목",
+        "items": [
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "美 7월 생산자물가 (PPI)",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "美 신규 실업수당 청구",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "event": "금융위원회 7월 가계대출 동향 (잠정)",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-14",
+        "weekday": "금",
+        "items": [
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "美 7월 소매판매",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "time": "08:00",
+            "event": "한국은행 7월 수출입물가지수·무역지수 (잠정)",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-15",
+        "weekday": "토",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "광복절 (토요일)",
+            "important": false,
+            "category": "holiday"
+          }
+        ]
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 8,
+    "days": [
+      {
+        "date": "2026-08-04",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "7월 소비자물가동향",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "美 AMD 2분기 실적",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-05",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 ADP 민간고용 (7월)",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "美 ISM 서비스업 PMI (7월)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-06",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 신규 실업수당 청구",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-07",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 7월 고용보고서 (비농업·실업률)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-10",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "금융감독원 해외부동산 공모펀드 분쟁사례·투자자 유의사항 안내",
+            "important": false,
+            "category": "market"
+          },
+          {
+            "region": "domestic",
+            "event": "한국은행 통화안정증권 발행제도 개선",
+            "important": false,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-12",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 7월 소비자물가 (CPI)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-13",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 7월 생산자물가 (PPI)",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "美 신규 실업수당 청구",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "event": "금융위원회 7월 가계대출 동향 (잠정)",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-14",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 7월 소매판매",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "event": "한국은행 7월 수출입물가지수·무역지수 (잠정)",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-15",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "광복절 (토요일)",
+            "important": false,
+            "category": "holiday"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-23",
+        "items": [
+          {
+            "region": "global",
+            "event": "Hot Chips 2026 (HC38)",
+            "important": false,
+            "category": "conference"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-27",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 엔비디아 2분기 실적",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "event": "한국은행 금융통화위원회",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-28",
+        "items": [
+          {
+            "region": "global",
+            "event": "잭슨홀 미팅",
+            "important": false,
+            "category": "policy"
+          }
+        ]
+      }
+    ]
+  }
+}

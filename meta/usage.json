@@ -2277,7 +2277,39 @@
       "push": {
         "branch": "claude/adoring-fermi-p3tkau"
       }
+    },
+    {
+      "date": "2026-08-10",
+      "time": "07:14",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 788,
+      "tokens_estimated": 168000,
+      "response_size_kb": 27.4,
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "masking_used": [],
+      "sources_attempted": {
+        "WebFetch": "9건 시도 / 7건 성공 (raw.githubusercontent: context.md·schema.json·whitelist-us-bigtech·whitelist-conferences). 차단 2건: ebn.co.kr·newspim.com EGRESS_BLOCKED",
+        "WebSearch": "18건 (美 8/7 마감: S&P 7757.64(+0.62% 사상최고)·나스닥 26690.62(+1.30%)·다우 54036.93(+0.28%,+151.83p)·★SOX 12356.79(+2.56%,+308.09p) 실값 확보★·7월고용 -23k(예상 +83k, 직전 2개월 -146k 수정)·9월 동결확률 55.9%(CME)/65%(Kalshi)/인상 44.1%·VIX 14.90·DXY 99.56·10Y 4.65%(주간 고점 4.74%→4.64~4.65)·WTI 78.20·금 4399.70·BTC 64748 || 韓 8/7 마감: 코스피 6258.77(-0.60%,-37.61p, 주간 -5.10%)·코스닥 798.81(-0.36%, 주간 +10.98%)·★SK하이닉스 1,422,000원 -4.88%(전자신문 마감가)·삼성전자 231,000원 +0.22%★·외인 -8633억/기관 +5790억/★개인 +2677억(실값)★·원달러 1416.10(15:30 종가)·업종 화학+4.37/음식료담배+3.34/제약+2.27/증권-2.41/건설-2.07/통신-1.72/전기전자-1.29·한화솔루션 33900원+11.51%·OCI홀딩스 272500원+11.68%·삼성전기 1277000원+3.91%·LG엔솔 353000원+2.32%·현대차 391500원-2.12%·예탁금 103조2125억(8/5)·신용융자 28조4179억(8/5, 7거래일만 증가) || 일정: 8/10 금감원·한은 12시, 8/12 CPI, 8/13 PPI+실업수당+금융위 가계대출, 8/14 소매판매+한은 수출입물가, 8/23 Hot Chips, 8/27 엔비디아 실적+한은 금통위, 8/28 잭슨홀)",
+        "Read": "3건 (guides/outputs.md·VERSION.md·briefing/2026-08-09.json 사실 베이스라인)",
+        "Bash": "8건 (date·git·JSON 생성·sanity 62룰·wc -c·validate-briefing STRICT·manifest/usage)"
+      },
+      "tool_calls": {
+        "Bash": 8,
+        "WebFetch": 9,
+        "WebSearch": 18,
+        "Read": 0,
+        "Write": 1
+      },
+      "notes": "월요일 07:14 발화(2026-08-09 22:14 UTC +9h = 08-10 07:14 KST). ★주말 경과 = 美·韓 모두 8/7(금) 마감값 기준★ (guides/operations.md §2 주말 룰, us.subNote·kr.subNote에 명시). 오늘은 韓 정규장 개장일이라 pre-market 브리핑 성격. ★어제(8/9) 저신뢰 3영역을 전부 실값으로 교체★: ①필라델피아 반도체 '약 12,150 / 약 +2.0%' → SOX 12,356.79 (+2.56%, +308.09p) 실측 확보, ②개인 순매수 '약 2,800억'(외인·기관 잔차 추정) → 2,677억 실값, ③韓 sectorsDown 2~5위 '약 -3/-2/-2/-1%' 추정 → 코스피 업종 지수 실값(증권 -2.41·건설 -2.07·통신 -1.72)과 현대차 -2.12% 실값으로 교체. 추가로 SK하이닉스는 장중값 -4.35%(서울데이터랩 12:20 스냅샷) → 마감값 -4.88%(1,422,000원, 전자신문)로, 삼성전자도 +0.54% → 마감 +0.22%(231,000원)로 정정. 예탁금·신용융자도 7/31 기준 → 8/5 기준(103조2125억·28조4179억, 신용융자 7거래일 만에 +1조141억 증가)으로 갱신. ★마스킹·근사치 0건 — briefing 전 필드 실값★. ★美 고용 쇼크 랠리★: 7월 비농업 -23k(첫 순감, 예상 +83k, 직전 2개월 -146k 하향수정)·실업률 4.1%→'연준 9월 인상 서두를 필요 감소'. CME FedWatch 동결 55.9%/인상 44.1%(전일 45/55에서 반전), Kalshi 동결 65%. 3대 지수 동반 사상 최고, 주간 4월來 최강. SOX +2.56%로 칩 반등 확인. ★韓 7주 연속 하락·코스피 vs 코스닥 디커플링★: 코스피 6258.77(주간 -5.10%) 7주 연속 하락(2022.12以來 최장), 코스닥 798.81(주간 +10.98%)로 정반대. 엔비디아 루빈 울트라 HBM 사양 하향 검토 소식에 SK하이닉스 -4.88%가 지수를 눌렀고, 트럼프 폴리실리콘 15% 관세(232조, 12/4 발효, MIP kg당 $21) 반사이익에 한화솔루션 +11.51%·OCI홀딩스 +11.68% 급등. 코스닥은 사상 첫 3거래일 연속 매수 사이드카. ★뉴스 24건★ 글로벌12(美 해설가: 통화정책3·고용1·증시1·물가1·반도체2·AI2·지정학1·중국1) 국내12(韓 해설가: 증시전망2·증시1·반도체2·태양광2·환율1·수급1·코스닥2·일정1) 전 카테고리 ≤4. sourceUrl 24/24 unique·전부 https·차단 도메인 0(bloomberg/wsj/ft/reuters/mk/yna 미사용)·source↔도메인 일관 전수 검증(CNBC×3/NBC News/CBS News/Kiplinger/TradingKey/TweakTown/Korea Herald/Data Center Dynamics/Yahoo Finance + 이데일리/네이트뉴스/비즈니스코리아/전자신문/글로벌이코노믹/조세일보/뉴스핌×2/철강금속신문/파이낸셜뉴스/헤럴드경제/이투데이). ★calendarWeek 8/9(일)~8/15(토) todayIdx=1(월)★: 일8/9 items:[], 월8/10 금감원 해외부동산 공모펀드 안내 12:00(market)+한은 통화안정증권 발행제도 개선 12:00(policy), 화8/11 items:[], 수8/12 美 7월 CPI 21:30(macro·imp), 목8/13 美 PPI+신규 실업수당 21:30+금융위 7월 가계대출 동향(macro), 금8/14 美 소매판매 21:30(imp)+한은 7월 수출입물가지수 08:00, 토8/15 광복절(holiday). calendar(오늘) domestic.timed 2건 = week[1] items ⊂ 관계 충족(Sanity⑤ 통과). ★CoreWeave·슈퍼마이크로(8/11)·Cisco(8/12)·Applied Materials(8/13) 실적은 whitelist-us-bigtech(M7+반도체 11종) 미포함 → calendar earnings에서 의도적 제외(⑧룰 준수), 대신 글로벌 뉴스 06번에서 다룸★. calendarMonth 2026-08 12일치(8/4·8/5·8/6·8/7·★8/10 신규★·8/12·8/13·8/14·8/15·8/23 Hot Chips·8/27 엔비디아 실적+한은 금통위·8/28 잭슨홀). 일관성 ⑩룰 전수 통과(week 7일·start 일/end 토·start+6=end·date⊂범위·todayIdx=1 일치·month 2026-08·earnings 엔비디아/AMD ⊂ us-bigtech·conference Hot Chips ⊂ 17종·category ∈ 7 enum{macro·market·policy·holiday·conference·earnings}). 08-10은 매월 1일 아님 → whitelist 재생성 불필요. 자체 Sanity 62룰 전수 통과(페르소나 단정0/추천성0/격식체0/길이0) + scripts/validate-briefing.mjs VALIDATE_STRICT=1 HARD 검증 통과(ajv --no-save 설치). kr.flow 2개(원/달러 + 간밤 필라델피아 반도체 — 주말 경과로 야간선물/ADR 미확보, v1.6.1 완화 2~3 준수). watchlist 4건(down×1 하이닉스 / up×3 삼성전자·한화솔루션·LG엔솔). ★환경 제약★: WebFetch가 ebn.co.kr·newspim.com 등 국내 언론과 시세 도메인(Stooq/Yahoo/Investing/TradingEconomics) EGRESS_BLOCKED → 전 수치를 WebSearch 다출처 교차검증으로 확보. ★model 필드 주의(2일 연속)★: prompt Step 8 고정 명시값(claude-opus-4.8)을 지시대로 기록했으나 실제 실행 모델과 불일치 — prompt Step 8 한 줄 갱신 필요. ★designated branch claude/adoring-fermi-37rh4z push★.",
+      "push": {
+        "branch": "claude/adoring-fermi-37rh4z"
+      }
     }
   ],
-  "updatedAt": "2026-08-09T07:12:00+09:00"
+  "updatedAt": "2026-08-10T07:14:00+09:00"
 }
