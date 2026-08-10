@@ -2309,7 +2309,39 @@
       "push": {
         "branch": "claude/adoring-fermi-37rh4z"
       }
+    },
+    {
+      "date": "2026-08-11",
+      "time": "07:14",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1179,
+      "tokens_estimated": 182000,
+      "response_size_kb": 30.4,
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "masking_used": [],
+      "sources_attempted": {
+        "WebFetch": "19건 시도 / 2건만 성공 (raw.githubusercontent: context.md·schema.json). ★17건 EGRESS_BLOCKED★ — finance.yahoo·stooq·cnbc·thestreet·fool·investrade·washingtonpost·hankyung·newspim·businesskorea·heraldcorp·munhwa·wikitree·indexergo·goodreturns·ts2·riotimesonline 전부 차단. 사실상 WebFetch 경로 전면 봉쇄",
+        "WebSearch": "61건 (★美 8/10 마감: S&P 7,753.11(-4.53p,-0.06%)·나스닥 26,605.36(-85.26p,-0.32%)·다우 53,975.98(-60.95p,-0.11%) 3개 모두 8/7 종가와 산술 정합 확인★·SOX -2.94%(레벨 미확보→환산 11,993)·WTI 82.13(+5.1% 정산가)·브렌트 87.72(+5.0%)·VIX 15.81·10Y 4.69%·DXY 99.7·금 4,340·BTC 65,003·에너지 업종 +3.0%·부동산 -1.4%·인텔 150억달러 증자 -4%대 || 韓 8/10 마감: 코스피 6,299.66(+0.65%,+40.89p)·코스닥 854.47(+6.97%,+55.66p 매수 사이드카)·외인 -1조4,887억/기관 +5,889억/개인 +8,998억(합산 정합 확인)·원달러 1,418.4원(15:30 종가,+2.3원)·주성엔지니어링 +13.3%·HLB +9.11%·미래에셋증권 +7.37%·에코프로비엠 +7.29%·한화에어로 +3.92%·KB금융 -2.33%·삼성전자 -0.43%·삼성전기 -0.31%·SK하이닉스 -0.14%·예탁금 104조2,064억/신용융자 29조2,303억(8/7 기준) || 일정: 8/11 반도체특별법 시행·금통위 의사록 16시·관세청 8월 1~10일 수출·NFIB 19:00 KST, 8/12 美 CPI, 8/13 PPI, 8/14 소매판매)",
+        "Read": "8건 (schema.json·guides 5종·whitelist-us-bigtech·whitelist-conferences)",
+        "Bash": "11건 (date·git·JSON 생성·sanity 전수검증·wc -c·validate-briefing·manifest/usage)"
+      },
+      "tool_calls": {
+        "WebFetch": 19,
+        "WebSearch": 61,
+        "Read": 8,
+        "Write": 1,
+        "Bash": 11
+      },
+      "notes": "화요일 07:14 발화(2026-08-10 22:14 UTC +9h = 08-11 07:14 KST). 美·韓 모두 8/10(월) 정규장 마감값 기준. ★환경 제약 심화 — WebFetch 19건 중 17건 EGRESS_BLOCKED★(어제 9건 중 2건 차단 → 오늘 시세·언론 도메인 전면 차단). 전 수치를 WebSearch 다출처 교차검증으로만 확보했고, 美 3대 지수는 8/7 종가에 보도된 등락포인트를 더해 산술 정합(7,757.64-4.53=7,753.11 / 26,690.62-85.26=26,605.36 / 54,036.93-60.95=53,975.98)까지 확인함. 韓 수급도 개인 8,998억+기관 5,889억=외인 1조4,887억으로 합산 정합 확인. ★미확보로 항목 축소 3건(마스킹 대신 제거 — data-quality §3·§5 준수)★: ①us.sectorsUp 1건(에너지 +3.0%만 실값 확보, 나머지 10개 업종 일간 등락률 미보도) ②us.sectorsDown 2건(반도체 SOX -2.94%·부동산 -1.4%) ③kr.sectorsDown 4건(5번째 하락 대형주 종가 등락률 미확인 — 카카오 -2.26%는 장중값이라 제외). ★us.indices[3] SOX 주의★: 등락률 -2.94%는 출처 확보했으나 지수 레벨 자체가 어느 출처에도 없어 8/7 종가 12,356.79 기준 환산값 11,993을 tip에 명시하고 기재(추측 아님, 환산 사실 표기). ★美 유가발 인플레 재점화★: 호르무즈 재개 협상 교착에 WTI +5.1%(82.13)·브렌트 +5.0%(87.72), 10년물 4.69%로 이달 최고, 에너지 +3.0% vs 부동산 -1.4%·유틸·필수소비재 약세. 인텔 150억달러 증자로 반도체 조정(SOX -2.94%). ★韓 코스피·코스닥 디커플링 지속(방향 반전)★: 코스피 6,299.66(+0.65%, 3거래일 만에 반등)이지만 외국인은 사흘 연속 순매도(1조4,887억), 코스닥은 854.47(+6.97%)로 이달 세 번째 매수 사이드카 — 바이오·반도체 소부장·2차전지·로봇 순환매. ★뉴스 24건★ 글로벌12(美 해설가: 증시1·원자재2·반도체2·AI1·거시2·금리1·가상자산1·에너지1·지정학1) 국내12(韓 해설가: 증시1·코스닥2·수급2·바이오1·반도체3·환율1·정책1·일정1) 전 카테고리 ≤4. sourceUrl 24/24 unique·전부 https·차단 도메인 0(bloomberg/wsj/ft/reuters/mk/yna 미사용)·source↔도메인 일관 전수 검증. ★calendarWeek 8/9(일)~8/15(토) todayIdx=2(화)★: 화8/11 6건(금감원장 임원회의 10:00·금융위 영세가맹점 12:00·한은 금통위 의사록 16:00·반도체특별법 시행·관세청 8월 1~10일 수출·美 NFIB 19:00) — calendar(오늘) 5 timed/untimed ⊂ week[2] 관계 충족(Sanity⑤ 통과). calendarMonth 2026-08 13일치(8/11 신규 추가). 일관성 ⑩룰 전수 통과(week 7일·start 일/end 토·start+6=end·date⊂범위·todayIdx 일치·month 2026-08·earnings 엔비디아/AMD ⊂ us-bigtech·conference Hot Chips ⊂ 17종·category ∈ 7 enum). 08-11은 매월 1일 아님 → whitelist 재생성 불필요. 자체 sanity 전수 통과(HARD 0 / SOFT 3 = 위 카운트 축소 3건), 페르소나 grep 단정0·추천성0·격식체0·길이0. kr.flow 2개(원/달러 + 간밤 필라델피아 반도체 — 야간선물/ADR 미확보, v1.6.1 완화 2~3 준수). ★model 필드 주의(3일 연속)★: prompt Step 8 고정 명시값을 지시대로 기록(claude-opus-4.8)했으나 실제 실행 모델과 불일치하고 Step 8 본문에도 오타(claude-oups4.85)가 있어 prompt 한 줄 갱신 필요. ★designated branch claude/adoring-fermi-s1bwzu push★.",
+      "push": {
+        "branch": "claude/adoring-fermi-s1bwzu"
+      }
     }
   ],
-  "updatedAt": "2026-08-10T07:14:00+09:00"
+  "updatedAt": "2026-08-11T07:29:00+09:00"
 }
