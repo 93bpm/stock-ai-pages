@@ -2408,7 +2408,40 @@
       "push": {
         "branch": "claude/adoring-fermi-u557xl"
       }
+    },
+    {
+      "date": "2026-08-14",
+      "time": "07:29",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1120,
+      "tokens_estimated": 210000,
+      "response_size_kb": 29.5,
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "masking_used": [],
+      "sources_attempted": {
+        "WebFetch": "8건 시도 / 2건 성공 (raw.githubusercontent context.md·schema.json). ★6건 EGRESS_BLOCKED★ (finance.yahoo·businesskorea·ebn·stockanalysis·benzinga·sahmcapital) → 레포 로컬 clone에서 schema.json·guides 5종·whitelist 3종을 직접 Read, 시세·뉴스는 전량 WebSearch로 확보",
+        "WebSearch": "66건 시도 / 64건 응답 (2건은 einfomax.co.kr·marketwatch.com 도메인 크롤 불가 API 오류). ★美 8/13(목) 마감: S&P 7,798.99(+0.65%, 사상 최고)·나스닥 26,803.03(+0.81%)·다우 53,839.99(+0.13%, +69.72p) — WaPo/TheStreet/Motley Fool/Investing 교차확인 + 8/12 종가(7,748.50/26,588.49/53,770.27) 대비 산술 정합★·SOXX 559.05(전일 546.61 대비 +2.28%)·VIX 14.48·10Y 4.641%(-5bp 이상)·DXY 99.767(-0.13%)·WTI 81.25(-2.4%)·금 4,450.30(-0.39%)·BTC 약 63,558 || 美 업종 10종 일간표(부동산+1.07/커뮤니케이션+1.01/필수소비재+0.81/유틸리티+0.47/헬스케어+0.25/임의소비재+0.23/금융-0.07/에너지-0.14/소재-0.31/산업재-0.37) — IT(XLK)만 수치 미확보 || 韓 8/13 마감: 코스피 6,813.34(+234.30p,+3.56%)·코스닥 861.37(+2.46p,+0.29%)·외인+2조1,187억/기관+6,809억/개인-2조7,328억·원달러 1,412.1원·삼성전자 268,000원(+4.89%)·SK하이닉스 1,593,000원(+5.92%)·삼성전기+12.58%·SK스퀘어+9.08%·원익IPS 120,000원(+7.62%)·주성엔지니어링+3.05%·HLB+2.76%·삼성중공업-4.45%·HD현대중공업-4.35%·HD한국조선해양-2.92%·HJ중공업-2.91%·이오테크닉스-1.82%·예탁금 97조9,289억/신용융자 30조387억 || 美 7월 PPI 보합(근원 +0.2%m/m·4.2%y/y), 9월 인상확률 34%·동결 66% || MSCI 8월 리뷰: LG이노텍 편입, HLB·LG디스플레이·포스코인터·삼성에피스홀딩스 편출(8/31 종가 반영) || ★8/17(월) 광복절 대체공휴일 국내 증시 전체 휴장, 8/14(금)은 정상 개장★ || 8/14 美 일정: 소매판매 21:30·산업생산 22:15·미시간대 소비자심리(잠정)",
+        "Read": "6건 (schema.json + guides 5종 로컬 Read. whitelist 3종·전일 briefing·usage/manifest는 python 파싱)",
+        "Bash": "17건 (date START/END·git fetch/checkout/pull/status/add/commit/push·전일 briefing 파싱·whitelist 파싱·JSON 빌드·자체 sanity 전수·jsonschema draft-07 validate·scripts/validate-briefing.mjs(ajv HARD)·wc -c·manifest/usage 갱신)"
+      },
+      "tool_calls": {
+        "WebFetch": 8,
+        "WebSearch": 66,
+        "Read": 6,
+        "Write": 4,
+        "Bash": 17,
+        "ToolSearch": 2
+      },
+      "notes": "금요일 07:29 발화(2026-08-13 22:29:44 UTC +9h = 08-14 07:29 KST). 美는 8/13(목), 韓은 8/13(목) 정규장 마감값 기준. ★환경★: WebFetch 8건 중 6건 EGRESS_BLOCKED(yahoo·stooq계열·benzinga·국내 매체) → 어제와 동일하게 로컬 Read + WebSearch 조합으로 전량 확보. duration 1120초. ★美 물가 2연타 안도 → S&P 사상 최고★: 7월 PPI가 전월비 보합(컨센 +0.2% 하회)으로 나오며 9월 인상 확률이 34%까지 내려갔고, 10년물이 4.641%로 5bp 넘게 하락. S&P 500이 7,798.99(+0.65%)로 최고치를 경신하고 장중 7,800을 처음 넘김. 나스닥 +0.81%, 반도체는 SOXX +2.28%. 워크데이는 실버레이크 인수설에 18% 급등. ★美 업종 데이터 출처 충돌 처리★: Benzinga 위젯값(XLK+0.02/XLU+0.16 등 시간외로 추정)·2차 요약본(유틸+1.57/부동산+1.31/소재-1.28) 세트가 서로 어긋나 채택하지 않고, 10개 업종이 한 표로 정렬된 일간 섹터표(부동산+1.07 ~ 산업재-0.37)를 단일 출처로 채택. Zacks 서술(부동산·커뮤니케이션·필수소비재 강세, 에너지 약세)과 방향 일치 확인. IT(XLK)만 신뢰 가능한 수치를 못 구해 11종 중 10종으로 정렬(guides/data-quality.md §5 '가져온 ETF만으로 TOP 5 산출' 적용, 마스킹 0). sectorsDown 5번째는 임의소비재 +0.23%로 부호가 양수지만 guides/sources.md §2의 '정렬 → 상위 5/하위 5' 룰대로 하위 5에 배치(실값 그대로 표기). ★韓 반도체 투톱 3일 연속 랠리★: 삼성전자 268,000원(+4.89%)·SK하이닉스 1,593,000원(+5.92%)이 지수를 끌어 코스피가 6,813.34(+3.56%)로 6,800선 회복, 국내 증시 시총이 15거래일 만에 6,000조원 복귀. 외국인은 이달 처음으로 3거래일 연속 순매수(+2조1,187억). 반면 조선주는 차익 실현으로 삼성중공업 -4.45%·HD현대중공업 -4.35% 동반 약세, 한국전력은 2분기 영업이익 1조1,285억(컨센 1조9,642억 하회) 어닝쇼크로 목표가 줄하향. 예탁금은 97조9,289억으로 6개월 만에 100조원 하회. ★수급 수치 3개 출처 편차★: mt.co.kr(2조1,187/6,809/-2조7,328)·EBN(2조1,196/6,812/-2조7,340)·헤럴드(2조951/6,798/-2조7,228)가 0.1% 내 편차 → 2개 출처가 근접한 mt.co.kr 세트 채택. ★환율 출처 충돌★: 8/13 종가로 1,412.13원(장중 9:37 1,411.9원과 정합)과 etoday '7.7원 내린 1,416.1원'(기사 날짜 8/12로 추정)이 충돌 → 장중값과 정합하는 1,412.1원 채택, dir=down. ★kr.flow 2개★: 야간선물·EWY(ADR) 8/13 마감치를 어느 출처에서도 확보 못해 원/달러 + 간밤 나스닥 2개로 구성(v1.6.1 완화 2~3 준수). ★뉴스 24건★ 글로벌12(美 해설가: 물가2·증시·통화정책·원자재2·기업·가상자산·반도체2·지정학·아시아증시) 국내12(韓 해설가: 증시2·수급2·반도체2·증시제도·증시자금2·환율·기업·정책) 전 카테고리 ≤4. sourceUrl 24/24 unique·전부 https·차단 도메인 0(bloomberg/wsj/ft/reuters/mk/yna 미사용)·source↔도메인 일관 전수 통과. ★calendarWeek 8/9(일)~8/15(토) todayIdx=5(금)★: 금8/14 3건 신규(美 7월 소매판매 21:30 중요·美 7월 산업생산 22:15·美 8월 미시간대 소비자심리 잠정 time=null) — calendar(오늘) 3건 전부 week[5] ⊂ 관계 충족(Sanity⑤ 통과). 국내는 8/14 확인된 공지 일정이 없어 domestic timed/untimed 모두 빈 배열. ★8/17(월) 광복절 대체공휴일 증시 전체 휴장★을 calendarMonth에 신규 반영(category=holiday). calendarMonth 2026-08 10일치(8/10·11·12·13·14·15·17·24 Hot Chips·27 엔비디아 실적+금통위+잭슨홀·31 MSCI 반영). 일관성 ⑩룰 전수 통과(week 7일·start 일/end 토·start+6=end·date⊂범위·todayIdx 일치·month 2026-08·earnings 엔비디아 ⊂ us-bigtech·conference Hot Chips ⊂ 17종·category ∈ 7 enum·untimed 필드 모양 {event,when}). 08-14는 매월 1일 아님 → whitelist 재생성 불필요. 자체 sanity 전수 통과(FAIL 0 / WARN 0) + jsonschema draft-07 정식 validate 0 error + scripts/validate-briefing.mjs(ajv) HARD 통과. 페르소나 grep 단정0·추천성0·격식체0·길이0(검사 67 인스턴스, title max 23·summary max 54·note max 18). ★model 필드 주의(6일 연속)★: prompt Step 8 고정 명시값(claude-opus-4.8)을 지시대로 기록했으나 실제 실행 모델과 불일치하며, Step 8 본문 오타(claude-oups4.85)도 미수정 상태. 실제 모델 ID는 레포 산출물에 기록하지 않는 정책이라 대화 보고로만 전달함. prompt 한 줄 갱신 필요. ★designated branch claude/adoring-fermi-bcmxto push★.",
+      "push": {
+        "branch": "claude/adoring-fermi-bcmxto"
+      }
     }
   ],
-  "updatedAt": "2026-08-13T07:14:00+09:00"
+  "updatedAt": "2026-08-14T07:29:44+09:00"
 }
