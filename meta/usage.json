@@ -2474,7 +2474,44 @@
       "push": {
         "branch": "claude/adoring-fermi-91pqwq"
       }
+    },
+    {
+      "date": "2026-08-16",
+      "time": "07:12",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1062,
+      "tokens_estimated": 252000,
+      "response_size_kb": 29.9,
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "masking_used": [],
+      "sources_attempted": {
+        "Stooq": "fail:EGRESS_BLOCKED (지수·지표·섹터 ETF 멀티심볼 CSV 3건 전량 차단)",
+        "Yahoo Finance": "fail:EGRESS_BLOCKED (finance.yahoo.com WebFetch 차단 — 단 WebSearch 색인으로는 접근 가능)",
+        "Google Finance / Investing.com / Trading Economics": "fail:EGRESS_BLOCKED (WebFetch 3건)",
+        "WebFetch 총계": "13건 시도 / 2건 성공. raw.githubusercontent.com(context.md·schema.json)만 통과, 나머지 11건 전량 EGRESS_BLOCKED(stooq·finance.yahoo·google·investing·tradingeconomics·ko.tradingeconomics·cnbc·hankyung·qz). guides 5종·whitelist 3종·전일 briefing은 로컬 clone에서 Read",
+        "WebSearch": "51건 (2건은 marketwatch/einfomax allowed_domains 오류로 재시도). ★美 8/14(금) 마감 재확인: S&P -0.2%·나스닥 -0.3%·다우 -0.2% 방향 일치, WTI 82.89(브렌트 88.64)·BTC 62,721~62,976·SOX 12,417.05(등락률 미확보)·미시간대 51.0(7월 55.2, 컨센 55)·1년 기대인플레 4.3%·소매판매 -0.6%(9개월 만 감소) 교차 확인★ / 韓 8/14: 코스피 6,977.94(+2.42%, 장중 7,010.86)·코스닥 864.65(+3.28p, 개인 +3,153억)·외인 코스피 3조387억 순매수·원달러 1,418.3원(주간거래 종가, PPI 4.7% 안도)·삼성전자 274,500원(+2.43%)·예탁금 97조9,289억(8/11, 반년 만 100조 하회)·신용융자 30조387억 재확인 / 캘린더: 8/17 대체공휴일 전체 휴장·8/18 거래 재개+레딧 S&P500 편입·8/19 14:00 ET FOMC 의사록(→KST 8/20 03:00, federalreserve.gov 확인)·8/20 실업수당·필라델피아 연은·경기선행지수·8/21 S&P글로벌 PMI 잠정·8/23~25 Hot Chips(스탠퍼드)·8/26 엔비디아 FY27 2Q(→KST 8/27)·8/27 한은 금통위·8/27~29 잭슨홀",
+        "Read": "8건 (schema.json·guides 5종·전일 briefing·whitelist-us-bigtech). 나머지 whitelist 2종은 python 파싱",
+        "Bash": "21건 (START/END date·git·proxy status·whitelist 파싱·JSON 빌드·자체 sanity 전수·jsonschema draft-07·scripts/validate-briefing.mjs(ajv STRICT)·wc -c·manifest/usage 갱신·commit/push)"
+      },
+      "tool_calls": {
+        "WebFetch": 13,
+        "WebSearch": 51,
+        "Read": 8,
+        "Write": 2,
+        "Bash": 21,
+        "Edit": 1,
+        "ToolSearch": 1
+      },
+      "notes": "일요일 07:12 발화(2026-08-15 22:12:34 UTC +9h = 08-16 07:12 KST). 美·韓 모두 8/14(금) 정규장 마감값 기준. 오늘 8/16(일)은 주말이고 8/17(월)은 광복절 대체공휴일이라 국내 다음 개장은 8/18(화). ★환경★: WebFetch 13건 중 11건 EGRESS_BLOCKED — stooq·finance.yahoo·google·investing·tradingeconomics·cnbc·hankyung 등 guides가 지정한 1~4순위 출처가 전부 차단돼 fallback 체인 최종단인 WebSearch(51건)로 전량 확보. raw.githubusercontent.com과 로컬 clone Read만 통과. 이틀 연속 동일 패턴(8/15도 WebFetch 9건 전량 차단) → 환경 측 고착으로 판단, guides/sources.md §1 표에 'claude.ai routine 환경: WebFetch 사실상 전면 차단' 갱신 검토 권장. duration 1062초. ★us.indices[3]★: SOX 8/14 종가 12,417.05는 이번에 확보했으나 당일 등락률을 어느 출처에서도 못 구해 change/dir을 채울 수 없었음(마스킹·추정 금지). 전일과 동일하게 8/14 실값이 모두 확인된 러셀 2000(3,062, +0.30%, 사상 최고 종가)을 4번 슬롯에 두고 tip에 'SOX 등락률 미확보 대체'를 명시. 대신 확보한 SOX 종가는 us.subNote에 기재해 정보 유실 0. ★시세 승계 정책★: 오늘은 주말이라 새 체결이 없어 operations.md §2 주말 룰대로 us.indices/indicators/sectors와 kr 시세·수급·업종·시장체력을 8/14 마감값 그대로 유지. 다만 승계 전 WebSearch로 재검증해 WTI 82.89·BTC 62.8k·원달러 1,418.3·코스닥 864.65·예탁금 97조9,289억·신용융자 30조387억을 독립 출처로 재확인함. VIX는 출처별로 14.25/14.52/14.59 편차(2.3%, 허용범위 5% 이내)라 전일 채택값 14.59 유지. ★뉴스 24건 전량 신규 큐레이션★: 글로벌12(美 해설가: 거시·물가·증시·기업·반도체·메모리·지정학·원자재·환율·귀금속·증시제도·가상자산) 국내12(韓 해설가: 증시·수급·코스닥·환율·반도체·자동차·조선방산·증시제도·증시자금·증시일정·바이오·수출) — 24개 카테고리가 모두 달라 분포 룰(≤4) 여유 통과. sourceUrl 24/24 unique·전부 https·차단 도메인 0·source↔도메인 일관 전수 통과. 글로벌 CNBC7·Yahoo Finance4·Investing.com1, 국내 한국경제4·이투데이3·헤럴드경제2·파이낸셜뉴스2·뉴스핌1. ★신규 편성★: 엔비디아 8/26 FY27 2Q 실적일 확정(투자 가이던스 910억달러), 레딧 8/18 S&P500 편입, 엔화 美·日 공동개입 효과 반감(159엔대), LG이노텍 MSCI 편입 확정(최대 4,390억 유입 전망), SK하이닉스 용인 Y2 35조2000억+청주 M17 19조1000억 = 54조 투자, 한화오션 트럼프 조선 각서 수혜, 7월 車 수출 62억달러 역대 최고. ★calendarWeek 8/16(일)~8/22(토) todayIdx=0(일)★ 신규 주차. 7일 cell 전부 생성(8/19 수·8/22 토는 빈 items:[]), 총 12건. 오늘(일) 2건(주말 국내 휴장·美 주말 휴장)이 calendar.untimed 2건과 정확히 일치 → Sanity⑤ superset 충족. 美 지표는 EDT(UTC-4)→KST(+13h) 환산: 8:30 ET→21:30, 9:45 ET→22:45, 10:00 ET→23:00, 14:00 ET→익일 03:00. FOMC 의사록은 연준 공식 캘린더로 8/19 14:00 ET 확정 → KST 8/20 03:00에 배치. calendarMonth 2026-08을 14일·32건으로 확장(8/28 잭슨홀 기조연설 신규, 8/27 엔비디아 실적에 '美 현지 8/26 장 마감 후' 주석 추가). 8/16(일)은 hit-only 정책상 month에 push 안 함. 韓 실적 화이트리스트 hit 0건(2Q 시즌 종료), 美 빅테크 hit 1건(엔비디아, 8/27 KST). 일관성 ⑩룰 전수 통과(week 7일·start 일/end 토·start+6=end·date⊂범위·todayIdx 일치·month 2026-08·전 날짜 8월 범위·earnings 엔비디아 ⊂ us-bigtech 11종·conference Hot Chips ⊂ 17종·category ∈ 7 enum·untimed 필드 모양 {event,when}). 08-16은 매월 1일 아님 → whitelist 재생성 불필요. 검증 3중 통과: 자체 sanity 전수(FAIL 0) + jsonschema draft-07 0 error + scripts/validate-briefing.mjs(ajv) HARD 통과. 페르소나 grep 단정0·추천성0·격식체0·길이0(title max 24·summary max 33·note max 16). ★model 필드 주의(8일 연속)★: prompt Step 8 본문의 고정 명시값은 'claude-oups4.85'라는 오타 상태이고 Step 9·안전원칙에는 'claude-opus-4.8'로 적혀 있어 두 값이 불일치함. 전일과 동일하게 오타가 아닌 쪽(claude-opus-4.8)을 기록했으나, 이 값은 실제 실행 모델과도 다름. 실제 모델 ID는 레포 산출물에 기록하지 않는 정책이라 대화 보고로만 전달함. prompt 한 줄 갱신 필요. ★designated branch claude/adoring-fermi-buhm3h push★.",
+      "push": {
+        "branch": "claude/adoring-fermi-buhm3h"
+      }
     }
   ],
-  "updatedAt": "2026-08-15T07:37:00+09:00"
+  "updatedAt": "2026-08-16T07:12:00+09:00"
 }
