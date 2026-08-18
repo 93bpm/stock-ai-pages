@@ -2546,7 +2546,43 @@
       "push": {
         "branch": "claude/adoring-fermi-b7v524"
       }
+    },
+    {
+      "date": "2026-08-19",
+      "time": "07:11",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1088,
+      "tokens_estimated": 198000,
+      "response_size_kb": 31.5,
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "masking_used": [],
+      "sources_attempted": {
+        "Stooq": "fail:EGRESS_BLOCKED (^spx 1건 차단)",
+        "Google Finance": "fail:EGRESS_BLOCKED (www.google.com 차단)",
+        "CNBC / Investing.com / TheStreet / Businesskorea / bloomingbit": "fail:EGRESS_BLOCKED (기사 본문 WebFetch 전량 차단)",
+        "WebFetch 총계": "8건 시도 / 2건 성공. raw.githubusercontent.com(context.md·schema.json)만 통과, 시세·기사 도메인 6건 EGRESS_BLOCKED. guides 5종·schema·whitelist 3종·전일 briefing은 로컬 clone에서 Read/파싱",
+        "WebSearch": "38건 (4건은 marketwatch/politico/einfomax 도메인 거부로 재시도). ★美 8/18(화) 마감 확보: S&P 7,691.76(-0.69%)·나스닥 26,289.71(-1.33%)·다우 53,343.40(-116.38p, -0.22%)·SOX 11,992.46(-628.54p, -4.98%)·VIX 15.84(+4.28%)·10년물 4.736%·30년물 5.327%(19년 최고)·DXY 99.415(-0.13%)·WTI 84.31·금 4,429.49(+0.30%)·BTC 63,313 / 섹터 ETF 10종(XLE +1.05·XLP +0.85·XLV +0.69·XLY +0.39·XLRE +0.29·XLF +0.28·XLU +0.27·XLI -0.42·XLB -0.50·XLK -1.87) / 韓 8/18: 코스피 6,869.83(-1.55%, 장중 고 7,216.62·저 6,788.78)·코스닥 834.20(-3.52%)·원달러 1,411.8원(주간거래 종가, 10개월 최저)·수급 외인 +4,680억/기관 -1조1,928억/개인 +1조1,978억·예탁금 100조683억(8/13)·대차잔고 173조1,899억(8/14) 확인",
+        "Read": "7건 (schema.json·guides 4종·validate 스크립트 등 로컬)",
+        "Bash": "12건 (START/END date·proxy status·git sync·전일 briefing/whitelist 파싱·JSON 빌드·자체 sanity 전수·jsonschema draft-07·npm ajv·scripts/validate-briefing.mjs·wc -c·manifest/usage 갱신·commit/push)"
+      },
+      "tool_calls": {
+        "WebFetch": 8,
+        "WebSearch": 38,
+        "Read": 7,
+        "Write": 1,
+        "Bash": 12,
+        "ToolSearch": 1
+      },
+      "notes": "수요일 07:11 발화(2026-08-18 22:11:03 UTC +9h = 08-19 07:11 KST). ★전일(8/18) 발화 누락 — main 최신 커밋이 'routine: 2026-08-17 07:30'이고 briefing/2026-08-18.json 부재. 오늘 발화는 8/19분만 생성했고 8/18은 소급 생성하지 않음(1발화=1커밋 원칙). manifest.dates는 08-17 → 08-19로 하루 건너뜀★. ★환경★: WebFetch 8건 중 6건 EGRESS_BLOCKED(stooq·google finance·cnbc·investing·thestreet·businesskorea). 4일 연속 동일 패턴으로 금융 데이터·기사 도메인 WebFetch가 고착 차단. raw.githubusercontent.com만 통과하며 시세·뉴스·캘린더는 전량 WebSearch(38건)로 확보. WebSearch allowed_domains에 marketwatch.com·politico.com·einfomax.co.kr을 넣으면 400 에러로 거부됨(크롤러 차단 도메인) — guides/news.md §4 2순위 목록에서 einfomax 사용 불가 표기 필요. ★美 4개 지수 전부 실값 확보★: 특히 SOX는 여러 검색이 실패하다가 fnnews 8/19 마감 기사에서 '628.54포인트 급락한 1만1992.46' 확보 → 8/17 종가 12,621.00과 정확히 합치(12,621.00-628.54=11,992.46)해 교차 검증됨. 등락률은 -4.98%로 계산이 아닌 두 실값의 정합 확인용으로만 사용. 로이터 계열 보도의 '5.4%'는 장중 수치로 판단. ★섹터★: 11종 중 XLC(커뮤니케이션)만 8/18 등락률 미확보 → 10종으로 정렬해 TOP5/BOTTOM5 산출(data-quality §5 룰). XLB(-0.50%)는 검색 요약이 날짜를 8/14~8/18로 모호하게 반환해 신뢰도 중간. ★韓 수급 수치 2종 충돌★: 뉴스핌·EBN 초판(외인 +914억/기관 -7,854억/개인 +7,317억)과 이투데이·한국경제 확정치(외인 +4,680억/기관 -1조1,928억/개인 +1조1,978억)가 달라, 뉴스핌 자체 헤드라인('기관 1.2조 매도')과 한국경제 본문(외인 마감 4,670억)이 일치하는 후자를 채택. ★kr.flow 2건★: 휴장 명절 직후라 코스피200 야간선물·EWY 실값을 못 구해 v1.6.1 완화 룰대로 원/달러+간밤 나스닥 2건 유지. ★kr.health★: 신용융자 최신치(8월 중순)를 못 찾아 대차잔고 173조1,899억(8/14, fnnews)으로 2번째 항목 대체. 예탁금은 100조683억(8/13)으로 갱신. ★뉴스 24건 전량 신규 + URL 24/24 유니크★: 글로벌12(美 해설가: 증시·금리·반도체·지정학·통화정책·유통소비·글로벌금리·변동성·중국경제·일본금리·가상자산·AI반도체) 국내12(韓 해설가: 증시·수급·코스닥·환율·금리·시황·환율·테마주·수급·시황·수출·공매도). 차단 도메인 0·중복 0·전부 https·source↔도메인 매핑 전수 통과. ★calendarWeek 8/16(일)~8/22(토) todayIdx=3(수)★ 7일 cell 전부 생성(8/22 토는 빈 items:[]), 총 15건. 오늘(수)은 美 주간 원유재고 1건뿐이라 calendar.global.timed 1건과 정확히 일치 → Sanity⑤ superset 충족. 국내는 오늘 공시된 지표 일정이 없어 domestic timed/untimed 모두 빈 배열. calendarMonth 2026-08은 15일·34건(8/19 EIA 원유재고 추가). 韓 실적 화이트리스트 hit 0건, 美 빅테크 hit 1건(엔비디아 8/27 KST), 학회 hit 1건(Hot Chips). 8/19 타깃·로우스 실적은 美 빅테크 화이트리스트 밖이라 룰⑧에 따라 calendar 제외하고 뉴스·checks로만 반영. 일관성 ⑩룰 전수 통과. 08-19는 매월 1일 아님 → whitelist 재생성 불필요. 검증 3중 통과: 자체 sanity 전수(FAIL 0) + jsonschema draft-07 0 error + scripts/validate-briefing.mjs(ajv) HARD 통과. 페르소나 grep 단정0·추천성0·격식체0·길이0(title max 21·summary max 33·note max 15). ★model 필드 주의(10일 연속)★: prompt Step 8 고정 명시값이 'claude-oups4.85' 오타이고 Step 9·안전원칙에는 'claude-opus-4.8'로 적혀 불일치 — 전일까지와 동일하게 오타가 아닌 쪽을 기록. prompt 한 줄 갱신 필요. ★designated branch claude/adoring-fermi-13lp4k push★.",
+      "push": {
+        "branch": "claude/adoring-fermi-13lp4k"
+      }
     }
   ],
-  "updatedAt": "2026-08-16T07:12:00+09:00"
+  "updatedAt": "2026-08-19T07:11:00+09:00"
 }
