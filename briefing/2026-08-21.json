@@ -1,0 +1,730 @@
+{
+  "date": "2026-08-21",
+  "weekday": "금",
+  "generatedAt": "2026-08-21T07:10:59+09:00",
+  "us": {
+    "subNote": "8월 20일(목) 뉴욕증시 정규장 마감 기준이에요",
+    "subNoteEm": "월마트 쇼크·국채금리 되돌림에 3대 지수 동반 하락",
+    "comment": "재무부 바이백 효과가 하루 만에 사라지면서 <b style=\"color:var(--blue);\">금리 되돌림</b>이 지수를 눌렀어요. 다만 엔비디아는 소폭 올라 반도체는 버텼고, 아시아 장에서는 금리·유가 흐름이 변수로 작용할 수 있어요.",
+    "indices": [
+      {
+        "name": "S&P 500",
+        "tip": "정규장 종가",
+        "value": "7,641.16",
+        "change": "▼ 0.87%",
+        "dir": "down"
+      },
+      {
+        "name": "나스닥 종합",
+        "tip": "정규장 종가",
+        "value": "26,067.17",
+        "change": "▼ 1.00%",
+        "dir": "down"
+      },
+      {
+        "name": "다우존스",
+        "tip": "정규장 종가 · 703.84p 하락",
+        "value": "52,759.21",
+        "change": "▼ 1.32%",
+        "dir": "down"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "tip": "SOXX ETF 대용",
+        "value": "522.35",
+        "change": "▲ 0.52%",
+        "dir": "up"
+      }
+    ],
+    "indicators": [
+      {
+        "key": "VIX",
+        "value": "15.60 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "美 10년물",
+        "value": "4.704% ▲",
+        "dir": "up"
+      },
+      {
+        "key": "달러인덱스",
+        "value": "98.83 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "WTI 유가",
+        "value": "$86.64 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "금",
+        "value": "$4,581.00 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "비트코인",
+        "value": "$71,610 ▲",
+        "dir": "up"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "name": "에너지",
+        "change": "+0.38%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "name": "필수소비재",
+        "change": "-1.93%"
+      },
+      {
+        "name": "헬스케어",
+        "change": "-1.26%"
+      }
+    ]
+  },
+  "world": {
+    "subNote": "글로벌은 금리·유가가, 국내는 주주환원이 주도했어요",
+    "subNoteEm": "美는 월마트 쇼크, 韓은 40조 소각이 갈랐어요",
+    "global": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "다우 703p 급락, S&P 0.87%↓",
+        "summary": "국채금리가 다시 오르며 3대 지수가 함께 밀렸어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/19/stock-market-today-live-updates.html",
+        "note": "아시아 장에 부담 요인이에요"
+      },
+      {
+        "rank": "02",
+        "category": "유통·소비",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "월마트 9% 급락, 4년래 최악",
+        "summary": "동일점포 매출과 가이던스가 기대에 못 미쳤어요",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/dow-gets-slammed-walmart-falls-194413071.html",
+        "note": "美 소비 둔화 신호예요"
+      },
+      {
+        "rank": "03",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "재무부, 장기채 바이백 2배로",
+        "summary": "10~30년물 매입 한도를 40억달러로 늘리기로 했어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/19/treasury-announces-upscaled-buyback-operation-for-longer-term-debt-sending-yields-lower.html",
+        "note": "장기금리 진정 시도예요"
+      },
+      {
+        "rank": "04",
+        "category": "금리",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "국채금리 되돌림, 10년 4.70%",
+        "summary": "바이백 발표 효과가 하루 만에 되돌려졌어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/20/bond-yields-edge-higher-as-traders-digest-treasury-debt-buyback-plan.html",
+        "note": "성장주 할인율 부담 커져요"
+      },
+      {
+        "rank": "05",
+        "category": "지정학",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "트럼프 이란 압박에 유가 급등",
+        "summary": "브렌트 93.78달러, WTI 86.64달러로 올랐어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/20/oil-prices-brent-wti-hormuz-trump.html",
+        "note": "정유·화학 원가 부담이에요"
+      },
+      {
+        "rank": "06",
+        "category": "가상자산",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "비트코인 7만1천달러대 급등",
+        "summary": "제도화 기대가 커지며 코인 시장이 뛰었어요",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-20-2026-crypto-prices-surge-after-president-trump-pushes-for-clarity-act-154014757.html",
+        "note": "위험선호 회복 신호예요"
+      },
+      {
+        "rank": "07",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "달러인덱스 98.8, 3개월 최저",
+        "summary": "금리가 올라도 달러 약세 흐름이 이어졌어요",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-falling-063304096.html",
+        "note": "원화엔 우호적이에요"
+      },
+      {
+        "rank": "08",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "美 실업수당 청구 20.6만건",
+        "summary": "예상보다 줄며 고용시장 견조함을 보여줬어요",
+        "source": "Investing.com",
+        "sourceUrl": "https://www.investing.com/news/economic-indicators/weekly-us-jobless-claims-dip-to-206000-4869762",
+        "note": "금리인하 기대는 후퇴해요"
+      },
+      {
+        "rank": "09",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "엔비디아 26일 실적 발표 대기",
+        "summary": "매출 920억달러 안팎 전망에 시선이 쏠려 있어요",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-heads-earnings-next-075316224.html",
+        "note": "HBM 수요 가늠자예요"
+      },
+      {
+        "rank": "10",
+        "category": "한국증시",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "外신, 코스피 AI 강세장 조명",
+        "summary": "하이닉스·삼성이 이끄는 랠리를 집중 조명했어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/13/south-korea-kospi-bull-market-sk-hynix-samsung-ai-trade.html",
+        "note": "글로벌 자금 관심 확대"
+      },
+      {
+        "rank": "11",
+        "category": "일본",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "도쿄 7월 물가, BOJ 목표 근접",
+        "summary": "에너지·엔 약세로 근원물가가 더 올랐어요",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/tokyo-cpi-rises-july-core-001515334.html",
+        "note": "엔 반등 가능성 주목"
+      },
+      {
+        "rank": "12",
+        "category": "기술",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "美 증시 주도주 확산 조짐",
+        "summary": "메가캡 밖으로 온기가 퍼진다는 분석이 나왔어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/18/the-market-is-broadening-and-its-time-to-look-beyond-megacap-tech.html",
+        "note": "순환매 흐름 주목해요"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스피 5.89% 폭등 6852",
+        "summary": "반도체 투톱 급등에 하루 만에 낙폭을 되돌렸어요",
+        "source": "서울경제",
+        "sourceUrl": "https://www.sedaily.com/article/20081427",
+        "note": "지수 체력 회복 신호예요"
+      },
+      {
+        "rank": "02",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "SK하이닉스 40조 자사주 소각",
+        "summary": "발행주식 3.3%를 사들여 전량 소각하기로 했어요",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/industry/2026/08/19/2026081915431581080",
+        "note": "국내 최대 주주환원이에요"
+      },
+      {
+        "rank": "03",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "하이닉스 소각, 증시 영향은",
+        "summary": "수급과 밸류에이션 측면 효과를 함께 짚었어요",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/202608201065i",
+        "note": "환원 확산 여부가 관건"
+      },
+      {
+        "rank": "04",
+        "category": "증시제도",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "매수 사이드카 올해 49번째",
+        "summary": "선물 급등에 프로그램 매수가 5분간 멈췄어요",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/2026082015496",
+        "note": "변동성 관리 장치예요"
+      },
+      {
+        "rank": "05",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "원·달러 1392.6원, 11개월 최저",
+        "summary": "수출업체 네고와 외인 매수에 5.1원 내렸어요",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2614819",
+        "note": "외국인 수급에 우호적"
+      },
+      {
+        "rank": "06",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "환율 1400원선 아래로 안착",
+        "summary": "달러 매도가 몰리며 장중 1380원대까지 밀렸어요",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/economy/2026/08/20/2026082016032830389",
+        "note": "수입물가 부담 완화돼요"
+      },
+      {
+        "rank": "07",
+        "category": "코스닥",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "SK증권 상한가, 바이오도 강세",
+        "summary": "자사주 매입 중개 기대에 상한가가 나왔어요",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2616524",
+        "note": "테마 확산 여부 주목"
+      },
+      {
+        "rank": "08",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "반등에도 거래대금은 절반",
+        "summary": "주도주 5곳에 거래의 62%가 쏠렸어요",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2616510",
+        "note": "쏠림은 부담 요인이에요"
+      },
+      {
+        "rank": "09",
+        "category": "증시자금",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "예탁금 100.7조·신용 30.9조",
+        "summary": "미수거래는 19개월 만에 최저로 줄었어요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202608181559189058",
+        "note": "레버리지 부담은 완화"
+      },
+      {
+        "rank": "10",
+        "category": "수출",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "8월 초순 수출 213억달러",
+        "summary": "반도체가 155% 늘며 절반 가까이 채웠어요",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/2026081159787",
+        "note": "실적 개선 근거예요"
+      },
+      {
+        "rank": "11",
+        "category": "주주환원",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "삼성은 배당, SK는 소각",
+        "summary": "두 회사의 환원 방식 차이를 비교해 짚었어요",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/industry/2026/08/20/2026082011080213481",
+        "note": "환원 경쟁 확산 주목"
+      },
+      {
+        "rank": "12",
+        "category": "기업",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "하이닉스 순현금 69조 배경",
+        "summary": "AI 메모리 실적이 대규모 소각을 뒷받침했어요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202608191723551157",
+        "note": "현금창출력이 관건이에요"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "8월 20일(목) 국내 증시 마감 기준이에요",
+    "subNoteEm": "SK하이닉스 40조 소각에 코스피 5.89% 폭등",
+    "comment": "외국인이 <b style=\"color:var(--red);\">2조원 넘게</b> 사들이며 반도체 투톱이 지수를 끌어올렸어요. 다만 간밤 뉴욕이 밀렸고 거래대금이 급등기의 절반 수준이라, 오늘은 쏠림 되돌림 여부를 지켜볼 필요가 있어요.",
+    "expectedRange": "코스피 -0.8% ~ +0.4% 부근",
+    "indices": [
+      {
+        "name": "코스피",
+        "tip": "정규장 종가 · KRX",
+        "value": "6,852.58",
+        "change": "▲ 5.89%",
+        "dir": "up"
+      },
+      {
+        "name": "코스닥",
+        "tip": "정규장 종가 · KRX",
+        "value": "840.89",
+        "change": "▲ 1.99%",
+        "dir": "up"
+      }
+    ],
+    "flow": [
+      {
+        "key": "원/달러 환율",
+        "value": "1,392.6원 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "미국 상장 한국물(ADR)",
+        "value": "EWY 178.13 ▲ 2.12%",
+        "dir": "up"
+      }
+    ],
+    "supply": [
+      {
+        "who": "외국인",
+        "amount": "+2조2,703억",
+        "dir": "buy"
+      },
+      {
+        "who": "기관",
+        "amount": "-6,618억",
+        "dir": "sell"
+      },
+      {
+        "who": "개인",
+        "amount": "-2조6,546억",
+        "dir": "sell"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "theme": "반도체",
+        "stockName": "SK하이닉스",
+        "stockChange": "+12.73%"
+      },
+      {
+        "theme": "반도체 대형주",
+        "stockName": "삼성전자",
+        "stockChange": "+9.49%"
+      },
+      {
+        "theme": "바이오",
+        "stockName": "알테오젠",
+        "stockChange": "+11.86%"
+      },
+      {
+        "theme": "코스닥 바이오",
+        "stockName": "네오이뮨텍",
+        "stockChange": "+29.88%"
+      },
+      {
+        "theme": "증권",
+        "stockName": "SK증권",
+        "stockChange": "상한가"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "theme": "제약·바이오",
+        "stockName": "HLB",
+        "stockChange": "-7.24%"
+      },
+      {
+        "theme": "은행",
+        "stockName": "KB금융",
+        "stockChange": "-3.85%"
+      },
+      {
+        "theme": "금융지주",
+        "stockName": "신한지주",
+        "stockChange": "-3.71%"
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "SK하이닉스",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "40조 소각 발표 뒤 수급이 몰렸어요. 과열 여부는 살펴야 해요"
+      },
+      {
+        "name": "삼성전자",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "메모리 가격 강세와 수출 호조가 함께 받쳐주고 있어요"
+      },
+      {
+        "name": "은행·금융주",
+        "badge": "주의",
+        "badgeType": "down",
+        "desc": "반도체 쏠림에 자금이 빠지며 약세를 보였어요"
+      }
+    ],
+    "health": [
+      {
+        "key": "투자자 예탁금",
+        "tip": "대기 자금 · 8/18",
+        "value": "100조7,103억",
+        "subIcon": "▲",
+        "subDir": "up"
+      },
+      {
+        "key": "신용융자 잔고",
+        "tip": "빚투 잔고 · 8/18",
+        "value": "30조8,675억",
+        "subIcon": "▲",
+        "subDir": "up"
+      }
+    ]
+  },
+  "calendar": {
+    "subNote": "일본 물가와 8월 PMI 잠정치가 줄지어 나와요",
+    "subNoteEm": "오전 일본 CPI, 밤 美 PMI가 분수령이에요",
+    "riskSentiment": "혼조",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        {
+          "event": "관세청 8월 1~20일 수출입 실적(잠정)",
+          "when": "오전"
+        }
+      ]
+    },
+    "global": {
+      "timed": [
+        {
+          "time": "08:30",
+          "event": "일본 7월 전국 소비자물가(CPI)",
+          "important": true
+        },
+        {
+          "time": "15:00",
+          "event": "영국 7월 소매판매",
+          "important": false
+        },
+        {
+          "time": "17:00",
+          "event": "유로존 8월 합성 PMI 잠정치",
+          "important": true
+        },
+        {
+          "time": "21:30",
+          "event": "캐나다 6월 소매판매",
+          "important": false
+        },
+        {
+          "time": "22:45",
+          "event": "美 8월 S&P글로벌 PMI 잠정치",
+          "important": true
+        }
+      ],
+      "untimed": []
+    },
+    "theme": "간밤 뉴욕이 금리 되돌림에 밀린 만큼, 어제 폭등한 반도체 쏠림이 얼마나 이어질지가 오늘 관전 포인트예요. 오전 수출 통계와 밤 美 PMI가 방향을 가늠할 재료가 될 수 있어요.",
+    "checks": [
+      "8월 1~20일 수출에서 반도체 증가율이 이어지는지 확인해요",
+      "외국인이 이틀 연속 순매수를 유지하는지 살펴봐요",
+      "원·달러가 1,390원선 아래에 머무는지 지켜봐요",
+      "밤 美 PMI 결과에 따른 금리 방향을 확인해요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-08-16",
+    "end": "2026-08-22",
+    "days": [
+      {
+        "date": "2026-08-16",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-08-17",
+        "weekday": "월",
+        "items": []
+      },
+      {
+        "date": "2026-08-18",
+        "weekday": "화",
+        "items": []
+      },
+      {
+        "date": "2026-08-19",
+        "weekday": "수",
+        "items": [
+          {
+            "region": "global",
+            "time": "23:30",
+            "event": "美 주간 원유재고(EIA)",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "美 재무부 장기물 바이백 확대 발표",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "SK하이닉스 40조 자사주 취득·소각 결의",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-20",
+        "weekday": "목",
+        "items": [
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "美 주간 신규 실업수당 청구건수",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-21",
+        "weekday": "금",
+        "items": [
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "관세청 8월 1~20일 수출입 실적(잠정)",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "08:30",
+            "event": "일본 7월 전국 소비자물가(CPI)",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "15:00",
+            "event": "영국 7월 소매판매",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "17:00",
+            "event": "유로존 8월 합성 PMI 잠정치",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "캐나다 6월 소매판매",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "22:45",
+            "event": "美 8월 S&P글로벌 PMI 잠정치",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-22",
+        "weekday": "토",
+        "items": []
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 8,
+    "days": [
+      {
+        "date": "2026-08-19",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 재무부 장기물 바이백 확대 발표",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "domestic",
+            "event": "SK하이닉스 40조 자사주 취득·소각 결의",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-21",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "관세청 8월 1~20일 수출입 실적(잠정)",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "일본 7월 전국 소비자물가(CPI)",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "유로존 8월 합성 PMI 잠정치",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "美 8월 S&P글로벌 PMI 잠정치",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-23",
+        "items": [
+          {
+            "region": "global",
+            "event": "Hot Chips 2026 개막(~8/25, 스탠퍼드)",
+            "important": false,
+            "category": "conference"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-27",
+        "items": [
+          {
+            "region": "global",
+            "event": "엔비디아 FY27 2분기 실적(美 26일 장 마감 후)",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      }
+    ]
+  }
+}
