@@ -2617,7 +2617,42 @@
       "push": {
         "branch": "claude/adoring-fermi-oau76h"
       }
+    },
+    {
+      "date": "2026-08-22",
+      "time": "07:10",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1008,
+      "tokens_estimated": 178000,
+      "response_size_kb": 26.0,
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "masking_used": [],
+      "sources_attempted": {
+        "Stooq": "fail:403 (curl CSV 12건 전량 빈 응답 / WebFetch도 EGRESS_BLOCKED)",
+        "Yahoo Finance / Google Finance / CNBC / Investing.com / Trading Economics / finviz / stockanalysis / sectorspdrs / slickcharts / FRED / barchart / ts2.tech / hankyung": "fail:EGRESS_BLOCKED (WebFetch 17건 전량 차단)",
+        "WebFetch 총계": "19건 시도 / 2건 성공 (raw.githubusercontent.com context.md·schema.json만 통과)",
+        "WebSearch": "37건. 美 8/21 지수·지표 10종 + 韓 8/21 지수·수급·종목 + 캘린더 + 뉴스 24건 확보",
+        "Read": "5건 (guides 4종·build.py 등 로컬)",
+        "Bash": "12건 (START/END date·curl 프로브·git sync·schema/whitelist/manifest/usage 파싱·JSON 빌드·자체 sanity 전수·validate-briefing.mjs·wc -c·manifest/usage 갱신·commit/push)"
+      },
+      "tool_calls": {
+        "WebFetch": 19,
+        "WebSearch": 37,
+        "Read": 5,
+        "Write": 1,
+        "Bash": 12,
+        "ToolSearch": 1
+      },
+      "notes": "토요일 07:10 발화(2026-08-21 22:10:25 UTC +9h = 08-22 07:10 KST). 주말이라 美·韓 동시 휴장 → us는 8/21(금) 뉴욕 마감, kr은 8/21(금) 국내 마감 기준(operations §2 주말 룰 적용: expectedRange='휴장', calendar timed 전부 빈 배열). ★환경★: 6일 연속 금융·기사 도메인 전면 차단(EGRESS_BLOCKED). curl로 stooq CSV 12건 직접 호출도 403, WebFetch는 finance.yahoo/cnbc/investing/tradingeconomics/google finance/stockanalysis/finviz/sectorspdrs/slickcharts/fred/barchart/ts2/hankyung 등 17건 전량 차단 — raw.githubusercontent.com 2건만 통과. guides 4종·whitelist 3종·schema·manifest·usage는 로컬 clone에서 Read/Bash 파싱. 시세·뉴스·캘린더 전량 WebSearch(37건)로 확보. ★美 8/21(금) 마감 교차검증★: S&P 7,674.37(+0.43%)·나스닥 26,180.45(+0.43%)·다우 53,277.01(+517.80p, +0.98%)를 2개 독립 검색이 동일 수치로 반환했고, 전일(8/20) 종가 7,641.16/26,067.17/52,759.21에 각 등락률을 적용한 계산값과 소수점까지 일치해 확정. Trading Economics 계열 요약이 제시한 7,681(+0.53%)는 채택하지 않음. SOX는 guides §2 예외 룰대로 SOXX 대용(520.06, -0.44%, 전일 522.35 대비 정합). VIX 16.01·10년물 4.73%(전일 4.69%→4.73% 명시)·DXY 98.80·WTI 86.90·금 4,645.00(선물, 전일 4,581.00 대비 +1.4%로 보도된 +1.6%와 정합)·BTC 76,943.90(+6%, 주간 +22%). ★★US 섹터 ETF 대량 미확보(2일 연속)★★: 11종 중 8/21 당일 값이 확인된 것은 소재(XLB +2.30%) 1종뿐. 약 12회 시도(개별 ETF quote 4각도·섹터 리캡 4각도·XLB 교차확인·마감 wrap 3종)했으나 검색 요약이 반환한 XLE +0.4%/XLP·XLV -1.9%/XLY -1.8%는 모두 Zacks 계열 'Stock Market News for Aug 21' 기사의 8/20(목) 장 수치로, 전일 briefing에 이미 8/20분으로 기재된 값과 동일해 8/21로 전용하면 날짜 오귀속이 됨 → 추측 금지 룰에 따라 배제. XLK 183.64·XLU 44.01은 전일 종가가 없어 등락률 산출 불가로 배제. 결과적으로 us.sectorsUp 1건·sectorsDown 0건(data-quality §5 '가져온 만큼만', 마스킹 0건). validate-briefing HARD 5건은 전부 이 섹터 카운트 미달 때문이며 의도된 trade-off. ★韓 8/21★: 코스피 6,912.95(+0.88%, +60.37p)·코스닥 801.94(-4.63%, -38.95p, 10:05 매도 사이드카 올해 32번째·매도 14번째)·원/달러 1,386.5원(주간거래 종가 -6.1원, 11개월 최저). 수급 외인 -3,719억/기관 -3,638억/개인 +7,298억(MTN 마감시황 확정치). ★kr.flow 2건★: 코스피200 야간선물 8/21 실값 3회 시도 미확보, EWY 8/21 종가도 3회 시도 미확보(미 장 마감 05:00 KST 직후로 색인 미반영) → v1.6.1 완화 룰 + 8/15(토) 선례대로 원/달러 + 간밤 나스닥 2건 구성. ★kr.sectorsUp 4건★: 삼성생명 +10.61%·삼성전자우 +8.26%·삼성전자 +3.87%·SK하이닉스 +2.31%까지 실값 확인. 5번째 상승 종목은 개별 등락률이 특정되는 기사를 찾지 못해 제외(3회 시도). sectorsDown은 5건 전부 확정(에코프로비엠 -7.45·에코프로 -7.26·한화에어로 -7.03·알테오젠 -5.74·삼성전기 -5.73). ★kr.health★: 8/13 예탁금 100조683억만 신규 확인되고 8/19~8/21 최신치는 미확보 → 전일 briefing과 동일한 8/18 기준(예탁금 100조7,103억·신용융자 30조8,675억)을 tip에 기준일 명시해 유지. ★뉴스 24건 전량 신규·URL 24/24 유니크★: 글로벌12(美 해설가: 증시2·국채·금리·통화정책·가상자산·지정학·원자재2·중국·기업·거시) 국내12(韓 해설가: 증시·코스닥·반도체3·환율·기업·거시·보험·2차전지·수급·증시제도). 차단 도메인 0·중복 0·전부 https·source↔도메인 전수 통과. 한 카테고리 최대 3건(≤4 충족). ★calendarWeek 8/16(일)~8/22(토) todayIdx=6(토)★ 7일 cell 전부 생성(8/16 빈 items:[]), 총 9건. 오늘 토요일 휴장 2건이 calendar.{domestic,global}.untimed와 정확히 일치 → Sanity⑤ superset 충족. timed/untimed 필드 모양(TimedEvent/UntimedEvent) 전수 통과. calendarMonth 2026-08은 11일·15건. 韓 실적 화이트리스트 hit 0건, 美 빅테크 hit 1건(엔비디아 8/26 FY27 2Q), 학회 hit 1건(Hot Chips 8/23~25 스탠퍼드). 잭슨홀(8/27~29)·워시 의장 첫 기조연설(8/28)은 화이트리스트 밖이므로 conference 아닌 policy로 분류(⑨룰 준수). 일관성 ⑩룰 전수 통과. 08-22는 매월 1일 아님 → whitelist 재생성 불필요. 자체 sanity 전수 FAIL 0 + 페르소나 grep 단정0·추천성0·격식체0·길이위반0(title max 25·summary max 52·note max 18). ★model 필드(13일 연속 동일 이슈)★: prompt Step 8 고정 명시값이 'claude-oups4.85' 오타이고 Step 9·안전원칙은 'claude-opus-4.8' — 전일까지와 동일하게 오타 아닌 쪽을 기록. prompt 한 줄 정정 필요. ★designated branch claude/adoring-fermi-plcbne push★.",
+      "push": {
+        "branch": "claude/adoring-fermi-plcbne"
+      }
     }
   ],
-  "updatedAt": "2026-08-21T07:10:59+09:00"
+  "updatedAt": "2026-08-22T07:10:00+09:00"
 }
