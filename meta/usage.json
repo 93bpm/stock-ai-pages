@@ -2690,7 +2690,45 @@
       "push": {
         "branch": "claude/adoring-fermi-odpkca"
       }
+    },
+    {
+      "date": "2026-08-24",
+      "time": "07:09",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 738,
+      "tokens_estimated": 168000,
+      "response_size_kb": 29.3,
+      "tool_calls": {
+        "WebFetch": 8,
+        "WebSearch": 31,
+        "Read": 7,
+        "Write": 2,
+        "Bash": 9
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq": "fail:403 (proxy CONNECT 거부)",
+        "Yahoo Finance": "fail:egress-blocked",
+        "Google Finance": "fail:egress-blocked",
+        "Investing.com": "fail:egress-blocked",
+        "Trading Economics": "fail:egress-blocked",
+        "CNBC": "fail:egress-blocked",
+        "stockanalysis.com": "fail:egress-blocked",
+        "한국경제": "fail:egress-blocked",
+        "WebSearch": "31/31",
+        "raw.githubusercontent": "2/2 (context.md·schema.json은 요약 반환 → 로컬 clone 정독으로 대체)"
+      },
+      "masking_used": [],
+      "note": "2026-08-24(월) 개장일 회차 — 韓 증시 주말 휴장 뒤 첫 거래일이라 시세는 8/21(금) 마감값 기준, 美도 8/24 정규장 전이라 8/21 종가 기준. ★환경 이슈(2일 연속 동일)★: egress proxy가 Stooq(403 CONNECT)·Yahoo·Google Finance·Investing.com·Trading Economics·CNBC·stockanalysis·한국경제 등 시세/뉴스 도메인을 전부 차단해 WebFetch 8회 전건 실패. sources.md §3 fallback 체인 최종단(WebSearch) 31회만으로 전 데이터 수집. context.md·schema.json은 raw URL이 200이지만 요약본만 반환돼 로컬 clone에서 원문 정독. 시세 교차검증: WTI 87.06은 Investrade 8/21 리뷰(주간 +6.86%)와 TradingEconomics 양쪽에서 확인해 확정(Investing 86.64는 다른 만기물). DXY는 TradingEconomics 8/21 종가 98.82로 갱신(전일 98.68 대비 0.14 차 — 미세차 허용범위). VIX 15.13▼5.50%·금 4,680.60(GC=F 선물, 현물 4,607.35과 구분)·SOXX 520.06(8/20 522.35 대비 -0.44%로 역산 일치)·BTC 77,347.82(주말 시세, 8/21 종가 76,943.90 대비 상승). 韓 수급은 8/21 마감 기준 외인 -1,757억/기관 +2,487억/개인 -1조1,662억으로 재확인(전일 회차 -1,760/+2,485/-1조1,657과 매체별 반올림 차). ★미달 항목(2일 연속 동일 사유)★: us.sectorsUp/Down — 8/21 세션 섹터별 실측 일간 등락률이 소재 +2.0%·유틸리티 -2.0% 두 건 외에는 6회 재검색에도 확인 불가. 검색엔진이 8/20 세션(9개 업종 약세·XLE +0.4%·XLY -1.8%)과 8/21 세션(9개 상승·2개 하락, Investrade 확인)을 뒤섞어 반환해 오귀속 위험이 커 제외. data-quality §3·§5대로 마스킹 대신 항목 제거 → 1/1건. CI HARD 4건은 전부 이 사유. 캘린더: calendarWeek 8/23(일)~8/29(토) 7칸 전부 생성, items 14건. 美 빅테크 실적 hit 1건(엔비디아 FY27 2Q, whitelist NVDA) — KST 환산 룰대로 8/27 06:00 배치(美 8/26 17:00 ET 콘퍼런스콜), calendarMonth도 같은 8/27로 통일해 월간 종합 뷰 (date,event) dedup 일치시킴. 학회 hit 1건(Hot Chips 8/23~25 스탠퍼드, whitelist key=HotChips) — 8/23 개막·8/24 본회의·8/25 폐막으로 3일 분해. 美 주간 지표는 Newsquawk/FinancialJuice 주간 캘린더 기준으로 8/25 내구재·소비자신뢰, 8/27 2Q GDP 수정치+실업수당, 8/28 7월 근원 PCE로 배치(전일 회차의 8/26 GDP·PCE에서 정정). 잭슨홀 8/27~29·워시 첫 기조연설 8/28은 화이트리스트 밖이라 policy. 자체 sanity PASS/FAIL 0 — KST 5룰·sourceUrl 5룰(24/24, 차단도메인 0, 중복 0, 도메인 일관성 0불일치)·카테고리 분포(최대 2건)·마스킹 grep 0·캘린더 일관성 ①~⑩ 전수 통과. 페르소나 45개 인스턴스 grep: 단정 0·추천성 0·격식체 0·길이 위반 0(title max 25·summary 45·note 21). 08-24는 매월 1일 아님 → whitelist 재생성 불필요. ★model 필드(15일 연속 동일 이슈)★: prompt Step 8 고정 명시값이 'claude-oups4.85' 오타, Step 9·안전원칙·v1.6.1 헤더는 'claude-opus-4.8' — 다수 표기를 따라 claude-opus-4.8 기록. 이 세션의 configured model은 claude-opus-5라 명시값이 낡음. prompt Step 8 한 줄 정정 권장. ★designated branch claude/adoring-fermi-c7gcs3 push★.",
+      "push": {
+        "branch": "claude/adoring-fermi-c7gcs3"
+      }
     }
   ],
-  "updatedAt": "2026-08-23T07:09:00+09:00"
+  "updatedAt": "2026-08-24T07:22:00+09:00"
 }
