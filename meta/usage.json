@@ -2728,7 +2728,43 @@
       "push": {
         "branch": "claude/adoring-fermi-c7gcs3"
       }
+    },
+    {
+      "date": "2026-08-25",
+      "time": "07:27",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 919,
+      "tokens_estimated": 152000,
+      "response_size_kb": 20.1,
+      "tool_calls": {
+        "WebFetch": 9,
+        "WebSearch": 52,
+        "Read": 9,
+        "Write": 1,
+        "Bash": 6
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq": "fail:egress-blocked",
+        "Yahoo Finance": "fail:egress-blocked",
+        "Google Finance": "미시도(도메인 차단 확인)",
+        "Investing.com": "fail:egress-blocked",
+        "Trading Economics": "미시도(도메인 차단 확인)",
+        "businesskorea/seoul.co.kr/fool/kvue/247wallst/stocktitan/indexergo": "fail:egress-blocked",
+        "WebSearch": "52/52",
+        "로컬 clone(meta·data)": "9/9"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-gduwzb"
+      },
+      "note": "2026-08-25(화) 회차 — 8/24(월) 美·韓 정규장 마감 기준. ★환경 이슈(3일 연속)★: egress proxy가 Stooq·Yahoo·Investing·국내 언론 등 시세/기사 도메인을 전량 차단해 WebFetch 9회 모두 실패, sources.md fallback 최종단(WebSearch)만으로 수집. 美 섹터 11종은 일간 섹터 테이블(6개 상승/5개 하락, 기술 -1.27% 최하위)로 교차검증. ★필라델피아 반도체만 실측 종가 확보 실패★ — SOXX 8/22 종가 520.05와 8/24 -2.7% 보도를 환산한 506.0을 tip에 환산 사실 명시해 기재(마스킹 아님). kr.flow는 야간선물·ADR 미확보로 2개(v1.6.1 완화 적용). kr.health 예탁금·신용융자는 8/18 기준 최신 확인치 유지."
     }
   ],
-  "updatedAt": "2026-08-24T07:22:00+09:00"
+  "updatedAt": "2026-08-25T07:27:00+09:00"
 }
