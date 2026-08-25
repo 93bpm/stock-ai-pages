@@ -2764,7 +2764,43 @@
         "branch": "claude/adoring-fermi-gduwzb"
       },
       "note": "2026-08-25(화) 회차 — 8/24(월) 美·韓 정규장 마감 기준. ★환경 이슈(3일 연속)★: egress proxy가 Stooq·Yahoo·Investing·국내 언론 등 시세/기사 도메인을 전량 차단해 WebFetch 9회 모두 실패, sources.md fallback 최종단(WebSearch)만으로 수집. 美 섹터 11종은 일간 섹터 테이블(6개 상승/5개 하락, 기술 -1.27% 최하위)로 교차검증. ★필라델피아 반도체만 실측 종가 확보 실패★ — SOXX 8/22 종가 520.05와 8/24 -2.7% 보도를 환산한 506.0을 tip에 환산 사실 명시해 기재(마스킹 아님). kr.flow는 야간선물·ADR 미확보로 2개(v1.6.1 완화 적용). kr.health 예탁금·신용융자는 8/18 기준 최신 확인치 유지."
+    },
+    {
+      "date": "2026-08-26",
+      "time": "07:11",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1117,
+      "tokens_estimated": 168000,
+      "response_size_kb": 22.9,
+      "tool_calls": {
+        "WebFetch": 12,
+        "WebSearch": 54,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 11
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq": "fail:egress-blocked",
+        "Yahoo Finance": "fail:egress-blocked",
+        "CNBC": "fail:egress-blocked",
+        "Investing.com": "미시도(도메인 차단 확인)",
+        "Trading Economics": "미시도(도메인 차단 확인)",
+        "infostockdaily/vittarthi": "fail:egress-blocked",
+        "WebSearch": "54/54",
+        "로컬 clone(meta·data guides·whitelist)": "7/7"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-mxsk5s"
+      },
+      "note": "2026-08-26(수) 회차 — 8/25(화) 美·韓 정규장 마감 기준. ★환경 이슈(4일 연속)★: egress proxy가 Stooq·Yahoo·CNBC·국내 언론 등 시세/기사 도메인을 전량 차단해 WebFetch 12회 모두 실패, WebSearch 단일 경로로 수집(guides는 로컬 clone에서 직접 정독). ★카운트 미달 3건(마스킹 대신 항목 제거, data-quality §3·§5)★: us.sectorsUp 2/5·us.sectorsDown 2/5 — 8/25 종가 기준 11개 섹터 ETF 표를 14회 검색에도 확보 실패, 검증된 XLK +0.93%·XLV +0.44%·XLE -0.86%·XLU -0.01%만 기재. kr.sectorsDown 4/5 — 리노공업은 장중(-2.48%)/마감(+4.33%) 출처 충돌로 제외. 필라델피아 반도체는 종가 미확보로 SOXX 8/25 13:32 ET 장중 시세(512.80, +1.31%)를 tip에 명시해 기재(마스킹 아님). kr.flow는 야간선물·ADR 미확보로 2개(v1.6.1 완화). kr.health 예탁금·신용융자는 8/18 기준 최신 확인치 유지. ★prompt Step 8 model 명시값 오타(claude-oups4.85) — 헤더·안전원칙의 claude-opus-4.8을 채택★"
     }
   ],
-  "updatedAt": "2026-08-25T07:27:00+09:00"
+  "updatedAt": "2026-08-26T07:11:00+09:00"
 }

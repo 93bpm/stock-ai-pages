@@ -1,0 +1,711 @@
+{
+  "date": "2026-08-26",
+  "weekday": "수",
+  "generatedAt": "2026-08-26T07:11:00+09:00",
+  "us": {
+    "subNote": "8/25(화) 뉴욕 증시는 3대 지수가 나란히 올랐어요. 기술주가 반등했고 유가·금리가 함께 내려줬어요.",
+    "subNoteEm": "엔비디아 실적 D-1, 기술주 먼저 반등",
+    "comment": "칩으로 돈이 다시 들어온 하루였어요. <b style=\"color:var(--blue);\">유가 4%대 급락</b>과 금리 하락이 겹쳐 아시아 장에도 우호적으로 작용할 수 있어요. 오늘 밤 21:30 KST 美 7월 PCE가 분위기를 가를 수 있어요.",
+    "indices": [
+      {
+        "name": "S&P 500",
+        "tip": "정규장 종가 · 8/25(화)",
+        "value": "7,677.28",
+        "change": "▲ 0.32%",
+        "dir": "up"
+      },
+      {
+        "name": "나스닥 종합",
+        "tip": "정규장 종가 · 8/25(화)",
+        "value": "26,151.30",
+        "change": "▲ 0.66%",
+        "dir": "up"
+      },
+      {
+        "name": "다우존스",
+        "tip": "정규장 종가 · 160.24p 상승",
+        "value": "53,577.40",
+        "change": "▲ 0.30%",
+        "dir": "up"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "tip": "SOXX ETF 대용 · 8/25 13:32 ET 장중 시세(종가 미확보)",
+        "value": "512.80",
+        "change": "▲ 1.31%",
+        "dir": "up"
+      }
+    ],
+    "indicators": [
+      {
+        "key": "VIX",
+        "value": "15.13 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "美 10년물",
+        "value": "4.66% ▼",
+        "dir": "down"
+      },
+      {
+        "key": "달러인덱스",
+        "value": "98.84 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "WTI 유가",
+        "value": "$81.15 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "금",
+        "value": "$4,637.17 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "비트코인",
+        "value": "$79,111.64 ▲",
+        "dir": "up"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "name": "기술 (XLK)",
+        "change": "+0.93%"
+      },
+      {
+        "name": "헬스케어 (XLV)",
+        "change": "+0.44%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "name": "에너지 (XLE)",
+        "change": "-0.86%"
+      },
+      {
+        "name": "유틸리티 (XLU)",
+        "change": "-0.01%"
+      }
+    ]
+  },
+  "world": {
+    "subNote": "글로벌은 엔비디아 실적과 PCE를 기다리고, 국내는 원전 테마와 금통위 경계가 뒤섞였어요.",
+    "subNoteEm": "이벤트 대기 속 테마 순환매",
+    "global": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "뉴욕 3대 지수 동반 상승 마감",
+        "summary": "기술주가 반등하면서 3대 지수가 나란히 올랐어요.",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/wall-street-ends-higher-tech-200038341.html",
+        "note": "아시아 장 위험선호에 우호적"
+      },
+      {
+        "rank": "02",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "엔비디아 실적 발표 하루 앞으로",
+        "summary": "26일 장 마감 후 발표를 앞두고 반도체주가 먼저 움직였어요.",
+        "source": "TheStreet",
+        "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-25-2026",
+        "note": "HBM 수요 가늠자가 돼요"
+      },
+      {
+        "rank": "03",
+        "category": "물가",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "美 7월 PCE 오늘 밤 공개",
+        "summary": "근원 3.3% 유지, 헤드라인은 3.6%로 소폭 둔화가 예상돼요.",
+        "source": "Morningstar",
+        "sourceUrl": "https://www.morningstar.com/economy/pce-inflation-likely-edge-higher-july",
+        "note": "9월 금리 경로를 가를 지표"
+      },
+      {
+        "rank": "04",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "워시 의장 첫 잭슨홀 연설",
+        "summary": "28일 기조연설이 9월 FOMC 방향을 가를 분수령으로 꼽혀요.",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/warsh-first-jackson-hole-speech-200000444.html",
+        "note": "장기 금리 궤적이 걸려요"
+      },
+      {
+        "rank": "05",
+        "category": "소비",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "美 소비자신뢰 7개월 만에 최저",
+        "summary": "8월 지수가 89.4로 내려갔고 기대지수는 68.2까지 밀렸어요.",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/economy/articles/u-consumer-confidence-hits-seven-170933631.html",
+        "note": "기름값 부담이 소비를 눌러요"
+      },
+      {
+        "rank": "06",
+        "category": "채권",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "재무부 국채 바이백 두 배 확대",
+        "summary": "장기물 매입을 회당 40억 달러로 늘려 금리 상단을 눌렀어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/20/treasury-bond-buybacks-long-term-yields.html",
+        "note": "금리 하락은 성장주에 우호적"
+      },
+      {
+        "rank": "07",
+        "category": "원자재",
+        "categoryStyle": "geo",
+        "sentiment": "pos",
+        "title": "WTI 81달러대로 4%대 급락",
+        "summary": "호르무즈 기뢰 제거 소식이 전해지며 유가가 크게 밀렸어요.",
+        "source": "Trading Economics",
+        "sourceUrl": "https://tradingeconomics.com/commodity/crude-oil/news/524013",
+        "note": "정유·항공 원가 부담이 줄어요"
+      },
+      {
+        "rank": "08",
+        "category": "에너지",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "OPEC·IEA 올해 수요 전망 하향",
+        "summary": "호르무즈 봉쇄 여파로 수요가 하루 160만 배럴 줄 것으로 봤어요.",
+        "source": "OilPrice.com",
+        "sourceUrl": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-OPEC-and-IEA-Slash-2026-Demand-Outlooks.html",
+        "note": "경기 둔화 신호로도 읽혀요"
+      },
+      {
+        "rank": "09",
+        "category": "관세",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "캐나다, 9월 8일 보복관세 예고",
+        "summary": "美 50% 관세에 맞서 카니 총리가 맞대응 조치를 공식화했어요.",
+        "source": "NPR",
+        "sourceUrl": "https://www.npr.org/2026/08/25/nx-s1-5944240/canada-us-tariffs",
+        "note": "북미 공급망 원가가 흔들려요"
+      },
+      {
+        "rank": "10",
+        "category": "AI 인프라",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "마벨, AI 메모리 신제품 공개",
+        "summary": "CXL 메모리 확장과 광학 공유 메모리로 추론 효율을 끌어올렸어요.",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/marvell-advances-ai-memory-infrastructure-130000582.html",
+        "note": "메모리 수요 저변이 넓어져요"
+      },
+      {
+        "rank": "11",
+        "category": "가상자산",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "비트코인 7만9천 달러대 회복",
+        "summary": "클래리티법 통과 기대가 이어지며 3개월 만의 최고 출발을 보였어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/20/bitcoin-surges-as-trump-crypto-execs-lead-final-push-for-clarity-act.html",
+        "note": "위험자산 심리 회복 신호"
+      },
+      {
+        "rank": "12",
+        "category": "바이오",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "모더나 암백신 3상 성공 여진",
+        "summary": "흑색종 맞춤 mRNA 백신이 1차 지표를 충족하며 주가가 출렁였어요.",
+        "source": "Seeking Alpha",
+        "sourceUrl": "https://seekingalpha.com/article/4938388-moderna-stock-surging-on-cancer-vaccine-breakthrough-i-see-more-volatility-ahead",
+        "note": "국내 바이오 심리에도 영향"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스피, 4% 급락 딛고 반등 마감",
+        "summary": "장중 6,408까지 밀렸다가 45.78포인트 올라 상승 전환했어요.",
+        "source": "청년일보",
+        "sourceUrl": "https://www.youthdaily.co.kr/news/article.html?no=225684",
+        "note": "저가 매수세가 강하게 붙었어요"
+      },
+      {
+        "rank": "02",
+        "category": "코스닥",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스닥 827선, 이틀째 상승",
+        "summary": "전기전자·기계장비 매수가 늘며 1.70% 오른 827.15로 마쳤어요.",
+        "source": "Businesskorea",
+        "sourceUrl": "https://www.businesskorea.co.kr/news/articleView.html?idxno=275490",
+        "note": "중소형주 온기가 이어졌어요"
+      },
+      {
+        "rank": "03",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "외국인 3.9조 순매도, 기관이 방어",
+        "summary": "외국인이 크게 팔았지만 기관·기타법인 매수가 지수를 지켰어요.",
+        "source": "EBN",
+        "sourceUrl": "https://www.ebn.co.kr/news/articleView.html?idxno=1721618",
+        "note": "외국인 복귀 여부가 관건"
+      },
+      {
+        "rank": "04",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "원·달러 1,386.1원 상승 마감",
+        "summary": "달러 강세와 외국인 매도가 겹치며 8거래일 만에 올랐어요.",
+        "source": "베타뉴스",
+        "sourceUrl": "https://www.betanews.net/article/view/beta202608250083",
+        "note": "환율 반등은 수급에 부담"
+      },
+      {
+        "rank": "05",
+        "category": "원전",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "원전주 일제히 급등",
+        "summary": "한전기술 20.27%, 두산에너빌리티 10.55% 오르며 지수를 끌어올렸어요.",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/2026082522021",
+        "note": "비반도체 대안 테마로 부상"
+      },
+      {
+        "rank": "06",
+        "category": "정책",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "美, 웨스팅하우스 지분 인수 제안",
+        "summary": "공동 출자 SPC 설립안이 거론되며 원전 지재권 해소 기대가 커졌어요.",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/2026082496041",
+        "note": "원전 수출 걸림돌이 풀릴 수도"
+      },
+      {
+        "rank": "07",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "27일 금통위, 인상·동결 팽팽",
+        "summary": "연 2.75%에서 3.00% 인상론과 관망론이 맞서고 있어요.",
+        "source": "헤럴드경제",
+        "sourceUrl": "https://biz.heraldcorp.com/article/10850965",
+        "note": "환율·물가 판단이 갈림길"
+      },
+      {
+        "rank": "08",
+        "category": "증시전망",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "이번 주 국장 변수 셋",
+        "summary": "엔비디아 실적, 한은 금통위, 잭슨홀이 나란히 대기하고 있어요.",
+        "source": "헤럴드경제",
+        "sourceUrl": "https://biz.heraldcorp.com/article/10850558",
+        "note": "이벤트가 몰려 변동성 확대"
+      },
+      {
+        "rank": "09",
+        "category": "2차전지",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "코스닥 시총 상위주는 약세",
+        "summary": "알테오젠 -4.68%, 에코프로비엠 -3.85% 등 대형주가 밀렸어요.",
+        "source": "국제뉴스",
+        "sourceUrl": "https://www.gukjenews.com/news/articleView.html?idxno=3667967",
+        "note": "지수와 대형주가 따로 놀았어요"
+      },
+      {
+        "rank": "10",
+        "category": "증시제도",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "MSCI 8월 정기변경 31일 반영",
+        "summary": "LG이노텍이 편입되고 LG디스플레이 등 4종목이 빠져요.",
+        "source": "포쓰저널",
+        "sourceUrl": "https://www.4th.kr/news/articleView.html?idxno=2116248",
+        "note": "패시브 자금 이동이 예상돼요"
+      },
+      {
+        "rank": "11",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "SK하이닉스, HBM4 장기계약 확보",
+        "summary": "美 빅테크와 다년 공급 계약을 맺으며 AI 메모리 주도권을 굳혔어요.",
+        "source": "글로벌이코노믹",
+        "sourceUrl": "https://www.g-enews.com/article/Global-Biz/2026/08/202608010709515469fbbec65dfb_1",
+        "note": "HBM 점유율 방어에 힘"
+      },
+      {
+        "rank": "12",
+        "category": "조선·방산",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "한화오션, KDDX 선도함 수주 눈앞",
+        "summary": "7조 8천억 규모 차기 구축함 사업에서 근소한 차로 앞섰어요.",
+        "source": "스페셜경제",
+        "sourceUrl": "https://www.speconomy.com/news/articleView.html?idxno=414838",
+        "note": "방산 수주 모멘텀이 이어져요"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "8/25(화) 코스피는 장중 4% 넘게 밀렸다가 원전·건설주 힘으로 상승 반전했어요.",
+    "subNoteEm": "6,408까지 밀렸다 6,742로 반전",
+    "comment": "반도체에서 빠진 돈이 <b style=\"color:var(--red);\">원전·건설</b>로 갈아탄 하루였어요. 오늘은 밤 PCE와 내일 금통위를 함께 보면 흐름 읽기가 편해요.",
+    "expectedRange": "코스피 6,700 ~ 6,850 부근 등락 예상",
+    "indices": [
+      {
+        "name": "코스피",
+        "tip": "정규장 종가 · 8/25(화) KRX",
+        "value": "6,742.74",
+        "change": "▲ 0.68%",
+        "dir": "up"
+      },
+      {
+        "name": "코스닥",
+        "tip": "정규장 종가 · 8/25(화) KRX",
+        "value": "827.15",
+        "change": "▲ 1.70%",
+        "dir": "up"
+      }
+    ],
+    "flow": [
+      {
+        "key": "원/달러 환율",
+        "value": "1,386.1원 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "美 나스닥 (8/25 종가)",
+        "value": "26,151.30 ▲",
+        "dir": "up"
+      }
+    ],
+    "supply": [
+      {
+        "who": "외국인",
+        "amount": "-3조 9,454억",
+        "dir": "sell"
+      },
+      {
+        "who": "기관",
+        "amount": "+1조 2,480억",
+        "dir": "buy"
+      },
+      {
+        "who": "개인",
+        "amount": "+1조 1,289억",
+        "dir": "buy"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "theme": "원전 기자재",
+        "stockName": "한전기술",
+        "stockChange": "+20.27%"
+      },
+      {
+        "theme": "건설",
+        "stockName": "현대건설",
+        "stockChange": "+14.87%"
+      },
+      {
+        "theme": "반도체 부품",
+        "stockName": "심텍",
+        "stockChange": "+11.12%"
+      },
+      {
+        "theme": "발전설비",
+        "stockName": "두산에너빌리티",
+        "stockChange": "+10.55%"
+      },
+      {
+        "theme": "반도체 장비",
+        "stockName": "HPSP",
+        "stockChange": "+10.35%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "theme": "바이오",
+        "stockName": "알테오젠",
+        "stockChange": "-4.68%"
+      },
+      {
+        "theme": "양극재",
+        "stockName": "에코프로비엠",
+        "stockChange": "-3.85%"
+      },
+      {
+        "theme": "2차전지 지주",
+        "stockName": "에코프로",
+        "stockChange": "-3.07%"
+      },
+      {
+        "theme": "미용 의료",
+        "stockName": "파마리서치",
+        "stockChange": "-1.56%"
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "한전기술",
+        "badge": "원전 급등",
+        "badgeType": "up",
+        "desc": "웨스팅하우스 지분 제안 소식에 20% 넘게 올랐어요. 후속 협의가 어떻게 진행되는지 같이 보면 좋아요."
+      },
+      {
+        "name": "SK하이닉스",
+        "badge": "HBM4 계약",
+        "badgeType": "up",
+        "desc": "167만 8,000원에 소폭 올랐고, 엔비디아 실적 결과에 따라 방향이 갈릴 수 있어요."
+      },
+      {
+        "name": "삼성전자",
+        "badge": "보합 회복",
+        "badgeType": "default",
+        "desc": "장중 4% 가까이 밀렸다가 25만 7,000원 보합으로 되돌렸어요."
+      },
+      {
+        "name": "LG이노텍",
+        "badge": "MSCI 편입",
+        "badgeType": "up",
+        "desc": "31일 장 마감 후 리밸런싱이라 패시브 자금 유입 기대가 남아 있어요."
+      }
+    ],
+    "health": [
+      {
+        "key": "투자자 예탁금",
+        "tip": "대기 자금 · 8/18 기준",
+        "value": "104조 7,550억",
+        "subIcon": "▲",
+        "subDir": "up"
+      },
+      {
+        "key": "신용융자 잔고",
+        "tip": "빚투 규모 · 8/18 기준",
+        "value": "31조 1,045억",
+        "subIcon": "▲",
+        "subDir": "up"
+      }
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘 밤 美 7월 PCE와 새벽 엔비디아 실적이 연달아 나와요.",
+    "subNoteEm": "PCE·엔비디아, 하룻밤 두 관문",
+    "riskSentiment": "혼조",
+    "domestic": {
+      "timed": [],
+      "untimed": []
+    },
+    "global": {
+      "timed": [
+        {
+          "time": "21:30",
+          "event": "美 7월 PCE 물가지수",
+          "important": true
+        }
+      ],
+      "untimed": [
+        {
+          "event": "엔비디아 FY27 2분기 실적 발표",
+          "when": "美 장 마감 후 · KST 27일 새벽"
+        }
+      ]
+    },
+    "theme": "국장은 반도체와 원전 테마가 번갈아 힘을 쓰는 흐름이에요. 오늘 밤 지표와 실적 결과에 따라 내일 시초가 방향이 갈릴 수 있어요.",
+    "checks": [
+      "21:30 KST 美 7월 PCE, 근원 3.3% 유지 여부",
+      "새벽 엔비디아 실적과 시간외 주가 반응",
+      "외국인 순매도가 이어지는지 수급 확인",
+      "원·달러 1,380원대에 머무는지 점검",
+      "내일 금통위 앞둔 금리 민감 업종 흐름"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-08-23",
+    "end": "2026-08-29",
+    "days": [
+      {
+        "date": "2026-08-23",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-08-24",
+        "weekday": "월",
+        "items": []
+      },
+      {
+        "date": "2026-08-25",
+        "weekday": "화",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 8월 소비자신뢰지수(컨퍼런스보드)",
+            "important": false,
+            "category": "macro",
+            "time": "23:00"
+          },
+          {
+            "region": "global",
+            "event": "Hot Chips 2026 (스탠퍼드)",
+            "important": false,
+            "category": "conference",
+            "time": null
+          }
+        ]
+      },
+      {
+        "date": "2026-08-26",
+        "weekday": "수",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 7월 PCE 물가지수",
+            "important": true,
+            "category": "macro",
+            "time": "21:30"
+          },
+          {
+            "region": "global",
+            "event": "엔비디아 FY27 2분기 실적 발표",
+            "important": true,
+            "category": "earnings",
+            "time": null
+          }
+        ]
+      },
+      {
+        "date": "2026-08-27",
+        "weekday": "목",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "한국은행 8월 금통위 기준금리 결정",
+            "important": true,
+            "category": "policy",
+            "time": null
+          }
+        ]
+      },
+      {
+        "date": "2026-08-28",
+        "weekday": "금",
+        "items": [
+          {
+            "region": "global",
+            "event": "잭슨홀 심포지엄 개막(KST 기준)",
+            "important": false,
+            "category": "policy",
+            "time": null
+          },
+          {
+            "region": "global",
+            "event": "워시 Fed 의장 잭슨홀 기조연설",
+            "important": true,
+            "category": "policy",
+            "time": null
+          }
+        ]
+      },
+      {
+        "date": "2026-08-29",
+        "weekday": "토",
+        "items": []
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 8,
+    "days": [
+      {
+        "date": "2026-08-25",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 8월 소비자신뢰지수",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "Hot Chips 2026",
+            "important": false,
+            "category": "conference"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-26",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 7월 PCE 물가지수",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "엔비디아 FY27 2분기 실적",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-27",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "한국은행 8월 금통위",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-28",
+        "items": [
+          {
+            "region": "global",
+            "event": "잭슨홀 심포지엄 개막",
+            "important": false,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "event": "워시 Fed 의장 기조연설",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-31",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "MSCI 8월 정기변경 리밸런싱 반영",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      }
+    ]
+  }
+}
