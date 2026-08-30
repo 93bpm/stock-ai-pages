@@ -1,0 +1,713 @@
+{
+  "date": "2026-08-31",
+  "weekday": "월",
+  "generatedAt": "2026-08-31T07:11:00+09:00",
+  "us": {
+    "subNote": "美 증시는 주말 휴장이라 8/28(금) 마감값 기준이에요. 워시 Fed 의장의 잭슨홀 첫 연설이 매파로 읽히며 3대 지수가 나란히 밀렸지만, 주간으로는 S&P 500이 0.5% 올라 3주 만에 상승 주간을 만들었어요.",
+    "subNoteEm": "9월 인상 확률 57.5%로 급등, 국채금리·달러가 함께 올랐어요",
+    "comment": "지수 낙폭은 작았는데 금리에 민감한 자산이 훨씬 크게 반응했어요. 10년물이 4.73%까지 오르고 달러인덱스가 99.6대로 붙는 사이 <b style=\"color:var(--blue);\">금이 3%대 밀린 4,456달러</b>로 내려왔고, 비트코인도 7만8천달러를 밑돌았어요. 반도체가 약했던 만큼 아시아 장 초반 반도체 수급에 부담으로 작용할 가능성이 있어요.",
+    "indices": [
+      {
+        "name": "S&P 500",
+        "tip": "정규장 종가 · 8/28(금)",
+        "value": "7,711.76",
+        "change": "▼ 0.25%",
+        "dir": "down"
+      },
+      {
+        "name": "나스닥 종합",
+        "tip": "정규장 종가 · 8/28(금)",
+        "value": "26,402.42",
+        "change": "▼ 0.52%",
+        "dir": "down"
+      },
+      {
+        "name": "다우존스",
+        "tip": "정규장 종가 · 8/28(금)",
+        "value": "53,559.99",
+        "change": "▼ 0.02%",
+        "dir": "down"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "tip": "SOX 지수 종가 · 8/28(금)",
+        "value": "11,699.77",
+        "change": "▼ 1.54%",
+        "dir": "down"
+      }
+    ],
+    "indicators": [
+      {
+        "key": "VIX",
+        "value": "14.43 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "美 10년물",
+        "value": "4.73% ▲",
+        "dir": "up"
+      },
+      {
+        "key": "달러인덱스",
+        "value": "99.64 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "WTI 유가",
+        "value": "$83.44 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "금",
+        "value": "$4,456.20 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "비트코인",
+        "value": "$77,414 ▼",
+        "dir": "down"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "name": "IT서비스 · IBEX",
+        "change": "+33.7%"
+      },
+      {
+        "name": "소프트웨어 · 일래스틱",
+        "change": "+24.3%"
+      },
+      {
+        "name": "양자컴퓨팅 · 아이온큐",
+        "change": "+14.0%"
+      },
+      {
+        "name": "핀테크 · 어펌",
+        "change": "+10.2%"
+      },
+      {
+        "name": "소프트웨어 · 워크데이",
+        "change": "+6.0%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "name": "핀테크 · 페이팔",
+        "change": "−11.1%"
+      },
+      {
+        "name": "반도체 · 마벨테크놀로지",
+        "change": "−6.0%"
+      },
+      {
+        "name": "반도체 · 엔비디아",
+        "change": "−4.0%"
+      },
+      {
+        "name": "반도체 ETF · SOXX",
+        "change": "−3.3%"
+      },
+      {
+        "name": "반도체 지수 · SOX",
+        "change": "−1.54%"
+      }
+    ]
+  },
+  "world": {
+    "subNote": "잭슨홀이 끝나면서 시선은 9월 FOMC로 옮겨갔어요. 해외는 매파 Fed와 흔들린 제조업 지표를, 국내는 MSCI 정기변경 반영과 반도체 수급을 함께 보는 한 주가 될 것 같아요.",
+    "subNoteEm": "매파 잭슨홀과 시카고 PMI 쇼크가 같이 왔어요",
+    "global": [
+      {
+        "rank": "01",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "워시 Fed 의장, 잭슨홀서 인플레 경고",
+        "summary": "물가가 2% 경로로 돌아온다는 확신이 없으면 할 일이 남았다고 했어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-fed-inflation-rate-hike.html",
+        "note": "9월 인상 가능성이 커졌어요"
+      },
+      {
+        "rank": "02",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "S&P 500 금요일 하락, 주간은 상승",
+        "summary": "워시 발언에 0.25% 밀렸지만 주간으로는 0.5% 올랐어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/27/stock-market-today-live-updates.html",
+        "note": "3주 만의 상승 주간이에요"
+      },
+      {
+        "rank": "03",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "시카고 PMI 47.1, 예상 크게 하회",
+        "summary": "전월 57.6에서 10포인트 넘게 빠지며 위축 국면으로 내려왔어요.",
+        "source": "Investing.com",
+        "sourceUrl": "https://www.investing.com/news/economic-indicators/chicago-pmi-falls-short-of-expectations-indicating-contraction-93CH-4881459",
+        "note": "제조업 둔화 신호가 나왔어요"
+      },
+      {
+        "rank": "04",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "마벨, 가이던스 실망에 6% 하락",
+        "summary": "2분기 매출은 잘 나왔지만 2028회계연도 전망이 기대에 못 미쳤어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/28/marvell-mrvl-q2-earnings-outlook.html",
+        "note": "AI 칩 눈높이가 높아졌어요"
+      },
+      {
+        "rank": "05",
+        "category": "변동성",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "VIX 연중 최저, 시장은 담담했어요",
+        "summary": "지수는 밀렸지만 변동성 지표는 올해 가장 낮은 수준으로 내려왔어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/28/stock-traders-warm-up-to-warsh-as-volatility-index-touches-year-to-date-low.html",
+        "note": "공포 심리는 크지 않아요"
+      },
+      {
+        "rank": "06",
+        "category": "원자재",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "금값 3%대 급락, 4,456달러",
+        "summary": "달러 강세와 인상 베팅이 겹치며 하루 만에 3% 넘게 밀렸어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/28/gold-slips-as-fed-chief-warshs-jackson-hole-speech-looms.html",
+        "note": "안전자산도 금리엔 약해요"
+      },
+      {
+        "rank": "07",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "달러인덱스 99.6대, 주간 1% 상승",
+        "summary": "워시 발언 뒤 달러가 세지며 일주일 만의 최고 수준으로 올라섰어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/28/dollar-flat-near-one-week-high-before-warshs-jackson-hole-debut.html",
+        "note": "원/달러 되돌림 압력이에요"
+      },
+      {
+        "rank": "08",
+        "category": "정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "연준 인상 군불, 9월 FOMC 주목",
+        "summary": "취임 후 두 번 동결했던 워시 의장이 긴축 가능성을 열어뒀어요.",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202608301309591030",
+        "note": "정책 불확실성이 커졌어요"
+      },
+      {
+        "rank": "09",
+        "category": "가상자산",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "비트코인 7만8천달러 아래로",
+        "summary": "매파 발언을 소화하며 위험자산 가운데 낙폭이 가장 컸어요.",
+        "source": "CoinDesk",
+        "sourceUrl": "https://www.coindesk.com/business/2026/08/28/live-updates-bitcoin-options-worth-usd6-4-billion-just-expired-as-prices-hover-near-usd80-000",
+        "note": "위험선호가 약해졌어요"
+      },
+      {
+        "rank": "10",
+        "category": "지정학",
+        "categoryStyle": "geo",
+        "sentiment": "neu",
+        "title": "이란 \"대화 불가능하진 않다\"",
+        "summary": "제재 압박에 반발하면서도 외교 여지는 남겨뒀어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/28/us-iran-war-trump-hormuz-oman-centcom.html",
+        "note": "협상 기대가 유가를 눌러요"
+      },
+      {
+        "rank": "11",
+        "category": "유가",
+        "categoryStyle": "geo",
+        "sentiment": "pos",
+        "title": "국제유가 주간 하락, 호르무즈 주시",
+        "summary": "외교 교착에도 원유 흐름이 일부 유지되며 유가가 밀렸어요.",
+        "source": "Investing.com",
+        "sourceUrl": "https://www.investing.com/news/commodities-news/oil-on-track-for-weekly-loss-even-as-iran-tensions-simmer-4880409",
+        "note": "정유·항공 원가에 연결돼요"
+      },
+      {
+        "rank": "12",
+        "category": "중국",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "中 8월 제조업 PMI 이번 주 발표",
+        "summary": "美 금리 방향과 함께 중국 경기 지표가 아시아 증시 변수로 꼽혀요.",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20260830000197",
+        "note": "中 지표는 韓 수출과 연결돼요"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스피 6,800선 내줘, 외국인 1.7조 순매도",
+        "summary": "반도체 대형주에 매물이 몰리며 지수가 1.79% 밀렸어요.",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/2026082897216",
+        "note": "외국인 매도가 지수를 눌러요"
+      },
+      {
+        "rank": "02",
+        "category": "증시제도",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "LG이노텍 MSCI 편입, HLB 등 4곳 편출",
+        "summary": "8월 정기변경 결과가 8/31 종가 기준으로 반영돼요.",
+        "source": "디지털타임스",
+        "sourceUrl": "https://www.dt.co.kr/article/12078055",
+        "note": "패시브 자금이 움직여요"
+      },
+      {
+        "rank": "03",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "코스피 7000선 안착, 美 금리가 관건",
+        "summary": "반도체 수출 호조와 금리 인상 경계가 맞서는 한 주로 보여요.",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202608301802066920",
+        "note": "7000선 재도전이 관전포인트예요"
+      },
+      {
+        "rank": "04",
+        "category": "전망",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "7000P 다시 넘나, 美 금리·고용이 변수",
+        "summary": "9/4 美 고용지표 결과에 따라 방향이 갈릴 수 있다고 봐요.",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/08/31/2026083019312052703",
+        "note": "고용지표가 분수령이에요"
+      },
+      {
+        "rank": "05",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "삼성·SK, 메모리 병목 정조준",
+        "summary": "맞춤형 설계와 20단 적층으로 AI 메모리 경쟁에 나섰어요.",
+        "source": "서울경제",
+        "sourceUrl": "https://www.sedaily.com/article/20082851",
+        "note": "HBM 기술 경쟁이 빨라져요"
+      },
+      {
+        "rank": "06",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "HBM 놓고 삼성·SK 신경전 팽팽",
+        "summary": "점유율 격차를 두고 두 회사의 시각이 엇갈리고 있어요.",
+        "source": "헤럴드경제",
+        "sourceUrl": "https://biz.heraldcorp.com/article/10826093",
+        "note": "HBM 점유율 싸움이 커져요"
+      },
+      {
+        "rank": "07",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "로봇 탄 삼성전자, HBM에 눌린 하이닉스",
+        "summary": "같은 반도체인데도 사업 구성에 따라 주가 흐름이 갈렸어요.",
+        "source": "뉴스1",
+        "sourceUrl": "https://www.news1.kr/finance/market-exr/6255789",
+        "note": "종목별 차별화가 뚜렷해요"
+      },
+      {
+        "rank": "08",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "환율 1,372.5원, 13개월 만의 최저",
+        "summary": "하루 만에 8.4원 내리며 1,380원 아래로 자리를 옮겼어요.",
+        "source": "아주경제",
+        "sourceUrl": "https://www.ajunews.com/view/20260828102228578",
+        "note": "수입 원가 부담이 줄어요"
+      },
+      {
+        "rank": "09",
+        "category": "화장품",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "K-뷰티도 달린다, 화장품주 신고가",
+        "summary": "수출 호조 기대에 한국콜마·코스맥스가 나란히 급등했어요.",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202608130701426134",
+        "note": "반도체 밖 대안이 생겼어요"
+      },
+      {
+        "rank": "10",
+        "category": "수출",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "8월 초순 수출 역대 최대, 반도체가 절반",
+        "summary": "1~20일 수출은 552억달러로 전년보다 56% 늘었어요.",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/2026081150271",
+        "note": "9/1 수출 지표가 기대돼요"
+      },
+      {
+        "rank": "11",
+        "category": "시장체력",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "증시 대기자금 이탈, 예탁금 감소",
+        "summary": "변동성이 커지자 투자자들이 자금을 빼는 흐름이 나타났어요.",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/08/25/2026082516022031752",
+        "note": "유동성 위축은 부담이에요"
+      },
+      {
+        "rank": "12",
+        "category": "투자심리",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "외신도 주목한 올해 코스피 급등락",
+        "summary": "가파른 상승과 조정을 반복한 국내 증시가 해외에서도 화제였어요.",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/world/2026/08/25/2026082513213812600",
+        "note": "쏠림 뒤엔 변동성이 커요"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "국내 증시는 직전 거래일인 8/28(금) 마감값 기준이에요. 코스피는 1.79% 내린 6,788.88로 6,800선을 내줬고, 외국인이 1조 7,585억원을 팔면서 삼성전자·SK하이닉스에 매물이 몰렸어요.",
+    "subNoteEm": "오늘 종가에 MSCI 정기변경이 반영돼요",
+    "comment": "지수는 크게 밀렸는데 코스닥이 0.09% 올라 디커플링이 나타났어요. 개인이 4,241억원을 받아냈고, <b style=\"color:var(--blue);\">원/달러는 1,372.5원으로 13개월 최저</b>를 다시 썼어요. 오늘은 7월 산업활동동향이 아침에 나오고, 장 마감 종가로 MSCI 8월 정기변경이 반영돼요.",
+    "expectedRange": "코스피 −0.5% ~ +1.0% 부근 등락 가능성이 있어요",
+    "indices": [
+      {
+        "name": "코스피",
+        "tip": "정규장 종가 · KRX 8/28",
+        "value": "6,788.88",
+        "change": "▼ 1.79%",
+        "dir": "down"
+      },
+      {
+        "name": "코스닥",
+        "tip": "정규장 종가 · KRX 8/28",
+        "value": "838.41",
+        "change": "▲ 0.09%",
+        "dir": "up"
+      }
+    ],
+    "flow": [
+      {
+        "key": "원/달러 환율",
+        "value": "1,372.5원 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "9월 美 인상 확률",
+        "value": "57.5% ▲",
+        "dir": "up"
+      }
+    ],
+    "supply": [
+      {
+        "who": "외국인",
+        "amount": "-1조 7,585억",
+        "dir": "sell"
+      },
+      {
+        "who": "기관",
+        "amount": "-2,841억",
+        "dir": "sell"
+      },
+      {
+        "who": "개인",
+        "amount": "+4,241억",
+        "dir": "buy"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "theme": "화장품",
+        "stockName": "한국콜마",
+        "stockChange": "+10.91%"
+      },
+      {
+        "theme": "화장품",
+        "stockName": "코스맥스",
+        "stockChange": "+7.07%"
+      },
+      {
+        "theme": "뷰티테크",
+        "stockName": "에이피알",
+        "stockChange": "+6.21%"
+      },
+      {
+        "theme": "화장품",
+        "stockName": "아모레퍼시픽",
+        "stockChange": "+5.76%"
+      },
+      {
+        "theme": "바이오",
+        "stockName": "알테오젠",
+        "stockChange": "+2.73%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "theme": "바이오 CDMO",
+        "stockName": "삼성바이오로직스",
+        "stockChange": "-6.78%"
+      },
+      {
+        "theme": "반도체",
+        "stockName": "SK하이닉스",
+        "stockChange": "-4.45%"
+      },
+      {
+        "theme": "IT 지주",
+        "stockName": "SK스퀘어",
+        "stockChange": "-3.75%"
+      },
+      {
+        "theme": "반도체",
+        "stockName": "삼성전자",
+        "stockChange": "-3.38%"
+      },
+      {
+        "theme": "2차전지",
+        "stockName": "에코프로",
+        "stockChange": "-1.96%"
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "LG이노텍",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "MSCI 한국지수에 새로 편입됐어요. 오늘 종가로 반영되는 만큼 패시브 자금이 실제로 들어오는지 지켜보면 좋아요."
+      },
+      {
+        "name": "SK하이닉스",
+        "badge": "주의",
+        "badgeType": "down",
+        "desc": "외국인 매물이 몰리며 4.45% 내린 165만 3,000원으로 마쳤어요. HBM4 이야기와 별개로 금리 경로가 수급을 좌우할 수 있어요."
+      },
+      {
+        "name": "삼성전자",
+        "badge": "주의",
+        "badgeType": "down",
+        "desc": "3.38% 내린 25만 7,000원이에요. 최대 110조원 주주환원안이 하단을 받쳐줄지 오늘 수급으로 확인해 볼 만해요."
+      },
+      {
+        "name": "한국콜마",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "반도체가 밀리는 와중에 10.91% 급등했어요. K-뷰티 수출 기대가 이어지는지 며칠 더 확인이 필요해요."
+      }
+    ],
+    "health": [
+      {
+        "key": "투자자 예탁금",
+        "tip": "대기 자금 · 8/26 기준",
+        "value": "98조 9,176억",
+        "subIcon": "▼",
+        "subDir": "down"
+      },
+      {
+        "key": "신용융자 잔고",
+        "tip": "빚투 잔고 · 8/26 기준",
+        "value": "33조 1,023억",
+        "subIcon": "▲",
+        "subDir": "up"
+      }
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘은 아침에 7월 산업활동동향이 나오고, 장 마감 종가로 MSCI 8월 정기변경이 반영돼요. 이번 주는 美 고용 지표가 줄줄이 이어져요.",
+    "subNoteEm": "MSCI 정기변경 종가 반영이 오늘의 최대 수급 변수예요",
+    "riskSentiment": "혼조",
+    "domestic": {
+      "timed": [
+        {
+          "time": "08:00",
+          "event": "韓 7월 산업활동동향 발표",
+          "important": false
+        }
+      ],
+      "untimed": [
+        {
+          "event": "MSCI 8월 정기변경 종가 반영",
+          "when": "장 마감 종가 기준"
+        }
+      ]
+    },
+    "global": {
+      "timed": [],
+      "untimed": []
+    },
+    "theme": "잭슨홀 여진을 소화하면서 수급 이벤트가 겹치는 하루예요. 9월 인상 확률이 57.5%까지 올라온 만큼, 금리 경로와 MSCI 편출입 종목 수급이 지수 방향을 좌우할 가능성이 있어요.",
+    "checks": [
+      "08:00 7월 산업활동동향에서 생산·투자 흐름을 확인해 보세요",
+      "MSCI 정기변경이 오늘 종가로 반영되니 LG이노텍·편출 4종목 수급을 살펴보세요",
+      "9/1 韓 8월 수출입동향에서 반도체 수출 흐름을 같이 보면 좋아요",
+      "9/4 美 8월 고용보고서 전까지 금리 경로 눈치보기가 이어질 수 있어요",
+      "원/달러 1,372원선이 더 내려가는지, 수출주에 어떻게 작용하는지 점검해 보세요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-08-30",
+    "end": "2026-09-05",
+    "days": [
+      {
+        "date": "2026-08-30",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-08-31",
+        "weekday": "월",
+        "items": [
+          {
+            "region": "domestic",
+            "time": "08:00",
+            "event": "韓 7월 산업활동동향 발표",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "MSCI 8월 정기변경 종가 반영",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-01",
+        "weekday": "화",
+        "items": [
+          {
+            "region": "domestic",
+            "time": "09:00",
+            "event": "韓 8월 수출입동향 발표",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "23:00",
+            "event": "美 8월 ISM 제조업 PMI",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "23:00",
+            "event": "美 7월 구인·이직보고서(JOLTS)",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-02",
+        "weekday": "수",
+        "items": [
+          {
+            "region": "global",
+            "time": "21:15",
+            "event": "美 8월 ADP 민간고용",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "23:00",
+            "event": "美 7월 공장수주",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-03",
+        "weekday": "목",
+        "items": [
+          {
+            "region": "global",
+            "time": "06:00",
+            "event": "브로드컴 FY26 3분기 실적 발표",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "美 주간 신규 실업수당 청구건수",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "23:00",
+            "event": "美 8월 ISM 서비스업 PMI",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-04",
+        "weekday": "금",
+        "items": [
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "美 8월 고용보고서(비농업 고용)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-05",
+        "weekday": "토",
+        "items": []
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 8,
+    "days": [
+      {
+        "date": "2026-08-31",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "韓 7월 산업활동동향 발표",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "event": "MSCI 8월 정기변경 종가 반영",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      }
+    ]
+  }
+}
