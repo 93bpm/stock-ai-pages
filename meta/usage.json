@@ -2977,7 +2977,43 @@
         "branch": "claude/adoring-fermi-109tck"
       },
       "note": "2026-08-31(월) 회차 — 07:00 KST 발화라 직전 거래일 8/28(금) 정규장 마감 기준. ★환경 이슈(9일 연속)★: egress proxy가 Stooq·Yahoo·Investing.com·Trading Economics를 전량 차단 (WebFetch 6회 중 4회 EGRESS_BLOCKED, raw.githubusercontent.com만 통과) → guides/sources.md fallback 체인 최종단인 WebSearch 22회 단일 경로로 수집. ★전일 대비 정정 3건★: ① 美 10년물 — 8/30 회차의 4.65%(하락)는 오류로 확인. etfdb 'Treasury Yields Snapshot: August 28, 2026'(종가 4.73%)와 별도 검색의 TNX 4.72가 일치하고, 매파 워시 발언 → 금리·달러 동반 상승이라는 서사와도 정합 → 4.73% ▲(dir up)로 정정. ② 마벨테크놀로지 — 8/30 회차 −8.0%는 장전 낙폭으로 보이며 CNBC 자체 기사('Marvell stock tumbles 6%')에 맞춰 −6.0%로 정정. ③ 수급 3주체 — 마감 시황 기준 정밀값(외국인 −1조 7,585억·기관 −2,841억·개인 +4,241억)으로 정정. ★kr.flow 삭제·교체★: 8/30 회차의 '코스닥 개인 순매수 +9,800억'은 오늘 확인 결과 '개인 이틀 연속 순매도·외국인/기관 동반 순매수'와 배치돼 제거. 주말 직후라 야간선물·ADR(EWY) 8/28 종가를 어떤 출처에서도 확보 못해 v1.6.1 완화(2~3개) 적용 → 원/달러 환율 + 9월 美 인상 확률(35.4%→57.5%, 복수 출처 일치) 2건. ★신규 확인★: MSCI 8월 정기변경 결과 확정(LG이노텍 편입 / 삼성에피스홀딩스·포스코인터내셔널·LG디스플레이·HLB 편출, ACWI IMI 8,176→8,081, 8/31 종가 반영) — calendar·calendarWeek·calendarMonth 및 domestic 뉴스 02번에 반영. 시카고 PMI 8월 47.1(전월 57.6·컨센 59.0) 신규 편입. ★kr.sectorsUp 전면 교체★: 8/28 화장품 랠리 실측 확보(한국콜마 +10.91%·코스맥스 +7.07%·에이피알 +6.21%·아모레퍼시픽 +5.76%) + 알테오젠 +2.73%. ★캘린더★: calendarWeek 8/30~9/5 11건(오늘 산업활동동향 08:00·MSCI 종가반영, 9/1 韓 수출입동향·美 ISM 제조업·JOLTS, 9/2 ADP·공장수주, 9/3 브로드컴 실적 06:00 KST=AVGO 화이트리스트 hit·신규실업수당·ISM 서비스업, 9/4 美 8월 고용보고서), calendarMonth 8월 hit 1일 2건. 브로드컴 발표일은 broadcom.com 공식 공시(현지 9/2 수)로 교차확인 → KST 9/3. 학회는 window 밖(Hot Chips 8/23~25 종료, Apple 'Surprise and shine' 9/9 확정 = 9/5 이후)이라 미포함. 韓 실적은 9월 첫째 주 공지 일정 미확인으로 제외(추측 금지 룰). ★미확인 carry-forward(보고서 명시)★: SOX 11,699.77(−1.54%)는 레벨 미확인, us.sectorsUp 5건·us.sectorsDown 중 페이팔·SOXX·엔비디아, kr.health 2건(8/26 기준)은 8/28 세션값 승계. ★model★: prompt Step 8 명시값은 오타(claude-oups4.85)라 헤더·안전원칙·보고 섹션이 공통으로 지시하는 claude-opus-4.8을 채택(전일과 동일). 다만 세션 설정상 실제 서빙 모델은 claude-opus-5로 표시되어 prompt 명시값과 계속 불일치 → 사용자가 Step 8 한 줄을 정정할 필요가 있음."
+    },
+    {
+      "date": "2026-09-01",
+      "time": "07:23",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 880,
+      "tokens_estimated": 188000,
+      "response_size_kb": 24.5,
+      "tool_calls": {
+        "WebFetch": 11,
+        "WebSearch": 40,
+        "Read": 8,
+        "Write": 1,
+        "Bash": 8
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq": "fail:egress-blocked",
+        "Yahoo Finance": "fail:egress-blocked",
+        "Investing.com": "fail:egress-blocked",
+        "Trading Economics": "fail:egress-blocked",
+        "CNBC·TheStreet·247wallst·stockanalysis": "fail:egress-blocked",
+        "KRX·네이버금융(화이트리스트 갱신)": "fail:egress-blocked",
+        "WebSearch": "40/40",
+        "로컬 clone(schema·guides 5종·whitelist 3종·전일 briefing)": "8/8"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-dlroxj"
+      },
+      "note": "2026-09-01(화) 회차 — 07:23 KST 발화, 직전 거래일 8/31(월) 美·韓 정규장 마감 기준. ★환경 이슈(10일 연속)★: egress proxy가 Stooq·Yahoo·Investing.com·Trading Economics에 더해 CNBC·TheStreet·247wallst·stockanalysis·indexes.nasdaqomx·infostock·businesskorea 등 기사 원문 도메인까지 전량 차단(WebFetch 11회 중 11회 EGRESS_BLOCKED, raw.githubusercontent.com 포함 성공 0) → 전 구간을 WebSearch 40회 단일 경로로 수집. ★8/31 美 마감★: 미국이 이란 라라크섬 발사대를 공습하고 이란이 요르단 미군기지에 미사일로 반격하며 WTI +2.47% $85.46, 11개 섹터 중 에너지만 상승(약 +2%), 커뮤니케이션 −1.9%·유틸리티 −1.6%. S&P 7,686.14(−0.33%)·나스닥 26,370.89(−0.12%)·다우 53,185.90(−374.09p, −0.70%)은 복수 출처 일치. ★교차 확인이 갈린 항목 3건(보고서 명시)★: ① VIX 14.43 — 값은 두 출처 일치하나 방향이 '−0.6%'와 '+5.96%'로 엇갈려, 지정학 급등·주가 하락 정합성을 따라 ▲(up) 채택. 전일 회차가 8/28 값으로 기록한 14.43과 동일 수치라 둘 중 하나는 stale일 가능성 → 내일 재확인 필요. ② 美 10년물 — Trading Economics는 4.72% 보합, 별도 기사는 '4.75% 상회, 2025년 1월 이후 최고'로 보도 → 유가발 금리 상승 서사와 맞는 4.75% ▲ 채택. ③ SOX 11,738.20 — 검색 2회에서 같은 값이 반복 확인됐고 전일 8/28 종가 11,699.77 대비 +0.33%로 산출(두 종가로부터의 계산값, 원문에 등락률 명시 없음). ★韓 8/31★: 코스피 6,820.02(+0.46%) — 장 초반 −3.4%(6,547선)에서 반전, 삼성전자 200만주·SK하이닉스 65만주 자사주 매입 공시가 지수에 약 37p 기여. 코스닥 834.29(−0.49%). 수급은 KRX+넥스트레이드 통합 기준(외국인 −4,435억·기관 −9,096억·개인 −1,917억)을 채택, 기타법인이 +1조 5,433억 순매수한 3주체 동반 순매도 세션. KRX 단독 집계(외국인 −6,403억·기관 −7,922억·개인 −1,455억)와는 수치가 달라 통합 기준으로 통일. ★kr.flow 2개(v1.6.1 완화 적용)★: 야간선물·EWY 8/31 종가를 어떤 출처에서도 못 구해 원/달러 1,368.6원 + 9월 美 인상 확률 57%로 구성. ★캘린더★: calendarWeek 8/30~9/5 13건, calendarMonth 9월 8일 16건. 브로드컴은 IR 공식 공지(현지 9/2 장 마감 후)로 재확인 → KST 9/3 06:00 유지, AVGO 화이트리스트 hit. 학회 2건 모두 화이트리스트 hit — 애플 '서프라이즈 앤 샤인'(현지 9/9 10:00 PT = KST 9/10 02:00, AppleFall)·Meta Connect 키노트(현지 9/23 16:00 PT = KST 9/24 08:00, MetaConnect). 한은 금통위는 9월에 기준금리 결정 회의가 없음(연 8회 중 8/27 다음은 10/22)을 확인해 미포함. 韓 8월 소비자물가 발표일은 공식 확인이 안 돼 추측 금지 룰로 제외. ★매월 1일 화이트리스트 갱신 실패★: KRX(kind.krx.co.kr)·네이버금융 모두 egress 차단으로 시총 페이지 접근 불가 → data/whitelist-kr-marketcap.json(version 2026-06-01, 99종목) 갱신 못 하고 그대로 유지. 기억 기반 재생성은 추측 금지 룰에 걸려 시도하지 않음. 오늘 韓 실적 일정 자체가 없어 당일 영향은 없으나, 접근 경로 복구 전까지 매월 1일 갱신은 계속 실패할 전망. ★model★: prompt Step 8 명시값이 오타(claude-oups4.85)라 헤더·안전원칙·보고 섹션이 공통 지시하는 claude-opus-4.8을 전일과 동일하게 채택. 세션 설정상 실제 서빙 모델은 claude-opus-5로 표시되어 불일치가 계속되므로 Step 8 한 줄 정정이 필요."
     }
   ],
-  "updatedAt": "2026-08-31T07:11:00+09:00"
+  "updatedAt": "2026-09-01T07:23:00+09:00"
 }
