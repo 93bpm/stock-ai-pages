@@ -1,0 +1,968 @@
+{
+  "date": "2026-09-10",
+  "weekday": "목",
+  "generatedAt": "2026-09-10T07:23:00+09:00",
+  "us": {
+    "subNote": "9일(현지) 뉴욕증시는 국제유가 100달러 돌파와 국채금리 급등에 3대 지수가 나란히 사흘째 내렸어요.",
+    "subNoteEm": "브렌트 101달러·10년물 4.85%에 3대 지수 동반 약세",
+    "comment": "美 재무부가 장기채 바이백을 <b style=\"color:var(--blue);\">60억 달러</b>로 3배 늘렸는데도 10년물이 4.85%까지 올랐어요. 유가와 금리가 동시에 뛰면서 필수소비재·임의소비재가 1% 넘게 밀렸고, 에너지만 홀로 버텼어요. 오늘 밤 21:30 KST 8월 PPI가 나오니 아시아 장에서도 금리 눈치 보기가 이어질 수 있어요.",
+    "indices": [
+      {
+        "name": "S&P 500",
+        "tip": "정규장 종가 · 9/9",
+        "value": "7,636.36",
+        "change": "▼ 0.48%",
+        "dir": "down"
+      },
+      {
+        "name": "나스닥 종합",
+        "tip": "정규장 종가 · 9/9",
+        "value": "26,253.34",
+        "change": "▼ 0.64%",
+        "dir": "down"
+      },
+      {
+        "name": "다우존스",
+        "tip": "정규장 종가 · 9/9",
+        "value": "52,380.66",
+        "change": "▼ 0.77%",
+        "dir": "down"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "tip": "SOXX ETF 대용 · 9/9",
+        "value": "522.24",
+        "change": "▼ 1.17%",
+        "dir": "down"
+      }
+    ],
+    "indicators": [
+      {
+        "key": "VIX",
+        "value": "16.44 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "美 10년물",
+        "value": "4.85% ▲",
+        "dir": "up"
+      },
+      {
+        "key": "달러인덱스",
+        "value": "98.83",
+        "dir": "neutral"
+      },
+      {
+        "key": "WTI 유가",
+        "value": "$96.05 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "금",
+        "value": "$4,399.61 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "비트코인",
+        "value": "$78,591 ▼",
+        "dir": "down"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "name": "에너지",
+        "change": "+0.63%"
+      },
+      {
+        "name": "기술(IT)",
+        "change": "+0.29%"
+      },
+      {
+        "name": "커뮤니케이션",
+        "change": "-0.04%"
+      },
+      {
+        "name": "소재",
+        "change": "-0.16%"
+      },
+      {
+        "name": "헬스케어",
+        "change": "-0.24%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "name": "필수소비재",
+        "change": "-1.11%"
+      },
+      {
+        "name": "임의소비재",
+        "change": "-1.05%"
+      },
+      {
+        "name": "산업재",
+        "change": "-1.01%"
+      },
+      {
+        "name": "부동산",
+        "change": "-0.75%"
+      },
+      {
+        "name": "금융",
+        "change": "-0.49%"
+      }
+    ]
+  },
+  "world": {
+    "subNote": "美는 유가·금리에 눌렸고 韓은 반도체 힘으로 칠천피를 되찾았어요. 오늘은 만기일 수급과 밤 美 PPI가 변수예요.",
+    "subNoteEm": "유가 101달러 vs 칠천피 회복, 엇갈린 하루",
+    "global": [
+      {
+        "rank": "01",
+        "category": "원자재",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "브렌트유 101달러 돌파",
+        "summary": "美·이란 상호 공격에 7월 이후 처음 100달러를 넘겼어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/09/09/oil-prices-today-wti-brent-us-iran-hormuz-attacks.html",
+        "note": "정유·화학 원가 부담 커져요"
+      },
+      {
+        "rank": "02",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "뉴욕증시 사흘 연속 하락",
+        "summary": "유가·금리 급등에 S&P500이 0.48% 내린 7,636.36으로 마쳤어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/09/08/stock-market-today-live-updates.html",
+        "note": "위험자산 심리 식었어요"
+      },
+      {
+        "rank": "03",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "美 재무부 장기채 바이백 3배",
+        "summary": "60억 달러 매입 발표에도 10년물이 4.85%까지 올랐어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/09/09/treasury-department-to-buy-back-6-billion-in-longer-term-debt-triple-the-normal-level.html",
+        "note": "고금리 부담 이어져요"
+      },
+      {
+        "rank": "04",
+        "category": "IT",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "애플, 폴더블 아이폰 듀오 공개",
+        "summary": "아이폰18 프로와 첫 폴더블 모델을 가을 행사에서 함께 내놨어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/09/09/apple-event-today-live-updates.html",
+        "note": "국내 부품주에 기대 요인"
+      },
+      {
+        "rank": "05",
+        "category": "AI",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "메타, 개인 AI 에이전트 뮤즈 출시",
+        "summary": "구독형 비서 뮤즈를 내놓자 메타 주가가 6%대 올랐어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/09/08/meta-personal-ai-agents-public-reckoning-privacy-safety.html",
+        "note": "AI 투자 성과 확인 신호"
+      },
+      {
+        "rank": "06",
+        "category": "지정학",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "이란, 호르무즈서 美 함정 타격 주장",
+        "summary": "美 함정 2척과 유조선 8척을 공격했다고 이란이 밝혔어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/09/08/iran-us-sub-strait-hormuz.html",
+        "note": "해상 물류 차질 우려돼요"
+      },
+      {
+        "rank": "07",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "中, 국책은행·보험사에 자본 수혈",
+        "summary": "3개 국책은행과 5개 보험사에 3,600억 위안을 넣기로 했어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/09/07/china-state-banks-lenders-insurers-capital-solvency-bankrupt-nim-.html",
+        "note": "中 부양 의지 확인돼요"
+      },
+      {
+        "rank": "08",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "엔화 7개월 최고, 달러는 관망",
+        "summary": "美 물가 발표를 앞두고 달러가 눌리며 엔화가 강세를 보였어요.",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/09/08/yen-extends-rally-to-new-seven-month-high-dollar-subdued-ahead-of-cpi.html",
+        "note": "원화 강세에도 우호적"
+      },
+      {
+        "rank": "09",
+        "category": "원자재",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "금값 4,399달러, 장중 급락 후 회복",
+        "summary": "美의 이란 유조선 격침 소식에 밀렸다가 되돌림이 나왔어요.",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-september-9-2026-gold-prices-drop-following-us-strikes-on-five-iranian-oil-tankers-104123795.html",
+        "note": "안전자산 수요 남아 있어요"
+      },
+      {
+        "rank": "10",
+        "category": "가상자산",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "비트코인 7만 8천 달러대 정체",
+        "summary": "중동 확전 우려가 이어지며 78,591달러 부근에 머물렀어요.",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-9-2026-ongoing-escalations-in-the-middle-east-are-keeping-a-lid-on-crypto-112541573.html",
+        "note": "위험자산 심리 위축돼요"
+      },
+      {
+        "rank": "11",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "8월 CPI가 9월 인상 여부 가른다",
+        "summary": "11일 물가 결과에 따라 인상 확률 56%가 흔들릴 수 있어요.",
+        "source": "Investing.com",
+        "sourceUrl": "https://www.investing.com/analysis/fed-rate-hike-risk-grows-ahead-of-august-cpi-report-200687187",
+        "note": "FOMC 전 마지막 물가 지표"
+      },
+      {
+        "rank": "12",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "에너지, 올해 섹터 수익률 선두",
+        "summary": "에너지가 연중 42% 오르며 11개 섹터 가운데 앞서가고 있어요.",
+        "source": "Investing.com",
+        "sourceUrl": "https://www.investing.com/news/stock-market-news/sp-500-sector-performance-energy-leads-with-42-ytd-gain-in-2026-93CH-4883146",
+        "note": "유가 강세가 이어져요"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스피 33거래일 만에 7,000선 회복",
+        "summary": "기관 9,005억 순매수에 1.40% 올라 7,051.64로 마쳤어요.",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202609091553452500",
+        "note": "반도체가 지수를 끌었어요"
+      },
+      {
+        "rank": "02",
+        "category": "증시제도",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "오늘 KRX 반도체지수 정기변경",
+        "summary": "삼전·하이닉스에서 1.3조 원이 소부장주로 옮겨갈 전망이에요.",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/202609080173i",
+        "note": "장 막판 변동성 커져요"
+      },
+      {
+        "rank": "03",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "오늘 네 마녀의 날, 1.8조 이동",
+        "summary": "선물·옵션 동시만기와 섹터지수 변경이 같은 날 겹쳤어요.",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/09/09/2026090916155370075",
+        "note": "동시호가 수급 확인해요"
+      },
+      {
+        "rank": "04",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "원/달러 1,336.1원, 1년 11개월 최저",
+        "summary": "9.5원 내리며 2024년 10월 이후 가장 낮은 주간 종가였어요.",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/economy/2026/09/09/2026090915401356861",
+        "note": "외국인 수급에 우호적"
+      },
+      {
+        "rank": "05",
+        "category": "조선·방산",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "조선주 일제 강세, HD현대重 4.27%",
+        "summary": "군함·잠수함 수주 기대에 조선 3사가 나란히 올랐어요.",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/2026090947141",
+        "note": "핵잠 기대가 이어져요"
+      },
+      {
+        "rank": "06",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "HBM 수출가 사상 첫 70달러 돌파",
+        "summary": "HBM4 공급이 본격화하며 평균 수출가가 76.13달러가 됐어요.",
+        "source": "서울경제",
+        "sourceUrl": "https://www.sedaily.com/article/20085614",
+        "note": "메모리 가격 강세 신호"
+      },
+      {
+        "rank": "07",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "증권가, 삼전·하이닉스 목표가 유지",
+        "summary": "실적 눈높이는 낮췄지만 반도체 낙관론은 그대로 뒀어요.",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202609091521538707",
+        "note": "밸류에이션 논쟁 이어져요"
+      },
+      {
+        "rank": "08",
+        "category": "코스닥",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "코스닥 830선, 상한가 6종목",
+        "summary": "광통신·양자컴퓨팅 호재에 머큐리 등 6개가 상한가였어요.",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2623716",
+        "note": "테마 순환이 빨라졌어요"
+      },
+      {
+        "rank": "09",
+        "category": "정책",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "세제개편, 고배당·저PBR에 힘",
+        "summary": "배당소득 분리과세와 생산적금융 ISA가 함께 추진돼요.",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/2026090310986",
+        "note": "구조적 재평가 재료예요"
+      },
+      {
+        "rank": "10",
+        "category": "거래소제도",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "추석 연휴 앞두고 야간 파생 휴장",
+        "summary": "거래소가 23일 저녁 파생상품 야간거래를 쉬기로 했어요.",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/09/09/2026090910285379510",
+        "note": "연휴 리스크 관리 차원"
+      },
+      {
+        "rank": "11",
+        "category": "기업",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "이재용 회장, 삼성전자 718만 주 매입",
+        "summary": "홍라희 여사 보유 지분을 1조 9,374억 원에 사들이기로 했어요.",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202609091750374832",
+        "note": "지배구조 이슈로 볼 만해요"
+      },
+      {
+        "rank": "12",
+        "category": "증시제도",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "KRX, 14일 애프터마켓 개장",
+        "summary": "오후 8시까지 거래되는 애프터마켓이 14일 문을 열어요.",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202609091808392985",
+        "note": "거래 시간이 늘어나요"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "9일 코스피는 1.40% 오른 7,051.64로 33거래일 만에 7,000선을 되찾았고, 코스닥도 2.28% 뛴 830.37로 마쳤어요.",
+    "subNoteEm": "코스피 7,051.64, 33거래일 만의 칠천피 회복",
+    "comment": "기관이 <b style=\"color:var(--red);\">9,005억</b> 사들이며 지수를 들어올렸고, 개인은 <b style=\"color:var(--blue);\">2조 4,971억</b> 순매도로 차익을 챙겼어요. SK하이닉스가 3.51% 오른 185만 6,000원, 삼성전자는 26만 9,500원 보합으로 마쳤어요. 오늘은 동시만기와 섹터지수 변경이 겹쳐 장 막판 수급이 관건이 될 수 있어요.",
+    "expectedRange": "코스피 -0.6% ~ +0.5% 사이에서 만기일 변동성이 커질 수 있어요",
+    "indices": [
+      {
+        "name": "코스피",
+        "tip": "정규장 종가 · KRX · 9/9",
+        "value": "7,051.64",
+        "change": "▲ 1.40%",
+        "dir": "up"
+      },
+      {
+        "name": "코스닥",
+        "tip": "정규장 종가 · KRX · 9/9",
+        "value": "830.37",
+        "change": "▲ 2.28%",
+        "dir": "up"
+      }
+    ],
+    "flow": [
+      {
+        "key": "원/달러 환율",
+        "value": "1,336.1원 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "미국 상장 한국물(ADR)",
+        "value": "EWY 188.87 (9/8 종가)",
+        "dir": "up"
+      }
+    ],
+    "supply": [
+      {
+        "who": "외국인",
+        "amount": "-1,702억",
+        "dir": "sell"
+      },
+      {
+        "who": "기관",
+        "amount": "+9,005억",
+        "dir": "buy"
+      },
+      {
+        "who": "개인",
+        "amount": "-2조 4,971억",
+        "dir": "sell"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "theme": "조선",
+        "stockName": "HD현대중공업",
+        "stockChange": "+4.27%"
+      },
+      {
+        "theme": "반도체",
+        "stockName": "SK하이닉스",
+        "stockChange": "+3.51%"
+      },
+      {
+        "theme": "조선·방산",
+        "stockName": "한화오션",
+        "stockChange": "+2.32%"
+      },
+      {
+        "theme": "2차전지",
+        "stockName": "LG에너지솔루션",
+        "stockChange": "+1.67%"
+      },
+      {
+        "theme": "바이오",
+        "stockName": "삼성바이오로직스",
+        "stockChange": "+1.23%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "theme": "금융지주",
+        "stockName": "신한지주",
+        "stockChange": "-2.30%"
+      },
+      {
+        "theme": "건설·상사",
+        "stockName": "삼성물산",
+        "stockChange": "-1.57%"
+      },
+      {
+        "theme": "보험",
+        "stockName": "삼성생명",
+        "stockChange": "-1.46%"
+      },
+      {
+        "theme": "은행",
+        "stockName": "KB금융",
+        "stockChange": "-0.98%"
+      },
+      {
+        "theme": "통신",
+        "stockName": "SK텔레콤",
+        "stockChange": "-0.76%"
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "반도체 소부장",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "지수 리밸런싱으로 한미반도체·주성엔지니어링에 패시브 매수가 들어올 수 있어요"
+      },
+      {
+        "name": "삼성전자·SK하이닉스",
+        "badge": "주의",
+        "badgeType": "down",
+        "desc": "비중 상한 규정 탓에 1.3조 원대 매도 물량이 장 막판에 몰릴 수 있어요"
+      },
+      {
+        "name": "파생 만기",
+        "badge": "주의",
+        "badgeType": "default",
+        "desc": "네 마녀의 날 동시호가에 프로그램 수급이 쏠릴 수 있어 흐름을 살펴볼 만해요"
+      }
+    ],
+    "health": [
+      {
+        "key": "투자자 예탁금",
+        "tip": "대기 자금 · 9/4 기준",
+        "value": "93조 5,499억",
+        "subIcon": "▼",
+        "subDir": "down"
+      },
+      {
+        "key": "신용융자 잔고",
+        "tip": "빚투 잔고 · 9/4 기준",
+        "value": "33조 5,958억",
+        "subIcon": "▲",
+        "subDir": "up"
+      }
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘은 네 마녀의 날과 KRX 섹터지수 정기변경이 겹치고, 밤에는 ECB 회의와 美 8월 PPI가 나와요.",
+    "subNoteEm": "네 마녀의 날 + 밤 21:30 KST 美 PPI",
+    "riskSentiment": "혼조",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        {
+          "event": "韓 9월 선물·옵션 동시만기(네 마녀의 날)",
+          "when": "장 마감 동시호가 집중"
+        },
+        {
+          "event": "KRX 섹터지수 정기변경(반도체지수 리밸런싱)",
+          "when": "장 마감 전후"
+        }
+      ]
+    },
+    "global": {
+      "timed": [
+        {
+          "time": "02:00",
+          "event": "Apple 가을 이벤트 (현지 9/9 아이폰18·폴더블 공개)",
+          "important": true
+        },
+        {
+          "time": "21:15",
+          "event": "ECB 통화정책회의·경제전망",
+          "important": true
+        },
+        {
+          "time": "21:30",
+          "event": "美 8월 생산자물가지수(PPI)",
+          "important": true
+        },
+        {
+          "time": "21:30",
+          "event": "美 주간 신규 실업수당 청구건수",
+          "important": false
+        }
+      ],
+      "untimed": []
+    },
+    "theme": "만기일 수급이 장 막판에 쏠릴 수 있는 날이에요. 반도체지수 리밸런싱으로 삼전·하이닉스 매물과 소부장 매수가 엇갈릴 수 있어 종가 흐름에 눈이 갈 만해요.",
+    "checks": [
+      "장 마감 동시호가에 프로그램 매물이 얼마나 나오는지 확인해 보세요",
+      "리밸런싱 수혜가 거론되는 한미반도체·주성엔지니어링 흐름을 살펴볼 만해요",
+      "밤 21:30 KST 美 8월 PPI가 내일 CPI의 전초전이 될 수 있어요",
+      "원/달러가 1,330원대에 안착하면 외국인 순매수 전환 여지가 있어요",
+      "국제유가 101달러가 이어지면 항공·화학주 부담이 커질 수 있어요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-09-06",
+    "end": "2026-09-12",
+    "days": [
+      {
+        "date": "2026-09-06",
+        "weekday": "일",
+        "items": [
+          {
+            "region": "global",
+            "time": null,
+            "event": "OPEC+ 회의, 10월 산유량 동결",
+            "important": false,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-07",
+        "weekday": "월",
+        "items": [
+          {
+            "region": "global",
+            "time": null,
+            "event": "美 증시·채권시장 노동절 휴장",
+            "important": true,
+            "category": "holiday"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-08",
+        "weekday": "화",
+        "items": [
+          {
+            "region": "global",
+            "time": "22:30",
+            "event": "美 증시·채권시장 거래 재개(노동절 휴장 종료)",
+            "important": false,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "weekday": "수",
+        "items": [
+          {
+            "region": "global",
+            "time": "10:30",
+            "event": "中 8월 소비자·생산자물가(CPI·PPI)",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-10",
+        "weekday": "목",
+        "items": [
+          {
+            "region": "global",
+            "time": "02:00",
+            "event": "Apple 가을 이벤트 (현지 9/9 아이폰18·폴더블 공개)",
+            "important": true,
+            "category": "conference"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "韓 9월 선물·옵션 동시만기(네 마녀의 날)",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "KRX 섹터지수 정기변경(반도체지수 리밸런싱)",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "time": "21:15",
+            "event": "ECB 통화정책회의·경제전망",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "美 8월 생산자물가지수(PPI)",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "美 주간 신규 실업수당 청구건수",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-11",
+        "weekday": "금",
+        "items": [
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "美 8월 소비자물가지수(CPI)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-12",
+        "weekday": "토",
+        "items": []
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 9,
+    "days": [
+      {
+        "date": "2026-09-01",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "韓 8월 수출입동향 발표",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "美 8월 ISM 제조업 PMI",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "美 7월 구인·이직보고서(JOLTS)",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-02",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "韓 8월 소비자물가동향 발표",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "美 8월 ADP 민간고용",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-03",
+        "items": [
+          {
+            "region": "global",
+            "event": "브로드컴 FY3Q 실적 발표",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "event": "美 8월 ISM 서비스업 PMI",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "美 7월 무역수지",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-04",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 8월 고용보고서(비농업 고용)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-06",
+        "items": [
+          {
+            "region": "global",
+            "event": "OPEC+ 회의, 10월 산유량 동결",
+            "important": false,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-07",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 증시·채권시장 노동절 휴장",
+            "important": true,
+            "category": "holiday"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-08",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 증시·채권시장 거래 재개(노동절 휴장 종료)",
+            "important": false,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "items": [
+          {
+            "region": "global",
+            "event": "中 8월 소비자·생산자물가(CPI·PPI)",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-10",
+        "items": [
+          {
+            "region": "global",
+            "event": "Apple 가을 이벤트 (아이폰18·폴더블 공개)",
+            "important": true,
+            "category": "conference"
+          },
+          {
+            "region": "domestic",
+            "event": "韓 9월 선물·옵션 동시만기(네 마녀의 날)",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "domestic",
+            "event": "KRX 섹터지수 정기변경(반도체지수 리밸런싱)",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "event": "ECB 통화정책회의·경제전망",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "event": "美 8월 생산자물가지수(PPI)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-11",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 8월 소비자물가지수(CPI)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-16",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 FOMC 회의 (현지 9/15~16)",
+            "important": false,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-17",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 FOMC 금리 결정·점도표 (현지 9/16)",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-18",
+        "items": [
+          {
+            "region": "global",
+            "event": "日 BOJ 금융정책결정회의 결과",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-23",
+        "items": [
+          {
+            "region": "global",
+            "event": "Meta Connect",
+            "important": false,
+            "category": "conference"
+          },
+          {
+            "region": "domestic",
+            "event": "파생상품 야간거래 중단(추석 연휴 대비)",
+            "important": false,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-24",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "추석 연휴 증시 휴장",
+            "important": true,
+            "category": "holiday"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-25",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "추석 증시 휴장",
+            "important": true,
+            "category": "holiday"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-28",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "대체공휴일 증시 휴장",
+            "important": true,
+            "category": "holiday"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-30",
+        "items": [
+          {
+            "region": "global",
+            "event": "마이크론 FY4Q 실적 발표",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      }
+    ]
+  }
+}
