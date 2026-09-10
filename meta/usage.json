@@ -3276,7 +3276,39 @@
         "branch": "claude/adoring-fermi-9tqwf2"
       },
       "note": "2026-09-10(목) 회차 — 07:23 KST 발화(UTC 9/9 22:10 +9h). 韓 기준일 9/9(수) 마감, 美 기준일 9/9(수) 마감. ★전일 공백★: manifest latest가 9/8이라 9/9 회차는 미생성 상태 — 이번 발화는 9/10분만 생성했고 9/9는 소급 생성하지 않았어요(그날 시세·뉴스 신선도 확보 불가). ★환경(19일째)★: Stooq·Yahoo(웹·chart API)·Google Finance·investing.com·cnbc.com·tradingeconomics 등 시세/캘린더 도메인 전부 egress 차단(EGRESS_BLOCKED, 프록시 status에 stooq·yahoo CONNECT 403 기록). Bash curl도 동일 차단이라 전 구간 WebSearch 단일 경로. ★美★: 유가 100달러 돌파+10년물 4.85%에 3대 지수 사흘 연속 하락 — S&P 7,636.36(-0.48%)·나스닥 26,253.34(-0.64%)·다우 52,380.66(-0.77%). SOX 지수값은 어느 출처에서도 9/9 종가를 못 찾아 guides/sources.md §2 예외 룰대로 SOXX ETF 대용(522.24, -1.17%)으로 표기하고 tip에 명시. WTI는 9/9 종가 96.05달러(+3.25%)·브렌트 101.21달러(+3.36%, 4개월 최고)로 fnnews·edaily 기사 교차 확인. 섹터는 ETF 기준 6종(에너지 +0.63·기술 +0.29·커뮤니케이션 -0.04·산업재 -1.01·임의소비재 -1.05·필수소비재 -1.11)과 나머지 4종(소재 -0.16·헬스케어 -0.24·금융 -0.49·부동산 -0.75)을 합쳐 정렬, 유틸리티는 출처 간 부호가 엇갈려 10종에서 제외. ★韓★: 코스피 7,051.64(+1.40%, +97.12p)로 33거래일 만에 종가 7,000선 탈환, 코스닥 830.37(+2.28%). 수급은 fn마감시황 기준 기관 +9,005억·개인 -2조 4,971억·외국인 -1,702억. 원/달러 1,336.1원(-9.5원, 15:30 주간거래 종가, 2024-10-02 이후 1년 11개월 최저). 대표 종목은 HD현대중공업 +4.27%·SK하이닉스 +3.51%·한화오션 +2.32%·LG에너지솔루션 +1.67%·삼성바이오로직스 +1.23%, 하락은 신한지주 -2.30%·삼성물산 -1.57%·삼성생명 -1.46%·KB금융 -0.98%·SK텔레콤 -0.76%. 삼성전자는 26만 9,500원 보합. flow는 야간선물 값의 기준 세션이 불명확해 v1.6.1 완화 룰대로 2개(환율 + ADR 대용 EWY 9/8 종가, 날짜 명시). 시장체력은 9/4 기준값 유지(그 이후 갱신치 미확인). ★캘린더★: 같은 주(9/6~9/12) calendarWeek 12건 — 9/10에 'KRX 섹터지수 정기변경(반도체지수 리밸런싱)'을 category=market으로 신규 추가(1.3조 원대 패시브 이동). calendarMonth 26건 — 추석 휴장 3일(9/24·9/25·9/28 대체공휴일)과 9/23 파생 야간거래 중단을 신규 반영. 실적 2건(브로드컴 9/3·마이크론 9/30) 美 빅테크 화이트리스트 hit, 韓 실적 hit 0건, 학회 2건(Apple 가을 이벤트·Meta Connect) hit. 한은 금통위는 다음 회의가 10/22라 9월 캘린더 해당 없음. ★매월 1일 아님 → 시총 화이트리스트 갱신 대상 아님★. ★검증★: 자체 스크립트 + scripts/validate-briefing.mjs(HARD 통과)로 KST 5룰·지수 범위·카운트·enum·sourceUrl 5룰(24/24·차단 0·중복 0·도메인 일관성)·카테고리 분포·마스킹 4패턴·캘린더 ⑩룰·페르소나 4종 전부 0건 통과. ★model★: prompt Step 8 명시값이 19일째 오타(claude-oups4.85)라 헤더·안전원칙·Step 9 보고가 공통으로 지시하는 claude-opus-4.8을 채택. 세션 설정상 서빙 모델은 claude-opus-5로 표시돼 불일치가 이어져요 — Step 8 한 줄 정정이 계속 필요해요."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "07:09",
+      "model": "claude-opus-4.8",
+      "status": "skip",
+      "duration_seconds": 619,
+      "tokens_estimated": 210000,
+      "response_size_kb": null,
+      "tool_calls": {
+        "WebFetch": 17,
+        "WebSearch": 50,
+        "Read": 7,
+        "Write": 0,
+        "Bash": 16
+      },
+      "news_count": {
+        "global": 0,
+        "domestic": 0
+      },
+      "source_url_coverage": "0/0",
+      "sources_attempted": {
+        "WebFetch(finance.yahoo.com·cnbc.com·kr.investing.com·stockanalysis.com·slickcharts.com)": "fail:egress-blocked 17건",
+        "curl(stooq.com·google.com/finance·tradingeconomics.com·hankyung.com·edaily.co.kr·mt.co.kr·fnnews.com·finviz.com·fred.stlouisfed.org·cdn.cboe.com)": "fail:CONNECT 403 12건",
+        "WebSearch": "50/50 호출 성공 (단 美 섹터 11종·VIX 종가·SOX 종가는 9/10 세션 값 확보 실패)",
+        "로컬 clone(context·schema·guides 5종·전일 briefing·usage·manifest)": "9/9"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-oafk8o"
+      },
+      "note": "2026-09-11(금) 회차 — 07:09 KST 발화(UTC 9/10 22:09 +9h). ★Sanity Check fail → 그날 skip★ (briefing·manifest 미갱신, usage에 skip만 기록). ★원인★: 이 실행 환경에서 WebFetch·curl 아웃바운드가 시세 도메인 전체(Stooq·Yahoo·Google Finance·Investing·Trading Economics·finviz·FRED·CBOE·국내 매체) 차단(egress-blocked / CONNECT 403)이라 가이드 fallback 체인이 WebSearch 하나만 남았음. ★확보된 값★: 美 9/10 마감 다우 52,064.10(-0.60%)·S&P 7,591.70(-0.58%)·나스닥 26,081.72(-0.65%), WTI 102.48달러(+6.69%)·브렌트 107.63달러, 8월 PPI 5.4% YoY(예상 5.3% 상회), 韓 9/10 마감 코스피 7,033.92(-0.25%)·코스닥 836.92(+0.79%)·원/달러 1,339.2원(15:30 주간거래 종가, +3.1원)·수급(외인 -2조5,470억·기관 +5,118억·개인 +3,667억, fn마감시황). ★확보 실패★: ① 美 섹터 ETF 11종 중 9종의 9/10 일간 등락률(검색 결과가 9/9 세션값과 혼재 — XLE +0.83%·XLK -1.55% 2종만 확인) ② VIX 9/10 종가(‘17선 위 마감, 장중 고가 18.17’ 서술만·정확 종가 없음) ③ SOX/SOXX 9/10 종가(517.43 -2.74% 주장과 전일 종가 522.24가 산술 불일치) ④ 10년물(4.84% vs 4.90% 출처 충돌)·금(4,393.86 vs 4,326 충돌). ★판단★: 마스킹 금지·추측 금지 룰상 값을 채울 수 없고, us.indices 4·indicators 6·sectorsUp/Down 5+5는 schema HARD 카운트라 배열 축소 시 CI HARD 위반 → guides/data-quality.md §4·§5의 skip 룰 적용. 사용자 화면은 의도된 fallback으로 최신 가용 날짜(9/10) 데이터를 계속 표시. ★운영 조치 필요★: routine 실행 환경의 네트워크 정책에 시세 도메인(최소 finance.yahoo.com·kr.investing.com·tradingeconomics.com·stooq.com) 허용 추가 필요. ★model★: prompt Step 8 명시값이 20일째 오타(claude-oups4.85)라 헤더·안전원칙·Step 9가 공통 지시하는 claude-opus-4.8을 채택했으나, 이 세션 설정 모델 ID는 claude-opus-5로 표시돼 불일치가 계속됨 — Step 8 한 줄 정정 필요."
     }
   ],
-  "updatedAt": "2026-09-10T07:23:00+09:00"
+  "updatedAt": "2026-09-11T07:19:00+09:00"
 }
