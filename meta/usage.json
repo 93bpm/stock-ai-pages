@@ -3404,7 +3404,38 @@
         "branch": "claude/adoring-fermi-4kmtyi"
       },
       "notes": "KST 월요일 발화 — 美·韓 모두 직전 거래일 9/11(금) 마감값 기준(주말 휴장). 검증: scripts/validate-briefing.mjs HARD 통과 + 자체 Sanity(KST 5룰·지수 범위·카운트·enum·sourceUrl 5룰 24/24·차단 0·중복 0·도메인 일관성·카테고리 분포·마스킹 4패턴·캘린더 ⑩룰·페르소나 4종) 전부 0건. 시세 도메인 egress는 이번에도 차단(stockanalysis.com)이라 WebSearch 인용으로 확보했어요 — finance.yahoo.com·stooq.com·kr.investing.com·tradingeconomics.com egress 허용이 열리면 섹터 수집이 안정돼요. ★model★: prompt Step 8 명시값이 여전히 오타(claude-oups4.85)라, 헤더·안전원칙·Step 9가 공통으로 가리키는 claude-opus-4.8을 채택했어요. 이 세션 설정 모델 ID는 claude-opus-5로 표시돼 불일치가 이어져요 — Step 8 한 줄 정정이 필요해요."
+    },
+    {
+      "date": "2026-09-15",
+      "time": "07:09",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 977,
+      "tokens_estimated": 240000,
+      "response_size_kb": 31.3,
+      "tool_calls": {
+        "WebFetch": 22,
+        "WebSearch": 64,
+        "Read": 9,
+        "Write": 1,
+        "Bash": 15
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebSearch": "64/64 호출 성공 (유일하게 동작한 수집 경로)",
+        "WebFetch": "0/22 — finance.yahoo.com·google finance·cnbc·stooq·stockanalysis·tradingeconomics·kr.investing·sectorspdrs·finviz·investrade·daum·sedaily 전부 EGRESS_BLOCKED",
+        "로컬 clone(context·schema·guides 5종·whitelist·전일 briefing·manifest·usage)": "9/9"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-y3f4pe"
+      },
+      "notes": "KST 화요일 발화 — 美 9/14(월)·韓 9/14(월) 마감값 기준. ★환경 제약★: 이번 세션은 WebFetch 전 도메인이 egress 프록시에 차단돼(22/22 BLOCKED) 시세 출처를 WebSearch 인용으로만 확보했어요. 그 결과 ① 필라델피아 반도체 지수는 등락률(-5.86%)만 확인되고 지수 레벨을 못 구해 us.indices에서 제외(3개) ② 美 섹터 ETF 11종 일간 등락률을 한 건도 확보 못 해 us.sectorsUp/Down을 빈 배열로 둠 ③ VIX는 레벨 미확보라 출처가 명시한 '8%대 상승'을 그대로 기록 — 마스킹·추측 금지 룰(guides/data-quality §3·§5)에 따라 값을 지어내지 않고 항목을 줄였어요. validate-briefing HARD 6건은 전부 이 결손(us.indices·sectorsUp·sectorsDown 카운트) 때문이에요. 나머지 Sanity(KST 5룰·카운트·enum·sourceUrl 5룰 24/24·차단 0·중복 0·마스킹 4패턴·캘린더 ⑩룰·페르소나 4종)는 0건 통과. egress 허용 도메인(finance.yahoo.com·stooq.com·kr.investing.com·tradingeconomics.com)이 열려야 美 지수·섹터 수집이 정상화돼요. ★model★: prompt Step 8 명시값이 여전히 오타(claude-oups4.85)라 헤더·Step 9가 가리키는 claude-opus-4.8을 채택했어요 — 이 세션 설정 ID는 claude-opus-5로 표시돼 불일치가 이어져요."
     }
   ],
-  "updatedAt": "2026-09-14T07:20:00+09:00"
+  "updatedAt": "2026-09-15T07:09:00+09:00"
 }
