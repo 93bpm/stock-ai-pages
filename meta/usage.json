@@ -3435,7 +3435,39 @@
         "branch": "claude/adoring-fermi-y3f4pe"
       },
       "notes": "KST 화요일 발화 — 美 9/14(월)·韓 9/14(월) 마감값 기준. ★환경 제약★: 이번 세션은 WebFetch 전 도메인이 egress 프록시에 차단돼(22/22 BLOCKED) 시세 출처를 WebSearch 인용으로만 확보했어요. 그 결과 ① 필라델피아 반도체 지수는 등락률(-5.86%)만 확인되고 지수 레벨을 못 구해 us.indices에서 제외(3개) ② 美 섹터 ETF 11종 일간 등락률을 한 건도 확보 못 해 us.sectorsUp/Down을 빈 배열로 둠 ③ VIX는 레벨 미확보라 출처가 명시한 '8%대 상승'을 그대로 기록 — 마스킹·추측 금지 룰(guides/data-quality §3·§5)에 따라 값을 지어내지 않고 항목을 줄였어요. validate-briefing HARD 6건은 전부 이 결손(us.indices·sectorsUp·sectorsDown 카운트) 때문이에요. 나머지 Sanity(KST 5룰·카운트·enum·sourceUrl 5룰 24/24·차단 0·중복 0·마스킹 4패턴·캘린더 ⑩룰·페르소나 4종)는 0건 통과. egress 허용 도메인(finance.yahoo.com·stooq.com·kr.investing.com·tradingeconomics.com)이 열려야 美 지수·섹터 수집이 정상화돼요. ★model★: prompt Step 8 명시값이 여전히 오타(claude-oups4.85)라 헤더·Step 9가 가리키는 claude-opus-4.8을 채택했어요 — 이 세션 설정 ID는 claude-opus-5로 표시돼 불일치가 이어져요."
+    },
+    {
+      "date": "2026-09-16",
+      "time": "07:22",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 852,
+      "tokens_estimated": 215000,
+      "response_size_kb": 32.4,
+      "tool_calls": {
+        "WebFetch": 6,
+        "WebSearch": 38,
+        "Read": 6,
+        "Write": 1,
+        "Bash": 12
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebSearch": "38/38 호출 성공 (유일하게 동작한 수집 경로)",
+        "WebFetch": "0/6 — finance.yahoo.com·stooq.com·cnbc.com·nasdaq.com·firebat.co.kr 전부 EGRESS_BLOCKED",
+        "curl(Bash)": "0/2 — stooq·yahoo CONNECT tunnel 403",
+        "로컬 clone(context·schema·guides 5종·whitelist 3종·전일 briefing·manifest·usage)": "6/6"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-z8k32l"
+      },
+      "notes": "KST 수요일 발화 — 美 9/15(화)·韓 9/15(화) 마감값 기준. ★환경 제약 2일째★: WebFetch·curl 모두 egress 프록시에 차단돼 시세를 WebSearch 인용으로만 확보했어요. 그 결과 美 섹터 ETF 11종 일간 등락률을 한 건도 못 구해 us.sectorsUp/sectorsDown을 빈 배열로 뒀고(validate-briefing HARD 4건은 전부 이 결손), 마스킹·추측 금지 룰(guides/data-quality §3·§5)에 따라 값을 지어내지 않았어요. 반대로 어제 빠졌던 필라델피아 반도체(11,824.0 ▲1.30%)는 확보해 us.indices 4개를 모두 채웠어요. 美 3대 지수는 전일 종가(S&P 7,619.98·나스닥 26,186.41·다우 52,421.20) 대비 등락률로 교차검증해 일치를 확인했어요. 韓 flow의 ADR(EWY)은 9/15 종가를 못 구해 9/14 종가를 날짜 라벨과 함께 기록했고, 신용융자는 9월 수치가 공개 확인되지 않아 8/28 기준값을 라벨과 함께 넣었어요. 나머지 Sanity(KST 5룰·카운트·enum·sourceUrl 5룰 24/24·차단 0·중복 0·마스킹 4패턴·캘린더 ⑩룰·페르소나 4종)는 0건 통과. ★model★: prompt Step 8 명시값이 여전히 오타(claude-oups4.85)라 헤더·Step 9의 claude-opus-4.8을 채택했어요 — 이 세션 설정 ID는 claude-opus-5로 표시돼 불일치가 이어져요. ★FOMC 의장 표기★: 이번 주 출처들이 Fed 의장을 케빈 워시로 보도해 캘린더의 기자회견 항목을 '워시 Fed 의장'으로 정정했어요(전일 파일은 파월)."
     }
   ],
-  "updatedAt": "2026-09-15T07:09:00+09:00"
+  "updatedAt": "2026-09-16T07:22:00+09:00"
 }
