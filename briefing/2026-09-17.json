@@ -1,0 +1,200 @@
+{
+  "date": "2026-09-17",
+  "weekday": "목",
+  "generatedAt": "2026-09-17T07:08:00+09:00",
+  "us": {
+    "subNote": "9월 16일(수) 美 증시는 연준이 3년 만에 기준금리를 0.25%p 올리자 다우가 1.21% 밀렸어요. 필라델피아 반도체만 0.63% 오르며 버텼고, 10년물 금리가 5%를 다시 넘어 성장주 부담이 남아 있어요.",
+    "subNoteEm": "연준 25bp 인상 → 다우 1.21% 하락, 반도체만 강세",
+    "comment": "인상 자체는 예상대로였지만 '연내 한 번 더' 신호가 부담으로 남았어요. 그래도 반도체가 홀로 버틴 점은 아시아 장에서 기댈 구석이 될 수 있어요.",
+    "indices": [
+      {"name": "S&P 500", "tip": "정규장 종가 · 9/16", "value": "7,551.81", "change": "▼ 0.45%", "dir": "down"},
+      {"name": "나스닥 종합", "tip": "정규장 종가 · 9/16", "value": "25,978.43", "change": "▼ 0.01%", "dir": "down"},
+      {"name": "다우존스", "tip": "정규장 종가 · 9/16", "value": "51,461.90", "change": "▼ 1.21%", "dir": "down"},
+      {"name": "필라델피아 반도체", "tip": "정규장 종가 · 9/16", "value": "11,246.11", "change": "▲ 0.63%", "dir": "up"}
+    ],
+    "indicators": [
+      {"key": "VIX", "value": "17.71 ▲", "dir": "up"},
+      {"key": "美 10년물", "value": "5.008%", "dir": "up"},
+      {"key": "달러인덱스", "value": "99.72 ▲", "dir": "up"},
+      {"key": "WTI 유가", "value": "102.31달러 ▼", "dir": "down"},
+      {"key": "금", "value": "4,338.22달러 ▲", "dir": "up"},
+      {"key": "비트코인", "value": "76,152달러 ▲", "dir": "up"}
+    ],
+    "sectorsUp": [
+      {"name": "유틸리티", "change": "−0.19%"},
+      {"name": "필수소비재", "change": "−0.28%"},
+      {"name": "정보기술", "change": "−0.32%"},
+      {"name": "산업재", "change": "−0.59%"},
+      {"name": "부동산", "change": "−0.66%"}
+    ],
+    "sectorsDown": [
+      {"name": "에너지", "change": "−3.14%"},
+      {"name": "금융", "change": "−2.06%"},
+      {"name": "소재", "change": "−1.21%"},
+      {"name": "경기소비재", "change": "−0.81%"},
+      {"name": "커뮤니케이션", "change": "−0.68%"}
+    ]
+  },
+  "world": {
+    "subNote": "연준의 3년 만의 금리 인상과 매파적인 점도표가 글로벌 시장을 눌렀어요. 국내에서는 반도체 저가 매수와 환율 상승이 동시에 나타나며 방향이 엇갈렸어요.",
+    "subNoteEm": "美 긴축 재개 vs 韓 반도체 저가 매수",
+    "global": [
+      {"rank": "01", "category": "통화정책", "categoryStyle": "default", "sentiment": "neg", "title": "연준, 3년 만에 25bp 금리 인상", "summary": "기준금리가 3.75~4.00%로 올랐고 위원 12명 전원이 찬성했어요.", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html", "note": "긴축 재개 신호예요"},
+      {"rank": "02", "category": "금리", "categoryStyle": "default", "sentiment": "neg", "title": "美 10년물 금리 5% 재돌파", "summary": "장기물 금리가 5.008%까지 오르며 자금 조달 부담이 커졌어요.", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html", "note": "韓 성장주에 부담돼요"},
+      {"rank": "03", "category": "통화정책", "categoryStyle": "default", "sentiment": "neg", "title": "워시 의장 “물가 여전히 높다”", "summary": "추가 인상 여지를 열어두며 매파적인 색채를 드러냈어요.", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/09/16/fed-meeting-today-live-updates.html", "note": "연말 추가 인상 경계돼요"},
+      {"rank": "04", "category": "증시", "categoryStyle": "default", "sentiment": "neg", "title": "다우 631p 하락, 은행주 약세", "summary": "금리 인상 직후 금융주가 눌리면서 지수 낙폭이 커졌어요.", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/09/15/stock-market-today-live-updates.html", "note": "위험선호 위축 신호예요"},
+      {"rank": "05", "category": "통화정책", "categoryStyle": "default", "sentiment": "neu", "title": "점도표, 연내 추가 인상 시사", "summary": "위원 18명 중 16명이 연내 한 번 더 인상을 내다봤어요.", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/economy/policy/live/federal-reserve-meeting-live-updates-chairman-kevin-warsh-143452661.html", "note": "긴축 장기화 가능성이에요"},
+      {"rank": "06", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "SK하이닉스·인텔 美 생산 협의", "summary": "인텔 오하이오 공장 활용안이 거론되며 양사 주가가 올랐어요.", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/technology/live/tech-stocks-today-sk-hynix-and-intel-moves-openai-raising-funds-at-12-trillion-valuation-140134624.html", "note": "韓 반도체 확장 재료예요"},
+      {"rank": "07", "category": "AI", "categoryStyle": "tech", "sentiment": "pos", "title": "오픈AI, 1.2조달러 밸류 추진", "summary": "상장 전 신규 자금 조달을 논의 중이라는 보도가 나왔어요.", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-16-133949098.html", "note": "AI 투자 흐름 이어져요"},
+      {"rank": "08", "category": "가상자산", "categoryStyle": "default", "sentiment": "neg", "title": "비트코인 7만6천달러선 등락", "summary": "클래리티법 부결과 금리 인상이 겹쳐 변동성이 커졌어요.", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-16-2026-crypto-prices-tank-after-clarity-act-fails-and-ahead-of-fed-decision-112517152.html", "note": "위험자산 심리 가늠자예요"},
+      {"rank": "09", "category": "반도체", "categoryStyle": "tech", "sentiment": "neu", "title": "엔비디아·하이닉스가 본 마이크론", "summary": "메모리 수요 지표로 마이크론 실적에 관심이 쏠리고 있어요.", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/nvidia-sk-hynix-signaling-microns-132500268.html", "note": "HBM 업황 확인 포인트예요"},
+      {"rank": "10", "category": "증시", "categoryStyle": "default", "sentiment": "neg", "title": "FOMC 뒤 美 3대 지수 동반 하락", "summary": "다우·S&P500·나스닥이 모두 밀린 채 장을 마쳤어요.", "source": "Yahoo Finance", "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-16-dow-sp-500-nasdaq-fed-meeting-decision-080356525.html", "note": "아시아 장 경계돼요"},
+      {"rank": "11", "category": "원자재", "categoryStyle": "geo", "sentiment": "neg", "title": "중동 불안에 국제유가 100달러대", "summary": "사우디 송유관 차질이 이어지며 유가 부담이 남아 있어요.", "source": "Investing.com", "sourceUrl": "https://kr.investing.com/news/stock-market-news/article-2089234", "note": "물가·환율에 부담돼요"},
+      {"rank": "12", "category": "증시", "categoryStyle": "default", "sentiment": "neg", "title": "연준 인상 뒤 중남미 증시 하락", "summary": "신흥국 전반으로 금리 인상 여파가 번지는 모습이에요.", "source": "Investing.com", "sourceUrl": "https://kr.investing.com/news/stock-market-news/article-93CH-2097301", "note": "신흥국 자금 흐름 주의예요"}
+    ],
+    "domestic": [
+      {"rank": "01", "category": "증시", "categoryStyle": "default", "sentiment": "pos", "title": "코스피 1.37% 올라 6717.97", "summary": "5거래일 만에 반등하며 6700선을 다시 되찾았어요.", "source": "머니투데이", "sourceUrl": "https://www.mt.co.kr/stock/2026/09/16/2026091615300622634", "note": "반도체가 지수를 끌었어요"},
+      {"rank": "02", "category": "코스닥", "categoryStyle": "default", "sentiment": "pos", "title": "코스닥 0.44% 오른 815.98", "summary": "장중 801까지 밀렸다가 되돌아서며 이틀째 올랐어요.", "source": "아시아경제", "sourceUrl": "https://view.asiae.co.kr/article/2026091615353797435", "note": "개별 테마 장세가 이어져요"},
+      {"rank": "03", "category": "수급", "categoryStyle": "default", "sentiment": "neu", "title": "기관 홀로 1조원대 순매수", "summary": "외국인·개인이 동반 매도한 가운데 기관이 지수를 받쳤어요.", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202609161435478934", "note": "수급 주체가 엇갈려요"},
+      {"rank": "04", "category": "수급", "categoryStyle": "default", "sentiment": "neu", "title": "코스닥 기관·외국인 매매동향", "summary": "9월 16일 최종 집계로 주체별 매매 흐름이 공개됐어요.", "source": "이데일리", "sourceUrl": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03466966609500776", "note": "중소형주 수급 확인돼요"},
+      {"rank": "05", "category": "환율", "categoryStyle": "default", "sentiment": "neg", "title": "원/달러 9.2원 올라 1368.6원", "summary": "5거래일 연속 오르며 2주 만에 1360원대로 올라섰어요.", "source": "아시아경제", "sourceUrl": "https://view.asiae.co.kr/article/2026091616500735567", "note": "외국인 수급에 부담돼요"},
+      {"rank": "06", "category": "환율", "categoryStyle": "default", "sentiment": "neg", "title": "환율 2주 만에 1360원대 복귀", "summary": "고유가와 달러 강세가 겹치면서 원화가 약해졌어요.", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202609161546438880", "note": "수입물가 자극할 수 있어요"},
+      {"rank": "07", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "SK하이닉스·인텔 동반 상승", "summary": "美 메모리 생산 협의 소식에 양사 주가가 함께 올랐어요.", "source": "뉴스핌", "sourceUrl": "https://www.newspim.com/news/view/20260916001192", "note": "美 생산 거점 기대돼요"},
+      {"rank": "08", "category": "반도체", "categoryStyle": "tech", "sentiment": "pos", "title": "반도체가 이끈 코스피 반등", "summary": "저가 매수가 들어오며 반도체 대형주가 지수를 끌어올렸어요.", "source": "머니투데이", "sourceUrl": "https://www.mt.co.kr/stock/2026/09/16/2026091617102561516", "note": "FOMC 경계는 남았어요"},
+      {"rank": "09", "category": "거시", "categoryStyle": "default", "sentiment": "pos", "title": "9월 초 수출 350억달러 최대", "summary": "1~10일 수출이 82.6% 늘고 반도체는 270% 뛰었어요.", "source": "파이낸셜뉴스", "sourceUrl": "https://www.fnnews.com/news/202609110834362164", "note": "실적 기대를 뒷받침해요"},
+      {"rank": "10", "category": "수급", "categoryStyle": "default", "sentiment": "neu", "title": "대기자금 107조원대로 복귀", "summary": "예탁금이 다시 100조원을 넘으며 관망 자금이 쌓였어요.", "source": "머니투데이", "sourceUrl": "https://www.mt.co.kr/stock/2026/09/15/2026091515590366848", "note": "재진입 여력 가늠자예요"},
+      {"rank": "11", "category": "조선·방산", "categoryStyle": "tech", "sentiment": "neg", "title": "HD현대중공업 노조 부분파업", "summary": "생산 차질 우려가 커지면서 주가가 4%대로 밀렸어요.", "source": "뉴스핌", "sourceUrl": "https://www.newspim.com/news/view/20260915000329", "note": "조선주 단기 변수예요"},
+      {"rank": "12", "category": "자동차", "categoryStyle": "tech", "sentiment": "neg", "title": "자동차주 시총 2달새 44조 증발", "summary": "엔화 강세와 고배당이 반등 불씨로 거론되고 있어요.", "source": "이투데이", "sourceUrl": "https://www.etoday.co.kr/news/view/2626378", "note": "낙폭 과대 여부 주목돼요"}
+    ]
+  },
+  "kr": {
+    "subNote": "9월 16일(수) 코스피는 반도체 저가 매수에 1.37% 올라 6717.97로 마감했어요. 기관이 1조원 넘게 담았지만 외국인·개인은 팔았고, 원/달러는 1368.6원까지 올라 부담이 남아 있어요.",
+    "subNoteEm": "코스피 5거래일 만에 6700선 회복",
+    "comment": "반도체 쏠림이 지수를 살렸지만 폭은 아직 좁아요. 새벽 FOMC 결과를 확인한 오늘은 환율과 외국인 수급을 같이 보는 게 좋아요.",
+    "expectedRange": "코스피 −0.8% ~ +0.3% 부근 등락 가능성이 있어요",
+    "indices": [
+      {"name": "코스피", "tip": "정규장 종가 · KRX", "value": "6,717.97", "change": "▲ 1.37%", "dir": "up"},
+      {"name": "코스닥", "tip": "정규장 종가 · KRX", "value": "815.98", "change": "▲ 0.44%", "dir": "up"}
+    ],
+    "flow": [
+      {"key": "원/달러 환율", "value": "1,368.6원 (+9.2원)", "dir": "up"},
+      {"key": "미국 상장 한국물(ADR)", "value": "EWY 175.58 (−0.52%)", "dir": "down"}
+    ],
+    "supply": [
+      {"who": "외국인", "amount": "−16,833", "dir": "sell"},
+      {"who": "기관", "amount": "+12,115", "dir": "buy"},
+      {"who": "개인", "amount": "−11,854", "dir": "sell"}
+    ],
+    "sectorsUp": [
+      {"theme": "광통신", "stockName": "대한광통신", "stockChange": "+14.14%"},
+      {"theme": "반도체", "stockName": "SK하이닉스", "stockChange": "+4.08%"},
+      {"theme": "배당·우선주", "stockName": "삼성전자우", "stockChange": "+3.42%"},
+      {"theme": "전기전자", "stockName": "삼성전자", "stockChange": "+2.01%"},
+      {"theme": "지주", "stockName": "SK스퀘어", "stockChange": "+1.60%"}
+    ],
+    "sectorsDown": [
+      {"theme": "조선", "stockName": "HD현대중공업", "stockChange": "−2.32%"},
+      {"theme": "바이오", "stockName": "알테오젠", "stockChange": "−2.31%"},
+      {"theme": "자동차", "stockName": "현대차", "stockChange": "−1.91%"},
+      {"theme": "방산", "stockName": "한화에어로스페이스", "stockChange": "−0.75%"},
+      {"theme": "제약", "stockName": "셀트리온", "stockChange": "−0.17%"}
+    ],
+    "watchlist": [
+      {"name": "SK하이닉스", "badge": "관심", "badgeType": "up", "desc": "美 메모리 생산 협의 후속 보도가 이어지는지 지켜볼 만해요"},
+      {"name": "HD현대중공업", "badge": "주의", "badgeType": "down", "desc": "노조 부분파업에 따른 생산 차질 여부가 변수로 남아 있어요"},
+      {"name": "원/달러 환율", "badge": "주의", "badgeType": "default", "desc": "1360원대 흐름이 길어지면 외국인 수급에 부담이 될 수 있어요"}
+    ],
+    "health": [
+      {"key": "투자자 예탁금", "tip": "대기 자금 · 9/11 기준", "value": "107조 560억", "subIcon": "▲", "subDir": "up"},
+      {"key": "신용융자 잔고", "tip": "빚투 규모", "value": "33.3조", "subIcon": "▲", "subDir": "up"}
+    ]
+  },
+  "calendar": {
+    "subNote": "새벽 3시 연준이 금리를 0.25%p 올리고 연내 추가 인상까지 시사했어요. 밤 9시 30분 美 신규 실업수당 청구와 내일 일본은행 결정이 이어져요.",
+    "subNoteEm": "FOMC 인상 확인 뒤 BOJ 회의로 바통",
+    "riskSentiment": "위험회피 우위",
+    "domestic": {
+      "timed": [],
+      "untimed": []
+    },
+    "global": {
+      "timed": [
+        {"time": "03:00", "event": "美 연준 9월 FOMC 기준금리 결정·점도표 공개", "important": true},
+        {"time": "03:30", "event": "워시 연준 의장 기자회견", "important": true},
+        {"time": "21:30", "event": "美 주간 신규 실업수당 청구건수", "important": false}
+      ],
+      "untimed": [
+        {"event": "일본은행(BOJ) 금융정책결정회의 개막", "when": "9/17~18 이틀 일정"}
+      ]
+    },
+    "theme": "연준이 금리를 올리고 추가 인상까지 열어둔 만큼, 오늘 국내 증시는 환율과 외국인 수급이 방향을 가를 수 있어요. 반도체 쏠림이 이어지는지도 함께 보면 좋아요.",
+    "checks": [
+      "원/달러가 1360원대 위에서 더 오르는지 확인해 보세요",
+      "외국인이 반도체 대형주에서 매도를 이어가는지 살펴보세요",
+      "밤 9시 30분 美 신규 실업수당 청구 결과를 체크해 보세요",
+      "내일 일본은행 결정에 따른 엔화 흐름도 미리 챙겨보면 좋아요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-09-13",
+    "end": "2026-09-19",
+    "days": [
+      {"date": "2026-09-13", "weekday": "일", "items": []},
+      {"date": "2026-09-14", "weekday": "월", "items": [
+        {"region": "domestic", "time": null, "event": "KRX 애프터마켓 개장", "important": false, "category": "market"}
+      ]},
+      {"date": "2026-09-15", "weekday": "화", "items": [
+        {"region": "domestic", "time": null, "event": "한국은행 8월 수출입물가지수·무역지수 발표", "important": false, "category": "macro"},
+        {"region": "global", "time": null, "event": "美 연준 9월 FOMC 개막 (이틀 일정)", "important": false, "category": "policy"}
+      ]},
+      {"date": "2026-09-16", "weekday": "수", "items": []},
+      {"date": "2026-09-17", "weekday": "목", "items": [
+        {"region": "global", "time": "03:00", "event": "美 연준 9월 FOMC 기준금리 결정·점도표 공개", "important": true, "category": "policy"},
+        {"region": "global", "time": "03:30", "event": "워시 연준 의장 기자회견", "important": true, "category": "policy"},
+        {"region": "global", "time": "21:30", "event": "美 주간 신규 실업수당 청구건수", "important": false, "category": "macro"},
+        {"region": "global", "time": null, "event": "일본은행(BOJ) 금융정책결정회의 개막", "important": false, "category": "policy"}
+      ]},
+      {"date": "2026-09-18", "weekday": "금", "items": [
+        {"region": "global", "time": null, "event": "일본은행(BOJ) 기준금리 결정", "important": true, "category": "policy"},
+        {"region": "global", "time": null, "event": "美 쿼드러플 위칭데이 (선물·옵션 동시 만기)", "important": true, "category": "market"}
+      ]},
+      {"date": "2026-09-19", "weekday": "토", "items": []}
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 9,
+    "days": [
+      {"date": "2026-09-09", "items": [
+        {"region": "global", "event": "Apple 가을 이벤트 (아이폰 공개)", "important": false, "category": "conference"}
+      ]},
+      {"date": "2026-09-14", "items": [
+        {"region": "domestic", "event": "KRX 애프터마켓 개장", "important": false, "category": "market"}
+      ]},
+      {"date": "2026-09-15", "items": [
+        {"region": "domestic", "event": "한국은행 8월 수출입물가지수·무역지수 발표", "important": false, "category": "macro"},
+        {"region": "global", "event": "美 연준 9월 FOMC 개막", "important": false, "category": "policy"}
+      ]},
+      {"date": "2026-09-17", "items": [
+        {"region": "global", "event": "美 연준 9월 FOMC 기준금리 결정·점도표 공개", "important": true, "category": "policy"},
+        {"region": "global", "event": "美 주간 신규 실업수당 청구건수", "important": false, "category": "macro"}
+      ]},
+      {"date": "2026-09-18", "items": [
+        {"region": "global", "event": "일본은행(BOJ) 기준금리 결정", "important": true, "category": "policy"},
+        {"region": "global", "event": "美 쿼드러플 위칭데이 (선물·옵션 동시 만기)", "important": true, "category": "market"}
+      ]},
+      {"date": "2026-09-23", "items": [
+        {"region": "global", "event": "Meta Connect 2026 (9/23~24)", "important": false, "category": "conference"}
+      ]},
+      {"date": "2026-09-24", "items": [
+        {"region": "domestic", "event": "추석 연휴 국내 증시 휴장", "important": true, "category": "holiday"}
+      ]},
+      {"date": "2026-09-25", "items": [
+        {"region": "domestic", "event": "추석 국내 증시 휴장", "important": true, "category": "holiday"}
+      ]},
+      {"date": "2026-09-30", "items": [
+        {"region": "global", "event": "마이크론(MU) 실적 발표 (장 마감 후)", "important": true, "category": "earnings"}
+      ]}
+    ]
+  }
+}

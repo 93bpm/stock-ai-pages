@@ -3467,7 +3467,39 @@
         "branch": "claude/adoring-fermi-z8k32l"
       },
       "notes": "KST 수요일 발화 — 美 9/15(화)·韓 9/15(화) 마감값 기준. ★환경 제약 2일째★: WebFetch·curl 모두 egress 프록시에 차단돼 시세를 WebSearch 인용으로만 확보했어요. 그 결과 美 섹터 ETF 11종 일간 등락률을 한 건도 못 구해 us.sectorsUp/sectorsDown을 빈 배열로 뒀고(validate-briefing HARD 4건은 전부 이 결손), 마스킹·추측 금지 룰(guides/data-quality §3·§5)에 따라 값을 지어내지 않았어요. 반대로 어제 빠졌던 필라델피아 반도체(11,824.0 ▲1.30%)는 확보해 us.indices 4개를 모두 채웠어요. 美 3대 지수는 전일 종가(S&P 7,619.98·나스닥 26,186.41·다우 52,421.20) 대비 등락률로 교차검증해 일치를 확인했어요. 韓 flow의 ADR(EWY)은 9/15 종가를 못 구해 9/14 종가를 날짜 라벨과 함께 기록했고, 신용융자는 9월 수치가 공개 확인되지 않아 8/28 기준값을 라벨과 함께 넣었어요. 나머지 Sanity(KST 5룰·카운트·enum·sourceUrl 5룰 24/24·차단 0·중복 0·마스킹 4패턴·캘린더 ⑩룰·페르소나 4종)는 0건 통과. ★model★: prompt Step 8 명시값이 여전히 오타(claude-oups4.85)라 헤더·Step 9의 claude-opus-4.8을 채택했어요 — 이 세션 설정 ID는 claude-opus-5로 표시돼 불일치가 이어져요. ★FOMC 의장 표기★: 이번 주 출처들이 Fed 의장을 케빈 워시로 보도해 캘린더의 기자회견 항목을 '워시 Fed 의장'으로 정정했어요(전일 파일은 파월)."
+    },
+    {
+      "date": "2026-09-17",
+      "time": "07:08",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 880,
+      "tokens_estimated": 250000,
+      "response_size_kb": 20.0,
+      "tool_calls": {
+        "WebFetch": 15,
+        "WebSearch": 45,
+        "Read": 0,
+        "Write": 1,
+        "Bash": 12
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebSearch": "45/45 호출 성공 (유일하게 동작한 수집 경로)",
+        "WebFetch": "8/15 — raw.githubusercontent.com(context·schema·guides 4종·whitelist 2종) 성공, stooq·finance.yahoo·cnbc·tradingeconomics·investing·thestreet·firebat 7건 EGRESS_BLOCKED",
+        "curl(Bash)": "0/2 — query1.finance.yahoo.com CONNECT 403 (프록시 정책 거부)",
+        "whitelist 3종(raw URL + 스크립트 검증 fetch)": "3/3"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-w7q4ub"
+      },
+      "notes": "KST 목요일 발화 — 美 9/16(수)·韓 9/16(수) 마감값 기준. ★환경 제약 3일째★: WebFetch·curl 모두 egress 프록시에 막혀 시세를 WebSearch 인용으로만 확보했어요. 대신 어제 빈 배열로 남았던 us.sectorsUp/sectorsDown을 이번엔 11개 GICS 섹터 일간 등락률(9/16) 중 10개를 확보해 상대 강세 5·약세 5로 모두 채웠어요 — 다만 이날은 확인된 10개 섹터가 전부 하락이라 sectorsUp도 음수값(유틸리티 −0.19% 등 낙폭 최소 5종)으로 들어갔고, 헬스케어는 값을 못 구해 제외했어요. 美 4대 지수는 아시아경제 뉴욕증시 마감 기사로 교차검증했어요(다우 51,461.90 −1.21% / S&P500 7,551.81 −0.45% / 나스닥 25,978.43 −0.01% / 필라델피아 반도체 11,246.11 +0.63%). 韓 flow는 야간선물 9/16 값이 출처마다 어긋나 제외하고 원/달러+ADR(EWY) 2건으로 기록했어요(schema v1.6.1 2~3개 허용). 신용융자 33.3조·예탁금 107조560억은 각각 공표 기준일 라벨과 함께 넣었어요. 캘린더는 추석 휴장(9/24~25)·BOJ(9/17~18)·美 쿼드러플 위칭(9/18)·Meta Connect(9/23~24)·마이크론 실적(9/30)을 출처 확인 후 반영했어요. Sanity 전 항목(KST 5룰·카운트·enum·sourceUrl 5룰 24/24·차단 0·중복 0·마스킹 4패턴·캘린더 ⑩룰·페르소나 4종) 0건 통과. ★model★: prompt Step 8 명시값이 여전히 오타(claude-oups4.85)라 헤더·Step 9의 claude-opus-4.8을 채택했어요 — 이 세션 설정 ID는 claude-opus-5로 표시돼 불일치가 이어져요."
     }
   ],
-  "updatedAt": "2026-09-16T07:22:00+09:00"
+  "updatedAt": "2026-09-17T07:08:00+09:00"
 }
