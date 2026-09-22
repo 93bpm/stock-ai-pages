@@ -3671,7 +3671,45 @@
       "push": {
         "branch": "claude/adoring-fermi-d9mpd5"
       }
+    },
+    {
+      "date": "2026-09-23",
+      "time": "07:26",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 802,
+      "tokens_estimated": 232000,
+      "response_size_kb": 27.7,
+      "tool_calls": {
+        "WebFetch": 15,
+        "WebSearch": 70,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 25
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq": "fail:egress-blocked(curl 403 CONNECT)",
+        "Yahoo Finance": "fail:egress-blocked(12)",
+        "Google Finance": "0/0",
+        "Investing.com": "0/0",
+        "Trading Economics": "0/0",
+        "finviz": "0/0",
+        "Benzinga": "fail:egress-blocked(1)",
+        "raw.githubusercontent": "0/0 (로컬 clone 사용)",
+        "로컬 clone(context·schema·guides 5종·whitelist 3종·전일 briefing·manifest·usage)": "6/6",
+        "WebSearch": "70/70",
+        "npm registry(ajv) + pypi(jsonschema)": "2/2"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-0wmccf"
+      }
     }
   ],
-  "updatedAt": "2026-09-22T07:08:00+09:00"
+  "updatedAt": "2026-09-23T07:26:00+09:00"
 }
