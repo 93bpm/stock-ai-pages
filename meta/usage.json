@@ -3746,7 +3746,46 @@
       "push": {
         "branch": "claude/adoring-fermi-hpve43"
       }
+    },
+    {
+      "date": "2026-09-25",
+      "time": "07:14",
+      "model": "claude-opus-4.8",
+      "status": "skip",
+      "duration_seconds": 685,
+      "tokens_estimated": 196000,
+      "response_size_kb": null,
+      "tool_calls": {
+        "WebFetch": 19,
+        "WebSearch": 48,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 21
+      },
+      "news_count": {
+        "global": 0,
+        "domestic": 0
+      },
+      "source_url_coverage": "0/0",
+      "sources_attempted": {
+        "Stooq": "fail:CONNECT 403 (egress 정책 거부)",
+        "Yahoo Finance": "fail:EGRESS_BLOCKED 11건 (지수·지표 전종목)",
+        "Google Finance": "fail:CONNECT 403",
+        "Investing.com": "fail:CONNECT 403",
+        "Trading Economics": "fail:EGRESS_BLOCKED",
+        "finviz": "fail:CONNECT 403",
+        "FRED(fred.stlouisfed.org)": "fail:EGRESS_BLOCKED",
+        "CNBC·nasdaq.com·slickcharts·thestreet": "fail:EGRESS_BLOCKED 4건",
+        "韓 매체(hankyung·edaily·naver·krx)": "fail:CONNECT 403",
+        "raw.githubusercontent.com": "1/1 (유일 허용 도메인)",
+        "로컬 clone(context·schema·guides 5종·whitelist 3종·전일 briefing·manifest·usage)": "6/6",
+        "WebSearch": "48/48 호출 성공 — 美 지수 4종·VIX·10년물은 확보, 그러나 섹터 11종 종가·달러인덱스·유가·금·비트코인 종가는 출처간 수치 불일치로 검증 실패"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-le381t"
+      }
     }
   ],
-  "updatedAt": "2026-09-24T07:13:00+09:00"
+  "updatedAt": "2026-09-25T07:25:00+09:00"
 }
