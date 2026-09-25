@@ -3785,6 +3785,41 @@
       "push": {
         "branch": "claude/adoring-fermi-le381t"
       }
+    },
+    {
+      "date": "2026-09-26",
+      "time": "07:14",
+      "model": "claude-opus-4.8",
+      "status": "skip",
+      "duration_seconds": 499,
+      "tokens_estimated": 142000,
+      "response_size_kb": null,
+      "tool_calls": {
+        "WebFetch": 17,
+        "WebSearch": 27,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 4
+      },
+      "news_count": {
+        "global": 0,
+        "domestic": 0
+      },
+      "source_url_coverage": "0/0",
+      "sources_attempted": {
+        "Stooq": "fail:EGRESS_BLOCKED",
+        "Yahoo Finance(finance/query1)": "fail:EGRESS_BLOCKED 2건",
+        "CNBC": "fail:EGRESS_BLOCKED",
+        "namu.wiki·vittarthi·imnews.imbc·etoday": "fail:EGRESS_BLOCKED 4건",
+        "raw.githubusercontent.com": "9/9 (유일 허용 도메인 — context·schema·guides 5종·whitelist 2종)",
+        "WebSearch": "27/27 호출 성공 — 美 지수 3종(S&P·나스닥·다우) 교차검증 확보, 韓 추석 휴장 확정 + 9/23 마감·수급 확보. 그러나 SOX 종가·美 섹터 11종 종가·VIX/DXY/WTI/금 종가는 출처간 불일치(장중·전일 혼재)로 검증 실패",
+        "로컬 clone(manifest·usage)": "2/2"
+      },
+      "masking_used": [],
+      "skip_reason": "WebFetch 전 도메인 egress 차단(raw.githubusercontent.com 제외)으로 시세 출처 전멸. WebSearch만으로는 schema 고정 카운트 배열 충족 불가: us.indices 4종 중 SOX 종가 미확보, us.sectorsUp/Down 5+5 금요일 종가 미확보(장중·전일 데이터만), us.indicators 6종 중 VIX·DXY·WTI·금 출처간 불일치, kr.sectorsUp/Down 5+5 미확보. 마스킹 금지 룰상 추측 기입 대신 skip (guides/data-quality.md §5, operations.md §2)",
+      "push": {
+        "branch": "claude/adoring-fermi-ozim40"
+      }
     }
   ],
   "updatedAt": "2026-09-25T07:25:00+09:00"
