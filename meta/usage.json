@@ -3820,6 +3820,44 @@
       "push": {
         "branch": "claude/adoring-fermi-ozim40"
       }
+    },
+    {
+      "date": "2026-09-27",
+      "time": "07:20",
+      "model": "claude-opus-4.8",
+      "status": "skip",
+      "duration_seconds": 385,
+      "tokens_estimated": 118000,
+      "response_size_kb": null,
+      "tool_calls": {
+        "WebFetch": 14,
+        "WebSearch": 27,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 11
+      },
+      "news_count": {
+        "global": 0,
+        "domestic": 0
+      },
+      "source_url_coverage": "0/0",
+      "sources_attempted": {
+        "raw.githubusercontent.com": "2/2 (context.md·schema.json) — 유일 허용 도메인. guides 5종·whitelist 3종은 로컬 clone에서 정독",
+        "Stooq": "fail:EGRESS_BLOCKED",
+        "Yahoo Finance": "fail:EGRESS_BLOCKED",
+        "CNBC": "fail:EGRESS_BLOCKED",
+        "kr.investing.com": "fail:EGRESS_BLOCKED",
+        "tradingeconomics.com": "fail:EGRESS_BLOCKED",
+        "stockanalysis·slickcharts·hankyung·wikipedia": "fail:EGRESS_BLOCKED 4건",
+        "investrade·currentlogic·countryetftracker": "fail:EGRESS_BLOCKED 3건 (섹터 원문 페이지 직접 접근 시도)",
+        "WebSearch": "27/27 호출 성공 — 美 지수 4종 AP 통신 확정(S&P 7,743.41·나스닥 27,068.72·다우 51,828.62·SOX 12,668.93, SOX는 9/23 종가 12,438.27 대비 산술 교차검증 통과), 지표 6종 확보(VIX 14.87·10Y 5.17%·DXY 101.03·WTI 92.44·금 4,280.19·BTC 83,974), 韓 9/23 마감(코스피 7,080.92·코스닥 844.48·기관 +3,170억) + 추석 휴장 9/24~25·9/28(월) 재개장(대체공휴일 미지정) 확정. 그러나 美 섹터 11종 중 9/25 종가 확보는 XLK(+0.80%)·XLE(-0.06%) 2종뿐",
+        "로컬 clone(manifest·usage·briefing 2026-09-24)": "3/3"
+      },
+      "masking_used": [],
+      "skip_reason": "WebFetch 전 도메인 egress 차단(raw.githubusercontent.com 제외) 3일 연속 — 9/25·9/26에 이어 동일 원인. us.sectorsUp/Down(각 minItems=maxItems=5, 총 10개 정렬값 필요)을 검증된 실값으로 채울 수 없어 skip. 확보된 섹터 값은 XLK +0.80%·XLE -0.06% 2종뿐이고, 유일한 11종 후보 출처(Investrade 9/25 리뷰: 기술 +0.83%·산업재 +0.45%·소재 +0.02%·부동산 -0.41%·에너지 -0.93%·커뮤니케이션 -1.04%)는 ① XLE 실측 -0.06%와 에너지 -0.93%가 상충 ② Benzinga는 '2상승 9하락', Investrade는 '3상승 8하락'으로 상승/하락 종목수 불일치 ③ 나머지 5종(금융·헬스케어·임의소비재·필수소비재·유틸리티)은 값 자체 미확보(유틸리티는 '밑에서 3번째' 서수만). 마스킹·추측 금지 룰(guides/data-quality.md §3·§5·§6)상 schema 고정 카운트 배열을 추측으로 채우는 대신 skip 선택. 美 지수 4종·지표 6종·韓 9/23 캐리포워드·뉴스·일정은 확보 가능했으나 부분 산출물은 schema HARD 위반이 되어 미저장(operations.md §2 'routine 자체 실패' → manifest 미갱신 → 화면은 최신 가용 날짜 2026-09-24로 자동 폴백)",
+      "push": {
+        "branch": "claude/adoring-fermi-q7yjsn"
+      }
     }
   ],
   "updatedAt": "2026-09-25T07:25:00+09:00"
