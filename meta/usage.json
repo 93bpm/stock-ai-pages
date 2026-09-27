@@ -3858,7 +3858,39 @@
       "push": {
         "branch": "claude/adoring-fermi-q7yjsn"
       }
+    },
+    {
+      "date": "2026-09-28",
+      "time": "07:13",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1181,
+      "tokens_estimated": 196000,
+      "response_size_kb": 26.3,
+      "tool_calls": {
+        "WebFetch": 11,
+        "WebSearch": 43,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 12
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "raw.githubusercontent.com": "2/2 (context.md·schema.json) — guides 5종·whitelist 3종·schema examples[0]는 로컬 clone 정독",
+        "WebFetch (Stooq·Yahoo·stockanalysis·eoption·theglobeandmail·csimarket·sectorspdrs·barchart·firebat·infostockdaily·newspim·seoul.co.kr)": "fail:EGRESS_BLOCKED 11건 — 4일 연속 전 도메인 차단(raw.githubusercontent.com 제외)",
+        "WebSearch": "43/43 성공 — 유일 가용 데이터 경로. 美 지수 4종(S&P 7,743.41·나스닥 27,068.72·다우 51,828.62·SOX 12,668.93) + 지표 6종 + ★섹터 11종 전량 종가 확보★(XLI+0.95·XLK+0.80·XLF+0.57·XLV+0.49·XLP+0.44·XLU+0.38·XLB+0.24·XLY+0.22·XLE-0.06·XLRE-0.22·XLC-0.90). 韓 9/23 마감(코스피 7,080.92·코스닥 844.48·수급 외인-5,101억/기관+3,170억/개인-1조4,397억) + 종목 종가 10종 + EWY 9/25 +2.55% 확보",
+        "교차검증": "SOX 체인(9/23 12,438.27→9/24 12,492.54→9/25 12,668.93=+1.41%)·VIX 체인(14.21→15.7x→14.87 -5.11%)·DXY(100.75→101.29→101.03 -0.25%) 모두 직전 briefing과 정합. 섹터는 Investrade/eOption 수치가 ★mid-morning 장중값★임을 확인해 종가 데이터로 대체(9/25~9/27 skip 원인 해소)",
+        "로컬 clone(manifest·usage·briefing 2026-09-24·guides·whitelist)": "11/11"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-kwlnb2"
+      }
     }
   ],
-  "updatedAt": "2026-09-25T07:25:00+09:00"
+  "updatedAt": "2026-09-28T07:13:00+09:00"
 }
