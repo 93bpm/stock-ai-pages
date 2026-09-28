@@ -3890,7 +3890,40 @@
       "push": {
         "branch": "claude/adoring-fermi-kwlnb2"
       }
+    },
+    {
+      "date": "2026-09-29",
+      "time": "07:14",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1360,
+      "tokens_estimated": 262000,
+      "response_size_kb": 26.4,
+      "tool_calls": {
+        "WebFetch": 20,
+        "WebSearch": 68,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 24
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "raw.githubusercontent.com": "1/1 (context.md) — schema.json·guides 5종·whitelist 3종은 로컬 clone 정독",
+        "WebFetch (Stooq·Yahoo·Google Finance·Investing·TradingEconomics·CNBC·Benzinga·krmg·babypips·FRED·hankyung·chickstockfi·firebat·vegastooza)": "fail:EGRESS_BLOCKED 19건 — 5일 연속 전 도메인 차단(raw.githubusercontent.com 제외)",
+        "WebSearch": "68/68 성공 — 유일 가용 데이터 경로. 美 지수 4종(S&P 7,683.69·나스닥 26,820.38·다우 51,481.51·SOX 12,465.24) + 지표 6종 + ★섹터 10종 종가 확보★(XLP+0.40·XLE+0.30·XLV+0.30·XLRE-0.44·XLU-0.70·XLB-0.73·XLF-0.80·XLI-0.94·XLK-1.10·XLC-1.40, XLY만 미확보). 韓 9/28 마감(코스피 6,889.74 -2.70%·코스닥 846.58 +0.25%·수급 외인-3조2,263억/기관-1조174억/개인+2조6,054억) + 종목 종가 10종 + 야간선물 1,077.85 확보",
+        "교차검증": "S&P 체인(7,743.41→-59.72=7,683.69)·다우(51,828.62→-347.11=51,481.51)·나스닥(27,068.72→-248.34=26,820.38)·SOX(12,668.93→-1.61%=12,465.24)·VIX(14.87→16.30 +9.62%) 모두 직전 briefing과 정합. 섹터는 Zacks/Investrade 수치가 ★9/25(금) 종가★임을 식별해 Benzinga·DividendChannel의 9/28 월요일 기사 값으로 대체",
+        "미확보": "EWY 9/28 종가(pre-market -1.77%만 확인) → kr.flow ADR 항목 제거(2개, v1.6.1 허용) / XLY 임의소비재 등락률 → 확보된 10종만으로 TOP5·BOTTOM5 산출(data-quality §5)",
+        "로컬 clone(schema·guides 5종·whitelist 3종·manifest·usage·briefing 2026-09-28)": "12/12"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-u5l1qj"
+      }
     }
   ],
-  "updatedAt": "2026-09-28T07:13:00+09:00"
+  "updatedAt": "2026-09-29T07:40:00+09:00"
 }
