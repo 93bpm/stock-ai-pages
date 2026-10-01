@@ -3991,7 +3991,42 @@
       "push": {
         "branch": "claude/adoring-fermi-hfsijq"
       }
+    },
+    {
+      "date": "2026-10-02",
+      "time": "07:14",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1164,
+      "tokens_estimated": 262000,
+      "response_size_kb": 27.2,
+      "tool_calls": {
+        "WebFetch": 20,
+        "WebSearch": 62,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 33
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "raw.githubusercontent.com": "2/2 (context.md·manifest.json) — schema.json·guides 5종·whitelist 3종·전일 briefing·usage는 로컬 clone 정독",
+        "WebFetch (Stooq·Yahoo Finance·Google Finance·Investing.com·kr.investing·TradingEconomics·CNBC·stockanalysis·thestreet·finviz)": "fail:EGRESS_BLOCKED 18건 — 8일 연속 전 도메인 차단. curl 직접 호출도 proxy connect_rejected(403), example.com까지 거부",
+        "WebSearch": "62/62 호출 — 유일 가용 데이터 경로. 美 10/1 지수 4종(S&P 7,666.45 +0.19%·나스닥 26,871.60 +0.04%·다우 50,926.56 +0.04%·SOX 12,829.00 +1.59%) + 지표 6종(VIX 16.34·10년물 5.25%·DXY 101.64·WTI 92.87·금 4,210·BTC 84,580) + 美 섹터 ETF 11종 전량 + 韓 10/1 마감(코스피 6,971.35 +1.95%·코스닥 894.29 +4.48%·환율 1,358.4원·수급 외인-3,366억/기관+4,171억/개인-1조7,115억) + 종목 종가 10종",
+        "교차검증": "지수 체인 전부 직전 briefing과 정합 — S&P(7,651.54 +14.91→7,666.45)·나스닥(26,861.06 +10.54→26,871.60)·다우(50,906.05 +20.51→50,926.56)·SOX(12,628.62 +200.38→12,829.00)·코스피(6,838.04 +133.31→6,971.35)·코스닥(855.91 +38.38→894.29). 美 섹터 11종은 에너지(+1.10%)~소재(-1.33%) 스프레드 2.43p가 원문 기술과 정확히 일치해 세트 정합 확인. Zacks 'News for Oct 1'은 9/30 세션 기사임을 식별해 XLU +1.2%/XLE -0.9%를 배제(전일 briefing 값과 동일 확인). WTI는 -0.9% 보도(장중)와 +2.7% settle 보도 충돌 → 'settle $92.87 +2.7%' 채택(브렌트 +4.4% 102.31·XLE 상승과 정합). 반도체 장비주는 장중 스냅샷(리노 +3.27%) 배제, 16:04 마감기사 값(+10.90%) 채택",
+        "미확보": "코스피200 야간선물 10/1 마감값 — WebSearch 2회 실패 → kr.flow 2개(v1.6.1 허용), ADR은 SK하이닉스 ADR 193.50달러 +5.08% 사용 / 예탁금은 9/28, 신용융자는 9/30 기준이 최신 확인치라 tip에 기준일 명기 / 美 섹터는 10/1 장중 스냅샷 기반(종가 테이블 미공개)",
+        "매월 1일 whitelist 재생성": "해당 없음 (10/2 발화)",
+        "로컬 clone(schema·guides 5종·whitelist 3종·manifest·usage·briefing 2026-10-01·validator)": "14/14",
+        "Sanity": "node scripts/validate-briefing.mjs HARD 통과 + 자체 스크립트(KST 5룰·카운트·enum·마스킹·sourceUrl 5룰·calendarWeek ⑩룰·페르소나 4종·길이) FAILS 0건 / WARNS 0건"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-wsf6fh"
+      }
     }
   ],
-  "updatedAt": "2026-10-01T07:28:00+09:00"
+  "updatedAt": "2026-10-02T07:32:00+09:00"
 }
