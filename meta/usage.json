@@ -4097,6 +4097,41 @@
       "push": {
         "branch": "claude/adoring-fermi-dbqwrj"
       }
+    },
+    {
+      "date": "2026-10-05",
+      "time": "07:14",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1699,
+      "tokens_estimated": 231000,
+      "response_size_kb": 32.3,
+      "tool_calls": {
+        "WebFetch": 7,
+        "WebSearch": 34,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 9
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "raw.githubusercontent.com": "4/5 성공 (context.md·schema.json·sources.md·news.md·data-quality.md). guides/outputs.md는 요약본만 수신, guides/operations.md는 요약기 거부 → 두 건 모두 로컬 clone 전문 정독으로 대체",
+        "WebFetch (Yahoo Finance ^GSPC·Stooq ^spx)": "fail:EGRESS_BLOCKED 2건 — 11일 연속 전 금융 도메인 차단. raw.githubusercontent.com만 통과 → 시세는 전량 WebSearch 교차검증",
+        "WebSearch": "34/34 호출. 美·韓 모두 주말+연휴로 신규 세션 없음 → operations §2 주말 룰에 따라 10/2(금) 세션 값 유지. 10/2 핵심값 재확인(S&P 7,722.72 +0.73%·나스닥 27,190.86 +1.19%·다우 +250.36p +0.49%·10년물 5.281%·30년물 5.629%·코스피 7,003.74 +0.46%·코스닥 893.29 -0.11%·환율 1,350.6원 -7.8원) + 이번 주 캘린더 신규 확보(ISM 서비스업 10/5 예상 55.1·인도 RBI 10/5~7 결정 10/7·FOMC 의사록 현지 10/7 14:00=10/8 03:00 KST·中 증시 10/8 재개·ECB 의사록 10/8·실업수당 10/8 예상 20.0만·미시간 소비심리 예비치 10/9)",
+        "교차검증": "① 10/5 개천절 대체공휴일 휴장을 publicholidays.co.kr + SBS Biz 주간일정(5·9일 휴장) 2건으로 확정 — kr 블록 휴장 처리 근거. ② 美 9월 CPI는 BLS 공식 일정상 10/14로 재확인(주간전망 블로그의 '이번 주 CPI' 기재는 오기로 판별해 배제). ③ 中 증시 국경절 휴장은 10/1~7, 재개 10/8(목)로 확정(SSE 휴장표 + SBS Biz 일치) → calendarWeek·Month 신규 반영. ④ OPEC+ 10/4 회의는 '핵심 7개국(사우디·러시아·이라크·쿠웨이트·알제리·카자흐스탄·오만) 11월 동결, 차기 11/1'로 CNBC 10/4 기사 확정 — 전일 briefing의 '8개국' 표기는 7개국으로 정정. ⑤ 韓 수급은 머니투데이·글로벌이코노믹 10/2 마감 기사가 기관 +3,814억/개인 -1조7,206억/외국인 -1,367억으로 일치 → 개인 수치를 전일 '-1조7,200억'에서 '-1조7,206억'으로 정밀화. ⑥ VIX(15.31 vs 15.52)·DXY(101.93 vs 101.71)·WTI(91.11 vs 91.24)는 출처별 1~2단위 차이로 data-quality §4 '미세 차이 허용' 범위 → 전일 체인 정합값 유지. ⑦ BTC는 24시간 거래라 주말 실시간 84,692~84,746달러 확인했으나 us 블록이 10/2 세션 기준이므로 10/2 종가 84,356 유지",
+        "미확보": "코스피200 야간선물(주말+연휴로 호가 없음) → kr.flow 2개(v1.6.1 허용) / 예탁금 9/28·신용융자 9/30이 최신 확인치라 tip에 기준일 명기 / 美 섹터 11종 10/2 일간 등락은 신규 출처 미확보 → 전일 확정 10종 기준 TOP5·BOTTOM5 유지 / SK하이닉스 10/2 종가는 출처간 184만1,000원·184만6,000원 불일치 → watchlist badge를 목표주가(320만원, 대신증권)로 대체",
+        "매월 1일 whitelist 재생성": "해당 없음 (10/5 발화)",
+        "로컬 clone(operations.md·outputs.md 전문·whitelist 3종·manifest·usage·briefing 2026-10-04·validator)": "8/8",
+        "Sanity": "node scripts/validate-briefing.mjs 2026-10-05 HARD 통과 + 자체 스크립트(KST 5룰·최상위 키·카운트 15종·지수범위·등락률 20%·enum 5종·timed/untimed 모양·마스킹 6패턴·빈 문자열·sourceUrl 5룰·rank 시퀀스·카테고리 4건 상한·길이 3종·subNoteEm 4섹션·calendarWeek ①~⑤·calendarMonth ⑥⑦·whitelist ⑧⑨·category 7종 ⑩·페르소나 3종 69인스턴스) FAILS 0건 / WARNS 0건"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-pdtrdz"
+      }
     }
   ],
   "updatedAt": "2026-10-04T07:13:00+09:00"
