@@ -4132,7 +4132,43 @@
       "push": {
         "branch": "claude/adoring-fermi-pdtrdz"
       }
+    },
+    {
+      "date": "2026-10-06",
+      "time": "07:14",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1055,
+      "tokens_estimated": 420000,
+      "response_size_kb": 33.2,
+      "tool_calls": {
+        "WebFetch": 18,
+        "WebSearch": 66,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 24
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "raw.githubusercontent.com": "2/2 성공(context.md·schema.json) — 단 WebFetch 요약기가 전문 대신 요약만 반환 → master 7종(context·schema·guides 5종)은 로컬 clone 전문 정독으로 대체",
+        "WebFetch (금융 도메인)": "fail:EGRESS_BLOCKED 16건 — finance.yahoo.com 12·sectorspdrs.com 1·investing.com 1·tradingeconomics.com 1·cnbc.com 1·hankyung.com 1. 12일 연속 차단",
+        "curl (Bash)": "fail:403 CONNECT 23건 — stooq.com·query1.finance.yahoo.com 외 금융·언론 20개 도메인 전수 차단(조직 egress 정책). github만 통과 → 시세 전량 WebSearch 교차검증",
+        "WebSearch": "66/66 호출(도메인 제한 검색 포함). marketwatch.com·politico.com·einfomax.co.kr은 크롤러 차단으로 allowed_domains 사용 불가 → 다른 허용 매체로 대체",
+        "교차검증": "① 美 지수 3종은 CNBC 10/5 라이브 + 3개 독립 검색 일치 + 전일 종가 산술 정합 확인(다우 51,176.96+90.94=51,267.90, 나스닥 27,190.86×1.0105=27,477.3, S&P 7,722.72×1.0066=7,773.9). ② 10년물은 TradingEconomics(5.26% 하락)와 CNBC(5.311% +3bp)가 상반 → 전일 10년물 5.28%·30년물 5.63%에 각각 +3bp를 더한 CNBC 값(5.311%·5.664%)이 산술 정합하고 Yahoo '수익률 상승' 서술과도 일치해 CNBC 채택. ③ 美 섹터는 Benzinga 10/5 기사 요약이 1차(XLB +1.31 등 10상승1하락)와 2차(XLC +0.91·XLE +0.79·XLU +0.61 등 8상승3하락)로 갈려, 헤드라인 '8 Of 11 Sectors Rise'와 일치하고 구성종목 등락까지 제시한 2차 세트 채택. ④ VIX는 Investing.com 15.52(+0.21, +1.37%)가 streetstats 10/2 종가 15.31과 정합 → 채택(전일 briefing의 10/2 15.52 표기는 출처 차이로 추정). ⑤ WTI는 CNBC 결제가 89.43달러(-1.8%)가 가장 명시적 → TradingEconomics 90.62·시장요약 90.48 대신 채택. ⑥ 금은 Kitco·Investing 모두 현물 4,154.60(+0.34%)로 일치. ⑦ EWY 10/5 종가 191.28달러(-0.31%)는 전일 종가 191.88과 정합(stockanalysis의 187.18/182.53은 불일치해 배제). ⑧ 韓 수급은 뉴스핌 10/2 마감시황 단일 기사 기준(기관 +4,104억·개인 -1조8,125억·외국인 -834억)으로 통일 — 머니투데이 세트(-1,367억/+3,814억)와 혼용하지 않음. ⑨ 한은 금통위 10월 결정일 10/22 재확인. ⑩ GTC는 10월 워싱턴 D.C.가 아니라 베를린 10/20~22·기조연설 10/21(워싱턴은 11/30~12/3)로 확정.",
+        "미확보": "코스피200 야간선물(10/5 국내 휴장으로 세션 없음) → kr.flow 2개(v1.6.1 허용) / 예탁금 9/28·신용융자 9/30이 최신 확인치라 tip에 기준일 명기 / 韓 지수·수급·업종은 10/5 휴장으로 직전 거래일 10/2 종가 유지(operations §2) / 10월 선물옵션 만기는 분기 동시만기가 아니어서 캘린더 미기재",
+        "매월 1일 whitelist 재생성": "해당 없음 (10/6 발화)",
+        "로컬 clone(guides 5종 전문·whitelist 3종·manifest·usage·briefing 2026-10-05·schema·validator)": "13/13",
+        "Sanity": "node scripts/validate-briefing.mjs 2026-10-06 HARD 통과 + ajv 스키마 전체 검증 통과 + 자체 스크립트(KST 5룰·최상위 키 5룰·카운트 13종·지수범위·등락률 20%·enum 6종·timed/untimed 모양·마스킹 4패턴·빈 문자열·sourceUrl 5룰·길이 3종·subNoteEm 4섹션·calendarWeek ①~⑤·calendarMonth ⑥⑦·whitelist ⑧⑨·category 7종 ⑩·페르소나 3종) FAILS 0건"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-2yrm4e"
+      }
     }
   ],
-  "updatedAt": "2026-10-04T07:13:00+09:00"
+  "updatedAt": "2026-10-06T07:14:00+09:00"
 }
