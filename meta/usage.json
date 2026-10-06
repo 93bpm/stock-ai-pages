@@ -4168,7 +4168,42 @@
       "push": {
         "branch": "claude/adoring-fermi-2yrm4e"
       }
+    },
+    {
+      "date": "2026-10-07",
+      "time": "07:14",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1013,
+      "tokens_estimated": 395000,
+      "response_size_kb": 35.0,
+      "tool_calls": {
+        "WebFetch": 3,
+        "WebSearch": 50,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 22
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "raw.githubusercontent.com": "2/2 성공(context.md·schema.json) — 단 WebFetch 요약기가 schema.json 전문 대신 요약만 반환 → schema examples[0]·guides 5종은 로컬 clone 전문 정독으로 대체",
+        "WebFetch (금융 도메인)": "fail:EGRESS_BLOCKED 1건(finance.yahoo.com ^GSPC) — 13일 연속 차단 확인 후 추가 시도 생략, 시세 전량 WebSearch 교차검증으로 전환",
+        "WebSearch": "50/50 호출(도메인 제한 검색 포함). einfomax.co.kr은 크롤러 차단으로 allowed_domains 사용 불가 → 다른 허용 매체로 대체",
+        "교차검증": "① 美 지수 3종은 전일 종가 + 변동폭 산술 정합 전수 확인(S&P 7,773.95+44.98=7,818.93 / 나스닥 27,477.31+122.48=27,599.79 / 다우 51,267.90+253.38=51,521.28) → 3개 독립 출처 일치. ② VIX는 CNBC 15.08(-0.44)이 전일 기록값 15.52와 정확히 정합 → 채택(검색 요약기가 반환한 '15.52'는 전일 값 캐시로 판별해 배제). ③ 10년물은 CNBC 5.275%(-3.6bp)가 전일 5.311%와 정합하고 TradingEconomics 5.27%와도 일치 → 채택. ④ WTI는 TradingEconomics 87.99(-1.61%)가 전일 89.43 기준 산술 정합 + CNBC 장중 88.01(-1.6%)과 일치 → 채택. ⑤ 금은 4,187.10(+0.73%)이 전일 4,154.60과 정합 → 채택(TradingEconomics 4,121.39는 전일 기준 불일치로 배제). ⑥ DXY는 102.167(+0.23%)로 2개 출처 일치. ⑦ SOXX는 593.89(전일 589.51 대비 +0.74%)로 자체 정합, SOX 지수 +0.57%와 방향·폭 일치. ⑧ 美 섹터는 Benzinga 'Tuesday 9 of 11' 단일 세트로 11종 전수 확보(상승 9·하락 2 헤드라인과 일치) → 혼용 없음. ⑨ 韓 수급은 외국인 -1조7,509억/기관 -20억/개인 +7,406억으로 강원도민일보·businesskorea·blockmedia 3건 일치(초기 검색의 '외인 -7,276억'은 코스닥 혼동으로 배제). ⑩ 삼성전자 272,000원(-1.45%)·SK하이닉스 1,773,000원(-3.69%)은 종가 2건 + 장중 시세(1,802,000원 -2.12%)와 전일 종가 기준 산술 정합. ⑪ 야간선물은 주간 종가 1,103.00 대비 1,109.35(+6.35, +0.58%)로 자체 정합 → 美 신고가 흐름과도 일치. ⑫ 마이크로소프트 3분기 실적일을 전일 기록(현지 10/29)에서 현지 10/28(=10/29 KST)로 정정 — 알파벳·메타와 같은 날 발표 확인. ⑬ GTC 베를린 10/20~22·기조연설 10/21 11:00 재확인, 한은 금통위 10/22 재확인. ⑭ EIA 주간 원유재고 10:30 ET = 23:30 KST 확인(검색 요약기의 '9:30 AM ET'는 오기로 판별).",
+        "미확보": "EWY(美 상장 한국물 ADR) 10/6 종가 미확보(10/5 191.46까지만 인덱싱) → kr.flow 2개로 운영(v1.6.1 허용, 야간선물로 대체) / 예탁금·신용융자는 10월 수치가 출처별 상충(5월 기사 혼입)해 9/28·9/30 확정치 유지 + tip에 기준일 명기 / 코스피 업종지수 하락분(운송장비·부품 -1.61%·제약 -1.55%·전기전자 -1.38%)은 확인했으나 sectorsDown은 종목 단위 실측치만 사용",
+        "매월 1일 whitelist 재생성": "해당 없음 (10/7 발화)",
+        "로컬 clone(guides 5종 전문·schema examples[0]·whitelist 3종·manifest·usage·briefing 2026-10-06·validator)": "13/13",
+        "Sanity": "node scripts/validate-briefing.mjs 2026-10-07 HARD 통과(ajv 스키마 전체) + 자체 스크립트(KST 5룰·최상위 키 5룰·카운트 15종·지수범위·등락률 20%·enum 6종·timed/untimed 모양·마스킹 6패턴·빈 문자열 전수·sourceUrl 5룰·rank 시퀀스·카테고리 4건 상한·길이 3종·subNoteEm 4섹션·calendarWeek ①~⑤·calendarMonth ⑥⑦+정렬·whitelist ⑧⑨·category 7종 ⑩·페르소나 3종 45인스턴스) FAILS 0건"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-ud3cch"
+      }
     }
   ],
-  "updatedAt": "2026-10-06T07:14:00+09:00"
+  "updatedAt": "2026-10-07T07:14:00+09:00"
 }
