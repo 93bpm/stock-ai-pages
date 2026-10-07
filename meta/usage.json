@@ -4203,7 +4203,42 @@
       "push": {
         "branch": "claude/adoring-fermi-ud3cch"
       }
+    },
+    {
+      "date": "2026-10-08",
+      "time": "07:14",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1159,
+      "tokens_estimated": 405000,
+      "response_size_kb": 34.9,
+      "tool_calls": {
+        "WebFetch": 5,
+        "WebSearch": 45,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 26
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "raw.githubusercontent.com (WebFetch)": "2/2 연결은 성공했으나 요약기가 context.md·schema.json 전문 대신 요약만 반환 → guides 5종 전문·schema examples[0]은 로컬 clone 정독으로 대체",
+        "WebFetch (금융 도메인)": "fail:EGRESS_BLOCKED 3건(thestreet.com·cnbc.com·stockanalysis.com) — 14일 연속 차단 확인, 시세 전량 WebSearch 교차검증으로 전환",
+        "WebSearch": "45/45 호출(도메인 제한 검색 포함). marketwatch.com·einfomax.co.kr·politico.com은 크롤러 차단으로 allowed_domains 사용 불가 → 다른 허용 매체로 대체",
+        "교차검증": "① 美 지수 3종 전수 산술 정합(S&P 7,818.93-17.16=7,801.77 / 다우 51,521.28-341.41=51,179.87 / 나스닥 -0.22%) → TheStreet·CNBC·Investrade 3개 출처 일치. ② VIX는 15.84(+0.83)가 전일 15.01과 정확히 정합 → 채택(TradingEconomics '15.09'는 전일 캐시로 판별해 배제). ③ SOXX 580.43(-1.53%)은 전일 589.45(BlackRock·Yahoo·StockAnalysis 3곳 일치) 기준 산술 정합 + Finviz 장중 580.84(-1.46%)와 일치 → 채택(어제 기록한 593.89는 오류로 판명). ④ 10년물은 TradingEconomics 5.32%(Oct/07 종가표) + Benzinga '+5bp 5.32%' 2개 일치 → 채택(CNBC 장중 5.286%는 입찰 직후 시점). ⑤ 금 4,136.70(-1.20%)은 전일 종가 4,187.10과 정확히 정합 → 채택. ⑥ WTI는 89.83(+0.39)이 전일 settle 89.44 기준 정합 + oilprice 89.71·investing 89.81과 일치 → 채택(어제 기록한 87.99는 계통 오류로 판명). ⑦ DXY 102.36은 TradingEconomics Oct/07(+0.51%) 채택. ⑧ 美 섹터는 TradersAgency 11종 전수 단일 세트 사용(XLV +1.04% ~ XLI -2.16%) — 시총가중 환산 -0.4%대로 지수 -0.22%와 정합, Benzinga 'Wednesday 9 of 11'(XLV 최상·XLI 최하)과 순위 일치. ⑨ 韓 지수·환율 전수 정합(코스피 6,941.39-137.49=6,803.90 / 코스닥 919.92-21.49=898.43 / 환율 1,343.6-3.2=1,340.4). ⑩ 삼성전자 268,500(-1.29%)·SK하이닉스 1,723,000(-2.82%)은 전일 종가 기준 산술 정합(뉴스핌 마감시황). ⑪ 하이브 167,000(+6.37%)은 한경 마감 시세 + 뉴스핌 특징주 '6%↑' 2건 일치. ⑫ 삼성바이오로직스 -2.52%(1,277,000)는 재경일보 마감분석 채택(firebat 블로그 -2.44%는 배제). ⑬ 현대차 -1.58%는 장중 342,500과 마감 집계 2건 일치. ⑭ 상한가 2종(천일고속 180,300 +29.99%·동양고속 29,250 +30.00%)은 잡포스트·비즈니스포스트 2건 일치. ⑮ 한은 금통위 10/22·GTC 베를린 10/20~22(기조연설 10/21) 재확인. ⑯ 美 신규 실업수당 08:30 ET=21:30 KST·도매재고 10:00 ET=23:00 KST·30년물 입찰 13:00 ET=02:00 KST(10/9) 환산 확인. ⑰ 선물옵션 동시만기(10월 둘째 목요일=10/8)·반도체 ETF 7종 리밸런싱·자사주 매입 10/6 종료 3건 교차확인.",
+        "미확보": "EWY(美 상장 한국물 ADR) 10/7 종가 미확보(10/6 186.40까지만 인덱싱) → kr.flow 2개로 운영(v1.6.1 허용, 야간선물로 대체) / 예탁금·신용융자는 10월 수치가 출처에 아직 없어 9/28·9/30 확정치 유지 + tip에 기준일 명기 / 美 빅테크 10월 실적일(알파벳·메타·MSFT 10/28, 애플·아마존 10/29 현지)은 각 사 공식 확정 전이라 Investing·MarketBeat 캘린더 게재일 기준으로 calendarMonth에만 반영",
+        "매월 1일 whitelist 재생성": "해당 없음 (10/8 발화)",
+        "로컬 clone(guides 5종 전문·schema examples[0]·whitelist 3종·manifest·usage·briefing 2026-10-07·validator)": "13/13",
+        "Sanity": "node scripts/validate-briefing.mjs 2026-10-08 HARD 통과(ajv 스키마 전체) + 자체 스크립트(KST 5룰·최상위 키 5룰·카운트 15종·지수범위·등락률 20%·enum 6종·timed/untimed 모양·마스킹 6패턴·빈 문자열 전수·sourceUrl 5룰·rank 시퀀스·카테고리 4건 상한·길이 3종·subNoteEm 4섹션·calendarWeek ①~⑤·calendarMonth ⑥⑦+정렬·whitelist ⑧⑨·category 7종 ⑩·페르소나 3종 45인스턴스) FAILS 0건"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-8o8k0a"
+      }
     }
   ],
-  "updatedAt": "2026-10-07T07:14:00+09:00"
+  "updatedAt": "2026-10-08T07:14:00+09:00"
 }
