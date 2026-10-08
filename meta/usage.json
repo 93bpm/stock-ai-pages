@@ -4238,7 +4238,42 @@
       "push": {
         "branch": "claude/adoring-fermi-8o8k0a"
       }
+    },
+    {
+      "date": "2026-10-09",
+      "time": "07:14",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 973,
+      "tokens_estimated": 420000,
+      "response_size_kb": 34.2,
+      "tool_calls": {
+        "WebFetch": 3,
+        "WebSearch": 40,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 24
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "raw.githubusercontent.com (WebFetch)": "2/2 연결 성공했으나 요약기가 context.md·schema.json 전문 대신 요약만 반환 → guides 5종 전문·schema $defs 전체는 로컬 clone 정독으로 대체",
+        "WebFetch (금융 도메인)": "fail:ENOTFOUND 1건(benzinga.com) — 15일 연속 차단 확인, 시세 전량 WebSearch 교차검증으로 전환",
+        "WebSearch": "40/40 성공 + 5건 입력오류 재시도. allowed_domains 배열 형식으로 교정 후 정상 동작",
+        "교차검증": "① 美 지수 3종 전수 산술 정합(S&P 7,801.77-36.41=7,765.36 / 나스닥 27,538.69-345.35=27,193.34 / 다우 51,179.87+51.77=51,231.64) — 서울신문·Yahoo·CNBC 3개 출처 일치. ② SOX는 12,598.55(-3.58%)가 Nasdaq 공시 전일 종가 13,066.15 기준 산술 정합 → 채택(국민일보 속보 '3.39%'는 마감 직전 스냅샷으로 판별). 전일 SOXX 대용(580.43) 대신 실제 SOX 지수로 전환(sources.md §2 '진짜 지수 값' 룰 우선). ③ VIX 15.41은 FRED 10/7 종가 15.08 기준 +2.19% 정합 + Cboe 'as of Oct 8' 일치 → 채택. ④ 10년물 5.23%는 CNBC 5.227%·Yahoo 5.23%·Investing 5.231%·TradingEconomics 5.24% 4개 출처 수렴 → 채택(장중 고점 5.36%는 배제). ⑤ WTI 91.36(+3.49%)은 Investing 일별 종가행 + Benzinga 장중 92.74(+5.1%)의 전일 종가 역산치(88.2x) 상호 정합 → 채택(CNBC '트럼프 발언 뒤 상승폭 축소' 서사와도 일치). ⑥ 금 4,149는 Benzinga 4,148.90(+0.2%)와 뉴스핌 '금값 소폭 반등' 방향 일치 + 전일 4,136.70 기준 +0.29% 정합 → 채택(FXEmpire 현물 4,107은 선물·현물 스프레드로 판별). ⑦ DXY 102.32는 TradingEconomics 102.318·FXEmpire 102.328·남도일보 102.28 3개 수렴. ⑧ 美 섹터 11종은 Benzinga Thursday 리포트 단일 세트 사용(XLE +2.79% ~ XLV -1.93%, 3상승·8하락) — 시총가중 환산이 지수 -0.47%와 정합. ⑨ 韓 수급은 인포스탁 4주체 합산이 ±0 균형(외인 -19,921 + 기관 -16,714 + 개인 +29,061 + 기타법인 +7,540 ≈ 0)으로 자체 검산 통과 → 채택(뉴스핌 '외인 -24,406/개인 +35,975' 2주체 세트는 균형 미성립으로 배제). ⑩ 韓 지수·환율 전수 정합(코스피 6,803.90-177.97=6,625.93 / 코스닥 898.43-6.16=892.27 / 환율 1,340.4-1.9=1,338.5). ⑪ 삼성전자 262,000(-2.42%)은 전일 268,500 기준 -6,500원 정합. ⑫ 상한가 3종(HLB바이오스텝 6,310 +29.97%·동양고속 38,000 +29.91%·형지I&C 559 +30.00%)은 데일리머니·서울경제 2건 이상 일치. ⑬ 월러 연준 이사 이스탄불 발언·30년물 입찰(220억달러, 낙찰 5.618%, 간접입찰 72.3%) 뉴스1·CNBC 2건 교차확인. ⑭ 한글날(10/9) 국내 증시 휴장 재확인. ⑮ 美 미시간대 10월 예비치 10:00 ET=23:00 KST / 30년물 입찰 현지 10/8 13:00 ET=02:00 KST(10/9) 환산 확인. ⑯ 닛케이 69,042.11(-1.42%)·소프트뱅크 -4.28% 뉴스핌·글로벌이코노믹 2건 일치.",
+        "미확보": "야간선물은 10/9 02시 시세(코스피200 12월물 1,015.00, -2.83%)까지만 인덱싱 — 06시 확정 종가 미확보 / EWY 178.23은 Investing 'As of Oct 08' 스냅샷(전일 183.69 대비 -2.97%) / 예탁금·신용융자는 10월 수치가 출처에 아직 없어 9/28·9/30 확정치 유지 + tip에 기준일 명기 / 美 비트코인 종가는 24h 시장 특성상 TradingEconomics 10/8 스냅샷(82,834) 채택 / 델타항공 10/9 실적은 whitelist-us-bigtech 미포함이라 calendar earnings 제외(⑧룰 준수)",
+        "매월 1일 whitelist 재생성": "해당 없음 (10/9 발화)",
+        "로컬 clone(guides 5종 전문·schema $defs 전체·whitelist 3종·manifest·usage·briefing 2026-10-08·validator)": "13/13",
+        "Sanity": "node scripts/validate-briefing.mjs 2026-10-09 HARD 통과(ajv 스키마 전체) + 자체 스크립트(KST 5룰·최상위 키 5룰·카운트 15종·지수범위·등락률 20%·dir 정합·enum 6종·timed/untimed 모양·마스킹 6패턴·빈 문자열 재귀 전수·sourceUrl 5룰·rank 시퀀스·카테고리 4건 상한·길이 3종·subNoteEm 4섹션·calendarWeek ①~⑤·calendarMonth ⑥⑦+정렬·whitelist ⑧⑨·category 7종 ⑩·페르소나 3종 45인스턴스) FAILS 0건"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-x311a7"
+      }
     }
   ],
-  "updatedAt": "2026-10-08T07:14:00+09:00"
+  "updatedAt": "2026-10-09T07:14:00+09:00"
 }
