@@ -4273,7 +4273,43 @@
       "push": {
         "branch": "claude/adoring-fermi-x311a7"
       }
+    },
+    {
+      "date": "2026-10-10",
+      "time": "07:14",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 985,
+      "tokens_estimated": 330000,
+      "response_size_kb": 34.7,
+      "tool_calls": {
+        "WebFetch": 16,
+        "WebSearch": 37,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 14
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebFetch (raw.githubusercontent.com)": "2/2 연결 성공(요약만 반환) → context.md·schema.json·guides 5종·whitelist 3종은 로컬 clone 전문 정독으로 대체",
+        "WebFetch (금융·뉴스 도메인)": "fail:ENOTFOUND 14건 — Yahoo·Google Finance·Investing·CNBC·Stooq·stockanalysis·chartrow·thestreet 전량 DNS 차단(세션 egress 정책). 16일 연속 차단",
+        "Bash curl (Stooq CSV·Yahoo chart API)": "fail:403 connect_rejected (agent proxy 정책 차단) — 재시도 없이 보고",
+        "WebSearch": "37/37 성공(+6건 allowed_domains 오류 재시도: marketwatch.com·politico.com·einfomax.co.kr 크롤러 비접근 → 도메인 제외 후 성공). 시세·섹터·뉴스 전량 WebSearch 경유 확보",
+        "교차검증": "① 美 지수 4종 전일 종가 기준 산술 정합 확인(S&P 7,765.36→7,811.54=+0.595%≈+0.59% / 나스닥 27,193.34→27,366.17=+0.636%≈+0.64% / 다우 51,231.64→51,654.95=+0.826%≈+0.83%) — 서울신문·CNBC·TheStreet·StreetSignal·Investing 5개 출처 일치. ② SOX 12,572.42(-51.30, -0.41%)는 서울신문·국내 2건 일치(엔비디아 -0.52%·AMD -2.03% 동반 확인). ③ VIX 14.84는 Cboe 'as of Oct 9' + StreetStats 종가 일치(전일 15.41 → -3.7%). ④ 10년물 5.24%는 ETF Trends 'Treasury Yields Snapshot: October 9, 2026' 채택(TradingEconomics 5.23·StreetStats 5.25 수렴). ⑤ DXY 102.21(+0.12%)은 StreetStats 종가 스냅샷(장중 102.32 배제). ⑥ WTI 90.35(-0.89%)는 Investing 일별 종가행 채택(TradingEconomics CFD 91.43 배제, EnergyNow '주간 WTI 하락' 서사 일치). ⑦ 금 4,218은 Yahoo(Reuters) '현물 +1.5% 4,218.15' 채택 — Kitco 4,198·USAGold 4,183·TE 4,187과 상승 방향 일치, 뉴스 아이템과 동일 출처로 정합. ⑧ 비트코인 82,991(+0.59%)는 CoinGecko 인용 스냅샷. ⑨ 美 섹터 11종은 Benzinga 금요일 리포트 단일 세트(XLRE +1.18% ~ XLC -0.66%) 사용 — StreetSignal 종가 서사('11개 중 9개 상승, 부동산·헬스케어 주도, XLC·XLP만 하락')와 순위·부호 전수 일치 확인. ⑩ 미시간대 10월 예비치 46.3(현재여건 44.7·기대 47.3·1년 기대인플레 4.7%)은 Yahoo·Investing·fxstreet·bankingjournal 4건 일치. ⑪ 韓 데이터는 10/9 한글날 휴장·10/10 주말로 10/8 종가 유지(operations.md §2 주말·휴장 룰) — 환율 1,338.5원은 머니투데이 '15:30 주간거래 종가' 재확인. ⑫ 삼성전자 3Q 매출 195조·영업익 107.4조·영업이익률 55.1%는 머니투데이·한국경제·뉴스핌·파이낸셜뉴스 4건 일치. ⑬ 주간 코스피 -377.81P(-5.39%) 이투데이 주간전망 확인. ⑭ 금요일 유럽 스톡스600 +0.8%(630.47)·DAX 종가 보도 확인.",
+        "미확보": "EWY(ADR) 10/9 종가 미인덱싱(10/8 176.29와 전일 기록 178.23 충돌) → 추정 금지 룰대로 kr.flow에서 ADR 항목 제거(2개, schema 2~3 허용 v1.6.1) / 야간선물은 10/9 한글날로 당일 세션 없음 → 10/8 야간 시세 유지 + value에 기준 명기 / 예탁금·신용융자 10월 수치 미발표로 9/28·9/30 확정치 유지(tip에 기준일 명기) / 美 섹터는 종가 테이블 미인덱싱으로 Benzinga 11:00 ET 전수 세트 사용(종가 서사와 순위 정합 확인) / 10월 1~10일 韓 수출은 11일 발표 예정으로 제외",
+        "매월 1일 whitelist 재생성": "해당 없음 (10/10 발화)",
+        "로컬 clone(context.md·guides 5종·schema $defs·whitelist 3종·manifest·usage·briefing 2026-10-09·validator)": "13/13",
+        "Sanity": "node scripts/validate-briefing.mjs 2026-10-10 HARD 통과·SOFT 0건(ajv 스키마 전체) + 자체 스크립트(KST 5룰·최상위 키 5룰·카운트 15종·지수범위·등락률 20%·dir 정합·enum 3종·timed/untimed 모양·마스킹 6패턴·빈 문자열 재귀 전수·sourceUrl 5룰·rank 시퀀스·카테고리 4건 상한·길이 3종(30/60/25)·subNoteEm 4섹션·calendarWeek ①~⑤·calendarMonth ⑥⑦·whitelist ⑧⑨·category 7종 ⑩·페르소나 3종 45인스턴스) FAILS 0건"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-5wucch"
+      }
     }
   ],
-  "updatedAt": "2026-10-09T07:14:00+09:00"
+  "updatedAt": "2026-10-10T07:14:00+09:00"
 }
