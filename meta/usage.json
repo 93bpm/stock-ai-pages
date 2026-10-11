@@ -4309,7 +4309,43 @@
       "push": {
         "branch": "claude/adoring-fermi-5wucch"
       }
+    },
+    {
+      "date": "2026-10-12",
+      "time": "07:13",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 950,
+      "tokens_estimated": 345000,
+      "response_size_kb": 37.2,
+      "tool_calls": {
+        "WebFetch": 16,
+        "WebSearch": 39,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 26
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebFetch (raw.githubusercontent.com)": "2/2 연결 성공(요약만 반환) → context.md·schema.json·guides 5종·whitelist 3종은 로컬 clone 전문 정독으로 대체",
+        "WebFetch (금융·뉴스 도메인)": "fail:ENOTFOUND 14건 — Yahoo Finance 10종·CNBC·Investing(영문/kr)·Trading Economics 전량 DNS 차단(세션 egress 정책). 18일 연속 차단",
+        "Bash curl (Stooq CSV·Yahoo chart/quote API)": "fail:403 connect_rejected (agent proxy 정책 차단, status 엔드포인트로 확인) — 재시도 없이 보고",
+        "WebSearch": "39/39 성공(+2건 allowed_domains 오류 재시도: marketwatch.com·einfomax.co.kr 크롤러 비접근 → 도메인 제외 후 성공). 시세·섹터·뉴스·캘린더 전량 WebSearch 경유 확보",
+        "교차검증": "① 美 지수 4종: S&P 7,811.54(+0.59%)·나스닥 27,366.17(+0.64%)·다우 51,654.95(+423.31, +0.83%) — CNBC 'Stock market news for Oct. 9' + AP계열 보도 2건 일치. 10/11(일) 기준 10/9(금)이 최신 세션이라 주말 휴장 룰(operations.md §2) 적용해 직전 거래일 값 유지. ② SOX 12,572.42(-51.30, -0.41%)는 Nasdaq 공식 인덱스 히스토리 페이지에서 직접 확인(일중 고 12,826.67·저 12,507.88) — 10/10 발화의 국내 2건 일치값과 동일. ③ VIX 14.84(-3.70%)는 Yahoo·StreetStats 일치(전일 15.41). ④ 10년물은 CNBC 'falling less than one basis point to 5.227%' 채택해 5.23% ▼ (10/10 발화의 AP계열 '5.24% 상승' 대비 정정 — CNBC가 bp 단위·방향 명시로 더 구체적). ⑤ DXY 102.21(+0.12%) StreetStats 종가. ⑥ WTI 91.85 ▲(+0.39%)로 정정 — Investing 일별 종가행·Macrotrends 91.85 2건 일치, Trading Economics 91.66(+0.19%)도 상승 방향 수렴. 10/10 발화의 90.35 ▼는 Forbes 08:26 ET 장중값(90.61)에 가까워 종가 아님으로 판단. ⑦ 금 4,216달러 ▲(+1.43%) Yahoo 선물 — Investing 4,220.30(+1.52%)·Forbes 현물 4,183.47과 상승 방향 일치. ⑧ 비트코인 10/10 종가 82,980.9(+0.43%) Investing 일별행 + Yahoo 히스토리(고 83,092·저 82,473) 일치 — 주말 24h 거래분 반영. ⑨ 美 섹터 11종은 동일 세션(10/9) 값 유지 — TheStreet 'real estate 최상위·헬스케어 상위' 서사 및 버라이즌 급락→커뮤니케이션 유일 하락 서사와 순위·부호 정합. ⑩ 韓 데이터: 10/9 한글날·10/10~11 주말로 10/8 종가 유지 — 코스피 6,625.93(-177.97, -2.62%)·코스닥 892.27(-6.16, -0.69%) 뉴스핌·머니투데이 각 2건 일치, 환율 1,338.5원(-1.9원)은 머니투데이 '15:30 주간거래 종가' 재확인. ⑪ EWY(ADR) 10/9 종가 177.24달러(+0.54%) — Yahoo '4:00 PM EDT 종가' + iShares 공식 'as of Oct 09, 2026' 2건 일치(전일 176.29) → 10/10 발화에서 빠졌던 flow[2] ADR 복원(2개→3개). ⑫ 삼성전자 3Q 매출 195조·영업익 107.4조·영업이익률 55.1%(D램 ASP +20.1%) 한국경제·서울경제·파이낸셜뉴스·머니투데이 4건 일치. ⑬ 주간 코스피 7,003.74→6,625.93(-5.39%) 파이낸셜뉴스·이투데이 2건 일치, 자사주 매입 55조·SK하이닉스 81.64% 진행 확인. ⑭ 콜럼버스데이(10/12): 美 주식시장 정상 개장·SIFMA 채권시장 휴장 권고 — 복수 출처 일치(추측 금지 룰대로 검색 확인). ⑮ 베이지북 10/14 14:00 ET(=KST 10/15 03:00)·FOMC 10/27~28은 federalreserve.gov 10월 캘린더·Chicago Fed 릴리스 캘린더 일치. ⑯ 美 9월 CPI 10/14 12:30 GMT(=21:30 KST, 전망 3.6%/근원 2.5%) Investing 경제캘린더. ⑰ TSMC 3Q 실적 10/15 대만 14:00(=15:00 KST) TSMC IR 페이지 확인 → whitelist-us-bigtech TSM hit. ⑱ 한은 금통위 정례회의 10/22 확인(10/12은 제18차 비공개 회의 의사록 공개 16:00).",
+        "미확보": "야간선물은 10/9 한글날로 당일 세션 없음 → 10/8 야간 시세(코스피200 12월물 1,015.00) 유지 + value에 기준 명기 / 예탁금·신용융자 10월 수치 미발표로 9/28·9/30 확정치 유지(tip에 기준일 명기) / 韓 수급 3주체는 10/8 세션 동일값 유지(핀포인트 집계 외인 -2조811억 등과 4%대 차이 — '미세 차이 허용' 범위, 동일 세션 표기 일관성 우선) / 美 대형은행(JPM·GS·C·WFC) 10/13 실적은 whitelist-us-bigtech 미포함으로 calendarWeek·Month earnings 제외(sources.md §13 룰) — 뉴스·checks로만 반영 / NVIDIA GTC 워싱턴 D.C.는 11/30~12/3로 확인되어 10월 window 밖 → 10월 conference는 GTC 베를린(10/20~22, whitelist GTC 키 매칭)만 유지 / 테슬라 10/22(현지 10/21) 실적은 출처 간 10/21·10/28 충돌 — 직전 발화 확정값 유지",
+        "매월 1일 whitelist 재생성": "해당 없음 (10/12 발화)",
+        "로컬 clone(context.md·guides 5종·schema $defs+examples[0]·whitelist 3종·manifest·usage·briefing 2026-10-06~10·validator)": "15/15",
+        "Sanity": "node scripts/validate-briefing.mjs 2026-10-12 HARD 통과·SOFT 0건(ajv 스키마 전체) + 자체 스크립트(KST 5룰·최상위 키 5룰·카운트 15종·지수범위·등락률 20%·dir 정합·enum 4종·timed/untimed 모양·마스킹 6패턴·빈 문자열 재귀 전수·sourceUrl 5룰(차단 6도메인·중복·도메인 일관성)·rank 시퀀스·카테고리 4건 상한·길이 3종(30/60/25)·subNoteEm 4섹션·calendarWeek ①~⑤·calendarMonth ⑥⑦·whitelist ⑧⑨·category 7종 ⑩·페르소나 4종) FAILS 0건"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-dsacfp"
+      }
     }
   ],
-  "updatedAt": "2026-10-10T07:14:00+09:00"
+  "updatedAt": "2026-10-12T07:13:00+09:00"
 }
