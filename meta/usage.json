@@ -4345,7 +4345,43 @@
       "push": {
         "branch": "claude/adoring-fermi-dsacfp"
       }
+    },
+    {
+      "date": "2026-10-13",
+      "time": "07:28",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 1108,
+      "tokens_estimated": 420000,
+      "response_size_kb": 38.7,
+      "tool_calls": {
+        "WebFetch": 4,
+        "WebSearch": 50,
+        "Read": 0,
+        "Write": 3,
+        "Bash": 25
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "WebFetch (raw.githubusercontent.com)": "2/2 연결 성공(요약만 반환) → context.md·schema.json·guides 5종·whitelist 3종은 로컬 clone 전문 정독으로 대체",
+        "WebFetch (금융·뉴스 도메인)": "fail:ENOTFOUND 2건 — investrade.com·econcurrents.substack.com(美 섹터 종가 표) DNS 차단. 19일 연속 차단",
+        "Bash curl (Stooq CSV·Yahoo chart API)": "fail:403 CONNECT tunnel (agent proxy 정책 차단) — 2/2 모두 거부, 재시도 없이 보고",
+        "WebSearch": "48/50 성공(+2건 allowed_domains 오류: marketwatch.com·politico.com·einfomax.co.kr 크롤러 비접근 → 도메인 제외 후 재검색). 시세·섹터·뉴스·캘린더 전량 WebSearch 경유 확보",
+        "교차검증": "① 美 지수 3종 10/12 종가: S&P 7,807.24(-0.06%)·나스닥 27,245.90(-0.44%)·다우 51,850.55(+195.60, +0.38%) — CNBC·TheStreet·Investrade·디지털데일리·뉴스핌 5건 일치. 콜럼버스데이로 주식시장만 정상 개장(복수 출처 확인, 추측 금지 룰대로 검색). ② SOX 12,236.79(-335.63, -2.67%)는 파이낸셜뉴스 영문판 + 직전 종가 12,572.42(10/9)와의 산술 정합으로 확인, 뉴스핌 '3주 만의 최저' 서사와 일치. ③ VIX 15.21(+2.49%) Rock&Turner·HDFC Sky 2건 일치(전일 14.84). ④ 美 10년물은 콜럼버스데이 현물 채권 휴장으로 신규 종가 없음 → 10/9 5.23% 유지 + dir=neutral·value에 '채권시장 휴장' 명기(추정 금지). ⑤ DXY 102.58(+0.36%) Trading Economics·Rock&Turner 일치, FXStreet '18개월 최고'·investingLive 'USD climbs·EURUSD 2026 저점' 서사와 방향 수렴(Reuters 오전 102.14는 장중값으로 판단해 배제). ⑥ WTI 93.74달러(+1.89, +2.0%)는 Reuters 공식 settle 인용 보도 채택 — Trading Economics 93.63·Globe&Mail 93.83과 수렴, Investing 92.92는 장중값으로 배제. ⑦ 금 4,170달러 ▼(-0.59%) Rock&Turner·Babypips(4,168, -0.49%) 2건 방향·수준 일치. ⑧ 비트코인 82,969달러 ▼(-0.85%) Rock&Turner·Babypips(82,784, -0.88%) 2건 일치 — Fortune 06:45 ET 83,388은 장중 스냅샷으로 배제. ⑨ 美 섹터: 종가 라벨 출처(TheStreet 에너지 +1.45·필수소비재 +1.17·IT -1.25·임의소비재 -0.53 / Investrade XLE +1.43·XLC +0.97 / CNBC '11개 중 9개 상승, IT·임의소비재만 하락')로 상·하위 뼈대 확정, 종가 미공개 4종(금융·부동산·소재·헬스케어·유틸리티)은 Benzinga 11:00 ET 전섹터 스냅샷(동일 출처 일관 기준)으로 보완 — 마스킹 금지 룰 준수. Yahoo/Zacks의 'Oct 12' 기사(RE +1.9·HC +1.6·S&P 7,811.54)는 10/9 세션 수치 재게재로 확인되어 전량 배제. ⑩ 韓 지수: 코스피 6,384.24(-241.69, -3.65%)·코스닥 849.19(-43.08, -4.83%) 뉴스핌·아시아경제·뉴스1·서울신문 4건 일치. ⑪ 수급: 외국인 -2조186억·기관 -1,107억·개인 +1조4,674억 (파이낸셜뉴스·머니투데이 클러스터 채택 — 핀포인트 2조182억·뉴스핌 2조205억과 1% 내 차이로 '미세 차이 허용' 범위). 외인 SK하이닉스 1조431억·삼성전자 5,331억 순매도 1·2위. ⑫ 환율 1,335.1원(-7.7원) 머니투데이 '15:30 주간거래 종가' + 한국경제·이투데이·서울파이낸스 일치, 2년 만 최저(2024-10-04 1,333.7원 이후). 장중 저점 1,333.2원은 종가로 오용하지 않음(sources.md §7). ⑬ 10월 1~10일 수출 261억달러(+102.0%)·반도체 121.98억달러(+170.9%)·무역수지 38억달러 흑자 관세청 발표, 머니투데이·이투데이·한국경제·이데일리·뉴스1 5건 일치. ⑭ CXMT 4F² DDR5 연내 출시 발표 → 삼성전자 -4.39%·SK하이닉스 -4.52%·마이크론 -3.9%·SK하이닉스 ADR -4.02%, 뉴스핌·머니투데이·글로벌이코노믹·Yahoo Finance 4건 일치. ⑮ 한은 기준금리 3.00%(8/27 2회 연속 인상), 차기 금통위 10/22 — 한국은행 공식 페이지·MBC·일정 집계 3건 일치(10/13 금통위 아님 확인). ⑯ 日 증시 10/12 체육의 날 휴장·10/13 재개 Barchart·Reuters·CNBC 3건 일치. ⑰ 美 4대 은행(JPM·GS·C·WFC) 10/13 실적 CNBC 확인 — whitelist-us-bigtech 미포함으로 calendarWeek·Month earnings 제외(sources.md §13 룰), 뉴스 global 04번·calendar.checks로만 반영. ⑱ TSMC 3Q 매출 1.49조 대만달러 역대 최대·10/15 실적 발표 Yahoo Finance·Investing 2건 일치 → whitelist TSM hit 유지.",
+        "미확보": "EWY(ADR) 10/12 종가 확인 실패(iShares·CNBC의 177.24는 10/9 확정치로 판명) → flow[2]를 뉴스핌 보도 'SK하이닉스 ADR -4.02%(10/12 뉴욕)'로 대체해 3개 유지 / 야간선물은 세션이 10/13 06:00 종료라 확정 종가 부재 → 10/12 18:58 KST 스냅샷 1,004.75(-0.35%)를 기준 시각과 함께 명기 / 예탁금·신용융자 10월 수치 미발표(검색 최신 8월) → 9/28·9/30 확정치 유지(tip에 기준일 명기) / 韓 상승 업종 종가 등락률 자료 부족 — 운송창고(+1.77%)·음식료담배(+1.04%) 장중 업종값만 확인되어 sectorsUp은 종목 단위(동양고속·HMM 시간외·대한항공·삼성SDI·신한지주 장중~종가 혼재)로 구성, 기준 혼재를 본 보고에 명시 / HL만도 +30% 상한가는 2026-06-12 기사로 판명되어 제외(날짜 오인 방지) / 10/13 국내 timed 일정은 확정 시각 출처 없어 untimed 3건으로 기록",
+        "매월 1일 whitelist 재생성": "해당 없음 (10/13 발화)",
+        "로컬 clone(context.md·guides 5종·schema $defs+examples[0]·whitelist 3종·manifest·usage·briefing 2026-10-12·validator)": "14/14",
+        "Sanity": "node scripts/validate-briefing.mjs 2026-10-13 HARD 통과(ajv 스키마 전체) + 자체 스크립트(KST 5룰·최상위 키 5룰·카운트 15종·지수범위·등락률 20%·dir 정합·enum 4종·timed/untimed 모양·마스킹 6패턴·빈 문자열 재귀 전수·sourceUrl 5룰(차단 6도메인·중복·도메인 일관성)·rank 시퀀스·카테고리 4건 상한·길이 3종(30/60/25)·subNoteEm 4섹션·calendarWeek ①~⑤·calendarMonth ⑥⑦·whitelist ⑧⑨·category 7종 ⑩·페르소나 3종 grep) FAILS 0건"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-hm6exr"
+      }
     }
   ],
-  "updatedAt": "2026-10-12T07:13:00+09:00"
+  "updatedAt": "2026-10-13T07:28:00+09:00"
 }
