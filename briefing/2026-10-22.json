@@ -1,0 +1,784 @@
+{
+  "date": "2026-10-22",
+  "weekday": "목",
+  "generatedAt": "2026-10-22T07:03:00+09:00",
+  "us": {
+    "subNote": "美 증시는 10/21(수) 마감 기준이에요. 스페이스X 흑자 전환에 기술주가 살아나 나스닥이 1.05% 올랐고, 필라델피아 반도체도 1.97% 뛰었어요. 섹터는 마감이 확인된 종목만 담았어요",
+    "subNoteEm": "스페이스X 흑자에 반도체까지 같이 뛰었어요",
+    "comment": "나스닥이 <b style=\"color:var(--red);\">26,702.86</b>으로 278.04P 올랐고 S&P 500도 0.58% 상승했어요. 스페이스X가 상장 후 첫 흑자를 내며 7.8% 뛰고 테슬라도 3.4% 올랐어요. 엔비디아가 2.54% 오르며 SOX가 <b>11,505.56</b>까지 올라온 점은 아시아 장 HBM 관련주에 우호적으로 작용할 수 있어요",
+    "indices": [
+      {
+        "name": "S&P 500",
+        "tip": "정규장 종가 · 44.60P 상승",
+        "value": "7,757.17",
+        "change": "▲ 0.58%",
+        "dir": "up"
+      },
+      {
+        "name": "나스닥 종합",
+        "tip": "정규장 종가 · 278.04P 상승",
+        "value": "26,702.86",
+        "change": "▲ 1.05%",
+        "dir": "up"
+      },
+      {
+        "name": "다우존스",
+        "tip": "정규장 종가 · 360.21P 상승",
+        "value": "52,856.09",
+        "change": "▲ 0.69%",
+        "dir": "up"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "tip": "SOX 지수 · 221.74P 상승",
+        "value": "11,505.56",
+        "change": "▲ 1.97%",
+        "dir": "up"
+      }
+    ],
+    "indicators": [
+      {
+        "key": "VIX",
+        "value": "16.68 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "美 10년물",
+        "value": "5.123% ▲",
+        "dir": "up"
+      },
+      {
+        "key": "달러인덱스",
+        "value": "101.363 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "WTI 유가",
+        "value": "97.15달러 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "금",
+        "value": "4,158.20달러 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "비트코인",
+        "value": "83,029달러 ▲",
+        "dir": "up"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "name": "정보기술",
+        "change": "▲ 1.68%"
+      },
+      {
+        "name": "산업재",
+        "change": "▲ 0.91%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "name": "커뮤니케이션",
+        "change": "▼ 1.33%"
+      }
+    ]
+  },
+  "world": {
+    "subNote": "美는 스페이스X 흑자에 기술주가 뛰었고, 국내도 외국인이 돌아와 반도체가 반등했어요. 금리와 유가가 같이 안정된 점이 양쪽 투심을 떠받쳤어요",
+    "subNoteEm": "美·韓 모두 반도체가 반등의 축이었어요",
+    "global": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "뉴욕증시 3대 지수 일제히 상승 마감",
+        "summary": "나스닥이 278.04P 올라 26,702.86으로 마쳤고 다우도 0.69% 상승했어요",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2638610",
+        "note": "기술주로 돈이 돌았어요"
+      },
+      {
+        "rank": "02",
+        "category": "기업",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "스페이스X 상장 후 첫 흑자, 7.8%↑",
+        "summary": "머스크가 테슬라와의 합병 가능성을 공식화하며 테슬라도 3.4% 올랐어요",
+        "source": "아주경제",
+        "sourceUrl": "https://www.ajunews.com/view/20261022065617695",
+        "note": "기술주 투심을 깨웠어요"
+      },
+      {
+        "rank": "03",
+        "category": "빅테크 실적",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "메타 3분기 매출 646억달러 사상 최대",
+        "summary": "소송 합의금 98.9억달러를 털어내며 주당순이익은 기대를 밑돌았어요",
+        "source": "헤럴드경제",
+        "sourceUrl": "https://biz.heraldcorp.com/article/10910587",
+        "note": "AI 투자 속도가 쟁점이에요"
+      },
+      {
+        "rank": "04",
+        "category": "빅테크 실적",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "테슬라 3분기 매출·이익 예상 상회",
+        "summary": "매출 280.5억달러로 전망을 넘었지만 자동차 매출은 3% 줄었어요",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/world/2026/10/22/2026102205531249364",
+        "note": "2차전지 수요와 맞닿아요"
+      },
+      {
+        "rank": "05",
+        "category": "지배구조",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "메타, 무의결권 C형 주식 신설 발표",
+        "summary": "2대 1 주식 분할과 같은 효과를 내는 구조로 시간외 주가가 올랐어요",
+        "source": "Investing.com",
+        "sourceUrl": "https://kr.investing.com/news/stock-market-news/article-2135925",
+        "note": "주주 구조 변화를 봐야 해요"
+      },
+      {
+        "rank": "06",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "필라델피아 반도체 1.97% 급등",
+        "summary": "11,505.56으로 221.74P 올랐고 엔비디아가 2.54% 상승을 이끌었어요",
+        "source": "서울신문",
+        "sourceUrl": "https://www.seoul.co.kr/news/economy/securities/2026/10/22/20261022500003",
+        "note": "HBM 관련주에 우호적이에요"
+      },
+      {
+        "rank": "07",
+        "category": "금리·달러",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "美 10년물 5.123%, 달러인덱스 보합",
+        "summary": "금리가 1.2bp 오르고 금은 온스당 4,139달러대로 상승했어요",
+        "source": "블록미디어",
+        "sourceUrl": "https://www.blockmedia.co.kr/archives/1154654",
+        "note": "FOMC 동결 기대가 85%예요"
+      },
+      {
+        "rank": "08",
+        "category": "원자재",
+        "categoryStyle": "geo",
+        "sentiment": "pos",
+        "title": "WTI 97.15달러, 0.68% 하락 마감",
+        "summary": "美·이란 협상 기대가 이어지며 12월물이 0.67달러 내렸어요",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2638602",
+        "note": "물가 부담이 덜어졌어요"
+      },
+      {
+        "rank": "09",
+        "category": "가상자산",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "비트코인 8만3천달러대로 반등",
+        "summary": "장중 8만1천달러까지 밀렸다가 1.45% 오르며 되돌아섰어요",
+        "source": "Investing.com",
+        "sourceUrl": "https://kr.investing.com/news/stock-market-news/article-2134139",
+        "note": "위험선호가 조금 돌아왔어요"
+      },
+      {
+        "rank": "10",
+        "category": "AI 반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "슈퍼마이크로 호실적에 AI주 반등",
+        "summary": "AI 서버 수요가 확인되며 뉴욕 반도체주가 일제히 되돌아섰어요",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20261021001331",
+        "note": "서버용 메모리에 긍정적이에요"
+      },
+      {
+        "rank": "11",
+        "category": "변동성",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "UBS \"급등했던 VIX 진정될 것\"",
+        "summary": "신용 우려로 뛰었던 변동성 지수가 16.68까지 내려왔어요",
+        "source": "Investing.com",
+        "sourceUrl": "https://kr.investing.com/news/stock-market-news/article-93CH-2134790",
+        "note": "공포가 한 단계 식었어요"
+      },
+      {
+        "rank": "12",
+        "category": "AI 클라우드",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "알파벳 1.6% 하락, AI 용량에 매출 양보",
+        "summary": "피차이가 구글 클라우드의 매출보다 AI 설비를 앞세운다고 밝혔어요",
+        "source": "24/7 Wall St.",
+        "sourceUrl": "https://247wallst.com/investing/2026/10/21/alphabet-slips-2-despite-nasdaq-rally-as-pichai-says-google-cloud-is-giving-up-revenue-for-ai-capacity-amazon-dips-microsoft-holds-steady",
+        "note": "클라우드 capex가 관전포인트예요"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스피 3.29% 급등한 5,735.66 마감",
+        "summary": "182.92P 오르며 전날 급락분을 하루 만에 거의 되찾았어요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202610211620596051",
+        "note": "5,700선을 되찾았어요"
+      },
+      {
+        "rank": "02",
+        "category": "코스닥",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스닥 1.38% 오른 792.76 마감",
+        "summary": "10.79P 상승했지만 코스피보다는 상승폭이 작았어요",
+        "source": "아시아경제",
+        "sourceUrl": "https://view.asiae.co.kr/article/2026102115335934811",
+        "note": "중소형주는 온기가 약해요"
+      },
+      {
+        "rank": "03",
+        "category": "증시제도",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "두 달 만에 매수 사이드카 발동",
+        "summary": "오전 10시 51분 코스피200 선물 급등에 5분간 효력이 멈췄어요",
+        "source": "뉴스웨이",
+        "sourceUrl": "https://newsway.co.kr/news/view?ud=2026102111240469812",
+        "note": "올해 25번째 매수 사이드카예요"
+      },
+      {
+        "rank": "04",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "원/달러 1,325.2원, 4거래일 연속 연저점",
+        "summary": "2.9원 내려 2024년 10월 이후 가장 낮은 주간 종가를 썼어요",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/economy/2026/10/21/2026102116023756175",
+        "note": "수출주엔 부담이 될 수 있어요"
+      },
+      {
+        "rank": "05",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "삼성전자 5.67%·SK하이닉스 5.81%↑",
+        "summary": "각각 22만3,500원, 129만4,000원으로 지수 상승률을 웃돌았어요",
+        "source": "서울신문",
+        "sourceUrl": "https://www.seoul.co.kr/news/economy/securities/2026/10/21/20261021500220",
+        "note": "지수를 끌어올린 주역이에요"
+      },
+      {
+        "rank": "06",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "외국인, SK하이닉스 18일 연속 매도 끝",
+        "summary": "삼성전자 4,722억·SK하이닉스 2,006억 원을 순매수했어요",
+        "source": "뉴스1",
+        "sourceUrl": "https://www.news1.kr/finance/general-stock/6327486",
+        "note": "추세 전환은 더 봐야 해요"
+      },
+      {
+        "rank": "07",
+        "category": "수급·자금",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "투자자예탁금 90조원, 1월 이후 최저",
+        "summary": "하루 1조7,990억 줄며 6거래일 연속 감소했어요",
+        "source": "디지털투데이",
+        "sourceUrl": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=708904",
+        "note": "시장 체력이 얇아요"
+      },
+      {
+        "rank": "08",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "채권전문가 93% \"22일 금통위 동결\"",
+        "summary": "7·8월 연속 인상 뒤 기준금리 3.00% 유지 전망이 우세해요",
+        "source": "글로벌이코노믹",
+        "sourceUrl": "https://www.g-enews.com/article/Securities/2026/10/202610201215025655923c501012_1",
+        "note": "인상 소수의견이 관전포인트예요"
+      },
+      {
+        "rank": "09",
+        "category": "수출·반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "10월 1~20일 수출 616억달러 역대 최대",
+        "summary": "반도체가 275억달러로 222.5% 급증해 비중 44.7%를 찍었어요",
+        "source": "서울경제",
+        "sourceUrl": "https://m.sedaily.com/article/20104136",
+        "note": "반도체 호황이 숫자로 확인돼요"
+      },
+      {
+        "rank": "10",
+        "category": "공매도",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "SK하이닉스 공매도 1,447억, 44.2%↑",
+        "summary": "코스피 전체 공매도는 줄었는데 대형 반도체주만 늘었어요",
+        "source": "톱스타뉴스",
+        "sourceUrl": "https://www.topstarnews.net/news/articleView.html?idxno=16253827",
+        "note": "반등 구간의 경계 신호예요"
+      },
+      {
+        "rank": "11",
+        "category": "바이오",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "알테오젠 3.90% 올라 24만원 마감",
+        "summary": "코스닥 시총 상위 20개 중 19개가 오르며 바이오도 같이 올랐어요",
+        "source": "국제뉴스",
+        "sourceUrl": "https://www.gukjenews.com/news/articleView.html?idxno=3728189",
+        "note": "코스닥 수급이 붙는 흐름이에요"
+      },
+      {
+        "rank": "12",
+        "category": "업종",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "의료·정밀기기 5.44%, 전기·전자 4.98%↑",
+        "summary": "반면 금속 1.91%, 통신 1.61%, 섬유·의류 1.04%는 내렸어요",
+        "source": "신아일보",
+        "sourceUrl": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5074479",
+        "note": "반도체 쪽으로 쏠렸어요"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "코스피는 10/21 5,735.66으로 3.29% 급등해 전날 급락분을 거의 되찾았어요. 외국인이 6,600억 원을 담으며 두 달 만에 매수 사이드카가 켜졌고, 오늘은 금통위 결과가 변수예요",
+    "subNoteEm": "외국인 복귀에 두 달 만의 매수 사이드카예요",
+    "comment": "외국인이 <b style=\"color:var(--red);\">6,600억 원</b>을 순매수하며 삼성전자를 4,722억, SK하이닉스를 2,006억 원 담았어요. SK하이닉스는 18거래일 연속 순매도가 끝났고 주가도 5.81% 올랐어요. 다만 예탁금이 90조 원대로 내려와 체력은 아직 얇은 구간이라, 투자 판단은 본인 책임으로 챙겨 보셔야 해요",
+    "expectedRange": "코스피 5,700선 안착 여부에 따라 ±1% 안팎 등락 가능성",
+    "indices": [
+      {
+        "name": "코스피",
+        "tip": "10/21 종가 · 182.92P 상승",
+        "value": "5,735.66",
+        "change": "▲ 3.29%",
+        "dir": "up"
+      },
+      {
+        "name": "코스닥",
+        "tip": "10/21 종가 · 10.79P 상승",
+        "value": "792.76",
+        "change": "▲ 1.38%",
+        "dir": "up"
+      }
+    ],
+    "flow": [
+      {
+        "key": "원/달러 환율",
+        "value": "1,325.2원 (-2.9원) ▼",
+        "dir": "down"
+      },
+      {
+        "key": "야간 선물",
+        "value": "코스피200 12월물 901.95 (주간 종가 대비 +1.2%) ▲",
+        "dir": "up"
+      },
+      {
+        "key": "미국 상장 한국물(ADR)",
+        "value": "EWY +3.08% ▲",
+        "dir": "up"
+      }
+    ],
+    "supply": [
+      {
+        "who": "외국인",
+        "amount": "+6,600억",
+        "dir": "buy"
+      },
+      {
+        "who": "기관",
+        "amount": "-722억",
+        "dir": "sell"
+      },
+      {
+        "who": "개인",
+        "amount": "-11,308억",
+        "dir": "sell"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "theme": "반도체",
+        "stockName": "SK하이닉스",
+        "stockChange": "+5.81%"
+      },
+      {
+        "theme": "전기전자",
+        "stockName": "삼성전자",
+        "stockChange": "+5.67%"
+      },
+      {
+        "theme": "건설·상사",
+        "stockName": "삼성물산",
+        "stockChange": "+5.45%"
+      },
+      {
+        "theme": "지배구조·반도체",
+        "stockName": "SK스퀘어",
+        "stockChange": "+5.13%"
+      },
+      {
+        "theme": "바이오",
+        "stockName": "알테오젠",
+        "stockChange": "+3.90%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "theme": "2차전지 소재",
+        "stockName": "에코프로",
+        "stockChange": "+0.12%"
+      },
+      {
+        "theme": "로봇",
+        "stockName": "레인보우로보틱스",
+        "stockChange": "+0.67%"
+      },
+      {
+        "theme": "전자부품",
+        "stockName": "삼성전기",
+        "stockChange": "+1.13%"
+      },
+      {
+        "theme": "반도체 장비",
+        "stockName": "원익IPS",
+        "stockChange": "+1.55%"
+      },
+      {
+        "theme": "바이오 CDMO",
+        "stockName": "삼성바이오로직스",
+        "stockChange": "+1.87%"
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "SK하이닉스",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "외국인이 18거래일 연속 매도를 멈췄고 28일 실적이 다음 관문이에요"
+      },
+      {
+        "name": "삼성전자",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "외국인 순매수 1위로 돌아왔지만 추세 전환인지는 더 봐야 해요"
+      },
+      {
+        "name": "알테오젠",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "코스닥 바이오가 같이 오르며 수급이 붙는 흐름이 보여요"
+      },
+      {
+        "name": "한화에어로스페이스",
+        "badge": "주의",
+        "badgeType": "default",
+        "desc": "전날 두 자릿수 급락 뒤 실적 눈높이가 여전히 변수예요"
+      }
+    ],
+    "health": [
+      {
+        "key": "투자자 예탁금",
+        "tip": "대기 자금 · 10/20",
+        "value": "90조 2,975억",
+        "subIcon": "▼",
+        "subDir": "down"
+      },
+      {
+        "key": "신용융자 잔고",
+        "tip": "빚투 규모 · 10/20",
+        "value": "30조 5,138억",
+        "subIcon": "▼",
+        "subDir": "down"
+      }
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘은 한국은행 금통위가 가장 큰 이벤트예요. 새벽에 나온 메타·테슬라 실적 반응도 장중에 묻어날 수 있어요",
+    "subNoteEm": "금통위 동결 여부와 소수의견이 분수령이에요",
+    "riskSentiment": "위험선호 우위",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        {
+          "event": "한국은행 금융통화위원회 기준금리 결정",
+          "when": "오전"
+        },
+        {
+          "event": "기재부·금융위·금감원 종합 국정감사",
+          "when": "장중"
+        }
+      ]
+    },
+    "global": {
+      "timed": [
+        {
+          "time": "05:30",
+          "event": "메타·테슬라 3분기 실적 발표 (美 현지 21일 장 마감 후)",
+          "important": true
+        }
+      ],
+      "untimed": []
+    },
+    "theme": "금통위 동결이 유력하게 거론되는 가운데, 새벽에 나온 메타·테슬라 실적이 AI 투자 흐름을 어떻게 비췄는지가 반도체 투심으로 이어질 수 있어요",
+    "checks": [
+      "금통위가 3.00%를 동결하는지, 인상 소수의견이 나오는지 봐요",
+      "외국인이 이틀 연속 코스피를 사는지 체크해 보세요",
+      "원/달러가 1,325원 아래로 더 내려가는지 살펴봐요",
+      "메타·테슬라의 AI 설비 발언이 HBM 수요로 읽히는지 봐요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-10-18",
+    "end": "2026-10-24",
+    "days": [
+      {
+        "date": "2026-10-18",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-10-19",
+        "weekday": "월",
+        "items": [
+          {
+            "region": "global",
+            "time": null,
+            "event": "중국 3분기 GDP·9월 실물지표 발표",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-20",
+        "weekday": "화",
+        "items": []
+      },
+      {
+        "date": "2026-10-21",
+        "weekday": "수",
+        "items": [
+          {
+            "region": "global",
+            "time": null,
+            "event": "엔비디아 GTC 베를린 젠슨 황 기조연설",
+            "important": true,
+            "category": "conference"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "관세청 10월 1~20일 수출 실적 발표",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "8월 경제활동인구 근로형태별 부가조사 공표",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-22",
+        "weekday": "목",
+        "items": [
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "한국은행 금융통화위원회 기준금리 결정",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "time": "05:30",
+            "event": "메타·테슬라 3분기 실적 발표 (美 현지 21일 장 마감 후)",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "기재부·금융위·금감원 종합 국정감사",
+            "important": false,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-23",
+        "weekday": "금",
+        "items": [
+          {
+            "region": "global",
+            "time": null,
+            "event": "美 10월 PMI 예비치·미시간대 소비자심리 확정치",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-24",
+        "weekday": "토",
+        "items": []
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 10,
+    "days": [
+      {
+        "date": "2026-10-19",
+        "items": [
+          {
+            "region": "global",
+            "event": "중국 3분기 GDP·9월 실물지표 발표",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-21",
+        "items": [
+          {
+            "region": "global",
+            "event": "엔비디아 GTC 베를린 젠슨 황 기조연설",
+            "important": true,
+            "category": "conference"
+          },
+          {
+            "region": "domestic",
+            "event": "관세청 10월 1~20일 수출 실적 발표",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "event": "8월 경제활동인구 근로형태별 부가조사 공표",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-22",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "한국은행 금융통화위원회 기준금리 결정",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "event": "메타·테슬라 3분기 실적 발표 (美 현지 21일 장 마감 후)",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "event": "기재부·금융위·금감원 종합 국정감사",
+            "important": false,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-23",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 10월 PMI 예비치·미시간대 소비자심리 확정치",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-27",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "한국은행 3분기 실질 GDP 속보치 발표",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-28",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "SK하이닉스 3분기 실적 컨퍼런스콜",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-29",
+        "items": [
+          {
+            "region": "global",
+            "event": "FOMC 기준금리 결정 (韓 29일 새벽)",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "domestic",
+            "event": "삼성전자 3분기 실적 컨퍼런스콜",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "event": "마이크로소프트·알파벳 3분기 실적 (美 28일)",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "event": "삼성SDI 3분기 실적 발표",
+            "important": false,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-30",
+        "items": [
+          {
+            "region": "global",
+            "event": "아마존 3분기 실적 (美 29일 장 마감 후)",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      }
+    ]
+  }
+}
