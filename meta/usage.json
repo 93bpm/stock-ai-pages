@@ -4659,7 +4659,41 @@
       "push": {
         "branch": "claude/adoring-fermi-tc94hr"
       }
+    },
+    {
+      "date": "2026-10-26",
+      "time": "07:05",
+      "model": "claude-opus-5",
+      "status": "success",
+      "duration_seconds": 1037,
+      "tokens_estimated": 610000,
+      "response_size_kb": 31.8,
+      "tool_calls": {
+        "WebFetch": 18,
+        "WebSearch": 43,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 27
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq / Yahoo Finance / Google Finance / Investing.com / Trading Economics / stockanalysis": "fail 전량 — 10/22·10/23·10/24와 동일하게 이 세션 네트워크 정책이 금융 도메인을 전면 차단. stooq.com 멀티티커 CSV 2회·query1.finance.yahoo.com은 프록시 CONNECT 403(agent-proxy status recentRelayFailures에 기록), WebFetch 13건(finance.yahoo.com ^GSPC/^IXIC/^DJI/SOXX/^VIX/^TNX/DX-Y.NYB/CL=F/GC=F/BTC-USD/^KS11/^KQ11/EWY)+4건(google.com/finance·stockanalysis.com·investing.com·tradingeconomics.com)은 getaddrinfo ENOTFOUND. raw.githubusercontent·로컬 clone·WebSearch만 통과 → sources.md §3~§6 fallback 최종단(WebSearch)으로 전환",
+        "WebSearch": "43/43 성공 (대부분 extended 모드 — 10/23 확정 종가·주말 기사를 standard로는 집지 못함)",
+        "로컬 clone(context.md·guides 5종·schema.json·whitelist 3종·manifest·usage·briefing 2026-10-24·validate-briefing.mjs)": "14/14",
+        "교차검증": "① ★美 3대 지수 10/23(금) 종가★ S&P 500 7,623.68(-39.75, -0.52%)·나스닥 25,955.34(-53.52, -0.21%)·다우 52,215.16(-652.82, -1.23%) — 뉴스핌·이투데이·뉴스1·cappnotes·deanfi·spokesman 6건 일치, 10/24 briefing 확정값과도 동일. 산술 정합 52,867.98-652.82=52,215.16 성립. 美·韓 모두 주말 휴장이라 월요일 발화 시점의 최신 종가는 10/23 세션분. ② ★SOX 포인트 종가 확보(10/24 대비 개선)★ 10,779.46(+47.49, +0.44%) — Nasdaq 공식 인덱스 페이지(indexes.nasdaqomx.com) + Investing.com 과거데이터(시 10,675.5·고 10,923.2·저 10,667.9) 2건 일치 → sources.md §2 원칙대로 ETF 대용 대신 ★진짜 지수값★ 적재, tip '정규장 종가'. SOXX NAV 478.50(+3.17, +0.67%)은 보조 확인용으로만 사용. 구글파이낸스 13,371.47·인덱서고 11,316.34(10/19)는 시점 불명/과거분이라 배제. ③ VIX 19.45(+2.21%) 재경일보, 10/24 briefing 확정값과 일치. ④ 美 10년물 4.999% — 재경일보 + Rio Times(5.00%, 전일 4.96%) + CoinDesk 라이브(약 4.99%) 3건 정합. Investing 4.988은 스냅샷. 10/22의 19bp 급락 뒤 되돌림 국면. ⑤ 달러인덱스 101.75(+0.14%) — Rio Times 10/23 마감 보도(10/24 briefing 단일 출처 → 이번엔 명시적 마감값 확보). 뉴스핌 101.60은 기준일 불명이라 배제. ⑥ WTI 103.27달러(+3.8%) 재경일보, 브렌트 12월물 116.72(+3.55, +3.14%, 6개월 최고) en.sedaily. 뉴스핌 99.47은 10/22 세션분. ⑦ 금 현물 4,012달러(-0.30%) Rio Times. Trading Economics 3,993.96(-0.77%)·goldprice 4,023.06·Investing 선물 4,007.90·Yahoo 약 4,008(-1.3%)로 출처별 3,994~4,023 분포 → 4,000선 공방으로 일치하므로 가장 많이 인용된 현물 마감 4,012 채택(data-quality.md §4 미세차이 허용). ⑧ ★비트코인 약 80,940달러★ — Investing.com 10/25 00:53 ET 80,936.3달러 기사. 주말 24시간 거래 자산이라 10/23 종가가 아닌 발화 직전 최신값 사용. 토요일 저점 79,220·CoinDesk 10/24 18:09 ET 80,380.35와 흐름 일치, 10/24 briefing 81,270 대비 하락(dir down). ⑨ ★美 섹터 11종 종가 전수 확보(10/24 대비 개선)★ 에너지 +2.60·정보기술 +0.49·부동산 +0.12·유틸리티 -0.72·소재 -0.74·헬스케어 -1.11·산업재 -1.27·금융 -1.32·임의소비재 -1.66·커뮤니케이션 -1.78·필수소비재 -1.92 (cappnotes 'Closing Look' 10/23 전수 테이블 + strategitz·thetradingtools 교차). Benzinga 테이블(XLE +2.49·XLP -1.64)은 장중 11:00 ET 스냅샷이라 배제 → name에 ETF 티커 병기하지 않고 S&P 업종명으로 적재. tickerdaily의 'S&P 5,847.32 사상 최고·11업종 전부 상승'은 타 출처와 전면 모순이라 배제. ⑩ ★韓 지수 10/23★ 코스피 5,550.30(+16.53, +0.30%, 시가 5,403.17·장중 저가 5,305.98)·코스닥 751.69(-12.41, -1.62%) — businesskorea·뉴스1·한국경제·머니투데이·아시아경제·이투데이·전자신문·서울경제 8건 일치. Investing 과거데이터의 코스닥 749.23은 장중값이라 배제. ⑪ ★수급★ 외국인 -9,941억·기관 +8,723억·개인 +527억 (중앙이코노미뉴스·businesskorea 세트, 한 기사 내 3주체 동시 보도로 내부 정합). 10/24 briefing의 -9,928/+8,722/+527 세트와 집계시점 차이 범위 내. Daum 세트(-9,789/+8,660/+422)·뉴스핌 기관 7,955억·외인 1조938억은 기준이 달라 혼용하지 않음. ⑫ 환율 1,324.6원(+0.4원, 15:30 주간거래 종가) 머니투데이·아시아경제·파이낸셜뉴스·철강금속신문 4건 일치. ★주간 종가 기준 2024-10-02(1,319.3원) 이후 2년여 만의 최저★ — 한국경제·국민일보·뉴시스 10/25 보도로 확인(반도체 흑자 + 수출업체 네고 물량). ⑬ ★야간선물 미확보 → flow 2종★ 주말(일요일 밤 재개 전)이라 10/23 야간 세션 확정 종가 확보 불가 → v1.6.1 kr.flow minItems 2 완화 룰 적용(마스킹·추정값 미사용). ⑭ ADR = EWY 151.26달러(+2.20, +1.48%, 전일 149.06) — Yahoo·CNBC·MarketChameleon 3건 일치, iShares NAV 151.31(+1.14%)과 정합. Bloomberg의 +1.38%는 전일 종가와 산술 불일치라 배제. ⑮ ★韓 개별 종목 — 정규장 종가 기준★ 상승: 퓨쳐켐 +26.73%(8,770원 정규장. joongangenews의 +29.91%/8,990원은 넥스트레이드 애프터마켓 상한가 포함값이라 2026-10-24 선례대로 정규장 종가 채택)·삼성바이오로직스 +7.71%(1,466,000원, 4건)·SK하이닉스 +4.42%(1,277,000원, 6건)·HLB +0.73%·삼성전자 +0.47%(215,500원, 2건 확인). 하락: 에코프로 -6.22%(72,400원, -4,800원 산술 정합 세트 채택. 뉴스핌 계열의 -5.83%와 충돌 → 내부 정합 세트 우선)·대주전자재료 -5.88%·심텍 -5.02%·파두 -4.28%·리노공업 -4.05%(뉴스핌 10/23 마감시황 코스닥 약세 단락). ⑯ 예탁금 89조6,343억(-6,631억, 7거래일 연속 감소, 1/14 이후 9개월 만의 90조 하회)·신용융자 30조2,710억(-2,428억, 8/11 이후 최저, 7거래일 4조원 이상 감소) — 모두 ★10/21 기준★ 금투협 집계, 알파경제·대구신문·dt·dailian·slist 5건 일치. 조세금융신문의 '10/22 기준 88조6,841억'은 기사 날짜 표기가 불명확하고 신용융자 수치가 없어 채택하지 않고 tip에 '10/21' 명시 유지(sources.md §14 시점 1~2일 지연 허용). ⑰ ★이번 주 일정★ FOMC 10/27~28(결정 10/28 14:00 ET = KST 10/29 03:00, 현 3.75~4.00% 동결 확률 90~94%·12월 인상 확률 73~75%, Reuters 폴 경제학자 100명 중 94명 동결 전망) / 韓 3분기 GDP 속보 10/27·9월 광공업생산 10/30(한은·통계청, 뉴스핌 미리보는 증시재료) / 美 10월 소비자신뢰지수 10/27 10:00 ET=23:00 KST / 美 9월 PCE·3분기 GDP 속보 10/29 08:30 ET=21:30 KST(BEA 공표일정 확인) / MSFT·알파벳 10/28 장 마감 후=KST 10/29 새벽·아마존 10/29 장 마감 후=KST 10/30 새벽(CNBC 10/25 어닝스 플레이북, 이번 주 S&P 500 약 160개사 발표) / ★애플 'Pro and Tell' 신제품 이벤트 10/28 13:00 ET = KST 10/29 02:00★(Apple 공식 발표, OLED 맥북프로·M6 맥 거론 — Macworld·businesstoday) / BOJ 금정위 10/29~30 동결 전망(기준금리 1.25% 유지, Investing.com/Reuters) / ★中 공산당 20기 5중전회 10/26~29 베이징★(신화통신 발표, 세계일보·서울경제 — 오늘 개막) / 中 규모이상 공업기업 이익 10/27·10월 PMI 10/31. 애플 실적은 11/2로 10월 범위 밖. ⑱ 韓 실적일 = 10/26 기업은행·BNK금융지주(화이트리스트 밖 → 미적재) / 10/27 LG이노텍·한화오션·한화시스템·HD현대일렉트릭 / 10/28 SK하이닉스·삼성전기·LG전자·HD현대중공업 / 10/29 삼성전자 확정·삼성SDI·삼성SDS·SK이노베이션·한화에어로스페이스 / 10/30 기아·현대모비스 (뉴스핌 미리보는 증시재료). ⑲ SK하이닉스 3분기 컨센서스 영업이익 75조9,712억(연합인포맥스 10곳)~77조1,682억(와이즈리포트), 80조 돌파 기대 병존 + 추가 주주환원(특별배당·자사주) 관심. 삼성전자는 10/8 잠정 매출 195조·영업이익 107조4,000억 발표, 10월 말 이사회에서 3분기 약 30조원 현금배당안 확정 예정. ⑳ 10월 1~20일 수출 616억1,200만달러(+105.4%), 반도체 275억1,600만달러(+222.5%, 비중 44.7%), 무역수지 144억9,600만달러 흑자 — 관세청 10/21 발표(아시아경제·서울경제). (21) 반도체 섹터 10월 15% 넘게 하락, AI 투자 수익성 회의론이 지난주 매도의 배경(CNBC 10/23). (22) 한은 금통위 차기 11/26 — 11월이라 10월 calendarMonth 범위 밖.",
+        "whitelist 매칭": "★earnings(domestic)★ calendarWeek·calendarMonth 적재 11종 전량 whitelist-kr-marketcap(99종) hit — LG이노텍·SK하이닉스·삼성전기·LG전자·HD현대중공업·삼성전자·삼성SDI·삼성SDS·SK이노베이션·한화에어로스페이스·기아·현대모비스. ★룰 ⑧로 제외★ 기업은행·BNK금융지주(10/26)·한화오션·한화시스템·HD현대일렉트릭(10/27)은 화이트리스트 밖 → calendar.domestic도 빈 배열 유지(일관성 ⑤ superset 룰). ★earnings(global)★ 적재 3건 전량 whitelist-us-bigtech(11종) hit — 마이크로소프트·알파벳(구글)·아마존. P&G·버라이즌·뉴코 등 화이트리스트 밖 美 실적은 배제. ★conference★ 애플 10/28 신제품 이벤트 — whitelist-conferences AppleFall(Apple 가을 이벤트) 매칭, category=conference 고정, region=global. GTC(10/21)는 지난주분이라 calendarMonth에만 유지. ★매월 1일 아님 → 시총 whitelist 재생성 해당 없음★",
+        "미확보": "★야간선물★(주말로 세션 없음 → flow 3→2종) / 예탁금·신용융자 10/22~23 기준치(10/21 유지) / 韓 3분기 GDP·9월 광공업생산 발표 시각(time=null 처리) / 10/26 美 주요 거시지표(버라이즌·뉴코 실적만 확인 → 화이트리스트 밖으로 미적재) / 엔비디아 3분기 실적 확정일",
+        "Sanity": "자체 스크립트 FAILS 0건: KST 5룰(UTC 2026-10-25T22:05Z +9h = KST 2026-10-26 07:05 월, 파일명·date·weekday·generatedAt 일치)·지수범위·|등락률|<20%·배열 카운트 14종·마스킹 6패턴 0건·sourceUrl 5룰(24/24 unique, 차단 6도메인 0건, source↔도메인 매핑 14종 일치)·카테고리 집중도 글로벌 최대 2·국내 최대 2(상한 4)·enum 전종·subNoteEm 4섹션·빈 문자열 0건·calendarWeek ①~⑤(7cell·start 10/25 일·end 10/31 토·start+6=end·범위·todayIdx=1 superset 일치)·calendarMonth ⑥⑦(2026/10, 11일분, time 미저장)·whitelist ⑧(KR 12 hit·US 3 hit)·⑨(conference 1 hit)·category 7종 enum ⑩·timed/untimed 필드 모양·페르소나 grep 4종 0건(길이 위반 0: title 최대 24/30·summary 최대 45/60·note 최대 21/25). scripts/validate-briefing.mjs: ✅ HARD 검증 통과(0건), SOFT 0건"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-n23haa"
+      }
     }
   ],
-  "updatedAt": "2026-10-24T07:21:00+09:00"
+  "updatedAt": "2026-10-26T07:05:00+09:00"
 }

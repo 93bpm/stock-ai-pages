@@ -1,0 +1,947 @@
+{
+  "date": "2026-10-26",
+  "weekday": "월",
+  "generatedAt": "2026-10-26T07:05:00+09:00",
+  "us": {
+    "subNote": "美 증시는 10/23(금) 마감 기준이에요. 주말 사이 트럼프 대통령의 이란 재공격 시사 발언이 나와 유가가 더 달아올랐어요",
+    "subNoteEm": "이번 주 FOMC와 빅테크 실적이 방향을 잡아요",
+    "comment": "다우가 <b style=\"color:var(--blue);\">52,215.16</b>으로 1.23% 밀렸고 S&P 500도 0.52% 내렸어요. 에너지 업종만 2.60% 올라 유가가 장을 끌었고, 정보기술은 0.49% 올라 반도체는 숨을 돌렸어요. 다만 10년물이 4.999%로 5% 선을 다시 두드렸고, S&P 500 종목 넷 중 셋이 내려 체감은 약했어요. 주말에는 비트코인이 8만 달러 선에서 공방을 벌여 위험자산 심리가 아직 얇아 보여요. 韓 시간 29일 새벽 FOMC 결과와 마이크로소프트·알파벳 실적이 아시아 장 방향도 같이 흔들 수 있어요",
+    "indices": [
+      {
+        "name": "S&P 500",
+        "tip": "정규장 종가 · 39.75P 하락",
+        "value": "7,623.68",
+        "change": "▼ 0.52%",
+        "dir": "down"
+      },
+      {
+        "name": "나스닥 종합",
+        "tip": "정규장 종가 · 53.52P 하락",
+        "value": "25,955.34",
+        "change": "▼ 0.21%",
+        "dir": "down"
+      },
+      {
+        "name": "다우존스",
+        "tip": "정규장 종가 · 652.82P 하락",
+        "value": "52,215.16",
+        "change": "▼ 1.23%",
+        "dir": "down"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "tip": "정규장 종가 · 47.49P 상승",
+        "value": "10,779.46",
+        "change": "▲ 0.44%",
+        "dir": "up"
+      }
+    ],
+    "indicators": [
+      {
+        "key": "VIX",
+        "value": "19.45 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "美 10년물",
+        "value": "4.999% ▲",
+        "dir": "up"
+      },
+      {
+        "key": "달러인덱스",
+        "value": "101.75 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "WTI 유가",
+        "value": "103.27달러 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "금",
+        "value": "4,012달러 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "비트코인",
+        "value": "약 80,940달러 ▼",
+        "dir": "down"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "name": "에너지",
+        "change": "▲ 2.60%"
+      },
+      {
+        "name": "정보기술",
+        "change": "▲ 0.49%"
+      },
+      {
+        "name": "부동산",
+        "change": "▲ 0.12%"
+      },
+      {
+        "name": "유틸리티",
+        "change": "▼ 0.72%"
+      },
+      {
+        "name": "소재",
+        "change": "▼ 0.74%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "name": "필수소비재",
+        "change": "▼ 1.92%"
+      },
+      {
+        "name": "커뮤니케이션",
+        "change": "▼ 1.78%"
+      },
+      {
+        "name": "임의소비재",
+        "change": "▼ 1.66%"
+      },
+      {
+        "name": "금융",
+        "change": "▼ 1.32%"
+      },
+      {
+        "name": "산업재",
+        "change": "▼ 1.27%"
+      }
+    ]
+  },
+  "world": {
+    "subNote": "지난주는 유가와 금리가 지수를 눌렀고 국내는 SK하이닉스 반등으로 5,500선을 지켰어요. 이번 주는 FOMC와 삼전닉스·美 빅테크 실적이 한꺼번에 몰려요",
+    "subNoteEm": "슈퍼위크 개막, 유가와 금리가 변수예요",
+    "global": [
+      {
+        "rank": "01",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "28일 FOMC 동결 전망, 12월 인상에 무게",
+        "summary": "시장은 동결 가능성을 90% 넘게 보고 12월 인상 확률은 75%로 반영했어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/investingclub/2026/10/25/here-are-4-big-things-were-watching-in-the-stock-market-this-week.html",
+        "note": "韓 환율·외인 수급의 분수령이에요"
+      },
+      {
+        "rank": "02",
+        "category": "빅테크",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "MS·알파벳·아마존 실적 주간 개막",
+        "summary": "이번 주 S&P 500 160개사가 실적을 내놓고 AI 투자 회수가 쟁점이 돼요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/10/25/earnings-week-alphabet-microsoft-amazon.html",
+        "note": "HBM 수요 가늠자가 될 수 있어요"
+      },
+      {
+        "rank": "03",
+        "category": "원자재",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "브렌트 116달러, 6개월 최고치",
+        "summary": "트럼프 대통령의 이란 재공격 시사에 브렌트가 3.14% 올라 116.72달러로 마감했어요",
+        "source": "서울경제",
+        "sourceUrl": "https://en.sedaily.com/finance/2026/10/24/trump-floats-new-strike-on-iran-as-oil-hits-6-month-high",
+        "note": "정유·조선엔 호재, 항공엔 부담이에요"
+      },
+      {
+        "rank": "04",
+        "category": "지정학",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "펜타곤, 이란 추가 타격 옵션 준비",
+        "summary": "백악관 승인만 남았다는 보도가 나와 중동 리스크가 길어질 수 있어요",
+        "source": "Benzinga",
+        "sourceUrl": "https://www.benzinga.com/news/politics/26/10/62579060/pentagon-options-new-iran-strikes-after-midterms",
+        "note": "유가·환율 변동성이 커질 수 있어요"
+      },
+      {
+        "rank": "05",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "다우 652P 하락, 변동성 큰 주 마감",
+        "summary": "다우가 1.23% 내린 52,215.16, S&P 500도 0.52% 밀려 한 주를 닫았어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/10/22/stock-market-today-live-update.html",
+        "note": "아시아 장에 부담으로 올 수 있어요"
+      },
+      {
+        "rank": "06",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "반도체 지수 10월 15% 넘게 급락",
+        "summary": "AI 투자 회의론이 커지며 반도체 섹터가 이달 15% 넘게 밀렸어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/10/23/next-week-brings-major-risks-for-the-stock-market-just-as-the-ai-trade-keeps-faltering.html",
+        "note": "SK하이닉스 투심에 직결돼요"
+      },
+      {
+        "rank": "07",
+        "category": "금리",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "美 10년물 4.999%, 5% 재위협",
+        "summary": "전날 19bp 급락했던 금리가 되돌림에 나서 5% 선을 다시 두드렸어요",
+        "source": "재경일보",
+        "sourceUrl": "https://news.jkn.co.kr/post/1045760",
+        "note": "금리 부담은 성장주에 불리해요"
+      },
+      {
+        "rank": "08",
+        "category": "암호화폐",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "비트코인 8만 달러 선에서 공방",
+        "summary": "주말 7만 9,220달러까지 밀린 뒤 8만 900달러대를 되찾는 흐름이에요",
+        "source": "Investing.com",
+        "sourceUrl": "https://in.investing.com/news/cryptocurrency-news/bitcoin-price-today-btc-recovers-to-80800-ahead-of-fed-meeting-5652773",
+        "note": "위험자산 심리의 체온계예요"
+      },
+      {
+        "rank": "09",
+        "category": "일본",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "日 BOJ, 29~30일 금리 동결 전망",
+        "summary": "물가 전망은 올리면서 기준금리 1.25%는 유지할 가능성이 거론돼요",
+        "source": "Investing.com",
+        "sourceUrl": "https://www.investing.com/news/economy-news/bank-of-japan-may-raise-inflation-forecast-stand-pat-on-rates-sources-say-4958806",
+        "note": "엔화 흐름은 韓 수출주와 엮여요"
+      },
+      {
+        "rank": "10",
+        "category": "원자재",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "금 4,012달러, 4,000선 공방",
+        "summary": "안전자산 수요가 국채로 옮겨가며 금 현물이 0.30% 내렸어요",
+        "source": "Rio Times",
+        "sourceUrl": "https://www.riotimesonline.com/gold-silver-precious-metals-friday-october-23-2026/",
+        "note": "달러·금리 되돌림을 같이 봐요"
+      },
+      {
+        "rank": "11",
+        "category": "빅테크",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "애플 28일 신제품 이벤트 예고",
+        "summary": "OLED 맥북프로와 M6 맥 공개가 거론되는 '프로앤텔' 행사를 엽니다",
+        "source": "Macworld",
+        "sourceUrl": "https://www.macworld.com/article/3253120/apple-will-reportedly-hold-not-one-but-two-sets-of-product-launches-this-month.html",
+        "note": "애플 공급망 LG이노텍에 관심 가요"
+      },
+      {
+        "rank": "12",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "29일 美 9월 PCE·3분기 GDP 발표",
+        "summary": "FOMC 다음 날 물가와 성장 지표가 같이 나와 변동성이 커질 수 있어요",
+        "source": "BEA",
+        "sourceUrl": "https://www.bea.gov/news/schedule",
+        "note": "금리 경로를 다시 가늠해 봐요"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "삼전닉스·美 빅테크 실적이 반등 변수",
+        "summary": "5,500선으로 밀린 코스피가 이번 주 실적에서 반등 실마리를 찾을지 주목돼요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202610251909265194",
+        "note": "주 후반까지 눈치보기 구간이에요"
+      },
+      {
+        "rank": "02",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "SK하이닉스 28일 실적, 주주환원 주목",
+        "summary": "3분기 영업이익 77조 원 안팎 전망에 추가 주주환원 카드가 관심이에요",
+        "source": "머니투데이",
+        "sourceUrl": "https://mt.co.kr/stock/2026/10/25/2026102510413168261",
+        "note": "반도체 수급의 분수령이에요"
+      },
+      {
+        "rank": "03",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "10월 중순 수출 105% 급증, 역대 최대",
+        "summary": "1~20일 수출 616억 달러에 반도체가 222.5% 늘어 비중 44.7%를 찍었어요",
+        "source": "아시아경제",
+        "sourceUrl": "https://view.asiae.co.kr/article/2026102109252318596",
+        "note": "반도체 실적 눈높이를 높여줘요"
+      },
+      {
+        "rank": "04",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "원/달러 1,324.6원, 2년여 만 최저",
+        "summary": "반도체 흑자와 수출업체 달러 매도에 주간 종가가 2년여 만의 최저로 내려왔어요",
+        "source": "한국경제",
+        "sourceUrl": "https://hankyung.com/article/2026102535301",
+        "note": "환율 안정은 외국인에 우호적이에요"
+      },
+      {
+        "rank": "05",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스피 장중 4% 급락 딛고 반등",
+        "summary": "10/23 코스피가 0.30% 오른 5,550.30에 마감해 5,500선을 지켜냈어요",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20261023001023",
+        "note": "기관 매수가 지수를 떠받쳤어요"
+      },
+      {
+        "rank": "06",
+        "category": "코스닥",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스닥 1.62% 내린 751.69 마감",
+        "summary": "에코프로가 6%대 밀리는 등 시총 상위주 약세로 디커플링이 이어졌어요",
+        "source": "아시아경제",
+        "sourceUrl": "https://view.asiae.co.kr/article/2026102315494608537",
+        "note": "코스닥 투심 회복이 더뎌요"
+      },
+      {
+        "rank": "07",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "외국인 9,941억 순매도, 기관이 방어",
+        "summary": "기관이 8,723억 원을 담고 개인도 527억 원을 사들여 지수를 받쳤어요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202610251814106342",
+        "note": "외국인 복귀 시점이 관건이에요"
+      },
+      {
+        "rank": "08",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "투자자 예탁금 9개월 만에 최저",
+        "summary": "예탁금이 89조 6,343억 원으로 줄고 신용융자도 30조 원대로 내려왔어요",
+        "source": "아시아경제",
+        "sourceUrl": "https://core.asiae.co.kr/article/2026102217020266437",
+        "note": "반등 탄력이 얇아질 수 있어요"
+      },
+      {
+        "rank": "09",
+        "category": "조선·방산",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "K조선 노사협상 희비 갈려",
+        "summary": "HD현대중공업은 27일 찬반투표에 들어가고 한화오션은 교섭이 길어질 수 있어요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://fnnews.com/news/202610251145114569",
+        "note": "수주 호황 속 비용 변수예요"
+      },
+      {
+        "rank": "10",
+        "category": "바이오",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "삼성바이오로직스 7.71% 급등",
+        "summary": "법원이 9개 공정 전체 파업을 금지해 생산 차질 우려가 줄었어요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202610231409279479",
+        "note": "CDMO 경쟁력에 긍정적이에요"
+      },
+      {
+        "rank": "11",
+        "category": "증시제도",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "SK하이닉스, 솔리다임 美 상장 중단",
+        "summary": "중복상장 논란이 커지자 프리IPO와 IPO 검토를 모두 접었어요",
+        "source": "뉴스1",
+        "sourceUrl": "https://www.news1.kr/industry/general-industry/6329358",
+        "note": "주주가치 우려가 걷혔어요"
+      },
+      {
+        "rank": "12",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "27일 3분기 GDP 속보치 발표",
+        "summary": "30일 9월 광공업생산까지 국내 지표가 연달아 나와 체감 경기를 확인해요",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20261023000935",
+        "note": "내수 회복 속도를 가늠해 봐요"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "코스피는 10/23 5,550.30으로 0.30% 올라 5,500선을 지켰어요. 오늘부터 SK하이닉스·삼성전자 실적과 FOMC가 몰린 슈퍼위크가 시작돼요",
+    "subNoteEm": "슈퍼위크 첫날, 방향 탐색 장세가 예상돼요",
+    "comment": "지난 금요일 기관이 <b style=\"color:var(--red);\">8,723억 원</b>을 담아 외국인 9,941억 원 순매도를 받아냈어요. SK하이닉스가 솔리다임 美 상장 철회 공시에 4.42% 올라 127만 7,000원으로 지수를 끌었고, 삼성바이오로직스는 파업 제동 소식에 7.71% 급등했어요. 반면 코스닥은 1.62% 내려 2차전지·반도체 소재 쪽 약세가 이어졌어요. 원/달러가 1,324.6원으로 2년여 만의 최저로 내려온 점은 외국인 복귀에 우호적이지만, 예탁금이 89조 원대로 줄어 받아줄 체력은 얇은 구간이에요. 28일 SK하이닉스, 29일 삼성전자 실적과 새벽 FOMC까지 확인할 일정이 많아요. 투자 판단은 본인 책임으로 챙겨 보시면 좋아요",
+    "expectedRange": "코스피 -0.5% ~ +1.0% 부근에서 방향 탐색이 예상돼요",
+    "indices": [
+      {
+        "name": "코스피",
+        "tip": "정규장 종가 · 10/23 · 16.53P 상승",
+        "value": "5,550.30",
+        "change": "▲ 0.30%",
+        "dir": "up"
+      },
+      {
+        "name": "코스닥",
+        "tip": "정규장 종가 · 10/23 · 12.41P 하락",
+        "value": "751.69",
+        "change": "▼ 1.62%",
+        "dir": "down"
+      }
+    ],
+    "flow": [
+      {
+        "key": "원/달러 환율",
+        "value": "1,324.6원 (+0.4원) ▲",
+        "dir": "up"
+      },
+      {
+        "key": "미국 상장 한국물(ADR)",
+        "value": "EWY 151.26달러 (+1.48%) ▲",
+        "dir": "up"
+      }
+    ],
+    "supply": [
+      {
+        "who": "외국인",
+        "amount": "-9,941억",
+        "dir": "sell"
+      },
+      {
+        "who": "기관",
+        "amount": "+8,723억",
+        "dir": "buy"
+      },
+      {
+        "who": "개인",
+        "amount": "+527억",
+        "dir": "buy"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "theme": "방사성의약품",
+        "stockName": "퓨쳐켐",
+        "stockChange": "+26.73%"
+      },
+      {
+        "theme": "제약·바이오",
+        "stockName": "삼성바이오로직스",
+        "stockChange": "+7.71%"
+      },
+      {
+        "theme": "반도체",
+        "stockName": "SK하이닉스",
+        "stockChange": "+4.42%"
+      },
+      {
+        "theme": "바이오(코스닥)",
+        "stockName": "HLB",
+        "stockChange": "+0.73%"
+      },
+      {
+        "theme": "전기전자",
+        "stockName": "삼성전자",
+        "stockChange": "+0.47%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "theme": "2차전지 소재",
+        "stockName": "대주전자재료",
+        "stockChange": "-5.88%"
+      },
+      {
+        "theme": "2차전지",
+        "stockName": "에코프로",
+        "stockChange": "-6.22%"
+      },
+      {
+        "theme": "반도체 부품",
+        "stockName": "심텍",
+        "stockChange": "-5.02%"
+      },
+      {
+        "theme": "팹리스",
+        "stockName": "파두",
+        "stockChange": "-4.28%"
+      },
+      {
+        "theme": "반도체 장비",
+        "stockName": "리노공업",
+        "stockChange": "-4.05%"
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "SK하이닉스",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "28일 실적과 추가 주주환원 발표가 이번 주 최대 분수령이에요"
+      },
+      {
+        "name": "삼성전자",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "29일 확정 실적과 30조 원 규모 현금배당 이사회가 같이 잡혀 있어요"
+      },
+      {
+        "name": "LG이노텍",
+        "badge": "관심",
+        "badgeType": "default",
+        "desc": "27일 실적과 28일 애플 신제품 이벤트가 겹쳐 주목해 볼 만해요"
+      },
+      {
+        "name": "2차전지 소재주",
+        "badge": "주의",
+        "badgeType": "down",
+        "desc": "에코프로 계열 낙폭이 이어져 투심 회복에 시간이 걸릴 수 있어요"
+      }
+    ],
+    "health": [
+      {
+        "key": "투자자 예탁금",
+        "tip": "대기 자금 · 10/21",
+        "value": "89조 6,343억",
+        "subIcon": "▼",
+        "subDir": "down"
+      },
+      {
+        "key": "신용융자 잔고",
+        "tip": "빚투 규모 · 10/21",
+        "value": "30조 2,710억",
+        "subIcon": "▼",
+        "subDir": "down"
+      }
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘은 국내외 대형 지표가 없는 숨 고르기 날이에요. 중국 공산당 5중전회가 베이징에서 나흘 일정으로 열리고, 27일 韓 3분기 GDP부터 일정이 빽빽해져요",
+    "subNoteEm": "조용한 월요일, 29일 새벽 FOMC가 하이라이트예요",
+    "riskSentiment": "혼조",
+    "domestic": {
+      "timed": [],
+      "untimed": []
+    },
+    "global": {
+      "timed": [],
+      "untimed": [
+        {
+          "event": "中 공산당 5중전회 개막 (26~29일 베이징)",
+          "when": "나흘간 비공개 진행"
+        }
+      ]
+    },
+    "theme": "슈퍼위크의 첫날이라 관망 심리가 앞설 수 있어요. 유가가 중동 리스크로 103달러 위에 머물고 美 10년물이 5% 선을 다시 두드리는 조합은 성장주에 부담이지만, 원/달러가 2년여 만의 최저로 내려온 점은 외국인 수급에 우호적이에요. 28일 SK하이닉스, 29일 삼성전자 실적과 새벽 FOMC, 29일 밤 美 PCE까지 확인할 재료가 줄줄이 기다리고 있어요",
+    "checks": [
+      "코스피가 5,500선을 지키면서 거래대금이 붙는지 살펴봐요",
+      "28일 SK하이닉스 실적에서 영업이익 80조 원 돌파 여부를 체크해요",
+      "원/달러가 1,320원 아래로 더 내려가는지 지켜봐요",
+      "유가가 103달러 위에서 더 오르는지 확인해 봐요",
+      "예탁금 89조 원대에서 추가로 줄어드는지 봐요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-10-25",
+    "end": "2026-10-31",
+    "days": [
+      {
+        "date": "2026-10-25",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-10-26",
+        "weekday": "월",
+        "items": [
+          {
+            "region": "global",
+            "time": null,
+            "event": "中 공산당 5중전회 개막 (26~29일 베이징)",
+            "important": false,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-27",
+        "weekday": "화",
+        "items": [
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "한국은행 3분기 실질 GDP 속보치 발표",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "LG이노텍 3분기 실적 발표",
+            "important": false,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "time": "23:00",
+            "event": "美 10월 소비자신뢰지수 발표",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "中 규모이상 공업기업 이익 발표",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-28",
+        "weekday": "수",
+        "items": [
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "SK하이닉스 3분기 실적 발표·콘퍼런스콜",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "삼성전기·LG전자·HD현대중공업 3분기 실적 발표",
+            "important": false,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "美 FOMC 이틀째 회의 (결과는 韓 29일 새벽)",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-29",
+        "weekday": "목",
+        "items": [
+          {
+            "region": "global",
+            "time": "03:00",
+            "event": "美 FOMC 기준금리 결정·기자회견",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "time": "02:00",
+            "event": "애플 신제품 이벤트 (美 28일 13시)",
+            "important": true,
+            "category": "conference"
+          },
+          {
+            "region": "global",
+            "time": "05:00",
+            "event": "마이크로소프트·알파벳 3분기 실적 (美 28일 장 마감 후)",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "time": "21:30",
+            "event": "美 9월 PCE 물가·3분기 GDP 속보치 발표",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "삼성전자 3분기 확정 실적·현금배당 이사회",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "삼성SDI·삼성SDS·SK이노베이션·한화에어로스페이스 3분기 실적 발표",
+            "important": false,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-30",
+        "weekday": "금",
+        "items": [
+          {
+            "region": "global",
+            "time": "05:00",
+            "event": "아마존 3분기 실적 (美 29일 장 마감 후)",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "日 BOJ 금융정책결정회의 결과 (29~30일)",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "기아·현대모비스 3분기 실적 발표",
+            "important": false,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "韓 9월 산업활동동향(광공업생산) 발표",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-31",
+        "weekday": "토",
+        "items": [
+          {
+            "region": "global",
+            "time": null,
+            "event": "中 10월 제조업·비제조업 PMI 발표",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 10,
+    "days": [
+      {
+        "date": "2026-10-19",
+        "items": [
+          {
+            "region": "global",
+            "event": "중국 3분기 GDP·9월 실물지표 발표",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-21",
+        "items": [
+          {
+            "region": "global",
+            "event": "엔비디아 GTC 젠슨 황 기조연설",
+            "important": true,
+            "category": "conference"
+          },
+          {
+            "region": "domestic",
+            "event": "관세청 10월 1~20일 수출 실적 발표",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-22",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "한국은행 금융통화위원회 기준금리 3.00% 동결",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "event": "메타·테슬라 3분기 실적 발표",
+            "important": true,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-23",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 10월 S&P글로벌 제조업·서비스업 PMI 예비치",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "event": "美 10월 미시간대 소비자심리 확정치",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-26",
+        "items": [
+          {
+            "region": "global",
+            "event": "中 공산당 5중전회 개막 (26~29일 베이징)",
+            "important": false,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-27",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "한국은행 3분기 실질 GDP 속보치 발표",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "event": "LG이노텍 3분기 실적 발표",
+            "important": false,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "event": "美 10월 소비자신뢰지수 발표",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-28",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "SK하이닉스 3분기 실적 발표·콘퍼런스콜",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "event": "삼성전기·LG전자·HD현대중공업 3분기 실적 발표",
+            "important": false,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "event": "美 FOMC 이틀째 회의 (결과는 韓 29일 새벽)",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-29",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 FOMC 기준금리 결정·기자회견",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "event": "애플 신제품 이벤트 (美 28일 13시)",
+            "important": true,
+            "category": "conference"
+          },
+          {
+            "region": "global",
+            "event": "마이크로소프트·알파벳 3분기 실적 발표",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "event": "美 9월 PCE 물가·3분기 GDP 속보치 발표",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "event": "삼성전자 3분기 확정 실적·현금배당 이사회",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "event": "삼성SDI·삼성SDS·SK이노베이션·한화에어로스페이스 3분기 실적 발표",
+            "important": false,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-30",
+        "items": [
+          {
+            "region": "global",
+            "event": "아마존 3분기 실적 발표",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "event": "日 BOJ 금융정책결정회의 결과",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "domestic",
+            "event": "기아·현대모비스 3분기 실적 발표",
+            "important": false,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "event": "韓 9월 산업활동동향(광공업생산) 발표",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-31",
+        "items": [
+          {
+            "region": "global",
+            "event": "中 10월 제조업·비제조업 PMI 발표",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      }
+    ]
+  }
+}
