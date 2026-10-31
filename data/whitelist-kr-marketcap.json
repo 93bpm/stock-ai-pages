@@ -1,10 +1,10 @@
 {
-  "version": "2026-06-01",
+  "version": "2026-11-01",
   "description": "KOSPI+KOSDAQ 시총 2000억+ 韓 종목 화이트리스트 — v1.5.0 calendarWeek·calendarMonth 韓 실적 매칭용",
   "criteria": "KOSPI+KOSDAQ 시총 2000억원 이상",
   "source": "KRX 시총 페이지 기반 LLM 지식 추산 (routine 매월 1일 갱신)",
-  "updatedAt": "2026-06-01T07:09:00+09:00",
-  "note": "2026-06-01 monthly refresh: KRX JS-rendered 직접 fetch 불가 → LLM 지식 기반 ~100종목으로 확장. 다음 갱신: 2026-07-01.",
+  "updatedAt": "2026-11-01T07:17:00+09:00",
+  "note": "2026-11-01 monthly refresh 시도: KRX(kind.krx.co.kr)·Yahoo·Investing 등 시세 출처가 세션 네트워크 정책상 전부 차단(DNS/403)되어 시총 실값 확보 실패. 마스킹·추측 금지 룰에 따라 tickers[]는 변경 없이 유지(99종목, 2026-06-01 기준). 다음 갱신: 2026-12-01 또는 KRX 도메인 허용 후.",
   "expectedFullSize": "약 500종목 (KOSPI ~350 + KOSDAQ ~150)",
   "tickers": [
     { "code": "005930", "name": "삼성전자",         "market": "KOSPI",  "marketCap": "약 560조" },
