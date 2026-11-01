@@ -4895,7 +4895,46 @@
       "push": {
         "branch": "claude/adoring-fermi-wwxgyb"
       }
+    },
+    {
+      "date": "2026-11-02",
+      "time": "07:04",
+      "model": "claude-opus-5",
+      "model_note": "routine prompt v1.6.1 고정 명시값은 claude-opus-4.8이나, 본 세션 설정 모델은 claude-opus-5 — 실제 실행 모델을 기록. prompt Step 8 model 한 줄 갱신 필요",
+      "status": "success",
+      "duration_seconds": 854,
+      "tokens_estimated": 400000,
+      "response_size_kb": 29.6,
+      "tool_calls": {
+        "WebFetch": 6,
+        "WebSearch": 34,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 29
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq": "fail:403(proxy CONNECT denied)",
+        "YahooFinance": "fail:403(proxy CONNECT denied)",
+        "Investing.com(direct)": "fail:DNS blocked",
+        "TradingEconomics": "fail:DNS blocked",
+        "ig.com": "fail:DNS blocked",
+        "cappnotes.substack.com": "fail:DNS blocked",
+        "fnnews.com(WebFetch)": "fail:DNS blocked",
+        "news1.kr(WebFetch)": "fail:DNS blocked",
+        "WebSearch": "34/34",
+        "whitelist(local repo)": "3/3",
+        "NasdaqOMX SOX(via WebSearch)": "ok"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-125zjr"
+      }
     }
   ],
-  "updatedAt": "2026-11-01T07:17:00+09:00"
+  "updatedAt": "2026-11-02T07:04:00+09:00"
 }
