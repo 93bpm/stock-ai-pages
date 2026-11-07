@@ -5132,15 +5132,15 @@
       "time": "07:03",
       "model": "claude-opus-4.8",
       "status": "success",
-      "duration_seconds": 806,
-      "tokens_estimated": 241000,
+      "duration_seconds": 865,
+      "tokens_estimated": 352000,
       "response_size_kb": 28.8,
       "tool_calls": {
-        "WebFetch": 3,
-        "WebSearch": 40,
+        "WebFetch": 2,
+        "WebSearch": 60,
         "Read": 0,
         "Write": 0,
-        "Bash": 14
+        "Bash": 35
       },
       "news_count": {
         "global": 12,
@@ -5150,7 +5150,7 @@
       "sources_attempted": {
         "Stooq": "fail:DNS",
         "Yahoo Finance(WebFetch)": "fail:DNS",
-        "WebSearch": "40/40",
+        "WebSearch": "60/60",
         "git(main)": "1/1"
       },
       "masking_used": [],
