@@ -1,0 +1,822 @@
+{
+  "date": "2026-11-13",
+  "weekday": "금",
+  "generatedAt": "2026-11-13T07:19:52+09:00",
+  "us": {
+    "subNote": "11/12(목) 뉴욕 3대 지수가 동반 하락 마감한 기준이에요",
+    "subNoteEm": "젠슨 황 사임 쇼크·10년물 5% 재돌파",
+    "comment": "엔비디아 CEO 공백과 <b style=\"color:var(--blue);\">금리 5%대</b> 부담이 겹쳤지만, 유가 급등에 에너지가 버텨 낙폭은 제한됐어요. 아시아 장에도 반도체 변동성이 이어질 수 있어요.",
+    "indices": [
+      {
+        "name": "S&P 500",
+        "tip": "정규장 종가",
+        "value": "7,592.40",
+        "change": "▼ 0.35%",
+        "dir": "down"
+      },
+      {
+        "name": "나스닥 종합",
+        "tip": "정규장 종가",
+        "value": "25,366.09",
+        "change": "▼ 0.39%",
+        "dir": "down"
+      },
+      {
+        "name": "다우존스",
+        "tip": "정규장 종가",
+        "value": "52,297.09",
+        "change": "▼ 0.36%",
+        "dir": "down"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "tip": "정규장 종가 · SOX 지수",
+        "value": "10,506.67",
+        "change": "▼ 0.54%",
+        "dir": "down"
+      }
+    ],
+    "indicators": [
+      {
+        "key": "VIX",
+        "value": "18.87 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "美 10년물",
+        "value": "5.11%",
+        "dir": "up"
+      },
+      {
+        "key": "달러인덱스",
+        "value": "103.02",
+        "dir": "up"
+      },
+      {
+        "key": "WTI 유가",
+        "value": "$88.74 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "금",
+        "value": "$3,871.6 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "비트코인",
+        "value": "$71,415 ▼",
+        "dir": "down"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "name": "에너지",
+        "change": "+1.00%"
+      },
+      {
+        "name": "유틸리티",
+        "change": "+0.35%"
+      },
+      {
+        "name": "임의소비재",
+        "change": "+0.15%"
+      },
+      {
+        "name": "IT",
+        "change": "+0.12%"
+      },
+      {
+        "name": "산업재",
+        "change": "+0.02%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "name": "소재",
+        "change": "−0.54%"
+      },
+      {
+        "name": "부동산",
+        "change": "−0.50%"
+      },
+      {
+        "name": "커뮤니케이션",
+        "change": "−0.20%"
+      },
+      {
+        "name": "헬스케어",
+        "change": "−0.15%"
+      },
+      {
+        "name": "금융",
+        "change": "−0.07%"
+      }
+    ]
+  },
+  "world": {
+    "subNote": "글로벌은 AI 리더십 공백, 국내는 수급 위축이 화두예요",
+    "subNoteEm": "엔비디아 CEO 공백 + 빚투 하루 1.5조 감소",
+    "global": [
+      {
+        "rank": "01",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "엔비디아 젠슨 황 CEO 전격 사임",
+        "summary": "CFO 콜레트 크레스가 임시 CEO를 맡고 후임 탐색에 들어갔어요",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/technology/live/nvidia-live-updates-jensen-huang-resigns-cfo-colette-kress-to-serve-as-interim-ceo-140341430.html",
+        "note": "AI 리더십 공백이 변수예요"
+      },
+      {
+        "rank": "02",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "뉴욕 3대 지수 동반 하락 마감",
+        "summary": "다우 0.36%, S&P 500 0.35%, 나스닥 0.39% 내렸어요",
+        "source": "Investing.com",
+        "sourceUrl": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-036-5023324",
+        "note": "아시아 장에 부담될 수 있어요"
+      },
+      {
+        "rank": "03",
+        "category": "금리",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "美 10년물 금리 5% 다시 넘어",
+        "summary": "휴장 뒤 재개장에서 11bp 넘게 올라 5.1%대를 찍었어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
+        "note": "성장주 밸류에이션에 부담"
+      },
+      {
+        "rank": "04",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "10월 CPI 상회에 긴축 베팅 확산",
+        "summary": "헤드라인 0.4%·근원 0.3%로 예상을 웃돌았어요",
+        "source": "Investing.com",
+        "sourceUrl": "https://www.investing.com/news/economy-news/us-treasury-yields-surge-as-hot-cpi-revives-fed-tightening-bets-93CH-5016707",
+        "note": "12월 인상 가능성이 커졌어요"
+      },
+      {
+        "rank": "05",
+        "category": "지정학",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "트럼프 이란 발언에 유가 급등",
+        "summary": "협상을 추진하지 않겠다는 발언에 브렌트가 4% 뛰었어요",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html",
+        "note": "정유·화학에 양방향 영향"
+      },
+      {
+        "rank": "06",
+        "category": "원자재",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "금 2.9% 급락, 3,871달러선",
+        "summary": "물가 지표 쇼크로 달러·금리가 오르자 은도 3.47% 밀렸어요",
+        "source": "MINING.COM",
+        "sourceUrl": "https://www.mining.com/web/gold-price-falls-nearly-3-as-cpi-tops-forecasts-lifting-dollar-and-yields/",
+        "note": "안전자산 선호가 약해졌어요"
+      },
+      {
+        "rank": "07",
+        "category": "가상자산",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "비트코인 12주 최저로 밀려",
+        "summary": "스트래티지의 MSCI 지수 편출 소식이 겹치며 하락했어요",
+        "source": "Investing.com",
+        "sourceUrl": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-to-736k-strategy-drops-on-msci-index-removal-5020451",
+        "note": "위험자산 심리에 악재예요"
+      },
+      {
+        "rank": "08",
+        "category": "증시제도",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "MSCI 11월 정기변경 결과 공개",
+        "summary": "ACWI 13종목 편입·100종목 편출이 11월 30일 적용돼요",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/markets/world-indices/articles/msci-equity-indexes-november-2026-233200262.html",
+        "note": "월말 패시브 수급에 주목"
+      },
+      {
+        "rank": "09",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "브로드컴 5.5%↑, AI칩 차별화",
+        "summary": "엔비디아는 4.34% 내린 반면 브로드컴·AMD는 올랐어요",
+        "source": "톱스타뉴스",
+        "sourceUrl": "https://www.topstarnews.net/news/articleView.html?idxno=16275371",
+        "note": "HBM 수요 기대는 유지돼요"
+      },
+      {
+        "rank": "10",
+        "category": "AI",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "코어위브 호실적에 AI주 반등",
+        "summary": "11일 나스닥이 1.6% 올라 AI 투자 심리가 회복됐어요",
+        "source": "HDFC Sky",
+        "sourceUrl": "https://hdfcsky.com/news/nasdaq-jumps-1-6percent-as-coreweave-fuels-ai-rebound-lifting-stocks-november-12-2026",
+        "note": "AI 설비투자 기대는 살아있어요"
+      },
+      {
+        "rank": "11",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "골드만, 반도체주 과매도 진단",
+        "summary": "조정이 과도하다며 담아볼 종목군을 제시했어요",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/markets/article/goldman-sachs-calls-chip-stocks-oversold-here-are-the-names-it-says-to-buy-165654250.html",
+        "note": "국내 반도체 심리에 우호적"
+      },
+      {
+        "rank": "12",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "美 기존주택 매매 16년 최저",
+        "summary": "고금리와 가격 부담이 겹쳐 거래가 크게 줄었어요",
+        "source": "Investing.com",
+        "sourceUrl": "https://www.investing.com/news/stock-market-news/us-existinghome-sales-hit-16year-low-as-rates-and-affordability-weigh-on-market-93CH-5023129",
+        "note": "경기 둔화 신호로 읽혀요"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스피 0.61%↓ 5342.73 마감",
+        "summary": "젠슨 황 리스크에 AI 투자심리가 위축됐어요",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20261112001194",
+        "note": "사흘 만에 약세로 돌아섰어요"
+      },
+      {
+        "rank": "02",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "엔비디아 불안·옵션 만기 겹쳐",
+        "summary": "기관 매도가 몰리며 코스피가 5340선으로 밀렸어요",
+        "source": "서울경제",
+        "sourceUrl": "https://www.sedaily.com/article/20113582",
+        "note": "만기 수급 왜곡이 있었어요"
+      },
+      {
+        "rank": "03",
+        "category": "코스닥",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스닥 1.22%↓ 700선 하회",
+        "summary": "696.53에 마감하며 외국인 매도가 집중됐어요",
+        "source": "아시아경제",
+        "sourceUrl": "https://view.asiae.co.kr/article/2026111215510906516",
+        "note": "중소형주 체력이 약해요"
+      },
+      {
+        "rank": "04",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "신용융자 하루 1.5조 감소",
+        "summary": "26조5494억원으로 줄어 역대 두 번째 감소폭이에요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202611121502574944",
+        "note": "빚투 청산이 빨라졌어요"
+      },
+      {
+        "rank": "05",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "투자자 예탁금 85조, 연중 최저",
+        "summary": "하루 3조원 넘게 줄어 대기 자금이 마르고 있어요",
+        "source": "핀포인트뉴스",
+        "sourceUrl": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=503127",
+        "note": "매수 여력이 줄었어요"
+      },
+      {
+        "rank": "06",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "원/달러 1330.7원, 나흘 연속↓",
+        "summary": "미국 긴축 우려에도 엔화 강세에 2.9원 내렸어요",
+        "source": "뉴스1",
+        "sourceUrl": "https://www.news1.kr/finance/market-exr/6352275",
+        "note": "외국인 수급에 우호적이에요"
+      },
+      {
+        "rank": "07",
+        "category": "해운",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "HMM 3분기 영업익 1조3947억",
+        "summary": "전년보다 370% 늘며 어닝 서프라이즈를 냈어요",
+        "source": "아시아경제",
+        "sourceUrl": "https://view.asiae.co.kr/article/2026111215354038581",
+        "note": "운임 반등 효과가 컸어요"
+      },
+      {
+        "rank": "08",
+        "category": "엔터·콘텐츠",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "JYP엔터 16%↑, 역대 최대 매출",
+        "summary": "하이브와 나란히 분기 최대 매출을 기록했어요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202611121841096903",
+        "note": "엔터 실적 모멘텀이 살아났어요"
+      },
+      {
+        "rank": "09",
+        "category": "금융",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "보험주 14개 중 13개 하락",
+        "summary": "메리츠금융지주가 13.05% 내리며 낙폭이 가장 컸어요",
+        "source": "보험저널",
+        "sourceUrl": "https://www.insjournal.co.kr/news/articleView.html?idxno=33896",
+        "note": "금리 급등이 부담됐어요"
+      },
+      {
+        "rank": "10",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "외국인, 삼전 사고 하이닉스 팔아",
+        "summary": "삼성전자 7449억 순매수, SK하이닉스 8720억 순매도예요",
+        "source": "SBS Biz",
+        "sourceUrl": "https://biz.sbs.co.kr/article/20000346053",
+        "note": "반도체 투톱 희비가 갈렸어요"
+      },
+      {
+        "rank": "11",
+        "category": "산업",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "전력기기 강세, 조선·방산 온도차",
+        "summary": "효성중공업·HD현대일렉트릭이 주간 두 자릿수로 올랐어요",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2641896",
+        "note": "AI 전력 수요가 이어져요"
+      },
+      {
+        "rank": "12",
+        "category": "증시제도",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "수능일 19일 증시 10시 개장",
+        "summary": "폐장도 1시간 늦춰 오후 4시 30분에 마감해요",
+        "source": "디지털타임스",
+        "sourceUrl": "https://www.dt.co.kr/article/12093374",
+        "note": "거래 시간만 순연돼요"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "11/12(목) 코스피·코스닥이 동반 하락했고 기관 매도가 우위였어요",
+    "subNoteEm": "코스피 5,342.73 · 코스닥 700선 하회",
+    "comment": "장중 165p 널뛰기 끝에 <b>기관 6,894억 순매도</b>가 지수를 눌렀어요. 외국인은 사흘 연속 순매수를 이어갔고, 환율도 나흘째 내려 수급 환경은 나쁘지 않아요.",
+    "expectedRange": "코스피 −0.5% ~ +0.3% 부근",
+    "indices": [
+      {
+        "name": "코스피",
+        "tip": "정규장 종가 · KRX",
+        "value": "5,342.73",
+        "change": "▼ 0.61%",
+        "dir": "down"
+      },
+      {
+        "name": "코스닥",
+        "tip": "정규장 종가 · KRX",
+        "value": "696.53",
+        "change": "▼ 1.22%",
+        "dir": "down"
+      }
+    ],
+    "flow": [
+      {
+        "key": "원/달러 환율",
+        "value": "1,330.7원 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "미국 상장 한국물(EWY)",
+        "value": "$144.71 ▼",
+        "dir": "down"
+      }
+    ],
+    "supply": [
+      {
+        "who": "외국인",
+        "amount": "+3,676",
+        "dir": "buy"
+      },
+      {
+        "who": "기관",
+        "amount": "−6,894",
+        "dir": "sell"
+      },
+      {
+        "who": "개인",
+        "amount": "−2,025",
+        "dir": "sell"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "theme": "엔터·콘텐츠",
+        "stockName": "하이브",
+        "stockChange": "+5.35%"
+      },
+      {
+        "theme": "해운",
+        "stockName": "HMM",
+        "stockChange": "+3.50%"
+      },
+      {
+        "theme": "생명보험",
+        "stockName": "삼성생명",
+        "stockChange": "+1.01%"
+      },
+      {
+        "theme": "반도체",
+        "stockName": "삼성전자",
+        "stockChange": "+0.97%"
+      },
+      {
+        "theme": "제약·바이오",
+        "stockName": "삼성바이오로직스",
+        "stockChange": "+0.77%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "theme": "보험",
+        "stockName": "메리츠금융지주",
+        "stockChange": "−13.05%"
+      },
+      {
+        "theme": "태양광",
+        "stockName": "한화솔루션",
+        "stockChange": "−4.98%"
+      },
+      {
+        "theme": "전자부품",
+        "stockName": "삼성전기",
+        "stockChange": "−4.01%"
+      },
+      {
+        "theme": "코스닥 바이오",
+        "stockName": "알테오젠",
+        "stockChange": "−3.87%"
+      },
+      {
+        "theme": "2차전지",
+        "stockName": "에코프로",
+        "stockChange": "−2.72%"
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "삼성전자",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "외국인이 7,449억 순매수하며 홀로 버텼어요"
+      },
+      {
+        "name": "SK하이닉스",
+        "badge": "주의",
+        "badgeType": "down",
+        "desc": "외국인 8,720억 순매도로 차익 실현 압력이 보여요"
+      },
+      {
+        "name": "HMM",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "3분기 영업이익이 1조원을 넘어 운임 효과가 확인됐어요"
+      },
+      {
+        "name": "메리츠금융지주",
+        "badge": "주의",
+        "badgeType": "down",
+        "desc": "보험주 전반 약세 속에 낙폭이 가장 컸어요"
+      }
+    ],
+    "health": [
+      {
+        "key": "투자자 예탁금",
+        "tip": "대기 자금 · 11/10 기준",
+        "value": "85조 2,208억원",
+        "subIcon": "▼",
+        "subDir": "down"
+      },
+      {
+        "key": "신용융자 잔고",
+        "tip": "빚투 잔액 · 11/10 기준",
+        "value": "26조 5,494억원",
+        "subIcon": "▼",
+        "subDir": "down"
+      }
+    ]
+  },
+  "calendar": {
+    "subNote": "오늘은 밤 10시 반 美 10월 PPI가 가장 큰 변수예요",
+    "subNoteEm": "22:30 KST 美 10월 PPI 발표",
+    "riskSentiment": "혼조",
+    "domestic": {
+      "timed": [],
+      "untimed": [
+        {
+          "event": "SK·SK스퀘어 3분기 실적 발표 예정",
+          "when": "장 마감 후 (일정 유동적)"
+        }
+      ]
+    },
+    "global": {
+      "timed": [
+        {
+          "time": "22:30",
+          "event": "美 10월 생산자물가지수(PPI)",
+          "important": true
+        }
+      ],
+      "untimed": [
+        {
+          "event": "연준 보먼 이사·데일리 총재 발언",
+          "when": "미정"
+        },
+        {
+          "event": "유로존 3분기 GDP 2차 추정치·고용",
+          "when": "저녁"
+        }
+      ]
+    },
+    "theme": "美 생산자물가가 12월 금리 인상 폭 기대를 다시 흔들 수 있어요. 지수 방향보다 기관 수급과 환율 흐름을 같이 보면 도움이 돼요.",
+    "checks": [
+      "22:30 美 10월 PPI, 근원 전월비 0.3% 예상을 넘는지 보세요",
+      "기관이 나흘째 매도인지, 외국인 순매수가 이어지는지 확인해 보세요",
+      "예탁금·신용융자 감소가 멈추는지 살펴보면 좋아요",
+      "17일 엔비디아 실적 전까지 반도체 변동성이 커질 수 있어요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-11-08",
+    "end": "2026-11-14",
+    "days": [
+      {
+        "date": "2026-11-08",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-11-09",
+        "weekday": "월",
+        "items": []
+      },
+      {
+        "date": "2026-11-10",
+        "weekday": "화",
+        "items": [
+          {
+            "region": "global",
+            "time": "22:30",
+            "event": "美 10월 소비자물가지수(CPI)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-11",
+        "weekday": "수",
+        "items": [
+          {
+            "region": "global",
+            "time": null,
+            "event": "美 재향군인의 날 (채권시장 휴장)",
+            "important": false,
+            "category": "holiday"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-12",
+        "weekday": "목",
+        "items": [
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "코스피200 선물·옵션 동시 만기",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "HMM 3분기 실적 발표",
+            "important": false,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "하이브 3분기 실적 발표",
+            "important": false,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "JYP엔터테인먼트 3분기 실적 발표",
+            "important": false,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "엔씨소프트 3분기 실적 발표",
+            "important": false,
+            "category": "earnings"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "코스맥스 3분기 실적 발표",
+            "important": false,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-13",
+        "weekday": "금",
+        "items": [
+          {
+            "region": "global",
+            "time": "22:30",
+            "event": "美 10월 생산자물가지수(PPI)",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "연준 보먼 이사·데일리 총재 발언",
+            "important": false,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "유로존 3분기 GDP 2차 추정치·고용",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "SK·SK스퀘어 3분기 실적 발표 예정",
+            "important": false,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-14",
+        "weekday": "토",
+        "items": []
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 11,
+    "days": [
+      {
+        "date": "2026-11-10",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 10월 소비자물가지수(CPI)",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-11",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 재향군인의 날 (채권시장 휴장)",
+            "important": false,
+            "category": "holiday"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-12",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "코스피200 선물·옵션 동시 만기",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "domestic",
+            "event": "HMM·하이브·JYP엔터테인먼트 3분기 실적 발표",
+            "important": false,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-13",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 10월 생산자물가지수(PPI)",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "event": "SK·SK스퀘어 3분기 실적 발표 예정",
+            "important": false,
+            "category": "earnings"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-17",
+        "items": [
+          {
+            "region": "global",
+            "event": "엔비디아 3분기 실적 발표",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "event": "Microsoft Ignite 2026 개막 (~20일)",
+            "important": false,
+            "category": "conference"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-19",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "수능일 증시 10시 개장·16시 30분 폐장",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-26",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "한은 금통위 기준금리 결정·수정 경제전망",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-30",
+        "items": [
+          {
+            "region": "global",
+            "event": "MSCI 11월 정기변경 적용 (종가 기준)",
+            "important": true,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "event": "AWS re:Invent 2026 개막 (~12/4)",
+            "important": false,
+            "category": "conference"
+          }
+        ]
+      }
+    ]
+  }
+}
