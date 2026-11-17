@@ -1,0 +1,848 @@
+{
+  "date": "2026-11-18",
+  "weekday": "수",
+  "generatedAt": "2026-11-18T07:03:00+09:00",
+  "us": {
+    "subNote": "엔비디아가 실적 서프라이즈를 냈지만 정규장은 금융주 약세에 또 밀렸어요",
+    "subNoteEm": "다우 1.64% 하락·VIX 25.94 급등",
+    "comment": "<b style=\"color:var(--red);\">엔비디아가 매출 1,158억 달러로 예상을 웃돌며</b> 시간외에서 2% 가까이 올랐어요. 정규장은 금융주가 끌어내렸지만 필라델피아 반도체는 0.34% 반등했고, 10년물 5.10%·달러인덱스 103.6선은 부담으로 남아요. 아시아 장에는 HBM 수요 기대가 먼저 작용할 수 있어요.",
+    "indices": [
+      {
+        "name": "S&P 500",
+        "tip": "정규장 종가",
+        "value": "7,340.53",
+        "change": "▼ 1.03%",
+        "dir": "down"
+      },
+      {
+        "name": "나스닥 종합",
+        "tip": "정규장 종가",
+        "value": "24,328.38",
+        "change": "▼ 0.74%",
+        "dir": "down"
+      },
+      {
+        "name": "다우존스",
+        "tip": "정규장 종가",
+        "value": "50,759.42",
+        "change": "▼ 1.64%",
+        "dir": "down"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "tip": "정규장 종가",
+        "value": "9,642.88",
+        "change": "▲ 0.34%",
+        "dir": "up"
+      }
+    ],
+    "indicators": [
+      {
+        "key": "VIX",
+        "value": "25.94 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "美 10년물",
+        "value": "5.10%",
+        "dir": "down"
+      },
+      {
+        "key": "달러인덱스",
+        "value": "103.60 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "WTI 유가",
+        "value": "$86.01 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "금",
+        "value": "$3,864.2 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "비트코인",
+        "value": "$63,647 ▼",
+        "dir": "down"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "name": "에너지",
+        "change": "+0.34%"
+      },
+      {
+        "name": "소재",
+        "change": "+0.13%"
+      },
+      {
+        "name": "필수소비재",
+        "change": "−0.40%"
+      },
+      {
+        "name": "산업재",
+        "change": "−0.48%"
+      },
+      {
+        "name": "유틸리티",
+        "change": "−0.51%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "name": "IT",
+        "change": "−2.06%"
+      },
+      {
+        "name": "금융",
+        "change": "−1.59%"
+      },
+      {
+        "name": "헬스케어",
+        "change": "−0.99%"
+      },
+      {
+        "name": "부동산",
+        "change": "−0.91%"
+      },
+      {
+        "name": "임의소비재",
+        "change": "−0.71%"
+      }
+    ]
+  },
+  "world": {
+    "subNote": "엔비디아 호실적과 美 AI칩 규제 강화가 같은 날 맞물렸어요",
+    "subNoteEm": "엔비디아 매출 1,158억 달러·美 AI칩 원격접속 차단",
+    "global": [
+      {
+        "rank": "01",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "엔비디아 3분기 매출 1,158억 달러",
+        "summary": "전년보다 103% 늘며 월가 예상 1,091억 달러를 웃돌았어요.",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202611180626057964",
+        "note": "HBM 수요 확인 신호예요"
+      },
+      {
+        "rank": "02",
+        "category": "기업",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "엔비디아 4분기 가이던스도 예상 상회",
+        "summary": "조정 EPS 2.68달러에 자사주 매입 한도도 늘려 시간외 강세예요.",
+        "source": "CoinDesk",
+        "sourceUrl": "https://www.coindesk.com/ko/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization",
+        "note": "AI 투자 사이클 연장 기대예요"
+      },
+      {
+        "rank": "03",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "뉴욕증시 3대 지수 동반 하락 마감",
+        "summary": "다우가 848.75포인트(1.64%) 내린 50,759.42로 마쳤어요.",
+        "source": "서울신문",
+        "sourceUrl": "https://www.seoul.co.kr/news/economy/2026/11/18/20261118500008",
+        "note": "위험회피가 아직 남아 있어요"
+      },
+      {
+        "rank": "04",
+        "category": "지정학",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "美, AI칩 중국 원격접속도 차단",
+        "summary": "해외 데이터센터 원격 이용에 허가를 걸고 동남아 수출도 통제해요.",
+        "source": "세계일보",
+        "sourceUrl": "https://www.segye.com/newsView/20261117515410",
+        "note": "中 AI 수요 경로가 좁아져요"
+      },
+      {
+        "rank": "05",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "美 10월 소매판매 0.2% 증가",
+        "summary": "헤드라인은 예상에 부합했지만 핵심 소매판매는 0.6%로 더 좋았어요.",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20261117001384",
+        "note": "12월 인상 전망을 뒷받침해요"
+      },
+      {
+        "rank": "06",
+        "category": "금리",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "美 10년물, 5% 위 마감 27거래일",
+        "summary": "금리가 5.1%대에 머물며 2007년 이후 최다 기록에 다가섰어요.",
+        "source": "토큰포스트",
+        "sourceUrl": "https://www.tokenpost.kr/news/economy/439933",
+        "note": "고금리가 밸류에이션을 눌러요"
+      },
+      {
+        "rank": "07",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "연준 10월 의사록 18일 공개",
+        "summary": "동결 당시 위원 간 견해차와 12월 인상 폭 힌트를 볼 수 있어요.",
+        "source": "글로벌이코노믹",
+        "sourceUrl": "https://www.g-enews.com/article/Global-Biz/2026/11/2026111522131576539a1f309431_1",
+        "note": "새벽 4시 KST 공개예요"
+      },
+      {
+        "rank": "08",
+        "category": "원자재",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "유가 소폭 반등·금값 1년래 최저권",
+        "summary": "WTI는 86.01달러로 올랐고 현물 금은 3,853달러까지 밀렸어요.",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20261118000027",
+        "note": "달러 강세가 금을 눌러요"
+      },
+      {
+        "rank": "09",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "반도체주는 반등, 엔비디아는 0.5%↓",
+        "summary": "지수는 밀렸지만 필라델피아 반도체가 하루 만에 상승 전환했어요.",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202611180625022345",
+        "note": "韓 반도체 심리에 우호적이에요"
+      },
+      {
+        "rank": "10",
+        "category": "기업",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "NSA 전산 장애에 투자심리 위축",
+        "summary": "반도체주 약세와 겹쳐 다우가 850포인트 가까이 내렸어요.",
+        "source": "블록미디어",
+        "sourceUrl": "https://www.blockmedia.co.kr/archives/1167221",
+        "note": "돌발 리스크가 변수로 남아요"
+      },
+      {
+        "rank": "11",
+        "category": "가상자산",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "비트코인 6만3천 달러대로 후퇴",
+        "summary": "현물 ETF 자금 이탈과 롱 청산이 겹쳐 2%대 하락했어요.",
+        "source": "토큰포스트",
+        "sourceUrl": "https://www.tokenpost.kr/news/insights/440014",
+        "note": "위험자산 체감 온도계예요"
+      },
+      {
+        "rank": "12",
+        "category": "AI",
+        "categoryStyle": "tech",
+        "sentiment": "neu",
+        "title": "MS 이그나이트 2026 샌프란시스코 개막",
+        "summary": "17~20일 애저·코파일럿 AI 에이전트 전략이 공개돼요.",
+        "source": "Inven Global",
+        "sourceUrl": "https://www.invenglobal.com/articles/28496/microsoft-ignite-2026-kicks-off-in-san-francisco-on-november-17",
+        "note": "클라우드 capex 가늠자예요"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스피 4,968.48로 5,000선 붕괴",
+        "summary": "132.02포인트(2.59%) 내려 9개월여 만에 5,000선을 내줬어요.",
+        "source": "아시아경제",
+        "sourceUrl": "https://view.asiae.co.kr/article/2026111715375988449",
+        "note": "4거래일 연속 하락이에요"
+      },
+      {
+        "rank": "02",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "외국인 1.5조원 순매도",
+        "summary": "기관이 6,834억원, 개인이 3,892억원 사들였지만 역부족이었어요.",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20261117000928",
+        "note": "외국인 매도가 핵심 변수예요"
+      },
+      {
+        "rank": "03",
+        "category": "코스닥",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "코스닥 650.06, 2.34% 하락",
+        "summary": "15.59포인트 내리며 중소형주도 함께 조정을 받았어요.",
+        "source": "서울경제",
+        "sourceUrl": "https://m.sedaily.com/article/20115449",
+        "note": "하락 종목이 1,319개였어요"
+      },
+      {
+        "rank": "04",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "neg",
+        "title": "반도체·금융·조선주 동반 약세",
+        "summary": "삼성전자 3.30%, SK하이닉스 1.96% 내리며 지수를 눌렀어요.",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/202611172322i",
+        "note": "대형주 쏠림이 부담이에요"
+      },
+      {
+        "rank": "05",
+        "category": "업종",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "전기·가스 4.9% 급락, 상승 업종은 둘",
+        "summary": "섬유·의복과 의료·정밀기기만 1%대 올랐어요.",
+        "source": "시사저널e",
+        "sourceUrl": "https://www.sisajournal-e.com/news/articleView.html?idxno=425108",
+        "note": "방어주마저 흔들렸어요"
+      },
+      {
+        "rank": "06",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "원/달러 1,338.2원 마감",
+        "summary": "2.5원 올랐고 장중에는 1,342.9원까지 닿았어요.",
+        "source": "토큰포스트",
+        "sourceUrl": "https://www.tokenpost.kr/news/insights/439706",
+        "note": "환율은 외국인 수급 변수예요"
+      },
+      {
+        "rank": "07",
+        "category": "자동차",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "계양전기, 현대차 공급 선정에 상한가",
+        "summary": "5개 차종 시트모터 공급사로 뽑혀 29.87% 올랐어요.",
+        "source": "글로벌이코노믹",
+        "sourceUrl": "https://www.g-enews.com/article/Securities/2026/11/20261117104019297744093b5d4e_1",
+        "note": "부품 수주 모멘텀이에요"
+      },
+      {
+        "rank": "08",
+        "category": "우주항공",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "나노팀, 美 발사체 방열소재 수주",
+        "summary": "차세대 발사체용 방열패드 발주를 받아 상한가로 마쳤어요.",
+        "source": "와이드경제",
+        "sourceUrl": "https://www.widedaily.com/news/articleView.html?idxno=303824",
+        "note": "소재 국산화 기대예요"
+      },
+      {
+        "rank": "09",
+        "category": "바이오",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "세니젠, 뎅기 진단 특허에 18% 급등",
+        "summary": "식품 진단 기술을 인체 감염병으로 넓히는 점이 부각됐어요.",
+        "source": "바이오타임즈",
+        "sourceUrl": "https://www.biotimes.co.kr/news/articleView.html?idxno=36254",
+        "note": "바이오 개별 재료 장세예요"
+      },
+      {
+        "rank": "10",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "예탁금 85조·빚투 잔고 동반 감소",
+        "summary": "예탁금은 연중 최저로 줄고 반대매매는 66% 늘었어요.",
+        "source": "뉴스1",
+        "sourceUrl": "https://www.news1.kr/finance/general-stock/6350819",
+        "note": "대기 자금이 얇아졌어요"
+      },
+      {
+        "rank": "11",
+        "category": "공모주",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "에이엘로봇 18일 코스닥 상장",
+        "summary": "같은 날 에스에프씨·유캐스트 공모주 청약도 시작돼요.",
+        "source": "라이센스뉴스",
+        "sourceUrl": "https://www.lcnews.co.kr/news/articleView.html?idxno=211438",
+        "note": "공모주 수급이 몰릴 수 있어요"
+      },
+      {
+        "rank": "12",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "엔비디아 실적, 코스피 반등 열쇠로",
+        "summary": "과거 네 번의 발표 뒤 삼성전자·SK하이닉스가 모두 올랐어요.",
+        "source": "아시아투데이",
+        "sourceUrl": "https://www.asiatoday.co.kr/kn/view.php?key=20261117010006207",
+        "note": "HBM 물량 언급이 관건이에요"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "외국인 1.5조원 순매도에 코스피가 9개월여 만에 5,000선을 내줬어요",
+    "subNoteEm": "코스피 4,968.48·코스닥 650.06까지 밀렸어요",
+    "comment": "<b style=\"color:var(--blue);\">전기·가스 4.9%, 보험 3.9% 급락</b>으로 상승 업종이 섬유·의복과 의료·정밀기기 둘뿐이었어요. 다만 장 마감 뒤 엔비디아가 호실적을 내놓아 HBM 기대가 되살아날 수 있어, 반도체 밸류체인 반응을 먼저 확인하면 좋아요. 투자 판단은 본인 책임이에요.",
+    "expectedRange": "코스피 4,950~5,100 사이 등락 가능성이 있어요",
+    "indices": [
+      {
+        "name": "코스피",
+        "tip": "정규장 종가",
+        "value": "4,968.48",
+        "change": "▼ 2.59%",
+        "dir": "down"
+      },
+      {
+        "name": "코스닥",
+        "tip": "정규장 종가",
+        "value": "650.06",
+        "change": "▼ 2.34%",
+        "dir": "down"
+      }
+    ],
+    "flow": [
+      {
+        "key": "원/달러 환율",
+        "value": "1,338.2원 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "야간 선물",
+        "value": "−0.72% (17일 밤)",
+        "dir": "down"
+      }
+    ],
+    "supply": [
+      {
+        "who": "외국인",
+        "amount": "−15,573",
+        "dir": "sell"
+      },
+      {
+        "who": "기관",
+        "amount": "+6,834",
+        "dir": "buy"
+      },
+      {
+        "who": "개인",
+        "amount": "+3,892",
+        "dir": "buy"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "theme": "자동차 부품",
+        "stockName": "계양전기",
+        "stockChange": "+29.87%"
+      },
+      {
+        "theme": "정보보안",
+        "stockName": "지슨",
+        "stockChange": "+29.96%"
+      },
+      {
+        "theme": "방열 소재",
+        "stockName": "나노팀",
+        "stockChange": "+29.84%"
+      },
+      {
+        "theme": "진단 바이오",
+        "stockName": "세니젠",
+        "stockChange": "+18.35%"
+      },
+      {
+        "theme": "패션",
+        "stockName": "피스피스스튜디오",
+        "stockChange": "+12.65%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "theme": "로봇",
+        "stockName": "레인보우로보틱스",
+        "stockChange": "−5.44%"
+      },
+      {
+        "theme": "2차전지",
+        "stockName": "LG에너지솔루션",
+        "stockChange": "−4.08%"
+      },
+      {
+        "theme": "전자부품",
+        "stockName": "삼성전기",
+        "stockChange": "−3.95%"
+      },
+      {
+        "theme": "반도체 대형주",
+        "stockName": "삼성전자",
+        "stockChange": "−3.30%"
+      },
+      {
+        "theme": "자동차",
+        "stockName": "현대차",
+        "stockChange": "−2.45%"
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "SK하이닉스",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "엔비디아 HBM 수요 언급에 따라 변동성이 커질 수 있어요"
+      },
+      {
+        "name": "삼성전자",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "3.30% 내린 뒤 엔비디아 호실적 수혜 기대가 생겼어요"
+      },
+      {
+        "name": "한국전력",
+        "badge": "주의",
+        "badgeType": "down",
+        "desc": "전기·가스 업종이 4.9% 빠지며 낙폭이 컸어요"
+      },
+      {
+        "name": "계양전기",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "현대차 시트모터 공급 선정에 상한가로 마감했어요"
+      },
+      {
+        "name": "레인보우로보틱스",
+        "badge": "주의",
+        "badgeType": "down",
+        "desc": "로봇주 조정에 5.44% 내리며 약한 흐름이었어요"
+      }
+    ],
+    "health": [
+      {
+        "key": "투자자 예탁금",
+        "tip": "대기 자금 · 11/10 기준",
+        "value": "85조 2,209억원",
+        "subIcon": "▼",
+        "subDir": "down"
+      },
+      {
+        "key": "신용융자 잔고",
+        "tip": "빚투 잔액 · 11/13 기준",
+        "value": "26조 5억원",
+        "subIcon": "▲",
+        "subDir": "up"
+      }
+    ]
+  },
+  "calendar": {
+    "subNote": "국내는 신규 상장·청약, 밤에는 美 10월 주택착공이 나와요",
+    "subNoteEm": "22:30 KST 美 10월 주택착공이 분기점이에요",
+    "riskSentiment": "혼조",
+    "domestic": {
+      "timed": [
+        {
+          "time": "09:00",
+          "event": "에이엘로봇 코스닥 신규 상장",
+          "important": false
+        }
+      ],
+      "untimed": [
+        {
+          "event": "에스에프씨·유캐스트 공모주 청약 시작",
+          "when": "장중 (18~19일)"
+        }
+      ]
+    },
+    "global": {
+      "timed": [
+        {
+          "time": "22:30",
+          "event": "美 10월 주택착공·건축허가",
+          "important": true
+        }
+      ],
+      "untimed": [
+        {
+          "event": "트럼프 대통령 방중 (18~19일)",
+          "when": "미정"
+        }
+      ]
+    },
+    "theme": "엔비디아 호실적이 반도체 심리를 되살릴지, 외국인 매도가 더 이어질지가 갈림길이에요. 밤 22:30 KST 美 주택착공과 내일 새벽 FOMC 의사록도 금리 쪽 변수로 남아요.",
+    "checks": [
+      "엔비디아 시간외 강세가 삼성전자·SK하이닉스로 옮겨오는지 보세요",
+      "외국인 순매도가 5거래일째 이어지는지 확인해 보세요",
+      "원/달러가 1,338원대에서 더 오르는지 살펴보세요",
+      "전기·가스·보험 같은 낙폭 과대 업종의 반등 여부도 체크해 보세요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-11-15",
+    "end": "2026-11-21",
+    "days": [
+      {
+        "date": "2026-11-15",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-11-16",
+        "weekday": "월",
+        "items": [
+          {
+            "region": "global",
+            "time": null,
+            "event": "美 상무부, AI칩 중국 원격접속 통제 발표",
+            "important": false,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-17",
+        "weekday": "화",
+        "items": [
+          {
+            "region": "global",
+            "time": "22:30",
+            "event": "美 10월 소매판매",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": "06:20",
+            "event": "엔비디아 FY27 3분기 실적 발표",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "Microsoft Ignite 2026 개막 (17~20일)",
+            "important": true,
+            "category": "conference"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-18",
+        "weekday": "수",
+        "items": [
+          {
+            "region": "global",
+            "time": "22:30",
+            "event": "美 10월 주택착공·건축허가",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "time": "09:00",
+            "event": "에이엘로봇 코스닥 신규 상장",
+            "important": false,
+            "category": "market"
+          },
+          {
+            "region": "domestic",
+            "time": null,
+            "event": "에스에프씨·유캐스트 공모주 청약 시작",
+            "important": false,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "트럼프 대통령 방중 (18~19일)",
+            "important": false,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-19",
+        "weekday": "목",
+        "items": [
+          {
+            "region": "global",
+            "time": "04:00",
+            "event": "연준 10월 FOMC 의사록 공개",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "time": "22:30",
+            "event": "美 주간 신규 실업수당 청구",
+            "important": false,
+            "category": "macro"
+          },
+          {
+            "region": "global",
+            "time": null,
+            "event": "美 AI칩 수출통제 규칙 연방관보 게재·발효",
+            "important": false,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-20",
+        "weekday": "금",
+        "items": []
+      },
+      {
+        "date": "2026-11-21",
+        "weekday": "토",
+        "items": [
+          {
+            "region": "global",
+            "time": "00:00",
+            "event": "美 11월 미시간대 소비자심리 확정치",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 11,
+    "days": [
+      {
+        "date": "2026-11-11",
+        "items": [
+          {
+            "region": "global",
+            "event": "MSCI 11월 정기변경 심사 결과 발표",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-12",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "코스피200 선물·옵션 11월 만기",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-16",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 상무부, AI칩 중국 원격접속 통제 발표",
+            "important": false,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-17",
+        "items": [
+          {
+            "region": "global",
+            "event": "엔비디아 FY27 3분기 실적 발표",
+            "important": true,
+            "category": "earnings"
+          },
+          {
+            "region": "global",
+            "event": "Microsoft Ignite 2026 개막 (17~20일)",
+            "important": true,
+            "category": "conference"
+          },
+          {
+            "region": "global",
+            "event": "美 10월 소매판매",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-18",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 10월 주택착공·건축허가",
+            "important": true,
+            "category": "macro"
+          },
+          {
+            "region": "domestic",
+            "event": "에이엘로봇 코스닥 신규 상장",
+            "important": false,
+            "category": "market"
+          },
+          {
+            "region": "global",
+            "event": "트럼프 대통령 방중 (18~19일)",
+            "important": false,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-19",
+        "items": [
+          {
+            "region": "global",
+            "event": "연준 10월 FOMC 의사록 공개",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "event": "美 주간 신규 실업수당 청구",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-21",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 11월 미시간대 소비자심리 확정치",
+            "important": false,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-26",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "한국은행 금통위 기준금리 결정·수정 경제전망",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-30",
+        "items": [
+          {
+            "region": "global",
+            "event": "MSCI 11월 정기변경 종가 기준 리밸런싱 적용",
+            "important": true,
+            "category": "market"
+          }
+        ]
+      }
+    ]
+  }
+}
