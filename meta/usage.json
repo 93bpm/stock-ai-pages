@@ -5605,7 +5605,43 @@
       "push": {
         "branch": "claude/adoring-fermi-1jtlyq"
       }
+    },
+    {
+      "date": "2026-11-24",
+      "time": "07:03",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 944,
+      "tokens_estimated": 430000,
+      "response_size_kb": 31.0,
+      "tool_calls": {
+        "WebFetch": 6,
+        "WebSearch": 58,
+        "Read": 0,
+        "Write": 0,
+        "Bash": 27
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq (curl CSV)": "fail:empty-response",
+        "Yahoo Finance (curl/WebFetch)": "fail:proxy-403/dns-blocked",
+        "Google Finance (WebFetch)": "fail:dns-blocked",
+        "Trading Economics (WebFetch)": "fail:dns-blocked",
+        "CNBC/언론사 직접 fetch": "fail:dns-blocked",
+        "raw.githubusercontent (WebFetch)": "1/1",
+        "local repo (meta/guides/data)": "13/13",
+        "WebSearch": "54/58",
+        "CI validator (validate-briefing.mjs)": "pass:HARD-0"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-qjrwu9"
+      }
     }
   ],
-  "updatedAt": "2026-11-23T07:03:00+09:00"
+  "updatedAt": "2026-11-24T07:03:00+09:00"
 }
