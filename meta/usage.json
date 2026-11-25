@@ -5677,7 +5677,41 @@
       "push": {
         "branch": "claude/adoring-fermi-x5efax"
       }
+    },
+    {
+      "date": "2026-11-26",
+      "time": "07:19",
+      "model": "claude-opus-4.8",
+      "status": "success",
+      "duration_seconds": 971,
+      "tokens_estimated": 295000,
+      "response_size_kb": 24.3,
+      "tool_calls": {
+        "WebFetch": 3,
+        "WebSearch": 37,
+        "Read": 1,
+        "Write": 0,
+        "Bash": 12
+      },
+      "news_count": {
+        "global": 12,
+        "domestic": 12
+      },
+      "source_url_coverage": "24/24",
+      "sources_attempted": {
+        "Stooq (curl multi-symbol CSV)": "fail:403 egress-policy",
+        "Yahoo Finance API/WebFetch": "fail:403 egress-policy",
+        "api.nasdaq.com / cnbc.com (curl)": "fail:403 egress-policy",
+        "news.mtn.co.kr / marketalleys (WebFetch)": "fail:dns-blocked",
+        "local repo (meta/guides/data/schema)": "8/8",
+        "WebSearch": "37/37",
+        "CI validator (validate-briefing.mjs)": "pass:HARD-0/SOFT-0"
+      },
+      "masking_used": [],
+      "push": {
+        "branch": "claude/adoring-fermi-rtzo0n"
+      }
     }
   ],
-  "updatedAt": "2026-11-25T07:03:00+09:00"
+  "updatedAt": "2026-11-26T07:19:00+09:00"
 }
