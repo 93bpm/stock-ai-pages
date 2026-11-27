@@ -1,0 +1,705 @@
+{
+  "date": "2026-11-28",
+  "weekday": "토",
+  "generatedAt": "2026-11-28T07:03:00+09:00",
+  "us": {
+    "subNote": "11/27(금) 블랙프라이데이 단축장(한국시간 28일 새벽 3시 조기 폐장) 마감 기준이에요. 美 증시는 주말 휴장이라 다음 거래일은 12/1(월)이에요",
+    "subNoteEm": "AI·반도체 저가매수에 나스닥 2.31%↑, 주간 6.68% 반등",
+    "comment": "AI 수익성 우려로 눌려 있던 반도체가 되살아나면서 3대 지수가 함께 올랐어요. 다만 10월 근원 PCE가 3.3%로 예상을 웃돌아 12월 FOMC(12/8~9) 인상 전망이 굳어진 만큼 금리 부담은 그대로 남아 있어요. 아시아 장에는 HBM·메모리 쪽으로 위험선호가 번질 수 있어요.",
+    "indices": [
+      {
+        "name": "S&P 500",
+        "tip": "11/27 단축장 종가",
+        "value": "7,297.49",
+        "change": "▲ 1.60%",
+        "dir": "up"
+      },
+      {
+        "name": "나스닥 종합",
+        "tip": "11/27 단축장 종가",
+        "value": "24,129.50",
+        "change": "▲ 2.31%",
+        "dir": "up"
+      },
+      {
+        "name": "다우존스",
+        "tip": "11/27 단축장 종가",
+        "value": "50,774.94",
+        "change": "▲ 1.18%",
+        "dir": "up"
+      },
+      {
+        "name": "필라델피아 반도체",
+        "tip": "SOXX ETF 대용 · 11/27 종가",
+        "value": "$134.07",
+        "change": "▲ 4.76%",
+        "dir": "up"
+      }
+    ],
+    "indicators": [
+      {
+        "key": "VIX",
+        "value": "23.81 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "美 10년물",
+        "value": "4.936% ▲",
+        "dir": "up"
+      },
+      {
+        "key": "달러인덱스",
+        "value": "103.89 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "WTI 유가",
+        "value": "$82.82 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "금",
+        "value": "$3,647 ▲",
+        "dir": "up"
+      },
+      {
+        "key": "비트코인",
+        "value": "$59,818 ▼",
+        "dir": "down"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "name": "기술",
+        "change": "+2.80%"
+      },
+      {
+        "name": "임의소비재",
+        "change": "+2.11%"
+      },
+      {
+        "name": "커뮤니케이션",
+        "change": "+1.99%"
+      },
+      {
+        "name": "소재",
+        "change": "+1.84%"
+      },
+      {
+        "name": "산업재",
+        "change": "+1.60%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "name": "유틸리티",
+        "change": "+0.28%"
+      },
+      {
+        "name": "헬스케어",
+        "change": "+0.28%"
+      },
+      {
+        "name": "필수소비재",
+        "change": "+0.41%"
+      },
+      {
+        "name": "부동산",
+        "change": "+0.64%"
+      },
+      {
+        "name": "금융",
+        "change": "+1.15%"
+      }
+    ]
+  },
+  "world": {
+    "subNote": "美 AI·반도체 반등과 증안펀드 기대가 겹쳐 국내 증시가 함께 급반등한 하루였어요",
+    "subNoteEm": "뉴욕 AI 반등 + 증안펀드 기대 = 코스피 4.34% 급등",
+    "global": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "뉴욕증시 AI 반등, 나스닥 2.31%↑",
+        "summary": "추수감사절 뒤 반나절만 열린 장에서 3대 지수가 일제히 올랐어요",
+        "source": "뉴스1",
+        "sourceUrl": "https://www.news1.kr/world/usa-canada/6369005",
+        "note": "위험선호가 돌아온 하루예요"
+      },
+      {
+        "rank": "02",
+        "category": "AI",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "앤스로픽 11% 폭등, 공모가 회복",
+        "summary": "공모가를 밑돌던 주가가 91달러대로 올라서며 반등했어요",
+        "source": "이데일리",
+        "sourceUrl": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01128326645650312",
+        "note": "AI 투심 회복 신호예요"
+      },
+      {
+        "rank": "03",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "美 10월 근원 PCE 3.3%, 예상 상회",
+        "summary": "식품·에너지를 뺀 물가가 전월보다 0.2%p 높아졌어요",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/202611250680i",
+        "note": "12월 인상에 무게가 실려요"
+      },
+      {
+        "rank": "04",
+        "category": "거시",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "美 3분기 성장률 4.3%로 상향",
+        "summary": "속보치보다 0.9%p 높아져 긴축 명분이 더 커졌어요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202611252237224262",
+        "note": "경기는 아직 뜨거워요"
+      },
+      {
+        "rank": "05",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "12월 FOMC 인상 확률 98%대",
+        "summary": "기준금리가 4.00~4.25%로 오를 가능성이 반영돼 있어요",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20261125001312",
+        "note": "금리 부담은 그대로예요"
+      },
+      {
+        "rank": "06",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "마이크론 7.6% 급등, 메모리 강세",
+        "summary": "AI 서버용 메모리 수요 기대에 저가매수가 몰렸어요",
+        "source": "이데일리",
+        "sourceUrl": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01144726645650312",
+        "note": "HBM 기대가 살아나요"
+      },
+      {
+        "rank": "07",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "필라델피아 반도체지수 4.69%↑",
+        "summary": "마벨·샌디스크 등 반도체주가 큰 폭으로 반등했어요",
+        "source": "서울경제",
+        "sourceUrl": "https://www.sedaily.com/article/20120088",
+        "note": "SK하이닉스에 우호적이에요"
+      },
+      {
+        "rank": "08",
+        "category": "지정학",
+        "categoryStyle": "geo",
+        "sentiment": "neg",
+        "title": "브렌트유 2%↑, 사우디 정유시설 피격",
+        "summary": "후티 공격 주장과 호르무즈 불안에 유가가 올랐어요",
+        "source": "뉴스1",
+        "sourceUrl": "https://www.news1.kr/world/international-economy/6367773",
+        "note": "원자재 변동성 커져요"
+      },
+      {
+        "rank": "09",
+        "category": "원자재",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "OPEC+ 29일 회의, 동결 전망",
+        "summary": "내년 1분기까지 현행 생산 목표를 유지할 가능성이 커요",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/202611273653i",
+        "note": "유가 방향의 분기점이에요"
+      },
+      {
+        "rank": "10",
+        "category": "일본",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "日 10월 CPI 2.2%, BOJ 인상론",
+        "summary": "12월 17~18일 회의에서 1.5% 인상 전망이 우세해요",
+        "source": "이데일리",
+        "sourceUrl": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02725686645647688",
+        "note": "엔화·원화에 같이 영향이에요"
+      },
+      {
+        "rank": "11",
+        "category": "원자재",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "국제 금값 2.3% 반등",
+        "summary": "고점 대비 35% 밀렸던 금에 저가매수가 들어왔어요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202611271609352896",
+        "note": "안전자산 수요가 살아나요"
+      },
+      {
+        "rank": "12",
+        "category": "가상자산",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "비트코인 6만달러 공방",
+        "summary": "현물 ETF에서 이달 54억달러가 빠져나가며 눌렸어요",
+        "source": "뉴스1",
+        "sourceUrl": "https://www.news1.kr/finance/blockchain-fintech/6367989",
+        "note": "위험자산 온도차가 보여요"
+      }
+    ],
+    "domestic": [
+      {
+        "rank": "01",
+        "category": "증시",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스피 4.34% 급등, 4,915선 회복",
+        "summary": "이틀 전 6% 급락을 하루 만에 대부분 되돌렸어요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202611271602252863",
+        "note": "반등 폭이 컸던 하루예요"
+      },
+      {
+        "rank": "02",
+        "category": "코스닥",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "코스닥 8.13% 폭등, 700선 탈환",
+        "summary": "7월 말 이후 가장 큰 상승 폭으로 700선을 되찾았어요",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/202611275241i",
+        "note": "중소형주 반등이 강했어요"
+      },
+      {
+        "rank": "03",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "외국인 1조1,257억원 순매수",
+        "summary": "9월 초 이후 최대 규모로 외국인 자금이 돌아왔어요",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20261127001148",
+        "note": "수급이 돌아선 게 핵심이에요"
+      },
+      {
+        "rank": "04",
+        "category": "반도체",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "삼성전자 4.55%·SK하이닉스 5.41%↑",
+        "summary": "반도체 대형주가 美 메모리 반등에 발맞춰 올랐어요",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/11/27/2026112716085591513",
+        "note": "HBM 기대가 되살아나요"
+      },
+      {
+        "rank": "05",
+        "category": "정책",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "증안펀드 투자관리위 29일 개최",
+        "summary": "출자기관 투자관리위가 긴급 소집돼 가동 준비에 들어가요",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/2026112632051",
+        "note": "정책 기대가 커지는 국면이에요"
+      },
+      {
+        "rank": "06",
+        "category": "정책",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "금융위, 30일 시장안정 점검회의",
+        "summary": "5대 금융지주 회장과 주요 협회장이 참석할 예정이에요",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/202611262408i",
+        "note": "증안펀드 윤곽이 관심사예요"
+      },
+      {
+        "rank": "07",
+        "category": "수급",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "예탁금·거래대금 동반 감소",
+        "summary": "급등락이 이어지며 증시 대기자금이 82조원대로 줄었어요",
+        "source": "뉴스핌",
+        "sourceUrl": "https://www.newspim.com/news/view/20261126000999",
+        "note": "실탄이 얇아진 점은 부담이에요"
+      },
+      {
+        "rank": "08",
+        "category": "환율",
+        "categoryStyle": "default",
+        "sentiment": "pos",
+        "title": "원/달러 1,337.9원, 1340원 하회",
+        "summary": "월말 네고 물량과 증시 랠리에 4.8원 내렸어요",
+        "source": "서울경제",
+        "sourceUrl": "https://www.sedaily.com/article/20119963",
+        "note": "환율 부담이 조금 덜해요"
+      },
+      {
+        "rank": "09",
+        "category": "증시제도",
+        "categoryStyle": "default",
+        "sentiment": "neu",
+        "title": "코스닥 매수 사이드카 올해 23번째",
+        "summary": "오전 10시 22분 급등에 사이드카가 발동됐어요",
+        "source": "이투데이",
+        "sourceUrl": "https://www.etoday.co.kr/news/view/2653844",
+        "note": "변동성도 그만큼 커요"
+      },
+      {
+        "rank": "10",
+        "category": "로봇",
+        "categoryStyle": "tech",
+        "sentiment": "pos",
+        "title": "삼성 휴머노이드 기대, 로봇주 질주",
+        "summary": "CES 2027 공개 전망에 레인보우로보틱스가 급등했어요",
+        "source": "머니투데이",
+        "sourceUrl": "https://www.mt.co.kr/stock/2026/11/27/2026112710482896069",
+        "note": "테마 변동성은 유의해요"
+      },
+      {
+        "rank": "11",
+        "category": "통화정책",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "한은, 기준금리 3.25%로 인상",
+        "summary": "석 달 만에 0.25%p 올리며 긴축 기조를 이어갔어요",
+        "source": "파이낸셜뉴스",
+        "sourceUrl": "https://www.fnnews.com/news/202611260931178752",
+        "note": "은행·차주 부담이 커져요"
+      },
+      {
+        "rank": "12",
+        "category": "금융",
+        "categoryStyle": "default",
+        "sentiment": "neg",
+        "title": "금리 인상에도 은행주는 약세",
+        "summary": "신한지주·KB금융 등 금융지주가 소폭 하락 마감했어요",
+        "source": "한국경제",
+        "sourceUrl": "https://www.hankyung.com/article/202611274722i",
+        "note": "이자마진 기대가 식었어요"
+      }
+    ]
+  },
+  "kr": {
+    "subNote": "11/27(금) 마감 기준이에요. 국내 증시도 주말 휴장이라 다음 거래일은 12/1(월)이에요",
+    "subNoteEm": "외국인 1조1,257억원 순매수에 코스피 4.34%·코스닥 8.13% 급등",
+    "comment": "이틀 전 6% 급락을 하루 만에 거의 되돌렸어요. 증안펀드 가동 기대와 美 반도체 반등이 겹치며 외국인이 9월 초 이후 최대 규모로 돌아왔고, 코스닥에서는 매수 사이드카까지 걸렸어요. 다만 기준금리 인상과 예탁금 감소는 그대로라 변동성은 이어질 수 있어요.",
+    "expectedRange": "주말 휴장 · 다음 거래일 12/1(월)",
+    "indices": [
+      {
+        "name": "코스피",
+        "tip": "11/27 종가 · KRX",
+        "value": "4,915.68",
+        "change": "▲ 4.34%",
+        "dir": "up"
+      },
+      {
+        "name": "코스닥",
+        "tip": "11/27 종가 · KRX",
+        "value": "708.99",
+        "change": "▲ 8.13%",
+        "dir": "up"
+      }
+    ],
+    "flow": [
+      {
+        "key": "원/달러 환율",
+        "value": "1,337.9원 ▼",
+        "dir": "down"
+      },
+      {
+        "key": "미국 상장 한국물(ADR)",
+        "value": "EWY $135.86 ▲ 5.16%",
+        "dir": "up"
+      }
+    ],
+    "supply": [
+      {
+        "who": "외국인",
+        "amount": "+11,257",
+        "dir": "buy"
+      },
+      {
+        "who": "기관",
+        "amount": "+2,389",
+        "dir": "buy"
+      },
+      {
+        "who": "개인",
+        "amount": "−17,751",
+        "dir": "sell"
+      }
+    ],
+    "sectorsUp": [
+      {
+        "theme": "바이오(코스닥)",
+        "stockName": "에이비엘바이오",
+        "stockChange": "+26.52%"
+      },
+      {
+        "theme": "2차전지 소재",
+        "stockName": "에코프로",
+        "stockChange": "+13.91%"
+      },
+      {
+        "theme": "양극재",
+        "stockName": "에코프로비엠",
+        "stockChange": "+13.44%"
+      },
+      {
+        "theme": "메모리",
+        "stockName": "SK하이닉스",
+        "stockChange": "+5.41%"
+      },
+      {
+        "theme": "반도체 대형",
+        "stockName": "삼성전자",
+        "stockChange": "+4.55%"
+      }
+    ],
+    "sectorsDown": [
+      {
+        "theme": "금융지주",
+        "stockName": "신한지주",
+        "stockChange": "−0.94%"
+      },
+      {
+        "theme": "은행",
+        "stockName": "하나금융지주",
+        "stockChange": "−0.84%"
+      },
+      {
+        "theme": "금융",
+        "stockName": "KB금융",
+        "stockChange": "−0.21%"
+      },
+      {
+        "theme": "바이오(대형)",
+        "stockName": "삼성바이오로직스",
+        "stockChange": "+1.05%"
+      },
+      {
+        "theme": "제약·바이오",
+        "stockName": "셀트리온",
+        "stockChange": "+2.55%"
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "SK하이닉스",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "5.41% 올라 111만원으로 110만원선을 되찾았어요"
+      },
+      {
+        "name": "삼성전자",
+        "badge": "관심",
+        "badgeType": "up",
+        "desc": "4.55% 올라 17만9,100원으로 마감했어요"
+      },
+      {
+        "name": "에이비엘바이오",
+        "badge": "주의",
+        "badgeType": "up",
+        "desc": "26.52% 급등해 변동성이 커 보여요"
+      },
+      {
+        "name": "신한지주",
+        "badge": "주의",
+        "badgeType": "down",
+        "desc": "금리 인상에도 0.94% 내려 은행주 약세였어요"
+      }
+    ],
+    "health": [
+      {
+        "key": "투자자 예탁금",
+        "tip": "대기 자금 (11/24 기준)",
+        "value": "82조497억원",
+        "subIcon": "▼",
+        "subDir": "down"
+      },
+      {
+        "key": "신용융자 잔고",
+        "tip": "빚투 규모 (11/18 기준)",
+        "value": "26조2,663억원",
+        "subIcon": "▼",
+        "subDir": "down"
+      }
+    ]
+  },
+  "calendar": {
+    "subNote": "11/28(토)은 美·韓 모두 주말 휴장이라 예정된 일정이 없어요",
+    "subNoteEm": "다음 관문은 11/29 OPEC+ 회의와 11/30 금융위 점검회의예요",
+    "riskSentiment": "위험선호 회복",
+    "domestic": {
+      "timed": [],
+      "untimed": []
+    },
+    "global": {
+      "timed": [],
+      "untimed": []
+    },
+    "theme": "주말에는 11/30 금융위 시장안정 긴급 점검회의에서 증안펀드 가동 윤곽이 잡히는지가 관심사예요. 12/1(월) 국내 증시는 뉴욕 반등 분위기와 정책 기대가 어떻게 반영될지 지켜볼 만해요.",
+    "checks": [
+      "11/30 금융위 점검회의에서 증안펀드 가동 기준이 나오는지 확인해 볼 수 있어요",
+      "11/29 OPEC+ 회의 결과가 유가와 정유·조선 업종에 어떻게 작용할지 살펴봐요",
+      "12/8~9 FOMC 인상 전망이 원/달러 1,330원대 흐름을 흔들 수 있어요",
+      "외국인 1조원 순매수가 다음 주에도 이어지는지가 반등 지속의 관건이에요"
+    ]
+  },
+  "calendarWeek": {
+    "start": "2026-11-22",
+    "end": "2026-11-28",
+    "days": [
+      {
+        "date": "2026-11-22",
+        "weekday": "일",
+        "items": []
+      },
+      {
+        "date": "2026-11-23",
+        "weekday": "월",
+        "items": []
+      },
+      {
+        "date": "2026-11-24",
+        "weekday": "화",
+        "items": []
+      },
+      {
+        "date": "2026-11-25",
+        "weekday": "수",
+        "items": [
+          {
+            "region": "global",
+            "time": "22:30",
+            "event": "美 10월 PCE 물가·3분기 GDP 잠정치 발표",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-26",
+        "weekday": "목",
+        "items": [
+          {
+            "region": "domestic",
+            "time": "10:00",
+            "event": "한국은행 금통위 기준금리 결정 (3.25%로 인상)",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "event": "美 증시 추수감사절 휴장",
+            "important": false,
+            "category": "holiday"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-27",
+        "weekday": "금",
+        "items": [
+          {
+            "region": "global",
+            "time": "03:00",
+            "event": "美 증시 블랙프라이데이 조기 폐장 (28일 03:00 KST)",
+            "important": false,
+            "category": "holiday"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-28",
+        "weekday": "토",
+        "items": []
+      }
+    ]
+  },
+  "calendarMonth": {
+    "year": 2026,
+    "month": 11,
+    "days": [
+      {
+        "date": "2026-11-25",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 10월 PCE 물가·3분기 GDP 잠정치 발표",
+            "important": true,
+            "category": "macro"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-26",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "한국은행 금통위 기준금리 결정 (3.25%로 인상)",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "event": "美 증시 추수감사절 휴장",
+            "important": false,
+            "category": "holiday"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-27",
+        "items": [
+          {
+            "region": "global",
+            "event": "美 증시 블랙프라이데이 조기 폐장",
+            "important": false,
+            "category": "holiday"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-29",
+        "items": [
+          {
+            "region": "global",
+            "event": "OPEC+ 장관급 회의 (2027년 생산 정책 결정)",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "domestic",
+            "event": "증권시장안정펀드 투자관리위원회 긴급 개최",
+            "important": true,
+            "category": "policy"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-30",
+        "items": [
+          {
+            "region": "domestic",
+            "event": "금융위 금융권 시장안정 긴급 점검회의",
+            "important": true,
+            "category": "policy"
+          },
+          {
+            "region": "global",
+            "event": "AWS re:Invent 2026 개막 (~12/4, 라스베이거스)",
+            "important": true,
+            "category": "conference"
+          }
+        ]
+      }
+    ]
+  }
+}
